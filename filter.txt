@@ -1,0 +1,8 @@
+! Title: Major Ad Servers Filter
+! Description: Disables ads from major ad servers
+! Version: 1.0.0
+! Expires: 6 hours (update frequency)
+! Homepage: https://github.com/igorskyflyer/adblock-only-major-adservers-filter
+! License: MIT
+
+||ads.google.com^
