@@ -1,10 +1,11 @@
 [Adblock Plus]
 ! Title: Major Ad Servers Filter
-! Description: Disables ads from major ad servers
-! Version: 1.0.1
+! Description: Disables ads and trackers from major ad servers
+! Version: 1.1.0
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/adblock-only-major-adservers-filter
 ! License: MIT
+! See https://whotracks.me/trackers.html
 
 ||pagead2.googlesyndication.com^
 ||ads.google.com^
@@ -134,3 +135,27 @@
 ||metrics.icloud.com^
 ||metrics.mzstatic.com^
 ||smartyads.com^
+||googletagmanager.com^
+||googletagservices.com^
+||2mdn.net^
+||invitemedia.com^
+||amazon-adsystem.com^
+||sizmek.com^
+||r.msn.com^
+||mc.yandex.ru^
+||yoc-adserver.com^
+||pixel.wp.com^
+||alexametrics.com^
+||d31qbv1cthcecs.cloudfront.net^
+||adform.net^
+||adformdsp.net^
+||seadform.net^
+||ad-delivery.net^
+||exdynsrv.com^
+||tns-counter.ru^
+||trafficfactory.biz^
+||d2wy8f7a9ursnm.cloudfront.net^
+||ads.exosrv.com^
+||abedwest.com^
+||a.realsrv.com^
+||cardiwersg.com^
