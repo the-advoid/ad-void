@@ -5,7 +5,7 @@
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/adblock-only-major-adservers-filter
 ! License: MIT
-! Entries: 168
+! Entries: 173
 ! See: https://whotracks.me/trackers.html
 
 ||pagead2.googlesyndication.com^
@@ -176,3 +176,8 @@
 ||apps.media-lab.ai/doh/sync/*
 ||stats.pusher.com^
 ||api.mixpanel.com/track/*
+||ih.adscale.de/uu^
+||cs.emxdgt.com/um^
+||cds.taboola.com^
+||pixel.advertising.com^
+||ping.chartbeat.net/ping^
