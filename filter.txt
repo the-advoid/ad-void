@@ -1,10 +1,10 @@
 [Adblock Plus]
 ! Title: Major Ad Servers Filter
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.2.4
+! Version: 1.2.5
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/adblock-only-major-adservers-filter
-! Entries: 225
+! Entries: 227
 ! License: MIT
 ! See: https://whotracks.me/trackers.html
 
@@ -242,3 +242,5 @@ xhamster.com##.wio-xspb.wio-xspa
 xhamster.com##.vertical.wio-xcams-widget
 xhamster.com##.bottom-widget-section.wio-x
 xhamster.com##.promo-message
+xhamster.com##.clipstore-bottom.width-wrap
+xhamster.com###player-container .xplayer-banner
