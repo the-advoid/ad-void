@@ -1,13 +1,14 @@
 [Adblock Plus]
 ! Title: Major Ad Servers Filter
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.1.50
+! Version: 1.1.51
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/adblock-only-major-adservers-filter
 ! Entries: 235
 ! License: MIT
 ! See: https://whotracks.me/trackers.html
 
+! Block these domains
 ||pagead2.googlesyndication.com^
 ||ads.google.com^
 ||adservice.google.com^
@@ -162,8 +163,6 @@
 ||cardiwersg.com^
 ||cocoaladies.com^
 ||counter.yadro.ru^
-||daxab.com/logger/*
-||daxab.com/player/js/ad.min.js
 ||celeritascdn.com^
 ||commercialvalue.org^
 ||a.adtng.com^
@@ -177,11 +176,8 @@
 ||stats.pusher.com^
 ||api.mixpanel.com^
 ||adscale.de^
-||cs.emxdgt.com/um^
 ||cds.taboola.com^
 ||pixel.advertising.com^
-||ping.chartbeat.net/ping^
-||creativecdn.com/cm-notify^
 ||taboola.com^
 ||adtarget.com.tr^
 ||ads.pubmatic.com^
@@ -221,12 +217,8 @@
 ||tsyndicate.com^
 ||trafficstars.com^
 ||collector.xhamster.com^
-||xhcdn.com/js/track.min.js
 ||app.link^
 ||branch.io^
-*BranchSdk*.js
-||instagram.com/logging/falco^
-||graph.instagram.com/logging_client_events^
 ||itphanpytor.club^
 ||outoctillerytor.com^
 ||itphanpytor.club^
@@ -236,11 +228,27 @@
 ||kingads.mobi^
 ||1werterew1.com^
 
+! Block these specific endpoints
+||daxab.com/logger/*
+||instagram.com/logging/falco^
+||graph.instagram.com/logging_client_events^
+||ping.chartbeat.net/ping^
+||creativecdn.com/cm-notify^
+||cs.emxdgt.com/um^
+
+! Block these specific files
+||xhcdn.com/js/track.min.js
+||daxab.com/player/js/ad.min.js
+*BranchSdk*.js
+
+! Hide these elements (non-site specific)
 ##iframe[src^="https://a.adtng.com/"]
 ###ad-header-mobile
 ###ad-header-mobile-contener
 ###video-ad
 ##.remove-ads
+
+! Hide these elements (site specific)
 twitter.com##.r-1p6iasa.r-4amgru.r-18u37iz.r-1awozwy.css-1dbjc4n
 twitter.com##.r-6416eg.r-o7ynqc.r-mszm1p.r-1j3t67a.r-1ny4l3l.r-1wbh5a2.r-16y2uox.r-18u37iz.r-1awozwy.css-1dbjc4n.css-18t94o4
 twitter.com##.r-kmv1fd.r-1j3t67a.r-1ny4l3l.r-1wtj0ep.css-1dbjc4n
