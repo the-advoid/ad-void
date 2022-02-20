@@ -1,10 +1,10 @@
 [Adblock Plus]
 ! Title: Major Ad Servers Filter
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.1.51
+! Version: 1.2.0
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/adblock-only-major-adservers-filter
-! Entries: 235
+! Entries: 219
 ! License: MIT
 ! See: https://whotracks.me/trackers.html
 
@@ -14,18 +14,11 @@
 ||adservice.google.com^
 ||pagead2.googleadservices.com^
 ||googleadservices.com^
-||static.media.net^
 ||media.net^
 ||adservetx.media.net^
 ||doubleclick.net^
-||ad.doubleclick.net^
-||static.doubleclick.net^
-||m.doubleclick.net^
-||mediavisor.doubleclick.net^
 ||fastclick.com^
 ||fastclick.net^
-||media.fastclick.net^
-||cdn.fastclick.net^
 ||adtago.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 ||advice-ads.s3.amazonaws.com^
@@ -37,18 +30,10 @@
 ||google-analytics.com^
 ||ssl.google-analytics.com^
 ||hotjar.com^
-||static.hotjar.com^
-||api-hotjar.com^
 ||hotjar-analytics.com^
 ||mouseflow.com^
-||a.mouseflow.com^
 ||freshmarketer.com^
 ||luckyorange.com^
-||cdn.luckyorange.com^
-||w1.luckyorange.com^
-||upload.luckyorange.net^
-||cs.luckyorange.net^
-||settings.luckyorange.net^
 ||stats.wp.com^
 ||notify.bugsnag.com^
 ||sessions.bugsnag.com^
@@ -221,7 +206,6 @@
 ||branch.io^
 ||itphanpytor.club^
 ||outoctillerytor.com^
-||itphanpytor.club^
 ||upgulpinon.com^
 ||kingyonlendir.link^
 ||bildirt.com^
