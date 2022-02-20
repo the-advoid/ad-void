@@ -1,10 +1,10 @@
 [Adblock Plus]
 ! Title: Major Ad Servers Filter
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.1.35
+! Version: 1.1.36
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/adblock-only-major-adservers-filter
-! Entries: 215
+! Entries: 218
 ! License: MIT
 ! See: https://whotracks.me/trackers.html
 
@@ -218,6 +218,9 @@
 ||bimathyphy.com^
 ||no2veeamggaseber.com^
 ||baradoot.com^
+||tsyndicate.com^
+||trafficstars.com^
+||collector.xhamster.com^
 
 ##iframe[src^="https://a.adtng.com/"]
 ###ad-header-mobile
