@@ -1,4 +1,14 @@
-<h1 style="margin: 0">AdBlock filter</h1>
+<h1>
+ <pre>
+    ___       ___    __      _     __
+   /   | ____/ / |  / /___  (_)___/ /
+  / /| |/ __  /| | / / __ \/ / __  / 
+ / ___ / /_/ / | |/ / /_/ / / /_/ /  
+/_/  |_\__,_/  |___/\____/_/\__,_/   
+ </pre>                                     
+</h1>
+
+<h3 style="margin: 0">AdBlock filter</h3>
 <sub>only major ad-servers</sub>
 
 <br>
