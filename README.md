@@ -21,7 +21,7 @@
 
 Install it into your ad-blocker by clicking on following subscribe link [👉 subscribe 👈](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/filter.txt&title=Major%20Ad%20Servers%20Filter) or by manually adding a filter with the URL of: <br>
 
-`https://raw.githubusercontent.com/igorskyflyer/ad-void/main/filter.txt`
+<blockquote align="center">https://raw.githubusercontent.com/igorskyflyer/ad-void/main/filter.txt</blockquote>
 
 <br>
 
