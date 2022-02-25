@@ -8,10 +8,10 @@
 !                                     
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.2.17
+! Version: 1.2.18
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/adblock-only-major-adservers-filter
-! Entries: 241
+! Entries: 245
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
 
@@ -222,6 +222,10 @@
 ||dmz3nd5oywtsw.cloudfront.net^
 ||d3tozt7si7bmf7.cloudfront.net^
 ||ad.a-ads.com^
+||feed.ff.avast.com^
+||log*-*tiktokv.com^
+||af.opera.com^
+||omniappz.com^
 
 ! Block these specific endpoints
 ||daxab.com/logger/*
