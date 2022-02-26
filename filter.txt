@@ -9,7 +9,7 @@
 !
 ! Title: Ad Void
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.2.24
+! Version: 1.2.25
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 254
@@ -254,8 +254,8 @@
 *htmlPauseRoll/pb_block*
 
 ! Hide these elements (non-site specific)
-##[src^="a.adtng.com"]
-##[src^="ad.a-ads.com"]
+##[src*="a.adtng.com"]
+##[src*="ad.a-ads.com"]
 ###ad-header-mobile
 ###ad-header-mobile-contener
 ###video-ad
