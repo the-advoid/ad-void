@@ -9,10 +9,10 @@
 !
 ! Title: Ad Void
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.2.26
+! Version: 1.2.27
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 258
+! Entries: 260
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -239,6 +239,7 @@
 ||gowanna.ru^
 ||chmod777.ru^
 ||major-inpp-code.com^
+||major-t-code.com^
 
 ! Block these specific endpoints
 ||daxab.com/logger/*
@@ -260,6 +261,7 @@
 ##[src*="a.adtng.com"]
 ##[src*="ad.a-ads.com"]
 ##[src*="major-inpp-code.com"]
+##[src*="major-t-code.com"]
 ###ad-header-mobile
 ###ad-header-mobile-contener
 ###video-ad
