@@ -9,10 +9,10 @@
 !
 ! Title: Ad Void
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.2.22
+! Version: 1.2.23
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 245
+! Entries: 253
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -22,7 +22,7 @@
 ||ads.google.com^
 ||adservice.google.com^
 ||pagead2.googleadservices.com^
-||googleadservices.com^
+||googleadservices.com^$important
 ||media.net^
 ||adservetx.media.net^
 ||doubleclick.net^
@@ -227,7 +227,15 @@
 ||feed.ff.avast.com^
 ||log*-*tiktokv.com^
 ||af.opera.com^
+||pns-sdk.opera-api.com^
+||ofa-sub.osp.opera.software^
+||api-a.op-mobile.opera.com^
 ||omniappz.com^
+||app.avada.io^
+||launches.appflyer.com^
+||feednews.com^
+||syndication.twitter.com^
+||gdjvznzeik.com^
 
 ! Block these specific endpoints
 ||daxab.com/logger/*
