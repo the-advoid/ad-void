@@ -19,7 +19,7 @@
 
 <br>
 
-Install it into your ad-blocker by clicking on following subscribe link [👉 subscribe 👈](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/filter.txt&title=Ad%20Void) or by manually adding a filter with the URL of: <br>
+Install it into your ad-blocker by clicking on following subscribe link [👉 subscribe 👈](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/filter.txt&title=AdVoid) or by manually adding a filter with the URL of: <br>
 
 <p align="center">
  <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/filter.txt</code>
