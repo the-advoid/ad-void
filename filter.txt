@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.2.33
+! Version: 1.2.34
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 267
+! Entries: 271
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -258,6 +258,10 @@
 ! Block these specific files
 ||xhcdn.com/js/track.min.js
 ||daxab.com/player/js/ad.min.js
+||ampproject.org/*/amp-ad-*.js
+||ampproject.org/*/amp-analytics-*.js
+||ampproject.org/*/amp-iframe-*.js
+||ampproject.org/*/amp-sticky-ad-*.js
 *BranchSdk*.js
 *htmlPauseRoll/pb_block*
 
