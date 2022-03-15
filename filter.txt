@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.3.9
+! Version: 1.3.10
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 330
+! Entries: 331
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -356,3 +356,4 @@ xhamster.com##.bottom-widget-section.wio-x
 xhamster.com##.promo-message
 xhamster.com##.clipstore-bottom.width-wrap
 xhamster.com###player-container .xplayer-banner
+genius.com##.flow-cover
