@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.3.32
+! Version: 1.3.33
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 377
+! Entries: 378
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -313,6 +313,7 @@
 ||consensu.org^$third-party
 ||commerce.adobedtm.com^$third-party
 ||zoomanalytics.co^$third-party
+||d2z0twhaibasxg.cloudfront.net^$third-party
 
 ! Block these specific endpoints
 ||daxab.com/logger/*
