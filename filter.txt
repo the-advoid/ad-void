@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.3.48
+! Version: 1.3.49
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 414
+! Entries: 421
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -339,6 +339,11 @@
 ||faphouse.com^$third-party
 ||wpnsrv.com^$third-party
 ||waust.at^$third-party
+||bluekai.com^$third-party
+||cookielaw.org^$third-party
+||impactradius-event.com^$third-party
+||imrworldwide.com^$third-party
+||fn-pz.com^$third-party
 
 ! Block these specific endpoints
 ||daxab.com/logger/*
@@ -357,7 +362,7 @@
 *en-1ad
 *invisible.js
 ||twitter.com/*/client_event.json
-firebase.js
+*firebase.js
 .cookielaw.js
 .cookielaw.min.
 .cookienotice.
@@ -394,6 +399,8 @@ firebase.js
 *chartbeat.json
 *preconnect.gif
 *gen_204
+*tracking.js
+*analytics.js
 
 ! Hide these elements (non-site specific)
 ##[src*="a.adtng.com"]
