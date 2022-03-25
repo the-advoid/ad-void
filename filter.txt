@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.3.124
+! Version: 1.3.125
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 585
+! Entries: 607
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -446,6 +446,20 @@
 ||lickingimprovementpropulsion.com^
 ||pronunciationspecimens.com^
 ||barscreative1.com^
+||amazon.com/rd/uedata^
+||moedgapers.com^
+||enginsquawks.cam^
+||adspsp.com^
+||rlcdn.com^
+||sentry-cdn.com^
+||adspsp.com^
+||sail-personalize.com^
+||skimresources.com^
+||qualtrics.com^
+||rvapps.io^
+||cohesionapps.com^
+||sail-horizon.com^
+||ct.pinterest.com^
 
 ! Block these specific endpoints
 ||daxab.com/logger/*
@@ -464,6 +478,11 @@
 */record_hit^
 */fossil/i^
 */api/adblocker^
+*/ajax/banners^
+*/api/metrics^
+||amazon.com/*/events/com.amazon.csm.nexusclient.prod^
+||fls-na.amazon.com/*/batch/*
+*ads-manager/ads/*/track-view
 
 ! Block these specific files
 ||xhcdn.com/js/track.min.js
@@ -471,6 +490,9 @@
 ||mixdrop.co/xads.js
 ||tnaflix.com/stats.php^
 ||googleoptimize.com/optimize.js
+*/1pixel.php^
+*/px.gif^
+*/advertising.js^
 */videopack-ads/*/video*.js^
 */videopack-ads/*/video*.css^
 */give/*/give*.*
