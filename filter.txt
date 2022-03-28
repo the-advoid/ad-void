@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.3.186
+! Version: 1.3.187
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 685
+! Entries: 696
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -518,6 +518,17 @@
 ||unityads.unity3d.com^
 ||sdk-diagnostics.prd.mz.internal.unity3d.com^
 ||app-measurement.com^
+||track.trfpump.com^
+||live.chartboost.com^
+||applovin.com^
+||events.mz.unity3d.com^
+||track.tenjin.com^
+||magento-recs-sdk.adobe.net^
+||crashlyticsreports-pa.googleapis.com^
+||app-analytics-v2.snapchat.com^
+||daa.shuzilm.cn^
+||dai.shuzilm.cn^
+||firebaselogging-pa.googleapis.com^
 
 ! Block these specific endpoints
 ||daxab.com/logger/*
