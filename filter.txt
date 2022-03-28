@@ -9,7 +9,7 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.3.147
+! Version: 1.3.148
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 637
@@ -597,7 +597,7 @@
 ##[class*="cta__Wrapper"]
 ##[class*="Ad__Container"]
 ##[class*="Admobile"]
-##[class*="banner"]
+##[class~="banner"]
 ##[id*="gpt-ad-"]
 ##.sticky-banner
 ##div.adv-mid
