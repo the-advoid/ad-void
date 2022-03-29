@@ -9,7 +9,7 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.3.223
+! Version: 1.3.224
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 732
@@ -463,7 +463,7 @@
 ||audience.zeustechnology.com^
 ||cdn.krxd.net^
 ||targeting.washpost.nile.works^
-||l.sharethis.com^$third-party
+||sharethis.com^$third-party
 ||mailerlite.com^
 ||performax.cz^$third-party
 ||facebook.sdk-api.com^$third-party
