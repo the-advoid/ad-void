@@ -9,7 +9,7 @@
 !
 ! Title: AdVoid
 ! Description: Disables ads and trackers from major ad servers
-! Version: 1.3.281
+! Version: 1.3.282
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 792
@@ -584,20 +584,20 @@
 ||startup.mobile.yandex.net^
 ||appmetrica.yandex.net^
 ||mtrack.systweak.com^
-||avast.com^$third-party
-||amplitude.com^$third-party
-||marketo.com^$third-party
-||marketo.net^$third-party
-||demandbase.com^$third-party
-||iperceptions.com^$third-party
+||avast.com^
+||amplitude.com^
+||marketo.com^
+||marketo.net^
+||demandbase.com^
+||iperceptions.com^
 ||segments.company-target.com^
-||astutesolutions.com^$third-party
+||astutesolutions.com^
 ||xiti.com^
-||buysellads.com^$third-party
+||buysellads.com^
 ||9v58v.com^
 ||analytics-gateway.delta.dp.lightricks.com^
-||ezoic.com^$third-party
-||ezodn.com^$third-party
+||ezoic.com^
+||ezodn.com^
 ||fyber.com^
 ||appsflyer.com^
 ||inner-active.mobi^
