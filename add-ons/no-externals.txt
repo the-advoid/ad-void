@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid, no externals add-on
 ! Description: Disables external features
-! Version: 1.0.0
+! Version: 1.0.1
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3
+! Entries: 4
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: World Wide Web
@@ -21,3 +21,6 @@
 ||gstatic.com/cv/js/sender/v1/cast_sender.js^
 ||gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js^
 ||gstatic.com/eureka/clank/99/cast_sender.js^
+
+! Hide these elements
+###disqus_thread
