@@ -1,1 +1,23 @@
 
+[Adblock Plus 2.0]
+!
+!     ___        __   _    __        _      __
+!    /   |  ____/ /  | |  / /____   (_)____/ /
+!   / /| | / __  /   | | / // __ \ / // __  /
+!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
+! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
+!
+!
+! Title: AdVoid, no-extras add-on
+! Description: Disables non-essential resources
+! Version: 1.0.0
+! Expires: 24 hours (update frequency)
+! Homepage: https://github.com/igorskyflyer/ad-void
+! Entries: 2
+! Author: Igor Dimitrijević (@igorskyflyer)
+! License: MIT
+! Source: World Wide Web
+
+! Block these files
+*.js.map^
+*.css.map^
