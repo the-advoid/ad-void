@@ -10,7 +10,7 @@
 !
 ! Title: AdVoid, no-extras add-on
 ! Description: Disables non-essential resources
-! Version: 1.0.3
+! Version: 1.0.4
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 6
@@ -24,4 +24,4 @@
 /sw.js^
 /homesw.js^
 /manifest.json^
-worker/socket-worker^
+worker/socket-worker*.js^
