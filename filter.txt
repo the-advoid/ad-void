@@ -9,7 +9,7 @@
 !
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.4.0
+! Version: 1.4.1
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 883
@@ -695,18 +695,18 @@
 /reports/performance^
 
 ! Block these specific files {@2}
-track.min.js
-ad.min.js
-xads.js
-stats.php
-optimize.js
-i.gif^
-tagcommander.js
-player.vast.*.js
-plusone.js
-vortex-simple-*.js
-frontend-gtag.min.js
-elfsight-popup.js
+/track.min.js
+/ad.min.js
+/xads.js
+/stats.php
+/optimize.js
+/i.gif
+/tagcommander.js
+/player.vast.*.js
+/plusone.js
+/vortex-simple-*.js
+/frontend-gtag.min.js
+/elfsight-popup.js
 -1x1.gif
 imp.gif
 ga.js
