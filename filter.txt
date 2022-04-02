@@ -9,7 +9,7 @@
 !
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.4.20
+! Version: 1.4.21
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 902
@@ -46,7 +46,6 @@
 ||sessions.bugsnag.com^
 ||api.bugsnag.com^
 ||app.bugsnag.com^
-||browser.sentry-cdn.com^
 ||app.getsentry.com^
 ||pixel.facebook.com^
 ||analytics.facebook.com^
@@ -666,6 +665,7 @@
 ||popmonetizer.net^
 ||speedyrhino.co^
 ||acertb.com^
+||sentry.io^
 
 ! Block these specific endpoints {@1}
 ||daxab.com/logger/*
