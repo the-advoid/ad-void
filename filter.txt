@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.4.14
+! Version: 1.4.15
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 896
+! Entries: 897
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: MIT
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -660,6 +660,7 @@
 ||chingari.io^
 ||popxperts.com^
 ||zeusadx.com^
+||adxnexus.com^
 
 ! Block these specific endpoints {@1}
 ||daxab.com/logger/*
