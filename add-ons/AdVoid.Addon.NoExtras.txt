@@ -10,7 +10,7 @@
 !
 ! Title: AdVoid.Addon.NoExtras
 ! Description: Blocks non-essential resources
-! Version: 1.1.6
+! Version: 1.1.7
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 9
@@ -26,5 +26,5 @@
 /manifest.json^
 /socket-worker*.js^
 /service-worker.js^
-/site.webmanifest^
+*.webmanifest^
 /swfobject.js^
