@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.4.67
+! Version: 1.5.0
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 954
+! Entries: 929
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -35,7 +35,6 @@
 ||amazonclix.com^
 ||assoc-amazon.com^
 ||google-analytics.com^
-||ssl.google-analytics.com^
 ||hotjar.com^
 ||hotjar-analytics.com^
 ||mouseflow.com^
@@ -52,7 +51,6 @@
 ||ads.facebook.com^
 ||an.facebook.com^
 ||ads-twitter.com^
-||static.ads-twitter.com^
 ||ads-api.twitter.com^
 ||advertising.twitter.com^
 ||ads.linkedin.com^
@@ -111,7 +109,6 @@
 ||click.oneplus.cn^
 ||click.oneplus.com^
 ||open.oneplus.net^
-||ad.samsungadhub.com^
 ||samsungadhub.com^
 ||samsungads.com^
 ||smetrics.samsung.com^
@@ -121,7 +118,6 @@
 ||analytics.samsungknox.com^
 ||bigdata.ssp.samsung.com^
 ||analytics-api.samsunghealthcn.com^
-||config.samsungads.com^
 ||metrics.apple.com^
 ||securemetrics.apple.com^
 ||supportmetrics.apple.com^
@@ -148,7 +144,6 @@
 ||tns-counter.ru^
 ||trafficfactory.biz^
 ||d2wy8f7a9ursnm.cloudfront.net^
-||ads.exosrv.com^
 ||abedwest.com^
 ||realsrv.com^
 ||cardiwersg.com^
@@ -158,7 +153,6 @@
 ||commercialvalue.org^
 ||adtng.com^
 ||d3l739e8r8y9v7.cloudfront.net^
-||cdn.adsafeprotected.com^
 ||secure.quantserve.com^
 ||exelator.com^
 ||connect.facebook.net^
@@ -167,12 +161,8 @@
 ||stats.pusher.com^
 ||api.mixpanel.com^
 ||adscale.de^
-||cds.taboola.com^
-||pixel.advertising.com^
 ||taboola.com^
 ||adtarget.com.tr^
-||ads.pubmatic.com^
-||sync.search.spotxchange.com^
 ||scorecardresearch.com^
 ||rubiconproject.com^
 ||magnite.com^
@@ -219,7 +209,6 @@
 ||dmz3nd5oywtsw.cloudfront.net^
 ||d3tozt7si7bmf7.cloudfront.net^
 ||ad.a-ads.com^
-||feed.ff.avast.com^
 ||log*-*tiktokv.com^
 ||af.opera.com^
 ||pns-sdk.opera-api.com^
@@ -239,7 +228,6 @@
 ||extanalytics.com^
 ||utarget.ru^
 ||track.analitycs.net^
-||referrer.disqus.com^
 ||cadspmz.com^
 ||caeebxhzg.com^
 ||chronicads.com^
@@ -326,7 +314,6 @@
 ||mgid.com^$third-party
 ||rtbsystem.org^$third-party
 ||cheqzone.com^$third-party
-||hbopenbid.pubmatic.com^$third-party
 ||toboads.com^$third-party
 ||ads.httpool.com^
 ||faphouse.com^$third-party
@@ -455,7 +442,6 @@
 ||ensighten.com^$third-party
 ||3gl.net^
 ||recommendation-newsletter.wpdigital.net^
-||audience.zeustechnology.com^
 ||cdn.krxd.net^
 ||targeting.washpost.nile.works^
 ||sharethis.com^$third-party
@@ -539,7 +525,6 @@
 ||infolinks.com^$third-party
 ||inmobi.com^$third-party
 ||tynt.com^$third-party
-||33across.com^$third-party
 ||1rx.io^
 ||zemanta.com^$third-party
 ||bnmla.com^
@@ -565,7 +550,6 @@
 ||tipcatscarola.com^
 ||topinstallsapplicationads.rest^
 ||bat.bing.com^
-||ensighten.com^$third-party
 ||userzoom.com^$third-party
 ||hs-analytics.net^
 ||logs.browser-intake-datadoghq.com^
@@ -602,10 +586,7 @@
 ||onfckepwq.com^
 ||matomo.cloud^
 ||matomo.org^
-||event.api.drift.com^
-||targeting.api.drift.com^
 ||ads-servebom-com.cdn.ampproject.org^
-||metrics.api.drift.com^
 ||heapanalytics.com^
 ||ointmentaloofpincers.com^
 ||omecam.com^
@@ -694,8 +675,6 @@
 ||instagram.com/logging/falco^
 ||graph.instagram.com/logging_client_events^
 ||ping.chartbeat.net/ping^
-||creativecdn.com/cm-notify^
-||cs.emxdgt.com/um^
 ||google.com/log^
 ||js.hsadspixel.net/fb.js^
 ||netflix.com/personalization/log^
@@ -709,14 +688,11 @@
 ||linkedin.com/li/track^
 */_xa/ads_batch^
 */_xa/ads^
-*/seattle/click_tracking.js^
 */detroitchicago/tampa.js^
-*/seattle/mouse_tracking.js^
 */seattle/ezqueue_events.js^
 */tacoma/adensity.js^
 */seattle/ux_goals.js^
 */detroitchicago/raleigh.js^
-*/seattle/unwrapped_ads.js^
 */google.internal.waa.v1.Waa/*
 *ads-manager/ads/*/track-view
 */ptracking*
@@ -793,15 +769,15 @@ greenoaks.gif
 .PrivacyDataNotice.
 tracker.js
 tracker.min.js
-*BranchSdk*.js
-*htmlPauseRoll/pb_block*
-*ads.js^
-*oneSignal.js
-*dotmetrics*.js
-*pushNotification*.js
-*magento-storefront-event*js
-*google-analytics-universal*js
-*google-tag-manager*js
+/BranchSdk*.js
+/htmlPauseRoll/pb_block*
+/ads.js^
+/oneSignal.js
+/dotmetrics*.js
+/pushNotification*.js
+/magento-storefront-event*js
+/google-analytics-universal*js
+/google-tag-manager*js
 *report*js
 *amp-ad-*js
 *amp-iframe-*js
@@ -809,14 +785,13 @@ tracker.min.js
 *amp-analytics*js
 *amp-web-push*js
 *amp-auto-ads*js
-*googleanalytics.json
 *chartbeat.json
 *preconnect.gif
 */gen_204
 *generate_204^
 /KernelTeamVideoSharing*.js^
-*tracking.js
-*analytics.js
+/tracking.js
+/analytics.js
 *pixel.gif
 *gdpr.min.js
 *consent-tracking-api.js
@@ -829,7 +804,6 @@ tracker.min.js
 */huyass*.js^
 */piano-live.js^
 */counter.js^
-*/stats.php^
 */api/spots
 */api/click
 */pixel.png^
