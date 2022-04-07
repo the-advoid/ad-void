@@ -9,7 +9,7 @@
 !
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.5.9
+! Version: 1.5.10
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 937
@@ -267,7 +267,6 @@
 ||connectmedia.rs^$third-party
 ||criteo.com^$third-party
 ||criteo.net^$third-party
-||adnxs.com^$third-party
 ||teads.tv^$third-party
 ||4dex.io^$third-party
 ||emxdgt.com^$third-party
@@ -674,6 +673,7 @@
 ||curbimpress.com^
 ||knownwarn.com^
 ||ad.gt^
+||adnxs.com^
 
 ! Block these specific endpoints {@1}
 ||daxab.com/logger/*
