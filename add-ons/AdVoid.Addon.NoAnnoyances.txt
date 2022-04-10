@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, etc.
-! Version: 1.0.19
+! Version: 1.0.20
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 24
+! Entries: 25
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
 ! Source: World Wide Web
@@ -23,6 +23,7 @@
 ||intercom.io^
 ||intercomcdn.com^
 ||intercom.com^
+||hs-banner.com^
 
 ! Block these endpoints
 /cookieblocker.min.css^
