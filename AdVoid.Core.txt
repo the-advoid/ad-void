@@ -9,7 +9,7 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.6.17
+! Version: 1.6.18
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 986
@@ -282,7 +282,7 @@
 ||brealtime.com^
 ||indexww.com^
 ||luciascipher.com^
-||events.ocdn.eu^
+||ocdn.eu^
 ||aklamator.com^
 ||openx.net^
 ||chartbeat.com^
