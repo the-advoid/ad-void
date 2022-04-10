@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, etc.
-! Version: 1.1.4
+! Version: 1.1.5
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 8
+! Entries: 9
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
 ! Source: World Wide Web
@@ -26,6 +26,7 @@
 ||gstatic.com/eureka/clank/99/cast_sender.js^
 ||cdn.kik.com/kik/*/kik-share.js^
 ||facebook.com/plugins/like.php^
+||widgets.wp.com/likes/master.html^
 
 ! Hide these elements
 ###disqus_thread
