@@ -9,7 +9,7 @@
 !
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.6.4
+! Version: 1.6.5
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 975
@@ -153,7 +153,7 @@
 ||commercialvalue.org^
 ||adtng.com^
 ||d3l739e8r8y9v7.cloudfront.net^
-||secure.quantserve.com^
+||quantserve.com^
 ||exelator.com^
 ||connect.facebook.net^
 ||librato-collector.genius.com^
