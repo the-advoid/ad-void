@@ -9,7 +9,7 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.6.28
+! Version: 1.6.29
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 997
@@ -750,7 +750,7 @@
 /google.internal.waa.v1.Waa/
 ads-manager/ads/*/track-view
 /ptracking
-/akam/
+/akam^
 /api/stats^
 /pagead^
 /report^
