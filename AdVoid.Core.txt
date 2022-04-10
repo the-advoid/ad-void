@@ -9,10 +9,10 @@
 !
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.6.6
+! Version: 1.6.7
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 976
+! Entries: 977
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -722,28 +722,29 @@
 ||api.github.com/_private/browser/stats^
 ||facebook.com/tr^
 ||linkedin.com/li/track^
-*/_xa/ads_batch^
-*/_xa/ads^
-*/detroitchicago/tampa.js^
-*/seattle/ezqueue_events.js^
-*/tacoma/adensity.js^
-*/seattle/ux_goals.js^
-*/detroitchicago/raleigh.js^
-*/google.internal.waa.v1.Waa/*
-*ads-manager/ads/*/track-view
-*/ptracking*
-*/akam/*
-*/api/stats^
-*/pagead^
-*/report^
-*/record_hit^
-*/fossil/i^
-*/api/adblocker^
-*/ajax/banners^
-*/api/metrics^
-*/ajax/eventlog^
-*/ajax/poll/tracker/counter^
-*/exchange-widget^
+/applicationinsights-web.min.js^
+/_xa/ads_batch^
+/_xa/ads^
+/detroitchicago/tampa.js^
+/seattle/ezqueue_events.js^
+/tacoma/adensity.js^
+/seattle/ux_goals.js^
+/detroitchicago/raleigh.js^
+/google.internal.waa.v1.Waa/
+ads-manager/ads/*/track-view
+/ptracking
+/akam/
+/api/stats^
+/pagead^
+/report^
+/record_hit^
+/fossil/i^
+/api/adblocker^
+/ajax/banners^
+/api/metrics^
+/ajax/eventlog^
+/ajax/poll/tracker/counter^
+/exchange-widget^
 /reports/performance^
 ||google.com/imgevent^
 ||fapality.com/*/serve^
