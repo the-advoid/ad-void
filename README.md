@@ -27,4 +27,6 @@ Install it into your ad-blocker by clicking on following subscribe link [👉 su
 
 <br>
 
+For additional privacy, faster browsing experience and less tracking these AdVoid Addons are available as well:
+
 <h4 align="center">Happy blocking! 🥳💃</h4>
