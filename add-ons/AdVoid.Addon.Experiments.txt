@@ -9,7 +9,7 @@
 !
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 1.0.3
+! Version: 1.0.4
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2
@@ -19,4 +19,4 @@
 
 ! Block these endpoints
 ||gravatar.com/avatar/*d=identicon
-||google.com/xjs/_/js^
+||google.com/xjs/_/js/^
