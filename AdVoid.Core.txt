@@ -9,11 +9,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.6.95
+! Version: 1.6.96
 ! Last modified: 2022-04-11T20:13:17+0000
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1062
+! Entries: 1063
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
 ! Source: https://whotracks.me/trackers.html and the World Wide Web
@@ -765,6 +765,7 @@
 ||toplist.cz^
 ||sexad.net^
 ||catsnbootsncats2020.com^
+||tunefindforfans.com^
 
 ! Block these specific endpoints {@1}
 ||daxab.com/logger/*
