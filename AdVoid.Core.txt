@@ -9,8 +9,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.6.113
-! Last modified: 2022-04-17T23:29:31+0000
+! Version: 1.7.0
+! Last modified: 2022-04-17T23:47:45+0000
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1078
@@ -974,6 +974,14 @@ tagularAnonId=
 ##[class~="banner"]
 ##[id*="gpt-ad-"]
 ##[class*="ains-apkm"]
+##.wio-xspb.wio-xspa
+##.wio-xcams-widget
+##.bottom-widget-section.wio-x
+##.promo-message
+##.clipstore-bottom
+###player-container .xplayer-banner
+##.flow-cover
+##.signup_wall_prevent_scroll
 ###noapop
 ##.ad
 ##.consumer-marketing-unit
@@ -1100,11 +1108,3 @@ twitter.com##.r-1p6iasa.r-4amgru.r-18u37iz.r-1awozwy.css-1dbjc4n
 twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n > .r-1f1sjgu.r-ymttw5.r-1ny4l3l.r-1wtj0ep.css-1dbjc4n
 twitter.com##.r-6416eg.r-o7ynqc.r-mszm1p.r-1j3t67a.r-1ny4l3l.r-1wbh5a2.r-16y2uox.r-18u37iz.r-1awozwy.css-1dbjc4n.css-18t94o4
 twitter.com##.r-kmv1fd.r-1j3t67a.r-1ny4l3l.r-1wtj0ep.css-1dbjc4n
-xhamster.com##.wio-xspb.wio-xspa
-xhamster.com##.vertical.wio-xcams-widget
-xhamster.com##.bottom-widget-section.wio-x
-xhamster.com##.promo-message
-xhamster.com##.clipstore-bottom.width-wrap
-xhamster.com###player-container .xplayer-banner
-genius.com##.flow-cover
-quora.com##.signup_wall_prevent_scroll
