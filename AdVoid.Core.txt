@@ -9,11 +9,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.7.59
-! Last modified: 2022-04-23T15:26:07+0200
+! Version: 1.7.60
+! Last modified: 2022-04-23T15:28:15+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1123
+! Entries: 1124
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -869,6 +869,7 @@ ads-manager/ads/*/track-view
 /insight.min.js
 /yandex-metrica-watch
 /tag.js^
+/otBannerSdk.js^
 /analyticscore.js^
 /analyticssecondary.js^
 /otSDKStub.js^
