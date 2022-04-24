@@ -42,16 +42,16 @@ Install it into your ad-blocker by clicking on following subscribe link [👉 su
 For additional privacy, faster browsing experience and less tracking these AdVoid add-ons are available as well:
 <br>
 
-[AdVoid.Addon.NoAnnoyances](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) 😒 &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white"></a>
+😒 [AdVoid.Addon.NoAnnoyances](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white"></a>
 <br>
 
-[AdVoid.Addon.NoExternals](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) 💫 &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white"></a>
+💫 [AdVoid.Addon.NoExternals](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white"></a>
 <br>
 
-[AdVoid.Addon.NoExtras](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) 🦄 &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white"></a>
+🦄 [AdVoid.Addon.NoExtras](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white"></a>
 <br>
 
-[AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) ⚗️ <sup>(*)</sup> &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white"></a>
+⚗️ [AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) <sup>(*)</sup> &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white"></a>
 
 <br>
 
