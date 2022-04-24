@@ -51,7 +51,7 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 
 <br>
 
-\* *unstable and experimental filter list, use with caution since it may break certain sites*
+\* *unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites*
 
 <br>
 
