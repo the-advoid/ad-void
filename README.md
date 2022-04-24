@@ -19,6 +19,13 @@
 
 <br>
 
+<p align="center">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square">
+</p>
+
+<br>
+<br>
+
 Install it into your ad-blocker by clicking on following subscribe link [👉 subscribe 👈](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid) or by manually adding a filter with the URL of: <br>
 
 <p align="center">
