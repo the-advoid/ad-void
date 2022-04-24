@@ -9,10 +9,6 @@
  </pre>                                     
 </h2>
 
-<h3 style="margin: 0">AdBlock filter</h3>
-<sub>only major ad-servers</sub>
-
-<br>
 <br>
 
 <p align="center">✈ An AdBlock filter that blocks major ad-servers and trackers. 👾</p>
