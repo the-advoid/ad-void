@@ -9,11 +9,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.7.78
-! Last modified: 2022-04-24T23:05:51+0200
+! Version: 1.7.79
+! Last modified: 2022-04-25T00:45:02+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1135
+! Entries: 1136
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1026,6 +1026,7 @@ tagularAnonId=
 ##.al_method
 ##.wh_ad_active
 ##.js-gpt-ad
+##.lozad
 ##.google_adds
 ##.c-gpt-ad
 ##.dx-ad-wrapper
