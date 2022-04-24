@@ -25,6 +25,7 @@
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/igorskyflyer/ad-void?style=flat-square&label=last%20updated"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square&label=commits"></a>
   <a href="https://github.com/igorskyflyer/ad-void/issues"><img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/igorskyflyer/ad-void?style=flat-square"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/LICENSE.txt"><img alt="GitHub" src="https://img.shields.io/github/license/igorskyflyer/ad-void?style=flat-square"></a>
 </p>
 
 <br>
