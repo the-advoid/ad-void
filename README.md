@@ -44,7 +44,11 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 - [AdVoid.Addon.NoAnnoyances](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) 😒
 - [AdVoid.Addon.NoExternals](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) 💫
 - [AdVoid.Addon.NoExtras](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) 🦄
-- [AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) (unstable) ⚗️
+- [AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) ⚗️ <sup>(*)</sup>
+
+<br>
+
+\* *unstable and experimental filter list, use with caution since it may break certain sites*
 
 <br>
 
