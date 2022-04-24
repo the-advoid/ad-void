@@ -22,9 +22,9 @@
 <p align="center">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub manifest version" src="https://img.shields.io/github/manifest-json/v/igorskyflyer/ad-void?style=flat-square"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://img.shields.io/badge/add--ons-4-blue?style=flat-square"></a>
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/igorskyflyer/ad-void?style=flat-square&label=last%20updated">
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square&label=commits">
-  <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/igorskyflyer/ad-void?style=flat-square">
+  <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/igorskyflyer/ad-void?style=flat-square&label=last%20updated"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square&label=commits"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/issues"><img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/igorskyflyer/ad-void?style=flat-square"></a>
 </p>
 
 <br>
