@@ -22,6 +22,7 @@
 <p align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/igorskyflyer/ad-void?style=flat-square">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square">
+  <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/igorskyflyer/ad-void?style=flat-square">
 </p>
 
 <br>
