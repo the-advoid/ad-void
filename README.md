@@ -17,7 +17,8 @@
 
 <p align="center">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub manifest version" src="https://custom-icon-badges.herokuapp.com/github/manifest-json/v/igorskyflyer/ad-void?style=flat-square&logo=rocket&logoColor=white"></a>
-  <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://img.shields.io/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white"></a>
+  <img alt="Lines of code" src="https://custom-icon-badges.herokuapp.com/tokei/lines/github/igorskyflyer/ad-void?style=flat-square&logo=file-code&logoColor=white">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://custom-icon-badges.herokuapp.com/badge/add--ons-4-blue?style=flat-square&logo=package&logoColor=white"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub last commit" src="https://custom-icon-badges.herokuapp.com/github/last-commit/igorskyflyer/ad-void?style=flat-square&label=last%20updated&logo=git-commit&logoColor=white"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub commit activity" src="https://custom-icon-badges.herokuapp.com/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square&label=commits&logo=checklist&logoColor=white"></a>
