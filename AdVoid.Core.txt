@@ -9,11 +9,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.7.96
-! Last modified: 2022-04-26T20:22:26+0200
+! Version: 1.7.97
+! Last modified: 2022-04-26T20:23:55+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1150
+! Entries: 1151
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1106,7 +1106,8 @@ tagularAnonId=
 ##.ez_sa_ad
 ##.ezo_ad
 ##.ezo_link_unit_
-##div[id *= 'taboola-']
+##.ezoic-adpicker-ad
+##div[id*="taboola-"]
 ##trc_rbox_container
 ##.ezflad
 ##.ezflad-47
