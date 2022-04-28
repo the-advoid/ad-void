@@ -9,11 +9,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from major ad servers
-! Version: 1.7.172
-! Last modified: 2022-04-28T15:29:47+0200
+! Version: 1.7.173
+! Last modified: 2022-04-28T20:37:47+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1218
+! Entries: 1220
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1113,12 +1113,14 @@ tagularAnonId=
 ##.dx-ad-wrapper
 ##.gpt-ad-wrapper
 ##.wio-y
-##.wio-xspb.wio-xspa
+##.wio-xspb
+##.wio-xspa
 ##.wio-xcams-widget
-##.bottom-widget-section.wio-x
+##.bottom-widget-section
+##wio-x
 ##.promo-message
 ##.clipstore-bottom
-###player-container .xplayer-banner
+##.xplayer-banner
 ##.flow-cover
 ##.signup_wall_prevent_scroll
 ##.ad-stickyhero
@@ -1142,14 +1144,15 @@ tagularAnonId=
 ##.mobile_advertising
 ##.divExoCustomLayer
 ##.actnbr-pub-cerauno
+! do not modify 👇🏼
 ##.block-video > .widget-connected.table
-##.had_top.had
-##.had_bot.had
-##.had_middle.had
+##.had_top
+##.had_bot
+##.had_middle
 ##.fluid_html_on_pause
 ###top-bilbord
 ##.gdpr-privacy-bar
-##.sticky.widget-sponsor-sticky
+##.widget-sponsor-sticky
 ###adBlock
 ##.pea_cook_more_info_popover
 ##.pea_cook_wrapper
@@ -1160,9 +1163,9 @@ tagularAnonId=
 ##.adv-bottom
 ###cx_bottom_banner
 ##.advWrapper
-##div.adv-mid
+##.adv-mid
 ###cookie-consent-banner
-##div.mobile-display-ad
+##.mobile-display-ad
 ##.main-ad-container
 ##.foobar-container
 ##.adContainer
@@ -1186,7 +1189,7 @@ tagularAnonId=
 ##.video-tube-friends
 ##.adv-top
 ##.bannerBlock
-##.show.cookie-container
+##.cookie-container
 ###ablock-notify
 ###cookie_consent_popup
 ###adBottom
@@ -1204,7 +1207,7 @@ tagularAnonId=
 ##.abovePlayer
 ##.ad-item
 ##.adsbygoogle
-##.only-mobile.ad-sticky
+##.ad-sticky
 ##.clever-core-ads
 ##.o_b_bar
 ##.banner-placeholder
@@ -1212,13 +1215,13 @@ tagularAnonId=
 ##.homeAds
 ##.alo-widget-new
 ##.exchange-widgets
-##.cookie-announce.bottom-announce
+##.cookie-announce
 ##.wio-ypremium-overlay
 ##.video-easter-egg-overlay
 ##.video-easter-egg-blocker
-##.js-notices.notices--block.notices
+##.js-notices.notices--block
 ###cookie-law-info-bar
-##.cli-bar-popup.cli-modal-content
+##.cli-bar-popup
 ##.heateor_sss_bottom_sharing
 ##.privacy-policy-banner
 ##.adhesion-header
@@ -1232,7 +1235,7 @@ tagularAnonId=
 ###mobile-footer-ad-wrapper
 ##.tkads
 ###adContTop
-##.bottom-adv.box
+##.bottom-adv
 ##.mh-ad
 ##.advertisement
 ##.gdpr-content
