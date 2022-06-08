@@ -9,8 +9,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.7.311
-! Last modified: 2022-06-08T22:58:00+0200
+! Version: 1.7.312
+! Last modified: 2022-06-08T23:40:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1347
@@ -1139,7 +1139,7 @@ tracker.min.js
 /magento-storefront-event*js
 /google-analytics-universal*js
 /google-tag-manager*js
-*report*js
+/report*.js^
 *amp-ad-*js
 *amp-iframe-*js
 *amp-sticky-ad-*js
