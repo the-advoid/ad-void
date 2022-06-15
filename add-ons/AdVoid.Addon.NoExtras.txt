@@ -9,11 +9,11 @@
 !
 ! Title: AdVoid.Addon.NoExtras
 ! Description: Blocks non-essential resources
-! Version: 1.1.22
-! Last modified: 2022-06-08T22:10:24+0200
+! Version: 1.1.23
+! Last modified: 2022-06-15T03:52:24+0200
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 18
+! Entries: 19
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -41,3 +41,4 @@
 /swj.php^
 /install-sw.amp.html^
 /pwa.js^
+/service-worker-*.js
