@@ -11,7 +11,7 @@
 
 <br>
 
-<p align="center">✈ An AdBlock filter that blocks major ad-servers and trackers. 👾</p>
+<p align="center">✈ An AdBlock filter that blocks major ad-servers, trackers and malwares. 👾</p>
 
 <br>
 
