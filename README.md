@@ -16,7 +16,7 @@
 <br>
 
 <p align="center" style="width: 50%; margin: auto;">
-  <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub manifest version" src="https://custom-icon-badges.herokuapp.com/github/manifest-json/v/igorskyflyer/ad-void?style=flat-square&logo=rocket&logoColor=white&color=66b3ff"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub manifest version" src="https://custom-icon-badges.herokuapp.com/github/manifest-json/v/igorskyflyer/ad-void?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
   <img alt="Lines of code" src="https://custom-icon-badges.herokuapp.com/tokei/lines/github/igorskyflyer/ad-void?style=flat-square&logo=file-code&logoColor=white&color=3366ff">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://custom-icon-badges.herokuapp.com/badge/modules-2-blue?style=flat-square&logo=package&logoColor=white&color=BF2745"></a>
