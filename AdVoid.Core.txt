@@ -9,8 +9,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.7.545
-! Last modified: 2022-08-01T14:47:00+0200
+! Version: 1.7.546
+! Last modified: 2022-08-01T23:28:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1552
@@ -1190,7 +1190,7 @@ ads-manager/ads/*/track-view
 /directory-banner^$xmlhttprequest
 /ad/www/delivery/
 /track^
-/ajax/ad/$xmlhttprequest
+/ajax/ad/$xmlhttprequest,$popup
 
 ! Block these specific files {@2}
 /track.min.js^
