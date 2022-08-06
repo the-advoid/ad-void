@@ -40,6 +40,18 @@ Install it into your ad-blocker by clicking on following subscribe link <a href=
 
 <br>
 
+You can also add a filter with the URL of:
+
+<p align="center">
+ <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.DNS.txt</code>
+</p>
+
+which will block network request at a lower (DNS) level, which improves page load and/or performance of Web pages.
+
+<br>
+
+<br>
+
 For additional privacy, faster browsing experience and less tracking these AdVoid add-ons are available as well:
 <br>
 
@@ -52,11 +64,11 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 🦄 &nbsp; [AdVoid.Addon.NoExtras](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=990033"></a>
 <br>
 
-⚗️ &nbsp; [AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) <sup>(*)</sup> &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=000066"></a>
+⚗️ &nbsp; [AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) <sup>(\*)</sup> &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=000066"></a>
 
 <br>
 
-\* *unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites*
+\* _unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites_
 
 <br>
 
