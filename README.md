@@ -40,13 +40,13 @@ Install it into your ad-blocker by clicking on following subscribe link <a href=
 
 <br>
 
-You can also add a filter with the URL of:
+It is also beneficial to add a filter with the URL of:
 
 <p align="center">
  <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.DNS.txt</code>
 </p>
 
-which will block network request at a lower (DNS) level, which improves page load and/or performance of Web pages.
+which will block network requests at a lower (DNS) level, which improves page load and/or performance of Web pages.
 
 <br>
 
