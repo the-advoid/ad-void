@@ -11,7 +11,7 @@
 
 <br>
 
-<p align="center">✈ An efficient AdBlock filter that blocks major ad-servers, trackers and malwares. 👾</p>
+<p align="center">✈ An efficient AdBlock filter that blocks major ad-servers, trackers, malwares and even more if you want to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects. 👾</p>
 
 <br>
 
