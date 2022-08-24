@@ -9,11 +9,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.7.576
-! Last modified: 2022-08-25T00:17:00+0200
+! Version: 1.7.577
+! Last modified: 2022-08-25T00:19:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1567
+! Entries: 1568
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1183,6 +1183,7 @@ ads-manager/ads/*/track-view
 /t.gif^
 /reklamexport_global.php^
 /www/delivery/spc.php^
+/www/delivery/spcjs.php^
 
 ! XMLHttpRequest URLs {@1.1}
 ||cdn77.org^$script,$xmlhttprequest
