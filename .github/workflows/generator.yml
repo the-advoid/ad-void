@@ -1,10 +1,10 @@
 name: generator
 
 on:
-  workflow_dispatch:
   push:
     paths:
       - docs/**
+  workflow_dispatch:
       
 defaults:
   run:
