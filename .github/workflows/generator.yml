@@ -1,6 +1,7 @@
 name: generator
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - docs/**
