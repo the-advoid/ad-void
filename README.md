@@ -83,4 +83,10 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 <br>
 <br>
 
+<p align="center">
+ <a href="https://github.com/igorskyflyer/ad-void/actions/workflows/generator.yml"><img src="https://github.com/igorskyflyer/ad-void/actions/workflows/generator.yml/badge.svg"></a>
+</p>
+
+<br>
+
 <h4 align="center">Happy blocking! 🥳💃</h4>
