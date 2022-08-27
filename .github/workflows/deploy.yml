@@ -27,7 +27,7 @@ jobs:
         uses: bahmutov/npm-install@v1
         with:
               useLockFile: false
-              working-directory: docs
+              working-directory: ./docs
 
       - name: Build project
         run: npm run build
@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: production-files
-          path: docs/dist
+          path: ./docs/dist
 
   deploy:
     name: Deploy
