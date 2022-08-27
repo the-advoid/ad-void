@@ -7,11 +7,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.0.27
-! Last modified: 2022-08-27T21:56:00+0200
+! Version: 1.0.28
+! Last modified: 2022-08-27T21:57:00+0200
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 28
+! Entries: 56
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -39,6 +39,34 @@
 ||freshmarketer.com^
 ||luckyorange.com^
 ||stats.wp.com^
+||pixel.facebook.com^
+||analytics.facebook.com^
+||ads.facebook.com^
+||an.facebook.com^
+||ads-twitter.com^
+||ads-api.twitter.com^
+||advertising.twitter.com^
+||ads.linkedin.com^
+||analytics.pointdrive.linkedin.com^
+||ads.pinterest.com^
+||log.pinterest.com^
+||ads-dev.pinterest.com^
+||analytics.pinterest.com^
+||trk.pinterest.com^
+||widgets.pinterest.com^
+||ads.reddit.com^
+||d.reddit.com^
+||rereddit.com^
+||events.redditmedia.com^
+||ads.youtube.com^
+||youtube.cleverads.vn^
+||analytics-sg.tiktok.com^
+||ads-sg.tiktok.com^
+||analytics.tiktok.com^
+||ads.tiktok.com^
+||ads.yahoo.com^
+||global.adserver.yahoo.com^
+||analytics.yahoo.com^
  
 ||goobook.biz^
 ||hetaint.com^
