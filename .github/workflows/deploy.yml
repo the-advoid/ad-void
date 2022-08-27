@@ -9,6 +9,9 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
 
     steps:
       - name: Checkout repo
@@ -21,8 +24,6 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
-        with:
-          working-directory: docs
 
       - name: Build project
         run: npm run build
@@ -31,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: production-files
-          path: ./docs/dist
+          path: ./dist
 
   deploy:
     name: Deploy
@@ -44,10 +45,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: production-files
-          path: ./docs/dist
+          path: ./dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/dist
+          publish_dir: ./dist
