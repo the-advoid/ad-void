@@ -7,7 +7,7 @@ on:
       
 defaults:
   run:
-    working-directory: ./docs
+    working-directory: docs
 
 jobs:
   build:
@@ -37,7 +37,6 @@ jobs:
         with:
           name: production-files
           path: dist
-          working-directory: docs
 
   deploy:
     name: Deploy
