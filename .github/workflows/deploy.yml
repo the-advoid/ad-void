@@ -36,7 +36,8 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: production-files
-          path: ./dist
+          path: dist
+          working-directory: docs
 
   deploy:
     name: Deploy
