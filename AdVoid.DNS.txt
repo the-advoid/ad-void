@@ -7,11 +7,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.0.30
-! Last modified: 2022-08-27T22:02:00+0200
+! Version: 1.0.31
+! Last modified: 2022-08-27T22:51:00+0200
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 195
+! Entries: 196
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -206,6 +206,7 @@
 ||pns-sdk.opera-api.com^
 ||ofa-sub.osp.opera.software^
 ||api-a.op-mobile.opera.com^
+||tradedoubler.com^
  
 ||goobook.biz^
 ||hetaint.com^
