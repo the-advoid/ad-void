@@ -26,8 +26,6 @@ jobs:
 
       - name: Build project
         run: npm run build
-        with:
-          working-directory: docs
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
