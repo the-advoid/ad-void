@@ -18,5 +18,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   color: #FFF;
+  background: -webkit-radial-gradient(top left, #7CA9C2, #18237F);
+  background: -moz-radial-gradient(top left, #7CA9C2, #18237F);
   background: radial-gradient(to bottom right, #7CA9C2, #18237F);
 }
