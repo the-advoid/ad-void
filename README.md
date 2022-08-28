@@ -30,7 +30,14 @@
 </p>
 
 <br>
+
+<p align="center">
+ <a href="https://github.com/igorskyflyer/ad-void/actions/workflows/generator.yml"><img src="https://github.com/igorskyflyer/ad-void/actions/workflows/generator.yml/badge.svg"></a>
+</p>
+
 <br>
+
+## Usage
 
 Install it into your ad-blocker by clicking on following subscribe link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=6666ff"></a> or by manually adding a filter with the URL of: <br>
 
@@ -83,10 +90,4 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 <br>
 <br>
 
-<p align="center">
- <a href="https://github.com/igorskyflyer/ad-void/actions/workflows/generator.yml"><img src="https://github.com/igorskyflyer/ad-void/actions/workflows/generator.yml/badge.svg"></a>
-</p>
-
-<br>
-
-<h4 align="center">Happy blocking! 🥳💃</h4>
+<h3 align="center">🕺🏻 HAPPY BLOCKING! 🥳</h3>
