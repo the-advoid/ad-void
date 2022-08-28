@@ -18,6 +18,5 @@ body {
   min-width: 320px;
   min-height: 100vh;
   color: #FFF;
-  background: #7CA9C2;
   background: radial-gradient(to bottom right, #7CA9C2, #18237F);
 }
