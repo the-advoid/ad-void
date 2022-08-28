@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h4>Generator coming soon, stay tuned! 👽</h4>
+        <h3>Generator coming soon, stay tuned! 👽</h3>
       </div>
     </div>
   )
