@@ -20,7 +20,8 @@
  <br>
  Please consider voting on the poll, whether comments should continue being hidden by this filter list or not. 🤔
  <br>
- Vote <a href="https://github.com/igorskyflyer/ad-void/discussions/281">here</a>, thank you. 😉
+ <br>
+ Vote <code><a href="https://github.com/igorskyflyer/ad-void/discussions/281">here</a></code>, thank you. 😉
 </blockquote>
 
 <br>
