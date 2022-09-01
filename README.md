@@ -15,6 +15,16 @@
 
 <br>
 
+<blockquote align="center">
+ I need 5 seconds of your time! 😊
+ <br>
+ Please consider voting on the poll, whether comments should continue being hidden by this filter list or not. 🤔
+ <br>
+ Vote <a href="https://github.com/igorskyflyer/ad-void/discussions/281">here</a>, thank you. 😉
+</blockquote>
+
+<br>
+
 <p align="center" style="width: 50%; margin: auto;">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub manifest version" src="https://custom-icon-badges.herokuapp.com/github/manifest-json/v/igorskyflyer/ad-void?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
