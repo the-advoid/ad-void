@@ -9,8 +9,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.75
-! Last modified: 2022-09-04T04:17:00+0200
+! Version: 1.8.76
+! Last modified: 2022-09-04T04:36:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1648
@@ -1471,7 +1471,7 @@ adzone=
 ##[class*="cta__Wrapper"]
 ##[class*="Ad__Container"]
 ##[class*="Admobile"]
-##[class~="banner"]
+##."banner
 ##[class*="adHesionFixed--"]
 ##[class*="adBotSmall-container--"]
 ##[id*="gpt-ad-"]
@@ -1688,4 +1688,4 @@ adzone=
 
 ! Restore these changes {@6}
 mail.google.com#@#.ads
-#@#body[class~="banner"]
+#@#body.banner
