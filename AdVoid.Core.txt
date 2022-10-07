@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.261
-! Last modified: 2022-10-07T23:20:00+0200
+! Version: 1.8.262
+! Last modified: 2022-10-07T23:22:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1833
+! Entries: 1835
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1868,6 +1868,8 @@ adZones=
 ##[id*="alphr_article_mobile_incontent_"]
 ##.ad-box
 ###block-ea-adocean-ea-adocean-billboard
+##[id*="exoNativeWidget"]
+##.exo-native-widget
 
 ! Hide these elements (site specific) {@5}
 
