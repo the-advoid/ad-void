@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.256
-! Last modified: 2022-10-07T23:08:00+0200
+! Version: 1.8.257
+! Last modified: 2022-10-07T23:09:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1824
+! Entries: 1825
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1390,6 +1390,7 @@ bongacams.net/track^
 /directory-banner^$xmlhttprequest
 /log^$xmlhttprequest
 /VisualFrontendUi/browserinfo^$xmlhttprequest
+/dot.php^$xmlhttprequest
 
 ! Block these specific files {@2}
 /track.min.js^
