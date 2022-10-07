@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.262
-! Last modified: 2022-10-07T23:22:00+0200
+! Version: 1.8.263
+! Last modified: 2022-10-07T23:27:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1835
+! Entries: 1843
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1272,6 +1272,14 @@
 ||amazon-adsystem.com^
 ||clearbitscripts.com^
 ||flix360.io^$third-party
+||logs.roku.com^
+||ads.roku.com^
+||lgsmartad.com^
+||tracking.scenepass.com^
+||adworldmedia.com^
+||adsrvr.org^
+||youboranqs01.com^
+||samsungads.com^
 
 ! Block these specific endpoints {@1}
 ||daxab.com/logger/
