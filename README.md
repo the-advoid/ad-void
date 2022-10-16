@@ -34,7 +34,7 @@
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://custom-icon-badges.herokuapp.com/badge/add--ons-4-blue?style=flat-square&logo=package&logoColor=white&color=9933ff"></a>
 </p>
 <p align="center" style="width: 50%; margin: auto;"> 
-  <a href="https://github.com/igorskyflyer/ad-void/pulls"><img alt="GitHub closed pull requests" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/igorskyflyer/ad-void?color=87ceeb&style=flat-square"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/pulls?q=is%3Apr+is%3Aclosed"><img alt="GitHub closed pull requests" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/igorskyflyer/ad-void?color=0f167d&style=flat-square&logo=git-pull-request&logoColor=white&label=closed%20PRs"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub last commit" src="https://custom-icon-badges.herokuapp.com/github/last-commit/igorskyflyer/ad-void?style=flat-square&label=last%20updated&logo=git-commit&logoColor=white&color=e65c00"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub commit activity" src="https://custom-icon-badges.herokuapp.com/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square&label=commits&logo=checklist&logoColor=white&color=006600"></a>
   <a href="https://github.com/igorskyflyer/ad-void/issues?q=is%3Aissue+is%3Aclosed"><img alt="GitHub closed issues" src="https://custom-icon-badges.herokuapp.com/github/issues-closed/igorskyflyer/ad-void?style=flat-square&logo=issue-closed&logoColor=white&color=3333ff"></a>
