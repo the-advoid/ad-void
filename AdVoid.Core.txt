@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.330
-! Last modified: 2022-10-18T20:53:00+0200
+! Version: 1.8.331
+! Last modified: 2022-10-18T21:22:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1877
@@ -1589,7 +1589,7 @@ amp-auto-ads*js^
 /oneTapMobile*.js^
 /transparent-pixel.png^
 /*m-Mob*
-/*-Native*
+/*-Native
 /kl-identify-browser.js^
 /lozad.min.js^
 /reactAds.*.js^
