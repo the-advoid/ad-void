@@ -27,6 +27,9 @@
 <br>
 
 <p align="center" style="width: 50%; margin: auto;">
+  <img src="https://img.shields.io/badge/since-Feb%2015-0099ff" alt="AdVoid is available from Feb 15">
+  <br>
+  <br>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub manifest version" src="https://custom-icon-badges.herokuapp.com/github/manifest-json/v/igorskyflyer/ad-void?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
   <img alt="Lines of code" src="https://custom-icon-badges.herokuapp.com/tokei/lines/github/igorskyflyer/ad-void?style=flat-square&logo=file-code&logoColor=white&color=3366ff">
