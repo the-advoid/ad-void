@@ -9,8 +9,8 @@
 !
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 1.0.16
-! Last modified: 2022-10-19T02:29:00+0200
+! Version: 1.0.17
+! Last modified: 2022-10-19T02:31:00+0200
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 5
@@ -26,6 +26,7 @@
 ||gravatar.com/avatar/*d=identicon
 ||gravatar.com/avatar/*d=wavatar
 
+! Based on uBlock₀ filters (https://ublockorigin.github.io/uAssets/filters/filters.txt)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
