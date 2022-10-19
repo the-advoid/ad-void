@@ -34,7 +34,7 @@
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
   <img alt="Lines of code" src="https://custom-icon-badges.herokuapp.com/tokei/lines/github/igorskyflyer/ad-void?style=flat-square&logo=file-code&logoColor=white&color=3366ff">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://custom-icon-badges.herokuapp.com/badge/modules-2-blue?style=flat-square&logo=package&logoColor=white&color=BF2745"></a>
-  <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://custom-icon-badges.herokuapp.com/badge/add--ons-4-blue?style=flat-square&logo=package&logoColor=white&color=9933ff"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://custom-icon-badges.herokuapp.com/badge/add--ons-5-blue?style=flat-square&logo=package&logoColor=white&color=9933ff"></a>
 </p>
 <p align="center" style="width: 50%; margin: auto;"> 
   <a href="https://github.com/igorskyflyer/ad-void/pulls?q=is%3Apr+is%3Aclosed"><img alt="GitHub closed pull requests" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/igorskyflyer/ad-void?color=0f167d&style=flat-square&logo=git-pull-request&logoColor=white&label=closed%20PRs"></a>
