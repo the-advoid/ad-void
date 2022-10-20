@@ -27,7 +27,7 @@
 <br>
 
 <p align="center" style="width: 50%; margin: auto;">
-  <img src="https://custom-icon-badges.herokuapp.com/badge/since-Feb%2015-0099ff?style=flat-square" alt="AdVoid is available from Feb 15">
+  <img src="https://custom-icon-badges.herokuapp.com/badge/launched-Feb%2015-0099ff?style=flat-square&logo=history" alt="AdVoid is available from Feb 15">
   <br>
   <br>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub manifest version" src="https://custom-icon-badges.herokuapp.com/github/manifest-json/v/igorskyflyer/ad-void?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
