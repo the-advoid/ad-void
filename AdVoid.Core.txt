@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.368
-! Last modified: 2022-10-25T04:07:00+0200
+! Version: 1.8.369
+! Last modified: 2022-10-25T05:00:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1906
@@ -1313,7 +1313,7 @@
 ||tadrodphi.live^
 ||getyourgift.life^
 ||cabonusoffer.com^
-||clevertap.com^$third-party
+||clevertap.com^
 ||clevertap-prod.com^$third-party
 
 ! Block these specific endpoints {@1}
