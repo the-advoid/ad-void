@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.1.218
-! Last modified: 2022-10-25T04:16:00+0200
+! Version: 1.1.219
+! Last modified: 2022-10-25T05:07:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1302
@@ -1316,7 +1316,7 @@
 ||getyourgift.life^
 ||cabonusoffer.com^
 ||clevertap.com^$third-party
-||clevertap-prod.com^$third-party
+||clevertap-prod.com^
 
 ! Block these endpoints {@1}
 ||google.com/log^
