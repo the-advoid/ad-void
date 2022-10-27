@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.375
-! Last modified: 2022-10-27T21:36:00+0200
+! Version: 1.8.376
+! Last modified: 2022-10-27T21:39:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1911
+! Entries: 1912
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1316,6 +1316,7 @@
 ||clevertap.com^
 ||clevertap-prod.com^
 ||smaato.net^
+||smaato.com^$third-party
 
 ! Block these specific endpoints {@1}
 ||daxab.com/logger/
