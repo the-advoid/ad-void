@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.507
-! Last modified: 2022-11-27T23:29:00+0200
+! Version: 1.8.508
+! Last modified: 2022-11-27T23:43:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2035
+! Entries: 2036
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1722,7 +1722,7 @@ trekkie*.js^
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 
 ! Block the URLs containing these queries {@3}
-&user_specific_tracking=True
+user_specific_tracking=True
 &p=analytics_tips_tools
 &ptag=
 ss=MT
