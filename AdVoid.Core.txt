@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.509
-! Last modified: 2022-11-27T23:43:00+0200
+! Version: 1.8.510
+! Last modified: 2022-11-27T23:46:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2036
@@ -1724,7 +1724,7 @@ trekkie*.js^
 ! Block the URLs containing these queries {@3}
 user_specific_tracking=True
 p=analytics_tips_tools
-&ptag=
+ptag=
 ss=MT
 sn=MT
 &action=js_stats
