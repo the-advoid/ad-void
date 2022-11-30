@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.544
-! Last modified: 2022-11-30T05:20:00+0200
+! Version: 1.8.545
+! Last modified: 2022-11-30T05:22:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2068
+! Entries: 2069
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1738,8 +1738,9 @@ trekkie*.js^
 /firebase-analytics.js^
 /popunder.js^
 /ads-banner.png^
-viqeo.tv/*/vq_fly_widget.js^
+||viqeo.tv/*/vq_fly_widget.js^
 /adsdk.js^
+||videonow.ru/*/vn_providers_vpaid.js^
 
 ! RegEx heavy rules {@2.1}
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
