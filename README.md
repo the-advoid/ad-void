@@ -11,7 +11,7 @@
 
 <br>
 
-<p align="center">✈ An efficient AdBlock filter that blocks major ad-servers, trackers, malwares, fake download links and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects. 👾</p>
+<p align="center">✈ An efficient AdBlock filter list that blocks major ad-servers, trackers, malwares, fake download links and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects. 👾</p>
 
 <br>
 
@@ -54,7 +54,7 @@
 
 ## Usage
 
-Install it into your ad-blocker by clicking on following subscribe link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=6666ff"></a> or by manually adding a filter with the URL of: <br>
+Install it into your ad-blocker by clicking on following subscribe link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=6666ff"></a> or by manually adding a filter list with the URL of: <br>
 
 <p align="center">
  <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt</code>
@@ -62,13 +62,13 @@ Install it into your ad-blocker by clicking on following subscribe link <a href=
 
 <br>
 
-It is also beneficial to add this filter by clicking on the following link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=4f147d"></a> or by manually adding a filter with the URL of: <br>
+If you are using a system-wide ad-blocker it is also beneficial to add this filter list by clicking on the following link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=4f147d"></a> or by manually adding a filter list with the URL of: <br>
 
 <p align="center">
  <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.DNS.txt</code>
 </p>
 
-_This filter will block network requests at a lower (DNS) level, which improves page load and/or performance of Web pages._
+_This filter list will block network requests at a lower (DNS) level, which improves page load and/or performance of Web pages._
 
 <br>
 
