@@ -53,7 +53,16 @@
 
 <br>
 
-## Usage
+<div align="center">
+	<h3>💖 Support further development</h3>
+	<a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="108"></a>
+</div>
+
+<br>
+<br>
+<br>
+
+## 🤹🏼‍♂️ Usage
 
 Install it into your ad-blocker by clicking on following subscribe link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=6666ff"></a> or by manually adding a filter list with the URL of: <br>
 
