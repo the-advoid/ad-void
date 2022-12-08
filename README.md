@@ -26,24 +26,20 @@
 
 <br>
 
-<p align="center" style="width: 50%; margin: auto;">
+<div align="center" style="margin: auto;">
   <img src="https://custom-icon-badges.herokuapp.com/badge/launched-Feb%2015-0099ff?style=flat-square&logo=history" alt="AdVoid is available from Feb 15">
-  <br>
-  <br>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-1.8.555-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
   <img alt="Lines of code" src="https://custom-icon-badges.herokuapp.com/tokei/lines/github/igorskyflyer/ad-void?style=flat-square&logo=file-code&logoColor=white&color=3366ff">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://custom-icon-badges.herokuapp.com/badge/modules-2-blue?style=flat-square&logo=package&logoColor=white&color=BF2745"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://custom-icon-badges.herokuapp.com/badge/add--ons-5-blue?style=flat-square&logo=package&logoColor=white&color=9933ff"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/scriptlets"><img alt="AdVoid Scriptlets" src="https://custom-icon-badges.herokuapp.com/badge/scriptlets-1-blue?style=flat-square&logo=note&logoColor=white&color=0A94A9"></a>
-</p>
-<p align="center" style="width: 50%; margin: auto;"> 
   <a href="https://github.com/igorskyflyer/ad-void/pulls?q=is%3Apr+is%3Aclosed"><img alt="GitHub closed pull requests" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/igorskyflyer/ad-void?color=0f167d&style=flat-square&logo=git-pull-request&logoColor=white&label=closed%20PRs"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub commit activity" src="https://custom-icon-badges.herokuapp.com/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square&label=commits&logo=checklist&logoColor=white&color=006600"></a>
   <a href="https://github.com/igorskyflyer/ad-void/issues?q=is%3Aissue+is%3Aclosed"><img alt="GitHub closed issues" src="https://custom-icon-badges.herokuapp.com/github/issues-closed/igorskyflyer/ad-void?style=flat-square&logo=issue-closed&logoColor=white&color=3333ff"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub last commit" src="https://custom-icon-badges.herokuapp.com/github/last-commit/igorskyflyer/ad-void?style=flat-square&label=last%20updated&logo=git-commit&logoColor=white&color=e65c00"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/LICENSE.txt"><img alt="GitHub" src="https://custom-icon-badges.herokuapp.com/github/license/igorskyflyer/ad-void?style=flat-square&logo=law&logoColor=white&color=cc0099"></a>
-</p>
+</div>
 
 <br>
 
