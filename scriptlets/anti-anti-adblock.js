@@ -2,3 +2,5 @@
 ##+js(set, abp, false)
 ##+js(set, isLoadAds, true)
 ##+js(set, generatorAds, true)
+##+js(set, googleAd, true)
+##+js(set, zfgloadedpopup, true)
