@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.573
-! Last modified: 2022-12-10T16:32:00+0200
+! Version: 1.8.574
+! Last modified: 2022-12-10T16:34:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2095
+! Entries: 2096
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2125,6 +2125,7 @@ ab_test=AdOpt
 ##a[href*="st1net.com"]
 ##.aklawidgets
 ##.akla-exclusive
+##.ch_banner
 
 ! Hide these elements (site specific) {@5}
 
