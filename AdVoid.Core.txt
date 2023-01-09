@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.649
-! Last modified: 2023-01-08T11:40:00+0200
+! Version: 1.8.650
+! Last modified: 2023-01-09T13:42:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2163
+! Entries: 2164
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2193,6 +2193,7 @@ ab_test=AdOpt
 ##.desktop-lazy-ads
 ##[data-ad-type]
 ##[data-ad-lazy]
+##.adcls
 
 ! Hide these elements (site specific) {@5}
 
