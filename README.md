@@ -15,17 +15,6 @@
 
 <br>
 
-<blockquote align="center">
- I need 5 seconds of your time! 😊
- <br>
- Please consider voting on the poll, whether comments should continue being hidden by this filter list or not. 🤔
- <br>
- <br>
- Vote <code><a href="https://github.com/igorskyflyer/ad-void/discussions/281">here</a></code>, thank you. 😉
-</blockquote>
-
-<br>
-
 <div align="center" style="margin: auto;">
   <img src="https://custom-icon-badges.herokuapp.com/badge/launched-Feb%2015-0099ff?style=flat-square&logo=history" alt="AdVoid is available from Feb 15">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-1.8.704-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
