@@ -1,3 +1,5 @@
+##+js(set, dotcom, {flags: {adverts: 1, analytics: 1}, userinfo: {ads: 1}})
+
 ##+js(set, hasAdBlocker, false)
 ##+js(set, abp, false)
 
