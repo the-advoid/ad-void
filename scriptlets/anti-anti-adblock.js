@@ -1,4 +1,4 @@
-##+js(set, dotcom, {flags: {adverts: 1, analytics: 1}, userinfo: {ads: 1}})
+##+js(set, dotcom, {flags: {adverts: 1, analytics: 1}, userinfo: {ads: 1}, initAnalytics: function() {}})
 
 ##+js(set, hasAdBlocker, false)
 ##+js(set, abp, false)
@@ -12,3 +12,4 @@
 ##+js(set, Ads_PushPage, function() {})
 ##+js(set, Ads_Popunder, function() {})
 ##+js(set, Ads_Vignette, function() {})
+##+js(set, AdsPlugin, function() {})
