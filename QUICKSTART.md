@@ -55,7 +55,7 @@ After that, head to [AdVoid](https://github.com/igorskyflyer/ad-void/blob/main/R
 
 <br>
 
-I recommend `AdVoid.Core` as a must, the rest are optional but very much recommended to install (except the experimental filter) if you need them! Read the description of each filter list and what it blocks and install it only if needed.
+`AdVoid.Core` is as a must, the rest are optional but very much recommended to install (except the experimental filter) if you need them! Read the description of each filter list and what it blocks and install it only if needed.
 
 <br>
 <br>
