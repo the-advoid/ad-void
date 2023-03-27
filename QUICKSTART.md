@@ -18,6 +18,9 @@ One of the primary benefits of using an ad-blocking extension is that it can sig
 
 Another benefit of ad-blocking inside browsers is that it can help protect your privacy. Some ads are designed to track your online activity and collect data about your browsing habits. By blocking these ads, you can prevent companies from collecting this information.
 
+<br>
+<br>
+
 #### 💕 Most popular browser ad-blockers
 
 Some of the most popular browser-based extensions, including Chrome, Edge, Firefox, etc. extensions are:
@@ -32,6 +35,20 @@ Some of the most popular browser-based extensions, including Chrome, Edge, Firef
 > ✨ You can find the complete list on the [Chrome Web Store](https://chrome.google.com/webstore/search/adblock?hl=en). ✨
 
 <br>
+<br>
+
+#### 💻 Installing an ad-blocker
+
+When in your browser - like you are right now, click on any of the links for extensions above and locate the `Install` button, click on it and grant permissions for install.
+
+<br>
+
+After that, head to [AdVoid](https://github.com/igorskyflyer/ad-void/blob/main/README.md) and look for the `Subscribe` buttons on the page.
+
+<br>
+<br>
+
+#### 😢 Shortcomings
 
 However, it is worth noting that ad-blocking is not always perfect. Some websites may detect that you are using an ad-blocking extension and refuse to display their content until you turn it off. Additionally, some ad-blocking extensions may interfere with certain website features or even break the site entirely.
 
