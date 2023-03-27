@@ -45,6 +45,10 @@
 
 <br>
 <br>
+
+> If you are new to ad-blocking, make sure to read the [QUICKSTART](https://github.com/igorskyflyer/ad-void/blob/main/QUICKSTART.md) first. 😉
+
+<br>
 <br>
 
 ## 🤹🏼‍♂️ Usage
