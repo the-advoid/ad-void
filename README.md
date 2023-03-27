@@ -46,6 +46,11 @@
 <br>
 <br>
 
+💕 _Since Dec 19 2022, this project is supported by [AdGuard](https://adguard.com)_. 🥳
+
+<br>
+<br>
+
 <blockquote align="center">If you are new to ad-blocking, make sure to read the <a href="https://github.com/igorskyflyer/ad-void/blob/main/QUICKSTART.md" target="_blank">QUICKSTART</a> first. 😉</blockquote>
 
 <br>
