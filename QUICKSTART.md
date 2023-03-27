@@ -55,14 +55,14 @@ After that, head to [AdVoid](https://github.com/igorskyflyer/ad-void/blob/main/R
 
 <br>
 
-I recommend `AdVoid.Core` as a must, the rest are optional but very much recommended to install (except the experimental filter)!
+I recommend `AdVoid.Core` as a must, the rest are optional but very much recommended to install (except the experimental filter) if you need them! Read the description of each filter list and what it blocks and install it only if needed.
 
 <br>
 <br>
 
 #### 💎 Why AdVoid exactly?
 
-AdVoid blocks major ad-servers, trackers, malwares, fake download links and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
+AdVoid blocks ads, trackers, malwares, fake download links and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
 
 <br>
 <br>
