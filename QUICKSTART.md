@@ -7,7 +7,14 @@ Ad-blocking is a technique that has become increasingly popular over the years a
 
 #### 🕵🏼‍♂️ How does ad-blocking inside browsers work?
 
-Ad-blocking inside browsers is a technique that uses browser extensions or add-ons to block ads from appearing on web pages. These extensions work by intercepting requests for ads and preventing them from loading. When you visit a website that has ads, the ad-blocking extension checks the site's code and identifies any ad-related requests, it then blocks those requests, preventing the ad from being displayed on the page - if possible - or hides any visible ads.
+Ad-blocking inside browsers is a technique that uses browser extensions or add-ons to block ads from appearing on web pages. These extensions work by intercepting requests for ads and preventing them from loading. When you visit a website that has ads, the ad-blocking extension checks the site's code and identifies any ad-related requests, it then blocks those requests, preventing the ad from being displayed on the page - if possible - or hides any visible ads. All of this is possible by using `filters`.
+
+<br>
+<br>
+
+#### 👽 Filters for what?
+
+Ad-block extensions use filter lists to block unwanted ads on websites. Filter lists are essentially sets of rules that define what should be blocked and what should be allowed. These lists are constantly updated and maintained by filter list authors who work to keep the lists up-to-date with the latest ad-blocking rules.
 
 <br>
 <br>
@@ -15,7 +22,7 @@ Ad-blocking inside browsers is a technique that uses browser extensions or add-o
 #### ✨ Benefits of ad-blocking
 
 One of the primary benefits of using an ad-blocking extension is that it can significantly improve your browsing experience. Ads can slow down page load times, and they can be distracting or even obnoxious. By blocking ads, you can enjoy a faster, cleaner browsing experience with fewer distractions.
-
+<br>
 Another benefit of ad-blocking inside browsers is that it can help protect your privacy. Some ads are designed to track your online activity and collect data about your browsing habits. By blocking these ads, you can prevent companies from collecting this information.
 
 <br>
@@ -43,7 +50,18 @@ When in your browser - like you are right now, click on any of the links for ext
 
 <br>
 
-After that, head to [AdVoid](https://github.com/igorskyflyer/ad-void/blob/main/README.md) and look for the `Subscribe` buttons on the page.
+After that, head to [AdVoid](https://github.com/igorskyflyer/ad-void/blob/main/README.md) and look for the `Subscribe` buttons on the page because now you need to subscribe = install filter lists.
+
+<br>
+
+I recommend `AdVoid.Core` as a must, the rest are optional but very much recommended to install (except the experimental filter)!
+
+<br>
+<br>
+
+#### 💎 Why AdVoid exactly?
+
+AdVoid blocks major ad-servers, trackers, malwares, fake download links and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
 
 <br>
 <br>
