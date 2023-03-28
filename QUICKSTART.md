@@ -89,3 +89,7 @@ Sometimes using filters with a browser-based ad-blocker extension isn't enough! 
 Scriptlets are an advanced topic and are supported in only a few ad-blockers, most notably in system-wide ad-blockers; ad-blockers that work outside browsers as well. [AdGuard](https://adguard.com) being one of the most used system-wide ad-blocker that supports them.
 
 The scriptlets I maintain are stored here, [Scriptlets](https://github.com/igorskyflyer/ad-void/tree/main/scriptlets). 🥳
+
+<br>
+
+> Also, remember to install scriptlets from **TRUSTED SOURCES** only since they are more powerful and could be dangerous! 
