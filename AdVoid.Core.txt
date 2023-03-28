@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.781
-! Last modified: 2023-03-29T00:05:00+0200
+! Version: 1.8.782
+! Last modified: 2023-03-29T00:12:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2257
@@ -1501,7 +1501,7 @@
 ||fitprogrammsoft.com^
 ||onclickperformance.com^
 
-! Block these specific endpoints {@1}
+! Block these specific endpoints - site-specific {@1}
 ||daxab.com/logger/
 ||cohesion.healthline.com/cohesion/
 ||cloudflare.com/gtag/
@@ -1523,6 +1523,22 @@
 ||s.media-imdb.com/twilight/
 ||nbcnews.com/bentoapi/commerceRecommended^
 ||wired.com/user-context^
+||google.com/imgevent^
+||cdn.jsdelivr.net/gh/snowplow/
+||fapality.com/*/serve^
+||api.pinterest.com/v1/urls/count.json^
+||google.com/async/bgasy^
+||nyt.com/ads^
+||imdb.com/tr/^
+||quora.com/_/ad^
+||samsung.com/stats^
+/stat^
+||google.com/afs/ads^
+||google.com/adsense/^$third-party
+||www.reddit.com/svc/shreddit/perfMetrics^
+||drive.google.com/drive/logImpressions^
+
+! Block these specific endpoints - global {@1.1}
 /cdn-cgi/trace^
 /page-view-metadata^
 /infinityid/beacon^
@@ -1559,14 +1575,6 @@ ads-manager/ads/*/track-view
 /stats/rotator^
 /js/analytics/*
 /wp-stats-manager/*
-||google.com/imgevent^
-||cdn.jsdelivr.net/gh/snowplow/
-||fapality.com/*/serve^
-||api.pinterest.com/v1/urls/count.json^
-||google.com/async/bgasy^
-||nyt.com/ads^
-||imdb.com/tr/^
-||quora.com/_/ad^
 /_adsense_/*
 /_adserver/*
 /ad-click^
@@ -1574,27 +1582,20 @@ ads-manager/ads/*/track-view
 /track^
 /ads/eyeo^
 /__track/*
-||samsung.com/stats^
-/stat^
-||google.com/afs/ads^
-||google.com/adsense/^$third-party
-||www.reddit.com/svc/shreddit/perfMetrics^
-||drive.google.com/drive/logImpressions^
 /interstitial_v1^
 /pixel/pure^
-/reklame/www/delivery/*$xmlhttprequest
 /smartpop/*
 /pcs/activeview
 ||yandex.ru/ads/
 
-! XMLHttpRequest URLs {@1.1}
+! XMLHttpRequest paths  - site-specific {@1.1}
 ||cdn77.org^$script,xmlhttprequest
 ||xxxviijmp.com^$xmlhttprequest
 ||adem.my.id^$xmlhttprequest
 ||pingback.issuu.com^$xmlhttprequest
 ||blic.rs/widget/carousel^$third-party
 
-! XMLHttpRequest paths {@1.2}
+! XMLHttpRequest paths - global {@1.2}
 /picserror/*$xmlhttprequest
 /ajax/ad/*$xmlhttprequest,popup
 /banners^$xmlhttprequest
@@ -1607,6 +1608,7 @@ ads-manager/ads/*/track-view
 /ad_break^$xmlhttprequest
 /vastcams.php^$xmlhttprequest
 /*-ads^$xmlhttprequest
+/reklame/www/delivery/*$xmlhttprequest
 
 ! Block these specific files - site-specific {@2}
 ||cse.google.com/adsense/search/async-ads.js^
