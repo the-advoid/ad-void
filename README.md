@@ -14,6 +14,12 @@
 <p align="center">✈ An efficient AdBlock filter list that blocks ads, trackers, malwares, fake download links and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects. 👾</p>
 
 <br>
+<br>
+
+<blockquote align="center">If you are new to ad-blocking, make sure to read the <a href="https://github.com/igorskyflyer/ad-void/blob/main/QUICKSTART.md" target="_blank">QUICKSTART</a> first. 😉</blockquote>
+
+<br>
+<br>
 
 <div align="center" style="margin: auto;">
   <img src="https://custom-icon-badges.herokuapp.com/badge/launched-Feb%2015-0099ff?style=flat-square&logo=history" alt="AdVoid is available from Feb 15">
@@ -46,12 +52,9 @@
 <br>
 <br>
 
-💕 _Since Dec 19 2022, this project is supported by [AdGuard](https://adguard.com)_. 🥳
-
-<br>
-<br>
-
-<blockquote align="center">If you are new to ad-blocking, make sure to read the <a href="https://github.com/igorskyflyer/ad-void/blob/main/QUICKSTART.md" target="_blank">QUICKSTART</a> first. 😉</blockquote>
+<blockquote align="center">
+	💕<em>Since Dec 19 2022, this project is supported by [AdGuard](https://adguard.com).</em> 🥳
+</blockquote>
 
 <br>
 <br>
