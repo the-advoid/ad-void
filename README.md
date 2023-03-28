@@ -53,7 +53,7 @@
 <br>
 
 <blockquote align="center">
-	💕<em>Since Dec 19 2022, this project is supported by [AdGuard](https://adguard.com).</em> 🥳
+	💕<em>Since Dec 19 2022, this project is supported by <a href="https://adguard.com" target="_blank">AdGuard</a>.</em> 🥳
 </blockquote>
 
 <br>
