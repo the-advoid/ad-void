@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.779
-! Last modified: 2023-03-28T23:41:00+0200
+! Version: 1.8.780
+! Last modified: 2023-03-28T23:52:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2257
@@ -1503,13 +1503,10 @@
 
 ! Block these specific endpoints {@1}
 ||daxab.com/logger/
-||cse.google.com/adsense/search/async-ads.js^
 ||cohesion.healthline.com/cohesion/
 ||cloudflare.com/gtag/
 ||paypal.com/xoplatform/logger/api/logger^
 ||snap.licdn.com/li.lms-analytics/
-||cloudflare.com/beacon.js^
-||paypal.com/tagmanager/pptm.js^
 ||instagram.com/logging/falco^
 ||graph.instagram.com/logging_client_events^
 ||ping.chartbeat.net/ping^
@@ -1519,8 +1516,6 @@
 ||fls-na.amazon.com/*/batch/
 ||api.github.com/_private/browser/stats^
 ||facebook.com/tr^
-||live.primis.tech/live/liveView.php^
-||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^
 ||pornhits.com/magic/
 ||pornhits.com/livesmatter/
 ||pornhits.com/ayvnjhvxpjli/
@@ -1530,7 +1525,6 @@
 ||wired.com/user-context^
 /cdn-cgi/trace^
 /page-view-metadata^
-/applicationinsights-web.min.js^
 /infinityid/beacon^
 /collect^
 /ev/*?events^
@@ -1540,11 +1534,8 @@
 /adb-analytics*/
 /advanced-ads-
 koko-analytics
-/gads.js^
 /serve_a^
-/video.counters.*.js^
 /customerintelligence/Events^
-/enblk/envblk.js^
 /porpoiseant/*
 /detroitchicago/*
 /seattle/*
@@ -1565,38 +1556,25 @@ ads-manager/ads/*/track-view
 /ajax/poll/tracker/counter^
 /exchange-widget^
 /reports/performance^
-/nb/nbfl_*.js^
-/nb/nbbl_*.php^
 /stats/rotator^
 /js/analytics/*
 /wp-stats-manager/*
-/ad-plugins/*.js^
-/statistics/statistics_apcu.php^
 ||google.com/imgevent^
 ||cdn.jsdelivr.net/gh/snowplow/
 ||fapality.com/*/serve^
 ||api.pinterest.com/v1/urls/count.json^
-||google.com/images/cleardot.gif^
 ||google.com/async/bgasy^
 ||nyt.com/ads^
 ||imdb.com/tr/^
 ||quora.com/_/ad^
 /_adsense_/*
 /_adserver/*
-/_adview_.ad.json^
 /ad-click^
 /_hcms/perf^
-/ads-iframe-display.php^
 /track^
-/t.gif^
-/reklamexport_global.php^
-/www/delivery/spc.php^
-/www/delivery/spcjs.php^
-/lg.php^
 /ads/eyeo^
 /__track/*
 ||samsung.com/stats^
-/adshow.php^
 /stat^
 ||google.com/afs/ads^
 ||google.com/adsense/^$third-party
@@ -1605,15 +1583,10 @@ ads-manager/ads/*/track-view
 ||drive.google.com/drive/logImpressions^
 /interstitial_v1^
 /pixel/pure^
-/promo.php^
 /reklame/www/delivery/*$xmlhttprequest
-/www/delivery/cl.php^
 /smartpop/*
 /pcs/activeview
 ||yandex.ru/ads/
-/ad00.php^
-/hit.xiti^
-/stats.js^
 ||yts.nu/2.html^
 
 ! XMLHttpRequest URLs {@1.1}
@@ -1637,7 +1610,37 @@ ads-manager/ads/*/track-view
 /vastcams.php^$xmlhttprequest
 /*-ads^$xmlhttprequest
 
-! Block these specific files {@2}
+! Block these specific files - site-specific {@2}
+||cse.google.com/adsense/search/async-ads.js^
+||cloudflare.com/beacon.js^
+||paypal.com/tagmanager/pptm.js^
+||live.primis.tech/live/liveView.php^
+||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^
+||google.com/images/cleardot.gif^
+
+! Block these specific files - global {@2.1}
+/applicationinsights-web.min.js^
+/video.counters.*.js^
+/gads.js^
+/enblk/envblk.js^
+/nb/nbfl_*.js^
+/nb/nbbl_*.php^
+/ad-plugins/*.js^
+/statistics/statistics_apcu.php^
+/ads-iframe-display.php^
+/_adview_.ad.json^
+/reklamexport_global.php^
+/www/delivery/spc.php^
+/www/delivery/spcjs.php^
+/t.gif^
+/lg.php^
+/adshow.php^
+/solid.gif^
+/promo.php^
+/www/delivery/cl.php^
+/ad00.php^
+/hit.xiti^
+/stats.js^
 /track.min.js^
 /tracking.min.js^
 /gtm.js^
@@ -1853,7 +1856,7 @@ trekkie*.js^
 /micro.tag.min.js^
 /popup-maker/assets/js/site.min.js^
 
-! RegEx heavy rules {@2.1}
+! RegEx heavy rules {@2.3}
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /mp3yad.net\/.{7}\.php/
