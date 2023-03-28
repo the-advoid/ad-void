@@ -92,4 +92,6 @@ The scriptlets I maintain are stored here, [Scriptlets](https://github.com/igors
 
 <br>
 
-> Also, remember to install scriptlets from **TRUSTED SOURCES** only since they are more powerful and could be dangerous! 
+> Also, remember to install scriptlets from **TRUSTED SOURCES** only since they are more powerful and could be dangerous, resulting in credentials / login data being stolen, pages being altered, fake URLs being served, etc. 
+
+_Scriptlets are **completely** optional and are **not** required for basic functionality of AdVoid._
