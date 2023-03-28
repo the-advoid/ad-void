@@ -32,9 +32,9 @@ Another benefit of ad-blocking inside browsers is that it can help protect your 
 
 Some of the most popular browser-based extensions, including Chrome, Edge, Firefox, etc. extensions are:
 
-- [AdGuard](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?hl=en),
-- [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en),
-- [AdBlock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom?hl=en).
+- AdGuard,
+- uBlock Origin,
+- AdBlock.
 
 <br>
 <br>
@@ -46,7 +46,12 @@ Some of the most popular browser-based extensions, including Chrome, Edge, Firef
 
 #### 💻 Installing an ad-blocker
 
-When in your browser - like you are right now, click on any of the links for extensions above and locate the `Install` button, click on it and grant permissions for install.
+When in your browser - like you are right now, click on any of the following links:
+- [AdGuard](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg?hl=en),
+- [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en),
+- [AdBlock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom?hl=en),  
+
+and locate the `Add to` or `Install` button, click on it and grant permissions for installing the browser extension.
 
 <br>
 
