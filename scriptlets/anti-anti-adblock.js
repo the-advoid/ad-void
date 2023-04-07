@@ -1,6 +1,7 @@
-##+js(set, dotcom, {flags: {adverts: 1, analytics: 1}, userinfo: {ads: 1}, initAnalytics: function() {}})
+##+js(set, dotcom, { flags: { adverts: 1, analytics: 1 }, userinfo: { ads: 1 }, initAnalytics: function() {} })
 ##+js(set, zarazData, {})
 ##+js(set, zaraz, { track: function() {} })
+##+js(set, demandSupply, { pfAds: true, setPfAds: function() {} })
 
 ##+js(set, hasAdBlocker, false)
 ##+js(set, abp, false)
