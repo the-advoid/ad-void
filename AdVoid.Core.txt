@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.8.856
-! Last modified: 2023-04-16T00:27:00+0200
+! Version: 1.8.857
+! Last modified: 2023-04-16T00:32:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2325
+! Entries: 2326
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1651,6 +1651,7 @@ ads-manager/ads/*/track-view
 /vastcams.php^$xmlhttprequest
 /*-ads^$xmlhttprequest
 /reklame/www/delivery/*$xmlhttprequest
+/vast^$xmlhttprequest
 
 ! Block these specific files - site-specific {@2}
 ||cse.google.com/adsense/search/async-ads.js^
