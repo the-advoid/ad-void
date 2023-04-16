@@ -11,6 +11,8 @@
 ##+js(set, generatorAds, true)
 ##+js(set, googleAd, true)
 ##+js(set, zfgloadedpopup, true)
+##+js(set, canRunAds, true)
+##+js(set, canRunAdvertise, true)
 
 ##+js(set, google_ad_status, 1)
 
