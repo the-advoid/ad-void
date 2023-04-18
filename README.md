@@ -11,7 +11,7 @@
 
 <br>
 
-<p align="center">✈ An efficient AdBlock filter list that blocks ads, trackers, malwares, phishing attempts, fake download links and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects. 👾</p>
+<p align="center">✈ An efficient AdBlock filter list that blocks ads, trackers, malwares, phishing attempts, fake download links, fake search results, and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects. 👾</p>
 
 <br>
 <br>
