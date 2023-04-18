@@ -9,19 +9,14 @@
 !
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 1.0.18
-! Last modified: 2022-10-24T01:38:00+0200
+! Version: 1.0.19
+! Last modified: 2023-04-18T02:25:00+0200
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2
+! Entries: 0
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
 ! Source: World Wide Web
 
-! Block these domains
-
-! Block these endpoints
-||gravatar.com/avatar/*d=identicon
-||gravatar.com/avatar/*d=wavatar
