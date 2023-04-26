@@ -2,10 +2,11 @@
   "name": "ad-void",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@adguard/aglint": "^1.0.11"
+  }
 }
