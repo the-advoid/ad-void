@@ -8,6 +8,13 @@
 	"keywords": [],
 	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
 	"license": "MIT",
+	"cspell": {
+		"ignorePaths": [
+			"./*.txt",
+			"./add-ons/*.txt",
+			"./node_modules/**"
+		]
+	},
 	"devDependencies": {
 		"@adguard/aglint": "^1.0.11"
 	}
