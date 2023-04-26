@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.1.529
-! Last modified: 2023-04-26T03:55:00+0200
+! Version: 1.1.559
+! Last modified: 2023-04-26T20:38:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1595
@@ -768,7 +768,7 @@
 ||ljyaqiggcpkica.com^
 ||journey.wired.com^
 ||condenastdigital.com^
-||mixpanel.com^$third-party
+||mixpanel.com^
 ||mxpnl.com^
 ||cloudlogobox.com^
 ||pubgw.yahoo.com^
@@ -962,7 +962,7 @@
 ||aj1907.online^
 ||aj2178.online^
 ||kingredirect.com^
-||skyad.me^$third-party
+||skyad.me^
 ||shaumtol.com^
 ||pctjiahopx.com^
 ||chooxaur.com^
@@ -1010,7 +1010,7 @@
 ||medtargetsystem.com^
 ||deepintent.com^
 ||doceree.com^
-||trendmd.com^$third-party
+||trendmd.com^
 ||stats.datawrapper.de^
 ||meter-svc.nytimes.com^
 ||ads*-adnow.com^
@@ -1025,8 +1025,8 @@
 ||tracot.com^
 ||aripplebeluga.com^
 ||ccgateway.net
-||appnexus.com^$third-party
-||xandr.com^$third-party
+||appnexus.com^
+||xandr.com^
 ||playsound.xyz^
 ||intactscattered.com^
 ||livetellsspatter.com^
@@ -1045,8 +1045,8 @@
 ||geqcollect.com^
 ||liadm.com^
 ||da1bbbz2bvais.cloudfront.net^
-||trackjs.com^$third-party
-||seedtag.com^$third-party
+||trackjs.com^
+||seedtag.com^
 ||dmxleo.com^
 ||dmleonyc.com^
 ||dm-event.net^
@@ -1054,7 +1054,7 @@
 ||a2nn5eri7ce.com^
 ||goobook.biz^
 ||co5n3nerm6arapo7ny.com^
-||salesloft.com^$third-party
+||salesloft.com^
 ||phabycebe.com^
 ||zypanafo.pro^
 ||karayarillock.cam^
@@ -1099,7 +1099,7 @@
 ||thesaurussurf.com^
 ||predicamentdisconnect.com^
 ||a.nel.cloudflare.com^
-||qualtrics.com^$third-party
+||qualtrics.com^
 ||events.release.narrativ.com^
 ||aloofvest.com^
 ||adem.my.id^
@@ -1132,7 +1132,7 @@
 ||dulcormutated.com^
 ||muzarabeponym.website^
 ||achcdn.com^
-||quantcast.com^$third-party
+||quantcast.com^
 ||crashlyticsreports-pa.googleapis.com^
 ||trx-hub.com^
 ||push.samsungosp.com.cn^
@@ -1140,7 +1140,7 @@
 ||rtlog*-*.tiktokv.com^
 ||taobao.com^
 ||vivadys.com^
-||revenuecat.com^$third-party
+||revenuecat.com^
 ||sgsnssdk.com^
 ||adash.man.aliyuncs.com^
 ||u.vieka.life^
@@ -1266,17 +1266,17 @@
 ||log.videocampaign.co^
 ||limurol.com^
 ||log.r2b2.io^
-||adreactor.com^$third-party
+||adreactor.com^
 ||airdropemboil.com^
 ||clearbitscripts.com^
-||flix360.io^$third-party
+||flix360.io^
 ||logs.roku.com^
 ||ads.roku.com^
 ||lgsmartad.com^
 ||tracking.scenepass.com^
 ||adworldmedia.com^
 ||youboranqs01.com^
-||orangeclickmedia.com^$third-party
+||orangeclickmedia.com^
 ||e67repidwnfu7gcha.com^
 ||cuddlethehyena.com^
 ||lapblra5do4j7rfit7e.com^
@@ -1365,7 +1365,7 @@
 ||colarak.com^
 ||hbrt.adobe.com^
 ||sstats.adobe.com^
-||vuukle.com^$third-party
+||vuukle.com^
 ||analytics.shareaholic.com^
 ||bgf2axnoynjhawrz.com^
 ||doubleadserve.com^
@@ -1393,7 +1393,7 @@
 ||hutati.com^
 ||mrf.io^
 ||servenobid.com^
-||connectad.io^$third-party
+||connectad.io^
 ||yellowtaraph.live^
 ||copalmmarcite.website^
 ||gogglerespite.com^
@@ -1401,8 +1401,8 @@
 ||jflhpovvycjsdu.com^
 ||tzabxmok.com^
 ||booptuwa.net^
-||yieldmo.com^$third-party
-||e-planning.net^$third-party
+||yieldmo.com^
+||e-planning.net^
 ||m2.ai^
 ||godpvqnszo.com^
 ||rsntcgoowyxsu.com^
@@ -1414,8 +1414,8 @@
 ||refpa4903566.top^
 ||news-wicuji.cc^
 ||stats.viqeo.tv^
-||roxot-panel.com^$third-party
-||adriver.ru^$third-party
+||roxot-panel.com^
+||adriver.ru^
 ||gridriwe.xyz^
 ||railroadfatherenlargement.com^
 ||milfunsource.com^
@@ -1448,8 +1448,8 @@
 ||abtest.alibaba.com^
 ||fri4esianewheywr90itrage.com^
 ||goasrv.com^
-||pd-news.com^$third-party
-||itsup.com^$third-party
+||pd-news.com^
+||itsup.com^
 ||szdonaldmore8.cn^
 ||sentimentalsuffice.cn^
 ||ukhjjg.cyou^
@@ -1488,7 +1488,7 @@
 ||pufgilsofp.sbs^
 ||edigitalsurvey.com^
 ||elkdomshute.com^
-||anyclip.com^$third-party
+||anyclip.com^
 ||outbraixenr.com^
 ||zuphaims.com^
 ||doblazikena.com^
@@ -1504,11 +1504,11 @@
 ||d-orbit.cfd^
 ||d-enter.cfd^
 ||d-floor.cfd^
-||adspyglass.net^$third-party
+||adspyglass.net^
 ||qhip.com^
 ||demand.supply^
-||sulvo.com^$third-party
-||relabe.com^$third-party
+||sulvo.com^
+||relabe.com^
 ||isedprivatedqu.info^
 ||dunnedemicant.com^
 ||besmeargleor.com^
@@ -1519,7 +1519,7 @@
 ||thefacux.com^
 ||cdnads.com^
 ||stpd.cloud^
-||setupad.com^$third-party
+||setupad.com^
 ||bestcontenttechnology.top^
 ||flixdot.com^
 ||banhq.com^
@@ -1530,15 +1530,15 @@
 ||vlyweeipo.com^
 ||whaulaul.net^
 ||bbelements.com^
-||ibillboard.com^$third-party
+||ibillboard.com^
 ||abstractedauthority.com^
 ||savoryorange.com^
 ||screechingstove.com^
 ||mookie1.com^
 ||w3-reporting.reddit.com^
-||revenuecat.com^$third-party
+||revenuecat.com^
 ||twinrdsyn.com^
-||adglare.net^$third-party
+||adglare.net^
 ||intelligenceadx.com^
 ||simplistic-potato.pro^
 ||bulky-battle.com^
