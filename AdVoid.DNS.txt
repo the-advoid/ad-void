@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.1.540
-! Last modified: 2023-04-26T20:04:00+0200
+! Version: 1.1.541
+! Last modified: 2023-04-26T20:05:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1595
@@ -1266,7 +1266,7 @@
 ||log.videocampaign.co^
 ||limurol.com^
 ||log.r2b2.io^
-||adreactor.com^$third-party
+||adreactor.com^
 ||airdropemboil.com^
 ||clearbitscripts.com^
 ||flix360.io^$third-party
