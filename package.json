@@ -5,7 +5,15 @@
 	"scripts": {
 		"lint": "aglint"
 	},
-	"keywords": [],
+	"keywords": [
+		"adblock",
+		"adguard",
+		"filter",
+		"ads",
+		"content",
+		"blocker",
+		"igorskyflyer"
+	],
 	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
 	"license": "MIT",
 	"cspell": {
