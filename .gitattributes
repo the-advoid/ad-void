@@ -1,13 +1,6 @@
 *				  text=auto
-*.vcproj	text eol=crlf
-*.sh			text eol=lf
 
 docs/** linguist-detectable
 docs/** -linguist-documentation
-
-**.json -linguist-detectable
-**.md   -linguist-detectable
-**.svg  -linguist-detectable
-**.xml  -linguist-detectable
 
 *.txt   linguist-language=AdBlock linguist-detectable
