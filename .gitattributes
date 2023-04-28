@@ -1,9 +1,10 @@
 *				  text=auto
 
+docs/**   -linguist-documentation
+docs/*.html linguist-detectable
+*.txt     linguist-detectable linguist-language=AdBlock
+
 *.json    -linguist-detectable
 *.md      -linguist-detectable
 *.svg     -linguist-detectable
 *.xml     -linguist-detectable
-
-docs/**   linguist-detectable
-*.txt     linguist-detectable linguist-language=AdBlock
