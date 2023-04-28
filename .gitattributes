@@ -1,4 +1,4 @@
-*				  text=auto
+*		  	 text=auto
 
-docs/*   -linguist-documentation linguist-detectable
+docs/**  -linguist-documentation linguist-detectable
 *.txt    linguist-detectable linguist-language=AdBlock
