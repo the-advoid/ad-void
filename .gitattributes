@@ -2,7 +2,6 @@
 *.vcproj	text eol=crlf
 *.sh			text eol=lf
 
-**      linguist-detectable
 docs/** linguist-detectable
 docs/** -linguist-documentation
 
