@@ -6,5 +6,7 @@ docs/** -linguist-documentation
 *.txt   linguist-detectable
 *.txt   linguist-language=AdBlock
 
-
-*.svg   linguist-detectable=false
+*.json -linguist-detectable
+*.md   -linguist-detectable
+*.svg  -linguist-detectable
+*.xml  -linguist-detectable
