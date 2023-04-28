@@ -10,4 +10,4 @@ docs/** -linguist-documentation
 **.svg  -linguist-detectable
 **.xml  -linguist-detectable
 
-*.txt   linguist-language=AdBlock
+*.txt   linguist-detectable linguist-language=AdBlock
