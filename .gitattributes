@@ -2,13 +2,13 @@
 *.vcproj	text eol=crlf
 *.sh			text eol=lf
 
-/** linguist-detectable
-/docs/** linguist-detectable
-/docs/** -linguist-documentation
+**      linguist-detectable
+docs/** linguist-detectable
+docs/** -linguist-documentation
 
-/**.json -linguist-detectable
-/**.md -linguist-detectable
-/**.svg -linguist-detectable
-/**.xml -linguist-detectable
+**.json -linguist-detectable
+**.md   -linguist-detectable
+**.svg  -linguist-detectable
+**.xml  -linguist-detectable
 
-*.txt linguist-language=AdBlock
+*.txt   linguist-language=AdBlock
