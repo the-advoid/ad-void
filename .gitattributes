@@ -5,5 +5,5 @@
 *.svg     -linguist-detectable
 *.xml     -linguist-detectable
 
-docs/**   -linguist-documentation
+docs/**   linguist-detectable
 *.txt     linguist-detectable linguist-language=AdBlock
