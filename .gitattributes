@@ -1,5 +1,5 @@
 *		  	 text=auto
 
 docs/**  -linguist-documentation linguist-detectable
-docs/*.svg -linguist-detectable
 *.txt    linguist-detectable linguist-language=AdBlock
+*.svg    -linguist-detectable
