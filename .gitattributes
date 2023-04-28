@@ -1,7 +1,7 @@
 *				  text=auto
 
 docs/**   -linguist-documentation
-docs/*.html linguist-detectable
+docs/**.html linguist-detectable
 *.txt     linguist-detectable linguist-language=AdBlock
 
 *.json    -linguist-detectable
