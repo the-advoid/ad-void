@@ -2,3 +2,4 @@
 
 docs/**  -linguist-documentation
 *.txt    linguist-detectable linguist-language=AdBlock
+*.adbt   linguist-detectable linguist-language=AdBlock
