@@ -22,3 +22,4 @@
 ##+js(set, Ads_Popunder, function() {})
 ##+js(set, Ads_Vignette, function() {})
 ##+js(set, AdsPlugin, function() {})
+##+js(set, AdscoreInit, function() {})
