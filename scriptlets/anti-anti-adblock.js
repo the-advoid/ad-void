@@ -3,6 +3,7 @@
 ##+js(set, zaraz, { track: function() {} })
 ##+js(set, demandSupply, { pfAds: true, setPfAds: function() {} })
 ##+js(set, AdTrack, { init: function() {} })
+##+js(set, MDCore, { adblock: 0 })
 
 ##+js(set, hasAdBlocker, false)
 ##+js(set, abp, false)
