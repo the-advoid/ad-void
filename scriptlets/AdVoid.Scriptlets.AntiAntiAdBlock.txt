@@ -1,0 +1,49 @@
+[Adblock Plus 2.0]
+!
+!     ___        __   _    __        _      __
+!    /   |  ____/ /  | |  / /____   (_)____/ /
+!   / /| | / __  /   | | / // __ \ / // __  /
+!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
+! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
+!
+!
+! Title: AdVoid.Scriptlets.AntiAntiAdBlock
+! Description: Blocks ads and other annoyances using advanced techniques.
+! Version: 1.0.2
+! Last modified: 2023-05-27T19:41:00+0200
+! Expires: 6 hours (update frequency)
+! Homepage: https://github.com/igorskyflyer/ad-void
+! Entries: 22
+! Author: Igor Dimitrijević (@igorskyflyer)
+! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
+! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
+! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
+! Source: World Wide Web
+
+##+js(set, dotcom, { flags: { adverts: 1, analytics: 1 }, userinfo: { ads: 1 }, initAnalytics: function() {} })
+##+js(set, zarazData, {})
+##+js(set, zaraz, { track: function() {} })
+##+js(set, demandSupply, { pfAds: true, setPfAds: function() {} })
+##+js(set, AdTrack, { init: function() {} })
+##+js(set, MDCore, { adblock: 0 })
+
+##+js(set, hasAdBlocker, false)
+##+js(set, abp, false)
+
+##+js(set, isLoadAds, true)
+##+js(set, generatorAds, true)
+##+js(set, googleAd, true)
+##+js(set, zfgloadedpopup, true)
+##+js(set, canRunAds, true)
+##+js(set, canRunAdvertise, true)
+
+##+js(set, google_ad_status, 1)
+
+##+js(set, GeneratorAds, function() {})
+##+js(set, Ads_PushPage, function() {})
+##+js(set, Ads_Popunder, function() {})
+##+js(set, Ads_Vignette, function() {})
+##+js(set, AdsPlugin, function() {})
+##+js(set, AdscoreInit, function() {})
+
+##+js(acs, eval, ignielAdBlock)

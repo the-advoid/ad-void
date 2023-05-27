@@ -1,8 +1,12 @@
 
 #### ⛸ Scriptlets - even more control!
 
-Sometimes using filters with a browser-based ad-blocker extension isn't enough! That's where scriptlets come into play! Scriptlets are small pieces of code used in ad-blockers that are designed to block ads from appearing on websites. These scriptlets typically work by identifying specific elements on a webpage, such as images or text, that are associated with advertisements, and then preventing those elements from loading or displaying. They provide much more control over filters since they can access the page you're viewing directly.
+Did you know that scriptlets are powerful filters too? While browser-based ad-blocker extensions provide some level of ad-blocking, scriptlets take it to the next level! Scriptlets are small snippets of code used in ad-blockers, specifically designed to block ads on websites. By targeting specific elements on a webpage, such as images or text associated with advertisements, scriptlets prevent those elements from loading or being displayed. They offer enhanced control over filters by directly accessing the page you're viewing.
 
-Scriptlets are an advanced topic and are supported in only a few ad-blockers, most notably in system-wide ad-blockers; ad-blockers that work outside browsers as well. [AdGuard](https://adguard.com) being one of the most used system-wide ad-blocker that supports them.
+Scriptlets are considered an advanced feature and are supported by only a select few ad-blockers, especially system-wide ad-blockers that work both inside and outside browsers. [AdGuard](https://adguard.com), one of the most popular system-wide ad-blockers, is known for its excellent scriptlet support.
 
-You can find the scriptlets in this directory.
+If you're interested in utilizing scriptlets, you can find them in the this directory.
+
+<br>
+
+> ❗ Note: you should *ONLY* install scriptlets from trusted sources!
