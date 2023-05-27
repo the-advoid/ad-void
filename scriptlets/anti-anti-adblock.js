@@ -23,3 +23,5 @@
 ##+js(set, Ads_Vignette, function() {})
 ##+js(set, AdsPlugin, function() {})
 ##+js(set, AdscoreInit, function() {})
+
+##+js(acs, eval, ignielAdBlock)
