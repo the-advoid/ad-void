@@ -67,7 +67,7 @@ After that, head to [AdVoid](https://github.com/igorskyflyer/ad-void/blob/main/R
 
 #### 💎 Why AdVoid exactly?
 
-AdVoid blocks ads, trackers, malwares, phishing attempts, fake download links, fake search results, and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
+AdVoid blocks ads, trackers, malwares, phishing attempts, fake download links, fake search results, and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, website reporters, etc.
 
 <br>
 <br>

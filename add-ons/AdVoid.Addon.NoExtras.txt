@@ -8,12 +8,12 @@
 !
 !
 ! Title: AdVoid.Addon.NoExtras
-! Description: Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.
-! Version: 1.1.27
-! Last modified: 2022-10-20T23:02:00+0200
+! Description: Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, website reporters, etc.
+! Version: 1.1.28
+! Last modified: 2023-07-13T16:38:00+0200
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 22
+! Entries: 23
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -24,6 +24,7 @@
 ||workerz1.com^
 ||news.google.com/swg/js/v1/swg.js^
 ||zworker11.me^
+||clerrrep.com^
 
 ! Block these files
 .js.map^
