@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.1.587
-! Last modified: 2023-07-17T21:45:00+0200
+! Version: 1.1.588
+! Last modified: 2023-07-17T21:49:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1623
@@ -1629,7 +1629,7 @@
 ||cct.google^
 ||deotarevalue.com^
 ||amyzjjzbyrzrm.top^
-||https://outpiperibbers.website^
+||outpiperibbers.website^
 ||hetapus.com^
 
 ! {@0.1} Block these subdomains
