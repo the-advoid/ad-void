@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.1.604
-! Last modified: 2023-07-23T19:28:00+0200
+! Version: 1.1.605
+! Last modified: 2023-07-23T19:31:00+0200
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1639
+! Entries: 1640
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1647,6 +1647,7 @@
 ||hastyarmistice.com^
 ||solicitorviewer.com^
 ||hzr0dm28m17c.com^
+||frictiontypicalsecure.com^
 
 ! {@0.1} Block these subdomains
 ||ureca.samsungapps.com^
