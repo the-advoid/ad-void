@@ -21,6 +21,14 @@
 <br>
 <br>
 
+> ### ⚠️ Important
+> AdVoid is moving to a completely new internal infrastructure.
+> 
+> Rest asure, current filter lists won't be affected by this change but in the future, filter lists will be updated more frequently due to this change = more protection.
+
+<br>
+<br>
+
 <div align="center" style="margin: auto;">
   <img src="https://custom-icon-badges.herokuapp.com/badge/launched-Feb%2015-0099ff?style=flat-square&logo=history" alt="AdVoid is available from Feb 15">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-1.8.1082-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
