@@ -1,0 +1,61 @@
+$ './templates/headers/advoid-header.txt'
+
+~
+
+!! {@0} Block these domains
+* './rules/core/domains.txt'
+!! {/@0}
+~
+!! {@1} Block these subdomains
+* './rules/core/subdomains.txt'
+!! {/@1}
+~
+!! {@2} Block these specific endpoints - global
+* './rules/core/endpoints-global.txt'
+!! {/@2}
+~
+!! {@3} Block these specific endpoints - site-specific
+* './rules/core/endpoints-site.txt'
+!! {/@3}
+~
+!! {@4} XMLHttpRequest paths - global
+* './rules/core/ajax-global.txt'
+!! {/@4}
+~
+!! {@5} XMLHttpRequest paths - site-specific
+* './rules/core/ajax-site.txt'
+!! {/@5}
+~
+!! {@6} Block these specific files - global
+* './rules/core/files-global.txt'
+!! {/@6}
+~
+!! {@7} Block these specific files - site-specific
+* './rules/core/files-site.txt'
+!! {/@7}
+~
+!! {@8} RegEx heavy rules
+* './rules/core/regexp.txt'
+!! {/@8}
+~
+!! {@9} Block the URLs containing these queries
+* './rules/core/query.txt'
+!! {/@9}
+~
+!! {@10} Hide these elements - global
+* './rules/core/cosmetic-global.txt'
+!! {/@10}
+~
+!! {@11} Hide these elements (site specific)
+* './rules/core/cosmetic-site.txt'
+!! {/@11}
+~
+!! {@12} Restore these changes
+* './rules/core/restore-cosmetic.txt'
+!! {/@12}
+~
+!! {@13} Advanced filters
+* './rules/core/advanced.txt'
+!! {/@13}
+
+> './AdVoid.Core.txt'
