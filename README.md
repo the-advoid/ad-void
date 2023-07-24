@@ -78,9 +78,7 @@ If you are using a system-wide ad-blocker it is also beneficial to add this filt
 
 _This filter list will block network requests at a lower (DNS) level, which improves page load and/or performance of Web pages._
 
-<br>
-
-<br>
+---
 
 For additional privacy, faster browsing experience and less tracking these AdVoid add-ons are available as well:
 <br>
@@ -113,6 +111,8 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 <br>
 <br>
 
+---
+
 ### 🫱🏽‍🫲🏼 Zero hassle
 
 If you don't want to bother adding multiple filter lists, you can get all of them bundled into one filter list - all except `AdVoid.Addon.Experiments`.
@@ -123,7 +123,6 @@ You can add the bundled filter list by clicking here 👉🏼 <a href="https://s
  <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Full.txt</code>
 </p>
 
-<br>
-<br>
+---
 
 <h3 align="center">🕺🏻 HAPPY BLOCKING! 🥳</h3>
