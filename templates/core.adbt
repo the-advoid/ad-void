@@ -2,6 +2,12 @@
 @ used by AdVoid
 @ compiled by Aria
 
+meta.description 'Inline meta'
+meta.title 'Inline filter'
+meta.author 'Me'
+
+meta.author 'Hehe'
+
 header './templates/headers/advoid-header.txt'
 
 nl
@@ -73,6 +79,5 @@ nl
 
 # {@13} Advanced filters
 include './rules/core/advanced.txt'
-
 
 export './AdVoid.Core-test.txt'
