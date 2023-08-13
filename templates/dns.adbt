@@ -1,0 +1,17 @@
+$ './templates/headers/advoid-header.txt'
+
+~
+
+!! Block these domains {@0}
+* './rules/dns/domains.txt'
+!! {/@0}
+~
+!! {@1} Block these subdomains
+* './rules/dns/subdomains.txt'
+!! {/@1}
+~
+!! {@2} Block these endpoints
+* './rules/dns/endpoints.txt'
+!! {/@2}
+
+> './AdVoid.DNS.txt'
