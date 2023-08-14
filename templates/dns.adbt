@@ -16,7 +16,7 @@ include './rules/dns/subdomains.txt'
 
 nl
 
-# {@2} Block these specific endpoints - global
+# {@2} Block these specific endpoints
 include './rules/dns/endpoints.txt'
 
 nl
