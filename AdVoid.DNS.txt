@@ -10,18 +10,19 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 1.1.609
-! Last modified: 2023-07-23T19:52:00+0200
+! Version: 2.0.0
+! Last modified: 2023-08-14T22:09:01.500+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1644
+! Entries: 1646
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
+! Maintained by: Aria & igorskyflyer
 ! Source: World Wide Web
 
-! Block these domains {@0}
+! {@0} Block these domains
 ||googlesyndication.com^
 ||ads.google.com^
 ||adservice.google.com^
@@ -1652,8 +1653,9 @@
 ||serumlisp.com^
 ||drivenicysecretive.com^
 ||adsterratech.com^
+||traffichaus.com^
 
-! {@0.1} Block these subdomains
+! {@1} Block these subdomains
 ||ureca.samsungapps.com^
 ||projectagora-d.openx.net^
 ||analytics.query.yahoo.com^
@@ -1662,9 +1664,8 @@
 ||adtech.yahooinc.com^
 ||samsungnewsapi.picks.my^
 ||t.imgur.com^
-! {/@0.1}
 
-! Block these endpoints {@1}
+! {@2} Block these specific endpoints - global
 ||google.com/log^
 ||netflix.com/personalization/log^
 ||netflix.com/ichnaea/log^
