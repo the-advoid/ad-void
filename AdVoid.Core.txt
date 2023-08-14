@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malwares and a lot more if you want it to! 👾
-! Version: 1.8.1082
-! Last modified: 2023-07-23T19:53:00+0200
+! Version: 2.0.0
+! Last modified: 2023-08-14T17:08:42.095+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2533
@@ -1658,9 +1658,8 @@
 ||serumlisp.com^
 ||drivenicysecretive.com^
 ||adsterratech.com^
-! {/@0}
 
-! {@0.1} Block these subdomains
+! {@1} Block these subdomains
 ||ureca.samsungapps.com^
 ||projectagora-d.openx.net^
 ||analytics.query.yahoo.com^
@@ -1669,9 +1668,8 @@
 ||adtech.yahooinc.com^
 ||samsungnewsapi.picks.my^
 ||t.imgur.com^
-! {/@0.1}
 
-! {@1} Block these specific endpoints - global
+! {@2} Block these specific endpoints - global
 /cdn-cgi/trace^
 /page-view-metadata^
 /infinityid/beacon^
@@ -1722,9 +1720,8 @@ ads-manager/ads/*/track-view
 /youtubei/*/att/
 /com.snowplowanalytics.snowplow/
 /gtag/js
-! {/@1}
 
-! {@1.1} Block these specific endpoints - site-specific
+! {@3} Block these specific endpoints - site-specific
 ||daxab.com/logger/
 ||cohesion.healthline.com/cohesion/
 ||cloudflare.com/gtag/
@@ -1760,9 +1757,8 @@ ads-manager/ads/*/track-view
 ||www.reddit.com/svc/shreddit/perfMetrics^
 ||drive.google.com/drive/logImpressions^
 ||yandex.ru/ads/
-! {/@1.1}
 
-! {@1.2} XMLHttpRequest paths - global
+! {@4} XMLHttpRequest paths - global
 /picserror/*$xmlhttprequest
 /ajax/ad/*$xmlhttprequest,popup
 /banners^$xmlhttprequest
@@ -1785,17 +1781,15 @@ ads-manager/ads/*/track-view
 /ajax/banner^$xmlhttprequest
 /rneve^$xmlhttprequest,script
 /afu.php^$xmlhttprequest
-! {/@1.2}
 
-! {@1.3} XMLHttpRequest paths - site-specific
+! {@5} XMLHttpRequest paths - site-specific
 ||cdn77.org^$script,xmlhttprequest
 ||xxxviijmp.com^$xmlhttprequest
 ||adem.my.id^$xmlhttprequest
 ||pingback.issuu.com^$xmlhttprequest
 ||blic.rs/widget/carousel^$third-party
-! {/@1.3}
 
-! {@2} Block these specific files - global
+! {@6} Block these specific files - global
 /applicationinsights-web.min.js^
 /video.counters.*.js^
 /gads.js^
@@ -2052,9 +2046,8 @@ trekkie*.js^
 /carbon.js^
 /ptrn2.webp^
 /ren.gif^
-! {/@2}
 
-! {@2.1} Block these specific files - site-specific
+! {@7} Block these specific files - site-specific
 ||cse.google.com/adsense/search/async-ads.js^
 ||cloudflare.com/beacon.js^
 ||paypal.com/tagmanager/pptm.js^
@@ -2063,17 +2056,15 @@ trekkie*.js^
 ||google.com/images/cleardot.gif^
 ||api.pinterest.com/v1/urls/count.json^
 /yts\.nu\/\d+\.html/
-! {/@2.1}
 
-! {@3} RegEx heavy rules
+! {@8} RegEx heavy rules
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /mp3yad.net\/.{7}\.php/
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
-! {/@3}
 
-! {@4} Block the URLs containing these queries
+! {@9} Block the URLs containing these queries
 user_specific_tracking=True
 p=analytics_tips_tools
 ptag=
@@ -2124,9 +2115,8 @@ type=depthMarker
 type=banner
 abvar=
 zoneId=
-! {/@4}
 
-! {@5} Hide these elements - global
+! {@10} Hide these elements - global
 ##[src*="a.adtng.com"]
 ##[href*="a.adtng.com"]
 ##[src*="ad.a-ads.com"]
@@ -2582,20 +2572,15 @@ zoneId=
 ##.HeadlinePub
 ##.pubbox
 ##div[id*="ScriptRoot"]
-! {/@5}
 
-! {@5.1} Hide these elements (site specific)
+! {@11} Hide these elements (site specific)
 
-! {/@5.1}
-
-! {@5.2} Restore these changes
+! {@12} Restore these changes
 mail.google.com#@#.ads
 #@#body.banner
-! {/@5.2}
 
-! {@6} Advanced filters
+! {@13} Advanced filters
 ! Based on uBlock₀ filters (https://ublockorigin.github.io/uAssets/filters/filters.txt)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-! {/@6}
