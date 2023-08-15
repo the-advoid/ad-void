@@ -7,20 +7,22 @@
 ! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
 !
 !
-! Title: AdVoid.Addon.NoExternals
-! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, location trackers, etc.
-! Version: 1.1.352
-! Last modified: 2023-07-23T18:31:00+0200
-! Expires: 24 hours (update frequency)
+! {@!}
+! Title: 
+! Description: 
+! Version: 1.1.353
+! Last modified: 2023-08-15T02:15:59.625+02:00
+! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 324
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
+! Maintained by: Aria & igorskyflyer
 ! Source: World Wide Web
 
-! Block these domains
+! {@0} Block these domains
 ||addtoany.com^
 ||chatbro.com^
 ||tawk.to^
@@ -28,7 +30,7 @@
 ||chatango.com^$third-party
 ||gubagoo.io^
 
-! Block these files
+! {@1} Block these files
 ||cdn.kik.com/kik/*/kik-share.js^
 ||facebook.com/plugins/post.php^
 ||facebook.com/plugins/like.php^
@@ -76,7 +78,7 @@
 /marketingNotificationsUnit-*.js^
 /el-social-icons.min.css^
 
-! Hide these elements
+! {@2} Hide these elements
 ###disqus_thread
 ##.sharing_toolbox
 ##.share-1
@@ -349,4 +351,6 @@
 ##.Blogs-Share
 ##[class$="-social-wrapper"]
 
+! {@3} Restore these hidden elements
 neoseeker.com#@#.social_share
+
