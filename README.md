@@ -47,7 +47,7 @@
 
 <blockquote align="center">
 <h4>💖 Support further development</h4>
-<span>I work hard for every project, including this one and your sponsorship means a lot to me!
+<span>I work hard for every project, including this one and your support means a lot to me!
 <br>
 Consider buying me a coffee. ☕
 <br>
