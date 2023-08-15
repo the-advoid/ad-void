@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.27
-! Last modified: 2023-08-15T01:28:20.896+02:00
+! Version: 2.0.28
+! Last modified: 2023-08-15T01:30:27.535+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1674
+! Entries: 1675
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1682,6 +1682,7 @@
 ||ads.oppomobile.com^
 ||adsfs.oppomobile.com^
 *-analytics-events.apple.com^
+||analytics.google.com^
 
 ! {@1} Block these subdomains
 ||ureca.samsungapps.com^
