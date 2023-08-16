@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.120
-! Last modified: 2023-08-16T22:57:51.326+02:00
+! Version: 2.0.121
+! Last modified: 2023-08-16T23:29:49.284+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -86,13 +86,9 @@
 ||sb4you1.com^
 ||dismantlepenantiterrorist.com^
 ||lucidlydiscretion.com^
-||whos.amung.us^
 ||chushywoce.com^
 ||izooto.com^
 ||visualwebsiteoptimizer.com^
-||js-agent.newrelic.com^
-||dumpster.cam4.com^
-||s.st1net.com^
 ||vast.wtf^
 ||bonertraffic.info^
 ||yomeno.xyz^
@@ -1692,6 +1688,10 @@
 ||apps.media-lab.ai^
 ||adtarget.com.tr^
 ||collector.xhamster.com^
+||whos.amung.us^
+||js-agent.newrelic.com^
+||dumpster.cam4.com^
+||s.st1net.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
