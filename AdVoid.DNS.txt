@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.117
-! Last modified: 2023-08-16T22:54:21.070+02:00
+! Version: 2.0.118
+! Last modified: 2023-08-16T22:55:00.043+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -69,7 +69,6 @@
 ||quantserve.com^
 ||exelator.com^
 ||apps.media-lab.ai^
-||stats.pusher.com^
 ||adscale.de^
 ||taboola.com^
 ||adtarget.com.tr^
@@ -1692,6 +1691,7 @@
 ||counter.yadro.ru^
 ||connect.facebook.net^
 ||librato-collector.genius.com^
+||stats.pusher.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
