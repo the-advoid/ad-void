@@ -8,6 +8,8 @@ nl
 
 # {@0} Block these domains
 include './rules/core/domains.txt'
+include './rules/add-ons/no-annoyances/domains.txt'
+include './rules/add-ons/no-externals/domains.txt'
 
 nl
 
@@ -18,6 +20,8 @@ nl
 
 # {@2} Block these specific endpoints - global
 include './rules/core/endpoints-global.txt'
+include './rules/add-ons/no-annoyances/endpoints.txt'
+include './rules/add-ons/no-extras/endpoints.txt'
 
 nl
 
@@ -38,6 +42,8 @@ nl
 
 # {@6} Block these specific files - global
 include './rules/core/files-global.txt'
+include './rules/add-ons/no-extras/files.txt'
+include './rules/add-ons/no-externals/files.txt'
 
 nl
 
@@ -58,6 +64,8 @@ nl
 
 # {@10} Hide these elements - global
 include './rules/core/cosmetic-global.txt'
+include './rules/add-ons/no-annoyances/cosmetic.txt'
+include './rules/add-ons/no-externals/cosmetic.txt'
 
 nl
 
@@ -68,10 +76,11 @@ nl
 
 # {@12} Restore these changes
 include './rules/core/restore-cosmetic.txt'
+include './rules/add-ons/no-externals/restore-cosmetic.txt'
 
 nl
 
 # {@13} Advanced filters
 include './rules/core/advanced.txt'
 
-export './AdVoid.Core.txt'
+export './AdVoid.Full.txt'
