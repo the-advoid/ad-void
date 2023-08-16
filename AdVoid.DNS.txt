@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.48
-! Last modified: 2023-08-16T17:51:01.917+02:00
+! Version: 2.0.49
+! Last modified: 2023-08-16T17:51:39.394+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1692
+! Entries: 1691
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1670,7 +1670,6 @@
 ||uphewoab.net^
 ||click.googleanalytics.com^
 ||analytics.s3.amazonaws.com^
-||click.googleanalytics.com^
 ||bdapi-in-ads.realmemobile.com^
 ||bdapi-ads.realmemobile.com^
 ||iot-eu-logser.realme.com^
