@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.104
-! Last modified: 2023-08-16T21:49:20.338+02:00
+! Version: 2.0.105
+! Last modified: 2023-08-16T21:50:03.695+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -43,7 +43,6 @@
 ||yandexadexchange.net^
 ||samsungadhub.com^
 ||samsungads.com^
-||samsung-com.112.2o7.net^
 ||business.samsungusa.com^
 ||analytics.samsungknox.com^
 ||bigdata.ssp.samsung.com^
@@ -1692,6 +1691,7 @@
 ||open.oneplus.net^
 ||smetrics.samsung.com^
 ||nmetrics.samsung.com^
+||samsung-com.112.2o7.net^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
