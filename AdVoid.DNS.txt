@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.59
-! Last modified: 2023-08-16T17:56:11.076+02:00
+! Version: 2.0.60
+! Last modified: 2023-08-16T17:56:31.276+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -1671,7 +1671,7 @@
 ||advertising.apple.com^
 ||ads.oppomobile.com^
 ||adsfs.oppomobile.com^
-*-analytics-events.apple.com^
+-analytics-events.apple.com^
 ||analytics.google.com^
 ||events.hotjar.io^
 ||adfstat.yandex.ru^
