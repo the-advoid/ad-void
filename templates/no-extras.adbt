@@ -14,4 +14,4 @@ nl
 # {@1} Block these subdomains
 include './rules/add-ons/no-extras/files.txt'
 
-export './AdVoid.Core.txt'
+export './add-ons/AdVoid.Addon.NoExtras.txt'
