@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.125
-! Last modified: 2023-08-16T23:45:20.847+02:00
+! Version: 2.0.126
+! Last modified: 2023-08-16T23:48:55.018+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -659,8 +659,6 @@
 ||revolvefarfetched.com^
 ||jubnaadserve.com^
 ||sultingcoem.com^
-||d1ezlc9vy4yc7g.cloudfront.net^
-||dyrfxuvraq0fk.cloudfront.net^
 ||freychang.fun^
 ||maringpoliti.com^
 ||benfathomarticle.com^
@@ -670,14 +668,12 @@
 ||outbrainimg.com^
 ||spot.im^
 ||connatix.com^
-||in.appcenter.ms^
 ||f9pennsy3glvkm6ania.com^
 ||edgar2al2larngpoer.com^
 ||reklamgosterim.com^
 ||dexpredict.com^
 ||updatemobilee.com
 ||movieguidemail.com^
-||tracking.musixmatch.com^
 ||pghub.io^
 ||undooptimisticsuction.com^
 ||uehawe.xyz^
@@ -697,13 +693,11 @@
 ||ygamhusjtdzajm.com^
 ||westats.dev^
 ||prismarrears.com^
-||xstats.evoload.io^
 ||contagiousaugust.com^
 ||inflectionquake.com^
 ||loggly.com^
 ||plausible.io^
 ||in-page-push.com^
-||d325guje460pxh.cloudfront.net^
 ||clean.gg^
 ||vrqsvrnjrhdmek.com^
 ||degustswaughts.com^
@@ -711,17 +705,13 @@
 ||clerrrep.com^
 ||regioncolonel.com^
 ||captivatepestilentstormy.com^
-||cloudimagesb.com.com^
 ||unforgivablegrowl.com^
 ||visitsviolatedifficult.com^
 ||chrif8kdstie.com^
 ||tumuta.xyz^
-||log.amp.dev^
--amp-error-reporting.cloudfunctions.net^
 ||odonatainbowed.com^
 ||vidverto.io^
 ||domnovrek.com^
-||c.bing.com^
 ||thecrossnet.io^
 ||system-notify.app^
 ||metsaubs.net^
@@ -744,11 +734,8 @@
 ||privacy-center.org^
 ||crabsuperior.com^
 ||stoodgogas.xyz^
-||top-fwz1.mail.ru^
-||ad.mail.ru^
 ||waisheph.com^
 ||thdifferuken.com^
-||kive-intro.web.app^
 ||lmc-ad.site^
 ||binsaiwo.net^
 ||zepilogar.com^
@@ -760,7 +747,6 @@
 ||dariolunus.com^
 ||nativemedia.rs^
 ||rennabep.com^
-||ahw2lok.txxx.com^
 ||8f1a606535.com^
 ||metricswpsh.com^
 ||bande2az.com^
@@ -808,20 +794,13 @@
 ||beengfukmee.com^
 ||sss.xxx^
 ||news-muheji.com^
-||location-traceroute-*.bytedance.com^
-||iaevent.scoopwhoop.com^
-||d2er1uyk6qcknh.cloudfront.net^
-||clku.digitalflare.io^
 ||omoonsih.net^
 ||thooidparodus.com^
-||behaviour.podcorn.com^
 ||solutionshindsight.net^
 ||medtargetsystem.com^
 ||deepintent.com^
 ||doceree.com^
 ||trendmd.com^
-||stats.datawrapper.de^
-||meter-svc.nytimes.com^
 ||ads*-adnow.com^
 ||aweber-static.com^
 ||acobnnvet.com^
@@ -853,7 +832,6 @@
 ||alocdn.com^
 ||geqcollect.com^
 ||liadm.com^
-||da1bbbz2bvais.cloudfront.net^
 ||trackjs.com^
 ||seedtag.com^
 ||dmxleo.com^
@@ -881,17 +859,13 @@
 ||facevideosc.com^
 ||amfennekinom.com^
 ||mosthotappever.top^
-||pitaya.tiktokv.com^
-||abtest-sg.byteoversea.com^
 ||nutattorneyjack.com^
 ||openfpcdn.io^
-||ads-website.ytsservice.com^
 ||hastroy.ru^
 ||successfulpatience.com^
 ||aaxads.com^
 ||cd4fb281e1.com^
 ||82b27b9ca5.com^
-||pitaya-va.tiktokv.com^
 ||ainsyndication.com^
 ||ayasdf.com^
 ||outrotomr.com^
@@ -900,20 +874,14 @@
 ||rpboostpro.club^
 ||tapioni.com^
 ||sayasdf.com^
-||beacon.wikia-services.com^
-||tag.durationmedia.net^
 ||fastly-insights.com^
 ||guangzhuiyuan.com^
 ||jads.co^
 ||thesaurussurf.com^
 ||predicamentdisconnect.com^
-||a.nel.cloudflare.com^
 ||qualtrics.com^
-||events.release.narrativ.com^
 ||aloofvest.com^
-||adem.my.id^
 ||rtyvaluation.shop^
-||d3qinhqny4thfo.cloudfront.net^
 ||possessionaddictedflight.com^
 ||decencyjessiebloom.com^
 ||clean-1-clean.club^
@@ -1692,6 +1660,38 @@
 ||confiant-integrations.global.ssl.fastly.net^
 ||pr-bh.ybp.yahoo.com^
 ||adskeeper.co.uk^
+||d1ezlc9vy4yc7g.cloudfront.net^
+||dyrfxuvraq0fk.cloudfront.net^
+||in.appcenter.ms^
+||tracking.musixmatch.com^
+||xstats.evoload.io^
+||d325guje460pxh.cloudfront.net^
+||cloudimagesb.com.com^
+||log.amp.dev^
+-amp-error-reporting.cloudfunctions.net^
+||c.bing.com^
+||top-fwz1.mail.ru^
+||ad.mail.ru^
+||kive-intro.web.app^
+||ahw2lok.txxx.com^
+||location-traceroute-*.bytedance.com^
+||iaevent.scoopwhoop.com^
+||d2er1uyk6qcknh.cloudfront.net^
+||clku.digitalflare.io^
+||behaviour.podcorn.com^
+||stats.datawrapper.de^
+||meter-svc.nytimes.com^
+||da1bbbz2bvais.cloudfront.net^
+||pitaya.tiktokv.com^
+||abtest-sg.byteoversea.com^
+||ads-website.ytsservice.com^
+||pitaya-va.tiktokv.com^
+||beacon.wikia-services.com^
+||tag.durationmedia.net^
+||a.nel.cloudflare.com^
+||events.release.narrativ.com^
+||adem.my.id^
+||d3qinhqny4thfo.cloudfront.net^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
