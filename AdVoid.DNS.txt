@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.124
-! Last modified: 2023-08-16T23:37:35.559+02:00
+! Version: 2.0.125
+! Last modified: 2023-08-16T23:45:20.847+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -405,12 +405,10 @@
 ||marketo.net^
 ||demandbase.com^
 ||iperceptions.com^
-||segments.company-target.com^
 ||astutesolutions.com^
 ||xiti.com^
 ||buysellads.com^
 ||9v58v.com^
-||analytics-gateway.delta.dp.lightricks.com^
 ||ezoic.com^
 ||ezodn.com^
 ||fyber.com^
@@ -422,19 +420,13 @@
 ||onfckepwq.com^
 ||matomo.cloud^
 ||matomo.org^
-||ads-servebom-com.cdn.ampproject.org^
 ||heapanalytics.com^
 ||ointmentaloofpincers.com^
 ||omecam.com^
 ||unfaithfulmakeryearly.com^
 ||tapjoyads.com^
-||bs-surnameanalysis-com.cdn.ampproject.org^
 ||userx.pro^
-||d2ichgn6omvugs.cloudfront.net^
 ||woopra.com^
-||ga.getresponse.com^
-||d2xerlamkztbb1.cloudfront.net^
-||index-log.getresponse.com^
 ||litix.io^
 ||etahub.com^
 ||trafficjunky.net^
@@ -475,7 +467,6 @@
 ||popxperts.com^
 ||zeusadx.com^
 ||adxnexus.com^
-||analytic.rollout.io^
 ||poprtb.com^
 ||popmonetizer.net^
 ||speedyrhino.co^
@@ -519,7 +510,6 @@
 ||bfhxivpij.com^
 ||biggersplinterrattle.com^
 ||jthumdmxmy.com^
-||d3g5ovfngjw9bw.cloudfront.net^
 ||yxhkonfmbe.com^
 ||stoshewyho.pro^
 ||safestgatetocontent.com^
@@ -536,7 +526,6 @@
 ||cjwyvwbxpbo.com^
 ||ilogak.com^
 ||wisepops.com^
-||metrics.crazyegg.com^
 ||akspecuaa.xyz^
 ||mox.tv^
 ||mtrackd.com^
@@ -554,12 +543,9 @@
 ||ptgncdn.com^
 ||fouanalytics.com^
 ||vlitag.com^
-||location.services.mozilla.com^
-||log.byteoversea.com^
 ||zqtk.net^
 ||fullstory.com^
 ||hookrelay.dev^
-||d11enq2rymy0yl.cloudfront.net^
 ||xadsmart.com^
 ||sharedid.org^
 ||conductrics.com^
@@ -575,7 +561,6 @@
 ||kubicserves.icu^
 ||powerad.ai^
 ||sendfox.com^
-||track.bloglog.com^
 ||zprk.io^
 ||getdrip.com^
 ||mzcsuuuwox.com^
@@ -588,13 +573,10 @@
 ||mobisla.com^
 ||tvpixel.com^
 ||liveramp.com^
-||dsh7ky7308k4b.cloudfront.net^
 ||furstraitsbrowse.com^
 ||confrontationdrunk.com^
 ||ta3nfsordd.com^
-||mc.webvisor.org^
 ||yqmxfz.com^
-||d2c8v52ll5s99u.cloudfront.net^
 ||crownpeak.com^
 ||omnitagjs.com^
 ||bemobtrcks.com^
@@ -607,16 +589,12 @@
 ||ywxigvzbkqg.com^
 ||vergizmo.com^
 ||ljyaqiggcpkica.com^
-||journey.wired.com^
 ||condenastdigital.com^
 ||mixpanel.com^
 ||mxpnl.com^
 ||cloudlogobox.com^
-||pubgw.yahoo.com^
 ||ezoic.net^
 ||adsymptotic.com^
-||rumcdn.geoedge.be^
-||als-svc.nytimes.com^
 ||tapad.com^
 ||contentsquare.net^
 ||punyplant.com^
@@ -625,9 +603,7 @@
 ||dopansearor.com^
 ||honeybadger.io^
 ||sascdn.com^
-||aamt.today.com^
 ||crazyeggcdn.com^
-||mps.nbcuni.com^
 ||adobedtm.com^
 ||speedsupermarketdonut.com^
 ||simplewebanalysis.com^
@@ -639,8 +615,6 @@
 ||acdcdn.com^
 ||hsadspixel.net^
 ||hsappstatic.net^
-||t.paypal.com^
-||matomo.ic.training^
 ||pub.network^
 ||snigelweb.com^
 ||usemessages.com^
@@ -653,13 +627,9 @@
 ||koalaups.com^
 ||cirsepuh.net^
 ||errorception.com^
-||stats.paypal.com^
-||unagi.amazon.com^
-||d1fc8wv8zag5ca.cloudfront.net^
 ||proper.io^
 ||sovrn.com^
 ||propervideo.io^
-||confiant-integrations.global.ssl.fastly.net^
 ||agkn.com^
 ||mantisadnetwork.com^
 ||concert.io^
@@ -673,7 +643,6 @@
 ||presage.io^
 ||undertone.com^
 ||unrulymedia.com^
-||pr-bh.ybp.yahoo.com^
 ||everesttech.net^
 ||hsleadflows.net^
 ||sktcsdbbujqt.com^
@@ -682,7 +651,6 @@
 ||optinmonster.com^
 ||trstplse.com^
 ||kigoriwho.com^
-||adskeeper.co.uk^
 ||blacraft.com^
 ||bepiletussar.casa^
 ||convertsial.com^
@@ -1632,6 +1600,13 @@
 ||d18t35yyry2k49.cloudfront.net^
 ||dnhfi5nn2dt67.cloudfront.net^
 ||d3numuoibysgi8.cloudfront.net^
+||d2ichgn6omvugs.cloudfront.net^
+||d2xerlamkztbb1.cloudfront.net^
+||d3g5ovfngjw9bw.cloudfront.net^
+||d11enq2rymy0yl.cloudfront.net^
+||dsh7ky7308k4b.cloudfront.net^
+||d2c8v52ll5s99u.cloudfront.net^
+||d1fc8wv8zag5ca.cloudfront.net^
 ||counter.yadro.ru^
 ||connect.facebook.net^
 ||librato-collector.genius.com^
@@ -1692,6 +1667,31 @@
 ||startup.mobile.yandex.net^
 ||appmetrica.yandex.net^
 ||mtrack.systweak.com^
+||segments.company-target.com^
+||analytics-gateway.delta.dp.lightricks.com^
+||ads-servebom-com.cdn.ampproject.org^
+||bs-surnameanalysis-com.cdn.ampproject.org^
+||ga.getresponse.com^
+||index-log.getresponse.com^
+||analytic.rollout.io^
+||metrics.crazyegg.com^
+||location.services.mozilla.com^
+||log.byteoversea.com^
+||track.bloglog.com^
+||mc.webvisor.org^
+||journey.wired.com^
+||pubgw.yahoo.com^
+||rumcdn.geoedge.be^
+||als-svc.nytimes.com^
+||aamt.today.com^
+||mps.nbcuni.com^
+||t.paypal.com^
+||matomo.ic.training^
+||stats.paypal.com^
+||unagi.amazon.com^
+||confiant-integrations.global.ssl.fastly.net^
+||pr-bh.ybp.yahoo.com^
+||adskeeper.co.uk^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
