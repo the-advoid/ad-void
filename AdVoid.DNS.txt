@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.110
-! Last modified: 2023-08-16T22:32:28.392+02:00
+! Version: 2.0.111
+! Last modified: 2023-08-16T22:32:49.344+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -51,7 +51,6 @@
 ||amazon-adsystem.com^
 ||sizmek.com^
 ||yoc-adserver.com^
-||pixel.wp.com^
 ||alexametrics.com^
 ||d31qbv1cthcecs.cloudfront.net^
 ||adform.net^
@@ -1692,6 +1691,7 @@
 ||metrics.mzstatic.com^
 ||r.msn.com^
 ||mc.yandex.ru^
+||pixel.wp.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
