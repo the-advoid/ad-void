@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.123
-! Last modified: 2023-08-16T23:33:42.535+02:00
+! Version: 2.0.124
+! Last modified: 2023-08-16T23:37:35.559+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -313,13 +313,9 @@
 ||sail-horizon.com^
 ||ensighten.com^
 ||3gl.net^
-||recommendation-newsletter.wpdigital.net^
-||cdn.krxd.net^
-||targeting.washpost.nile.works^
 ||sharethis.com^
 ||mailerlite.com^
 ||performax.cz^
-||facebook.sdk-api.com^
 ||outbrain.com^
 ||chepsigrade.pro^
 ||rejowhegru.com^
@@ -352,9 +348,7 @@
 ||demdex.net^
 ||usabilla.com^
 ||s-onetag.com^
-||smetrics.cnn.com^
 ||liveredwilton.com^
-||collector.cdp.cnn.com^
 ||boomtrain.com^
 ||bouncex.net^
 ||behave.com^
@@ -363,31 +357,14 @@
 ||cdn4ads.com^
 ||psairees.net^
 ||joygaskin.com^
-||events.apester.com^
-||collector.github.com^
-||collector.lunalabs.io^
 ||supersonicads.com^
-||logs.ironsrc.mobi^
-||unityads.unity3d.com^
-||sdk-diagnostics.prd.mz.internal.unity3d.com^
 ||app-measurement.com^
-||track.trfpump.com^
-||live.chartboost.com^
 ||applovin.com^
-||events.mz.unity3d.com^
-||track.tenjin.com^
-||magento-recs-sdk.adobe.net^
-||app-analytics-v2.snapchat.com^
-||daa.shuzilm.cn^
-||dai.shuzilm.cn^
-||firebaselogging-pa.googleapis.com^
-||mms.cnn.com^
 ||lookofookomooki.com^
 ||mnndnnbnn.com^
 ||withexdcel.biz^
 ||mookiyooki.com^
 ||luulibaluli.com^
-||d3numuoibysgi8.cloudfront.net^
 ||zeustechnology.com^
 ||webcontentassessor.com^
 ||smartclick.net^
@@ -413,27 +390,15 @@
 ||m-rtb.com^
 ||monadplug.com^
 ||atwola.com^
-||geo.yahoo.com^
 ||yieldlove.com^
-||fundingchoicesmessages.google.com^
 ||myhvmudzmrbl.com^
 ||jpjrkdtbnwc.com^
 ||tipcatscarola.com^
 ||topinstallsapplicationads.rest^
-||bat.bing.com^
 ||userzoom.com^
 ||hs-analytics.net^
-||logs.browser-intake-datadoghq.com^
-||streaming-corpsite-collector.datadoghq.com^
-||rum-http-intake.logs.datadoghq.com^
-||browser-http-intake.logs.datadoghq.com^
-||gtm.udemy.com^
 ||hexagon-analytics.com^
 ||trkn.us^
-||applog.uc.cn^
-||startup.mobile.yandex.net^
-||appmetrica.yandex.net^
-||mtrack.systweak.com^
 ||avast.com^
 ||amplitude.com^
 ||marketo.com^
@@ -1666,6 +1631,7 @@
 ||d1f05vr3sjsuy7.cloudfront.net^
 ||d18t35yyry2k49.cloudfront.net^
 ||dnhfi5nn2dt67.cloudfront.net^
+||d3numuoibysgi8.cloudfront.net^
 ||counter.yadro.ru^
 ||connect.facebook.net^
 ||librato-collector.genius.com^
@@ -1692,6 +1658,40 @@
 ||cozycountryredirectiv.addons.business^
 ||imasdk.googleapis.com^
 ||ct.pinterest.com^
+||recommendation-newsletter.wpdigital.net^
+||cdn.krxd.net^
+||targeting.washpost.nile.works^
+||facebook.sdk-api.com^
+||smetrics.cnn.com^
+||collector.cdp.cnn.com^
+||events.apester.com^
+||collector.github.com^
+||collector.lunalabs.io^
+||logs.ironsrc.mobi^
+||unityads.unity3d.com^
+||sdk-diagnostics.prd.mz.internal.unity3d.com^
+||track.trfpump.com^
+||live.chartboost.com^
+||events.mz.unity3d.com^
+||track.tenjin.com^
+||magento-recs-sdk.adobe.net^
+||app-analytics-v2.snapchat.com^
+||daa.shuzilm.cn^
+||dai.shuzilm.cn^
+||firebaselogging-pa.googleapis.com^
+||mms.cnn.com^
+||geo.yahoo.com^
+||fundingchoicesmessages.google.com^
+||bat.bing.com^
+||logs.browser-intake-datadoghq.com^
+||streaming-corpsite-collector.datadoghq.com^
+||rum-http-intake.logs.datadoghq.com^
+||browser-http-intake.logs.datadoghq.com^
+||gtm.udemy.com^
+||applog.uc.cn^
+||startup.mobile.yandex.net^
+||appmetrica.yandex.net^
+||mtrack.systweak.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
