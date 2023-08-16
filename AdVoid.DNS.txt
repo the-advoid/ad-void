@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.122
-! Last modified: 2023-08-16T23:31:26.671+02:00
+! Version: 2.0.123
+! Last modified: 2023-08-16T23:33:42.535+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -200,7 +200,6 @@
 ||rtbsystem.org^
 ||cheqzone.com^
 ||toboads.com^
-||ads.httpool.com^
 ||faphouse.com^
 ||wpnsrv.com^
 ||waust.at^
@@ -213,7 +212,6 @@
 ||intellipopup.com^
 ||adsco.re^
 ||cloudflareinsights.com^
-||d3mr7y154d2qg5.cloudfront.net^
 ||nehuihkn.com^
 ||pfqdxuxoeml.com^
 ||planningunavoidablenull.com^
@@ -235,12 +233,9 @@
 ||go-mpulse.net^
 ||akstat.io^
 ||hewmjifrn4gway.com^
-||logger007.cam4.com^
 ||upsell-apps.com^
 ||klaviyo.com^
 ||yotpo.com^
-||analytics.getshogun.com^
-||cozycountryredirectiv.addons.business^
 ||rakutenadvertising.io^
 ||rakuten.com^
 ||shukriya90.com^
@@ -294,17 +289,12 @@
 ||strpst.com^
 ||fxtiumvhfucrkp.com^
 ||zswxrfwnapgg.com^
-||d3mzokty951c5w.cloudfront.net^
 ||tvgvlpnpetxysl.com^
 ||bzwcgscqnf.com^
-||imasdk.googleapis.com^
-||d1f05vr3sjsuy7.cloudfront.net^
 ||ja2n2u30a6rgyd.com^
-||d18t35yyry2k49.cloudfront.net^
 ||predictiondexchange.com^
 ||blockadsnot.com^
 ||unusualbrainlessshotgun.com^
-||dnhfi5nn2dt67.cloudfront.net^
 ||gzbwdbipemilou.com^
 ||benevolencegardener.com^
 ||lickingimprovementpropulsion.com^
@@ -321,7 +311,6 @@
 ||rvapps.io^
 ||cohesionapps.com^
 ||sail-horizon.com^
-||ct.pinterest.com^
 ||ensighten.com^
 ||3gl.net^
 ||recommendation-newsletter.wpdigital.net^
@@ -1672,6 +1661,11 @@
 ||d3tozt7si7bmf7.cloudfront.net^
 ||d2z0twhaibasxg.cloudfront.net^
 ||d221oziut8gs4d.cloudfront.net^
+||d3mr7y154d2qg5.cloudfront.net^
+||d3mzokty951c5w.cloudfront.net^
+||d1f05vr3sjsuy7.cloudfront.net^
+||d18t35yyry2k49.cloudfront.net^
+||dnhfi5nn2dt67.cloudfront.net^
 ||counter.yadro.ru^
 ||connect.facebook.net^
 ||librato-collector.genius.com^
@@ -1692,7 +1686,12 @@
 ||launches.appflyer.com^
 ||syndication.twitter.com^
 ||track.analitycs.net^
-
+||ads.httpool.com^
+||logger007.cam4.com^
+||analytics.getshogun.com^
+||cozycountryredirectiv.addons.business^
+||imasdk.googleapis.com^
+||ct.pinterest.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
