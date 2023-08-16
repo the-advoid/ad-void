@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.64
-! Last modified: 2023-08-16T18:15:38.858+02:00
+! Version: 2.0.65
+! Last modified: 2023-08-16T18:16:59.989+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -29,7 +29,6 @@
 ||doubleclick.net^
 ||fastclick.com^
 ||fastclick.net^
-||analyticsengine.s3.amazonaws.com^
 ||advice-ads.s3.amazonaws.com^
 ||affiliationjs.s3.amazonaws.com^
 ||advertising-api-eu.amazon.com^
@@ -1692,6 +1691,7 @@
 ||ads.google.com^
 ||adservice.google.com^
 ||adtago.s3.amazonaws.com^
+||analyticsengine.s3.amazonaws.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
