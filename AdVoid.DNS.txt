@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.96
-! Last modified: 2023-08-16T19:10:25.498+02:00
+! Version: 2.0.97
+! Last modified: 2023-08-16T19:10:41.793+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -40,7 +40,6 @@
 ||luckyorange.com^
 ||ads-twitter.com^
 ||rereddit.com^
-||ads.yahoo.com^
 ||global.adserver.yahoo.com^
 ||analytics.yahoo.com^
 ||ads.yap.yahoo.com^
@@ -1692,6 +1691,7 @@
 ||ads-sg.tiktok.com^
 ||analytics.tiktok.com^
 ||ads.tiktok.com^
+||ads.yahoo.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
