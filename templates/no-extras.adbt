@@ -11,7 +11,7 @@ include './rules/add-ons/no-extras/endpoints.txt'
 
 nl
 
-# {@1} Block these subdomains
+# {@1} Block these files
 include './rules/add-ons/no-extras/files.txt'
 
 export './add-ons/AdVoid.Addon.NoExtras.txt'
