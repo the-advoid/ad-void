@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.73
-! Last modified: 2023-08-16T18:49:42.652+02:00
+! Version: 2.0.74
+! Last modified: 2023-08-16T18:53:33.707+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -38,7 +38,6 @@
 ||mouseflow.com^
 ||freshmarketer.com^
 ||luckyorange.com^
-||pixel.facebook.com^
 ||analytics.facebook.com^
 ||ads.facebook.com^
 ||an.facebook.com^
@@ -1692,6 +1691,7 @@
 ||api.bugsnag.com^
 ||app.bugsnag.com^
 ||app.getsentry.com^
+||pixel.facebook.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
