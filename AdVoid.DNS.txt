@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.85
-! Last modified: 2023-08-16T19:06:29.718+02:00
+! Version: 2.0.86
+! Last modified: 2023-08-16T19:07:01.291+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 1681
@@ -39,7 +39,6 @@
 ||freshmarketer.com^
 ||luckyorange.com^
 ||ads-twitter.com^
-||trk.pinterest.com^
 ||widgets.pinterest.com^
 ||ads.reddit.com^
 ||d.reddit.com^
@@ -1692,6 +1691,7 @@
 ||log.pinterest.com^
 ||ads-dev.pinterest.com^
 ||analytics.pinterest.com^
+||trk.pinterest.com^
 
 ||ureca.samsungapps.com^
 ||analytics.query.yahoo.com^
