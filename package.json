@@ -4,14 +4,7 @@
 	"version": "1.0.0",
 	"description": "✈️ An efficient AdBlock filter list that blocks ads, trackers, malwares, phishing attempts, fake download links, fake search results, and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast and a lot more! 👾",
 	"scripts": {
-		"lint": "aglint",
-		"make:core": "aria -f './templates/core.adbt' && advoid core && ./bin/bump.ps1",
-		"make:dns": "aria -f './templates/dns.adbt' && advoid dns",
-		"make:full": "aria -f './templates/full.adbt' && advoid full",
-		"make:noext": "aria -f './templates/no-externals.adbt' && advoid noexternals",
-		"make:noannoy": "aria -f './templates/no-annoyances.adbt' && advoid noannoyances",
-		"make:noextras": "aria -f './templates/no-extras.adbt' && advoid noextras",
-		"make:exp": "aria -f './templates/experiments.adbt' && advoid experiments"
+		"lint": "aglint"
 	},
 	"keywords": [
 		"adblock",
