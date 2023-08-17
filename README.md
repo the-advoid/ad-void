@@ -72,6 +72,11 @@ Consider buying me a coffee. ☕
 <br>
 <br>
 
+👽 Since *Aug 14 2023*, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files that provide ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler), which means more frequent updates and delivery on a daily basis.
+
+<br>
+<br>
+
 ## 🤹🏼‍♂️ Usage
 
 Install it into your ad-blocker by clicking on following subscribe link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=6666ff"></a> or by manually adding a filter list with the URL of: <br>
