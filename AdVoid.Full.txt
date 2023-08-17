@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.2
-! Last modified: 2023-08-17T00:06:14.560+02:00
+! Version: 2.0.3
+! Last modified: 2023-08-17T23:12:42.714+02:00
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3326
+! Entries: 3340
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1385,6 +1385,9 @@
 ||magsrv.com^
 ||navigationconcept.com^
 ||streetmilligram.com^
+||upgrade-phone.club^
+||smart-x.systems^
+||forjoiyvidspics.site^
 ||consentmanager.net^
 ||pushpushgo.com^
 ||intercom.io^
@@ -2785,6 +2788,13 @@ click_id=
 ##.paragraph--type--ad
 ##.advertising__container
 ##[id*="-dfptag"]
+###adDisplaySection
+##.top-ed-placeholder
+##.featured-advertisement-wrapper
+##.ga-ad-hero
+##.ga-ad-in-feed
+##.ga-ad-2
+##.onesignal-slidedown-container
 ###cookies-overlay
 ##.bottom-cookie-wrap
 ##.js-cookies
@@ -3093,6 +3103,9 @@ click_id=
 ##.alert-cookie
 ###cookiesConsent
 ##.footer__cookie
+##.consent-banner-root
+##.cookie-bot
+##.box-cookie-policy
 ###disqus_thread
 ##.sharing_toolbox
 ##.share-1
@@ -3364,6 +3377,7 @@ click_id=
 ##[class$="-social-block"]
 ##.Blogs-Share
 ##[class$="-social-wrapper"]
+##.btn-social-icon
 
 ! {@11} Hide these elements (site specific)
 
