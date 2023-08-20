@@ -1,0 +1,24 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+
+header './templates/headers/advoid-header.txt'
+
+nl
+
+tag 'Block these domains'
+include './rules/add-ons/no-annoyances/domains.txt'
+
+nl
+
+tag 'Block these endpoints'
+include './rules/add-ons/no-annoyances/endpoints.txt'
+
+nl
+
+tag 'Hide these elements'
+include './rules/add-ons/no-annoyances/cosmetic.txt'
+
+nl
+
+export './add-ons/AdVoid.Addon.NoAnnoyances.txt'
