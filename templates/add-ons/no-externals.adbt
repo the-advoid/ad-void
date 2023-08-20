@@ -1,0 +1,29 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+
+header './templates/headers/advoid-header.txt'
+
+nl
+
+tag 'Block these domains'
+include './rules/add-ons/no-externals/domains.txt'
+
+nl
+
+tag 'Block these files'
+include './rules/add-ons/no-externals/files.txt'
+
+nl
+
+tag 'Hide these elements'
+include './rules/add-ons/no-externals/cosmetic.txt'
+
+nl
+
+tag 'Restore these hidden elements'
+include './rules/add-ons/no-externals/restore-cosmetic.txt'
+
+nl
+
+export './add-ons/AdVoid.Addon.NoExternals.txt'
