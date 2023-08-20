@@ -6,22 +6,22 @@ header './templates/headers/advoid-header.txt'
 
 nl
 
-# {@0} Block these domains
+tag 'Block these domains'
 include './rules/add-ons/no-externals/domains.txt'
 
 nl
 
-# {@1} Block these files
+tag 'Block these files'
 include './rules/add-ons/no-externals/files.txt'
 
 nl
 
-# {@2} Hide these elements
+tag 'Hide these elements'
 include './rules/add-ons/no-externals/cosmetic.txt'
 
 nl
 
-# {@3} Restore these hidden elements
+tag 'Restore these hidden elements'
 include './rules/add-ons/no-externals/restore-cosmetic.txt'
 
 nl
