@@ -7,10 +7,11 @@
 ! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
 !
 !
+! {@!}
 ! Title: AdVoid.Scriptlets.AntiAntiAdBlock
-! Description: Blocks ads and other annoyances using advanced techniques.
-! Version: 1.0.4
-! Last modified: 2023-08-21T00:04:00+0200
+! Description: Infiltrates and then destroys common anti-adblock techniques 💥
+! Version: 1.0.5
+! Last modified: 2023-08-20T22:52:15.238+02:00
 ! Expires: 48 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 24
@@ -18,16 +19,10 @@
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
 ! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
+! Maintained by: Aria & igorskyflyer
 ! Source: World Wide Web
 
-##+js(set, dotcom, { flags: { adverts: 1, analytics: 1 }, userinfo: { ads: 1 }, initAnalytics: function() {} })
-##+js(set, zarazData, {})
-##+js(set, zaraz, { track: function() {} })
-##+js(set, demandSupply, { pfAds: true, setPfAds: function() {} })
-##+js(set, AdTrack, { init: function() {} })
-##+js(set, _carbonads, { init: function() {} })
-##+js(set, MDCore, { adblock: 0 })
-
+! {@0} Hijack these primitives
 ##+js(set, hasAdBlocker, false)
 ##+js(set, abp, false)
 
@@ -40,6 +35,16 @@
 
 ##+js(set, google_ad_status, 1)
 
+! {@1} Hijack these objects
+##+js(set, dotcom, { flags: { adverts: 1, analytics: 1 }, userinfo: { ads: 1 }, initAnalytics: function() {} })
+##+js(set, zarazData, {})
+##+js(set, zaraz, { track: function() {} })
+##+js(set, demandSupply, { pfAds: true, setPfAds: function() {} })
+##+js(set, AdTrack, { init: function() {} })
+##+js(set, _carbonads, { init: function() {} })
+##+js(set, MDCore, { adblock: 0 })
+
+! {@2} Hijack these functions
 ##+js(set, GeneratorAds, function() {})
 ##+js(set, Ads_PushPage, function() {})
 ##+js(set, Ads_Popunder, function() {})
@@ -48,4 +53,5 @@
 ##+js(set, AdscoreInit, function() {})
 ##+js(set, GalaBanner, function() {})
 
+! {@3} Hijack using advanced functions
 ##+js(acs, eval, ignielAdBlock)
