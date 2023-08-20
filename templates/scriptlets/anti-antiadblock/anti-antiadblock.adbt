@@ -1,0 +1,27 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+
+header './templates/headers/advoid-header.txt'
+
+nl
+
+tag 'Hijack these primitives'
+include './rules/scriptlets/anti-antiadblock/primitives.txt'
+
+nl
+
+tag 'Hijack these objects'
+include './rules/scriptlets/anti-antiadblock/objects.txt'
+
+nl
+
+tag 'Hijack these functions'
+include './rules/scriptlets/anti-antiadblock/functions.txt'
+
+nl
+
+tag 'Hijack using advanced functions'
+include './rules/scriptlets/anti-antiadblock/advanced.txt'
+
+export './scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt'
