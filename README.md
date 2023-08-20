@@ -23,7 +23,7 @@
 
 <div align="center" style="margin: auto;">
   <img src="https://custom-icon-badges.herokuapp.com/badge/launched-Feb%2015,%202022-0099ff?style=flat-square&logo=history" alt="AdVoid is available from Feb 15, 2022">
-  <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-2.0.287-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-2.0.288-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://custom-icon-badges.herokuapp.com/badge/modules-3-blue?style=flat-square&logo=package&logoColor=white&color=BF2745"></a>
 	<br>
