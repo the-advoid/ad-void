@@ -6,17 +6,17 @@ header './templates/headers/advoid-header.txt'
 
 nl
 
-# {@0} Block these domains
+tag 'Block these domains'
 include './rules/add-ons/no-annoyances/domains.txt'
 
 nl
 
-# {@1} Block these endpoints
+tag 'Block these endpoints'
 include './rules/add-ons/no-annoyances/endpoints.txt'
 
 nl
 
-# {@2} Hide these elements
+tag 'Hide these elements'
 include './rules/add-ons/no-annoyances/cosmetic.txt'
 
 nl
