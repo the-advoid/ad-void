@@ -6,17 +6,17 @@ header './templates/headers/advoid-header.txt'
 
 nl
 
-# {@0} Block these domains
+tag 'Block these domains'
 include './rules/dns/domains.txt'
 
 nl
 
-# {@1} Block these subdomains
+tag 'Block these subdomains'
 include './rules/dns/subdomains.txt'
 
 nl
 
-# {@2} Block these specific endpoints
+tag 'Block these specific endpoints'
 include './rules/dns/endpoints.txt'
 
 nl
