@@ -1,0 +1,7 @@
+##+js(set, dotcom, { flags: { adverts: 1, analytics: 1 }, userinfo: { ads: 1 }, initAnalytics: function() {} })
+##+js(set, zarazData, {})
+##+js(set, zaraz, { track: function() {} })
+##+js(set, demandSupply, { pfAds: true, setPfAds: function() {} })
+##+js(set, AdTrack, { init: function() {} })
+##+js(set, _carbonads, { init: function() {} })
+##+js(set, MDCore, { adblock: 0 })
