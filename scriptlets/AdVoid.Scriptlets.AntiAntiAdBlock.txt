@@ -9,11 +9,11 @@
 !
 ! Title: AdVoid.Scriptlets.AntiAntiAdBlock
 ! Description: Blocks ads and other annoyances using advanced techniques.
-! Version: 1.0.3
-! Last modified: 2023-07-20T21:14:00+0200
-! Expires: 6 hours (update frequency)
+! Version: 1.0.4
+! Last modified: 2023-08-21T00:04:00+0200
+! Expires: 48 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 23
+! Entries: 24
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -46,5 +46,6 @@
 ##+js(set, Ads_Vignette, function() {})
 ##+js(set, AdsPlugin, function() {})
 ##+js(set, AdscoreInit, function() {})
+##+js(set, GalaBanner, function() {})
 
 ##+js(acs, eval, ignielAdBlock)
