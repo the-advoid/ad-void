@@ -6,72 +6,72 @@ header './templates/headers/advoid-header.txt'
 
 nl
 
-# {@0} Block these domains
+tag 'Block these domains'
 include './rules/core/domains.txt'
 
 nl
 
-# {@1} Block these subdomains
+tag 'Block these subdomains'
 include './rules/core/subdomains.txt'
 
 nl
 
-# {@2} Block these specific endpoints - global
+tag 'Block these specific endpoints - global'
 include './rules/core/endpoints-global.txt'
 
 nl
 
-# {@3} Block these specific endpoints - site-specific
+tag 'Block these specific endpoints - site-specific'
 include './rules/core/endpoints-site.txt'
 
 nl
 
-# {@4} XMLHttpRequest paths - global
+tag 'XMLHttpRequest paths - global'
 include './rules/core/ajax-global.txt'
 
 nl
 
-# {@5} XMLHttpRequest paths - site-specific
+tag 'XMLHttpRequest paths - site-specific'
 include './rules/core/ajax-site.txt'
 
 nl
 
-# {@6} Block these specific files - global
+tag 'Block these specific files - global'
 include './rules/core/files-global.txt'
 
 nl
 
-# {@7} Block these specific files - site-specific
+tag 'Block these specific files - site-specific'
 include './rules/core/files-site.txt'
 
 nl
 
-# {@8} RegEx heavy rules
+tag 'RegEx heavy rules'
 include './rules/core/regexp.txt'
 
 nl
 
-# {@9} Block the URLs containing these queries
+tag 'Block the URLs containing these queries'
 include './rules/core/query.txt'
 
 nl
 
-# {@10} Hide these elements - global
+tag 'Hide these elements - global'
 include './rules/core/cosmetic-global.txt'
 
 nl
 
-# {@11} Hide these elements (site specific)
+tag 'Hide these elements (site specific)'
 include './rules/core/cosmetic-site.txt'
 
 nl
 
-# {@12} Restore these changes
+tag 'Restore these changes'
 include './rules/core/restore-cosmetic.txt'
 
 nl
 
-# {@13} Advanced filters
+tag 'Advanced filters'
 include './rules/core/advanced.txt'
 
 export './AdVoid.Core.txt'
