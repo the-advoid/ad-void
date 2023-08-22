@@ -20,3 +20,4 @@
 /ajax/banner^$xmlhttprequest
 /rneve^$xmlhttprequest,script
 /afu.php^$xmlhttprequest
+/ajax/get_4ads.php^$xmlhttprequest
