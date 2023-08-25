@@ -7,12 +7,12 @@ header './templates/headers/advoid-header.txt'
 nl
 
 tag 'Block these domains'
-include './rules/core/domains.txt'
+include './rules/common/domains.txt'
 
 nl
 
 tag 'Block these subdomains'
-include './rules/core/subdomains.txt'
+include './rules/common/subdomains.txt'
 
 nl
 
