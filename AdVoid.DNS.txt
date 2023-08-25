@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.261
-! Last modified: 2023-08-25T00:48:07.313+02:00
+! Version: 2.0.262
+! Last modified: 2023-08-25T00:52:49.335+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1815
+! Entries: 1810
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1558,12 +1558,7 @@
 ||tracking.intl.miui.com^
 ||tracking.india.miui.com^
 ||tracking.rus.miui.com^
-||metrics.data.hicloud.com^
-||metrics1.data.hicloud.com^
-||metrics2.data.hicloud.com^
-||metrics3.data.hicloud.com^
-||metrics4.data.hicloud.com^
-||metrics5.data.hicloud.com^
+||metrics*.data.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
 ||metrics-dra.dt.hicloud.com^
