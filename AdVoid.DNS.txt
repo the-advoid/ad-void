@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.259
-! Last modified: 2023-08-24T21:49:02.545+02:00
+! Version: 2.0.260
+! Last modified: 2023-08-25T00:40:18.865+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1803
+! Entries: 1813
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -172,7 +172,7 @@
 ||brealtime.com^
 ||indexww.com^
 ||luciascipher.com^
-||ocdn.eu^$script
+||ocdn.eu^
 ||aklamator.com^
 ||openx.net^
 ||chartbeat.com^
@@ -881,10 +881,12 @@
 ||predicamentdisconnect.com^
 ||qualtrics.com^
 ||aloofvest.com^
+||atebilaterde.one^
 ||rtyvaluation.shop^
 ||possessionaddictedflight.com^
 ||decencyjessiebloom.com^
 ||clean-1-clean.club^
+||showedsyllabus.com^
 ||cuddlethehyena.co^
 ||stoopsellers.com^
 ||brithungown.com^
@@ -895,8 +897,6 @@
 ||youradexchange.com^
 ||tectalmammula.casa^
 ||inklinkor.com^
-||google.com/afs/ads^
-||google.com/adsense/^$third-party
 ||hq3x.com^
 ||4hfchest5kdnfnut.com^
 ||swimsunleisure.com^
@@ -1091,8 +1091,8 @@
 ||ryeqnyvbncdvg.com^
 ||ojqbnqdwycws.com^
 ||jeckoort.com^
-||cadetrigourlegitimate.com^
 ||qctlgsxa.com^
+||cadetrigourlegitimate.com^
 ||monkeysloveyou.com^
 ||iortnhooping.website^
 ||facinggleg.life^
@@ -1111,8 +1111,10 @@
 ||specialistinsensitive.com^
 ||veilsuccessfully.com^
 ||tractorfoolproofstandard.com^
+||shukriya90.com^
 ||friendshipmale.com^
 ||yearbookhobblespinal.com^
+||addresseepaper.com^
 ||o333o.com^
 ||mn1nm.com^
 ||whiskerssituationdisturb.com^
@@ -1202,6 +1204,9 @@
 ||serve-servee.com^
 ||oaphoace.net^
 ||boustahe.com^
+||propu.sh^
+||air2s.com^
+||lephaush.net^
 ||dosnoyhkd.com^
 ||ethicalads.io^
 ||instl-soft.com^
@@ -1227,6 +1232,7 @@
 ||d-enter.cfd^
 ||d-floor.cfd^
 ||adspyglass.net^
+||adspyglass.com^
 ||qhip.com^
 ||demand.supply^
 ||sulvo.com^
@@ -1239,7 +1245,6 @@
 ||chefishoani.com^
 ||nanouwho.com^
 ||thefacux.com^
-||cdnads.com^
 ||stpd.cloud^
 ||setupad.com^
 ||bestcontenttechnology.top^
@@ -1316,6 +1321,7 @@
 ||libedgolart.com^
 ||patgsrv.com^
 ||w-x.co^
+||ad-delivery.net^
 ||btmessage.com^
 ||mndsrv.com^
 ||notifications.website^
@@ -1368,6 +1374,7 @@
 ||rkgwzfwjgk.com^
 ||xitabs.com^
 ||esrbkneqve.com^
+||cdnads.com^
 ||xarrktnoosey.com^
 ||pratimojpaket.com^
 ||claspedtwelve.com^
@@ -1387,6 +1394,7 @@
 ||gaibakur.net^
 ||pieafset.click^
 ||skymobi.agency^
+||iairkldocd.com^
 ||pinandxc.net^
 ||ask4fuk.com^
 ||expdirclk.com^
@@ -1489,7 +1497,6 @@
 ||functionfreaklacerate.com^
 ||deductionkeepingbabysitter.com^
 ||wamarapayor.com^
-
 ! {@1} Block these subdomains
 ||ads.google.com^
 ||adservice.google.com^
@@ -1580,36 +1587,21 @@
 ||pixel.wp.com^
 ||d31qbv1cthcecs.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
-||d3l739e8r8y9v7.cloudfront.net^
-||dmz3nd5oywtsw.cloudfront.net^
-||d3tozt7si7bmf7.cloudfront.net^
-||d2z0twhaibasxg.cloudfront.net^
-||d221oziut8gs4d.cloudfront.net^
-||d3mr7y154d2qg5.cloudfront.net^
-||d3mzokty951c5w.cloudfront.net^
-||d1f05vr3sjsuy7.cloudfront.net^
-||d18t35yyry2k49.cloudfront.net^
-||dnhfi5nn2dt67.cloudfront.net^
-||d3numuoibysgi8.cloudfront.net^
-||d2ichgn6omvugs.cloudfront.net^
-||d2xerlamkztbb1.cloudfront.net^
-||d3g5ovfngjw9bw.cloudfront.net^
-||d11enq2rymy0yl.cloudfront.net^
-||dsh7ky7308k4b.cloudfront.net^
-||d2c8v52ll5s99u.cloudfront.net^
-||d1fc8wv8zag5ca.cloudfront.net^
 ||counter.yadro.ru^
+||d3l739e8r8y9v7.cloudfront.net^
 ||connect.facebook.net^
 ||librato-collector.genius.com^
-||stats.pusher.com^
 ||apps.media-lab.ai^
+||stats.pusher.com^
 ||adtarget.com.tr^
-||collector.xhamster.com^
 ||whos.amung.us^
 ||js-agent.newrelic.com^
 ||dumpster.cam4.com^
 ||s.st1net.com^
+||collector.xhamster.com^
 ||hubt.pornhub.com^
+||dmz3nd5oywtsw.cloudfront.net^
+||d3tozt7si7bmf7.cloudfront.net^
 ||af.opera.com^
 ||pns-sdk.opera-api.com^
 ||ofa-sub.osp.opera.software^
@@ -1618,11 +1610,18 @@
 ||launches.appflyer.com^
 ||syndication.twitter.com^
 ||track.analitycs.net^
+||d2z0twhaibasxg.cloudfront.net^
+||d221oziut8gs4d.cloudfront.net^
 ||ads.httpool.com^
+||d3mr7y154d2qg5.cloudfront.net^
 ||logger007.cam4.com^
 ||analytics.getshogun.com^
 ||cozycountryredirectiv.addons.business^
+||d3mzokty951c5w.cloudfront.net^
 ||imasdk.googleapis.com^
+||d1f05vr3sjsuy7.cloudfront.net^
+||d18t35yyry2k49.cloudfront.net^
+||dnhfi5nn2dt67.cloudfront.net^
 ||ct.pinterest.com^
 ||recommendation-newsletter.wpdigital.net^
 ||cdn.krxd.net^
@@ -1646,6 +1645,7 @@
 ||dai.shuzilm.cn^
 ||firebaselogging-pa.googleapis.com^
 ||mms.cnn.com^
+||d3numuoibysgi8.cloudfront.net^
 ||geo.yahoo.com^
 ||fundingchoicesmessages.google.com^
 ||bat.bing.com^
@@ -1662,14 +1662,20 @@
 ||analytics-gateway.delta.dp.lightricks.com^
 ||ads-servebom-com.cdn.ampproject.org^
 ||bs-surnameanalysis-com.cdn.ampproject.org^
+||d2ichgn6omvugs.cloudfront.net^
 ||ga.getresponse.com^
+||d2xerlamkztbb1.cloudfront.net^
 ||index-log.getresponse.com^
 ||analytic.rollout.io^
+||d3g5ovfngjw9bw.cloudfront.net^
 ||metrics.crazyegg.com^
 ||location.services.mozilla.com^
 ||log*.byteoversea.com^
+||d11enq2rymy0yl.cloudfront.net^
 ||track.bloglog.com^
+||dsh7ky7308k4b.cloudfront.net^
 ||mc.webvisor.org^
+||d2c8v52ll5s99u.cloudfront.net^
 ||journey.wired.com^
 ||pubgw.yahoo.com^
 ||rumcdn.geoedge.be^
@@ -1680,6 +1686,7 @@
 ||matomo.ic.training^
 ||stats.paypal.com^
 ||unagi.amazon.com^
+||d1fc8wv8zag5ca.cloudfront.net^
 ||confiant-integrations.global.ssl.fastly.net^
 ||pr-bh.ybp.yahoo.com^
 ||adskeeper.co.uk^
@@ -1713,7 +1720,6 @@
 ||tag.durationmedia.net^
 ||a.nel.cloudflare.com^
 ||events.release.narrativ.com^
-||adem.my.id^
 ||d3qinhqny4thfo.cloudfront.net^
 ||d2yyd1h5u9mauk.cloudfront.net^
 ||crashlyticsreports-pa.googleapis.com^
@@ -1738,13 +1744,13 @@
 ||trk.topfxpro.com^
 ||px.srvcs.tumblr.com^
 ||d1esebcdm6wx7j.cloudfront.net^
-||pingback.issuu.com^
 ||analytics.dealer.com^
 ||pureinfluencer.idrove.it^
 ||d192r5l88wrng7.cloudfront.net^
 ||logs.browser-intake-datadoghq.eu^
 ||svibeacon.onezapp.com^
 ||log.videocampaign.co^
+||log.r2b2.io^
 ||logs.roku.com^
 ||ads.roku.com^
 ||tracking.scenepass.com^
@@ -1753,6 +1759,7 @@
 ||an.yandex.ru^
 ||ggg.xhamster.com^
 ||hbrt.adobe.com^
+||adobe.demdex.net^
 ||sstats.adobe.com^
 ||analytics.shareaholic.com^
 ||a.naturalhealthsource.club^
@@ -1773,6 +1780,7 @@
 ||tracker.redditmedia.com^
 ||ads.twitter.com^
 ||analytics.twitter.com^
+||static.ads-twitter.com^
 ||pixel.tatpek.com^
 ||37.1.213.100^
 ||click.googleanalytics.com^
@@ -1806,6 +1814,7 @@
 ||grs.hicloud.com^
 ||dc.dqa.samsung.com^
 ||ureca.samsungapps.com^
+||projectagora-d.openx.net^
 ||analytics.query.yahoo.com^
 ||ads-api.tiktok.com^
 ||advertising.yahoo.com^
@@ -1821,7 +1830,6 @@
 ||log*.tiktokv.com^
 ||xlog*.tiktokv.com^
 ||rtlog*.tiktokv.com^
-
 ! {@2} Block these specific endpoints
 ||google.com/log^
 ||netflix.com/personalization/log^
