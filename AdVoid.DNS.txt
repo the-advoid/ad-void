@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.262
-! Last modified: 2023-08-25T00:52:49.335+02:00
+! Version: 2.0.263
+! Last modified: 2023-08-25T00:54:01.334+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1810
+! Entries: 1808
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1546,9 +1546,7 @@
 ||api.ad.xiaomi.com^
 ||app.chat.xiaomi.net^
 ||data.mistat.xiaomi.com^
-||data.mistat.intl.xiaomi.com^
-||data.mistat.india.xiaomi.com^
-||data.mistat.rus.xiaomi.com^
+||data.mistat.*.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
 ||sdkconfig.ad.intl.xiaomi.com^
 ||globalapi.ad.xiaomi.com^
