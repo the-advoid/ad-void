@@ -39,12 +39,6 @@
 
 <br>
 
-<p align="center">
- <a href="https://github.com/igorskyflyer/ad-void/actions/workflows/generator.yml"><img src="https://github.com/igorskyflyer/ad-void/actions/workflows/generator.yml/badge.svg"></a>
-</p>
-
-<br>
-
 <div align="center">
 	<blockquote>
 		<h4>💖 Support further development</h4>
@@ -74,7 +68,7 @@
 <br>
 <br>
 
-👽 Since *Aug 14 2023*, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files that provide ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler), which means more frequent updates and delivery on a daily basis.
+👽 Since *Aug 14 2023*, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler), which means more frequent updates and delivery on a daily basis.
 
 <br>
 <br>
