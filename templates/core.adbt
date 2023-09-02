@@ -4,6 +4,10 @@
 
 header './templates/headers/advoid-header.txt'
 
+meta title = 'AdVoid.Core'
+meta description = '✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾'
+meta expires = '12 hours'
+
 nl
 
 tag 'Block these domains'
