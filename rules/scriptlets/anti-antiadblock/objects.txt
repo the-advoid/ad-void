@@ -5,3 +5,4 @@
 ##+js(set, AdTrack, { init: function() {} })
 ##+js(set, _carbonads, { init: function() {} })
 ##+js(set, MDCore, { adblock: 0 })
+##+js(set, adsconfig, {})
