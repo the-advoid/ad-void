@@ -7,5 +7,6 @@
 ##+js(set, zfgloadedpopup, true)
 ##+js(set, canRunAds, true)
 ##+js(set, canRunAdvertise, true)
+##+js(set, isAdEnabled, true)
 
 ##+js(set, google_ad_status, 1)
