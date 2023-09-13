@@ -12,71 +12,71 @@ meta expires = '12 hours'
 nl
 
 tag 'Block these domains'
-include './rules/common/domains.txt'
+include './rules/common/domains.txt' sort
 
 nl
 
 tag 'Block these subdomains'
-include './rules/common/subdomains.txt'
+include './rules/common/subdomains.txt' sort
 
 nl
 
 tag 'Block these specific endpoints - global'
-include './rules/core/endpoints-global.txt'
+include './rules/core/endpoints-global.txt' sort
 
 nl
 
 tag 'Block these specific endpoints - site-specific'
-include './rules/core/endpoints-site.txt'
+include './rules/core/endpoints-site.txt' sort
 
 nl
 
 tag 'XMLHttpRequest paths - global'
-include './rules/core/ajax-global.txt'
+include './rules/core/ajax-global.txt' sort
 
 nl
 
 tag 'XMLHttpRequest paths - site-specific'
-include './rules/core/ajax-site.txt'
+include './rules/core/ajax-site.txt' sort
 
 nl
 
 tag 'Block these specific files - global'
-include './rules/core/files-global.txt'
+include './rules/core/files-global.txt' sort
 
 nl
 
 tag 'Block these specific files - site-specific'
-include './rules/core/files-site.txt'
+include './rules/core/files-site.txt' sort
 
 nl
 
 tag 'RegEx heavy rules'
-include './rules/core/regexp.txt'
+include './rules/core/regexp.txt' sort
 
 nl
 
 tag 'Block the URLs containing these queries'
-include './rules/core/query.txt'
+include './rules/core/query.txt' sort
 
 nl
 
 tag 'Hide these elements - global'
-include './rules/core/cosmetic-global.txt'
+include './rules/core/cosmetic-global.txt' sort
 
 nl
 
 tag 'Hide these elements (site specific)'
-include './rules/core/cosmetic-site.txt'
+include './rules/core/cosmetic-site.txt' sort
 
 nl
 
 tag 'Restore these changes'
-include './rules/core/restore-cosmetic.txt'
+include './rules/core/restore-cosmetic.txt' sort
 
 nl
 
 tag 'Advanced filters'
-include './rules/core/advanced.txt'
+include './rules/core/advanced.txt' sort
 
 export './AdVoid.Core.txt'
