@@ -8,11 +8,11 @@ header './templates/headers/advoid-header.txt'
 nl
 
 tag 'Block these endpoints'
-include './rules/add-ons/no-extras/endpoints.txt'
+include './rules/add-ons/no-extras/endpoints.txt' sort
 
 nl
 
 tag 'Block these files'
-include './rules/add-ons/no-extras/files.txt'
+include './rules/add-ons/no-extras/files.txt' sort
 
 export './add-ons/AdVoid.Addon.NoExtras.txt'
