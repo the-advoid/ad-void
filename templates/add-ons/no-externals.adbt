@@ -8,22 +8,22 @@ header './templates/headers/advoid-header.txt'
 nl
 
 tag 'Block these domains'
-include './rules/add-ons/no-externals/domains.txt'
+include './rules/add-ons/no-externals/domains.txt' sort
 
 nl
 
 tag 'Block these files'
-include './rules/add-ons/no-externals/files.txt'
+include './rules/add-ons/no-externals/files.txt' sort
 
 nl
 
 tag 'Hide these elements'
-include './rules/add-ons/no-externals/cosmetic.txt'
+include './rules/add-ons/no-externals/cosmetic.txt' sort
 
 nl
 
 tag 'Restore these hidden elements'
-include './rules/add-ons/no-externals/restore-cosmetic.txt'
+include './rules/add-ons/no-externals/restore-cosmetic.txt' sort
 
 nl
 
