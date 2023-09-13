@@ -8,17 +8,17 @@ header './templates/headers/advoid-header.txt'
 nl
 
 tag 'Block these domains'
-include './rules/add-ons/no-annoyances/domains.txt'
+include './rules/add-ons/no-annoyances/domains.txt' sort
 
 nl
 
 tag 'Block these endpoints'
-include './rules/add-ons/no-annoyances/endpoints.txt'
+include './rules/add-ons/no-annoyances/endpoints.txt' sort
 
 nl
 
 tag 'Hide these elements'
-include './rules/add-ons/no-annoyances/cosmetic.txt'
+include './rules/add-ons/no-annoyances/cosmetic.txt' sort
 
 nl
 
