@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.398
-! Last modified: 2023-09-18T20:54:11.294+02:00
+! Version: 2.0.399
+! Last modified: 2023-09-18T20:57:02.224+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2834
@@ -2873,7 +2873,7 @@ zoneid=
 
 ! {@11} Hide these elements (site specific)
 emulatorgames.net##.site-label
-emulatorgames.net##.site-unit-lg
+emulatorgames.net##[class^="site-unit"]
 
 ! {@12} Restore these changes
 #@#body.banner
