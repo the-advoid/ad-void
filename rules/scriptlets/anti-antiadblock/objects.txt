@@ -6,3 +6,4 @@
 ##+js(set, _carbonads, { init: function() {} })
 ##+js(set, MDCore, { adblock: 0 })
 ##+js(set, adsconfig, {})
+##+js(set, ez_ad_units, { push: function() {} })
