@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.440
-! Last modified: 2023-09-27T13:12:53.263+02:00
+! Version: 2.0.441
+! Last modified: 2023-09-27T18:47:58.204+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2869
+! Entries: 2870
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2301,14 +2301,17 @@ videojs.ads.css^
 ||paypal.com/tagmanager/pptm.js^
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^
 
-! {@8} RegEx heavy rules
+! {@8} Restore these specific files - site-specific
+@@||mobilelegends.com/*/report/report.js^
+
+! {@9} RegEx heavy rules
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /mp3yad.net\/.{7}\.php/
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
 
-! {@9} Block the URLs containing these queries
+! {@10} Block the URLs containing these queries
 &adshow
 &com_ads
 ab=1
@@ -2369,7 +2372,7 @@ utm_content=Image_ad
 utm_term=ads
 zoneid=
 
-! {@10} Hide these elements - global
+! {@11} Hide these elements - global
 ###ablock-notify
 ###action-companion-click-target
 ###ad
@@ -2905,16 +2908,16 @@ zoneid=
 ##wio-x
 ##ytd-companion-slot-renderer
 
-! {@11} Hide these elements (site specific)
+! {@12} Hide these elements (site specific)
 emulatorgames.net##.site-label
 emulatorgames.net##[class^="site-unit"]
 gsmarena.com###subHeader
 
-! {@12} Restore these changes
+! {@13} Restore these changes
 #@#body.banner
 mail.google.com#@#.ads
 
-! {@13} Advanced filters
+! {@14} Advanced filters
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
