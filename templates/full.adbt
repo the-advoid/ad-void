@@ -53,6 +53,11 @@ include './rules/core/files-site.txt' sort
 
 nl
 
+tag 'Restore these specific files - site-specific'
+include './rules/core/files-restore-site.txt' sort
+
+nl
+
 tag 'RegEx heavy rules'
 include './rules/core/regexp.txt' sort
 
