@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.313
-! Last modified: 2023-09-27T18:48:02.432+02:00
+! Version: 2.0.314
+! Last modified: 2023-09-27T18:50:04.523+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3589
+! Entries: 3590
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2427,14 +2427,17 @@ videojs.ads.css^
 ||paypal.com/tagmanager/pptm.js^
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^
 
-! {@8} RegEx heavy rules
+! {@8} Restore these specific files - site-specific
+@@||mobilelegends.com/*/report/report.js^
+
+! {@9} RegEx heavy rules
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /mp3yad.net\/.{7}\.php/
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
 
-! {@9} Block the URLs containing these queries
+! {@10} Block the URLs containing these queries
 &adshow
 &com_ads
 ab=1
@@ -2495,7 +2498,7 @@ utm_content=Image_ad
 utm_term=ads
 zoneid=
 
-! {@10} Hide these elements - global
+! {@11} Hide these elements - global
 ###ablock-notify
 ###action-companion-click-target
 ###ad
@@ -3623,18 +3626,18 @@ zoneid=
 ##[class^="SocialIconsWrapper-"]
 ##amp-social-share
 
-! {@11} Hide these elements (site specific)
+! {@12} Hide these elements (site specific)
 emulatorgames.net##.site-label
 emulatorgames.net##[class^="site-unit"]
 gsmarena.com###subHeader
 
-! {@12} Restore these changes
+! {@13} Restore these changes
 #@#body.banner
 mail.google.com#@#.ads
 linkedin.com#@#.share-box
 neoseeker.com#@#.social_share
 
-! {@13} Advanced filters
+! {@14} Advanced filters
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
