@@ -6,3 +6,4 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlac
 streamtape.*##+js(abort-on-property-write, _pop)
 streamtape.*##+js(no-setInterval-if, adblock)
 streamtape.*##+js(no-window-open-if)
+streamtape.*##+js(remove-attr, target, #downloadvideo)
