@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.331
-! Last modified: 2023-10-02T21:36:03.160+02:00
+! Version: 2.0.332
+! Last modified: 2023-10-02T21:36:26.899+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3608
+! Entries: 3609
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3640,6 +3640,7 @@ emulatorgames.net##.site-label
 emulatorgames.net##[class^="site-unit"]
 gsmarena.com###subHeader
 streamtape.*##[class*="bn-container"]
+streamtape.*##div[style*="z-index: 300000;"]
 
 ! {@13} Restore these changes
 #@#body.banner
