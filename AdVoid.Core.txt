@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.527
-! Last modified: 2023-10-10T16:54:16.724+02:00
+! Version: 2.0.528
+! Last modified: 2023-10-10T16:54:36.962+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2947
+! Entries: 2948
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2989,6 +2989,7 @@ streamtape.*##+js(nano-setTimeout-booster, counter)
 streamtape.*##+js(no-setInterval-if, adblock)
 streamtape.*##+js(no-window-open-if)
 streamtape.*##+js(remove-attr, target, #downloadvideo)
+sxyprn.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 sxyprn.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
 sxyprn.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 sxyprn.*##+js(abort-current-script, vast_urls)
