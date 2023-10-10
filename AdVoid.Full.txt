@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.407
-! Last modified: 2023-10-10T16:52:49.042+02:00
+! Version: 2.0.408
+! Last modified: 2023-10-10T16:53:12.781+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3670
+! Entries: 3671
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3716,6 +3716,7 @@ streamtape.*##+js(nano-setTimeout-booster, counter)
 streamtape.*##+js(no-setInterval-if, adblock)
 streamtape.*##+js(no-window-open-if)
 streamtape.*##+js(remove-attr, target, #downloadvideo)
+sxyprn.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
 sxyprn.*##+js(abort-on-property-write, __aaZoneid)
 www.google.*##+js(set-constant, rwt, noopFunc)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
