@@ -21,3 +21,4 @@ hihihaha1.xyz##+js(abort-current-script, document.documentElement, break;case $.
 hihihaha1.xyz##+js(no-window-open-if, /^/, 1)
 sxyprn.*##+js(abort-on-property-write, __aaZoneid)
 sxyprn.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
+sxyprn.*##+js(abort-on-property-read, popns)
