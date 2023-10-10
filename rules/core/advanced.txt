@@ -24,3 +24,4 @@ sxyprn.*##+js(abort-current-script, document.createElement, /l\.parentNode\.inse
 sxyprn.*##+js(abort-on-property-read, popns)
 sxyprn.*##+js(abort-current-script, vast_urls)
 sxyprn.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+sxyprn.*##+js(abort-current-script, decodeURI, decodeURIComponent)
