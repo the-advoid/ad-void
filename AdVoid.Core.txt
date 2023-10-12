@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.541
-! Last modified: 2023-10-12T21:36:31.461+02:00
+! Version: 2.0.542
+! Last modified: 2023-10-12T21:36:52.130+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2959
+! Entries: 2960
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3006,6 +3006,7 @@ sxyprn.*##+js(abort-on-property-write, __aaZoneid)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 www.google.*##+js(set-constant, rwt, noopFunc)
 youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?AD_PLACEMENT_KIND_END.*?\"\}\}\}\]\,/, , url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /"adSlots.*?SLOT_TRIGGER_EVENT_BEFORE_CONTENT.*?\}\]\}\}\]\,/, , url:player?key=)
 youtube.com##+js(trusted-replace-fetch-response, /"playerAds.*?gutParams":\{"tag":"\\.*?\}\}\]\,/, , url:player?key=)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
