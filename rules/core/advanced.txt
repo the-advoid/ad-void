@@ -26,3 +26,4 @@ sxyprn.*##+js(abort-current-script, vast_urls)
 sxyprn.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 sxyprn.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
+*$frame,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
