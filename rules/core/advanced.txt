@@ -29,3 +29,4 @@ thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 *$frame,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 youtube.com##+js(trusted-replace-fetch-response, /"playerAds.*?gutParams":\{"tag":"\\.*?\}\}\]\,/, , url:player?key=)
 youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?AD_PLACEMENT_KIND_END.*?\"\}\}\}\]\,/, , url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /"adSlots.*?SLOT_TRIGGER_EVENT_BEFORE_CONTENT.*?\}\]\}\}\]\,/, , url:player?key=)
