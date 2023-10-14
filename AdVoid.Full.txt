@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.456
-! Last modified: 2023-10-14T19:43:37.846+02:00
+! Version: 2.0.457
+! Last modified: 2023-10-14T19:44:16.944+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3717
+! Entries: 3718
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3720,6 +3720,7 @@ paypal.com#@#[class*="CookieBanner"]
 netlify.com#@#.btn-social
 
 ! {@12} Hide these elements (site specific)
+aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
 apkdone.com##div[style^="height:250px"]
 emulatorgames.net##.site-label
 emulatorgames.net##[class^="site-unit"]
