@@ -5,3 +5,4 @@ streamtape.*##[class*="bn-container"]
 streamtape.*##div[style*="z-index: 300000;"]
 apkdone.com##div[style^="height:250px"]
 thisvid.com##.spots
+aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
