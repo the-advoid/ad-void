@@ -17,6 +17,11 @@ include './rules/add-ons/no-annoyances/endpoints.txt' sort
 
 nl
 
+tag 'Block these files (global)'
+include './rules/add-ons/no-annoyances/files-global.txt' sort
+
+nl
+
 tag 'Hide these elements'
 include './rules/add-ons/no-annoyances/cosmetic.txt' sort
 
