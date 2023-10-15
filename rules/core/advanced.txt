@@ -35,3 +35,4 @@ porntrex.com##+js(disable-newtab-links)
 streamtape.*##+js(disable-newtab-links)
 streamnoads.com##+js(disable-newtab-links)
 *$script,3p,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
+teleperformance.com##body:style(overflow: auto!important;)
