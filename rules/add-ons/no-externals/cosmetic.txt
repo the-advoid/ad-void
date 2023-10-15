@@ -274,5 +274,6 @@
 ##.imginfo > .icon-pinterest
 ##.imginfo > .icon-facebook
 ###adBlockerShare
+##.social-list:not(html):not(body)
 
 netlify.com#@#.btn-social
