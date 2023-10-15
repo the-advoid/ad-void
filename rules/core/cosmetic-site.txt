@@ -15,3 +15,4 @@ glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-templ
 glosbe.com##.dictionary-grid:matches-media((min-width: 768px)):style(grid-template-rows: 0 auto !important;)
 pornone.com##a[class^="listing"]
 pornone.com##.warp
+mashable.com##div[data-ga-category="newsletters"]
