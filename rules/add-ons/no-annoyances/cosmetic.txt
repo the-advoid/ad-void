@@ -324,6 +324,7 @@
 ###gdpr-overlay
 ##.sqs-cookie-banner-v2
 ###divcookie
+##.cbann
 
 paypal.com#@#[class*="CookieBanner"]
 devonstank.com#@#[class*="-cookie-banner"]
