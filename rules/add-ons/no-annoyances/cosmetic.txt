@@ -326,6 +326,7 @@
 ###divcookie
 ###modal-cookie-info
 ##.cookies_consent_banner
+##.grecaptcha-badge
 
 webhint.io##.disclaimer
 paypal.com#@#[class*="CookieBanner"]
