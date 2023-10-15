@@ -322,6 +322,7 @@
 ##.consent-banner
 ##.chrome-install-pop
 ###gdpr-overlay
+##.sqs-cookie-banner-v2
 
 paypal.com#@#[class*="CookieBanner"]
 devonstank.com#@#[class*="-cookie-banner"]
