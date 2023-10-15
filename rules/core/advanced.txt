@@ -31,3 +31,4 @@ youtube.com##+js(trusted-replace-fetch-response, /"playerAds.*?gutParams":\{"tag
 youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?AD_PLACEMENT_KIND_END.*?\"\}\}\}\]\,/, , url:player?key=)
 youtube.com##+js(trusted-replace-fetch-response, /"adSlots.*?SLOT_TRIGGER_EVENT_BEFORE_CONTENT.*?\}\]\}\}\]\,/, , url:player?key=)
 youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
+porntrex.com##+js(disable-newtab-links)
