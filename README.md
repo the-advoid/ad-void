@@ -52,7 +52,7 @@
 		<a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
 		<br>
 		<br>
-		<a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
+		<a href="https://github.com/igorskyflyer"><em>Igor Dimitrijević (@igorskyflyer)</em></a>
 	</blockquote>
 </div>
 
@@ -68,7 +68,7 @@
 <br>
 <br>
 
-👽 Since *Aug 14 2023*, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler), which means more frequent updates and delivery on a daily basis.
+👽 Since _Aug 14 2023_, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler), which means more frequent updates and delivery on a daily basis.
 
 <br>
 <br>
