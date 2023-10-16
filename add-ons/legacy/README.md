@@ -14,7 +14,7 @@ See the <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons/legac
 <br>
 <br>
 
-👇🏼 Below are the available legacy filter lists that you can subscribe to.
+👇🏼 Below are the available legacy filter lists - with their names and the features they block - you can freely subscribe to.
 
 <br>
 
