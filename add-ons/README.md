@@ -1,4 +1,3 @@
-
 For additional privacy, faster browsing experience and less tracking these AdVoid add-ons are available as well:
 
 <br>
@@ -30,3 +29,9 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 <em>Unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.</em>
 <br>
 <br>
+
+---
+
+<h3>🤔 Can't find what you're looking for?</h3>
+
+Try going through the archive of <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons/legacy">legacy AdVoid add-ons</a> for filter rules that were deprecated from main filter lists. You can still use them if you need it. 🫱🏼‍🫲🏼
