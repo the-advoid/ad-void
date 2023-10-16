@@ -9,8 +9,7 @@ All rules that were removed from the main filter lists will be available here fo
 See the <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons/legacy/TIMELINE.md">TIMELINE file</a> for a precise tracking of deprecation/removal events.
 </blockquote>
 
-<br>
-<br>
+---
 
 👇🏼 Below are the available legacy filter lists that you can subscribe to.
 
