@@ -1,0 +1,13 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+@ [ADBT 2.0.0]
+
+header './templates/headers/advoid-header.txt'
+
+nl
+
+tag 'Block these files'
+include './rules/legacy/add-ons/no-extras/files.txt' sort
+
+export './add-ons/legacy/AdVoid.Legacy.Addon.NoExtras.txt'
