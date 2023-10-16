@@ -270,7 +270,7 @@
 ##.the_champ_vertical_sharing
 ##.the_champ_sharing_container
 ##.share-this
-##.wpbuttons > *:not(.download)
+##.wpbuttons > :not(.download)
 ##.imginfo > .icon-pinterest
 ##.imginfo > .icon-facebook
 ###adBlockerShare
