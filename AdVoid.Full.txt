@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.647
-! Last modified: 2023-10-16T19:09:21.089+02:00
+! Version: 2.0.648
+! Last modified: 2023-10-16T19:09:49.038+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3865
@@ -3813,7 +3813,7 @@ webhint.io##.disclaimer
 ##.widget-social-icons-wrap
 ##.widget_social
 ##.wp-block-social-links
-##.wpbuttons > *:not(.download)
+##.wpbuttons > :not(.download)
 ##.ya-share2
 ##[class$="-social-block"]
 ##[class$="-social-wrapper"]
