@@ -9,12 +9,12 @@
 !
 ! {@!}
 ! Title: AdVoid.Legacy.Addon.NoExtras
-! Description: Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, website reporters, etc. (Legacy)
-! Version: 1.0.0
-! Last modified: 2023-10-16T19:31:30.727+02:00
+! Description: [LEGACY] Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, website reporters, etc.
+! Version: 1.0.1
+! Last modified: 2023-10-16T19:33:49.541+02:00
 ! Expires: 15 days (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1
+! Entries: 2
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -24,3 +24,4 @@
 
 ! {@0} Block these files
 .webmanifest^
+/sw.js^
