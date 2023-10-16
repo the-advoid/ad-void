@@ -73,6 +73,16 @@
 <br>
 <br>
 
+<h3>🚨 NOTE</h3>
+
+<blockquote>
+As <code>AdVoid</code> continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the <em>Legacy</em> filter lists, see <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons/legacy">Legacy README</a> for more information.
+</blockquote>
+
+<br>
+<br>
+<br>
+
 ## 🤹🏼‍♂️ Usage
 
 Install it into your ad-blocker by clicking on following subscribe link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=6666ff"></a> or by manually adding a filter list with the URL of: <br>
