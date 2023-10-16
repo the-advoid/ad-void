@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.729
-! Last modified: 2023-10-16T18:50:16.332+02:00
+! Version: 2.0.730
+! Last modified: 2023-10-16T18:55:00.439+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3115
+! Entries: 3116
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3157,6 +3157,7 @@ sxyprn.*##+js(abort-on-property-read, popns)
 sxyprn.*##+js(abort-on-property-write, __aaZoneid)
 teleperformance.com##body:style(overflow: auto!important;)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
+tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 www.google.*##+js(set-constant, rwt, noopFunc)
 youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
 youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
