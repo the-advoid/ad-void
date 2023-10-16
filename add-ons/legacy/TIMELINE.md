@@ -4,7 +4,7 @@
 
 This file tracks <strong>deprecation</strong>/<strong>removal</strong> of filter rules from <code>AdVoid</code> filter lists.
 
----
+<br>
 
 <h3>🎞️ Events</h3>
 
