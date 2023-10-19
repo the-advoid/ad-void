@@ -73,7 +73,7 @@
 <br>
 <br>
 
-<h3>🚨 NOTE</h3>
+<h3>🚨 IMPORTANT</h3>
 
 <blockquote>
 As <code>AdVoid</code> continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the <em>Legacy</em> filter lists, see <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons/legacy">Legacy README</a> for more information.
