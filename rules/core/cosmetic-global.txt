@@ -581,3 +581,4 @@
 ##.sinad_only_desktop
 ##.sinad_only_mobile
 ##[data-freestar-ad]
+###fb-root:not(body):not(html)
