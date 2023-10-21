@@ -7,7 +7,7 @@
 ##[class*="cta__Wrapper"]
 ##[class*="Ad__Container"]
 ##[class*="Admobile"]
-##.banner
+##.banner:not(html):not(body)
 ##[class*="adHesionFixed--"]
 ##[class*="adBotSmall-container--"]
 ##[id*="gpt-ad-"]
