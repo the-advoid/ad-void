@@ -21,7 +21,7 @@ nl
 
 tag 'Block these specific endpoints - global'
 include './rules/core/endpoints-global.txt' sort
-include './rules/add-ons/no-annoyances/endpoints.txt' sort
+include './rules/add-ons/no-annoyances/endpoints-global.txt' sort
 include './rules/add-ons/no-extras/endpoints.txt' sort
 
 nl
