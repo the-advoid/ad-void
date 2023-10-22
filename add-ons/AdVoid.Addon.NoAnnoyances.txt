@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.89
-! Last modified: 2023-10-22T20:38:49.340+02:00
+! Version: 2.0.90
+! Last modified: 2023-10-22T20:40:42.753+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 391
@@ -43,7 +43,6 @@
 /cookies-await-consent^
 ||iubenda.com^
 ||platform.linkedin.com^
-||ssstik.io/js/micromodal.min.js^
 
 ! {@2} Block these files (global)
 /amp-user-notification-*.mjs^
@@ -80,7 +79,10 @@
 /wcp-consent.js^
 /zdconsent.js^
 
-! {@3} Hide these elements, global
+! {@3} Block these files (site-specific)
+||ssstik.io/js/micromodal.min.js^
+
+! {@4} Hide these elements, global
 ###__cookie-consent
 ###__cookie-consent-wrapper
 ###_evidon_banner
@@ -414,16 +416,16 @@
 ##ung-anonymous-consent-management
 ##ytd-feed-nudge-renderer
 
-! {@4} Hide these elements, site-specific
+! {@5} Hide these elements, site-specific
 my-subs.co###countdown
 tinyzonetv.se###modalshare
 tinyzonetv.se##.modal-backdrop
 webhint.io##.disclaimer
 
-! {@5} Restore these elements, site-specific
+! {@6} Restore these elements, site-specific
 devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
 
-! {@6} Apply these scriptlets - site-specific
+! {@7} Apply these scriptlets - site-specific
 my-subs.co##+js(set-constant, timeLeft, 0)
 
