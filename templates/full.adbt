@@ -16,6 +16,7 @@ nl
 
 tag 'Block these subdomains'
 include './rules/common/subdomains.txt' sort
+include './rules/add-ons/no-annoyances/subdomains.txt' sort
 
 nl
 
