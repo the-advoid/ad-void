@@ -22,6 +22,11 @@ include './rules/add-ons/no-annoyances/files-global.txt' sort
 
 nl
 
+tag 'Block these files (site-specific)'
+include './rules/add-ons/no-annoyances/files-site.txt' sort
+
+nl
+
 tag 'Hide these elements, global'
 include './rules/add-ons/no-annoyances/cosmetic-global.txt' sort
 
