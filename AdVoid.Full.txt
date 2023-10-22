@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.795
-! Last modified: 2023-10-22T20:57:38.544+02:00
+! Version: 2.0.796
+! Last modified: 2023-10-22T20:58:20.327+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3906
+! Entries: 3907
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3878,6 +3878,7 @@ porntrex.com###exclusive-link
 porntrex.com###index-link
 redd.tube###basePopping
 spankbang.com##.lv_cm_int_come_on
+spankbang.com##.ttaa2v3
 streamtape.*##[class*="bn-container"]
 streamtape.*##div[style*="z-index: 300000;"]
 thisvid.com##.spots
