@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.92
-! Last modified: 2023-10-22T20:43:47.859+02:00
+! Version: 2.0.93
+! Last modified: 2023-10-22T20:44:52.807+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 390
+! Entries: 391
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -40,10 +40,13 @@
 ||zergnet.com^
 ||zopim.com^
 
-! {@1} Block these endpoints
+! {@1} Block these subdomains
+||platform.linkedin.com^
+
+! {@2} Block these endpoints
 /cookies-await-consent^
 
-! {@2} Block these files (global)
+! {@3} Block these files (global)
 /amp-user-notification-*.mjs^
 /amp-user-notification.css^
 /browser-nocookie.*.js^
@@ -78,10 +81,10 @@
 /wcp-consent.js^
 /zdconsent.js^
 
-! {@3} Block these files (site-specific)
+! {@4} Block these files (site-specific)
 ||ssstik.io/js/micromodal.min.js^
 
-! {@4} Hide these elements, global
+! {@5} Hide these elements, global
 ###__cookie-consent
 ###__cookie-consent-wrapper
 ###_evidon_banner
@@ -415,16 +418,16 @@
 ##ung-anonymous-consent-management
 ##ytd-feed-nudge-renderer
 
-! {@5} Hide these elements, site-specific
+! {@6} Hide these elements, site-specific
 my-subs.co###countdown
 tinyzonetv.se###modalshare
 tinyzonetv.se##.modal-backdrop
 webhint.io##.disclaimer
 
-! {@6} Restore these elements, site-specific
+! {@7} Restore these elements, site-specific
 devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
 
-! {@7} Apply these scriptlets - site-specific
+! {@8} Apply these scriptlets - site-specific
 my-subs.co##+js(set-constant, timeLeft, 0)
 
