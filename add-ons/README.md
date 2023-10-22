@@ -5,7 +5,7 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 😒 &nbsp; [AdVoid.Addon.NoAnnoyances](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=003366"></a>
 <br>
 <br>
-<em>Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs etc.</em>
+<em>Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.</em>
 <br>
 <br>
 
