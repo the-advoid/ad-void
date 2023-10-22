@@ -43,6 +43,7 @@ nl
 
 tag 'Block these specific files - global'
 include './rules/core/files-global.txt' sort
+include './rules/add-ons/no-annoyances/files-global.txt' sort
 include './rules/add-ons/no-extras/files.txt' sort
 include './rules/add-ons/no-externals/files.txt' sort
 
