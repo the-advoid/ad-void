@@ -13,7 +13,7 @@ include './rules/add-ons/no-annoyances/domains.txt' sort
 nl
 
 tag 'Block these endpoints'
-include './rules/add-ons/no-annoyances/endpoints.txt' sort
+include './rules/add-ons/no-annoyances/endpoints-global.txt' sort
 
 nl
 
