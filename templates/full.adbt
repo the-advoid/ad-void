@@ -51,6 +51,7 @@ nl
 
 tag 'Block these specific files - site-specific'
 include './rules/core/files-site.txt' sort
+include './rules/add-ons/no-annoyances/files-site.txt' sort
 
 nl
 
