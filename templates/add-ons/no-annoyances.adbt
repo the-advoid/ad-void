@@ -27,4 +27,9 @@ include './rules/add-ons/no-annoyances/cosmetic.txt' sort
 
 nl
 
+tag 'Apply these scriptlets - site-specific'
+include './rules/add-ons/no-annoyances/scriptlets-site.txt' sort
+
+nl
+
 export './add-ons/AdVoid.Addon.NoAnnoyances.txt'
