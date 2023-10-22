@@ -12,6 +12,11 @@ include './rules/add-ons/no-annoyances/domains.txt' sort
 
 nl
 
+tag 'Block these subdomains'
+include './rules/add-ons/no-annoyances/subdomains.txt' sort
+
+nl
+
 tag 'Block these endpoints'
 include './rules/add-ons/no-annoyances/endpoints-global.txt' sort
 
