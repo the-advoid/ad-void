@@ -89,4 +89,11 @@ nl
 tag 'Advanced filters'
 include './rules/core/advanced.txt' sort
 
+nl
+
+tag 'Apply these scriptlets - site-specific'
+include './rules/add-ons/no-annoyances/scriptlets-site.txt' sort
+
+nl
+
 export './AdVoid.Full.txt'
