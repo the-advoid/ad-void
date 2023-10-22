@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.787
-! Last modified: 2023-10-22T20:50:49.498+02:00
+! Version: 2.0.788
+! Last modified: 2023-10-22T20:51:04.229+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3900
@@ -1668,7 +1668,6 @@
 ||zypanafo.pro^$popup
 ||סטטי.קום^
 ||condenast.io^
-||consent.dropbox.com^$subdocument
 ||consentmanager.net^
 ||hs-banner.com^
 ||intercom.com^
@@ -2024,6 +2023,7 @@
 ||xstats.evoload.io^$popup
 ||youtube.cleverads.vn^$popup
 ||assets.klicktipp.com^
+||consent.dropbox.com^$subdocument
 ||consent.trustarc.com^
 ||platform.linkedin.com^
 ||widget.objektiv.rs^
