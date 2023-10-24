@@ -281,5 +281,6 @@
 ##[class*="DivShareActions"]
 ##.share-sites-thumbs
 ##.shareIcons
+##[class^="es--sns-shares--"]
 
 netlify.com#@#.btn-social
