@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.814
-! Last modified: 2023-10-24T20:06:07.172+02:00
+! Version: 2.0.815
+! Last modified: 2023-10-24T20:06:26.340+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3921
@@ -3890,9 +3890,9 @@ spankbang.com##.lv_cm_int_come_on
 spankbang.com##.ttaa2v3
 streamtape.*##[class*="bn-container"]
 streamtape.*##div[style*="z-index: 300000;"]
+sxyprn.*##.cbd
 sxyprn.*##.fbd
 sxyprn.*##.tbd
-sxyprn.net##.cbd
 thisvid.com##.spots
 tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
 my-subs.co###countdown
