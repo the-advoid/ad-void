@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.817
-! Last modified: 2023-10-25T13:54:51.739+02:00
+! Version: 2.0.818
+! Last modified: 2023-10-25T13:55:34.946+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3923
+! Entries: 3924
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3927,6 +3927,7 @@ m4uhd.*##+js(abort-on-property-read, mm)
 mashable.com##body:style(overflow: auto !important; position: initial !important;)
 mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
 mat6tube.com##+js(set-constant, ads, undefined)
+medium.com##html:style(overflow-y: visible!important;)
 mixdrop.*##+js(abort-current-script, $, String.fromCharCode)
 mixdrop.*##+js(abort-on-property-write, _pop)
 mixdrop.*##+js(nano-setTimeout-booster, disabled)
