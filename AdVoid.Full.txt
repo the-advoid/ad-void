@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.835
-! Last modified: 2023-10-25T15:04:12.921+02:00
+! Version: 2.0.836
+! Last modified: 2023-10-25T15:04:49.327+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3930
+! Entries: 3931
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3983,4 +3983,5 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 ! {@15} Apply these scriptlets - site-specific
 medium.com##+js(set-local-storage-item, 201805-policy|accepted, 1)
 my-subs.co##+js(set-constant, timeLeft, 0)
+xvideos.com##+js(set-constant, xv.disclaimer.displayCookiePopup, noopFunc)
 
