@@ -282,6 +282,7 @@
 ##.share-sites-thumbs
 ##.shareIcons
 ##[class^="es--sns-shares--"]
+###social-media-icons
 
 netlify.com#@#.btn-social
 medium.com##div[aria-describedby="postFooterSocialMenu"]
