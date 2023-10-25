@@ -5,6 +5,10 @@
 
 header './templates/headers/advoid-header.txt'
 
+meta title = 'AdVoid.Scriptlets.AntiAntiAdBlock'
+meta description = 'Infiltrates and then destroys common anti-adblock techniques. 💥'
+meta expires = '96 hours (update frequency)'
+
 nl
 
 tag 'Hijack these primitives'
