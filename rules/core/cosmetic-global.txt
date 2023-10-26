@@ -598,3 +598,4 @@
 ##[id^="google_ads_iframe"]:not(.rb-adbanner)
 ##[name^="google_ads_iframe"]
 ##mv-ad-reporter
+##.adunitwrapper
