@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.851
-! Last modified: 2023-10-26T18:21:20.693+02:00
+! Version: 2.0.852
+! Last modified: 2023-10-26T18:25:10.566+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3946
@@ -2507,6 +2507,7 @@ videojs.ads.css^
 /mailchimp-woocommerce-public.min.js^
 /ManageCookieDrop.js^
 /newsletter-popup*.js^
+/outbrain-widget.js^$script
 /require-cookie.min.js^
 /survey-a.js^
 /wcp-consent.js^
@@ -2583,7 +2584,6 @@ videojs.ads.css^
 ||myvidster.com/js/myv_smart_banner.php^
 ||paypal.com/tagmanager/pptm.js^
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^
-||widgets.outbrain.com/outbrain.js^$script
 ||ssstik.io/js/micromodal.min.js^
 
 ! {@8} Restore these specific files - site-specific
