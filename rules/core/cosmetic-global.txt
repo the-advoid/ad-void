@@ -595,3 +595,4 @@
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ##div[data-google-query-id]
+##[id^="google_ads_iframe"]:not(.rb-adbanner)
