@@ -71,7 +71,7 @@ include './rules/core/cosmetic-global.txt' sort
 
 nl
 
-tag 'Hide these elements (site specific)'
+tag 'Cosmetic (site)'
 include './rules/core/cosmetic-site.txt' sort
 
 nl
