@@ -16,6 +16,11 @@ include './rules/add-ons/no-externals/domains.txt' sort
 
 nl
 
+tag 'Block these subdomains'
+include './rules/add-ons/no-externals/subdomains.txt' sort
+
+nl
+
 tag 'Block these files'
 include './rules/add-ons/no-externals/files.txt' sort
 
