@@ -32,7 +32,7 @@ include './rules/add-ons/no-annoyances/endpoints-global.txt' sort
 
 nl
 
-tag 'Block these specific endpoints - site-specific'
+tag 'Endpoints (site)'
 include './rules/core/endpoints-site.txt' sort
 include './rules/add-ons/no-externals/endpoints-site.txt' sort
 
