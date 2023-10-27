@@ -96,7 +96,7 @@ nl
 tag 'Restore these changes'
 include './rules/core/restore-cosmetic.txt' sort
 include './rules/add-ons/no-annoyances/restore-cosmetic-site.txt' sort
-include './rules/add-ons/no-externals/restore-cosmetic.txt' sort
+include './rules/add-ons/no-externals/restore-cosmetic-site.txt' sort
 
 nl
 
