@@ -101,12 +101,8 @@ include './rules/add-ons/no-externals/restore-cosmetic-site.txt' sort
 
 nl
 
-tag 'Advanced filters'
-include './rules/core/advanced.txt' sort
-
-nl
-
-tag 'Apply these scriptlets - site-specific'
+tag 'Scriplets - site'
+include './rules/core/scriptlets-site.txt' sort
 include './rules/add-ons/no-annoyances/scriptlets-site.txt' sort
 
 nl
