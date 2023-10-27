@@ -65,7 +65,7 @@ include './rules/add-ons/no-externals/files-site.txt' sort
 
 nl
 
-tag 'Restore these specific files - site-specific'
+tag 'Restore files (site)'
 include './rules/core/files-restore-site.txt' sort
 
 nl
