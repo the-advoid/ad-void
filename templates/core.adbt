@@ -21,7 +21,7 @@ include './rules/common/subdomains.txt' sort
 
 nl
 
-tag 'Endpoints - global'
+tag 'Endpoints (global)'
 include './rules/core/endpoints-global.txt' sort
 
 nl
