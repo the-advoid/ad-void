@@ -81,7 +81,7 @@ include './rules/core/restore-cosmetic.txt' sort
 
 nl
 
-tag 'Advanced filters'
-include './rules/core/advanced.txt' sort
+tag 'Scriptlets (site)'
+include './rules/core/scriptlets-site.txt' sort
 
 export './AdVoid.Core.txt'
