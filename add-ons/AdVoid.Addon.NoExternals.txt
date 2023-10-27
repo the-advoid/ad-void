@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, location trackers, etc.
-! Version: 2.0.70
-! Last modified: 2023-10-27T20:53:14.975+02:00
+! Version: 2.0.71
+! Last modified: 2023-10-27T20:55:12.980+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 351
@@ -36,7 +36,10 @@
 ||share.pluso.ru^
 ||static.zdassets.com^
 
-! {@2} Block these files (global)
+! {@2} Block these XMLHttpRequest paths (global)
+/comment_load.php^$xmlhttprequest
+
+! {@3} Block these files (global)
 /addtoany.min.css^
 /addtoany.min.js^
 /amp-addthis*.js^
@@ -48,7 +51,6 @@
 /browser-push-notifications.js^
 /cast_framework.js^
 /cast_sender.js^
-/comment_load.php^$xmlhttprequest
 /dropins.js^
 /el-social-icons.min.css^
 /facebook.mjs^
@@ -73,7 +75,7 @@
 /videojs.pip.js^
 ||twitter.com/i/jot/
 
-! {@3} Block these files (site)
+! {@4} Block these files (site)
 ||assets.pinterest.com/js/pinit_main.js^
 ||cdn.kik.com/kik/*/kik-share.js^
 ||facebook.com/*/plugins/page.php^
@@ -88,7 +90,7 @@
 ||widgets.wp.com/likes/master.html^
 ||yastatic.net/share2/share.js^
 
-! {@4} Hide these elements (global)
+! {@5} Hide these elements (global)
 ###adBlockerShare
 ###commentlist-container
 ###customSocialNetwork
@@ -379,10 +381,10 @@
 ##[class^="SocialIconsWrapper-"]
 ##amp-social-share
 
-! {@5} Hide these elements (site)
+! {@6} Hide these elements (site)
 medium.com##div[aria-describedby="postFooterSocialMenu"]
 
-! {@6} Restore these hidden elements
+! {@7} Restore these hidden elements
 linkedin.com#@#.share-box
 neoseeker.com#@#.social_share
 netlify.com#@#.btn-social
