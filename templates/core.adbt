@@ -76,7 +76,7 @@ include './rules/core/cosmetic-site.txt' sort
 
 nl
 
-tag 'Restore these changes'
+tag 'Restore cosmetic (site)'
 include './rules/core/restore-cosmetic.txt' sort
 
 nl
