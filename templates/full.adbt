@@ -15,6 +15,7 @@ tag 'Block these domains'
 include './rules/common/domains.txt' sort
 include './rules/add-ons/no-annoyances/domains.txt' sort
 include './rules/add-ons/no-externals/domains.txt' sort
+include './rules/add-ons/no-extras/domains.txt' sort
 
 nl
 
@@ -28,7 +29,6 @@ nl
 tag 'Block these specific endpoints - global'
 include './rules/core/endpoints-global.txt' sort
 include './rules/add-ons/no-annoyances/endpoints-global.txt' sort
-include './rules/add-ons/no-extras/endpoints.txt' sort
 
 nl
 
@@ -52,7 +52,7 @@ nl
 tag 'Block these specific files - global'
 include './rules/core/files-global.txt' sort
 include './rules/add-ons/no-annoyances/files-global.txt' sort
-include './rules/add-ons/no-extras/files.txt' sort
+include './rules/add-ons/no-extras/files-global.txt' sort
 include './rules/add-ons/no-externals/files-global.txt' sort
 
 nl
@@ -60,6 +60,7 @@ nl
 tag 'Block these specific files - site-specific'
 include './rules/core/files-site.txt' sort
 include './rules/add-ons/no-annoyances/files-site.txt' sort
+include './rules/add-ons/no-extras/files-site.txt' sort
 include './rules/add-ons/no-externals/files-site.txt' sort
 
 nl
