@@ -26,7 +26,7 @@ include './rules/add-ons/no-externals/subdomains.txt' sort
 
 nl
 
-tag 'Block these specific endpoints - global'
+tag 'Endpoints (global)'
 include './rules/core/endpoints-global.txt' sort
 include './rules/add-ons/no-annoyances/endpoints-global.txt' sort
 
