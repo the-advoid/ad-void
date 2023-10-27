@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.898
-! Last modified: 2023-10-27T21:00:20.940+02:00
+! Version: 2.0.899
+! Last modified: 2023-10-27T21:05:22.477+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3966
@@ -1691,6 +1691,9 @@
 ||gubagoo.io^
 ||sharethis.com^$third-party
 ||tawk.to^
+||clerrrep.com^
+||workerz1.com^
+||zworker11.me^
 
 ! {@1} Block these subdomains
 -amp-error-reporting.cloudfunctions.net^
@@ -2105,10 +2108,6 @@ ads-manager/ads/*/track-view
 koko-analytics
 /cookies-await-consent^
 /web-push-
-||clerrrep.com^
-||news.google.com/swg/js/v1/swg.js^
-||workerz1.com^
-||zworker11.me^
 
 ! {@3} Block these specific endpoints - site-specific
 ||adblock-tester.com/banners/
@@ -2582,6 +2581,7 @@ videojs.ads.css^
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^
 ||ssstik.io/js/micromodal.min.js^
 ||widgets.outbrain.com/outbrain.js^$script
+||news.google.com/swg/js/v1/swg.js^
 ||assets.pinterest.com/js/pinit_main.js^
 ||cdn.kik.com/kik/*/kik-share.js^
 ||facebook.com/*/plugins/page.php^
