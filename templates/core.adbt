@@ -11,17 +11,17 @@ meta expires = '12 hours (update frequency)'
 
 nl
 
-tag 'Block these domains'
+tag 'Domains (global)'
 include './rules/common/domains.txt' sort
 
 nl
 
-tag 'Block these subdomains'
+tag 'Subdomains (global)'
 include './rules/common/subdomains.txt' sort
 
 nl
 
-tag 'Block these specific endpoints - global'
+tag 'Endpoints - global'
 include './rules/core/endpoints-global.txt' sort
 
 nl
