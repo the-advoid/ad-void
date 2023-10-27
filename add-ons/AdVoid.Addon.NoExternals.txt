@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, location trackers, etc.
-! Version: 2.0.52
-! Last modified: 2023-10-27T20:42:25.498+02:00
+! Version: 2.0.53
+! Last modified: 2023-10-27T20:43:36.170+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 350
+! Entries: 351
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -27,11 +27,14 @@
 ||chatango.com^$third-party
 ||chatbro.com^
 ||gubagoo.io^
-||share.pluso.ru^
 ||sharethis.com^$third-party
 ||tawk.to^
 
-! {@1} Block these files
+! {@1} Block these subdomains
+||comment.scoopwhoop.com^
+||share.pluso.ru^
+
+! {@2} Block these files
 /addtoany.min.css
 /addtoany.min.js
 /amp-addthis*.js^
@@ -83,7 +86,7 @@
 ||widgets.wp.com/likes/master.html^
 ||yastatic.net/share2/share.js^
 
-! {@2} Hide these elements (global)
+! {@3} Hide these elements (global)
 ###adBlockerShare
 ###commentlist-container
 ###customSocialNetwork
@@ -374,10 +377,10 @@
 ##[class^="SocialIconsWrapper-"]
 ##amp-social-share
 
-! {@3} Hide these elements (site)
+! {@4} Hide these elements (site)
 medium.com##div[aria-describedby="postFooterSocialMenu"]
 
-! {@4} Restore these hidden elements
+! {@5} Restore these hidden elements
 linkedin.com#@#.share-box
 neoseeker.com#@#.social_share
 netlify.com#@#.btn-social
