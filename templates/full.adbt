@@ -38,7 +38,7 @@ include './rules/add-ons/no-externals/endpoints-site.txt' sort
 
 nl
 
-tag 'XMLHttpRequest paths - global'
+tag 'XMLHttpRequest paths (global)'
 include './rules/core/ajax-global.txt' sort
 include './rules/add-ons/no-externals/ajax-global.txt' sort
 
