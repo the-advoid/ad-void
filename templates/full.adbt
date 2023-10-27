@@ -75,7 +75,7 @@ include './rules/core/regexp.txt' sort
 
 nl
 
-tag 'Block the URLs containing these queries'
+tag 'Queries (global)'
 include './rules/core/query.txt' sort
 
 nl
