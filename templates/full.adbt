@@ -44,7 +44,7 @@ include './rules/add-ons/no-externals/ajax-global.txt' sort
 
 nl
 
-tag 'XMLHttpRequest paths - site-specific'
+tag 'XMLHttpRequest paths (site)'
 include './rules/core/ajax-site.txt' sort
 
 nl
