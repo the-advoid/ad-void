@@ -19,7 +19,7 @@ include './rules/add-ons/no-extras/domains.txt' sort
 
 nl
 
-tag 'Block these subdomains'
+tag 'Subdomains (global)'
 include './rules/common/subdomains.txt' sort
 include './rules/add-ons/no-annoyances/subdomains.txt' sort
 include './rules/add-ons/no-externals/subdomains.txt' sort
