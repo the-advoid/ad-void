@@ -57,7 +57,7 @@ include './rules/add-ons/no-externals/files-global.txt' sort
 
 nl
 
-tag 'Block these specific files - site-specific'
+tag 'Files (site)'
 include './rules/core/files-site.txt' sort
 include './rules/add-ons/no-annoyances/files-site.txt' sort
 include './rules/add-ons/no-extras/files-site.txt' sort
