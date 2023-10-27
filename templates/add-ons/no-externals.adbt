@@ -26,6 +26,11 @@ include './rules/add-ons/no-externals/files-global.txt' sort
 
 nl
 
+tag 'Block these files (site)'
+include './rules/add-ons/no-externals/files-site.txt' sort
+
+nl
+
 tag 'Hide these elements (global)'
 include './rules/add-ons/no-externals/cosmetic-global.txt' sort
 
