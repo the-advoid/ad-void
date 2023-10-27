@@ -21,8 +21,8 @@ include './rules/add-ons/no-externals/subdomains.txt' sort
 
 nl
 
-tag 'Block these files'
-include './rules/add-ons/no-externals/files.txt' sort
+tag 'Block these files (global)'
+include './rules/add-ons/no-externals/files-global.txt' sort
 
 nl
 
