@@ -26,6 +26,11 @@ include './rules/add-ons/no-externals/cosmetic-global.txt' sort
 
 nl
 
+tag 'Hide these elements (site)'
+include './rules/add-ons/no-externals/cosmetic-site.txt' sort
+
+nl
+
 tag 'Restore these hidden elements'
 include './rules/add-ons/no-externals/restore-cosmetic.txt' sort
 
