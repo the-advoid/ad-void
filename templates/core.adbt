@@ -56,7 +56,7 @@ include './rules/core/files-restore-site.txt' sort
 
 nl
 
-tag 'RegEx heavy rules'
+tag 'RegExp (global)'
 include './rules/core/regexp.txt' sort
 
 nl
