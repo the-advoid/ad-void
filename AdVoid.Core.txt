@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.872
-! Last modified: 2023-10-27T21:08:36.960+02:00
+! Version: 2.0.873
+! Last modified: 2023-10-27T21:15:59.819+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3205
@@ -22,7 +22,7 @@
 ! Maintained by: Aria & igorskyflyer
 ! Source: World Wide Web
 
-! {@0} Block these domains
+! {@0} Domains (global)
 -pglstatp.com^
 ||02cscosgbuzl.top^
 ||0x01n2ptpuz3.com^
@@ -1673,7 +1673,7 @@
 ||zypanafo.pro^$popup
 ||סטטי.קום^
 
-! {@1} Block these subdomains
+! {@1} Subdomains (global)
 -amp-error-reporting.cloudfunctions.net^
 -analytics-events.apple.com^
 -platform-alisg.tiktokv.com^
@@ -2012,7 +2012,7 @@
 ||xstats.evoload.io^$popup
 ||youtube.cleverads.vn^$popup
 
-! {@2} Block these specific endpoints - global
+! {@2} Endpoints (global)
 .ru/ads/
 /1clkn/*$script,third-party
 /__track/*
@@ -2076,7 +2076,7 @@
 ads-manager/ads/*/track-view
 koko-analytics
 
-! {@3} Block these specific endpoints - site-specific
+! {@3} Endpoints (site)
 ||adblock-tester.com/banners/
 ||amazon.com/*/events/com.amazon.csm.nexusclient.prod^
 ||amazon.com/cross_border_interstitial/render^
@@ -2121,7 +2121,7 @@ koko-analytics
 ||youtube.com/api/stats/
 ||ziffstatic.com/pg/
 
-! {@4} XMLHttpRequest paths - global
+! {@4} XMLHttpRequest paths (global)
 /*-ads^$xmlhttprequest
 /_ga^$xmlhttprequest
 /ad/www/delivery/*$xmlhttprequest
@@ -2152,7 +2152,7 @@ koko-analytics
 /VisualFrontendUi/browserinfo^$xmlhttprequest
 /www/delivery/asyncspc.php^$xmlhttprequest
 
-! {@5} XMLHttpRequest paths - site-specific
+! {@5} XMLHttpRequest paths (site)
 ||adem.my.id^$xmlhttprequest
 ||blic.rs/widget/carousel^$third-party
 ||cdn77.org^$script,xmlhttprequest
@@ -2160,7 +2160,7 @@ koko-analytics
 ||pingback.issuu.com^$xmlhttprequest
 ||xxxviijmp.com^$xmlhttprequest
 
-! {@6} Block these specific files - global
+! {@6} Files (global)
 -1x1.gif^
 .cookielaw.js^
 .cookielaw.min.
@@ -2457,7 +2457,7 @@ videojs.ads.css^
 ||videonow.ru/*/vn_providers_vpaid.js^
 ||viqeo.tv/*/vq_fly_widget.js^
 
-! {@7} Block these specific files - site-specific
+! {@7} Files (site)
 /ummn\.nu\/\d+\.html/
 /yts\.nu\/\d+\.html/
 ||api.pinterest.com/v1/urls/count.json^
@@ -2474,10 +2474,10 @@ videojs.ads.css^
 ||porndig.com/sw$script
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^
 
-! {@8} Restore these specific files - site-specific
+! {@8} Restore files (site)
 @@||mobilelegends.com/*/report/report.js^
 
-! {@9} RegEx heavy rules
+! {@9} RegExp (global)
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,3p,match-case
@@ -2488,7 +2488,7 @@ videojs.ads.css^
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
 
-! {@10} Block the URLs containing these queries
+! {@10} Queries (global)
 &adshow
 &com_ads
 ab=1
@@ -2552,7 +2552,7 @@ utm_content=Image_ad
 utm_term=ads
 zoneid=
 
-! {@11} Hide these elements - global
+! {@11} Cosmetic (global)
 ###ablock-notify
 ###action-companion-click-target
 ###ad
@@ -3156,7 +3156,7 @@ zoneid=
 ##wio-x
 ##ytd-companion-slot-renderer
 
-! {@12} Hide these elements (site specific)
+! {@12} Cosmetic (site)
 adblock-tester.com##embed
 adblock-tester.com##object
 aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
@@ -3185,7 +3185,7 @@ sxyprn.*##.tbd
 thisvid.com##.spots
 tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
 
-! {@13} Restore these changes
+! {@13} Restore cosmetic (site)
 @@*$generichide,from=streamtape.*
 mail.google.com#@#.ads
 
