@@ -11,12 +11,17 @@ meta expires = '24 hours (update frequency)'
 
 nl
 
-tag 'Block these endpoints'
-include './rules/add-ons/no-extras/endpoints.txt' sort
+tag 'Block these domains'
+include './rules/add-ons/no-extras/domains.txt' sort
 
 nl
 
-tag 'Block these files'
-include './rules/add-ons/no-extras/files.txt' sort
+tag 'Block these files (global)'
+include './rules/add-ons/no-extras/files-global.txt' sort
+
+nl
+
+tag 'Block these files (site)'
+include './rules/add-ons/no-extras/files-site.txt' sort
 
 export './add-ons/AdVoid.Addon.NoExtras.txt'
