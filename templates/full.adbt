@@ -80,7 +80,7 @@ include './rules/core/query.txt' sort
 
 nl
 
-tag 'Hide these elements - global'
+tag 'Cosmetic (global)'
 include './rules/core/cosmetic-global.txt' sort
 include './rules/add-ons/no-annoyances/cosmetic-global.txt' sort
 include './rules/add-ons/no-externals/cosmetic-global.txt' sort
