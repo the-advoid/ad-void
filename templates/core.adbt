@@ -41,7 +41,7 @@ include './rules/core/ajax-site.txt' sort
 
 nl
 
-tag 'Block these specific files - global'
+tag 'Files (global)'
 include './rules/core/files-global.txt' sort
 
 nl
