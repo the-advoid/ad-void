@@ -21,6 +21,11 @@ include './rules/add-ons/no-externals/subdomains.txt' sort
 
 nl
 
+tag 'Block these endpoints (site)'
+include './rules/add-ons/no-externals/endpoints-site.txt' sort
+
+nl
+
 tag 'Block these XMLHttpRequest paths (global)'
 include './rules/add-ons/no-externals/ajax-global.txt' sort
 
