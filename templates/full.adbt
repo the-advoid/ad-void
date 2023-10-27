@@ -87,7 +87,7 @@ include './rules/add-ons/no-externals/cosmetic-global.txt' sort
 
 nl
 
-tag 'Hide these elements (site specific)'
+tag 'Cosmetic (site)'
 include './rules/core/cosmetic-site.txt' sort
 include './rules/add-ons/no-annoyances/cosmetic-site.txt' sort
 include './rules/add-ons/no-externals/cosmetic-site.txt' sort
