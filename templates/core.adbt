@@ -66,7 +66,7 @@ include './rules/core/query.txt' sort
 
 nl
 
-tag 'Hide these elements - global'
+tag 'Cosmetic (global)'
 include './rules/core/cosmetic-global.txt' sort
 
 nl
