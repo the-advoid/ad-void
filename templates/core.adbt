@@ -46,7 +46,7 @@ include './rules/core/files-global.txt' sort
 
 nl
 
-tag 'Block these specific files - site-specific'
+tag 'Files (site)'
 include './rules/core/files-site.txt' sort
 
 nl
