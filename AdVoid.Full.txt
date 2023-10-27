@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.882
-! Last modified: 2023-10-27T20:48:46.954+02:00
+! Version: 2.0.883
+! Last modified: 2023-10-27T20:49:38.041+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3966
@@ -2566,7 +2566,6 @@ videojs.ads.css^
 ||facebook.com/*/plugins/page.php^
 ||facebook.com/plugins/like.php^
 ||facebook.com/plugins/page.php^
-||facebook.com/plugins/post.php^
 ||jetpack.wordpress.com/jetpack-comment^
 ||platform.twitter.com/widgets.js^
 ||twitter.com/i/jot/
@@ -2595,6 +2594,7 @@ videojs.ads.css^
 ||ssstik.io/js/micromodal.min.js^
 ||widgets.outbrain.com/outbrain.js^$script
 ||cdn.kik.com/kik/*/kik-share.js^
+||facebook.com/plugins/post.php^
 
 ! {@8} Restore these specific files - site-specific
 @@||mobilelegends.com/*/report/report.js^
