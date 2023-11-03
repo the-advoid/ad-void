@@ -10,7 +10,7 @@
 	"rules": {
 		"single-selector": "warn",
 		"duplicated-hint-platforms": "error",
-		"duplicated-hints": "warn",
+		"duplicated-hints": "error",
 		"unknown-hints-and-platforms": "warn",
 		"unknown-preprocessor-directives": "warn",
 		"duplicated-modifiers": "error",
