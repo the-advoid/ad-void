@@ -9,7 +9,7 @@
 	],
 	"rules": {
 		"single-selector": "warn",
-		"duplicated-hint-platforms": "warn",
+		"duplicated-hint-platforms": "error",
 		"duplicated-hints": "warn",
 		"unknown-hints-and-platforms": "warn",
 		"unknown-preprocessor-directives": "warn",
