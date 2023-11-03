@@ -16,6 +16,7 @@
 		"duplicated-modifiers": "error",
 		"invalid-domain-list": "error",
 		"invalid-modifiers": "error",
-		"inconsistent-hint-platforms": "error"
+		"inconsistent-hint-platforms": "error",
+		"no-short-rules": "error"
 	}
 }
