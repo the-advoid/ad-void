@@ -11,7 +11,7 @@
 		"single-selector": "warn",
 		"duplicated-hint-platforms": "error",
 		"duplicated-hints": "error",
-		"unknown-hints-and-platforms": "warn",
+		"unknown-hints-and-platforms": "error",
 		"unknown-preprocessor-directives": "warn",
 		"duplicated-modifiers": "error",
 		"invalid-domain-list": "error"
