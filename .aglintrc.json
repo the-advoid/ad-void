@@ -9,6 +9,7 @@
 	],
 	"rules": {
 		"single-selector": "warn",
+		"unknown-preprocessor-directives": "warn",
 		"duplicated-modifiers": "error",
 		"invalid-domain-list": "error"
 	}
