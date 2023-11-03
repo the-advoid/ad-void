@@ -12,7 +12,7 @@
 		"duplicated-hint-platforms": "error",
 		"duplicated-hints": "error",
 		"unknown-hints-and-platforms": "error",
-		"unknown-preprocessor-directives": "warn",
+		"unknown-preprocessor-directives": "error",
 		"duplicated-modifiers": "error",
 		"invalid-domain-list": "error"
 	}
