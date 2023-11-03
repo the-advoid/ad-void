@@ -8,15 +8,15 @@
 		"aglint:recommended"
 	],
 	"rules": {
-		"single-selector": "error",
 		"duplicated-hint-platforms": "error",
 		"duplicated-hints": "error",
-		"unknown-hints-and-platforms": "error",
-		"unknown-preprocessor-directives": "error",
 		"duplicated-modifiers": "error",
+		"inconsistent-hint-platforms": "error",
 		"invalid-domain-list": "error",
 		"invalid-modifiers": "error",
-		"inconsistent-hint-platforms": "error",
-		"no-short-rules": "error"
+		"no-short-rules": "error",
+		"single-selector": "error",
+		"unknown-hints-and-platforms": "error",
+		"unknown-preprocessor-directives": "error"
 	}
 }
