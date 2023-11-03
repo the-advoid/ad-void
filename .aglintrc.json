@@ -1,0 +1,11 @@
+{
+	"root": true,
+	"extends": [
+		"aglint:recommended"
+	],
+	"rules": {
+		"single-selector": "warn",
+		"duplicated-modifiers": "error",
+		"invalid-domain-list": "error"
+	}
+}
