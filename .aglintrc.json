@@ -8,7 +8,7 @@
 		"aglint:recommended"
 	],
 	"rules": {
-		"single-selector": "warn",
+		"single-selector": "error",
 		"duplicated-hint-platforms": "error",
 		"duplicated-hints": "error",
 		"unknown-hints-and-platforms": "error",
