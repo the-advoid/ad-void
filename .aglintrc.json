@@ -15,6 +15,7 @@
 		"unknown-preprocessor-directives": "error",
 		"duplicated-modifiers": "error",
 		"invalid-domain-list": "error",
-		"invalid-modifiers": "error"
+		"invalid-modifiers": "error",
+		"inconsistent-hint-platforms": "error"
 	}
 }
