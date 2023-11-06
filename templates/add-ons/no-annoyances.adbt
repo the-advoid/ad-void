@@ -16,7 +16,7 @@ include './rules/add-ons/no-annoyances/domains.txt' sort
 
 nl
 
-tag 'Block these subdomains'
+tag 'Subdomains (global)'
 include './rules/add-ons/no-annoyances/subdomains.txt' sort
 
 nl
