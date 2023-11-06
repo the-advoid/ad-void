@@ -27,7 +27,7 @@ include './rules/core/endpoints-global.txt' sort
 nl
 
 tag 'Endpoints (site)'
-include './rules/core/endpoints-site.txt' sort
+include './rules/common/endpoints-site.txt' sort
 
 nl
 
