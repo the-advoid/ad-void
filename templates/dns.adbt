@@ -21,8 +21,8 @@ include './rules/common/subdomains.txt' strip = modifiers
 
 nl
 
-tag 'Endpoints (global)'
-include './rules/dns/endpoints.txt'
+tag 'Endpoints (site)'
+include './rules/dns/endpoints-site.txt'
 
 nl
 
