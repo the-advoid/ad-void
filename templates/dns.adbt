@@ -16,7 +16,7 @@ include './rules/common/domains.txt' strip = modifiers
 
 nl
 
-tag 'Block these subdomains'
+tag 'Subdomains (global)'
 include './rules/common/subdomains.txt' strip = modifiers
 
 nl
