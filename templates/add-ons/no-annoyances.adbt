@@ -31,7 +31,7 @@ include './rules/add-ons/no-annoyances/files-global.txt' sort
 
 nl
 
-tag 'Block these files (site-specific)'
+tag 'Files (site)'
 include './rules/add-ons/no-annoyances/files-site.txt' sort
 
 nl
