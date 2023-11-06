@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.468
-! Last modified: 2023-11-03T19:40:41.997+01:00
+! Version: 2.0.469
+! Last modified: 2023-11-06T19:01:25.015+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 1994
+! Entries: 1992
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -22,7 +22,7 @@
 ! Maintained by: Aria & igorskyflyer
 ! Source: World Wide Web
 
-! {@0} Block these domains
+! {@0} Domains (global)
 ||googlesyndication.com^
 ||googleadservices.com^
 ||media.net^
@@ -1674,7 +1674,7 @@
 ||trfpump.com^
 ||speedcurve.com^
 
-! {@1} Block these subdomains
+! {@1} Subdomains (global)
 ||ads.google.com^
 ||adservice.google.com^
 ||adtago.s3.amazonaws.com^
@@ -2013,12 +2013,10 @@
 ||plx.porndig.com^
 ||cdnm.techpump.com^
 
-! {@2} Block these specific endpoints
+! {@2} Endpoints (site)
 ||google.com/log^
 ||netflix.com/personalization/log^
 ||netflix.com/ichnaea/log^
 ||ichnaea-web.netflix.com/log^
 ||crazyegg.com/log^
-||translate.googleapis.com/element/log^
-||samsung.com/stats^
 
