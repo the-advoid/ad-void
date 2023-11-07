@@ -11,7 +11,7 @@ meta expires = '24 hours'
 
 nl
 
-tag 'Block these domains'
+tag 'Domains (global)'
 include './rules/add-ons/no-externals/domains.txt' sort
 
 nl
