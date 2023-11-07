@@ -21,7 +21,7 @@ include './rules/add-ons/no-externals/subdomains.txt' sort
 
 nl
 
-tag 'Block these endpoints (site)'
+tag 'Endpoints (site)'
 include './rules/add-ons/no-externals/endpoints-site.txt' sort
 
 nl
