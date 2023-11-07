@@ -25,7 +25,7 @@
   <img src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-launched.svg" alt="AdVoid is available from Feb 15, 2022">
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-2.0.959-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
-  <a href="https://github.com/igorskyflyer/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://custom-icon-badges.herokuapp.com/badge/modules-3-blue?style=flat-square&logo=package&logoColor=white&color=BF2745"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-modules.svg"></a>
 	<br>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-addons.svg"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/scriptlets"><img alt="AdVoid Scriptlets" src="https://custom-icon-badges.herokuapp.com/badge/scriptlets-1-blue?style=flat-square&logo=note&logoColor=white&color=0A94A9"></a>
