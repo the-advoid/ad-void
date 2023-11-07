@@ -36,7 +36,7 @@ include './rules/add-ons/no-annoyances/files-site.txt' sort
 
 nl
 
-tag 'Hide these elements, global'
+tag 'Cosmetic (global)'
 include './rules/add-ons/no-annoyances/cosmetic-global.txt' sort
 
 nl
