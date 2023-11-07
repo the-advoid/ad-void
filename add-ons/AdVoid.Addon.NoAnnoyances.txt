@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.132
-! Last modified: 2023-11-07T20:24:17.031+01:00
+! Version: 2.0.133
+! Last modified: 2023-11-07T20:24:53.708+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 408
@@ -427,7 +427,6 @@
 ##ytd-feed-nudge-renderer
 
 ! {@6} Global (site)
-elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 medium.com##[class][style="bottom: 0px;"]
 medium.com##a[href^="https://rsci.app.link"]
 medium.com##div[role="dialog"] ~ div > div[style="bottom: 0px;"]
@@ -442,6 +441,7 @@ devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
 
 ! {@8} Scriptlets (site)
+elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 medium.com##+js(set-local-storage-item, 201805-policy|accepted, 1)
 my-subs.co##+js(set-constant, timeLeft, 0)
