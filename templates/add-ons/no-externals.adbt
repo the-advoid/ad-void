@@ -36,7 +36,7 @@ include './rules/add-ons/no-externals/files-global.txt' sort
 
 nl
 
-tag 'Block these files (site)'
+tag 'Files (site)'
 include './rules/add-ons/no-externals/files-site.txt' sort
 
 nl
