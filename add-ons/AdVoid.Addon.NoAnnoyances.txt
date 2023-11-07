@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.123
-! Last modified: 2023-11-06T19:36:32.422+01:00
+! Version: 2.0.124
+! Last modified: 2023-11-07T18:45:02.639+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 404
@@ -86,7 +86,7 @@
 ||ssstik.io/js/micromodal.min.js^
 ||widgets.outbrain.com/outbrain.js^$script
 
-! {@5} Hide these elements, global
+! {@5} Cosmetic (global)
 ###__cookie-consent
 ###__cookie-consent-wrapper
 ###_evidon_banner
@@ -425,7 +425,7 @@
 ##ung-anonymous-consent-management
 ##ytd-feed-nudge-renderer
 
-! {@6} Hide these elements, site-specific
+! {@6} Global (site)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 medium.com##[class][style="bottom: 0px;"]
 medium.com##a[href^="https://rsci.app.link"]
