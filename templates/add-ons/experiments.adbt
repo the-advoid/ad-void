@@ -7,7 +7,7 @@ header './templates/headers/advoid-header.txt'
 
 meta title = 'AdVoid.Addon.Experiments'
 meta description = 'An experimental filter used for testing purposes.'
-meta expires = '480 hours (update frequency)'
+meta expires = '480 hours'
 
 @ nothing here at the moment 😔
 
