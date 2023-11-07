@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.985
-! Last modified: 2023-11-07T20:10:58.727+01:00
+! Version: 2.0.986
+! Last modified: 2023-11-07T20:12:14.032+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4010
+! Entries: 4011
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3997,6 +3997,7 @@ netlify.com#@#.btn-social
 *$script,third-party,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
 /cookieconsent.$~stylesheet,from=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 9xbuddy.*##+js(no-window-open-if)
+apkcombo.com##+js(addEventListener-defuser, DOMContentLoaded, clientHeight)
 hihihaha1.xyz##+js(abort-current-script, document.documentElement, break;case $.)
 hihihaha1.xyz##+js(no-window-open-if, /^/, 1)
 m4ufree.*##+js(abort-current-script, Promise, JSON.parse)
