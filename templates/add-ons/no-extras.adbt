@@ -16,7 +16,7 @@ include './rules/add-ons/no-extras/domains.txt' sort
 
 nl
 
-tag 'Block these files (global)'
+tag 'Files (global)'
 include './rules/add-ons/no-extras/files-global.txt' sort
 
 nl
