@@ -26,7 +26,7 @@ include './rules/add-ons/no-externals/endpoints-site.txt' sort
 
 nl
 
-tag 'Block these XMLHttpRequest paths (global)'
+tag 'AJAX paths (global)'
 include './rules/add-ons/no-externals/ajax-global.txt' sort
 
 nl
