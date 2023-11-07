@@ -21,7 +21,7 @@ include './rules/add-ons/no-extras/files-global.txt' sort
 
 nl
 
-tag 'Block these files (site)'
+tag 'Files (site)'
 include './rules/add-ons/no-extras/files-site.txt' sort
 
 export './add-ons/AdVoid.Addon.NoExtras.txt'
