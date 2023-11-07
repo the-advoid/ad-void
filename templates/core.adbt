@@ -31,7 +31,7 @@ include './rules/common/endpoints-site.txt' sort
 
 nl
 
-tag 'XMLHttpRequest paths (global)'
+tag 'AJAX paths (global)'
 include './rules/core/ajax-global.txt' sort
 
 nl
