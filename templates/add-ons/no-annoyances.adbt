@@ -51,7 +51,7 @@ include './rules/add-ons/no-annoyances/restore-cosmetic-site.txt' sort
 
 nl
 
-tag 'Apply these scriptlets - site-specific'
+tag 'Scriptlets (site)'
 include './rules/add-ons/no-annoyances/scriptlets-site.txt' sort
 
 nl
