@@ -51,7 +51,7 @@ include './rules/add-ons/no-externals/cosmetic-site.txt' sort
 
 nl
 
-tag 'Restore these hidden elements (site)'
+tag 'Restore cosmetic (site)'
 include './rules/add-ons/no-externals/restore-cosmetic-site.txt' sort
 
 nl
