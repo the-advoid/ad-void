@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.919
-! Last modified: 2023-11-06T19:13:26.491+01:00
+! Version: 2.0.920
+! Last modified: 2023-11-07T19:00:29.191+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3222
+! Entries: 3223
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -1776,6 +1776,7 @@
 ||beacon.wikia-services.com^
 ||behaviour.podcorn.com^
 ||bigdata.ssp.samsung.com^
+||blackbox.xhamster.com^
 ||browser-http-intake.logs.datadoghq.com^
 ||browser-intake-datadoghq.com^
 ||browser-intake-datadoghq.eu^
@@ -2127,7 +2128,7 @@ koko-analytics
 ||youtube.com/api/stats/
 ||ziffstatic.com/pg/
 
-! {@4} XMLHttpRequest paths (global)
+! {@4} AJAX paths (global)
 /*-ads^$xmlhttprequest
 /_ga^$xmlhttprequest
 /ad/www/delivery/*$xmlhttprequest
@@ -2158,7 +2159,7 @@ koko-analytics
 /VisualFrontendUi/browserinfo^$xmlhttprequest
 /www/delivery/asyncspc.php^$xmlhttprequest
 
-! {@5} XMLHttpRequest paths (site)
+! {@5} AJAX paths (site)
 ||adem.my.id^$xmlhttprequest
 ||blic.rs/widget/carousel^$third-party
 ||cdn77.org^$script,xmlhttprequest
