@@ -28,7 +28,7 @@
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-modules.svg"></a>
 	<br>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-addons.svg"></a>
-  <a href="https://github.com/igorskyflyer/ad-void/tree/main/scriptlets"><img alt="AdVoid Scriptlets" src="https://custom-icon-badges.herokuapp.com/badge/scriptlets-1-blue?style=flat-square&logo=note&logoColor=white&color=0A94A9"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/scriptlets"><img alt="AdVoid Scriptlets" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-scriptlets.svg"></a>
   <a href="https://github.com/igorskyflyer/ad-void/pulls?q=is%3Apr+is%3Aclosed"><img alt="GitHub closed pull requests" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/igorskyflyer/ad-void?color=0f167d&style=flat-square&logo=git-pull-request&logoColor=white&label=closed%20PRs"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub commit activity" src="https://custom-icon-badges.herokuapp.com/github/commit-activity/m/igorskyflyer/ad-void?style=flat-square&label=commits&logo=checklist&logoColor=white&color=006600"></a>
 	<br>
