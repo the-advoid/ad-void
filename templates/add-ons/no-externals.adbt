@@ -7,7 +7,7 @@ header './templates/headers/advoid-header.txt'
 
 meta title = 'AdVoid.Addon.NoExternals'
 meta description = 'Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, location trackers, etc.'
-meta expires = '24 hours (update frequency)'
+meta expires = '24 hours'
 
 nl
 
