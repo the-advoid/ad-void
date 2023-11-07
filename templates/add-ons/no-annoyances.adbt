@@ -46,7 +46,7 @@ include './rules/add-ons/no-annoyances/cosmetic-site.txt' sort
 
 nl
 
-tag 'Restore these elements, site-specific'
+tag 'Restore cosmetic (site)'
 include './rules/add-ons/no-annoyances/restore-cosmetic-site.txt' sort
 
 nl
