@@ -11,7 +11,7 @@ meta expires = '15 days (update frequency)'
 
 nl
 
-tag 'Block these files'
+tag 'Files'
 include './rules/legacy/add-ons/no-extras/files.txt' sort
 
 export './add-ons/legacy/AdVoid.Legacy.Addon.NoExtras.txt'
