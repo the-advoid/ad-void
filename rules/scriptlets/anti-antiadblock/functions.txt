@@ -5,3 +5,4 @@
 ##+js(set, AdsPlugin, function() {})
 ##+js(set, AdscoreInit, function() {})
 ##+js(set, GalaBanner, function() {})
+##+js(set-constant, admiral, noopFunc)
