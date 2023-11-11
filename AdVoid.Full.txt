@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1061
-! Last modified: 2023-11-11T20:46:19.732+01:00
+! Version: 2.0.1062
+! Last modified: 2023-11-11T21:37:25.271+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4068
+! Entries: 4069
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2228,7 +2228,10 @@ koko-analytics
 ||vivaldi.com/rep/rep^$xmlhttprequest
 ||xxxviijmp.com^$xmlhttprequest
 
-! {@6} Files (global)
+! {@6} AJAX paths - restore (site)
+@@||doc.moplay.org/cdn-cgi/trace^$xmlhttprequest
+
+! {@7} Files (global)
 -1x1.gif^
 .cookielaw.js^
 .cookielaw.min.
@@ -2601,7 +2604,7 @@ videojs.ads.css^
 /videojs-social.*.js^
 /videojs.pip.js^
 
-! {@7} Files (site)
+! {@8} Files (site)
 /ummn\.nu\/\d+\.html/
 /yts\.nu\/\d+\.html/
 ||api.pinterest.com/v1/urls/count.json^
@@ -2636,10 +2639,10 @@ videojs.ads.css^
 ||widgets.wp.com/likes/master.html^
 ||yastatic.net/share2/share.js^
 
-! {@8} Restore files (site)
+! {@9} Restore files (site)
 @@||mobilelegends.com/*/report/report.js^
 
-! {@9} RegExp (global)
+! {@10} RegExp (global)
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,third-party,match-case
@@ -2650,7 +2653,7 @@ videojs.ads.css^
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
 
-! {@10} Queries (global)
+! {@11} Queries (global)
 &adshow
 &com_ads
 /redirect?tid=
@@ -2717,7 +2720,7 @@ utm_content=Image_ad
 utm_term=ads
 zoneid=
 
-! {@11} Cosmetic (global)
+! {@12} Cosmetic (global)
 ###ablock-notify
 ###action-companion-click-target
 ###ad
@@ -3974,7 +3977,7 @@ zoneid=
 ##[class^="SocialIconsWrapper-"]
 ##amp-social-share
 
-! {@12} Cosmetic (site)
+! {@13} Cosmetic (site)
 adblock-tester.com##embed
 adblock-tester.com##object
 aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
@@ -4016,7 +4019,7 @@ tinyzonetv.se##.modal-backdrop
 webhint.io##.disclaimer
 medium.com##div[aria-describedby="postFooterSocialMenu"]
 
-! {@13} Restore cosmetic (site)
+! {@14} Restore cosmetic (site)
 @@*$generichide,from=streamtape.*
 mail.google.com#@#.ads
 devonstank.com#@#[class*="-cookie-banner"]
@@ -4025,7 +4028,7 @@ linkedin.com#@#.share-box
 neoseeker.com#@#.social_share
 netlify.com#@#.btn-social
 
-! {@14} Scriplets (site)
+! {@15} Scriplets (site)
 *$document,csp=worker-src 'none',from=alltube.pl|alltube.tv|assia1.tv|centrum-dramy.pl|coinfaucet.eu|crictime.com|crictime.is|doodcdn.com|estream.to|gomo.to|hdvid.fun|hdvid.tv|hitomi.la|kinox.to|lewd.ninja|nflbite.com|pirateproxy.live|plytv.me|potomy.ru|powvideo.cc|powvideo.net|putlocker.to|reactor.cc|rojadirecta.direct|sickrage.ca|streamtape.com|thehiddenbay.com|thepiratebay.org|thepiratebay10.org|torlock.com|tpb.party|uptomega.me|ustream.to|vidoza.co|vidoza.net|wallpoper.com|wearesaudis.net|yazilir.com
 *$frame,third-party,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 *$script,third-party,denyallow=9xbud.com|disqus.com|disquscdn.com|jwpsrv.com|plyr.io|jsdelivr.net|twimg.com|twitter.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,from=9xbuddy.*
