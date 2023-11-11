@@ -49,6 +49,11 @@ include './rules/core/ajax-site.txt' sort
 
 nl
 
+tag 'AJAX paths - restore (site)'
+include './rules/core/restore-ajax-site.txt' sort
+
+nl
+
 tag 'Files (global)'
 include './rules/core/files-global.txt' sort
 include './rules/add-ons/no-annoyances/files-global.txt' sort
