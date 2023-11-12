@@ -31,3 +31,4 @@ apkcombo.com##.diseanmevrtt
 apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
 xhamster.*##.video-thumb[class*="__look-like-item"]
 xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
+xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
