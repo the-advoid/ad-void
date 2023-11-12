@@ -631,3 +631,4 @@
 ###medrec_bottom_ad
 ##[class^="_ad_"]
 ##[class^="_adsContainer_"]
+##[data-testid="ad_testID"]
