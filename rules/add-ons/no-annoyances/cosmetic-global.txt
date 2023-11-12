@@ -340,3 +340,4 @@
 ###popup-newsletter
 ###taboola-below-article-thumbnails
 ##[class^="_overlay"][data-component="popup-newsletter"]
+##[class^="_inlineNewsletter_"]
