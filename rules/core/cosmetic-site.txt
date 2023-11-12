@@ -32,3 +32,4 @@ apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !imp
 xhamster.*##.video-thumb[class*="__look-like-item"]
 xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
+xhamster.*##div[class*="sp-b"]
