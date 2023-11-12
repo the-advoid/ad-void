@@ -338,7 +338,6 @@
 ##.pushbullet-subscribe-widget
 ###ot-sdk-btn:not(button)
 ###popup-newsletter
-###taboola-below-article-thumbnails
 ##[class^="_overlay"][data-component="popup-newsletter"]
 ##[class^="_inlineNewsletter_"]
 ##.newsletter_inline_banner
