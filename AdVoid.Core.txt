@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.1055
-! Last modified: 2023-11-12T18:11:22.171+01:00
+! Version: 2.0.1056
+! Last modified: 2023-11-12T18:11:42.225+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3325
+! Entries: 3326
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3365,6 +3365,7 @@ thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 www.google.*##+js(set-constant, rwt, noopFunc)
 xhamster.*##+js(addEventListener-defuser, , pop)
+xhamster.*##+js(cookie-remover, video_view_count)
 xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay, 1)
 xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster.*##+js(set-cookie, ts_popunder, true, , reload, 1)
