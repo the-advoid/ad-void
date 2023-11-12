@@ -93,7 +93,7 @@ Install it into your ad-blocker by clicking on following subscribe link <a href=
 
 <br>
 
-If you are using a system-wide ad-blocker it is also beneficial to add this filter list by clicking on the following link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=4f147d"></a> or by manually adding a filter list with the URL of: <br>
+If you are using a system-wide ad-blocker it is also beneficial to add this filter list by clicking on the following link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/subscribe-purple.svg"></a> or by manually adding a filter list with the URL of: <br>
 
 <p align="center">
  <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.DNS.txt</code>
