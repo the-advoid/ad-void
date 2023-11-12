@@ -14,4 +14,4 @@ nl
 tag 'Files (global)'
 include './rules/legacy/add-ons/no-extras/files-global.txt' sort
 
-export './add-ons/legacy/AdVoid.Legacy.Addon.NoExtras.txt'
+export './legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt'
