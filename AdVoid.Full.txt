@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1120
-! Last modified: 2023-11-12T18:11:07.810+01:00
+! Version: 2.0.1121
+! Last modified: 2023-11-12T18:11:30.996+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4116
+! Entries: 4117
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4145,6 +4145,7 @@ thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 www.google.*##+js(set-constant, rwt, noopFunc)
 xhamster.*##+js(addEventListener-defuser, , pop)
+xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay, 1)
 xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster.*##+js(set-cookie, ts_popunder, true, , reload, 1)
 xhamster.com##+js(no-fetch-if, adsbygoogle)
