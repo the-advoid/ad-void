@@ -85,7 +85,7 @@ As <code>AdVoid</code> continues to improve, certain rules will get deprecated a
 
 ## 🤹🏼‍♂️ Usage
 
-Install it into your ad-blocker by clicking on following subscribe link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=6666ff"></a> or by manually adding a filter list with the URL of: <br>
+Install it into your ad-blocker by clicking on following subscribe link <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/subscribe-blue.svg"></a> or by manually adding a filter list with the URL of: <br>
 
 <p align="center">
  <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Core.txt</code>
