@@ -140,7 +140,7 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 
 If you don't want to bother adding multiple filter lists, you can get all of them bundled into one filter list - all except `AdVoid.Addon.Experiments` and scriptlets.
 
-You can add the bundled filter list by clicking here 👉🏼 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=4f147d"></a> or by manually adding a filter list with the URL of: <br>
+You can add the bundled filter list by clicking here 👉🏼 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/subscribe-lime.svg"></a> or by manually adding a filter list with the URL of: <br>
 
 <p align="center">
  <code>https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Full.txt</code>
