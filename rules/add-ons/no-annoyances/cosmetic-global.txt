@@ -339,3 +339,4 @@
 ###ot-sdk-btn:not(button)
 ###popup-newsletter
 ###taboola-below-article-thumbnails
+##[class^="_overlay"][data-component="popup-newsletter"]
