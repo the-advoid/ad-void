@@ -33,3 +33,4 @@ xhamster.*##.video-thumb[class*="__look-like-item"]
 xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
 xhamster.*##div[class*="sp-b"]
+xhamster.*##.xplayer-paused [class$="-centered"] [class$="-close"]
