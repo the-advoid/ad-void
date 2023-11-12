@@ -127,7 +127,7 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 <br>
 <br>
 
-⚗️ &nbsp; [AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=000066"></a>
+⚗️ &nbsp; [AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/subscribe-pink.svg"></a>
 <br>
 <br>
 <em>Unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.</em>
