@@ -18,6 +18,6 @@ This file tracks <strong>deprecation</strong>/<strong>removal</strong> of filter
 <br>
 <strong>Deprecation reason</strong>: Webmanifests and service workers are becoming a core-feature of many websites, also offering (and needed for) support for <a href="https://web.dev/explore/progressive-web-apps">PWA</a>.
 <br>
-<strong>Transferred to</strong>: <a href="https://github.com/igorskyflyer/ad-void/blob/main/add-ons/legacy/AdVoid.Legacy.Addon.NoExtras.txt"><strong>AdVoid.Legacy.Addon.NoExtras</strong></a>
+<strong>Transferred to</strong>: <a href="https://github.com/igorskyflyer/ad-void/blob/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt"><strong>AdVoid.Legacy.Addon.NoExtras</strong></a>
 
 ---
