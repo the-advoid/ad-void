@@ -36,3 +36,4 @@ xhamster.*##div[class*="sp-b"]
 xhamster.*##.xplayer-paused [class$="-centered"] [class$="-close"]
 thegay.com##.video-slider-container
 thegay.com##.video-page__content > div.left + div[class]:last-child
+thegay.com##.underplayer__info > div[class]:first-child
