@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.1085
-! Last modified: 2023-11-13T16:54:37.364+01:00
+! Version: 2.0.1086
+! Last modified: 2023-11-13T17:05:23.658+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3351
+! Entries: 3353
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2534,9 +2534,11 @@ videojs.ads.css^
 ||porndig.com/sw$script
 ||rackcdn.com/stf.js^
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^
+||thegay.com^$script,from=thegay.com
 
 ! {@9} Restore files (site)
 @@||mobilelegends.com/*/report/report.js^
+@@||thegay.com/upd/*/static/js/*.js|$domain=thegay.com
 
 ! {@10} RegExp (global)
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
