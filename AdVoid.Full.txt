@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1181
-! Last modified: 2023-11-13T18:03:44.744+01:00
+! Version: 2.0.1182
+! Last modified: 2023-11-13T18:04:12.762+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4165
+! Entries: 4164
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2803,7 +2803,6 @@ zoneid=
 ###fb-root:not(body):not(html)
 ###floating_ads_bottom_textcss_container
 ###footerad
-###gdprbx
 ###google-bottom-ads
 ###google-top-ads
 ###gpt-leaderboard-ad
@@ -3088,7 +3087,6 @@ zoneid=
 ##.job-feed-ad
 ##.js-ad-slot
 ##.js-advert
-##.js-consent-banner
 ##.js-gpt-ad
 ##.js-lazy-ad
 ##.js-notices.notices--block
@@ -3631,6 +3629,7 @@ zoneid=
 ##.header_banner_2_wrapper
 ##.herbyCookieConsent
 ##.jnews-cookie-law-policy
+##.js-consent-banner
 ##.js-cookie-consent
 ##.js-cookie-message-placeholder
 ##.js-cookies
