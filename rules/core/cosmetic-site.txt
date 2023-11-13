@@ -34,3 +34,4 @@ xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: stati
 xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
 xhamster.*##div[class*="sp-b"]
 xhamster.*##.xplayer-paused [class$="-centered"] [class$="-close"]
+thegay.com##.video-slider-container
