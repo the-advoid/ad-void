@@ -95,3 +95,4 @@ xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay
 xhamster.*##+js(cookie-remover, video_view_count)
 xhamster.*##.thumb-list > .video-thumb:style(margin-right: 0px !important;)
 storiesig.info.*##+js(no-window-open-if)
+noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
