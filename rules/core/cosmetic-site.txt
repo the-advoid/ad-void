@@ -40,3 +40,4 @@ thegay.com##.underplayer__info > div[class]:first-child
 thegay.com##.content > div:not([class]) > .wrapper ~ div[class]:not(.wrapper)
 myanimelist.net##[src*="/c/img/images/event/"]
 xhamster.*##aside[data-role="yld-pctop"]
+xhamster.*##yld-pc
