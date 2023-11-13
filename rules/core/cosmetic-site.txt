@@ -35,3 +35,4 @@ xhamster.com##body,html:style(overflow: auto !important; position: initial !impo
 xhamster.*##div[class*="sp-b"]
 xhamster.*##.xplayer-paused [class$="-centered"] [class$="-close"]
 thegay.com##.video-slider-container
+thegay.com##.video-page__content > div.left + div[class]:last-child
