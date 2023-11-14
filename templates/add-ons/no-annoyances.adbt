@@ -26,6 +26,11 @@ include './rules/add-ons/no-annoyances/endpoints-global.txt' sort
 
 nl
 
+tag 'Endpoints (site)'
+include './rules/add-ons/no-annoyances/endpoints-site.txt' sort
+
+nl
+
 tag 'Files (global)'
 include './rules/add-ons/no-annoyances/files-global.txt' sort
 
