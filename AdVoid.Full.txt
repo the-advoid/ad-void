@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1291
-! Last modified: 2023-11-14T18:33:21.719+01:00
+! Version: 2.0.1292
+! Last modified: 2023-11-14T18:34:50.238+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4236
+! Entries: 4237
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4178,12 +4178,12 @@ netlify.com#@#.btn-social
 *$frame,third-party,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 *$script,third-party,denyallow=9xbud.com|disqus.com|disquscdn.com|jwpsrv.com|plyr.io|jsdelivr.net|twimg.com|twitter.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,from=9xbuddy.*
 *$script,third-party,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
-/cookieconsent.$~stylesheet,from=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 9xbuddy.*##+js(no-window-open-if)
 apkcombo.com##+js(addEventListener-defuser, DOMContentLoaded, clientHeight)
 apkmirror.com##+js(noeval-if, 07c225f3.online)
 apkmirror.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
+apkmody.*##+js(no-window-open-if)
 apkmody.io##+js(abort-current-script, parseInt, break;case $.)
 apkmody.io##+js(addEventListener-defuser, , break;case $.)
 apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
@@ -4275,6 +4275,7 @@ youtube.com##+js(trusted-replace-fetch-response, /"playerAds.*?gutParams":\{"tag
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+/cookieconsent.$~stylesheet,from=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 apkmirror.com##body:style(overflow: auto !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
