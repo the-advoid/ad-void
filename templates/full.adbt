@@ -34,6 +34,7 @@ nl
 
 tag 'Endpoints (site)'
 include './rules/common/endpoints-site.txt' sort
+include './rules/add-ons/no-annoyances/endpoints-site.txt' sort
 include './rules/add-ons/no-externals/endpoints-site.txt' sort
 
 nl
