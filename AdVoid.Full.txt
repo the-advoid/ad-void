@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1298
-! Last modified: 2023-11-14T18:38:10.763+01:00
+! Version: 2.0.1299
+! Last modified: 2023-11-14T18:38:29.038+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 4237
@@ -4214,7 +4214,6 @@ mcloud.bz##+js(remove-attr, data-id|data-p, [data-id]\,[data-p], stay)
 medium.com##html:style(overflow-y: visible!important;)
 mixdrop.*##+js(abort-current-script, $, String.fromCharCode)
 mixdrop.*##+js(abort-on-property-write, _pop)
-mixdrop.*##+js(nano-setTimeout-booster, disabled)
 mixdrop.*##+js(no-window-open-if)
 mixdrop.*##+js(set-constant, MDCore.adblock, 0)
 porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
@@ -4277,6 +4276,7 @@ elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-c
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
 medium.com##+js(set-local-storage-item, 201805-policy|accepted, 1)
+mixdrop.*##+js(nano-setTimeout-booster, disabled)
 mixdrop.*##+js(nano-setTimeout-booster, Please wait, *, 0.02)
 my-subs.co##+js(set-constant, timeLeft, 0)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
