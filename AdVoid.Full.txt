@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1296
-! Last modified: 2023-11-14T18:37:28.152+01:00
+! Version: 2.0.1297
+! Last modified: 2023-11-14T18:37:52.325+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4237
+! Entries: 4236
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4202,7 +4202,6 @@ m4ufree.*##+js(no-setTimeout-if, debugger)
 m4ufree.*##+js(nowebrtc)
 m4uhd.*##+js(abort-on-property-read, mm)
 mashable.com##body:style(overflow: auto !important; position: initial !important;)
-mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
 mat6tube.com##+js(set-constant, ads, undefined)
 mcloud.*##+js(abort-on-property-read, AaDetector)
 mcloud.bz##+js(abort-current-script, Math, XMLHttpRequest)
@@ -4216,7 +4215,6 @@ medium.com##html:style(overflow-y: visible!important;)
 mixdrop.*##+js(abort-current-script, $, String.fromCharCode)
 mixdrop.*##+js(abort-on-property-write, _pop)
 mixdrop.*##+js(nano-setTimeout-booster, disabled)
-mixdrop.*##+js(nano-setTimeout-booster, Please wait, *, 0.02)
 mixdrop.*##+js(no-window-open-if)
 mixdrop.*##+js(set-constant, MDCore.adblock, 0)
 porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
@@ -4278,6 +4276,7 @@ apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 medium.com##+js(set-local-storage-item, 201805-policy|accepted, 1)
+mixdrop.*##+js(nano-setTimeout-booster, Please wait, *, 0.02)
 my-subs.co##+js(set-constant, timeLeft, 0)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
 ok.ru##+js(abort-on-property-read, globalAuthLoginPopupCounter)
