@@ -14,3 +14,4 @@ saveinsta.app##html:style(overflow: auto !important;)
 sammobile.com##+js(adjust-setInterval, showDownloadButton, , 0.02)
 /cookieconsent.$~stylesheet,from=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
+noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
