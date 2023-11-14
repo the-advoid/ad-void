@@ -36,7 +36,6 @@ streamtape.*##+js(disable-newtab-links)
 streamnoads.com##+js(disable-newtab-links)
 *$script,third-party,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
 teleperformance.com##body:style(overflow: auto!important;)
-/cookieconsent.$~stylesheet,from=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 pornone.com##+js(abort-current-script, $, adblock)
 pornone.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 mashable.com##body:style(overflow: auto !important; position: initial !important;)
