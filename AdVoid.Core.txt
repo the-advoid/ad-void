@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.1197
-! Last modified: 2023-11-14T18:33:18.008+01:00
+! Version: 2.0.1198
+! Last modified: 2023-11-14T18:34:46.432+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3399
@@ -3355,12 +3355,12 @@ mail.google.com#@#.ads
 *$frame,third-party,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 *$script,third-party,denyallow=9xbud.com|disqus.com|disquscdn.com|jwpsrv.com|plyr.io|jsdelivr.net|twimg.com|twitter.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,from=9xbuddy.*
 *$script,third-party,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
-/cookieconsent.$~stylesheet,from=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 9xbuddy.*##+js(no-window-open-if)
 apkcombo.com##+js(addEventListener-defuser, DOMContentLoaded, clientHeight)
 apkmirror.com##+js(noeval-if, 07c225f3.online)
 apkmirror.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
+apkmody.*##+js(no-window-open-if)
 apkmody.io##+js(abort-current-script, parseInt, break;case $.)
 apkmody.io##+js(addEventListener-defuser, , break;case $.)
 apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
