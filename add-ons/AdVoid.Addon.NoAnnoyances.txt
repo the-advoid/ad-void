@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.183
-! Last modified: 2023-11-14T17:37:37.519+01:00
+! Version: 2.0.184
+! Last modified: 2023-11-14T17:40:54.700+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 454
+! Entries: 455
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -51,7 +51,10 @@
 /related_1.html?language=$frame
 /web-push-
 
-! {@3} Files (global)
+! {@3} Endpoints (site)
+||securiti.ai/consent/
+
+! {@4} Files (global)
 /amp-user-notification-*.mjs^
 /amp-user-notification.css^
 /browser-nocookie.*.js^
@@ -88,11 +91,11 @@
 /wcp-consent.js^
 /zdconsent.js^
 
-! {@4} Files (site)
+! {@5} Files (site)
 ||ssstik.io/js/micromodal.min.js^
 ||widgets.outbrain.com/outbrain.js^$script
 
-! {@5} Cosmetic (global)
+! {@6} Cosmetic (global)
 ###__cookie-consent
 ###__cookie-consent-wrapper
 ###_evidon_banner
@@ -459,7 +462,7 @@
 ##ung-anonymous-consent-management
 ##ytd-feed-nudge-renderer
 
-! {@6} Global (site)
+! {@7} Global (site)
 medium.com##[class][style="bottom: 0px;"]
 medium.com##a[href^="https://rsci.app.link"]
 medium.com##div[role="dialog"] ~ div > div[style="bottom: 0px;"]
@@ -474,11 +477,11 @@ webhint.io##.disclaimer
 xhamster.com##.dyltv-container
 xhamster.com##[class*="bottom-"][class*="tip-"]
 
-! {@7} Restore cosmetic (site)
+! {@8} Restore cosmetic (site)
 devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
 
-! {@8} Scriptlets (site)
+! {@9} Scriptlets (site)
 apkmirror.com##body:style(overflow: auto !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
