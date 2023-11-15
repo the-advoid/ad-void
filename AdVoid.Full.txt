@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1457
-! Last modified: 2023-11-15T14:48:05.853+01:00
+! Version: 2.0.1458
+! Last modified: 2023-11-15T14:49:22.870+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4355
+! Entries: 4356
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4396,6 +4396,7 @@ mixdrop.*##+js(nano-setTimeout-booster, disabled)
 mixdrop.*##+js(nano-setTimeout-booster, Please wait, *, 0.02)
 my-subs.co##+js(set-constant, timeLeft, 0)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
+noodlemagazine.com##+js(adjust-setTimeout, download, 1100)
 ok.ru##+js(abort-on-property-read, globalAuthLoginPopupCounter)
 ok.ru##+js(json-prune, result.body.direct)
 sammobile.com##+js(adjust-setInterval, showDownloadButton, , 0.02)
