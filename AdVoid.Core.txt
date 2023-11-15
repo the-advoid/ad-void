@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.1304
-! Last modified: 2023-11-15T14:30:52.031+01:00
+! Version: 2.0.1305
+! Last modified: 2023-11-15T14:32:59.397+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3465
+! Entries: 3466
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2624,6 +2624,7 @@ videojs.ads.css^
 /^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$frame
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,third-party,redirect-rule=noop.js
 /^https?:\/\/[-a-z]{6,}\.com?\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,third-party,match-case
+/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|space|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,from=~127.0.0.1|~bitrix24.life|~ccc.ac|~jacksonchen666.com|~lemmy.world|~localhost|~mempool.space|~scribble.ninja|~scribble.website|~spacepub.space|~traineast.co.uk
 /mp3yad.net\/.{7}\.php/
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
