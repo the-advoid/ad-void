@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, location trackers, etc.
-! Version: 2.0.103
-! Last modified: 2023-11-15T14:25:20.887+01:00
+! Version: 2.0.104
+! Last modified: 2023-11-15T14:26:52.953+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 376
@@ -106,7 +106,6 @@
 ###header-facebook-social-link
 ###header-youtube-social-link
 ###js-pepco-cookies
-###menu-social-menu
 ###mindsay-widget-app
 ###nav-social
 ###share-block
@@ -405,6 +404,7 @@
 ##[class^="SiteFooterSocialIcons-"]
 ##[class^="SocialIconsList-"]
 ##[class^="SocialIconsWrapper-"]
+##[id^="menu-social-menu"]
 ##amp-social-share
 
 ! {@7} Cosmetic (site)
