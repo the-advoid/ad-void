@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1438
-! Last modified: 2023-11-15T14:32:10.857+01:00
+! Version: 2.0.1439
+! Last modified: 2023-11-15T14:33:03.482+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4337
+! Entries: 4338
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2762,6 +2762,7 @@ videojs.ads.css^
 /^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$frame
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,third-party,redirect-rule=noop.js
 /^https?:\/\/[-a-z]{6,}\.com?\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,third-party,match-case
+/^https?:\/\/[0-9a-z]{5,}\.(digital|website|life|guru|space|uno|cfd)\/[a-z0-9]{6,}\//$script,third-party,from=~127.0.0.1|~bitrix24.life|~ccc.ac|~jacksonchen666.com|~lemmy.world|~localhost|~mempool.space|~scribble.ninja|~scribble.website|~spacepub.space|~traineast.co.uk
 /mp3yad.net\/.{7}\.php/
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
