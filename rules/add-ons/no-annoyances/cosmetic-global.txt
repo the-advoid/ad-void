@@ -32,7 +32,7 @@
 ##[class^="CookieConsent__wrapper__"]
 ##.cc-floating
 ##.essb-subscribe-form
-##.cookie-notify
+##.cookie-notify:not(body):not(html)
 ##.fold_article__recommmended_for_you
 ###sticky-bar
 ###ban-cont
