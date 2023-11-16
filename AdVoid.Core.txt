@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 2.0.1330
-! Last modified: 2023-11-16T23:10:16.487+01:00
+! Version: 2.0.1331
+! Last modified: 2023-11-16T23:11:01.298+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3491
@@ -3486,7 +3486,6 @@ mixdrop.*##+js(abort-current-script, $, String.fromCharCode)
 mixdrop.*##+js(abort-on-property-write, _pop)
 mixdrop.*##+js(no-window-open-if)
 mixdrop.*##+js(set-constant, MDCore.adblock, 0)
-oap2day.*##+js(abort-current-script, JSON.parse, break;case $.)
 porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
 porndig.com##+js(set-constant, tkn_popunder, null)
 pornone.com##+js(abort-current-script, $, adblock)
@@ -3499,6 +3498,7 @@ putlocker.*##+js(abort-current-script, parseInt, break;case $.)
 putlocker.*##+js(abort-on-property-write, adcashMacros)
 putlocker.*##+js(abort-on-property-write, open)
 putlocker.*##+js(disable-newtab-links)
+soap2day.*##+js(abort-current-script, JSON.parse, break;case $.)
 spankbang.com##+js(no-window-open-if)
 spankbang.com##+js(set-constant, chrome, undefined)
 storiesig.info.*##+js(no-window-open-if)
