@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.91
-! Last modified: 2023-11-18T20:19:25.526+01:00
+! Version: 3.0.92
+! Last modified: 2023-11-18T20:19:47.422+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 4463
@@ -4489,7 +4489,7 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtube4kdownloader.com##+js(addEventListener-defuser, , break;case $.)
 ytmp3.*##+js(no-window-open-if)
 ytmp3.cc##+js(no-window-open-if, !/ytmp3|dropbox/)
-/cookieconsent.$~stylesheet,from=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
+/cookieconsent.$~stylesheet,domain=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
 apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
