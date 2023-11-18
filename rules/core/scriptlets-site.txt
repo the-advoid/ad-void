@@ -33,7 +33,6 @@ youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].play
 porntrex.com##+js(disable-newtab-links)
 streamtape.*##+js(disable-newtab-links)
 streamnoads.com##+js(disable-newtab-links)
-*$script,third-party,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,domain=porntrex.com
 teleperformance.com##body:style(overflow: auto!important;)
 pornone.com##+js(abort-current-script, $, adblock)
 pornone.com##+js(abort-current-script, document.querySelectorAll, popMagic)
