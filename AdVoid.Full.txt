@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1584
-! Last modified: 2023-11-18T18:08:50.486+01:00
+! Version: 2.0.1585
+! Last modified: 2023-11-18T18:09:05.112+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4466
+! Entries: 4467
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4389,6 +4389,7 @@ beemtube.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 camwhores.*##+js(abort-current-script, onload)
 camwhores.*##+js(abort-on-property-read, _wm)
 camwhores.*##+js(addEventListener-defuser, , Pop)
+camwhores.*##+js(no-window-open-if)
 camwhores.tv##+js(no-setTimeout-if, innerText, 2000)
 eporner.com##+js(abort-on-property-write, EPeventFire)
 eporner.com##+js(no-setTimeout-if, additional_src, 300)
