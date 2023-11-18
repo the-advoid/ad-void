@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 2.0.1536
-! Last modified: 2023-11-18T17:41:39.308+01:00
+! Version: 2.0.1537
+! Last modified: 2023-11-18T17:42:01.749+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4420
+! Entries: 4421
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4347,6 +4347,7 @@ apkmody.io##+js(addEventListener-defuser, , break;case $.)
 balkanportal.net##+js(abort-on-property-write, _pop)
 beeg.porn##+js(href-sanitizer, a[href^="/vp/player/to/?u=http"]\, a[href^="/vp/download/goto/?u=http"], ?u)
 beemtube.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+eporner.com##+js(abort-on-property-write, EPeventFire)
 eporner.com##+js(remove-node-text, script, /adb/i)
 filemoon.*##+js(abort-current-script, navigator, popunder)
 filemoon.*##+js(abort-on-property-read, FMPoopS)
