@@ -544,4 +544,3 @@ txxx.com##.jwplayer:style(max-height: initial!important;)
 xhamster.*##+js(remove-class, xh-thumb-disabled, html)
 xhamster.com##+js(remove-class, xh-thumb-disabled, , stay)
 xvideos.com##+js(set-constant, xv.disclaimer.displayCookiePopup, noopFunc)
-
