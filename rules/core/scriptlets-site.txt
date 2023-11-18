@@ -55,7 +55,6 @@ mat6tube.com##+js(set-constant, ads, undefined)
 spankbang.com##+js(set-constant, chrome, undefined)
 spankbang.com##+js(no-window-open-if)
 9xbuddy.*##+js(no-window-open-if)
-*$script,third-party,denyallow=9xbud.com|disqus.com|disquscdn.com|jwpsrv.com|plyr.io|jsdelivr.net|twimg.com|twitter.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=9xbuddy.*
 medium.com##html:style(overflow-y: visible!important;)
 xvideos.com##+js(no-window-open-if)
 porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
