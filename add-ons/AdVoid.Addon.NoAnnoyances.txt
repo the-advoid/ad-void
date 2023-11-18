@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.263
-! Last modified: 2023-11-18T20:10:15.277+01:00
+! Version: 2.0.264
+! Last modified: 2023-11-18T20:19:45.540+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 503
@@ -517,7 +517,7 @@ devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
 
 ! {@9} Scriptlets (site)
-/cookieconsent.$~stylesheet,from=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
+/cookieconsent.$~stylesheet,domain=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
 apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
