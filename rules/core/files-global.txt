@@ -286,7 +286,7 @@ trekkie*.js^
 /tacoma/*.js^
 /tardisrocinante/*.js^
 /aas/r45d/vki/*$script,redirect-rule=noop.js
-/plausible.js$from=~plausible.io
+/plausible.js$domain=~plausible.io
 /ad-provider.js^
 /bv-analytics.js^$script
 /wp2leads/*/*.js^$script
