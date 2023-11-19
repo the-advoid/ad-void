@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.280
-! Last modified: 2023-11-19T18:18:37.114+01:00
+! Version: 2.0.281
+! Last modified: 2023-11-19T18:24:44.993+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 518
+! Entries: 519
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -532,6 +532,7 @@ apkmody.fun##+js(adjust-setTimeout, download_loading, *, 0.02)
 apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
 cdromance.com##body:style(overflow: auto !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
+emulatorgames.net##+js(adjust-setInterval, #eg-timer, , 0.3)
 filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
 howtogeek.com##+js(abort-current-script, document.createElement, /admiral|String\.fromCharCode\(97\,( )*?100\,( )*?109\,( )*?105\,( )*?114\,( )*?97\,( )*?108\)|a%64%6d%69%72%61%6c/)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
