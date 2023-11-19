@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.268
-! Last modified: 2023-11-19T16:57:45.945+01:00
+! Version: 2.0.269
+! Last modified: 2023-11-19T16:59:03.606+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 506
+! Entries: 507
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -524,6 +524,7 @@ apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
 apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
+filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
 howtogeek.com##+js(abort-current-script, document.createElement, /admiral|String\.fromCharCode\(97\,( )*?100\,( )*?109\,( )*?105\,( )*?114\,( )*?97\,( )*?108\)|a%64%6d%69%72%61%6c/)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
