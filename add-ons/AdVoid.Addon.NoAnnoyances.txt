@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.267
-! Last modified: 2023-11-19T16:47:30.159+01:00
+! Version: 2.0.268
+! Last modified: 2023-11-19T16:57:45.945+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 505
+! Entries: 506
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -530,6 +530,7 @@ mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
 medium.com##+js(set-local-storage-item, 201805-policy|accepted, 1)
 mixdrop.*##+js(nano-setTimeout-booster, disabled)
 mixdrop.*##+js(nano-setTimeout-booster, Please wait, *, 0.02)
+modyolo.com##+js(adjust-setTimeout, #download-loading, *, 0.02)
 my-subs.co##+js(set-constant, timeLeft, 0)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1100)
