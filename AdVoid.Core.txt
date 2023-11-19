@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.108
-! Last modified: 2023-11-19T17:34:10.176+01:00
+! Version: 3.0.109
+! Last modified: 2023-11-19T17:35:41.737+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3580
+! Entries: 3581
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2652,6 +2652,7 @@ videojs.ads.css^
 @@||superporn.com/build/js/video/report-*.js^
 @@||thegay.com/assets/*/*.js^
 @@||thegay.com/upd/*/static/js/*.js^
+@@||ytmp3.cc/js/trace.js^
 
 ! {@10} RegExp (global)
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
