@@ -28,3 +28,4 @@ howtogeek.com##+js(abort-current-script, document.createElement, /admiral|String
 modyolo.com##+js(adjust-setTimeout, #download-loading, *, 0.02)
 filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
 apkmody.fun##+js(adjust-setTimeout, download_loading, *, 0.02)
+mediafire.com##.nonDLContentWrap:style(min-height: 1300px !important;)
