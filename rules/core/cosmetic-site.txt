@@ -25,7 +25,6 @@ imdb.com##.cornerstone_slot
 apkcombo.com##.column > div.widget:has(> a.installer)
 apkcombo.com##.diseanmevrtt
 xhamster.*##.video-thumb[class*="__look-like-item"]
-xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
 xhamster.*##div[class*="sp-b"]
 xhamster.*##.xplayer-paused [class$="-centered"] [class$="-close"]
 thegay.com##.video-slider-container
