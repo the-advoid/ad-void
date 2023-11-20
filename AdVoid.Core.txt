@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.154
-! Last modified: 2023-11-20T20:20:03.506+01:00
+! Version: 3.0.155
+! Last modified: 2023-11-20T20:20:29.131+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3602
@@ -3499,7 +3499,6 @@ txxx.*##span:only-child:has-text(/^AD$/):upward(2)
 videotxxx.com##.jw-title-secondary.jw-reset-text
 xgroovy.com##.table
 xhamster.*##.video-thumb[class*="__look-like-item"]
-xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.*##.xplayer-paused [class$="-centered"] [class$="-close"]
 xhamster.*##.yld-pc
 xhamster.*##.yld-pc--middle
@@ -3642,6 +3641,7 @@ xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay
 xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster.*##+js(set-cookie, ts_popunder, true, , reload, 1)
 xhamster.*##.thumb-list > .video-thumb:style(margin-right: 0px !important;)
+xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.com##+js(no-fetch-if, adsbygoogle)
 xvideos.com##+js(no-window-open-if)
 youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
