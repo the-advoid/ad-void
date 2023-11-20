@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.156
-! Last modified: 2023-11-20T20:23:04.091+01:00
+! Version: 3.0.157
+! Last modified: 2023-11-20T20:27:37.480+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3602
@@ -3461,7 +3461,6 @@ emulatorgames.net##[class*="site-unit"]
 eporner.com##.hptab
 eporner.com##.vjs-inplayer-container
 glosbe.com###topTrufleContainer
-glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-template-columns: minmax(180px,250px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 glosbe.com##.right-sidebar-trufle-container
 gosexpod.com###xtw
 gosexpod.com##.zzz-ddnotice
@@ -3494,7 +3493,6 @@ thegay.com##.underplayer__info > div[class]:first-child
 thegay.com##.video-page__content > div.left + div[class]:last-child
 thegay.com##.video-slider-container
 thisvid.com##.spots
-tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
 txxx.*##span:only-child:has-text(/^AD$/):upward(2)
 videotxxx.com##.jw-title-secondary.jw-reset-text
 xgroovy.com##.table
@@ -3550,6 +3548,7 @@ gayforfans.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 gayforfans.com##+js(addEventListener-defuser, getexoloader)
 gayforfans.com##+js(no-window-open-if)
 glosbe.com##.dictionary-grid:matches-media((min-width: 1024px)):style(grid-template-columns: minmax(180px,200px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
+glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-template-columns: minmax(180px,250px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 glosbe.com##.dictionary-grid:matches-media((min-width: 768px)):style(grid-template-rows: 0 auto !important;)
 gosexpod.com##+js(abort-on-property-read, document.dispatchEvent)
 gosexpod.com##+js(addEventListener-defuser, click, my_inter_listen)
@@ -3628,6 +3627,7 @@ thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 timeanddate.com##+js(addEventListener-defuser, load, Dislike intrusive ads)
 timeanddate.com##+js(addEventListener-defuser, scroll, _onscroll)
+tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
 txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
 txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
