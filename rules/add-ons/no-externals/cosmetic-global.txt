@@ -334,3 +334,4 @@
 ###social-pinterest
 ###social-youtube
 ##.social-sharing__link
+##a[href^="https://api.whatsapp.com/send?text="]
