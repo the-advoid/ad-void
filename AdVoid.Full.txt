@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.221
-! Last modified: 2023-11-20T20:18:23.044+01:00
+! Version: 3.0.222
+! Last modified: 2023-11-20T20:19:16.491+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 4545
@@ -4340,7 +4340,6 @@ emulatorgames.net##[class*="site-unit"]
 eporner.com##.hptab
 eporner.com##.vjs-inplayer-container
 glosbe.com###topTrufleContainer
-glosbe.com##.dictionary-grid:matches-media((min-width: 1024px)):style(grid-template-columns: minmax(180px,200px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-template-columns: minmax(180px,250px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 glosbe.com##.dictionary-grid:matches-media((min-width: 768px)):style(grid-template-rows: 0 auto !important;)
 glosbe.com##.right-sidebar-trufle-container
@@ -4456,6 +4455,7 @@ filemoon.*##^script:has-text(/Math.floor|FMPoopS/)
 gayforfans.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 gayforfans.com##+js(addEventListener-defuser, getexoloader)
 gayforfans.com##+js(no-window-open-if)
+glosbe.com##.dictionary-grid:matches-media((min-width: 1024px)):style(grid-template-columns: minmax(180px,200px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 gosexpod.com##+js(abort-on-property-read, document.dispatchEvent)
 gosexpod.com##+js(addEventListener-defuser, click, my_inter_listen)
 heavy-r.com##+js(abort-current-script, document.createElement, insertBefore)
