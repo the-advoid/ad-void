@@ -140,3 +140,4 @@ glosbe.com##.dictionary-grid:matches-media((min-width: 768px)):style(grid-templa
 apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
 xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
+tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
