@@ -139,3 +139,4 @@ glosbe.com##.dictionary-grid:matches-media((min-width: 1024px)):style(grid-templ
 glosbe.com##.dictionary-grid:matches-media((min-width: 768px)):style(grid-template-rows: 0 auto !important;)
 apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
 xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
+xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
