@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.223
-! Last modified: 2023-11-20T20:19:45.314+01:00
+! Version: 3.0.224
+! Last modified: 2023-11-20T20:20:07.205+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 4545
@@ -4330,7 +4330,6 @@ aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*=
 apkcombo.com##.column > div.widget:has(> a.installer)
 apkcombo.com##.diseanmevrtt
 apkdone.com##div[style^="height:250px"]
-apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
 beemtube.com##.overspot
 camwhores.tv##a[href*="theporndude.com"]
 cdromance.com###custom_html-8
@@ -4426,6 +4425,7 @@ netlify.com#@#.btn-social
 apkcombo.com##+js(addEventListener-defuser, DOMContentLoaded, clientHeight)
 apkmirror.com##+js(noeval-if, 07c225f3.online)
 apkmirror.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
 apkmody.*##+js(no-window-open-if)
 apkmody.io##+js(abort-current-script, parseInt, break;case $.)
 apkmody.io##+js(addEventListener-defuser, , break;case $.)
