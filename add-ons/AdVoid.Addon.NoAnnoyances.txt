@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.295
-! Last modified: 2023-11-20T20:14:22.175+01:00
+! Version: 2.0.296
+! Last modified: 2023-11-20T20:17:44.776+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 525
@@ -512,7 +512,6 @@ myanimelist.net##.modal-container
 myanimelist.net##.modal-content
 patient.info##.modal
 saveinsta.app###dlModal
-soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com###modal-snpromo
 tinyzonetv.se###modalshare
 tinyzonetv.se##.modal-backdrop
@@ -557,6 +556,7 @@ ok.ru##+js(json-prune, result.body.direct)
 patient.info##body:style(overflow: visible!important;)
 sammobile.com##+js(adjust-setInterval, showDownloadButton, , 0.02)
 saveinsta.app##html:style(overflow: auto !important;)
+soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
 streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
 streamtape.*##+js(nano-setTimeout-booster, counter)
