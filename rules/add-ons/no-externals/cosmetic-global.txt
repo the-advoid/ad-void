@@ -201,7 +201,6 @@
 ###shareicons
 ##.resp-sharing-button
 ##.js-toggle-cookie-panel
-##.footer_social_icons
 ##.novashare-buttons
 ##.novashare-floating
 ##.share-button
@@ -331,4 +330,4 @@
 ##[class*="c-social-buttons"]
 ##.main-social
 ##[class*="-item-share"]
-##.footer_social
+##[class*="footer_social"]
