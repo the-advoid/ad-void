@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.224
-! Last modified: 2023-11-20T20:20:07.205+01:00
+! Version: 3.0.225
+! Last modified: 2023-11-20T20:20:33.095+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4545
+! Entries: 4544
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4377,14 +4377,12 @@ txxx.*##span:only-child:has-text(/^AD$/):upward(2)
 videotxxx.com##.jw-title-secondary.jw-reset-text
 xgroovy.com##.table
 xhamster.*##.video-thumb[class*="__look-like-item"]
-xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.*##.xplayer-paused [class$="-centered"] [class$="-close"]
 xhamster.*##.yld-pc
 xhamster.*##.yld-pc--middle
 xhamster.*##.yld-pcno-ts-init
 xhamster.*##aside[data-role="yld-pctop"]
 xhamster.*##div[class*="sp-b"]
-xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
 youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
 apkmody.fun###body-fixed-footer
@@ -4545,6 +4543,7 @@ xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay
 xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster.*##+js(set-cookie, ts_popunder, true, , reload, 1)
 xhamster.*##.thumb-list > .video-thumb:style(margin-right: 0px !important;)
+xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.com##+js(no-fetch-if, adsbygoogle)
 xvideos.com##+js(no-window-open-if)
 youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
