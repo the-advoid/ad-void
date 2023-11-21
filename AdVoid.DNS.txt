@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.765
-! Last modified: 2023-11-21T16:04:15.376+01:00
+! Version: 2.0.766
+! Last modified: 2023-11-21T16:04:41.535+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2156
@@ -1768,6 +1768,7 @@
 ||itponytaa.com^
 ||m2track.co^
 ||browser-intake-datadoghq.eu^
+||browser-intake-datadoghq.com^
 
 ! {@1} IP addresses (global)
 ||37.1.213.100^
@@ -2095,7 +2096,6 @@
 ||telemetry.api.swiftkey.com^
 ||kta.etherscan.com^
 ||g.mashable.com^
-||browser-intake-datadoghq.com^
 ||nr.static.mmcdn.com^
 ||nr.mmcdn.com^
 ||plx.porndig.com^
