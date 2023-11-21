@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.282
-! Last modified: 2023-11-21T18:24:31.717+01:00
+! Version: 3.0.283
+! Last modified: 2023-11-21T18:32:55.268+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 4547
@@ -290,7 +290,6 @@
 ||brealtime.com^
 ||breathtricklealleviate.com^
 ||brithungown.com^
-||browser-intake-datadoghq.
 ||browser-update.org^
 ||btloader.com^
 ||btmessage.com^
@@ -1796,6 +1795,7 @@
 
 ! {@1} Domains - wildcard (global)
 -pglstatp.com^
+||browser-intake-datadoghq.
 
 ! {@2} Domains - RegExp (global)
 /aj\d{4}\.online/
