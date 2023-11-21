@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.762
-! Last modified: 2023-11-21T15:30:06.104+01:00
+! Version: 2.0.763
+! Last modified: 2023-11-21T15:40:35.260+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2156
@@ -1529,7 +1529,6 @@
 ||nauseousonto.com^
 ||lby2kd27c.com^
 ||vak345.com^
-||54.229.239.44^
 ||karoon.xyz^
 ||pclk.name^
 ||fancycrab.net^
@@ -1772,6 +1771,7 @@
 
 ! {@1} IP addresses (global)
 ||37.1.213.100^
+||54.229.239.44^
 
 ! {@2} Subdomains (global)
 ||ads.google.com^
