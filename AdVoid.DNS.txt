@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.761
-! Last modified: 2023-11-20T20:48:54.226+01:00
+! Version: 2.0.762
+! Last modified: 2023-11-21T15:30:06.104+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2156
@@ -1770,7 +1770,10 @@
 ||itponytaa.com^
 ||m2track.co^
 
-! {@1} Subdomains (global)
+! {@1} IP addresses (global)
+||37.1.213.100^
+
+! {@2} Subdomains (global)
 ||ads.google.com^
 ||adservice.google.com^
 ||adtago.s3.amazonaws.com^
@@ -2039,7 +2042,6 @@
 ||ads.twitter.com^
 ||analytics.twitter.com^
 ||pixel.tatpek.com^
-||37.1.213.100^
 ||click.googleanalytics.com^
 ||analytics.s3.amazonaws.com^
 ||bdapi-in-ads.realmemobile.com^
@@ -2129,7 +2131,7 @@
 ||d2zue0pgsssbc6.cloudfront.net^
 ||g.ign.com^
 
-! {@2} Endpoints (site)
+! {@3} Endpoints (site)
 ||daxab.com/logger/
 ||cohesion.healthline.com/cohesion/
 ||cloudflare.com/gtag/
