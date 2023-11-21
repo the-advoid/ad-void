@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 3.0.4
-! Last modified: 2023-11-21T18:24:33.703+01:00
+! Version: 3.0.5
+! Last modified: 2023-11-21T18:32:57.229+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2155
@@ -1762,12 +1762,12 @@
 ||hscta.net^
 ||itponytaa.com^
 ||m2track.co^
-||browser-intake-datadoghq.
 ||cjbr5.top^
 ||rky9j.top^
 
 ! {@1} Domains - wildcard (global)
 -pglstatp.com^
+||browser-intake-datadoghq.
 
 ! {@2} Domains - RegExp (global)
 /aj\d{4}\.online/
