@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 2.0.763
-! Last modified: 2023-11-21T15:40:35.260+01:00
+! Version: 2.0.764
+! Last modified: 2023-11-21T15:42:27.176+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2156
@@ -1587,7 +1587,6 @@
 ||xedo.me^
 ||mobstarter.com^
 ||parkingcrew.net^
-||d38psrni17bvxu.cloudfront.net^
 ||repentantsympathy.com^
 ||pemsrv.com^
 ||optad360.net^
@@ -2130,6 +2129,7 @@
 ||fpt.microsoft.com^
 ||d2zue0pgsssbc6.cloudfront.net^
 ||g.ign.com^
+||d38psrni17bvxu.cloudfront.net^
 
 ! {@3} Endpoints (site)
 ||daxab.com/logger/
