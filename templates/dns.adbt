@@ -16,6 +16,11 @@ include './rules/common/domains.txt' strip = modifiers
 
 nl
 
+tag 'Domains - wildcard (global)'
+include './rules/common/domains-wildcard.txt' sort
+
+nl
+
 tag 'Domains - RegExp (global)'
 include './rules/common/domains-regex.txt' sort
 
