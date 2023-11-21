@@ -16,6 +16,11 @@ include './rules/common/domains.txt' strip = modifiers
 
 nl
 
+tag 'Domains - RegExp (global)'
+include './rules/common/domains-regex.txt' sort
+
+nl
+
 tag 'IP addresses (global)'
 include './rules/common/ip-addresses.txt' sort
 
