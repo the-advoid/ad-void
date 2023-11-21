@@ -36,6 +36,11 @@ include './rules/common/subdomains.txt' sort
 
 nl
 
+tag 'Subdomains - wildcard (global)'
+include './rules/common/subdomains-wildcard.txt' sort
+
+nl
+
 tag 'Endpoints (global)'
 include './rules/core/endpoints-global.txt' sort
 
