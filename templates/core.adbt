@@ -16,6 +16,11 @@ include './rules/common/domains.txt' sort
 
 nl
 
+tag 'IP addresses (global)'
+include './rules/common/ip-addresses.txt' sort
+
+nl
+
 tag 'Subdomains (global)'
 include './rules/common/subdomains.txt' sort
 
