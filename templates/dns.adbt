@@ -36,6 +36,11 @@ include './rules/common/subdomains.txt' strip = modifiers
 
 nl
 
+tag 'Subdomains - wildcard (global)'
+include './rules/common/subdomains-wildcard.txt' sort
+
+nl
+
 tag 'Endpoints (site)'
 include './rules/common/endpoints-site.txt' strip = modifiers
 
