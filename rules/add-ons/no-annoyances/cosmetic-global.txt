@@ -397,4 +397,4 @@
 ##.jnews_popup_post_container
 ##.sitenotice-wrapper
 ##.wikia-bar-anon
-##.popup-cookie
+##.popup-cookie:not(body)
