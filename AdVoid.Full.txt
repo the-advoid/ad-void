@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.313
-! Last modified: 2023-11-23T19:07:24.234+01:00
+! Version: 3.0.314
+! Last modified: 2023-11-23T19:07:54.755+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 4575
@@ -1385,7 +1385,6 @@
 ||sgsnssdk.com^
 ||sharemedia.rs^
 ||shareron.xyz^
-||sharethrough.com^
 ||shaumtol.com^
 ||sheethoneymoon.com^
 ||shinglelatitude.com^
@@ -1796,6 +1795,7 @@
 ||purechat.com^
 ||sharedid.org^
 ||sharethis.com^
+||sharethrough.com^
 ||tawk.to^
 ||workerz1.com^
 ||zworker11.me^
