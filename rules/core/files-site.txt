@@ -24,6 +24,7 @@
 ||porntrex.com^$script,third-party,domain=~blazingcdn.net|~cdntrex.com|~fastly.net|~google.com|~googleapis.com|~gstatic.com|~h-cdn.com|~stackpathcdn.com
 ||sxyprn.$subdocument,third-party,domain=~google.com|~googleapis.com|~gstatic.com|~hcaptcha.com|~recaptcha.net
 ||b.cdnst.net/javascript/amazon.js^$script
+||jwpcdn.com/player/plugins/googima/$script
 
 /yts\.nu\/\d+\.html/
 /ummn\.nu\/\d+\.html/
