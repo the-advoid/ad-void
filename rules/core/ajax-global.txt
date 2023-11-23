@@ -17,7 +17,7 @@
 /stats^$xmlhttprequest
 /statsLog^$xmlhttprequest
 /pixel/puclc^$xmlhttprequest
-/ajax/banner^$xmlhttprequest
+/ajax/banner$xmlhttprequest
 /rneve^$xmlhttprequest,script
 /afu.php^$xmlhttprequest
 /ajax/get_4ads.php^$xmlhttprequest
