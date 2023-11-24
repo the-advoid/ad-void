@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.488
-! Last modified: 2023-11-24T14:20:59.494+01:00
+! Version: 3.0.489
+! Last modified: 2023-11-24T14:36:12.068+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4681
+! Entries: 4682
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4481,6 +4481,7 @@ imdb.com##.cornerstone_slot
 mashable.com##div[data-ga-category="newsletters"]
 mixdrop.*##body > div[style^="position: absolute;"][style*="z-index"]
 myanimelist.net##[src*="/c/img/images/event/"]
+myvidster.com##.container3 > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:not(:nth-child(1)):not(:nth-child(5))
 nintendolife.com##.for-desktop
 porn300.com##li[class*="special-offer-"]
 pornone.com##.warp
