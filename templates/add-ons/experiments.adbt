@@ -9,6 +9,9 @@ meta title = 'AdVoid.Addon.Experiments'
 meta description = 'An experimental filter used for testing purposes.'
 meta expires = '480 hours'
 
+nl
+
+tag 'Subdomains (global)'
 include './rules/add-ons/experiments/subdomains.txt'
 
 export './add-ons/AdVoid.Addon.Experiments.txt'
