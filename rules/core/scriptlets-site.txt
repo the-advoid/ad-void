@@ -144,3 +144,4 @@ tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important
 glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-template-columns: minmax(180px,250px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 txxx.*##.page-video > div.video-videos-slider ~ div[class]:matches-css(justify-content: center)
 txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
+myvidster.com##+js(abort-current-script, document.write, cachebuster)
