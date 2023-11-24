@@ -12,7 +12,6 @@ xhamster.com##+js(remove-class, xh-thumb-disabled, , stay)
 xhamster.*##+js(remove-class, xh-thumb-disabled, html)
 saveinsta.app##html:style(overflow: auto !important;)
 sammobile.com##+js(adjust-setInterval, showDownloadButton, , 0.02)
-/cookieconsent.$~stylesheet,domain=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
 apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
