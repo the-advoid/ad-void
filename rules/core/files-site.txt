@@ -25,6 +25,7 @@
 ||sxyprn.$subdocument,third-party,domain=~google.com|~googleapis.com|~gstatic.com|~hcaptcha.com|~recaptcha.net
 ||b.cdnst.net/javascript/amazon.js^$script
 ||jwpcdn.com/player/plugins/googima/$script
+||redditstatic.com/ads/$script
 
 /yts\.nu\/\d+\.html/
 /ummn\.nu\/\d+\.html/
