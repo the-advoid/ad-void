@@ -145,3 +145,4 @@ glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-templ
 txxx.*##.page-video > div.video-videos-slider ~ div[class]:matches-css(justify-content: center)
 txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
 myvidster.com##+js(abort-current-script, document.write, cachebuster)
+cbr.com##^script:has-text(admiral)
