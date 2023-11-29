@@ -147,3 +147,4 @@ txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] 
 myvidster.com##+js(abort-current-script, document.write, cachebuster)
 cbr.com##^script:has-text(admiral)
 cbr.com##+js(addEventListener-defuser, error, admiral)
+sherdog.com##^script:has-text(/typeof [a-z]\.cmd\.unshift/)
