@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.422
-! Last modified: 2023-11-29T20:08:03.392+01:00
+! Version: 3.0.423
+! Last modified: 2023-11-29T20:09:04.873+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3736
+! Entries: 3737
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3673,6 +3673,7 @@ camwhores.*##+js(set-constant, flashvars.adv_pre_vast, )
 camwhores.*##+js(set-constant, flashvars.protect_block, )
 camwhores.*##+js(set-constant, flashvars.video_click_url, )
 camwhores.tv##+js(no-setTimeout-if, innerText, 2000)
+cbr.com##+js(addEventListener-defuser, error, admiral)
 cbr.com##^script:has-text(admiral)
 eporner.com##+js(abort-on-property-write, EPeventFire)
 eporner.com##+js(no-setTimeout-if, additional_src, 300)
