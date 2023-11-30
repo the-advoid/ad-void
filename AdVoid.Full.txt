@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.611
-! Last modified: 2023-11-30T19:51:42.525+01:00
+! Version: 3.0.612
+! Last modified: 2023-11-30T20:02:14.060+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 4760
@@ -2457,7 +2457,6 @@ koko-analytics
 @@||doc.moplay.org/cdn-cgi/trace^$xmlhttprequest
 
 ! {@11} Files (global)
--1x1.gif^
 .ads.css^$stylesheet
 .cookielaw.js^
 .cookielaw.min.
@@ -2770,6 +2769,7 @@ koko-analytics
 /www/delivery/spcjs.php^
 /x.gif?
 /xads.js^
+1x1.gif^
 ad-manager
 amp-ad-*js^
 amp-analytics*js^
