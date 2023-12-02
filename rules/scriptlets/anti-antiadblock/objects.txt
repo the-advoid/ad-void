@@ -11,3 +11,4 @@
 ##+js(set, adnitroInpageOptions, {})
 ##+js(set, _pb, { libLoaded: true })
 ##+js(set, __cfRLUnblockHandlers, {})
+##+js(set, Matomo, { initialized: true })
