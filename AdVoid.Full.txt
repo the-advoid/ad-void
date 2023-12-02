@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.688
-! Last modified: 2023-12-02T21:23:42.629+01:00
+! Version: 3.0.689
+! Last modified: 2023-12-02T21:23:57.904+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4835
+! Entries: 4836
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4859,6 +4859,7 @@ emulatorgames.net##+js(adjust-setTimeout, .eg-manually-get, 7000, 0.02)
 facebook.com##+js(addEventListener-defuser, scroll, showPopup)
 facebook.com##+js(remove-class, _31e, body > ._li)
 filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
+hindustantimes.com##body:style(overflow: auto !important;)
 howtogeek.com##+js(abort-current-script, document.createElement, /admiral|String\.fromCharCode\(97\,( )*?100\,( )*?109\,( )*?105\,( )*?114\,( )*?97\,( )*?108\)|a%64%6d%69%72%61%6c/)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
