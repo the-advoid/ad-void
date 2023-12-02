@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Scriptlets.AntiAntiAdBlock
 ! Description: Infiltrates and then destroys common anti-adblock techniques. 💥
-! Version: 1.0.18
-! Last modified: 2023-12-02T21:28:42.638+01:00
+! Version: 1.0.19
+! Last modified: 2023-12-02T21:29:02.667+01:00
 ! Expires: 96 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 36
+! Entries: 37
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -53,6 +53,7 @@
 ##+js(set, _pb, { libLoaded: true })
 ##+js(set, __cfRLUnblockHandlers, {})
 ##+js(set, Matomo, { initialized: true })
+##+js(set, Piwik, { initialized: true })
 
 ! {@2} Hijack these functions
 ##+js(set, GeneratorAds, function() {})
