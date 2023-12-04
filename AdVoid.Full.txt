@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.724
-! Last modified: 2023-12-04T18:23:57.465+01:00
+! Version: 3.0.725
+! Last modified: 2023-12-04T18:29:11.324+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 4850
@@ -4856,7 +4856,6 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtube4kdownloader.com##+js(addEventListener-defuser, , break;case $.)
 ytmp3.*##+js(no-window-open-if)
 ytmp3.cc##+js(no-window-open-if, !/ytmp3|dropbox/)
-*##.jw-nextup-container:style(display: none !important;)
 apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
 cbr.com##+js(cookie-remover, articleLimitDrawerVisible)
@@ -4905,6 +4904,7 @@ tiktok.com##+js(addEventListener-defuser, keydown)
 tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 timeout.com##body:style(overflow: visible!important;)
+tubator.com##.jw-nextup-container:style(display: none !important;)
 txxx.com##.jwplayer:style(max-height: initial!important;)
 vk.com##+js(set-constant, window.PageBottomBanners.initUnauthBanner, noopFunc)
 vk.com##+js(set-constant, window.Unauthorized2, undefined)
