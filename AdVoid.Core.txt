@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.553
-! Last modified: 2023-12-04T19:29:07.670+01:00
+! Version: 3.0.554
+! Last modified: 2023-12-04T19:35:10.229+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 3834
@@ -3629,6 +3629,7 @@ zoneid=
 ##[src*="tubator.com/lookout/"]
 ##[src^="//syndication.traffichaus.com"]
 ##a[href*="//prtord.com/"]
+##a[href*="//rdwmct.com/"]
 ##a[href*="st1net.com"]
 ##a[href^="/click.go"]
 ##a[href^="https://clickadilla.com/"]
@@ -3687,7 +3688,6 @@ porn300.com##li[class*="special-offer-"]
 pornone.com##.warp
 pornone.com##a[class^="listing"]
 pornone.com##a[href*="//prtord.com/"]
-pornone.com##a[href*="//rdwmct.com/"]
 porntrex.com###exclusive-link
 porntrex.com###index-link
 pornzog.com###ntv_a
