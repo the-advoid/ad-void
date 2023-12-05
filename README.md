@@ -69,7 +69,7 @@
 <br>
 
 👽 Since _Aug 14 2023_, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) that substantially increase productivity and cut off the time needed for maintaining these filter lists, which means more frequent updates and delivery on a daily basis.
-Read more about this in the [Development](#📊-development) section of this pages.
+Read more about this in the [Genesis](#📊-genesis) section of this pages.
 
 
 <br>
@@ -150,7 +150,7 @@ You can add the bundled filter list by clicking here 👉🏼 <a href="https://s
 
 ---
 
-## 📈 Development
+## 🧬 Genesis
 ### 📚 Case study
 
 AdVoid was started as a personal project in January, 2023 then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **add-ons** and **modules** - for easier maintenance.
@@ -176,8 +176,6 @@ The add-ons are:
 
 ---
 
-<br>
-
 Even so it was a hassle to maintain the filter lists, in particular it involved hours of endless scrolling through rules to add a new rule to the end of a particular section or deleting one, updating the timestamp to the current one following the ISO 8601 standard using non-maintainer's timezone, bumping the version, changing the description and many things more.
 
 > That's where [**ADBT**](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) come into play.
@@ -199,6 +197,7 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 	</figure>
 </div>
 
+<br>
 <br>
 
 > Let's crunch those numbers! 🍪
