@@ -69,6 +69,8 @@
 <br>
 
 👽 Since _Aug 14 2023_, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) that substantially increase productivity and cut off the time needed for maintaining these filter lists, which means more frequent updates and delivery on a daily basis.
+Read more about this in the [Development](#📊-development) section of this pages.
+
 
 <br>
 <br>
@@ -147,5 +149,68 @@ You can add the bundled filter list by clicking here 👉🏼 <a href="https://s
 </p>
 
 ---
+
+## 📈 Development
+### 📚 Case study
+
+AdVoid was started as a personal project in January, 2023 then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **add-ons** and **modules** - for easier maintenance.
+
+<br>
+
+#### 🐛 Divergence pt. 1
+
+The modules are:
+- [AdVoid.Core](https://github.com/igorskyflyer/ad-void/blob/main/AdVoid.Core.txt) - core functionality = ad-blocking (URL + cosmetic)
+- [AdVoid.DNS](https://github.com/igorskyflyer/ad-void/blob/main/AdVoid.DNS.txt) - DNS-blocking (URL only)
+- [AdVoid.Full](https://github.com/igorskyflyer/ad-void/blob/main/AdVoid.Full.txt) - full content blocking (core functionality + add-ons)
+
+<br>
+
+#### 🐛 Divergence pt. 2
+
+The add-ons are:
+- [AdVoid.Addon.NoAnnoyances](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances like cookie-consent banners, popups, etc.
+- [AdVoid.Addon.NoExternals](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) - blocks external features, like sharing, Google Chromecast, etc.
+- [AdVoid.Addon.NoExtras](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) - blocks non-essential resources like news widgets, JavaScript and CSS maps, PWA install banners, etc.
+- [AdVoid.Addon.Experiments](https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) - unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.
+
+---
+
+<br>
+
+Even so it was a hassle to maintain the filter lists, in particular it involved hours of endless scrolling through rules to add a new rule to the end of a particular section or deleting one, updating the timestamp to the current one following the ISO 8601 standard using non-maintainer's timezone, bumping the version, changing the description and many things more.
+
+> That's where [**ADBT**](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) come into play.
+
+<br>
+
+After creating the before-mentioned solutions, [AdVoid](https://github.com/igorskyflyer/ad-void) was split even further into small chunks of rules, properly organized which allowed for easier maintenance, less time scrolling through endless lists of rules and more importantly it allowed re-use of rules, i.e. rules that were repeating, e.g. URLs that are blocked in all 3 modules: [AdVoid.Core](https://github.com/igorskyflyer/ad-void/blob/main/AdVoid.Core.txt), [AdVoid.DNS](https://github.com/igorskyflyer/ad-void/blob/main/AdVoid.DNS.txt), [AdVoid.Full](https://github.com/igorskyflyer/ad-void/blob/main/AdVoid.Full.txt) are contained in a single file and [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) fetches the URLs from the given file and applies transformations when needed, e.g. domain rules are stripped of all modifiers for the [AdVoid.DNS](https://github.com/igorskyflyer/ad-void/blob/main/AdVoid.DNS.txt) module.
+
+<br>
+
+Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves a substantial amount of time needed for maintaining filter lists, it \[ *Aria* \] has allowed the productivity to increase exponentially which in turn allowed for rule additions to skyrocket, see the graph below. 🚀
+
+<br>
+
+<div align="center">
+	<figure>
+		<img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="A graph showing substantial increase of rule additions">
+		<figcaption><sub>Figure 1: a graph showing substantial increase of rule additions when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
+	</figure>
+</div>
+
+<br>
+
+> Let's crunch those numbers! 🍪
+
+<br>
+
+Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) compiler, which occurred in mid August, 2023, there were ~**236** rule additions per month.  
+
+After implementing the before-mentioned solutions there were ~**3024** rule additions per month which is an increase of ~**1181.4%**, while additions reached their peak in November, with staggering ~**5816** rule additions which is an increase of ~**2364.4%** respectively, in November.
+
+---
+
+<br>
 
 <h3 align="center">🕺🏻 HAPPY BLOCKING! 🥳</h3>
