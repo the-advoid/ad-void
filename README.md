@@ -68,7 +68,8 @@
 <br>
 <br>
 
-👽 Since _Aug 14 2023_, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) that substantially increase productivity and cut off the time needed for maintaining these filter lists, which means more frequent updates and delivery on a daily basis.
+👽 Since _Aug 14 2023_, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) that substantially increase productivity and cut off the time needed for maintaining these filter lists, which means more frequent updates and delivery on a daily basis.  
+
 Read more about this in the [Genesis](#📊-genesis) section of this pages.
 
 
