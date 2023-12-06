@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.374
-! Last modified: 2023-12-06T00:43:22.338+01:00
+! Version: 2.0.375
+! Last modified: 2023-12-06T00:45:51.558+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 590
+! Entries: 592
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -556,6 +556,7 @@ myanimelist.net##.modal-content-overlay
 patient.info##.modal
 pdfdrive.com###pdfdriveAlerts
 pdfdrive.com###subscribe-heading
+pdfdrive.com###subscribebox-cats
 reddit.com##[slot="use-app"]
 reddit.com##shreddit-experience-tree
 saveinsta.app###dlModal
@@ -608,6 +609,7 @@ noodlemagazine.com##+js(adjust-setTimeout, download, 1100)
 ok.ru##+js(abort-on-property-read, globalAuthLoginPopupCounter)
 ok.ru##+js(json-prune, result.body.direct)
 patient.info##body:style(overflow: visible!important;)
+pdfdrive.com##body:style(overflow: visible !important; padding-right: 0 !important;)
 reddit.com##+js(addEventListener-defuser, block-body-scrolling)
 reddit.com##+js(remove-class, m-blurred, .m-blurred)
 reddit.com##+js(remove-class, scroll-disabled, body, complete)
