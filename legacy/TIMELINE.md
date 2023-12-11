@@ -10,6 +10,18 @@ This file tracks <strong>deprecation</strong>/<strong>removal</strong> of filter
 
 ---
 
+<h4>⌚ 11 Dec 2023</h4>
+
+<strong>Filter list</strong>: <a href="https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt"><strong>AdVoid.Addon.NoExternals</strong></a>
+<br>
+<strong>Deprecated rules</strong>: Comments
+<br>
+<strong>Deprecation reason</strong>: Comments provide opinions, additional information, or engage in discussions related to the content on the page or forum thread and thus is relevant to the main content.
+<br>
+<strong>Transferred to</strong>: <strong>Work in progress</strong>
+
+---
+
 <h4>⌚ 16 Oct 2023</h4>
 
 <strong>Filter list</strong>: <a href="https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt"><strong>AdVoid.Addon.NoExtras</strong></a>
