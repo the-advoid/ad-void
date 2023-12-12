@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.776
-! Last modified: 2023-12-06T00:45:55.302+01:00
+! Version: 3.0.777
+! Last modified: 2023-12-12T20:40:01.749+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4885
+! Entries: 4886
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4815,6 +4815,7 @@ mixdrop.*##+js(no-window-open-if)
 mixdrop.*##+js(set-constant, MDCore.adblock, 0)
 myvidster.com##+js(abort-current-script, document.write, cachebuster)
 nintendolife.com##+js(abort-on-property-read, _sp_._networkListenerData)
+onlymp3.to##+js(no-window-open-if)
 porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
 porndig.com##+js(set-constant, tkn_popunder, null)
 pornhoarder.tv##+js(no-window-open-if)
