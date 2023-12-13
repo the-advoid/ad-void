@@ -154,7 +154,7 @@ You can add the bundled filter list by clicking here 👉🏼 <a href="https://s
 ## 🧬 Genesis
 ### 📚 Case study
 
-AdVoid was started as a personal project in January, 2023 then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **add-ons** and **modules** - for easier maintenance.
+AdVoid was started as a personal project in January, 2022 then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **add-ons** and **modules** - for easier maintenance.
 
 <br>
 
