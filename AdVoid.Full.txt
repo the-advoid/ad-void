@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.873
-! Last modified: 2023-12-14T15:48:11.472+01:00
+! Version: 3.0.874
+! Last modified: 2023-12-14T15:48:27.544+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4973
+! Entries: 4974
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4938,6 +4938,7 @@ txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
 txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
 txxx.*##.page-video > div.video-videos-slider ~ div[class]:matches-css(justify-content: center)
+vidsrc.*##+js(abort-current-script, JSON.parse, break;case $.)
 vidsrc.*##+js(abort-current-script, navigator, FingerprintJS)
 vidsrc.*##+js(abort-on-property-read, __Y)
 vidsrc.*##+js(no-setInterval-if, /devtools|0x/)
