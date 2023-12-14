@@ -23,7 +23,7 @@
 
 <div align="center" style="margin: auto;">
   <img src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-launched.svg" alt="AdVoid is available from Feb 15, 2022">
-  <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.650-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.651-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/igorskyflyer/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
   <a href="https://github.com/igorskyflyer/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-modules.svg"></a>
 	<br>
