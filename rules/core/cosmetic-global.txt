@@ -713,7 +713,7 @@
 ##.storyAd
 ##[class^="adHeight"]
 ##[class*="bilbord-wrapper"]
-##[class*="banner-placeholder"]
+##[class*="banner-placeholder"]:not(body):not(html)
 ##[src*="tubator.com/lookout/"]
 ##.afs_ads
 ##.ads-block-rightside
