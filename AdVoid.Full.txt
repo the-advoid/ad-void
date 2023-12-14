@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.850
-! Last modified: 2023-12-14T15:37:28.168+01:00
+! Version: 3.0.851
+! Last modified: 2023-12-14T15:37:50.313+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4951
+! Entries: 4952
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4953,6 +4953,7 @@ apkmody.*##+js(adjust-setTimeout, download_loading, *)
 cbr.com##+js(cookie-remover, articleLimitDrawerVisible)
 cbr.com##+js(cookie-remover, unauthenicatedArticleLimitReached)
 cdromance.com##body:style(overflow: auto !important;)
+context.reverso.net##+js(set-local-storage-item, detailedview-clicks, 5)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 emulatorgames.net##+js(adjust-setInterval, #eg-timer, , 0.3)
