@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.895
-! Last modified: 2023-12-14T16:10:55.431+01:00
+! Version: 3.0.896
+! Last modified: 2023-12-14T19:50:57.084+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4995
+! Entries: 4997
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4990,6 +4990,8 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtube4kdownloader.com##+js(addEventListener-defuser, , break;case $.)
 ytmp3.*##+js(no-window-open-if)
 ytmp3.cc##+js(no-window-open-if, !/ytmp3|dropbox/)
+accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transition)
+accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
 apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
 cbr.com##+js(cookie-remover, articleLimitDrawerVisible)
