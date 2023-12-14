@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, skips countdowns, etc.
-! Version: 2.0.403
-! Last modified: 2023-12-14T15:40:25.534+01:00
+! Version: 2.0.404
+! Last modified: 2023-12-14T15:41:00.682+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 618
@@ -551,7 +551,6 @@
 
 ! {@7} Global (site)
 apkmody.fun###body-fixed-footer
-context.reverso.net##+js(remove-class, blocked, .left-content > section#examples-content > .example.blocked)
 hindustantimes.com###divshopnowRight
 instagram.com##._aagw:empty
 instagram.com##.xoegz02
@@ -599,6 +598,7 @@ apkmody.*##+js(adjust-setTimeout, download_loading, *)
 cbr.com##+js(cookie-remover, articleLimitDrawerVisible)
 cbr.com##+js(cookie-remover, unauthenicatedArticleLimitReached)
 cdromance.com##body:style(overflow: auto !important;)
+context.reverso.net##+js(remove-class, blocked, .left-content > section#examples-content > .example.blocked)
 context.reverso.net##+js(set-local-storage-item, detailedview-clicks, 5)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
