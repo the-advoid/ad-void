@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 2.0.5
-! Last modified: 2023-12-14T13:43:48.820+01:00
+! Version: 2.0.6
+! Last modified: 2023-12-14T13:44:10.718+01:00
 ! Expires: 480 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3
+! Entries: 4
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -26,3 +26,4 @@
 ||reach-pa.googleapis.com^
 ||scone-pa.googleapis.com^
 ||ka-f.fontawesome.com^
+||ka-p.fontawesome.com^
