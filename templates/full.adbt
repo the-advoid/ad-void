@@ -127,7 +127,7 @@ include './rules/add-ons/no-externals/restore-cosmetic-site.txt' sort
 
 nl
 
-tag 'Scriplets (site)'
+tag 'Scriptlets (site)'
 include './rules/core/scriptlets-site.txt' sort
 include './rules/add-ons/no-annoyances/scriptlets-site.txt' sort
 
