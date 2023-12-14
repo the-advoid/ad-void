@@ -187,14 +187,14 @@ After creating the before-mentioned solutions, [AdVoid](https://github.com/igors
 
 <br>
 
-Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves a substantial amount of time needed for maintaining filter lists, it \[ *Aria* \] has allowed the productivity to increase exponentially which in turn allowed for rule additions to skyrocket, see the graph below. 🚀
+Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves a substantial amount of time needed for maintaining filter lists, it \[ *Aria* \] has allowed the productivity to increase exponentially which in turn allowed for rule additions/deletions to skyrocket, see the graph below. 🚀
 
 <br>
 
 <div align="center">
 	<figure>
 		<img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="A graph showing substantial increase of rule additions">
-		<figcaption><sub>Figure 1: a graph showing substantial increase of rule additions when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
+		<figcaption><sub>Figure 1: a graph showing substantial increase of rule commits when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
 	</figure>
 </div>
 
@@ -205,9 +205,9 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 
 <br>
 
-Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) compiler, which occurred in mid August, 2023, there were ~**236** rule additions per month.  
+Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) compiler, which occurred in mid August, 2023, there were ~**236** rule commits per month.  
 
-After implementing the before-mentioned solutions there were ~**3024** rule additions per month (+**1181.4%**), while additions reached their peak in November, with staggering ~**5816** rule additions (+**2364.4%**) respectively, in November.
+After implementing the before-mentioned solutions there were ~**3024** rule commits per month (+**1181.4%**), while commits reached their peak in November, with staggering ~**5816** rule commits (+**2364.4%**) respectively, in November.
 
 ---
 
