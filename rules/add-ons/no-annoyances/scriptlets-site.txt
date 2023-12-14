@@ -57,3 +57,4 @@ pdfdrive.com##body:style(overflow: visible !important; padding-right: 0 !importa
 tenforums.com##body:style(overflow: auto !important;)
 xnxx.com##+js(set-local-storage-item, xvutils.nb_tabs_opened, 1)
 xnxx.com##body:style(overflow: auto !important;)
+temp-mail.org##+js(remove-class, smartbanner-show, html)
