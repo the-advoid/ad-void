@@ -73,3 +73,4 @@ urbandictionary.com##.mb-4.justify-center
 reverso.net###rca
 proboards.com##^script:has-text(vglnk)
 thegay.*##div[style="display:flex !important"] > div
+thegay.*##.video-page__content > div.left + div[class]:last-child
