@@ -75,3 +75,4 @@ proboards.com##^script:has-text(vglnk)
 thegay.*##div[style="display:flex !important"] > div
 thegay.*##.video-page__content > div.left + div[class]:last-child
 thegay.*##.underplayer__info > div[class]:first-child
+thegay.*##.content > div:not([class]) > .wrapper ~ div[class]:not(.wrapper)
