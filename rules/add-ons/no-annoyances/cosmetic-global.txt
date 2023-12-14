@@ -129,7 +129,7 @@
 ###gtm_privacy
 ##.js-cookie-consent
 ##[class*="js-dynamic-chatbot-"]
-##.cookie-policy
+##.cookie-policy:not(body):not(html)
 ###webarx-cookie-notice
 ###cookie-warning-box
 ##.ensureCookie
