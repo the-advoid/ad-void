@@ -62,3 +62,4 @@ opusteno.rs##body,html:style(overflow: auto !important; position: initial !impor
 instagram.com##+js(set-session-storage-item, loggedOutAppSheetIsMinimized, 1)
 instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
 instagram.com##body:style(overflow: visible!important;)
+context.reverso.net##+js(set-local-storage-item, detailedview-clicks, 5)
