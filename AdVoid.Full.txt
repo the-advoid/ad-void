@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.880
-! Last modified: 2023-12-14T16:00:37.765+01:00
+! Version: 3.0.881
+! Last modified: 2023-12-14T16:00:52.196+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4980
+! Entries: 4981
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4897,6 +4897,7 @@ pornhoarder.tv##+js(no-window-open-if)
 pornone.com##+js(abort-current-script, $, adblock)
 pornone.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 porntrex.com##+js(disable-newtab-links)
+proboards.com##+js(remove-node-text, script, vglnk)
 putlocker.*##+js(abort-current-script, document.documentElement, break;case $.)
 putlocker.*##+js(abort-current-script, Math, XMLHttpRequest)
 putlocker.*##+js(abort-current-script, Math, zfgloaded)
