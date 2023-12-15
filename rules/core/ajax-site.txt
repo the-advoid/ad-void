@@ -12,6 +12,6 @@
 ||facebook.com/a/bz^$xmlhttprequest
 ||convertkit.com^*/visit$xmlhttprequest
 ||myanimelist.net/static/logging.html^$xmlhttprequest
-.xhamster.com/api/models?userId=^$xmlhttprequest
-.xhamster.com/mlxhl/v1/for-video?$xmlhttprequest
 ||cetin.cz/collector/^$third-party,xmlhttprequest
+||xhamster.com/mlxhl/v1/for-video?$xmlhttprequest
+.xhamster.com/api/models?userId=^$xmlhttprequest
