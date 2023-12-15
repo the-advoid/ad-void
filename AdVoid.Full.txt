@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1032
-! Last modified: 2023-12-15T18:39:00.152+01:00
+! Version: 3.0.1033
+! Last modified: 2023-12-15T18:39:25.987+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 5046
@@ -2712,7 +2712,6 @@ koko-analytics
 /noop*.js
 /ntv.json^
 /oneSignal.js^
-/OneSignalSDK.js^
 /optanon-*.js^
 /optanonApiBootstrap.js^
 /optimize.js^
@@ -2891,6 +2890,7 @@ videojs.ads.css^
 /mobile-popup-subscribe-and-send-program.js^
 /newsletter-popup*.js^
 /notifier.*.js^
+/OneSignalSDK.js^
 /oneTapMobile*.js^
 /otBannerSdk.js^
 /otSDKStub.js^
