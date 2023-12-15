@@ -42,7 +42,7 @@
 /google_ab_testing.js^
 /videojs-contrib-ads.js^
 /showads*.js^
-/*.moatYieldIntelligence.*.js^
+.moatYieldIntelligence.*.js^
 /*.criteoSlot.*.js^
 /*.wxAdTargeting.*.js^
 /*.amznHdBid.*.js^
