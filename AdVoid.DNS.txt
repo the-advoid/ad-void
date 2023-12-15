@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 3.0.240
-! Last modified: 2023-12-15T17:39:04.773+01:00
+! Version: 3.0.241
+! Last modified: 2023-12-15T17:46:27.012+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 2305
@@ -1880,6 +1880,7 @@
 ||arwobaton.com^
 ||playvideocenter.com^
 ||tbpot.com^
+||launchdarkly.com^
 
 ! {@1} Domains - wildcard (global)
 -pglstatp.com^
@@ -2274,7 +2275,6 @@
 ||d3eub2e21dc6h0.cloudfront.net^
 ||d13k7prax1yi04.cloudfront.net^
 ||ingress.linktr.ee^
-||events.launchdarkly.com^
 
 ! {@5} Subdomains - wildcard (global)
 -amp-error-reporting.cloudfunctions.net^
