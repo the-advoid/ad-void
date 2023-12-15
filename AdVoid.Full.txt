@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1035
-! Last modified: 2023-12-15T18:40:45.809+01:00
+! Version: 3.0.1036
+! Last modified: 2023-12-15T18:43:06.310+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 5046
@@ -754,7 +754,6 @@
 ||hetapus.com^
 ||hewmjifrn4gway.com^
 ||hexagon-analytics.com^
-||heyoya.com^$script,third-party
 ||hhbypdoecp.com^
 ||highcpmrevenuegate.com^
 ||highperformancedformats.com^
@@ -2973,6 +2972,7 @@ sassy-social-share-public*.
 ||go.techtarget.com^$image
 ||google.com/adsense/domains^
 ||google.com/images/cleardot.gif^
+||heyoya.com^$script,third-party
 ||jsdelivr.net^*/fp.min.js^$script
 ||jwpcdn.com/player/plugins/googima/$script
 ||live.primis.tech/live/liveView.php^
