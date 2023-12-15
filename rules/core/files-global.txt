@@ -47,7 +47,7 @@
 .wxAdTargeting.*.js^
 .amznHdBid.*.js^
 .DaybreakMetrics.*.js^
-/*.airlytics.*.js^
+.airlytics.*.js^
 /*.confiant.*.js^
 /fuckadblock.js^
 /adslot-*.js^
