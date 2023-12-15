@@ -14,4 +14,4 @@
 ||myanimelist.net/static/logging.html^$xmlhttprequest
 ||cetin.cz/collector/^$third-party,xmlhttprequest
 ||xhamster.com/mlxhl/v1/for-video?$xmlhttprequest
-.xhamster.com/api/models?userId=^$xmlhttprequest
+||xhamster.com/api/models?userId=^$xmlhttprequest
