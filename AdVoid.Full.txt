@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1048
-! Last modified: 2023-12-15T19:56:54.001+01:00
+! Version: 3.0.1049
+! Last modified: 2023-12-15T19:59:25.711+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 5044
@@ -3200,7 +3200,6 @@ zoneid=
 ###hgiks-top
 ###ignielAdBlock
 ###insert-top-ts-ad
-###installAndroidApp
 ###interstitial_ad
 ###leaderboard_bottom_ad
 ###leaderboard_top_ad
@@ -3965,6 +3964,7 @@ zoneid=
 ###header-float-banner
 ###hs-eu-cookie-confirmation
 ###inner-consent
+###installAndroidApp
 ###js-cookie-box
 ###kolacic
 ###m-compartir
