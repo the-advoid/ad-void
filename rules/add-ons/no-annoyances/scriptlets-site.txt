@@ -67,3 +67,4 @@ context.reverso.net##+js(remove-class, blocked, .left-content > section#examples
 accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
 accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transition)
 accuweather.com##body:style(overflow: auto !important;)
+twitter.com##html:style(overflow:auto!important)
