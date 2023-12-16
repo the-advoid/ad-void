@@ -69,3 +69,4 @@ accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transiti
 accuweather.com##body:style(overflow: auto !important;)
 twitter.com##html:style(overflow:auto!important)
 healthline.com##+js(remove-class, jw-flag-floating|jw-flag-small-player)
+healthline.com##body:style(overflow: auto !important; position: initial !important;)
