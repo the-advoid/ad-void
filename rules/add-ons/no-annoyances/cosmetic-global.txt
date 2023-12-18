@@ -456,4 +456,4 @@
 ###post-newsletter
 ##[class^="CookieBanner-module--Wrapper"]
 ###cookies-accept
-##.cookies-modal
+##.cookies-modal:not(body):not(html)
