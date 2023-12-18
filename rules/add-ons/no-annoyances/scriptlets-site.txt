@@ -74,3 +74,4 @@ instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-
 youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1, domain, youtube.com)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
+careerkarma.com##+js(set-cookie, _Wmpci_Popup, true)
