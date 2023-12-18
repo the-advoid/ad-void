@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1394
-! Last modified: 2023-12-18T17:28:59.951+01:00
+! Version: 3.0.1395
+! Last modified: 2023-12-18T17:29:30.345+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5281
+! Entries: 5282
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3042,6 +3042,7 @@ sassy-social-share-public*.
 ||myvidster.com/js/myv_smart_banner.php^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,redirect-rule=googlesyndication_adsbygoogle.js:5
 ||paypal.com/tagmanager/pptm.js^
+||player.aniview.com/script/$script,redirect-rule=noopjs,domain=banaraswap.in|kiktu.com|techcyan.com|trangchu.news|upshrink.com
 ||porndig.com/sw$script
 ||porntrex.com^$script,third-party,domain=~blazingcdn.net|~cdntrex.com|~fastly.net|~google.com|~googleapis.com|~gstatic.com|~h-cdn.com|~stackpathcdn.com
 ||pussyspace.*/lazyload.im^
