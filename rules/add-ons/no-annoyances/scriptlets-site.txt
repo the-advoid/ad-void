@@ -79,3 +79,4 @@ bbc.com##+js(trusted-set-cookie, consentUUID, 14ec7082-be8b-4b4c-a5b4-668972e0e0
 bbc.com##body:style(overflow: auto !important;)
 radiotimes.com##+js(remove-class, sp-message-open, html, stay)
 meteoblue.com##body,html:style(overflow: auto !important; position: initial !important;)
+kiktu.com##+js(adjust-setInterval, runTimer, , 0.02)
