@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1301
-! Last modified: 2023-12-18T15:18:37.526+01:00
+! Version: 3.0.1302
+! Last modified: 2023-12-18T15:19:15.689+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5220
+! Entries: 5221
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4882,6 +4882,7 @@ healthline.com##.css-umsscj
 healthline.com##[class*="css"]:matches-css-before(content:/ADVERTISEMENT/)
 healthline.com##[data-empty]
 imdb.com##.cornerstone_slot
+insta-stories-viewer.com##.context
 livetvkodiserbia.com##.yt2.livetvaserbia.top
 mashable.com##div[data-ga-category="newsletters"]
 mcloud.bz##.cgrd
