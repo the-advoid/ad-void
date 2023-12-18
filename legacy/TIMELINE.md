@@ -10,7 +10,7 @@ This file tracks <strong>deprecation</strong>/<strong>removal</strong> of filter
 
 ---
 
-<h4>⌚ 11 Dec 2023</h4>
+<h4>⌚ 18 Dec 2023</h4>
 
 <strong>Filter list</strong>: <a href="https://github.com/igorskyflyer/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt"><strong>AdVoid.Addon.NoExternals</strong></a>
 <br>
