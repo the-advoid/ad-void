@@ -186,3 +186,4 @@ pussyspace.net##+js(abort-on-stack-trace, navigator.userAgent, exopop.browser.is
 pussyspace.net##+js(addEventListener-defuser, load, exoJsPop101)
 pussyspace.net##+js(no-requestAnimationFrame-if, exoframe)
 pussyspace.net##+js(addEventListener-defuser, /^loadex/)
+pussyspace.*##+js(abort-on-property-read, open)
