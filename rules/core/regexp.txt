@@ -23,3 +23,4 @@
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$document,match-case
 /^https:\/\/[a-z]+\.com\/away\.php\?url=[%0-9A-z]{100,}$/$document
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov
+/^https?:\/\/.*\/.*sw[0-9._].*/$script,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|chikiporn.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|hog.tv|megapornx.com|milfzr.com|mypornhere.com|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
