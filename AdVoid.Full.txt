@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1387
-! Last modified: 2023-12-18T17:18:17.600+01:00
+! Version: 3.0.1388
+! Last modified: 2023-12-18T17:22:08.420+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5274
+! Entries: 5275
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5154,6 +5154,7 @@ mediafire.com##+js(addEventListener-defuser, click, ClickHandler)
 mediafire.com##+js(addEventListener-defuser, load, IsAdblockRequest)
 mediafire.com##+js(no-setTimeout-if, InfMediafireMobileFunc, 1000)
 medium.com##html:style(overflow-y: visible!important;)
+meteoblue.com##+js(set-constant, mb.advertisingShouldBeEnabled, false)
 mixdrop.*##+js(abort-current-script, $, String.fromCharCode)
 mixdrop.*##+js(abort-on-property-write, _pop)
 mixdrop.*##+js(no-window-open-if)
