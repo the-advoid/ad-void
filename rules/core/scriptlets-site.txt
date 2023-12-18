@@ -184,3 +184,4 @@ youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2}
 youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
 pussyspace.net##+js(abort-on-stack-trace, navigator.userAgent, exopop.browser.is)
 pussyspace.net##+js(addEventListener-defuser, load, exoJsPop101)
+pussyspace.net##+js(no-requestAnimationFrame-if, exoframe)
