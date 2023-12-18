@@ -77,3 +77,4 @@ youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRender
 careerkarma.com##+js(set-cookie, _Wmpci_Popup, true)
 bbc.com##+js(trusted-set-cookie, consentUUID, 14ec7082-be8b-4b4c-a5b4-668972e0e04b_21, 1year)
 bbc.com##body:style(overflow: auto !important;)
+radiotimes.com##+js(remove-class, sp-message-open, html, stay)
