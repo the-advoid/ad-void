@@ -194,6 +194,7 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 <div align="center">
 	<figure>
 		<img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="A graph showing substantial increase of rule additions">
+		<br>
 		<figcaption><sub>Figure 1: a graph showing substantial increase of rule commits (Jan - Nov, 2023) when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
 	</figure>
 </div>
