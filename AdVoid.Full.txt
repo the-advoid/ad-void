@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1231
-! Last modified: 2023-12-18T14:31:05.937+01:00
+! Version: 3.0.1232
+! Last modified: 2023-12-18T14:32:17.856+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5166
+! Entries: 5167
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5131,6 +5131,7 @@ vidsrc.*##+js(set-constant, console.clear, trueFunc)
 weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
 whats-on-netflix.com##+js(abort-current-script, eval, replace)
 www.google.*##+js(set-constant, rwt, noopFunc)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
 xgroovy.com##+js(abort-on-property-read, VAST)
