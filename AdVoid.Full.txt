@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1499
-! Last modified: 2023-12-20T18:37:49.140+01:00
+! Version: 3.0.1500
+! Last modified: 2023-12-20T18:47:34.697+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5383
+! Entries: 5384
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5361,6 +5361,7 @@ accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
 accuweather.com##body:style(overflow: auto !important;)
 apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
+bang-movies.com##+js(remove-attr, onclick, .thumb-in > a, complete)
 bbc.com##+js(trusted-set-cookie, consentUUID, 14ec7082-be8b-4b4c-a5b4-668972e0e04b_21, 1year)
 bbc.com##body:style(overflow: auto !important;)
 careerkarma.com##+js(set-cookie, _Wmpci_Popup, true)
