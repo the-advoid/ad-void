@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1493
-! Last modified: 2023-12-20T18:24:11.225+01:00
+! Version: 3.0.1494
+! Last modified: 2023-12-20T18:24:24.103+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5377
+! Entries: 5378
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5254,6 +5254,7 @@ pornhub.*##+js(no-setTimeout-if, adsbytrafficjunkycontext)
 pornhub.*##+js(no-window-open-if)
 pornhub.*##+js(remove-class, hasAdAlert, header)
 pornhub.*##+js(set-constant, abp1, 1)
+pornhub.*##+js(set-constant, page_params.holiday_promo, true)
 pornone.com##+js(abort-current-script, $, adblock)
 pornone.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 porntrex.com##+js(disable-newtab-links)
