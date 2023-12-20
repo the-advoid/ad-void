@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.1018
-! Last modified: 2023-12-20T18:20:08.538+01:00
+! Version: 3.0.1019
+! Last modified: 2023-12-20T18:21:55.534+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4060
+! Entries: 4061
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4027,6 +4027,7 @@ onlymp3.to##+js(no-window-open-if)
 porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
 porndig.com##+js(set-constant, tkn_popunder, null)
 pornhoarder.tv##+js(no-window-open-if)
+pornhub.*##+js(remove-class, hasAdAlert, header)
 pornone.com##+js(abort-current-script, $, adblock)
 pornone.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 porntrex.com##+js(disable-newtab-links)
