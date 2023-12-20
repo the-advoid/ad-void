@@ -82,3 +82,4 @@ meteoblue.com##body,html:style(overflow: auto !important; position: initial !imp
 kiktu.com##+js(adjust-setInterval, runTimer, , 0.02)
 tnaflix.com##+js(remove-class, withRightBar, #vidPlayer > div)
 wikihow.com##+js(abort-current-script, document.addEventListener, contribute)
+fandom.com##+js(set-cookie, tracking_session_id, OK, , reload, 1)
