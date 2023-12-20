@@ -87,3 +87,4 @@ fandom.com##+js(trusted-set-cookie, euconsent-v2, CPt3fQAPt3fQACNAFAENDLCgAAAAAA
 fandom.com##+js(trusted-set-cookie, tracking-opt-in-status, rejected, 1year)
 fandom.com##+js(trusted-set-cookie, addtl_consent, 1~, 1year)
 fandom.com##+js(set-constant, wgAffiliateEnabled, false)
+fandom.com##body:style(overflow: auto !important; margin-top: 0 !important)
