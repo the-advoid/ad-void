@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.1002
-! Last modified: 2023-12-20T17:50:49.830+01:00
+! Version: 3.0.1003
+! Last modified: 2023-12-20T17:53:06.749+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4044
+! Entries: 4045
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4080,6 +4080,7 @@ vidsrc.*##+js(no-window-open-if)
 vidsrc.*##+js(set-constant, console.clear, trueFunc)
 weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
 whats-on-netflix.com##+js(abort-current-script, eval, replace)
+wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
 www.google.*##+js(set-constant, rwt, noopFunc)
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
