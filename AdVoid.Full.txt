@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1476
-! Last modified: 2023-12-20T18:13:13.550+01:00
+! Version: 3.0.1477
+! Last modified: 2023-12-20T18:13:24.422+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5360
+! Entries: 5361
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5360,6 +5360,7 @@ emulatorgames.net##+js(adjust-setTimeout, .eg-manually-get, 7000, 0.02)
 facebook.com##+js(addEventListener-defuser, scroll, showPopup)
 facebook.com##+js(remove-class, _31e, body > ._li)
 fandom.com##+js(set-cookie, tracking_session_id, OK, , reload, 1)
+fandom.com##+js(trusted-set-cookie, euconsent-v2, CPt3fQAPt3fQACNAFAENDLCgAAAAAAAAACiQAAAOCgDAB-AIsAZ8A6QDBAHBAAAA.YAAAAAAAAAAA, 1year)
 filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
 healthline.com##+js(remove-class, jw-flag-floating|jw-flag-small-player)
 healthline.com##body:style(overflow: auto !important; position: initial !important;)
