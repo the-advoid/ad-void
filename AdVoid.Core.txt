@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.1030
-! Last modified: 2023-12-20T18:50:06.932+01:00
+! Version: 3.0.1031
+! Last modified: 2023-12-20T18:56:51.470+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4072
+! Entries: 4073
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2162,6 +2162,7 @@
 ||imasdk.googleapis.com^
 ||in.appcenter.ms^
 ||index-log.getresponse.com^
+||ingest.make.rvohealth.com^
 ||ingress.linktr.ee^
 ||io.narrative.io^$third-party
 ||iot-eu-logser.realme.com^
@@ -3839,13 +3840,13 @@ hclips.com##[id^="ntv_"]
 hclips.com##section[style="padding: 20px;"]
 hclips.com##span[style="display:flex !important"] > div:first-child
 hdsex.org##.player__inline
-healthline.com###DMR1__slot
-healthline.com##.css-12efcmn
-healthline.com##.css-1d8h8gm
-healthline.com##.css-1wm8u43
 healthline.com##.css-umsscj
-healthline.com##[class*="css"]:matches-css-before(content:/ADVERTISEMENT/)
-healthline.com##[data-empty]
+healthline.com,medicalnewstoday.com###DMR1__slot
+healthline.com,medicalnewstoday.com##.css-12efcmn
+healthline.com,medicalnewstoday.com##.css-1d8h8gm
+healthline.com,medicalnewstoday.com##.css-1wm8u43
+healthline.com,medicalnewstoday.com##[class*="css"]:matches-css-before(content:/ADVERTISEMENT/)
+healthline.com,medicalnewstoday.com##[data-empty]
 imdb.com##.cornerstone_slot
 insta-stories-viewer.com##.context
 kiktu.com##div[data-elementor-type="archive"] > div:first-child
