@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1599
-! Last modified: 2023-12-24T18:35:10.896+01:00
+! Version: 3.0.1600
+! Last modified: 2023-12-24T18:36:14.856+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 5437
@@ -5184,7 +5184,7 @@ halooglasi.com#@#[id^="ad-"]
 jiosaavn.com#@#.banner:not(html):not(body)
 mail.google.com#@#.ads
 mediafire.com#@#.ads
-apkmody.io###body-fixed-footer
+apkmody.io#@##body-fixed-footer
 devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
 xvideos.*###disclaimer-cookies
