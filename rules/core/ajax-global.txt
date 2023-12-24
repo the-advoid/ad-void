@@ -14,7 +14,7 @@
 /vast^$xmlhttprequest
 /_ga^$xmlhttprequest
 /analytics_ads^$xmlhttprequest
-/stats^$xmlhttprequest
+/stats^$xmlhttprequest,domain=~githubunwrapped.com
 /statsLog^$xmlhttprequest
 /pixel/puclc^$xmlhttprequest
 /ajax/banner$xmlhttprequest
