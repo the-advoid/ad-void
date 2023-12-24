@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.594
-! Last modified: 2023-12-24T18:34:41.303+01:00
+! Version: 2.0.595
+! Last modified: 2023-12-24T18:34:59.110+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 765
@@ -706,8 +706,8 @@ xhamster.com##[class*="bottom-"][class*="tip-"]
 apkmody.io###body-fixed-footer
 devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
-xhamster.*###disclaimer-cookies
 xhamster.*###disclaimer_message
+xvideos.*###disclaimer-cookies
 xvideos.*###disclaimer_background
 
 ! {@9} Scriptlets (site)
