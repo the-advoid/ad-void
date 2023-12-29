@@ -857,7 +857,6 @@
 ||infolinks.com^
 ||inforsea.com^
 ||inklinkor.com^
-||inmobi.com^
 ||inner-active.mobi^
 ||inpage-push.com^
 ||inskinad.com^
@@ -5692,4 +5691,3 @@ xvideos.com##+js(set-constant, xv.disclaimer.displayCookiePopup, noopFunc)
 youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
 youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1, domain, youtube.com)
-
