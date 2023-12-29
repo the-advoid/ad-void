@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1737
-! Last modified: 2023-12-29T18:19:16.652+01:00
+! Version: 3.0.1738
+! Last modified: 2023-12-29T18:19:31.585+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5533
+! Entries: 5534
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5457,6 +5457,7 @@ tinyzonetv.*##+js(no-window-open-if)
 tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
 tnaflix.com##+js(abort-on-property-read, ads.pop_url)
 tnaflix.com##+js(addEventListener-defuser, getexoloader)
+trakt.tv##+js(set-constant, artemisDisplays, [])
 trakt.tv##+js(set-constant, hucksterInit, trueFunc)
 txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
 txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
