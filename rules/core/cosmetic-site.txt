@@ -134,3 +134,4 @@ duplichecker.com###img0000
 duplichecker.com##a[onclick*="grmly_"]
 duplichecker.com##div:has(> span[id^="side_bar"] > .adsbygoogle)
 duplichecker.com##div[class]:not([id]):not(.container):not(.main-content):has(> div[id] > ins.adsbygoogle)
+duplichecker.com##div[style^="min-height:"]:has(> span > ._ap_apex_ad)
