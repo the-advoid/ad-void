@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.1191
-! Last modified: 2023-12-29T18:16:44.992+01:00
+! Version: 3.0.1192
+! Last modified: 2023-12-29T18:19:11.842+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4183
+! Entries: 4184
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4205,6 +4205,7 @@ tinyzonetv.*##+js(no-window-open-if)
 tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
 tnaflix.com##+js(abort-on-property-read, ads.pop_url)
 tnaflix.com##+js(addEventListener-defuser, getexoloader)
+trakt.tv##+js(set-constant, hucksterInit, trueFunc)
 txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
 txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
