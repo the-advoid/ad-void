@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1853
-! Last modified: 2023-12-29T20:32:35.249+01:00
+! Version: 3.0.1854
+! Last modified: 2023-12-29T20:32:52.886+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 5637
@@ -1945,7 +1945,7 @@
 ||yonxatuor.com^
 ||yotpo.com^
 ||youboranqs01.com^
-||your-sugar-girls.com^
+||your-sugar-girls.com^$popup,document
 ||youradexchange.com^
 ||yourlustmedia.com^
 ||yourwebbars.com^
