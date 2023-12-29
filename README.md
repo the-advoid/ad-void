@@ -195,7 +195,7 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 	<figure>
 		<img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="A graph showing substantial increase of rule additions">
 		<br>
-		<figcaption><sub>Figure 1: a graph showing substantial increase of rule commits (Jan - Nov, 2023) when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
+		<figcaption><sub>Figure 1: a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
 	</figure>
 </div>
 
@@ -208,7 +208,7 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 
 Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
 
-After implementing the before-mentioned solutions there were ~**3700** rule commits per month (+**951.1%**), while commits reached their peak in November, with staggering ~**5816** rule commits (+**1552.2%**) respectively, in November.
+After implementing the before-mentioned solutions there were ~**4041** rule commits per month (+**1048.1%**), while commits reached their peak in November, with staggering ~**5816** rule commits (+**1552.2%**) respectively, in November.
 
 ---
 
