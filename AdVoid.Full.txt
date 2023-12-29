@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1795
-! Last modified: 2023-12-29T19:19:47.101+01:00
+! Version: 3.0.1796
+! Last modified: 2023-12-29T19:20:58.714+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5587
+! Entries: 5588
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5302,6 +5302,7 @@ wikipedia.org###centralNotice
 wikipedia.org###siteNotice
 xhamster.com##.dyltv-container
 xhamster.com##[class*="bottom-"][class*="tip-"]
+xmaster.*##a[class*="promoMessageBanner-"]
 eporner.com##.vjs-docker
 medium.com##div[aria-describedby="postFooterSocialMenu"]
 mp3.pm##.onesongblock-end > div.ctr-minibtn
