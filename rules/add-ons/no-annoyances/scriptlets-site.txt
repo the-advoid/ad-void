@@ -94,3 +94,4 @@ screenrant.com##+js(abort-current-script, document.createElement, /admiral|Strin
 screenrant.com##+js(addEventListener-defuser, error, admiral)
 verywellmind.com##html,body:style(overflow: auto !important; position: initial !important;)
 timeanddate.com##+js(addEventListener-defuser, scroll, _onscroll)
+duplichecker.com##*:style(animation: none !important;)
