@@ -215,3 +215,4 @@ balkanteka.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPe
 balkanteka.net##+js(noeval-if, /chp_?ad/)
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-xhr-if, ads)
+duplichecker.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
