@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1721
-! Last modified: 2023-12-29T18:11:44.444+01:00
+! Version: 3.0.1722
+! Last modified: 2023-12-29T18:11:59.060+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5517
+! Entries: 5518
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5307,6 +5307,7 @@ duplichecker.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-requestAnimationFrame-if, _0x)
 duplichecker.com##+js(no-setInterval-if, ads)
+duplichecker.com##+js(no-setTimeout-if, showPopup)
 duplichecker.com##+js(no-xhr-if, ads)
 eporner.com##+js(abort-on-property-write, EPeventFire)
 eporner.com##+js(no-setTimeout-if, additional_src, 300)
