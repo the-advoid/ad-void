@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.612
-! Last modified: 2023-12-29T18:24:08.147+01:00
+! Version: 2.0.613
+! Last modified: 2023-12-29T18:35:20.800+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 777
+! Entries: 778
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -667,6 +667,7 @@ kurir.rs###wmjswgt
 linktr.ee##div[data-testid="SubscribeCta"]
 linktr.ee##div[data-testid="TopBar"]
 mayoclinic.org##.myc-subscription-form
+mediately.co##footer + div:has(svg)
 medium.com##[class][style="bottom: 0px;"]
 medium.com##a[href^="https://rsci.app.link"]
 medium.com##div[role="dialog"] ~ div > div[style="bottom: 0px;"]
