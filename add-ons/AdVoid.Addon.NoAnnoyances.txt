@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.606
-! Last modified: 2023-12-27T22:04:06.199+01:00
+! Version: 2.0.607
+! Last modified: 2023-12-29T18:13:04.843+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 771
+! Entries: 772
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -731,6 +731,7 @@ cdromance.com##body:style(overflow: auto !important;)
 context.reverso.net##+js(remove-class, blocked, .left-content > section#examples-content > .example.blocked)
 context.reverso.net##+js(set-local-storage-item, detailedview-clicks, 5)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
+duplichecker.com##*:style(animation: none !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 emulatorgames.net##+js(adjust-setInterval, #eg-timer, , 0.3)
 emulatorgames.net##+js(adjust-setInterval, , , 0.3)
