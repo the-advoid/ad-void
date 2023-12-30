@@ -147,3 +147,4 @@ youporn.*##.e8-column
 tportal.hr##div.contentBlock:has(#ispod_clanka_desk)
 tportal.hr##div.contentBlock:has(#ispod_clanka_mob)
 youporn.com##.mgp_pausedState > #pb_template
+youporn.com##div.top_bottom_wrapper + a[href$="#advertise"]
