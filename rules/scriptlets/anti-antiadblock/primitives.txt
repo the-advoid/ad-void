@@ -12,5 +12,6 @@
 ##+js(set, canRunAdvertise, true)
 ##+js(set, isAdEnabled, true)
 ##+js(set-constant, _ads, true)
+##+js(set-constant, pubappended, true)
 
 ##+js(set, google_ad_status, 1)
