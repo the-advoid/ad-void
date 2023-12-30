@@ -16,3 +16,5 @@
 
 ##+js(set, google_ad_status, 1)
 ##+js(set-constant, pop_cdn, 1)
+
+##+js(set-constant, popns, '')
