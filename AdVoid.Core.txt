@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.1404
-! Last modified: 2023-12-30T23:07:15.088+01:00
+! Version: 3.0.1405
+! Last modified: 2023-12-30T23:07:52.688+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4331
+! Entries: 4332
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4340,6 +4340,7 @@ tnaflix.com##+js(addEventListener-defuser, getexoloader)
 trakt.tv##+js(set-constant, artemisDisplays, [])
 trakt.tv##+js(set-constant, artemisItemNames, [])
 trakt.tv##+js(set-constant, hucksterInit, trueFunc)
+twpornstars.com##+js(no-window-open-if)
 txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
 txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
