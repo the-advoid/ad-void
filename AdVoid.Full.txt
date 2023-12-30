@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.1953
-! Last modified: 2023-12-30T20:50:00.113+01:00
+! Version: 3.0.1954
+! Last modified: 2023-12-30T20:52:06.119+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5691
+! Entries: 5692
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5638,6 +5638,7 @@ xhamster2.*##+js(set-constant, initials.urls.bannerCheckUrl, )
 xhamster2.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster2.*##+js(set-cookie, ts_popunder, true, , reload, 1)
 xhamster2.*##+js(trusted-replace-node-text, script, popunder, , condition, popunder, stay, 1)
+xhamster2.*##.video-page .player-container:style(margin-right: 0 !important;)
 xvideos.com##+js(no-window-open-if)
 youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
 youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
