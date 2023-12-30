@@ -208,7 +208,7 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 
 Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
 
-After implementing the before-mentioned solutions there were ~**4059** rule commits per month (+**1053.2%**), while commits reached their peak in November, with staggering ~**5816** rule commits (+**1552.2%**).
+After implementing the before-mentioned solutions there were ~**4240** rule commits per month (+**1104.5%**), while commits reached their peak in December, with staggering ~**5861** rule commits (+**1565.1%**).
 
 ---
 
