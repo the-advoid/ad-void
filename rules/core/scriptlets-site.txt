@@ -233,3 +233,4 @@ xhamster2.*##+js(trusted-replace-node-text, script, popunder, , condition, popun
 xhamster2.*##+js(set-cookie, ts_popunder, true, , reload, 1)
 xhamster2.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster2.*##+js(set-constant, initials.urls.bannerCheckUrl, )
+xhamster2.*##+js(no-fetch-if, ad.php)
