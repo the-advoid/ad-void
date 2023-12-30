@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 3.0.452
-! Last modified: 2023-12-30T22:13:05.619+01:00
+! Version: 3.0.453
+! Last modified: 2023-12-30T22:13:44.052+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 2438
+! Entries: 2439
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2403,6 +2403,7 @@
 ||speedtest.dailymotion.com^
 ||ssc.slobodnaevropa.org^
 ||a.apkpure.com^
+||iabusprivacy.pmc.com^
 
 ! {@5} Subdomains - wildcard (global)
 -amp-error-reporting.cloudfunctions.net^
