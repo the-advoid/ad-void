@@ -91,7 +91,7 @@
 /ga.js^
 /greenoaks.gif^
 /1pixel.php^
-/px.gif^$image
+/px.gif?$image,redirect-rule=1x1.gif
 /advertising.js^
 /videopack-ads/*/video*.js^
 /videopack-ads/*/video*.css^
