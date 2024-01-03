@@ -245,7 +245,6 @@ Logger.js^
 /aas/r45d/vki/*$script,redirect-rule=noop.js
 /plausible.js$domain=~plausible.io
 /ad-provider.js^
-/bv-analytics.js^$script
 /wp2leads/*/*.js^$script
 /duracelltomi-google-tag-manager/*
 /admvpopunder.swf^
