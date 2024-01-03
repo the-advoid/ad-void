@@ -105,3 +105,4 @@ oriflame.com##+js(remove-class, hidden, .content-overlay + div.w-estimated-total
 tomsguide.com##+js(abort-on-property-read, _sp_._networkListenerData)
 axios.com##body,html:style(overflow: auto !important; position: initial !important;)
 facebook.com##.ssr #screen-root img:style(pointer-events: auto !important;)
+m.facebook.com##div[dir="auto"]:style(-moz-user-select: text !important; -webkit-user-select: text !important;)
