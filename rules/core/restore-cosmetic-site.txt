@@ -6,5 +6,6 @@ timeanddate.com#@#.banner:not(html):not(body)
 fontspace.com#@#.container-ads
 viber.com#@#.banner:not(html):not(body)
 veed.io#@#[class*="adWrapper"]
+m.youtube.com#@#[class*="adWrapper"]
 
 @@*$generichide,domain=streamtape.*
