@@ -7,4 +7,8 @@ assignees: igorskyflyer
 
 ---
 
+<!--
+  Optimally, a reference to the rule should be pasted here; (File -> Copy permalink)
+  If not possible just paste the rule itself.
+-->
 **Rule**:
