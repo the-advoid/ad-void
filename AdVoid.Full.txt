@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2220
-! Last modified: 2024-01-04T20:09:26.097+01:00
+! Version: 3.0.2221
+! Last modified: 2024-01-04T20:18:08.205+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5864
+! Entries: 5865
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5851,6 +5851,7 @@ fandom.com##+js(trusted-set-cookie, euconsent-v2, CPt3fQAPt3fQACNAFAENDLCgAAAAAA
 fandom.com##+js(trusted-set-cookie, tracking-opt-in-status, rejected, 1year)
 fandom.com##body:style(overflow: auto !important; margin-top: 0 !important)
 filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
+gamespot.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year)
 healthline.com##+js(remove-class, jw-flag-floating|jw-flag-small-player)
 healthline.com##body:style(overflow: auto !important; position: initial !important;)
 hinative.com##body:style(overflow: auto !important;)
