@@ -109,3 +109,4 @@ m.facebook.com##div[dir="auto"]:style(-moz-user-select: text !important; -webkit
 videosection.com##.player-content .player:style(width: 100% !important;)
 gamespot.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year)
 gamespot.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0, 1year)
+fenomenalfilm.com##body,html:style(overflow: auto !important;)
