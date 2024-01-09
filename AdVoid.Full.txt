@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2264
-! Last modified: 2024-01-09T14:38:51.918+01:00
+! Version: 3.0.2265
+! Last modified: 2024-01-09T14:51:20.440+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 5886
@@ -5496,7 +5496,7 @@ kozmo.rs##.notification-wrapper-bottom.notification-wrapper
 kurir.rs###wmjswgt
 linktr.ee##div[data-testid="SubscribeCta"]
 linktr.ee##div[data-testid="TopBar"]
-m.facebook.com##.bottom.fixed-container.m
+m.facebook.com##.bg-s2.m > .bottom.fixed-container.m
 mayoclinic.org##.myc-subscription-form
 mediately.co##footer + div:has(svg)
 medium.com##[class][style="bottom: 0px;"]
