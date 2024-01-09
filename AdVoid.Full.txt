@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2271
-! Last modified: 2024-01-09T15:42:43.124+01:00
+! Version: 3.0.2272
+! Last modified: 2024-01-09T15:43:14.359+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5891
+! Entries: 5892
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2756,6 +2756,7 @@ _beacon?$xmlhttprequest
 ||xhamster.*/api/models/vast*preroll$xmlhttprequest
 ||xhamster.com/api/models?userId=^$xmlhttprequest
 ||xhamster.com/mlxhl/v1/for-video?$xmlhttprequest
+||xvideos.com/zoneload/$xmlhttprequest
 ||xxxviijmp.com^$xmlhttprequest
 
 ! {@10} AJAX paths - restore (site)
