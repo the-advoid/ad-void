@@ -92,3 +92,4 @@ laporn.com###sticky-sticky-wrapper
 ctshop.rs##[style^="position: fixed; bottom: 0px;"]
 maxi.rs##[data-testid="modal-window-body"]
 weather.com##[id^="WxuPrivacyFeedCard-"]
+google.*##div[jsslot]:has(promo-throttler)
