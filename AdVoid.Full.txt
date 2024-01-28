@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2296
-! Last modified: 2024-01-28T20:38:28.151+01:00
+! Version: 3.0.2297
+! Last modified: 2024-01-28T20:38:47.929+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5915
+! Entries: 5916
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5825,6 +5825,7 @@ weather.com##+js(abort-on-property-read, _sp_._networkListenerData)
 weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
 weather.com##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/ppub_config)
 weather.com##+js(set-constant, adBlockerReady, false)
+weather.com##+js(set-cookie, __adblocker, false, , reload, 1)
 whats-on-netflix.com##+js(abort-current-script, eval, replace)
 wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
 www.google.*##+js(set-constant, rwt, noopFunc)
