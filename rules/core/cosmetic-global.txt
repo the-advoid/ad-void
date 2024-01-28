@@ -209,7 +209,7 @@
 ###td-top-leaderboard-1
 ###td-bottom-mpu-1
 ##[id*="alphr_article_mobile_incontent_"]
-##.ad-box
+##.ad-box:not(#ad-banner)
 ##[id*="exoNativeWidget"]
 ##.pub3
 ###google-bottom-ads
