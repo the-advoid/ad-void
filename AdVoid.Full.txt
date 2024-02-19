@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2309
-! Last modified: 2024-02-19T19:29:37.196+01:00
+! Version: 3.0.2310
+! Last modified: 2024-02-19T19:30:07.585+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5927
+! Entries: 5928
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5825,6 +5825,7 @@ userload.*##+js(abort-current-script, document.getElementById, style.display)
 userload.*##+js(addEventListener-defuser, , _0x)
 userload.*##+js(no-window-open-if)
 videosection.com##+js(abort-on-property-read, exoJsPop101)
+vidplay.*##+js(remove-attr, data-id|data-p, [data-id]\,[data-p], stay)
 vidsrc.*##+js(abort-current-script, document.documentElement, break;case $.)
 vidsrc.*##+js(abort-current-script, JSON.parse, break;case $.)
 vidsrc.*##+js(abort-current-script, navigator, FingerprintJS)
