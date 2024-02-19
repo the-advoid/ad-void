@@ -1,3 +1,4 @@
 ! Discouraged, use only when necessary!
 /yts\.nu\/\d+\.html/
 /ummn\.nu\/\d+\.html/
+/^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6,7}$/$script,third-party
