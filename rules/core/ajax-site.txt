@@ -18,3 +18,4 @@
 ||config-security.com/event^$xmlhttprequest
 ||api.github.com/_private/browser/errors^$xmlhttprequest
 ||xvideos.com/zoneload/$xmlhttprequest
+/^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,third-party,domain=~amazon.com
