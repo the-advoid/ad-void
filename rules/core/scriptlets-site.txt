@@ -82,7 +82,6 @@ xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay
 xhamster.*##+js(cookie-remover, video_view_count)
 xhamster.*##.thumb-list > .video-thumb:style(margin-right: 0px !important;)
 storiesig.info.*##+js(no-window-open-if)
-weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
 apkmody.io##+js(abort-current-script, parseInt, break;case $.)
 apkmody.io##+js(addEventListener-defuser, , break;case $.)
 apkmody.*##+js(no-window-open-if)
