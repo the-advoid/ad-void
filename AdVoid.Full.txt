@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2337
-! Last modified: 2024-04-16T13:10:33.143+02:00
+! Version: 3.0.2338
+! Last modified: 2024-04-16T13:19:29.039+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5940
+! Entries: 5941
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5435,6 +5435,7 @@ sammobile.com###single-topatf
 sammobile.com###SM_Sticky_Desktop
 sammobile.com##.g
 sd.rs##[class^="sd-banners-zone-"]
+soap2dayx.to##[src*="/assets/_bnx/"]
 spankbang.*##.ttaa2v3
 spankbang.com##.ttaa2v3
 ssstik.io###overlayimage
