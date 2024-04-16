@@ -94,3 +94,4 @@ maxi.rs##[data-testid="modal-window-body"]
 weather.com##[id^="WxuPrivacyFeedCard-"]
 google.*##div[jsslot]:has(promo-throttler)
 vidplay.*##[src^="assets/bn"]:upward([style])
+variety.com##.newswire__wrapper
