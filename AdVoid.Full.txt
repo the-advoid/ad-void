@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2345
-! Last modified: 2024-04-16T13:25:55.247+02:00
+! Version: 3.0.2346
+! Last modified: 2024-04-16T13:27:02.240+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5948
+! Entries: 5949
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5801,6 +5801,7 @@ soap2dayx.*##+js(abort-current-script, JSON.parse, break;case $.)
 soap2dayx.*##+js(abort-current-script, navigator, FingerprintJS)
 soap2dayx.*##+js(no-window-open-if)
 soap2dayx.*##+js(remove-node-text, script, Reflect)
+soap2dayx.to##+js(set-cookie, __pf, 1)
 spankbang.*##+js(no-window-open-if)
 spankbang.*##+js(set-constant, chrome, undefined)
 speedtest.net##+js(abort-on-property-read, _sp_)
