@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.1620
-! Last modified: 2024-05-05T18:50:19.857+02:00
+! Version: 3.0.1621
+! Last modified: 2024-05-05T18:52:05.676+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4475
+! Entries: 4476
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4499,6 +4499,7 @@ www.youtube.com##+js(json-prune, playerResponse.playerConfig.ssapConfig playerRe
 www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
 www.youtube.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.ab_sig_bit_dea, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.playerConfig.ssapConfig, undefined)
+www.youtube.com##+js(trusted-replace-node-text, script, /^(\(function serverContract\(\))/s, '/*start*/(function(){const wrapper=(target,thisArg,args)=>{let content=Reflect.apply(target,thisArg,args);if(content.includes("ssapPrerollEnabled")){const modifiedContent=content.replace(/\n.\n.playerConfig\.ssapConfig\.ssapPrerollEnabled.{2}(?:tru|fals)e/,"");return modifiedContent;}return content;};const handler={apply:wrapper};window.atob=new Proxy(window.atob,handler);document.currentScript.textContent=document.currentScript.textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"");}());/*end*/$1')
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
 xgroovy.com##+js(abort-on-property-read, VAST)
