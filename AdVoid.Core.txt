@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.1617
-! Last modified: 2024-05-05T18:49:01.380+02:00
+! Version: 3.0.1618
+! Last modified: 2024-05-05T18:49:29.694+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4472
+! Entries: 4473
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -4496,6 +4496,7 @@ whats-on-netflix.com##+js(abort-current-script, eval, replace)
 wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
 www.google.*##+js(set-constant, rwt, noopFunc)
 www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
+www.youtube.com##+js(set-constant, ytInitialPlayerResponse.playerConfig.ssapConfig, undefined)
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
 xgroovy.com##+js(abort-on-property-read, VAST)
