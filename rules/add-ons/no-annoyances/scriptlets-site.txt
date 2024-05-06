@@ -118,3 +118,4 @@ thewindowsclub.com##+js(abort-current-script, document.createElement, '/admiral|
 thewindowsclub.com##+js(set-constant, ezAardvarkDetected, false)
 cnet.com##+js(remove-class, c-avLazyStickyVideo-sticky, .c-avLazyStickyVideo-container)
 cnet.com##+js(set-constant, __NUXT__.state.services.features.shoppingExtensionPopupArticle, undefined)
+cnet.com##.c-avStickyVideo:remove()
