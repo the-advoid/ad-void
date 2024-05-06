@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2387
-! Last modified: 2024-05-06T18:42:09.556+02:00
+! Version: 3.0.2388
+! Last modified: 2024-05-06T18:42:54.622+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 5973
@@ -5387,7 +5387,6 @@ gay0day.com###footer-pc
 gay0day.com###header-mobile
 gay0day.com##.block-video .table
 gaymentubexxx.com##.b-video-container__random-column
-gemoo.com##.fixedbot
 genius.com##.cujBpY
 genius.com##div[class^="LeaderboardOrMarquee__"]
 glosbe.com###topTrufleContainer
@@ -5535,6 +5534,7 @@ fandom.com###WikiaBar:has(> #WikiaBarWrapper > .wikia-bar-anon > .message[data-w
 fenomenalfilm.com##div[data-bg="background-color: rgba(0, 0, 0, 0.100);"][id]
 fileproinfo.com###myNav
 fileproinfo.com##.overlay
+gemoo.com##.fixedbot
 google.*##div[jsname][role="dialog"][jsowner]
 google.*##div[jsslot]:has(promo-throttler)
 google.com###taw > div > [data-ved]
