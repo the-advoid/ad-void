@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2380
-! Last modified: 2024-05-05T19:12:49.820+02:00
+! Version: 3.0.2381
+! Last modified: 2024-05-06T11:08:32.298+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 5971
+! Entries: 5972
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5800,6 +5800,7 @@ putlocker.*##+js(disable-newtab-links)
 radiotimes.com##+js(abort-on-property-read, _sp_._networkListenerData)
 reddit.com##+js(abort-on-property-write, STICKY_CANARY)
 reddit.com##+js(json-prune, data.children.[].data.outbound_link)
+reddit.com##+js(remove-class, scroll-disabled, body, stay)
 reddit.com##+js(trusted-replace-node-text, script, outboundUrl, outbound)
 reverso.net##+js(abort-current-script, $, adblock)
 rexdlbox.com##+js(no-window-open-if)
