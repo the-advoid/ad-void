@@ -277,3 +277,4 @@ www.youtube.com##+js(trusted-replace-node-text, script, /^(\(function serverCont
 www.youtube.com##+js(json-prune-fetch-response, overlay, overlay.shortsAdsRenderer, propsToMatch, url:/reel_item_watch?)
 reddit.com##+js(remove-class, scroll-disabled, body, stay)
 thewindowsclub.com##+js(abort-on-property-read, googletag)
+cnet.com##body:style(height: auto !important; overflow: auto !important)
