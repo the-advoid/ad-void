@@ -9,5 +9,6 @@ veed.io#@#[class*="adWrapper"]
 m.youtube.com#@#[class*="adWrapper"]
 rexdl.com#@#[rel*="sponsored"]
 xvideos.com#@#[id^="ad-"]
+xvideos.com#@#[class$="-ad"]
 
 @@*$generichide,domain=streamtape.*
