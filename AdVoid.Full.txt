@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2427
-! Last modified: 2024-05-07T16:47:36.467+02:00
+! Version: 3.0.2428
+! Last modified: 2024-05-07T16:52:26.647+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6000
+! Entries: 6001
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -2077,6 +2077,7 @@
 ||pushpushgo.com^
 ||sandsiv.com^$third-party
 ||sleeknote.com^$third-party
+||subscribers.com^$third-party
 ||truendo.com^$third-party
 ||truepush.com^$third-party
 ||truevaultcdn.com^$third-party
