@@ -8,6 +8,6 @@ viber.com#@#.banner:not(html):not(body)
 veed.io#@#[class*="adWrapper"]
 m.youtube.com#@#[class*="adWrapper"]
 rexdl.com#@#[rel*="sponsored"]
-xvideos.com#@#body.exo-ad-ins-container
+xvideos.com#@#.exo-ad-ins-container
 
 @@*$generichide,domain=streamtape.*
