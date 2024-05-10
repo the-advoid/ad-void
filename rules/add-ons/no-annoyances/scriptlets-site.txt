@@ -120,3 +120,4 @@ cnet.com##+js(remove-class, c-avLazyStickyVideo-sticky, .c-avLazyStickyVideo-con
 cnet.com##+js(set-constant, __NUXT__.state.services.features.shoppingExtensionPopupArticle, undefined)
 cnet.com##.c-avStickyVideo:remove()
 fotor.com##+js(no-setTimeout-if, offsetHeight)
+fotor.com###unic-gdpr:upward(2)
