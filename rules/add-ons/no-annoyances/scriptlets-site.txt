@@ -121,3 +121,4 @@ cnet.com##+js(set-constant, __NUXT__.state.services.features.shoppingExtensionPo
 cnet.com##.c-avStickyVideo:remove()
 fotor.com##+js(no-setTimeout-if, offsetHeight)
 fotor.com###unic-gdpr:upward(2)
+igdownloader.app##body:style(overflow: auto !important;)
