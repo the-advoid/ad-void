@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2463
-! Last modified: 2024-05-28T15:32:36.870+02:00
+! Version: 3.0.2464
+! Last modified: 2024-05-29T12:56:55.577+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6030
+! Entries: 6031
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -6039,6 +6039,7 @@ my-subs.co##+js(set-constant, timeLeft, 0)
 nintendolife.com##+js(trusted-click-element, #onetrust-accept-btn-handler)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1100)
+notion.site##+js(set-cookie, notion_cookie_consent, 0)
 ok.ru##+js(abort-on-property-read, globalAuthLoginPopupCounter)
 ok.ru##+js(json-prune, result.body.direct)
 opusteno.rs##body,html:style(overflow: auto !important; position: initial !important;)
