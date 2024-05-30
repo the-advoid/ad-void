@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2498
-! Last modified: 2024-05-30T19:50:43.551+02:00
+! Version: 3.0.2499
+! Last modified: 2024-05-30T19:51:15.131+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 6046
@@ -5932,9 +5932,7 @@ wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
 www.google.*##+js(set-constant, rwt, noopFunc)
 www.youtube.com##+js(json-prune, playerResponse.playerConfig.ssapConfig playerResponse.streamingData.serverAbrStreamingUrl playerConfig.ssapConfig streamingData.serverAbrStreamingUrl)
 www.youtube.com##+js(json-prune-fetch-response, overlay, overlay.shortsAdsRenderer, propsToMatch, url:/reel_item_watch?)
-www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
 www.youtube.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.ab_sig_bit_dea, undefined)
-www.youtube.com##+js(set-constant, ytInitialPlayerResponse.playerConfig.ssapConfig, undefined)
 www.youtube.com##+js(trusted-replace-node-text, script, /^(\(function serverContract\(\))/s, '/*start*/(function(){const wrapper=(target,thisArg,args)=>{let content=Reflect.apply(target,thisArg,args);if(content.includes("ssapPrerollEnabled")){const modifiedContent=content.replace(/\n.\n.playerConfig\.ssapConfig\.ssapPrerollEnabled.{2}(?:tru|fals)e/,"");return modifiedContent;}return content;};const handler={apply:wrapper};window.atob=new Proxy(window.atob,handler);document.currentScript.textContent=document.currentScript.textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"");}());/*end*/$1')
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
@@ -5963,11 +5961,13 @@ y2mate.lol##+js(abort-on-property-read, mm)
 y2mate.lol##+js(abort-on-property-write, afStorage)
 y2mate.lol##+js(no-window-open-if)
 youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
+youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
 youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.playerConfig.ssapConfig, undefined)
 youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?AD_PLACEMENT_KIND_END.*?\"\}\}\}\]\,/, , url:player?key=)
 youtube.com##+js(trusted-replace-fetch-response, /"adSlots.*?SLOT_TRIGGER_EVENT_BEFORE_CONTENT.*?\}\]\}\}\]\,/, , url:player?key=)
 youtube.com##+js(trusted-replace-fetch-response, /"playerAds.*?gutParams":\{"tag":"\\.*?\}\}\]\,/, , url:player?key=)
