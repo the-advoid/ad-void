@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.773
-! Last modified: 2024-05-30T19:02:08.397+02:00
+! Version: 2.0.774
+! Last modified: 2024-05-30T19:55:33.447+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 892
+! Entries: 893
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -930,6 +930,7 @@ xnxx.com##+js(set-local-storage-item, xvutils.nb_tabs_opened, 1)
 xnxx.com##body:style(overflow: auto !important;)
 xvideos.com##+js(set-constant, xv.disclaimer.displayCookiePopup, noopFunc)
 youporn.*##+js(set-constant, page_params.holiday_promo, true)
+youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event=video_description"][href*="&q=http"], ?q)
 youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
 youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1, domain, youtube.com)
