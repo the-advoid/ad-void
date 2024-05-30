@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2471
-! Last modified: 2024-05-30T18:53:31.558+02:00
+! Version: 3.0.2472
+! Last modified: 2024-05-30T18:56:26.969+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6038
+! Entries: 6039
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -6023,6 +6023,7 @@ healthline.com##body:style(overflow: auto !important; position: initial !importa
 hinative.com##body:style(overflow: auto !important;)
 hindustantimes.com##body:style(overflow: auto !important;)
 howtogeek.com##+js(abort-current-script, document.createElement, /admiral|String\.fromCharCode\(97\,( )*?100\,( )*?109\,( )*?105\,( )*?114\,( )*?97\,( )*?108\)|a%64%6d%69%72%61%6c/)
+hqq.to##+js(set-constant, document.oncontextmenu, null)
 igdownloader.app##body:style(overflow: auto !important;)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
