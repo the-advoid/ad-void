@@ -3,6 +3,7 @@
 ##+js(set-constant, adBlockerReady, false)
 ##+js(set-constant, isBlocked, false)
 ##+js(set-constant, adblockcheck, false)
+##+js(set-constant, sadbl, false)
 
 ##+js(set, isLoadAds, true)
 ##+js(set, generatorAds, true)
