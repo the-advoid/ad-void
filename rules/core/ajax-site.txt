@@ -20,7 +20,6 @@
 ||xvideos.com/zoneload/$xmlhttprequest
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,third-party,domain=~amazon.com
 ||smy.iheart.com^$xmlhttprequest
-||events.launchdarkly.com^$xmlhttprequest,third-party
 ||xp.apple.com^$xmlhttprequest
 ||xp2.apple.com^$xmlhttprequest
 ||splunkcloud.com/services/collector/$xmlhttprequest
