@@ -45,7 +45,6 @@
 /log_event$xmlhttprequest
 /prebid$xmlhttprequest
 /stats-collect$xmlhttprequest
-_beacon?$xmlhttprequest
 /antibot/ab.php$xmlhttprequest
 /wutime-adblocktracker/*$xmlhttprequest
 /search/tsc.php?$xmlhttprequest
