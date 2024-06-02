@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2509
-! Last modified: 2024-06-02T21:03:22.546+02:00
+! Version: 3.0.2510
+! Last modified: 2024-06-02T21:03:46.946+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 6051
@@ -5670,8 +5670,8 @@ xfreehd.com###share_video
 xvideos.com###tabShareAndEmbed > h4:has(> span.icf-share)
 
 ! {@19} Restore cosmetic (site)
-@@*$generichide,domain=streamtape.*
 @@||google.*/search?$generichide
+@@||streamtape.*$generichide
 fontspace.com#@#.container-ads
 halooglasi.com#@#[id^="ad-"]
 jiosaavn.com#@#.banner:not(html):not(body)
