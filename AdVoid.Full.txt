@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2557
-! Last modified: 2024-06-19T17:59:53.594+02:00
+! Version: 3.0.2558
+! Last modified: 2024-06-19T18:00:16.336+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6096
+! Entries: 6097
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5949,6 +5949,7 @@ tnaflix.com##+js(addEventListener-defuser, getexoloader)
 trakt.tv##+js(set-constant, artemisDisplays, [])
 trakt.tv##+js(set-constant, artemisItemNames, [])
 trakt.tv##+js(set-constant, hucksterInit, trueFunc)
+twitter.com##+js(json-prune-xhr-response, data.search_by_raw_query.search_timeline.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/SearchTimeline)
 twitter.com##+js(json-prune-xhr-response, data.threaded_conversation_with_injections_v2.instructions.[].entries.[-].content.items.[].item.itemContent.promotedMetadata, , propsToMatch, url:/TweetDetail)
 twpornstars.com##+js(no-window-open-if)
 txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
