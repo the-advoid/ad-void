@@ -131,3 +131,4 @@ youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event
 rottentomatoes.com##+js(set-constant, admiral, noopFunc)
 platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","indices":([^"]+)"url":"[^"]+"/g', ',"expanded_url":"$1","indices":$2"url":"$1"', /tweet-result)
 twitter.com##+js(set-cookie, twtr_pixel_opt_in, N)
+emojipedia.org##+js(abort-current-script, Uint8Array, getAndSetOverlay)
