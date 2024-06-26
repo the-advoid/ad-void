@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2606
-! Last modified: 2024-06-26T13:41:24.337+02:00
+! Version: 3.0.2607
+! Last modified: 2024-06-26T13:42:37.743+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6107
+! Entries: 6108
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -6097,6 +6097,7 @@ instagram.com##body:style(overflow: auto !important;)
 instagram.com##body:style(overflow: visible!important;)
 kiktu.com##+js(adjust-setInterval, runTimer, , 0.02)
 kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
+libgen.*##+js(no-setTimeout-if, appendMessage)
 m.facebook.com##div[dir="auto"]:style(-moz-user-select: text !important; -webkit-user-select: text !important;)
 mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
 maxi.rs##body:style(overflow: auto !important;)
