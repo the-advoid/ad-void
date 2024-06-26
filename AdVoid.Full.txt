@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2657
-! Last modified: 2024-06-26T22:44:07.106+02:00
+! Version: 3.0.2658
+! Last modified: 2024-06-26T22:47:29.972+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6157
+! Entries: 6158
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -5994,6 +5994,7 @@ temp-mail.org##+js(set-constant, checkadBlock, noopFunc)
 thegay.*##+js(abort-current-script, adver)
 thewindowsclub.com##+js(abort-on-property-read, googletag)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
+tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
 timeanddate.com##+js(addEventListener-defuser, load, Dislike intrusive ads)
 tinyzonetv.*##+js(no-window-open-if)
 tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
