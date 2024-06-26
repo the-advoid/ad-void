@@ -293,3 +293,4 @@ twitter.com##+js(json-prune-xhr-response, data.threaded_conversation_with_inject
 twitter.com##+js(json-prune-xhr-response, data.search_by_raw_query.search_timeline.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/SearchTimeline)
 twitter.com##+js(json-prune-xhr-response, data.home.home_timeline_urt.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/Home)
 hitster.fm##+js(no-setTimeout-if)
+soap2dayx2.to##+js(no-window-open-if)
