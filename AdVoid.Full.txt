@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2668
-! Last modified: 2024-06-27T20:54:12.037+02:00
+! Version: 3.0.2669
+! Last modified: 2024-06-27T20:54:34.117+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6166
+! Entries: 6165
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -6199,7 +6199,6 @@ tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sele
 tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
 tiktok.com##+js(addEventListener-defuser, keydown)
 tiktok.com##+js(addEventListener-defuser, keydown)
-tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 tiktok.com##+js(addEventListener-defuser, touchmove, .preventDefault():void)
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 timeanddate.com##+js(addEventListener-defuser, scroll, _onscroll)
