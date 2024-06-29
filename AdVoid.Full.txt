@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2709
-! Last modified: 2024-06-29T18:01:41.524+02:00
+! Version: 3.0.2710
+! Last modified: 2024-06-29T18:04:56.266+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 6167
@@ -2141,7 +2141,7 @@
 ||gubagoo.io^
 ||helpscout.net^$third-party
 ||livechatinc.com^$third-party
-||mailerlite.com^
+||mailerlite.com^$third-party
 ||purechat.com^
 ||sharedid.org^
 ||shareron.xyz^
