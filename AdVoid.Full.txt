@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2701
-! Last modified: 2024-06-29T17:57:11.826+02:00
+! Version: 3.0.2702
+! Last modified: 2024-06-29T17:57:27.646+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6159
+! Entries: 6160
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -6124,6 +6124,7 @@ fotor.com###unic-gdpr:upward(2)
 fotor.com##+js(no-setTimeout-if, offsetHeight)
 gamespot.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year)
 gamespot.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0, 1year)
+geeksforgeeks.org##+js(abort-current-script, showAdblockerModal)
 geeksforgeeks.org##+js(no-setTimeout-if, .login-modal-btn:eq(0))
 geeksforgeeks.org##+js(no-setTimeout-if, onscroll, 5500)
 google.*##+js(trusted-set-cookie, SOCS, CAISNQgQEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjQwNTE0LjA2X3AwGgJmaSADGgYIgOu0sgY, 1year)
