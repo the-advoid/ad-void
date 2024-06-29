@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.1884
-! Last modified: 2024-06-29T22:59:11.617+02:00
+! Version: 3.0.1885
+! Last modified: 2024-06-29T22:59:43.345+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 4631
+! Entries: 4632
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3120,6 +3120,7 @@ videojs.ads.css^
 ! {@12} Files (site)
 ||9xbuddy.$script,third-party,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
 ||aliyuncs.com/r.png^
+||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js:5,domain=~republicbharat.com
 ||amazonaws.com/jsstore/*/ge.js^
 ||api.pinterest.com/v1/urls/count.json^
 ||assets.alicdn.com/*/webpush-ui.js^
