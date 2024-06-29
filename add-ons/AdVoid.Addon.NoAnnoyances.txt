@@ -10,15 +10,15 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.823
-! Last modified: 2024-06-29T22:27:20.131+02:00
+! Version: 2.0.824
+! Last modified: 2024-06-29T22:42:19.070+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 923
+! Entries: 924
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
-! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE.txt
+! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE
 ! Maintained by: Aria & igorskyflyer
 ! Source: World Wide Web
 
@@ -895,6 +895,7 @@ mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
 maxi.rs##body:style(overflow: auto !important;)
 mediafire.com##.nonDLContentWrap:style(min-height: 1300px !important;)
 mediafire.com##body:style(overflow: auto !important;)
+medicalnewstoday.com##body:style(overflow: auto !important; position: initial !important;)
 medium.com##+js(set-local-storage-item, 201805-policy|accepted, 1)
 meteoblue.com##body,html:style(overflow: auto !important; position: initial !important;)
 mixdrop.*##+js(nano-setTimeout-booster, disabled)
