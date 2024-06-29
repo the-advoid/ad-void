@@ -19,8 +19,7 @@
 	"license": "MIT",
 	"cspell": {
 		"ignorePaths": [
-			"./*.txt",
-			"./add-ons/*.txt",
+			"**/*.txt",
 			"./node_modules/**"
 		]
 	},
