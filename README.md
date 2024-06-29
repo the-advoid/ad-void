@@ -34,7 +34,7 @@
 	<br>
   <a href="https://github.com/igorskyflyer/ad-void/issues?q=is%3Aissue+is%3Aclosed"><img alt="GitHub closed issues" src="https://custom-icon-badges.herokuapp.com/github/issues-closed/igorskyflyer/ad-void?style=flat-square&logo=issue-closed&logoColor=white&color=3333ff"></a>
   <a href="https://github.com/igorskyflyer/ad-void/commits/"><img alt="GitHub last commit" src="https://custom-icon-badges.herokuapp.com/github/last-commit/igorskyflyer/ad-void?style=flat-square&label=last%20updated&logo=git-commit&logoColor=white&color=e65c00"></a>
-  <a href="https://github.com/igorskyflyer/ad-void/tree/main/LICENSE.txt"><img alt="GitHub" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-license.svg"></a>
+  <a href="https://github.com/igorskyflyer/ad-void/tree/main/LICENSE"><img alt="GitHub" src="https://raw.githubusercontent.com/igorskyflyer/ad-void/main/assets/advoid-license.svg"></a>
 </div>
 
 <br>
