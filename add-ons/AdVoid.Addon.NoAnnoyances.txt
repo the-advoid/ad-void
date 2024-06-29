@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.822
-! Last modified: 2024-06-29T17:59:10.973+02:00
+! Version: 2.0.823
+! Last modified: 2024-06-29T22:27:20.131+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 922
+! Entries: 923
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -83,7 +83,10 @@
 ||onet.pl^*/tags?
 ||securiti.ai/consent/
 
-! {@4} Files (global)
+! {@4} AJAX paths (site)
+||reddit.com/svc/shreddit/experiences?names=app_selector$xmlhttprequest
+
+! {@5} Files (global)
 .cookielaw.js^
 .cookielaw.min.
 .cookienotice.
@@ -166,7 +169,7 @@
 amp-web-push*js^
 cookie-law*.
 
-! {@5} Files (site)
+! {@6} Files (site)
 ||a.mailmunch.co/app/$script,third-party
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^
 ||cdn-cookieyes.com/client_data/$script,stylesheet
@@ -180,7 +183,7 @@ cookie-law*.
 ||ssstik.io/js/micromodal.min.js^
 ||swiftypecdn.com^$third-party,domain=~swiftype.com
 
-! {@6} Cosmetic (global)
+! {@7} Cosmetic (global)
 ###__cookie-consent
 ###__cookie-consent-wrapper
 ###_evidon_banner
@@ -699,7 +702,7 @@ cookie-law*.
 ##ung-anonymous-consent-management
 ##ytd-feed-nudge-renderer
 
-! {@7} Global (site)
+! {@8} Global (site)
 alfafile.net##[href^="https://play.google.com/store/apps/details"]
 ananas.rs###__next > div:nth-last-child(-n+2)
 apkmody.fun###body-fixed-footer
@@ -811,7 +814,7 @@ xhamster.com##[class*="bottom-"][class*="tip-"]
 youporn.*##.warning_block
 youporn.com##.right-aside
 
-! {@8} Restore cosmetic (site)
+! {@9} Restore cosmetic (site)
 apkmody.io#@##body-fixed-footer
 devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
@@ -819,7 +822,7 @@ xvideos.*#@##disclaimer-cookies
 xvideos.*#@##disclaimer_background
 xvideos.*#@##disclaimer_message
 
-! {@9} Scriptlets (site)
+! {@10} Scriptlets (site)
 accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transition)
 accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
