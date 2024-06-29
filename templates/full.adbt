@@ -67,6 +67,7 @@ nl
 
 tag 'XMLHttpRequest paths (site)'
 include './rules/core/ajax-site.txt' sort
+include './rules/add-ons/no-annoyances/ajax-site.txt' sort
 
 nl
 
