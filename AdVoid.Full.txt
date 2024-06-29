@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2694
-! Last modified: 2024-06-29T14:51:22.009+02:00
+! Version: 3.0.2695
+! Last modified: 2024-06-29T17:51:02.618+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6151
+! Entries: 6153
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -3332,6 +3332,7 @@ sassy-social-share-public*.
 ! {@12} Files (site)
 ||9xbuddy.$script,third-party,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
 ||aliyuncs.com/r.png^
+||amazonaws.com/jsstore/*/ge.js^
 ||api.pinterest.com/v1/urls/count.json^
 ||assets.alicdn.com/*/webpush-ui.js^
 ||aviasales.ru/fp.js^
@@ -3401,6 +3402,7 @@ sassy-social-share-public*.
 ||ytmp3.cc/js/inner.js^$script
 ||a.mailmunch.co/app/$script,third-party
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^
+||cdn-cookieyes.com/client_data/$script,stylesheet
 ||consent.cookiebot.eu/uc.js^
 ||flamelab.io/flamelab.js^$script
 ||gstatic.com/glue/cookienotificationbar/cookienotificationbar.
