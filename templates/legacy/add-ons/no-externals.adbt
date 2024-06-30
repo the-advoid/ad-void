@@ -16,6 +16,11 @@ include './rules/legacy/add-ons/no-externals/subdomains.txt' sort
 
 nl
 
+tag 'Files (site)'
+include './rules/legacy/add-ons/no-externals/files-site.txt' sort
+
+nl
+
 tag 'Cosmetic (global)'
 include './rules/legacy/add-ons/no-externals/cosmetic-global.txt' sort
 
