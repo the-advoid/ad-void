@@ -12,7 +12,7 @@ meta expires = '15 days'
 nl
 
 tag 'Subdomains (global)'
-include './rules/legacy/add-ons/subdomains.txt' sort
+include './rules/legacy/add-ons/no-externals/subdomains.txt' sort
 
 nl
 
