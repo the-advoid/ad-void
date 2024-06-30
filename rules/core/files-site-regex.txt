@@ -2,3 +2,4 @@
 /yts\.nu\/\d+\.html/
 /ummn\.nu\/\d+\.html/
 /^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6,7}$/$script,third-party
+/^https?:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/r(?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{5}$/$script,third-party,match-case,to=com
