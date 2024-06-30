@@ -1,0 +1,17 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+@ [ADBT 2.0.0]
+
+header './templates/headers/advoid-header.txt'
+
+meta title = 'AdVoid.Legacy.Addon.NoExternals'
+meta description = '[LEGACY] Blocks comments.'
+meta expires = '15 days'
+
+nl
+
+tag 'Cosmetic (global)'
+include './rules/legacy/add-ons/no-externals/cosmetic-global.txt' sort
+
+export './legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt'
