@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2779
-! Last modified: 2024-06-30T19:38:26.594+02:00
+! Version: 3.0.2780
+! Last modified: 2024-06-30T19:38:47.970+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 6230
+! Entries: 6231
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -6168,6 +6168,7 @@ cnet.com##.c-avStickyVideo:remove()
 context.reverso.net##+js(remove-class, blocked, .left-content > section#examples-content > .example.blocked)
 context.reverso.net##+js(set-local-storage-item, detailedview-clicks, 5)
 dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, , reload, 1)
+decider.com##+js(abort-on-property-read, googletag.cmd)
 decider.com##+js(set-constant, admiral, noopFunc)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
 duplichecker.com##*:style(animation: none !important;)
