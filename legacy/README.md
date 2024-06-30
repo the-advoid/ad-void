@@ -21,7 +21,7 @@ See the <a href="https://github.com/igorskyflyer/ad-void/tree/main/TIMELINE.md">
 💬 &nbsp; [AdVoid.Legacy.Addon.NoExternals](https://github.com/igorskyflyer/ad-void/blob/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/igorskyflyer/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt&title=AdVoid.Legacy.Addon.NoExternals"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=0a4a73"></a>
 <br>
 <br>
-<em>Blocks non-essential resources Webmanifests and service workers.</em>
+<em>Blocks comments.</em>
 <br>
 <br>
 
