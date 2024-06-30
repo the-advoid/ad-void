@@ -21,6 +21,11 @@ include './rules/legacy/add-ons/no-externals/files-site.txt' sort
 
 nl
 
+tag 'AJAX (global)'
+include './rules/legacy/add-ons/no-externals/ajax-global.txt' sort
+
+nl
+
 tag 'Cosmetic (global)'
 include './rules/legacy/add-ons/no-externals/cosmetic-global.txt' sort
 
