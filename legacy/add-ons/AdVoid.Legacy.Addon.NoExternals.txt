@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Legacy.Addon.NoExternals
 ! Description: [LEGACY] Blocks comments.
-! Version: 1.0.2
-! Last modified: 2024-06-30T20:42:54.284+02:00
+! Version: 1.0.3
+! Last modified: 2024-06-30T20:50:48.808+02:00
 ! Expires: 15 days (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 3
+! Entries: 4
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -23,6 +23,7 @@
 ! Source: World Wide Web
 
 ! {@0} Cosmetic (global)
+##.article__comments
 ##.comment-box
 ##.comment-form
 ##.comments-control
