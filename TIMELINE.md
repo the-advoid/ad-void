@@ -18,7 +18,7 @@ This file tracks <strong>deprecation</strong>/<strong>removal</strong> of filter
 <br>
 <strong>Deprecation reason</strong>: Comments provide opinions, additional information, or engage in discussions related to the content on the page or forum thread and thus is relevant to the main content.
 <br>
-<strong>Transferred to</strong>: <strong>Transferred to</strong>: <a href="https://github.com/igorskyflyer/ad-void/blob/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt"><strong>AdVoid.Legacy.Addon.NoExternals</strong></a>
+<strong>Transferred to</strong>: <a href="https://github.com/igorskyflyer/ad-void/blob/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt"><strong>AdVoid.Legacy.Addon.NoExternals</strong></a>
 
 ---
 
