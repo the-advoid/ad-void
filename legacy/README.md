@@ -6,7 +6,7 @@ All rules that were removed from the main filter lists will be available here fo
 
 <h3>⏳ Timeline</h3>
 <blockquote>
-See the <a href="https://github.com/igorskyflyer/ad-void/tree/main/legacy/TIMELINE.md">TIMELINE file</a> for a precise tracking of <strong>deprecation</strong>/<strong>removal</strong> events.
+See the <a href="https://github.com/igorskyflyer/ad-void/tree/main/TIMELINE.md">TIMELINE file</a> for a precise tracking of <strong>deprecation</strong>/<strong>removal</strong> events.
 </blockquote>
 
 ---
