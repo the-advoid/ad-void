@@ -1,0 +1,26 @@
+[Adblock Plus 2.0]
+!
+!     ___        __   _    __        _      __
+!    /   |  ____/ /  | |  / /____   (_)____/ /
+!   / /| | / __  /   | | / // __ \ / // __  /
+!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
+! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
+!
+!
+! {@!}
+! Title: AdVoid.Legacy.Addon.NoExternals
+! Description: [LEGACY] Blocks comments.
+! Version: 1.0.0
+! Last modified: 2024-06-30T20:38:21.301+02:00
+! Expires: 15 days (update frequency)
+! Homepage: https://github.com/igorskyflyer/ad-void
+! Entries: 1
+! Author: Igor Dimitrijević (@igorskyflyer)
+! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
+! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
+! License: https://github.com/igorskyflyer/ad-void/blob/main/LICENSE
+! Maintained by: Aria & igorskyflyer
+! Source: World Wide Web
+
+! {@0} Cosmetic (global)
+##.comment-box
