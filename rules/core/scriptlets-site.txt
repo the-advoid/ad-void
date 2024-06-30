@@ -301,3 +301,4 @@ tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsTo
 medicalnewstoday.com##div[class^="css-"]:matches-css-before(content: /ADVERTISEMENT/)
 dev.to##+js(remove-cookie, ahoy_visitor)
 dev.to##+js(remove-cookie, ahoy_visit)
+www.google.*###main a[href][data-sb^="/url?"]:remove-attr(data-sb)
