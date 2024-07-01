@@ -53,6 +53,8 @@
 		<br>
 		<br>
 		<a href="https://github.com/igorskyflyer"><em>Igor Dimitrijević (@igorskyflyer)</em></a>
+		<br>
+		<br>
 	</blockquote>
 </div>
 
