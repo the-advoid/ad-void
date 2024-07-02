@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.845
-! Last modified: 2024-07-02T21:58:36.578+02:00
+! Version: 2.0.846
+! Last modified: 2024-07-02T21:58:57.292+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 940
+! Entries: 941
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -823,6 +823,7 @@ xhamster.com##[class*="bottom-"][class*="tip-"]
 youporn.*##.warning_block
 youporn.com##.right-aside
 youtube.com###player-ads
+youtube.com##.annotation.iv-branding
 youtube.com##.video-annotations
 youtube.com##.ytd-statement-banner-renderer
 youtube.com##.ytp-paid-content-overlay
