@@ -29,3 +29,4 @@
 ||utilapi.geeksforgeeks.org/api/geo/usergeodetails/$xmlhttprequest
 ||dev.to/fallback_activity_recorder^$xmlhttprequest
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xmlhttprequest,third-party,method=head,header=x-trace2-id,to=com
+||linkedin.com/sensorcollect/$xmlhttprequest
