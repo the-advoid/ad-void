@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.2934
-! Last modified: 2024-07-03T20:44:01.132+02:00
+! Version: 3.0.2935
+! Last modified: 2024-07-03T20:44:16.980+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 6292
@@ -3580,7 +3580,7 @@ sassy-social-share-public*.
 /redirect?tid=
 ?bidId=push_
 ?event=pageview&
-?utm_source=adcash
+?utm_source=adcash$popup
 ?utm_source=pdcampaign$popup
 ?utm_source=propellerads$popup
 _browser_id=
