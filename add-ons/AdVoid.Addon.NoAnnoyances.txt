@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.850
-! Last modified: 2024-07-03T20:53:30.973+02:00
+! Version: 2.0.851
+! Last modified: 2024-07-03T20:53:50.239+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 942
+! Entries: 943
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -949,6 +949,7 @@ streamtape.*##+js(nano-setTimeout-booster, counter)
 superporn.com##+js(remove-class, jsblur|blur, ,stay)
 temp-mail.org##+js(remove-class, smartbanner-show, html)
 temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
+temu.com##+js(set-local-storage-item, last_prompt_time, 1)
 temu.com##body:style(overflow: auto !important; position: initial !important;)
 tenforums.com##body:style(overflow: auto !important;)
 thewindowsclub.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
