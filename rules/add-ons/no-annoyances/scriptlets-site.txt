@@ -144,3 +144,4 @@ geeksforgeeks.org##body[class]:style(overflow: visible !important; height: unset
 medicalnewstoday.com##body:style(overflow: auto !important; position: initial !important;)
 decider.com##+js(set-constant, admiral, noopFunc)
 decider.com##+js(abort-on-property-read, googletag.cmd)
+temu.com##body:style(overflow: auto !important; position: initial !important;)
