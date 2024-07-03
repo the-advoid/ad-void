@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.855
-! Last modified: 2024-07-03T21:07:49.377+02:00
+! Version: 2.0.856
+! Last modified: 2024-07-03T21:08:12.670+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
-! Entries: 947
+! Entries: 948
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/igorskyflyer/ad-void/issues
 ! GitHub pull requests: https://github.com/igorskyflyer/ad-void/pulls
@@ -911,6 +911,7 @@ m.facebook.com##div[dir="auto"]:style(-moz-user-select: text !important; -webkit
 makeuseof.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
 makeuseof.com##+js(abort-current-script, document.createElement, admiral)
 makeuseof.com##+js(addEventListener-defuser, error, admiral)
+makeuseof.com##+js(remove-cookie, articlesRead)
 mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
 maxi.rs##body:style(overflow: auto !important;)
 mediafire.com##.nonDLContentWrap:style(min-height: 1300px !important;)
