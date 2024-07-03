@@ -155,7 +155,7 @@
 ##.news-pop
 ###bhr-iframe-consent-form
 ###fixBanner
-##.cookies-notification
+##.cookies-notification:not(html):not(body)
 ##.BottomBanner
 ###floatingbox
 ##.vscom-usabilla-button
