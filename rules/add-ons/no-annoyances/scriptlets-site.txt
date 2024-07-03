@@ -145,3 +145,4 @@ medicalnewstoday.com##body:style(overflow: auto !important; position: initial !i
 decider.com##+js(set-constant, admiral, noopFunc)
 decider.com##+js(abort-on-property-read, googletag.cmd)
 temu.com##body:style(overflow: auto !important; position: initial !important;)
+temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
