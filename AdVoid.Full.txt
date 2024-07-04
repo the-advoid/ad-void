@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3028
-! Last modified: 2024-07-04T23:01:25.010+02:00
+! Version: 3.0.3029
+! Last modified: 2024-07-04T23:01:45.749+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/igorskyflyer/ad-void
 ! Entries: 6356
@@ -5723,8 +5723,8 @@ streamtape.*##[class*="bn-container"]
 streamtape.*##div[style*="z-index: 300000;"]
 sxyprn.*##.cbd
 sxyprn.*##.fbd
+sxyprn.*##.post_el_wrap > .tdn > div
 sxyprn.*##.tbd
-sxyprn.com##.post_el_wrap > .tdn > div
 techtarget.com##.cls-hlb-wrapper-desktop
 tenforums.com##.chill
 thegay.*##.content > div:not([class]) > .wrapper ~ div[class]:not(.wrapper)
@@ -6331,7 +6331,7 @@ kiktu.com##+js(adjust-setInterval, runTimer, , 0.02)
 kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
 libgen.*##+js(no-setTimeout-if, appendMessage)
 linkedin.com##+js(trusted-click-element, button.cookie-consent__accept-button, , 2000)
-linkedin.com##+js(trusted-set-local-storage-item, contextual-sign-in-modal-cool-off-hidden, 2024-07-04T23:01:25.010+02:00$)
+linkedin.com##+js(trusted-set-local-storage-item, contextual-sign-in-modal-cool-off-hidden, 2024-07-04T23:01:45.749+02:00$)
 linkedin.com##body:style(overflow: auto !important; position: initial !important;)
 m.facebook.com##div[dir="auto"]:style(-moz-user-select: text !important; -webkit-user-select: text !important;)
 makeuseof.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
