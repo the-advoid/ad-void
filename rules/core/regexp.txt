@@ -26,4 +26,3 @@
 /\/[0-9a-f]{32}\/invoke\.js/$script,third-party
 /^https?:\/\/cdn\.[a-z]{5,7}\.com\/app\.js$/$script,third-party,match-case,domain=~edu|~gov
 /^https:\/\/www\.[a-z]{8,16}\.com\/(?:[A-Za-z]+\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\.js$/$script,third-party,match-case,header=popads-node,to=com
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$script,third-party,match-case
