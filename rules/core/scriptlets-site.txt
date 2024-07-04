@@ -317,3 +317,4 @@ linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redire
 buffstreams.*##+js(abort-current-script, document.documentElement, break;case $.)
 buffstreams.*##+js(no-window-open-if)
 buffstreams.*##+js(abort-current-script, setTimeout, admc)
+buffstreams.*##+js(abort-current-script, navigator, FingerprintJS)
