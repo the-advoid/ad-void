@@ -318,3 +318,4 @@ buffstreams.*##+js(abort-current-script, document.documentElement, break;case $.
 buffstreams.*##+js(no-window-open-if)
 buffstreams.*##+js(abort-current-script, setTimeout, admc)
 buffstreams.*##+js(abort-current-script, navigator, FingerprintJS)
+imasdk.googleapis.com##+js(xml-prune, VAST, , barstoolsports.com)
