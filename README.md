@@ -81,6 +81,14 @@ Read more about this in the [Genesis](#-genesis) section of this page.
 <h3>🚨 IMPORTANT</h3>
 
 <blockquote>
+	AdVoid is moving to a new repository belonging to one of my organizations so its URL is changing as well!
+	<br>
+	You should be fine using the old URL but it is advisable that you update the URL(s) of used AdVoid filter lists, thank you for understanding. 🙏🏻
+</blockquote>
+
+<br>
+
+<blockquote>
 As <code>AdVoid</code> continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the <em>Legacy</em> filter lists, see <a href="https://github.com/igorskyflyer/ad-void/tree/main/legacy">Legacy README</a> for more information.
 </blockquote>
 
