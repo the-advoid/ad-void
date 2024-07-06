@@ -22,7 +22,7 @@
 ##.share
 ##.social-footer-holder
 ##.sharethis
-##.social
+##.social:not(body)
 ##.share-control
 ##.heateor_sss_sharing_container
 ##.social-menu
