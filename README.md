@@ -70,14 +70,6 @@
 <br>
 <br>
 
-👽 Since _Aug 14 2023_, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) that substantially increase productivity and cut off the time needed for maintaining these filter lists, which means more frequent updates and delivery on a daily basis.  
-
-Read more about this in the [Genesis](#-genesis) section of this page.
-
-
-<br>
-<br>
-
 <h3>🚨 IMPORTANT</h3>
 
 <blockquote>
@@ -94,6 +86,13 @@ Read more about this in the [Genesis](#-genesis) section of this page.
 <blockquote>
 As <code>AdVoid</code> continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the <em>Legacy</em> filter lists, see <a href="https://github.com/igorskyflyer/ad-void/tree/main/legacy">Legacy README</a> for more information.
 </blockquote>
+
+<br>
+<br>
+
+👽 Since _Aug 14 2023_, this project has been powered by [`ADBT`](https://github.com/igorskyflyer/file-format-adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) that substantially increase productivity and cut off the time needed for maintaining these filter lists, which means more frequent updates and delivery on a daily basis.  
+
+Read more about this in the [Genesis](#-genesis) section of this page.
 
 <br>
 <br>
