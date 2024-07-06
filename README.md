@@ -84,6 +84,9 @@ Read more about this in the [Genesis](#-genesis) section of this page.
 	AdVoid is moving to a new repository belonging to one of my organizations so its URL is changing as well!
 	<br>
 	You should be fine using the old URL but it is advisable that you update the URL(s) of used AdVoid filter lists, thank you for understanding. 🙏🏻
+	<br>
+	<br>
+	AdVoid will be transferred on <strong>07 July, 2024</strong>.
 </blockquote>
 
 <br>
