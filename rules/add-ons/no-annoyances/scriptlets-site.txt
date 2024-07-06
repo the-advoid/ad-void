@@ -159,3 +159,4 @@ linkedin.com##+js(trusted-set-local-storage-item, contextual-sign-in-modal-cool-
 linkedin.com##+js(trusted-click-element, button.cookie-consent__accept-button, , 2000)
 linkedin.com##body:style(overflow: auto !important; position: initial !important;)
 wordreference.com##body:style(overflow: auto !important;)
+dailymotion.com##+js(set-cookie-reload, cookie_policy_closed, 1)
