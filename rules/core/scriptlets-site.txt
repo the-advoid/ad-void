@@ -323,3 +323,4 @@ techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b78
 disqus.com##+js(href-sanitizer, a[href^="https://disq.us/url?url="][title^="http"], [title])
 disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
 sxyprn.*##+js(set-constant, vast_urls, {})
+ytc.*##+js(no-window-open-if)
