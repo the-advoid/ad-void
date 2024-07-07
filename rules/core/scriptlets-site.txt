@@ -324,3 +324,4 @@ disqus.com##+js(href-sanitizer, a[href^="https://disq.us/url?url="][title^="http
 disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
 sxyprn.*##+js(set-constant, vast_urls, {})
 ytc.*##+js(no-window-open-if)
+onlinevideoconverter.*##+js(no-window-open-if)
