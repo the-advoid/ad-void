@@ -54,3 +54,4 @@ _beacon?
 /ahoy/visits^$xmlhttprequest
 /blaize/datalayer^$xmlhttprequest
 /fusion/lucid/data/*$xmlhttprequest
+/event-tracking/*$domain=~github.com
