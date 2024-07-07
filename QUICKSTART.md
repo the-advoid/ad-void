@@ -56,7 +56,7 @@ and locate the `Add to` or `Install` button, click on it and grant permissions f
 
 <br>
 
-After that, head to [AdVoid](https://github.com/igorskyflyer/ad-void/blob/main/README.md) and look for the `Subscribe` buttons on the page because now you need to subscribe = install filter lists.
+After that, head to [AdVoid](https://github.com/the-advoid/ad-void/blob/main/README.md) and look for the `Subscribe` buttons on the page because now you need to subscribe = install filter lists.
 
 <br>
 
@@ -78,11 +78,11 @@ However, it is worth noting that ad-blocking is not always perfect. Some website
 
 <br>
 
-> That's where scriptlets and userscripts come into play!
+> That's where scriptlets and UserScripts come into play!
 
 <br>
 
-> Ad-block userscripts and scriptlets are both types of scripts that can be used to modify web pages in a user's browser.
+> Ad-block UserScripts and scriptlets are both types of scripts that can be used to modify web pages in a user's browser.
 
 <br>
 <br>
@@ -93,7 +93,7 @@ Sometimes using filters with a browser-based ad-blocker extension isn't enough! 
 
 Scriptlets are an advanced topic and are supported in only a few ad-blockers, most notably in system-wide ad-blockers; ad-blockers that work outside browsers as well. [AdGuard](https://adguard.com) being one of the most used system-wide ad-blocker that supports them.
 
-The scriptlets I maintain are stored here, [Scriptlets](https://github.com/igorskyflyer/ad-void/tree/main/scriptlets). 🥳
+The scriptlets I maintain are stored here, [Scriptlets](https://github.com/the-advoid/ad-void/tree/main/scriptlets). 🥳
 
 <br>
 
@@ -106,17 +106,17 @@ _Scriptlets are **completely** optional and are **not** required for basic funct
 
 #### 🌛 UserScripts - even more power!
 
-Ad-block userscripts are scripts that are designed to work with ad-blocking extensions like AdBlock Plus, AdGuard, uBlock Origin, and others. These scripts typically target specific ad networks or ad types and block them from displaying on the page. Users can install these scripts in their ad-blocking extension to enhance their ad-blocking capabilities.
+Ad-block UserScripts are scripts that are designed to work with ad-blocking extensions like AdBlock Plus, AdGuard, uBlock Origin, and others. These scripts typically target specific ad networks or ad types and block them from displaying on the page. Users can install these scripts in their ad-blocking extension to enhance their ad-blocking capabilities.
 
 <br>
 <br>
 
-> ℹ In summary, ad-block userscripts are specifically designed to block ads while scriptlets can be used for a variety of purposes beyond ad-blocking.
+> ℹ In summary, ad-block UserScripts are specifically designed to block ads while scriptlets can be used for a variety of purposes beyond ad-blocking.
 
 <br>
 
-The userscripts I maintain are stored here, [UserScripts](https://github.com/igorskyflyer?tab=repositories&q=userscript). 🥳
+The UserScripts I maintain are stored here, [UserScripts](https://github.com/the-advoid?tab=repositories&q=userscript). 🥳
 
 <br>
 
-> Also, remember to install userscripts from **TRUSTED SOURCES** only since they are more powerful and could be dangerous, resulting in credentials / login data being stolen, pages being altered, fake URLs being served, etc.
+> Also, remember to install UserScripts from **TRUSTED SOURCES** only since they are more powerful and could be dangerous, resulting in credentials / login data being stolen, pages being altered, fake URLs being served, etc.
