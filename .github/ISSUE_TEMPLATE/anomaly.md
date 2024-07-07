@@ -6,11 +6,12 @@ labels: anomaly, pending-approval
 assignees: igorskyflyer
 
 ---
+<!--
+State your issue below,
+the affected URL(s)
+and if necessary the state, action or triggers that cause it, like menu/button click, etc.
+-->
 
 **Issue**:  
 **URL**:  
-<!--
-When does the issue occur?
-Always, certain condition(s)/trigger(s)?
--->
 **Occurrence**: 
