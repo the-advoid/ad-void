@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2174
-! Last modified: 2024-07-07T16:22:05.068+02:00
+! Version: 3.0.2175
+! Last modified: 2024-07-07T16:33:30.783+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 4832
+! Entries: 4833
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1182,7 +1182,6 @@
 ||mn1nm.com^
 ||mndsrv.com^
 ||mnndnnbnn.com^
-||mnuu.nu^
 ||moatads.com^
 ||mobapsmob.com^
 ||mobiads.ru^
@@ -3269,6 +3268,7 @@ videojs.ads.css^
 ||linkedin.com/litms/utag/$script
 ||live.primis.tech/live/liveView.php^
 ||mcloud.bz/assets/bn/$image
+||mnuu.nu^$subdocument
 ||moa.mediaoutcast.com^$script
 ||moddroid.com/static/js/pa-$script
 ||msecnd.net/scripts/b/ai.
@@ -4340,6 +4340,7 @@ zoneid=
 ##div[id^="rc-widget-"]
 ##div[id^="Taboola-main-"]
 ##iframe[src*="go-srv.com"]
+##iframe[src*="mnuu.nu/"]
 ##iframe[src^="https://www.netvisiteurs.com/promotion-"]
 ##mv-ad-reporter
 ##p:has-text(Advertisement)
