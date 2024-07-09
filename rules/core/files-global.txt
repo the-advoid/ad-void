@@ -341,3 +341,4 @@ _468x60_
 /gtag.js^
 /@mozilla/glean/$script
 /cdn-cgi/apps/head/*$script,~third-party
+/www/delivery/*$subdocument
