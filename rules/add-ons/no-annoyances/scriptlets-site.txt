@@ -167,3 +167,4 @@ goodreads.com##+js(remove-class, Header__siteHeaderBanner, header.Header__siteHe
 facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
 alternativeto.net##body:style(overflow: auto !important;)
 xhamster.desi##+js(remove-class, xh-thumb-disabled, html, stay)
+xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
