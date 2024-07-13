@@ -165,3 +165,4 @@ tvinsider.com##+js(abort-current-script, document.createElement, '/admiral|Strin
 tvinsider.com##+js(set-constant, admiral, noopFunc)
 goodreads.com##+js(remove-class, Header__siteHeaderBanner, header.Header__siteHeaderBanner)
 facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
+alternativeto.net##body:style(overflow: auto !important;)
