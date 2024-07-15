@@ -12,6 +12,6 @@ assignees: igorskyflyer
   and if necessary the state, action or triggers that cause it, like menu/button click, etc.
 -->
 
-**Issue**:  
-**URL**:  
+**Issue**:   
+**URL**:   
 **Occurrence**: 
