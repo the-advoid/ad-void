@@ -531,3 +531,4 @@
 ##.cookie-consent__container
 ###cookie-wall
 ##[data-testid="cookies-dialog"]
+##[aria-describedby="cookies-description"]
