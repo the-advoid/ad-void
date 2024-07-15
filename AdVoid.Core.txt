@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2327
-! Last modified: 2024-07-15T20:02:55.464+02:00
+! Version: 3.0.2328
+! Last modified: 2024-07-15T22:27:25.524+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 4960
+! Entries: 4959
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4980,7 +4980,6 @@ xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster.*##+js(set-cookie, ts_popunder, true, , reload, 1)
 xhamster.*##+js(trusted-replace-node-text, script, popunder, , condition, popunder, stay, 1)
 xhamster.*##.thumb-list > .video-thumb:style(margin-right: 0px !important;)
-xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.com##+js(no-fetch-if, adsbygoogle)
 xhamster.com##body,html:style(overflow: auto !important; position: initial !important;)
 xhamster2.*##+js(no-fetch-if, ad.php)
