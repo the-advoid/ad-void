@@ -12,5 +12,5 @@ assignees: igorskyflyer
   If the rule(s) break a site, create an Anomaly issue instead.
 -->
  
-**URL**:  
+**URL**:   
 **Reason**: 
