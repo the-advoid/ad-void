@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3350
-! Last modified: 2024-07-15T22:27:32.075+02:00
+! Version: 3.0.3351
+! Last modified: 2024-07-15T22:28:07.992+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6623
+! Entries: 6622
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6468,7 +6468,6 @@ xhamster.*##+js(cookie-remover, video_view_count)
 xhamster.*##+js(no-fetch-if, ad.php)
 xhamster.*##+js(remove-cookie, video_view_count)
 xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay, 1)
-xhamster.*##+js(set-constant, initials.urls.bannerCheckUrl, )
 xhamster.*##+js(set-constant, initials.urls.bannerCheckUrl, )
 xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster.*##+js(set-cookie, ts_popunder, true, , reload, 1)
