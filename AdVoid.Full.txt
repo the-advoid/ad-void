@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3352
-! Last modified: 2024-07-15T22:28:36.678+02:00
+! Version: 3.0.3353
+! Last modified: 2024-07-15T22:29:03.120+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6621
+! Entries: 6620
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3618,7 +3618,6 @@ sassy-social-share-public*.
 ||www.techpowerup.com/reviyuu/$image,domain=www.techpowerup.com
 ||wwwxxx.uno/pop-code.js^
 ||xgroovy.com/static/js/initsite.min.js^
-||xhcdn.com/js/*.track.min.js^
 ||xhcdn.com/js/*.track.min.js^
 ||xhcdn.com/promo/$image,domain=buktube.com|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|taoxh.life|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhbig.com|xhbranch5.com|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtab4.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
 ||xnxx.army/click/$subdocument
