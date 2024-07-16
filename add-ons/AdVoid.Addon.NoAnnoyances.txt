@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.930
-! Last modified: 2024-07-15T23:05:54.342+02:00
+! Version: 2.0.931
+! Last modified: 2024-07-16T17:37:53.442+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1010
+! Entries: 1011
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -41,6 +41,7 @@
 ||intercom.io^
 ||intercomcdn.com^
 ||iubenda.com^
+||judge.me^$third-party
 ||judge.me^$third-party
 ||krakenoptimize.com^$third-party
 ||placeholder.com^$third-party
@@ -1054,4 +1055,3 @@ youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event
 youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
 youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1, domain, youtube.com)
-
