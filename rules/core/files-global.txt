@@ -352,3 +352,4 @@ _468x60_
 /*&sw=/sw-check-permissions.js^$third-party
 /adobe-analytics-$domain=~business.adobe.com
 .js?id=gtm-
+/ads/bid*.aspx^$subdocument
