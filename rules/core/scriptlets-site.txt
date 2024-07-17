@@ -336,3 +336,4 @@ xhamster.*##+js(trusted-replace-node-text, script, popunder, , condition, popund
 hdzog.*##+js(abort-current-script, adver)
 savefrom.net##+js(no-window-open-if)
 readcomiconline.*##+js(no-xhr-if, /adskeeper|googlesyndication/)
+readcomiconline.li##+js(remove-node-text, script, checkAdsBlocked)
