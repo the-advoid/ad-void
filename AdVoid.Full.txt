@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3410
-! Last modified: 2024-07-17T20:41:40.164+02:00
+! Version: 3.0.3411
+! Last modified: 2024-07-17T20:42:04.712+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6623
+! Entries: 6624
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6362,6 +6362,7 @@ putlocker.*##+js(abort-on-property-write, open)
 putlocker.*##+js(disable-newtab-links)
 radiotimes.com##+js(abort-on-property-read, _sp_._networkListenerData)
 readcomiconline.*##+js(abort-on-property-read, adblockDetector)
+readcomiconline.*##+js(addEventListener-defuser, mousedown, localStorage)
 readcomiconline.*##+js(no-xhr-if, /adskeeper|googlesyndication/)
 readcomiconline.li##+js(remove-node-text, script, checkAdsBlocked)
 reddit.com##+js(abort-on-property-write, STICKY_CANARY)
