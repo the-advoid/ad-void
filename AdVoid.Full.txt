@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3402
-! Last modified: 2024-07-17T20:35:20.950+02:00
+! Version: 3.0.3403
+! Last modified: 2024-07-17T20:36:19.584+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6618
@@ -3540,7 +3540,7 @@ sassy-social-share-public*.
 ||cloudflare.com/beacon.js^
 ||cloudfront.net/script.js^
 ||cse.google.com/adsense/search/async-ads.js^
-||d3g5ovfngjw9bw.cloudfront.net^$script,redirect-rule=noopjs
+||d3g5ovfngjw9bw.cloudfront.net^$script,redirect-rule=noop.js
 ||dailymotion.com/logger/$image
 ||datasink-sa.fotor.*/sa.gif^
 ||duplichecker.com/*.php|$image
@@ -3550,7 +3550,7 @@ sassy-social-share-public*.
 ||flixcar.com/*/tracking/
 ||flixcdn.com/a/*/sticky-banner/$image
 ||go.techtarget.com^$image
-||google-analytics.com/ga.js^$script,redirect=google-analytics.com/ga.js:5
+||google-analytics.com/ga.js^$script,redirect=google-analytics_analytics.js:5
 ||google.com/adsense/domains^
 ||google.com/adsense/search/ads.js^
 ||google.com/images/cleardot.gif^
