@@ -674,7 +674,7 @@
 ##.c-banner
 ##.jw-reset-text:not(button)
 ##[class^="ad-"]
-##[class*="bottom-ad"]
+##[class*="bottom-ad"]:not(body)
 ##[id^="waldo-tag"]
 ###sticky-bottom
 ###ez-sidebar-wall-left
