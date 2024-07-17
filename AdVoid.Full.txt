@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3396
-! Last modified: 2024-07-17T16:21:57.492+02:00
+! Version: 3.0.3397
+! Last modified: 2024-07-17T16:28:32.983+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6617
+! Entries: 6618
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3046,7 +3046,7 @@ _beacon?
 /a_cntn.png^
 /aas/r45d/vki/*$script,redirect-rule=noop.js
 /AC_ActiveX.js^
-/ad-event-tracker-*.js^$script,redirect-rule=noopjs
+/ad-event-tracker-*.js^
 /ad-plugins/*.js^
 /ad-provider.js^
 /ad.gif^
@@ -3590,6 +3590,7 @@ sassy-social-share-public*.
 ||pussyspace.*/lazyload.im^
 ||rackcdn.com/stf.js^
 ||redditstatic.com/ads/$script
+||redditstatic.com/shreddit/*/ad-event-tracker-*.js^$script,redirect-rule=noopjs
 ||redditstatic.com/shreddit/sentry-
 ||s.pinimg.com/ct/core.js^
 ||sammobile.com^*/newrelic.js^$script
