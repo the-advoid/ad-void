@@ -42,7 +42,7 @@
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,redirect-rule=googlesyndication_adsbygoogle.js:5
 ||googletagservices.com/tag/js/gpt.js^$script,xmlhttprequest,redirect=googletagservices_gpt.js
 ||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect=googletagservices_gpt.js:5
-||google-analytics.com/ga.js^$script,redirect=google-analytics.com/ga.js:5
+||google-analytics.com/ga.js^$script,redirect=google-analytics_analytics.js:5
 ||googletagmanager.com/gtm.js^$script,redirect=googletagmanager_gtm.js:5
 ||tnaflix.com/js/mew.js^
 ||moddroid.com/static/js/pa-$script
