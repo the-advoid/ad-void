@@ -673,7 +673,7 @@
 ##.c-ad
 ##.c-banner
 ##.jw-reset-text:not(button)
-##[class^="ad-"]
+##[class^="ad-"]:not(body)
 ##[class*="bottom-ad"]:not(body)
 ##[id^="waldo-tag"]
 ###sticky-bottom
