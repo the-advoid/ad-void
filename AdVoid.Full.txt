@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3408
-! Last modified: 2024-07-17T20:40:12.588+02:00
+! Version: 3.0.3409
+! Last modified: 2024-07-17T20:41:20.582+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6622
@@ -6362,6 +6362,7 @@ putlocker.*##+js(abort-on-property-write, open)
 putlocker.*##+js(disable-newtab-links)
 radiotimes.com##+js(abort-on-property-read, _sp_._networkListenerData)
 readcomiconline.*##+js(no-xhr-if, /adskeeper|googlesyndication/)
+readcomiconline.li##+js(remove-node-text, script, checkAdsBlocked)
 reddit.com##+js(abort-on-property-write, STICKY_CANARY)
 reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 reddit.com##+js(remove-class, scroll-disabled, body, stay)
@@ -6624,7 +6625,6 @@ pdfdrive.com##body:style(overflow: visible !important; padding-right: 0 !importa
 platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","indices":([^"]+)"url":"[^"]+"/g', ',"expanded_url":"$1","indices":$2"url":"$1"', /tweet-result)
 radiotimes.com##+js(remove-class, sp-message-open, html, stay)
 readcomiconline.li##+js(addEventListener-defuser, /keydown|contextmenu/)
-readcomiconline.li##+js(remove-node-text, script, checkAdsBlocked)
 reddit.com##+js(addEventListener-defuser, block-body-scrolling)
 reddit.com##+js(remove-class, m-blurred, .m-blurred)
 reddit.com##+js(remove-class, scroll-disabled, body, complete)
