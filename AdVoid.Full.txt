@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3460
-! Last modified: 2024-07-20T20:08:43.094+02:00
+! Version: 3.0.3461
+! Last modified: 2024-07-20T20:09:00.348+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6655
@@ -6170,7 +6170,7 @@ goodreads.com##.BookPageTitleSection__share
 medium.com##div[aria-describedby="postFooterSocialMenu"]
 mp3.pm##.onesongblock-end > div.ctr-minibtn
 mp3.pm##a[title^="share:"]
-my-subs.co###social
+my-subs.net###social
 onlinevideoconverter.pro##.pb-50-g
 versus.com##div[class^="Share__"]
 wikihow.com###sf
