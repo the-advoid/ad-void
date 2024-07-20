@@ -39,7 +39,6 @@
 ||bunnycdn.ru/assets/_bnx/
 ||mcloud.bz/assets/bn/$image
 ||pussyspace.*/lazyload.im^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,redirect-rule=googlesyndication_adsbygoogle.js:5
 ||googletagservices.com/tag/js/gpt.js^$script,xmlhttprequest,redirect=googletagservices_gpt.js
 ||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect=googletagservices_gpt.js:5
 ||google-analytics.com/ga.js^$script,redirect=google-analytics_analytics.js:5
@@ -69,7 +68,7 @@
 ||soap2dayx2.to/assets/_bnx/$image
 ||amazonaws.com/jsstore/*/ge.js^
 ||msecnd.net/scripts/b/ai.
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5
 ||eporner.com/dot/
 ||moa.mediaoutcast.com^$script
