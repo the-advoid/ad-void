@@ -250,7 +250,6 @@ Logger.js^
 /popunder.gif^
 /x.gif^
 /display/items.php?$script
-/fuckadblock.$script
 /video.counters.$script
 /fbevents.js^
 /imp.go^$image
@@ -299,7 +298,7 @@ Logger.js^
 /wp-content/plugins/wp-ad-guru/*
 /sw.js?puid=$script
 /pw/wawqiojew*=eyj.js^$script
-/fuckadblock.$script,redirect-rule=noop.js
+/fuckadblock.$script,redirect=noop.js
 /shopify-boomerang-
 /web-pixel-shopify-app-pixel@
 /vidoomy-player.js^
