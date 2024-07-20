@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3456
-! Last modified: 2024-07-20T18:18:21.023+02:00
+! Version: 3.0.3457
+! Last modified: 2024-07-20T18:19:37.006+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6655
+! Entries: 6654
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6705,7 +6705,6 @@ vk.com##+js(set-constant, window.Unauthorized2, undefined)
 weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
 wikihow.com##+js(abort-current-script, document.addEventListener, contribute)
 wordreference.com##body:style(overflow: auto !important;)
-www.youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event=video_description"][href*="&q=http"], ?q)
 xhamster.*##+js(remove-class, xh-thumb-disabled, html)
 xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.com##+js(remove-class, xh-thumb-disabled, , stay)
