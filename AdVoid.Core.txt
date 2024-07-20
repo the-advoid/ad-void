@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2409
-! Last modified: 2024-07-20T13:10:23.499+02:00
+! Version: 3.0.2410
+! Last modified: 2024-07-20T18:17:02.956+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 4973
+! Entries: 4974
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5013,6 +5013,7 @@ y2mate.lol##+js(no-window-open-if)
 youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
 youtube.com##+js(json-prune, playerResponse.playerConfig.ssapConfig playerResponse.streamingData.serverAbrStreamingUrl playerConfig.ssapConfig streamingData.serverAbrStreamingUrl)
 youtube.com##+js(json-prune-fetch-response, overlay, overlay.shortsAdsRenderer, propsToMatch, url:/reel_item_watch?)
+youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /playlist?)
 youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
 youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
