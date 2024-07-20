@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2404
-! Last modified: 2024-07-20T00:17:23.410+02:00
+! Version: 3.0.2405
+! Last modified: 2024-07-20T00:18:09.463+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 4976
+! Entries: 4975
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3301,7 +3301,6 @@ videojs.ads.css^
 ://creative.*/widgets/spot/lib.js^$third-party
 ||9xbuddy.$script,third-party,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
 ||aliyuncs.com/r.png^
-||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js:5,domain=~republicbharat.com
 ||amazonaws.com/jsstore/*/ge.js^
 ||api.pinterest.com/v1/urls/count.json^
 ||app.link/_r?$script,third-party
