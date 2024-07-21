@@ -15,3 +15,4 @@ goodreads.com##.BookPageTitleSection__share
 goodreads.com##.BookPage__share
 archive.org##.iconochive-share
 hrt.hr##.h-screen
+hrt.hr##.mt-4 > .hidden > .h-screen:has(> a[title="E-mail"])
