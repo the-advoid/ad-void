@@ -176,7 +176,6 @@ spankbang.*##+js(set-constant, chrome, undefined)
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
 youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
-youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
 pussyspace.net##+js(abort-on-stack-trace, navigator.userAgent, exopop.browser.is)
 pussyspace.net##+js(addEventListener-defuser, load, exoJsPop101)
 pussyspace.net##+js(no-requestAnimationFrame-if, exoframe)
@@ -346,6 +345,9 @@ youtube.com##+js(trusted-replace-node-text, script, (function() {window.ytplayer
 youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 youtube.com##+js(no-xhr-if, /\/youtubei\/v1\/log_event\?|play\.google\.com\/log|\/api\/stats\/qoe\?/)
 tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?|watch\?[tv]=|youtubei\/v1\/player/)
+!#if !cap_html_filtering
 youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|player\?|watch\?[tv]=|youtubei\/v1\/player/)
+youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
 youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , player?)
 youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?)
+!#endif
