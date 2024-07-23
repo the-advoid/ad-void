@@ -147,3 +147,4 @@ itv.com##.cp_dialog
 thesaurus.com##.crb-sailthtru-subscribe_wrapper
 reddit.com##shreddit-slotter[slot-name="inlineAuthLandingExperienceXpromo"]
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
+reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
