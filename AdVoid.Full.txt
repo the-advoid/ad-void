@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3488
-! Last modified: 2024-07-21T18:56:19.022+02:00
+! Version: 3.0.3489
+! Last modified: 2024-07-23T19:23:43.368+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6676
+! Entries: 6677
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6122,6 +6122,7 @@ pngtree.com##a[data-huejs="couponfixed-nologin-click"]
 pngtree.com##a[data-huejs="couponside-nologin-click"]
 pngtree.com##a[data-huejs="enterprise_hours_left"]
 reddit.com##[slot="use-app"]
+reddit.com##shreddit-async-loader[bundlename="app_selector"]
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-slotter[slot-name="inlineAuthLandingExperienceXpromo"]
 reverso.net###home-badges-background
