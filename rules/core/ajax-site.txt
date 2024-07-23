@@ -42,3 +42,5 @@
 ||mediadelivery.net/.metrics/$xmlhttprequest
 ||events.launchdarkly.com^$third-party
 ||mmcdn.com/events/$xmlhttprequest
+||youtube.com/youtubei/v1/player?$xmlhttprequest,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
+||doubleclick.net^$xmlhttprequest,redirect-rule=noop.txt
