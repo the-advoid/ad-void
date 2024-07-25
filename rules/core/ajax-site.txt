@@ -44,3 +44,4 @@
 ||mmcdn.com/events/$xmlhttprequest
 ||youtube.com/youtubei/v1/player?$xmlhttprequest,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||doubleclick.net^$xmlhttprequest,redirect-rule=noop.txt
+||googlevideo.com/videoplayback*&ctier=l&*%2cctier%2c$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
