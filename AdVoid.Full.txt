@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3564
-! Last modified: 2024-07-25T21:18:56.772+02:00
+! Version: 3.0.3565
+! Last modified: 2024-07-25T21:19:14.800+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6675
+! Entries: 6676
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6532,6 +6532,7 @@ wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.[-].__bbox.result.data.node.sponsored_data.ad_id)
 www.google.*###main a[href][data-sb^="/url?"]:remove-attr(data-sb)
 www.google.*##+js(set-constant, rwt, noopFunc)
+www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /playlist?)
 www.youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
