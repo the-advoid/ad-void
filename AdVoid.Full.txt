@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3566
-! Last modified: 2024-07-25T21:19:52.293+02:00
+! Version: 3.0.3567
+! Last modified: 2024-07-25T21:20:15.020+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6677
+! Entries: 6678
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6538,6 +6538,7 @@ www.youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
+www.youtube.com##+js(trusted-replace-node-text, script, (function() {window.ytplayer=, '/*start*/(()=>{let t=document.location.href,e=[],n=[],o="",i=!1;const r=Array.prototype.push,a={apply:(t,o,a)=>(window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id&&a[0]&&a[0]!==window&&"number"==typeof a[0].start&&a[0].end&&"ssap"===a[0].namespace&&a[0].id&&(i||0!==a[0]?.start||n.includes(a[0].id)||(e.length=0,n.length=0,i=!0,r.call(e,a[0]),r.call(n,a[0].id)),i&&0!==a[0]?.start&&!n.includes(a[0].id)&&(r.call(e,a[0]),r.call(n,a[0].id))),Reflect.apply(t,o,a))};window.Array.prototype.push=new Proxy(window.Array.prototype.push,a),document.addEventListener("DOMContentLoaded",(function(){if(!window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id)return;const r=()=>{const t=document.querySelector("video");if(t&&e.length){const r=Math.round(t.duration),a=Math.round(e.at(-1).end/1e3),l=n.join(",");if(r&&r===a&&o!==l){const r=e.at(-1).start/1e3;t.currentTime<r&&(t.currentTime=r,i=!1,e.length=0,n.length=0,o=l)}}};r();new MutationObserver((()=>{t!==document.location.href?(t=document.location.href,e.length=0,n.length=0,i=!1,r()):r()})).observe(document,{childList:!0,subtree:!0})}))})();if(window.trustedTypes){const escapeHTMLPolicy=trustedTypes.createPolicy("myEscapePolicy",{createScript:string=>string.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"")});document.currentScript.textContent=escapeHTMLPolicy.createScript(document.currentScript.textContent);}else{document.currentScript.textContent=document.currentScript.textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"");}/*end*/(function() {window.ytplayer=', sedCount, 1)
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
 xgroovy.com##+js(abort-on-property-read, VAST)
