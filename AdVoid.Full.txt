@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3588
-! Last modified: 2024-07-25T22:58:01.998+02:00
+! Version: 3.0.3589
+! Last modified: 2024-07-25T22:58:26.085+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6699
+! Entries: 6700
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6695,6 +6695,7 @@ noodlemagazine.com##+js(adjust-setTimeout, download, 1100)
 notion.site##+js(set-cookie, notion_cookie_consent, 0)
 ok.ru##+js(abort-on-property-read, globalAuthLoginPopupCounter)
 ok.ru##+js(json-prune, result.body.direct)
+olympics.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
 olympics.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1, , , domain, olympics.com)
 opusteno.rs##body,html:style(overflow: auto !important; position: initial !important;)
 oriflame.com##+js(remove-class, hidden, .content-overlay + div.w-estimated-total)
