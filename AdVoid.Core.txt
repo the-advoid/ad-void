@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2490
-! Last modified: 2024-07-25T21:13:02.795+02:00
+! Version: 3.0.2491
+! Last modified: 2024-07-25T21:13:18.478+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 4987
+! Entries: 4985
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4848,8 +4848,6 @@ kiktu.com##+js(abort-current-script, $, google_ads_iframe_)
 kiktu.com##+js(spoof-css, #btx1\, #btx2\, #wg-genx > .mediafire, visibility, visible)
 linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redirect?url=http"], ?url)
 linktr.ee##+js(set-constant, DD_LOGS, noopFunc)
-m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 m4ufree.*##+js(abort-current-script, Promise, JSON.parse)
 m4ufree.*##+js(abort-on-property-read, BetterJsPop)
