@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3562
-! Last modified: 2024-07-25T21:18:12.469+02:00
+! Version: 3.0.3563
+! Last modified: 2024-07-25T21:18:36.716+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6673
+! Entries: 6674
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6533,6 +6533,7 @@ www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.[-].__bbox.r
 www.google.*###main a[href][data-sb^="/url?"]:remove-attr(data-sb)
 www.google.*##+js(set-constant, rwt, noopFunc)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
