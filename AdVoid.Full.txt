@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3533
-! Last modified: 2024-07-25T21:04:21.161+02:00
+! Version: 3.0.3534
+! Last modified: 2024-07-25T21:04:32.611+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6700
+! Entries: 6699
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6573,7 +6573,6 @@ youtube.com##+js(json-prune-fetch-response, overlay, overlay.shortsAdsRenderer, 
 youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /playlist?)
 youtube.com##+js(no-xhr-if, /\/youtubei\/v1\/log_event\?|play\.google\.com\/log|\/api\/stats\/qoe\?/)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.ab_sig_bit_dea, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
