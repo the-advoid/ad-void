@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2489
-! Last modified: 2024-07-25T21:12:41.293+02:00
+! Version: 3.0.2490
+! Last modified: 2024-07-25T21:13:02.795+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 4988
+! Entries: 4987
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4981,7 +4981,6 @@ tnaflix.com##+js(addEventListener-defuser, getexoloader)
 trakt.tv##+js(set-constant, artemisDisplays, [])
 trakt.tv##+js(set-constant, artemisItemNames, [])
 trakt.tv##+js(set-constant, hucksterInit, trueFunc)
-tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?|watch\?[tv]=|youtubei\/v1\/player/)
 twitter.com##+js(json-prune-xhr-response, data.home.home_timeline_urt.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/Home)
 twitter.com##+js(json-prune-xhr-response, data.search_by_raw_query.search_timeline.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/SearchTimeline)
 twitter.com##+js(json-prune-xhr-response, data.threaded_conversation_with_injections_v2.instructions.[].entries.[-].content.items.[].item.itemContent.promotedMetadata, , propsToMatch, url:/TweetDetail)
