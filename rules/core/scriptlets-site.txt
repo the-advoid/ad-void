@@ -329,3 +329,4 @@ www.youtube.com##+js(trusted-replace-node-text, script, (function() {window.ytpl
 www.youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /player?)
 youtube.com##+js(no-xhr-if, /\/youtubei\/v1\/log_event\?|play\.google\.com\/log|\/api\/stats\/qoe\?/)
+olympics.com##+js(prevent-fetch, event-router.olympics.com)
