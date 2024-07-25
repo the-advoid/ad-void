@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2497
-! Last modified: 2024-07-25T21:19:10.641+02:00
+! Version: 3.0.2498
+! Last modified: 2024-07-25T21:19:48.088+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 4989
+! Entries: 4990
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5014,6 +5014,7 @@ www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.[-].__bbox.r
 www.google.*###main a[href][data-sb^="/url?"]:remove-attr(data-sb)
 www.google.*##+js(set-constant, rwt, noopFunc)
 www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /playlist?)
+www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
 www.youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
