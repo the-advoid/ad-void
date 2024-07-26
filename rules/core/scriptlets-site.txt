@@ -331,3 +331,4 @@ www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots p
 youtube.com##+js(no-xhr-if, /\/youtubei\/v1\/log_event\?|play\.google\.com\/log|\/api\/stats\/qoe\?/)
 olympics.com##+js(prevent-fetch, event-router.olympics.com)
 mp4upload.com##+js(abort-on-property-write, adcashMacros)
+mp4upload.com##+js(abort-on-property-read, Adcash)
