@@ -332,3 +332,4 @@ youtube.com##+js(no-xhr-if, /\/youtubei\/v1\/log_event\?|play\.google\.com\/log|
 olympics.com##+js(prevent-fetch, event-router.olympics.com)
 mp4upload.com##+js(abort-on-property-write, adcashMacros)
 mp4upload.com##+js(abort-on-property-read, Adcash)
+mp4upload.com##+js(abort-current-script, document.documentElement, break;case $.)
