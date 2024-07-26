@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3606
-! Last modified: 2024-07-26T20:02:24.391+02:00
+! Version: 3.0.3607
+! Last modified: 2024-07-26T20:03:07.329+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6710
+! Entries: 6711
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3683,6 +3683,7 @@ sassy-social-share-public*.
 /^https:\/\/[a-z0-9]{4,10}\.tech\/c\/(?:[-a-z0-9]+\.){1,3}js$/$script,third-party,strict3p,to=tech
 /^https?:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/r(?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{5}$/$script,third-party,match-case,to=com
 /^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6,7}$/$script,third-party
+/^https?:\/\/[0-9a-z]{5,}\.com\/.*/$script,third-party,domain=123movies.tw|1cloudfile.com|745mingiestblissfully.com|9xupload.asia|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|anonymz.com|antiadtape.com|audaciousdefaulthouse.com|bowfile.com|clickndownload.click|clicknupload.to|cloudvideo.tv|cr7sports.us|d000d.com|daddylivehd.sx|dailyuploads.net|databasegdriveplayer.xyz|deltabit.co|dlhd.sx|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|dramacool.sr|drivebuzz.icu|ds2play.com|embedplayer.site|embedsb.com|embedsito.com|embedstream.me|engvideo.net|enjoy4k.xyz|eplayvid.net|evoload.io|fembed-hd.com|filemoon.sx|files.im|filmy4wap.ink|flexy.stream|fmovies.ps|gamovideo.com|gaybeeg.info|gdriveplayer.pro|gettapeads.com|givemenbastreams.com|gogoanimes.org|gogohd.net|goload.io|gomo.to|greaseball6eventual20.com|hdtoday.ru|hexload.com|hexupload.net|hurawatch.at|imgtraffic.com|kesini.in|kickassanime.mx|kickasstorrents.to|linkhub.icu|lookmyimg.com|mangareader.cc|mangareader.to|mangovideo.pw|maxsport.one|membed.net|meomeo.pw|mirrorace.org|mixdroop.co|mixdrop.ag|mixdrop.bz|mixdrop.click|mixdrop.club|mixdrop.ms|mixdrop.nu|mixdrop.ps|mixdrop.si|mixdrop.sx|mixdrop.to|mixdrops.xyz|mixdrp.co|movies2watch.tv|mp4upload.com|nelion.me|noblocktape.com|nsw2u.org|onlinevideoconverter.com|ovagames.com|pahaplayers.click|papahd.club|pcgamestorrents.com|pouvideo.cc|proxyer.org|putlocker-website.com|reputationsheriffkennethsand.com|rintor.space|rojadirecta1.site|scloud.online|send.cm|sflix.to|shavetape.cash|skidrowcodex.net|smallencode.me|soccerstreamslive.co|sportshighlights.club|stapadblockuser.art|stapadblockuser.click|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamingsite.net|streamlare.com|streamnoads.com|streamta.pe|streamta.site|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|strikeout.ws|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|supervideo.tv|tapeadsenjoyer.com|tapeantiads.com|tapeblocker.com|tapenoads.com|tapewithadblock.com|tapewithadblock.org|thepiratebay0.org|thepiratebay10.xyz|theproxy.ws|thevideome.com|toxitabellaeatrebates306.com|un-block-voe.net|upbam.org|upload-4ever.com|upload.do|uproxy.to|upstream.to|uqload.co|uqload.io|userscloud.com|v-o-e-unblock.com|vidbam.org|vido.lol|vidshar.org|vidsrc.me|vidsrc.stream|vipleague.im|vipleague.st|voe-unblock.net|voe.bar|voe.sx|vudeo.io|vudeo.net|vumoo.to|yesmovies.mn|youtube4kdownloader.com
 /ummn\.nu\/\d+\.html/
 /yts\.nu\/\d+\.html/
 
