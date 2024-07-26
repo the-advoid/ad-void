@@ -1,4 +1,4 @@
-my-subs.net##+js(set-constant, timeLeft, 0)
+my-subs.net##+js(set-constant, timesLeft, 0)
 medium.com##+js(set-local-storage-item, 201805-policy|accepted, 1)
 xvideos.com##+js(set-constant, xv.disclaimer.displayCookiePopup, noopFunc)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
