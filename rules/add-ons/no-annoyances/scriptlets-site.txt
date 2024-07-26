@@ -171,3 +171,4 @@ youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZ
 neowin.net##+js(abort-on-property-read, _sp_.mms.startMsg)
 olympics.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1, , , domain, olympics.com)
 olympics.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
+my-subs.net##+js(adjust-setInterval, , , 0.02)
