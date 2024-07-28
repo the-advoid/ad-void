@@ -95,3 +95,4 @@
 *$script,third-party,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,domain=readcomiconline.*
 *$script,redirect-rule=noop.js,domain=mp4upload.com
 ||rts.ch^*/boreas_b01.js^
+||sascdn.com/tag/$script
