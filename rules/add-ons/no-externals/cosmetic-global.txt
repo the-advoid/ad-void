@@ -556,3 +556,4 @@
 ##a[href^="https://www.addtoany.com/add_to/"]
 ##a[href="https://www.addtoany.com/share"]
 ##a[onclick*="window.open"][onclick*="'https://twitter.com/intent/tweet?"]
+##.fab.fa-twitter
