@@ -339,7 +339,6 @@ mp4upload.com##+js(abort-current-script, document.documentElement, break;case $.
 2embed.*##+js(no-window-open-if)
 vidsrc.*##^script:has-text(FingerprintJS)
 vidsrc.*##+js(no-setInterval-if, /0x|sandCheck/)
-vidsrc.*##+js(abort-on-property-read, __Y)
 vidsrc.*##+js(abort-on-property-read, AaDetector)
 vidsrc.*##+js(abort-current-script, JSON.parse, break;case $.)
 vidsrc.*##+js(abort-current-script, document.documentElement, break;case $.)
