@@ -339,3 +339,4 @@ mp4upload.com##+js(abort-current-script, document.documentElement, break;case $.
 2embed.*##+js(no-window-open-if)
 vidsrc.*##^script:has-text(FingerprintJS)
 vidsrc.*##+js(no-setInterval-if, /0x|sandCheck/)
+vidsrc.*##+js(no-window-open-if)
