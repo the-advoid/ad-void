@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3717
-! Last modified: 2024-07-31T22:19:34.520+02:00
+! Version: 3.0.3718
+! Last modified: 2024-07-31T22:19:53.504+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6785
+! Entries: 6784
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6603,7 +6603,6 @@ vidplay.*##+js(remove-attr, data-id|data-p, [data-id]\,[data-p], stay)
 vidplay.*##+js(set-constant, DisDevTool, undefined)
 vidsrc.*##+js(abort-current-script, document.documentElement, break;case $.)
 vidsrc.*##+js(abort-current-script, document.documentElement, break;case $.)
-vidsrc.*##+js(abort-current-script, JSON.parse, break;case $.)
 vidsrc.*##+js(abort-current-script, JSON.parse, break;case $.)
 vidsrc.*##+js(abort-current-script, navigator, FingerprintJS)
 vidsrc.*##+js(abort-current-script, RegExp.prototype.toString, .join(""))
