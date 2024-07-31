@@ -340,7 +340,6 @@ mp4upload.com##+js(abort-current-script, document.documentElement, break;case $.
 vidsrc.*##^script:has-text(FingerprintJS)
 vidsrc.*##+js(no-setInterval-if, /0x|sandCheck/)
 vidsrc.*##+js(abort-on-property-read, AaDetector)
-vidsrc.*##+js(abort-current-script, JSON.parse, break;case $.)
 vidsrc.*##+js(abort-current-script, document.documentElement, break;case $.)
 vidsrc.*##+js(abort-current-script, RegExp.prototype.toString, .join(""))
 vidsrc.*##+js(addEventListener-defuser, keydown, 123)
