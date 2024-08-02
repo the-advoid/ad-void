@@ -347,3 +347,4 @@ streambucket.net##+js(abort-current-script, EventTarget.prototype.addEventListen
 streambucket.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByTagName[\s\S]*?insertBefore/)
 sflix.*##^script:has-text(;}}};break;case $.)
 sflix.to##+js(abort-current-script, parseInt, break;case $.)
+sflix.to##+js(no-setTimeout-if, devtools)
