@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3772
-! Last modified: 2024-08-02T21:52:44.832+02:00
+! Version: 3.0.3773
+! Last modified: 2024-08-02T21:55:32.556+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6829
+! Entries: 6830
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5933,6 +5933,7 @@ chaturbate.com##img[src*="//static-pub.highwebmedia.com/featureshow/"]
 clevelandclinic.org##.container.mt-rem48px + div.hidden
 clevelandclinic.org##.sticky
 clevelandclinic.org##.tracking-wide + div.hidden
+coolrom.com.au##font > center > div[style="min-height:250px;"]
 copyprogramming.com##.min-h-250
 distractify.com##.dpbdIG
 downforeveryoneorjustme.com###bsa
