@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.989
-! Last modified: 2024-08-02T21:51:52.362+02:00
+! Version: 2.0.990
+! Last modified: 2024-08-02T21:52:07.015+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1045
+! Entries: 1046
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -930,6 +930,7 @@ cnet.com##.c-avStickyVideo:remove()
 codesandbox.io##+js(remove-class, force--consent|show--consent, html)
 context.reverso.net##+js(remove-class, blocked, .left-content > section#examples-content > .example.blocked)
 context.reverso.net##+js(set-local-storage-item, detailedview-clicks, 5)
+coolrom.com.au##+js(adjust-setTimeout, download())
 coolrom.com.au##+js(set-cookie, modal_cookie, yes)
 dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, , reload, 1)
 dailymotion.com##+js(set-cookie-reload, cookie_policy_closed, 1)
