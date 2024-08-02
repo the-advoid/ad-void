@@ -20,3 +20,4 @@ jagledam.com##.instagram.item
 jagledam.com##.facebook.item
 jagledam.com##.youtube.item
 myanimelist.net##.js-sns-icon-container
+coolrom.com.au##font table[width][cellpadding="3"]:has(> tbody > tr > td > b:contains(/^Share:$/))
