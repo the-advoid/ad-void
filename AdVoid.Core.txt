@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2616
-! Last modified: 2024-08-02T18:03:22.834+02:00
+! Version: 3.0.2617
+! Last modified: 2024-08-02T18:03:38.141+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5074
+! Entries: 5075
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4994,6 +4994,7 @@ rottentomatoes.com##+js(abort-current-script, document.createElement, '/admiral|
 rottentomatoes.com##+js(set-constant, mps._queue.abdetect, null)
 savefrom.net##+js(no-window-open-if)
 screenrant.com##^script:has-text(/typeof [a-z]\.cmd\.unshift/)
+sflix.*##+js(abort-on-property-read, AaDetector)
 sflix.*##+js(addEventListener-defuser, , break;case $.)
 sflix.*##^script:has-text(;}}};break;case $.)
 sflix.to##+js(abort-current-script, parseInt, break;case $.)
