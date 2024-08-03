@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3796
-! Last modified: 2024-08-03T17:01:14.015+02:00
+! Version: 3.0.3797
+! Last modified: 2024-08-03T17:01:52.425+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6839
+! Entries: 6840
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6242,6 +6242,7 @@ pngtree.com##a[data-huejs="couponfixed-nologin-click"]
 pngtree.com##a[data-huejs="couponside-nologin-click"]
 pngtree.com##a[data-huejs="enterprise_hours_left"]
 quora.com##.qu-overflow--hidden:not(.q-relative):style(overflow: auto !important;)
+quora.com##.qu-zIndex--action_bar.qu-bg--raised:style(bottom: 0px !important;)
 reddit.com##[slot="use-app"]
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
