@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.999
-! Last modified: 2024-08-03T21:58:08.361+02:00
+! Version: 2.0.1000
+! Last modified: 2024-08-03T22:04:33.124+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1049
+! Entries: 1050
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1026,6 +1026,7 @@ opusteno.rs##body,html:style(overflow: auto !important; position: initial !impor
 oriflame.com##+js(remove-class, hidden, .content-overlay + div.w-estimated-total)
 patient.info##body:style(overflow: visible!important;)
 pdfdrive.com##body:style(overflow: visible !important; padding-right: 0 !important;)
+pinterest.*##body:style(overflow: visible!important; touch-action: auto!important;)
 platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","indices":([^"]+)"url":"[^"]+"/g', ',"expanded_url":"$1","indices":$2"url":"$1"', /tweet-result)
 quora.com##+js(set-constant, ansFrontendGlobals.settings.signupWallType, undefined)
 radiotimes.com##+js(remove-class, sp-message-open, html, stay)
