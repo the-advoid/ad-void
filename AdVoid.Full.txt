@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3814
-! Last modified: 2024-08-03T22:01:34.146+02:00
+! Version: 3.0.3815
+! Last modified: 2024-08-03T22:02:07.428+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6849
+! Entries: 6850
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6631,6 +6631,7 @@ sxyprn.*##+js(set-constant, vast_urls, {})
 techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
 teleperformance.com##body:style(overflow: auto!important;)
 temp-mail.org##+js(set-constant, checkadBlock, noopFunc)
+thefreedictionary.com##+js(no-setTimeout-if, warn)
 thegay.*##+js(abort-current-script, adver)
 thewindowsclub.com##+js(abort-on-property-read, googletag)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
