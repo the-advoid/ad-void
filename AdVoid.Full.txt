@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3786
-! Last modified: 2024-08-03T16:47:40.735+02:00
+! Version: 3.0.3787
+! Last modified: 2024-08-03T16:48:14.486+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6835
@@ -4574,7 +4574,6 @@ zoneid=
 ##.yld-pdcam-thumb
 ##.yld-pdcams-widget
 ##.yld-pdpremium-overlay
-##.ytp-chrome-top-buttons > .ytp-cards-teaser
 ##.zad
 ##[alt="Ads"]
 ##[app^="abm"]
@@ -6144,6 +6143,7 @@ youtube.com##.ytd-display-ad-renderer
 youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 youtube.com##.ytp-ad-progress-list
+youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
 youtube.com##.ytp-featured-product
 youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
