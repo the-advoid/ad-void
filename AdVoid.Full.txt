@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3792
-! Last modified: 2024-08-03T16:52:50.945+02:00
+! Version: 3.0.3793
+! Last modified: 2024-08-03T16:59:28.743+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6835
+! Entries: 6836
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6834,6 +6834,7 @@ oriflame.com##+js(remove-class, hidden, .content-overlay + div.w-estimated-total
 patient.info##body:style(overflow: visible!important;)
 pdfdrive.com##body:style(overflow: visible !important; padding-right: 0 !important;)
 platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","indices":([^"]+)"url":"[^"]+"/g', ',"expanded_url":"$1","indices":$2"url":"$1"', /tweet-result)
+quora.com##+js(set-constant, ansFrontendGlobals.settings.signupWallType, undefined)
 radiotimes.com##+js(remove-class, sp-message-open, html, stay)
 readcomiconline.li##+js(addEventListener-defuser, /keydown|contextmenu/)
 reddit.com##+js(addEventListener-defuser, block-body-scrolling)
