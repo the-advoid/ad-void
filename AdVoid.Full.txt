@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3794
-! Last modified: 2024-08-03T17:00:11.181+02:00
+! Version: 3.0.3795
+! Last modified: 2024-08-03T17:00:45.151+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6837
+! Entries: 6838
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6039,6 +6039,7 @@ pornzog.com##.video-ntv
 pornzog.com##.video-ntv-list
 proboards.com##^script:has-text(vglnk)
 quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-pb--medium
+quora.com##.q-sticky:has-text(Advertisement)
 rabbitstream.net###overlay-container
 readcomiconline.li##.divCloseBut
 readcomiconline.li##div[style*="width: 300px"]
