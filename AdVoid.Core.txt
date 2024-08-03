@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2653
-! Last modified: 2024-08-03T16:51:00.928+02:00
+! Version: 3.0.2654
+! Last modified: 2024-08-03T16:52:03.489+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5096
@@ -4529,7 +4529,6 @@ zoneid=
 ##pgs-ad
 ##trc_rbox_container
 ##wio-x
-##ytd-ad-slot-renderer
 
 ! {@18} Cosmetic (site)
 4zida.rs###ed-container
@@ -4776,6 +4775,7 @@ youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
 youtube.com##.ytp-featured-product
 youtube.com##.ytp-pause-overlay
+youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-companion-slot-renderer
 youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
