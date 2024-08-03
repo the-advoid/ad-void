@@ -252,3 +252,4 @@ quora.com##.q-sticky:has-text(Advertisement)
 quora.com##.spacing_log_question_page_ad
 quora.com##.q-sticky > .qu-pb--medium
 thefreedictionary.com##.content-holder > div[id]:first-child
+thefreedictionary.com###sidebar #trans_link ~ div[id]
