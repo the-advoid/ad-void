@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3791
-! Last modified: 2024-08-03T16:52:10.169+02:00
+! Version: 3.0.3792
+! Last modified: 2024-08-03T16:52:50.945+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6835
@@ -5333,7 +5333,6 @@ zoneid=
 ##section[data-component="Com3Cookie"]
 ##sibbo-cmp-layout
 ##ung-anonymous-consent-management
-##ytd-feed-nudge-renderer
 ###___plusone_0
 ###adBlockerShare
 ###customSocialNetwork
@@ -6145,6 +6144,7 @@ youtube.com##.ytp-featured-product
 youtube.com##.ytp-pause-overlay
 youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-companion-slot-renderer
+youtube.com##ytd-feed-nudge-renderer
 youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
 ytmp3.nu###i
