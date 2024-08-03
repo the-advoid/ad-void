@@ -152,3 +152,4 @@ youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
 youtube.com##.ytp-ce-playlist
 fandom.com##.marketing-notifications
 lookmovie2.to##.notifyjs-corner
+quora.com##.qu-overflow--hidden:not(.q-relative):style(overflow: auto !important;)
