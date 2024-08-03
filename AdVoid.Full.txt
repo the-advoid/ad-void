@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3787
-! Last modified: 2024-08-03T16:48:14.486+02:00
+! Version: 3.0.3788
+! Last modified: 2024-08-03T16:49:05.016+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6835
@@ -5268,7 +5268,6 @@ zoneid=
 ##.wpbsubscribe
 ##.x-news-line
 ##.XPromoPopupRpl
-##.yt-mealbar-promo-renderer
 ##.ytp-pause-overlay
 ##.zsiq_floatmain
 ##[aria-describedby="cookies-description"]
@@ -6136,6 +6135,7 @@ youporn.com##.mgp_pausedState > #pb_template
 youporn.com##div.top_bottom_wrapper + a[href$="#advertise"]
 youporn.com##footer > div:has(.adsbytrafficjunky)
 youtube.com###ticker.ytd-masthead
+youtube.com##.yt-mealbar-promo-renderer
 youtube.com##.ytd-action-companion-ad-renderer
 youtube.com##.ytd-ad-slot-renderer
 youtube.com##.ytd-banner-promo-renderer
