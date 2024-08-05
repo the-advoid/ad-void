@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3861
-! Last modified: 2024-08-05T21:55:42.503+02:00
+! Version: 3.0.3862
+! Last modified: 2024-08-05T21:57:04.545+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6889
+! Entries: 6890
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6595,6 +6595,7 @@ putlocker.*##+js(abort-current-script, parseInt, break;case $.)
 putlocker.*##+js(abort-on-property-write, adcashMacros)
 putlocker.*##+js(abort-on-property-write, open)
 putlocker.*##+js(disable-newtab-links)
+q5fskypn.xyz##+js(no-window-open-if)
 rabbitstream.net##+js(set-constant, console.clear, undefined)
 rabbitstream.net##+js(set-constant, devtoolsDetector.launch, noopFunc)
 radiotimes.com##+js(abort-on-property-read, _sp_._networkListenerData)
