@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3860
-! Last modified: 2024-08-05T21:53:30.028+02:00
+! Version: 3.0.3861
+! Last modified: 2024-08-05T21:55:42.503+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6889
@@ -760,7 +760,7 @@
 ||fotografiamilitarna.pl^
 ||fouanalytics.com^
 ||foureyes.io^$third-party
-||fouwheepoh.com^
+||fouwheepoh.com^$popup,document
 ||fpjs.dev^
 ||fpnpmcdn.net^
 ||franecki.net^
