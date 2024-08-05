@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3835
-! Last modified: 2024-08-05T21:29:38.749+02:00
+! Version: 3.0.3836
+! Last modified: 2024-08-05T21:29:53.768+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6869
+! Entries: 6870
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6673,6 +6673,7 @@ userload.*##+js(addEventListener-defuser, , _0x)
 userload.*##+js(no-window-open-if)
 variety.com##+js(abort-on-property-read, pmc_admanager.show_interrupt_ads)
 vid2faf.*##+js(no-window-open-if)
+vid2faf.site##+js(no-setTimeout-if, 0x)
 vid2faf.site##+js(no-setTimeout-if, ||null)
 videosection.com##+js(abort-on-property-read, exoJsPop101)
 vidplay.*##+js(remove-attr, data-id|data-p, [data-id]\,[data-p], stay)
