@@ -10,8 +10,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3852
-! Last modified: 2024-08-05T21:47:41.534+02:00
+! Version: 3.0.3853
+! Last modified: 2024-08-05T21:48:08.076+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6882
@@ -3105,6 +3105,7 @@ _beacon?
 /*m-Mob
 /1clkn/*$script,third-party
 /1pixel.php^
+/300x250-$image
 /300x250.$image
 /300x250_$image
 /@mozilla/glean/$script
@@ -3600,7 +3601,6 @@ sassy-social-share-public*.
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
 *$script,redirect-rule=noop.js,domain=mp4upload.com
 *$script,third-party,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,domain=readcomiconline.*
-/300x250-$image
 ://creative.*/widgets/spot/lib.js^$third-party
 ||9xbuddy.$script,third-party,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
 ||acacdn.com^$script,redirect-rule=noop.js
