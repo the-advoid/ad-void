@@ -362,3 +362,4 @@ paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallb
 thefreedictionary.com##+js(no-setTimeout-if, warn)
 thefreedictionary.com##+js(abort-on-property-read, adc)
 pinterest.*##+js(json-prune, resource_response.data.[-].pin_promotion_id)
+watchseriesx.to##+js(no-window-open-if, _blank)
