@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3882
-! Last modified: 2024-08-05T22:22:00.530+02:00
+! Version: 3.0.3883
+! Last modified: 2024-08-05T22:22:12.606+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6910
+! Entries: 6911
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6474,6 +6474,7 @@ dood.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 dood.*##+js(abort-on-property-read, __aaZoneid)
 dood.*##+js(abort-on-property-write, DoodPop)
 dood.*##+js(no-window-open-if)
+dood.*##+js(remove-node-text, script, /adblock|popunder/)
 dood.re##+js(adjust-setInterval, .countdown, , 0.02)
 dopebox.to##+js(addEventListener-defuser, , break;case $.)
 dopebox.to##body:style(overflow: auto !important; padding-right: 0 !important;)
