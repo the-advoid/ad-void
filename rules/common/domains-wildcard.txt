@@ -8,3 +8,4 @@
 ||d-*.cfd^
 ||check-tl-ver-$document
 .org/ad/$from=~ylilauta.org
+/api/users?token=$popup
