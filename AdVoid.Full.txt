@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3877
-! Last modified: 2024-08-05T22:16:45.351+02:00
+! Version: 3.0.3878
+! Last modified: 2024-08-05T22:20:37.902+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6905
+! Entries: 6906
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6813,6 +6813,7 @@ dailymotion.com##+js(set-cookie-reload, cookie_policy_closed, 1)
 dailymotion.com##+js(trusted-set-cookie, dm-euconsent-v2, CPt6yMAPt6yMABpAGAENDECgAAAAAH_AAAqIAAAS3AJMNW4gC7MocGbQMIoEQIwrCQigUAEFAMLRAQAODgp2VgE-sIkAKAUARgRAhwBRkQCAAASAJCIAJAiwQAAAiAQAAgAQCIQAMDAIKACwEAgABAdAxRCgAECQgSIiIhTAgKgSCAlsqEEoLpDTCAKssAKARGwUACIJARWAAICwcAwRICViwQJMQbRAAMAKAUSoVqKT00BCxmQAAAAA, 1year)
 decider.com##+js(abort-on-property-read, googletag.cmd)
 decider.com##+js(set-constant, admiral, noopFunc)
+dood.re##+js(addEventListener-defuser, contextmenu)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
 duplichecker.com##*:style(animation: none !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
