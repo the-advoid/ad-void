@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2743
-! Last modified: 2024-08-06T00:24:43.350+02:00
+! Version: 3.0.2744
+! Last modified: 2024-08-06T00:26:07.370+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5168
+! Entries: 5169
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4582,6 +4582,7 @@ boyfriendtv.com##.js-toggle-content-wrapper a[href^="https://boyfriend.show/"][r
 boyfriendtv.com##li[class]:has(a[href^="https://boyfriend.show/"][rel="sponsored"])
 bporn.org##.global-army
 bporn.org##.player.flex > div.right
+braflix.top##.mvic-btn
 calculator.net###right > div[style]
 cambridge.org##.topslot-container
 camwhores.tv##a[href*="theporndude.com"]
