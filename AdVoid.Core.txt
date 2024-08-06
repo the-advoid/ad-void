@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2744
-! Last modified: 2024-08-06T00:26:07.370+02:00
+! Version: 3.0.2745
+! Last modified: 2024-08-06T00:27:11.952+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5169
+! Entries: 5170
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4880,6 +4880,7 @@ braflix.*##+js(addEventListener-defuser, keydown, 123)
 braflix.*##+js(set-constant, console.clear, trueFunc)
 braflix.*##+js(set-constant, console.log, trueFunc)
 braflix.*##+js(set-constant, console.table, trueFunc)
+braflix.top##+js(no-window-open-if)
 buffstreams.*##+js(abort-current-script, document.documentElement, break;case $.)
 buffstreams.*##+js(abort-current-script, navigator, FingerprintJS)
 buffstreams.*##+js(abort-current-script, setTimeout, admc)
