@@ -103,3 +103,4 @@
 ||cloudfront.net/prebid_$script,redirect-rule=noop.js
 ||acacdn.com^$script,redirect-rule=noop.js
 ||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noop.js
+||google.com/adsense/search/async-ads.js^$script
