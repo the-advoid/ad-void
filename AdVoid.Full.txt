@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3901
-! Last modified: 2024-08-06T00:24:49.634+02:00
+! Version: 3.0.3902
+! Last modified: 2024-08-06T00:26:11.611+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6927
+! Entries: 6928
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5960,6 +5960,7 @@ boyfriendtv.com##.js-toggle-content-wrapper a[href^="https://boyfriend.show/"][r
 boyfriendtv.com##li[class]:has(a[href^="https://boyfriend.show/"][rel="sponsored"])
 bporn.org##.global-army
 bporn.org##.player.flex > div.right
+braflix.top##.mvic-btn
 calculator.net###right > div[style]
 cambridge.org##.topslot-container
 camwhores.tv##a[href*="theporndude.com"]
