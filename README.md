@@ -1,13 +1,6 @@
-<h2 align="center">
- <pre>
-    ___        __   _    __        _      __
-   /   |  ____/ /  | |  / /____   (_)____/ /
-  / /| | / __  /   | | / // __ \ / // __  / 
- / ___ |/ /_/ /    | |/ // /_/ // // /_/ /  
-/_/  |_|\__,_/     |___/ \____//_/ \__,_/   
-                                            
- </pre>                                     
-</h2>
+<div align="center">
+	<img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" width="128" height="128" alt="AdVoid logo">
+</div>
 
 <br>
 
