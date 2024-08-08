@@ -1,17 +1,10 @@
 [Adblock Plus 2.0]
 !
-!     ___        __   _    __        _      __
-!    /   |  ____/ /  | |  / /____   (_)____/ /
-!   / /| | / __  /   | | / // __ \ / // __  /
-!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
-! /_/  |_|\____/     |___/ \____//_/ \____/
-!
-!
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3943
-! Last modified: 2024-08-08T18:27:37.016+02:00
+! Version: 3.0.3944
+! Last modified: 2024-08-08T18:30:02.974+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6966
@@ -1737,7 +1730,7 @@
 ||sentimentalsuffice.cn^
 ||sentimenthypocrisy.com^
 ||sentinelbi.com^$third-party
-||sentry-cdn.com^
+||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
 ||seon.io^$third-party
 ||serfdivia.com^
