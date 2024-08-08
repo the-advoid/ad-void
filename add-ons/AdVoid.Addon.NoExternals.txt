@@ -1,20 +1,13 @@
 [Adblock Plus 2.0]
 !
-!     ___        __   _    __        _      __
-!    /   |  ____/ /  | |  / /____   (_)____/ /
-!   / /| | / __  /   | | / // __ \ / // __  /
-!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
-! /_/  |_|\____/     |___/ \____//_/ \____/
-!
-!
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, location trackers, etc.
-! Version: 2.0.591
-! Last modified: 2024-08-08T13:50:32.958+02:00
+! Version: 2.0.592
+! Last modified: 2024-08-08T23:45:13.903+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 695
+! Entries: 696
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -127,6 +120,7 @@ sassy-social-share-public*.
 ||vk.com/widget_like.php^
 ||widgets.wp.com/likes/master.html^
 ||yastatic.net/share2/share.js^
+||youtube.com/subscribe_embed?$third-party
 
 ! {@6} Cosmetic (global)
 ###___plusone_0
