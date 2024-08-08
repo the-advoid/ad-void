@@ -1,20 +1,13 @@
 [Adblock Plus 2.0]
 !
-!     ___        __   _    __        _      __
-!    /   |  ____/ /  | |  / /____   (_)____/ /
-!   / /| | / __  /   | | / // __ \ / // __  /
-!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
-! /_/  |_|\____/     |___/ \____//_/ \____/
-!
-!
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1010
-! Last modified: 2024-08-08T14:07:01.910+02:00
+! Version: 2.0.1011
+! Last modified: 2024-08-08T18:30:53.985+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1060
+! Entries: 1061
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -749,6 +742,7 @@ cookie-law*.
 alfafile.net##[href^="https://play.google.com/store/apps/details"]
 ananas.rs###__next > div:nth-last-child(-n+2)
 apkmody.fun###body-fixed-footer
+ascii-generator.site##.agreements
 aviasales.ru##.s__y2gjNiIS0o1RA_5Ebnkw
 axios.com##.\!bg-blue-core
 bbc.com##.nw-c-breaking-news-banner
