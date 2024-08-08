@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3964
-! Last modified: 2024-08-08T23:47:42.590+02:00
+! Version: 3.0.3965
+! Last modified: 2024-08-08T23:48:21.645+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6985
@@ -504,7 +504,7 @@
 ||crabdefend.com^
 ||crabsuperior.com^
 ||crashlytics.col^
-||crazyegg.com^
+||crazyegg.com^$third-party
 ||crazyeggcdn.com^
 ||crbck.link^
 ||creativecdn.com^
