@@ -263,7 +263,7 @@
 ||enginsquawks.cam^
 ||adspsp.com^
 ||rlcdn.com^
-||sentry-cdn.com^
+||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sail-personalize.com^
 ||skimresources.com^
 ||rvapps.io^
