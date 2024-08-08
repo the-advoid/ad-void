@@ -47,3 +47,4 @@
 ||googlevideo.com/videoplayback*&ctier=l&*%2cctier%2c$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
 ||datahub-srgssr.ch/tracking/$xmlhttprequest
 ||disqus.com/api/ping$xmlhttprequest
+||cloudflare.com/cdn-cgi/trace$third-party,xmlhttprequest,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
