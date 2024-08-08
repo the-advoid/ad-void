@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3918
-! Last modified: 2024-08-08T14:04:11.012+02:00
+! Version: 3.0.3919
+! Last modified: 2024-08-08T14:04:55.006+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6940
+! Entries: 6941
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2342,6 +2342,7 @@
 
 ! {@2} Domains - RegExp (global)
 /^(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$document,popup,subdocument
+/^https?:\/\/[a-z]{7,}\.com?\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,match-case,from=~edu|~gov,to=co|com
 /aj\d{4}\.online/
 
 ! {@3} IP addresses (global)
