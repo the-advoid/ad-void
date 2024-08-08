@@ -421,3 +421,4 @@ britannica.com##+js(abort-current-script, document.createElement, '/admiral|Stri
 britannica.com##body:style(overflow: visible !important;)
 jetpunk.com##+js(no-xhr-if, prebid)
 jetpunk.com##+js(remove-cookie, PageCount)
+jetpunk.com##+js(set-local-storage-item, PageCount, $remove$)
