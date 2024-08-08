@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3982
-! Last modified: 2024-08-08T23:55:38.562+02:00
+! Version: 3.0.3983
+! Last modified: 2024-08-08T23:56:13.341+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7002
@@ -878,7 +878,7 @@
 ||havingunderwear.com^
 ||hawsuffer.com^
 ||hazoopso.net^
-||hbwrapper.com^
+||hbwrapper.com^$third-party
 ||hdbkell.com^
 ||he7ll.com^
 ||heapanalytics.com^$third-party
