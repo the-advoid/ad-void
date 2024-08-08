@@ -1,17 +1,10 @@
 [Adblock Plus 2.0]
 !
-!     ___        __   _    __        _      __
-!    /   |  ____/ /  | |  / /____   (_)____/ /
-!   / /| | / __  /   | | / // __ \ / // __  /
-!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
-! /_/  |_|\____/     |___/ \____//_/ \____/
-!
-!
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2776
-! Last modified: 2024-08-08T18:27:30.754+02:00
+! Version: 3.0.2777
+! Last modified: 2024-08-08T18:29:56.708+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5200
@@ -1737,7 +1730,7 @@
 ||sentimentalsuffice.cn^
 ||sentimenthypocrisy.com^
 ||sentinelbi.com^$third-party
-||sentry-cdn.com^
+||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
 ||seon.io^$third-party
 ||serfdivia.com^
