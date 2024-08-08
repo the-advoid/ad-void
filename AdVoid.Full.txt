@@ -10,11 +10,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3932
-! Last modified: 2024-08-08T14:13:09.643+02:00
+! Version: 3.0.3933
+! Last modified: 2024-08-08T14:13:39.388+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6954
+! Entries: 6956
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6770,8 +6770,10 @@ vidsrc.*##+js(no-setInterval-if, devtool)
 vidsrc.*##+js(no-window-open-if)
 vidsrc.*##+js(set-constant, console.clear, trueFunc)
 vidsrc.*##^script:has-text(FingerprintJS)
+voe.*##+js(no-window-open-if)
 voe.sx##+js(abort-current-script, String.fromCharCode, /btoa|break/)
 voe.sx##+js(addEventListener-defuser, /keydown|keyup/, keyCode)
+voe.sx##+js(addEventListener-defuser, contextmenu)
 voe.sx##+js(set-constant, console.clear, undefined)
 watchseriesx.to##+js(no-window-open-if, _blank)
 watchseriesx.to##+js(set-cookie, __pf, 1)
