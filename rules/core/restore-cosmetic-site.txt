@@ -10,7 +10,7 @@ m.youtube.com#@#[class*="adWrapper"]
 rexdl.com#@#[rel*="sponsored"]
 xvideos.com#@#.exo-ad-ins-container
 mp3convert.org#@#.ad-placeholder
-jenismac.com##.advertisement
+jenismac.com#@#.advertisement
 
 @@||streamtape.*$generichide
 @@||google.*/search?$generichide
