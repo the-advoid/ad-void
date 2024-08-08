@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3957
-! Last modified: 2024-08-08T23:44:28.782+02:00
+! Version: 3.0.3958
+! Last modified: 2024-08-08T23:44:47.181+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6978
+! Entries: 6979
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6541,6 +6541,7 @@ fandom.com##body:style(overflow: auto !important;)
 file-upload.*##+js(abort-current-script, document.documentElement, break;case $.)
 file-upload.*##+js(abort-current-script, document.getElementById, undefined)
 file-upload.*##+js(abort-current-script, getCookie, setCookie)
+file-upload.*##+js(abort-on-property-write, Fingerprint2)
 file-upload.*##+js(no-window-open-if)
 file-upload.*##+js(noeval-if, ppu)
 filemoon.*##+js(abort-current-script, navigator, popunder)
