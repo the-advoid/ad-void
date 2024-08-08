@@ -48,3 +48,4 @@
 ||datahub-srgssr.ch/tracking/$xmlhttprequest
 ||disqus.com/api/ping$xmlhttprequest
 ||cloudflare.com/cdn-cgi/trace$xmlhttprequest,third-party,redirect-rule=noop.txt,domain=~1bit.space|~1bitspace.com|~funimation.com
+||facebook.com/ajax/qm/$xmlhttprequest
