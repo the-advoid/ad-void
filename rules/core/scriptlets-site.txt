@@ -414,3 +414,4 @@ file-upload.*##+js(abort-current-script, document.documentElement, break;case $.
 file-upload.*##+js(abort-current-script, getCookie, setCookie)
 file-upload.*##+js(abort-on-property-write, Fingerprint2)
 sporcle.com##+js(abort-on-property-read, googletag)
+sporcle.com##+js(abort-current-script, document.createElement, admiral)
