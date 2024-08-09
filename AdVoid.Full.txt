@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4006
-! Last modified: 2024-08-09T00:59:44.784+02:00
+! Version: 3.0.4007
+! Last modified: 2024-08-09T00:59:57.887+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7025
+! Entries: 7026
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6460,6 +6460,7 @@ passport.yandex.com#@#[class$="-social-block"]
 1337x.*##+js(abort-on-property-read, AaDetector)
 1337x.*##+js(abort-on-property-read, afScript)
 1337x.*##+js(abort-on-stack-trace, document.createElement, _0x)
+1337x.*##+js(abort-on-stack-trace, navigator, FingerprintJS)
 1337x.*##+js(addEventListener-defuser, popstate)
 1337x.*##+js(no-setTimeout-if, adb)
 1337x.*##+js(no-window-open-if, , 1)
