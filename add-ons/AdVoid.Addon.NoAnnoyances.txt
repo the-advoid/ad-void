@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1015
-! Last modified: 2024-08-09T01:07:58.336+02:00
+! Version: 2.0.1016
+! Last modified: 2024-08-09T01:08:13.004+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1065
+! Entries: 1066
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1084,6 +1084,7 @@ userload.co##+js(adjust-setInterval, secondsleft, *, 0.02)
 verywellmind.com##html,body:style(overflow: auto !important; position: initial !important;)
 videosection.com##.player-content .player:style(width: 100% !important;)
 virustotal.com##+js(set-cookie, euConsent, 1)
+virustotal.com##+js(set-cookie, tosChangedAccepted, 1)
 vk.com##+js(set-constant, window.PageBottomBanners.initUnauthBanner, noopFunc)
 vk.com##+js(set-constant, window.Unauthorized2, undefined)
 weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
