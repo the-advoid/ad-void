@@ -438,3 +438,4 @@ www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.res
 1337x.*##+js(abort-on-property-read, AaDetector)
 1337x.*##+js(addEventListener-defuser, popstate)
 1337x.*##+js(abort-on-stack-trace, navigator, FingerprintJS)
+1337x.*##+js(abort-on-stack-trace, localStorage, /https:\/\/x?1337x\.[a-z]+\/\S+\.js/)
