@@ -427,3 +427,4 @@ www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.[-].__bbox.r
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].relay_rendering_strategy.view_model.story.sponsored_data.ad_id)
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.story.sponsored_data.ad_id)
 www.facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , propsToMatch, /api/graphql)
+www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
