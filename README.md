@@ -1,8 +1,7 @@
 <div align="center">
 	<img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid logo">
-</div>
-
 <h1>AdVoid</h1>
+</div>
 
 <br>
 
