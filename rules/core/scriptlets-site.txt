@@ -430,3 +430,4 @@ www.facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads da
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.marketplace_search.feed_units.edges.[-].node.story.sponsored_data.ad_id)
 1337x.*##+js(remove-node-text, script, style)
+1337x.*##+js(abort-on-stack-trace, document.createElement, _0x)
