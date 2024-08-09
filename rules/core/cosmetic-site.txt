@@ -263,3 +263,4 @@ jetpunk.com##.banner-x-outer
 jetpunk.com##.right-col > .box-x-outer
 1337x.*##[href*="vpn"]
 1337x.*##[onclick*="vpn"]
+1337x.*##[onclick^="location.href='https://1337x.vpnonly.site/"]
