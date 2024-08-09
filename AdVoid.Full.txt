@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.3991
-! Last modified: 2024-08-09T00:02:03.639+02:00
+! Version: 3.0.3992
+! Last modified: 2024-08-09T00:02:24.674+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7009
+! Entries: 7010
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6828,6 +6828,7 @@ wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
 wootly.ch##+js(disable-newtab-links)
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.story.sponsored_data.ad_id)
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].relay_rendering_strategy.view_model.story.sponsored_data.ad_id)
+www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.[-].__bbox.result.data.node.sponsored_data.ad_id)
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.[-].__bbox.result.data.node.sponsored_data.ad_id)
 www.facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , propsToMatch, /api/graphql)
