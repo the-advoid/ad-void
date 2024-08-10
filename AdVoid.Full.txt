@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4033
-! Last modified: 2024-08-10T19:59:51.446+02:00
+! Version: 3.0.4034
+! Last modified: 2024-08-10T20:01:45.896+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7050
+! Entries: 7052
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -202,6 +202,7 @@
 ||amwaenarqjyza.top^
 ||amyzjjzbyrzrm.top^
 ||analitycs.net^$third-party
+||analysis.fi^
 ||andbeyond.media^
 ||andriasmaximus.com^
 ||aniview.com^
@@ -6927,6 +6928,7 @@ axios.com##body,html:style(overflow: auto !important; position: initial !importa
 bang-movies.com##+js(remove-attr, onclick|target, .thumb-in > a, complete)
 bbc.com##+js(trusted-set-cookie, consentUUID, 14ec7082-be8b-4b4c-a5b4-668972e0e04b_21, 1year)
 bbc.com##body:style(overflow: auto !important;)
+bleepingcomputer.com##+js(set-cookie, sc_cookie_consent, 0)
 careerkarma.com##+js(set-cookie, _Wmpci_Popup, true)
 cbr.com##+js(cookie-remover, articleLimitDrawerVisible)
 cbr.com##+js(cookie-remover, unauthenicatedArticleLimitReached)
