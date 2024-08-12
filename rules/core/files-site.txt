@@ -112,3 +112,4 @@
 ||brave.com/static-assets/js/analysis.js^$script
 *$script,third-party,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 ||oaphoace.net^$script,third-party,redirect-rule=noop.js
+||gay.bingo/agent.php^$subdocument
