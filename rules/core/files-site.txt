@@ -110,3 +110,4 @@
 ||humix.com/video.js^$script
 ||yimg.com/wi/ytc.js^$script
 ||brave.com/static-assets/js/analysis.js^$script
+*$script,third-party,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
