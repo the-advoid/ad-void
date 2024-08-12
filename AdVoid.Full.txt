@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4054
-! Last modified: 2024-08-12T01:24:27.121+02:00
+! Version: 3.0.4055
+! Last modified: 2024-08-12T01:24:43.370+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7058
+! Entries: 7059
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6658,6 +6658,7 @@ kiktu.com##+js(spoof-css, #btx1\, #btx2\, #wg-genx > .mediafire, visibility, vis
 linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redirect?url=http"], ?url)
 linktr.ee##+js(set-constant, DD_LOGS, noopFunc)
 listeamed.net##+js(no-setTimeout-if, afterOpen)
+listeamed.net##+js(no-window-open-if)
 lookmovie2.to##+js(set-constant, Yii2App.playbackTimeout, 0)
 m4ufree.*##+js(abort-current-script, Promise, JSON.parse)
 m4ufree.*##+js(abort-on-property-read, BetterJsPop)
