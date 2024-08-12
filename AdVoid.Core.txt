@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2877
-! Last modified: 2024-08-12T01:24:36.558+02:00
+! Version: 3.0.2878
+! Last modified: 2024-08-12T01:24:55.940+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5282
+! Entries: 5283
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5074,6 +5074,7 @@ linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redire
 linktr.ee##+js(set-constant, DD_LOGS, noopFunc)
 listeamed.net##+js(no-setTimeout-if, afterOpen)
 listeamed.net##+js(no-window-open-if)
+listeamed.net##+js(set-constant, PlayerConfig.config.CustomAdSetting, [])
 lookmovie2.to##+js(set-constant, Yii2App.playbackTimeout, 0)
 m4ufree.*##+js(abort-current-script, Promise, JSON.parse)
 m4ufree.*##+js(abort-on-property-read, BetterJsPop)
