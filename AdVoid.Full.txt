@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4081
-! Last modified: 2024-08-14T16:35:26.455+02:00
+! Version: 3.0.4082
+! Last modified: 2024-08-14T16:36:04.645+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7081
+! Entries: 7082
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6950,6 +6950,7 @@ accuweather.com##body:style(overflow: auto !important;)
 alternativeto.net##body:style(overflow: auto !important;)
 apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
+asus.com##+js(set-cookie, isReadCookiePolicyDNT, true)
 axios.com##body,html:style(overflow: auto !important; position: initial !important;)
 bang-movies.com##+js(remove-attr, onclick|target, .thumb-in > a, complete)
 bbc.com##+js(trusted-set-cookie, consentUUID, 14ec7082-be8b-4b4c-a5b4-668972e0e04b_21, 1year)
