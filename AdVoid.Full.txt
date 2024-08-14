@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4082
-! Last modified: 2024-08-14T16:36:04.645+02:00
+! Version: 3.0.4083
+! Last modified: 2024-08-14T16:37:42.922+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7082
+! Entries: 7083
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7080,6 +7080,7 @@ reddit.com##+js(remove-class, scroll-disabled, body, complete)
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
 reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
+rog-forum.asus.com##body,html:style(overflow: auto !important; position: initial !important;)
 rottentomatoes.com##+js(set-constant, admiral, noopFunc)
 rts.ch##body:style(overflow: auto !important;)
 sammobile.com##+js(adjust-setInterval, showDownloadButton, , 0.02)
