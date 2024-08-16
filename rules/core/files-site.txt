@@ -48,7 +48,7 @@
 ||bang-movies.com/out/b.html^
 ||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
 ||optimizely.com/public/
-||duplichecker.com/*.php|$image
+||duplichecker.com/*.php$image
 ||porn-hub.live/*/*.php?$image
 ||pornunique.com/ad/$image
 ||youporn.com^$script,domain=youporn.com|youporngay.com
