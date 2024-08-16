@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2940
-! Last modified: 2024-08-16T13:30:38.248+02:00
+! Version: 3.0.2941
+! Last modified: 2024-08-16T13:31:32.870+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3121,7 +3121,7 @@ _beacon?
 /amp-analytics-
 /amp-consent*.mjs^$script
 /analytics-client.js^
-/analytics.js^
+/analytics.js^$script
 /analytics.min.js^
 /analytics_and_notifications-*.js^$script
 /analyticscore.js^$script
@@ -3157,7 +3157,7 @@ _beacon?
 /cohesion-latest.min.js^
 /common-player-arrow/index.html?var=*&zoneid=$document
 /contents/other/player/*
-/counter.js^
+/counter.js^$script
 /counters.gif^
 /critical-tracking-scripts-*.js^
 /CustomGoogleTagManagerEvents.js^
@@ -3220,7 +3220,7 @@ _beacon?
 /googletagmanager_gtm.js^
 /googletagservices_gpt.js^
 /greenoaks.gif^$image
-/grin-sdk.js^
+/grin-sdk.js^$script
 /gtag.js^
 /gtm.*.js^
 /gtm.js^$script
@@ -3231,7 +3231,7 @@ _beacon?
 /house-ads/*$image
 /hs.go-to.js^
 /htmlPauseRoll/pb_block
-/huyass*.js^
+/huyass*.js^$script
 /i.gif^$image
 /ia-sentry.min.js^
 /imp.gif^$image
@@ -3269,12 +3269,12 @@ _beacon?
 /pagead.js^
 /parsonsmaize/*.js^
 /partner.ads.js^
-/piano-live.js^
+/piano-live.js^$script
 /ping.gif^
 /pingd?$image
 /piwik.js^
-/pixel.gif^
-/pixel.png^
+/pixel.gif^$image
+/pixel.png^$image
 /pixelpropagate.js^$script
 /pixelyoursite/dist/scripts/*$script
 /plausible.js$domain=~plausible.io
@@ -3292,7 +3292,7 @@ _beacon?
 /prebid*.js^
 /prebid/*$script
 /prebid8.$script
-/preconnect.gif^
+/preconnect.gif^$image
 /prepop.php^
 /productAdsScroll.js^
 /production/ads/*
@@ -3317,7 +3317,7 @@ _beacon?
 /ren.gif^
 /rep.js^
 /report*.js^$script
-/resfgabp.js^
+/resfgabp.js^$script
 /ruxitagentjs_
 /sa.gif?
 /sanTracking.js^$script
@@ -3352,7 +3352,7 @@ _beacon?
 /tagcommander.js^$script
 /tardisrocinante/*.js^
 /teo7.$script
-/throbbing-cherry
+/throbbing-cherry$script
 /tight-firefly
 /tilda-stat-*.js^
 /trace.js^
@@ -3362,7 +3362,7 @@ _beacon?
 /tracker.js^$script
 /tracker.min.js^$script
 /tracking-opt-in.min.js^
-/tracking.js^
+/tracking.js^$script
 /tracking.min.js^$script
 /transparent-pixel.png^
 /trendmd.min.js^
@@ -3407,8 +3407,8 @@ amp-ad-*js^$script
 amp-analytics*js^$script
 amp-auto-ads*js^$script
 amp-iframe-*js^$script
-Logger.js^
-trekkie*.js^
+Logger.js^$script
+trekkie*.js^$script
 videojs.ads.css^$stylesheet
 
 ! {@12} Files (site)
