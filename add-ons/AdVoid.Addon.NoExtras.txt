@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExtras
 ! Description: Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, website reporters, etc.
-! Version: 2.0.7
-! Last modified: 2024-08-16T13:24:38.690+02:00
+! Version: 2.0.8
+! Last modified: 2024-08-16T13:42:32.293+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 11
@@ -23,12 +23,12 @@
 ! {@1} Files (global)
 .css.map^
 .js.map^
-/cnPlay.js^
-/crm/site_button/loader_*.js^
+/cnPlay.js^$script
+/crm/site_button/loader_*.js^$script
 /install-sw.amp.html^
-/jquery.smartwebbanner.min.js^
-/news_widget.js^
-/swfobject.js^
+/jquery.smartwebbanner.min.js^$script
+/news_widget.js^$script
+/swfobject.js^$script
 
 ! {@2} Files (site)
 ||news.google.com/swg/js/v1/swg.js^$script
