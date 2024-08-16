@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2934
-! Last modified: 2024-08-16T13:21:34.425+02:00
+! Version: 3.0.2935
+! Last modified: 2024-08-16T13:22:06.313+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3425,12 +3425,12 @@ videojs.ads.css^
 ||api.pinterest.com/v1/urls/count.json^
 ||app.link/_r?$script,third-party
 ||assets.alicdn.com/*/webpush-ui.js^$script
-||attn.tv^*/dtag.js^
+||attn.tv^*/dtag.js^$script
 ||aviasales.ru/fp.js^$script
 ||b.cdnst.net/javascript/amazon.js^$script
 ||bang-movies.com/out/b.html^
 ||bing.com/fd/ls/l?ig=$image
-||boyfriendtv.com/bftv/www/js/*.min.js?url=
+||boyfriendtv.com/bftv/www/js/*.min.js?url=$script
 ||brave.com/static-assets/js/analysis.js^$script
 ||cdn.abysscdn.com/players/playhydraxb.min.js^$script
 ||cloudflare.com/beacon.js^$script
@@ -3450,7 +3450,7 @@ videojs.ads.css^
 ||go.techtarget.com^$image
 ||google-analytics.com/ga.js^$script,redirect=google-analytics_analytics.js:5
 ||google.com/adsense/domains^
-||google.com/adsense/search/ads.js^
+||google.com/adsense/search/ads.js^$script
 ||google.com/adsense/search/async-ads.js^$script
 ||google.com/images/cleardot.gif^$image
 ||google.com^*/fastbutton?$subdocument,third-party
@@ -3461,14 +3461,14 @@ videojs.ads.css^
 ||humix.com/video.js^$script
 ||id.google.*/verify/$image
 ||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noop.js
-||jsdelivr.net/npm/disable-devtool
+||jsdelivr.net/npm/disable-devtool$script
 ||jsdelivr.net^*/fp.min.js^$script
 ||jwpcdn.com/player/plugins/googima/$script
 ||kupujemprodajem.com/static/images/banners/$image
 ||linkedin.com/litms/utag/$script
 ||live.primis.tech/live/liveView.php^
 ||mcloud.bz/assets/bn/$image
-||mediadelivery.net/rum.js^
+||mediadelivery.net/rum.js^$script
 ||mnuu.nu^$subdocument
 ||moa.mediaoutcast.com^$script
 ||moddroid.com/static/js/pa-$script
@@ -3478,7 +3478,7 @@ videojs.ads.css^
 ||myvidster.com/js/core_engine.js^$script
 ||myvidster.com/js/myv_ad_camp2.php^
 ||myvidster.com/js/myv_smart_banner.php^
-||nofraud.com/js/device.js^
+||nofraud.com/js/device.js^$script
 ||oaphoace.net^$script,third-party,redirect-rule=noop.js
 ||optimizely.com/public/
 ||p.typekit.net/p.css^$stylesheet,redirect-rule=noop.css
@@ -3497,7 +3497,7 @@ videojs.ads.css^
 ||redditstatic.com/ads/pixel.js^$script
 ||redditstatic.com/shreddit/*/ad-event-tracker-*.js^$script,redirect-rule=noop.js
 ||redditstatic.com/shreddit/sentry-
-||rts.ch^*/boreas_b01.js^
+||rts.ch^*/boreas_b01.js^$script
 ||s.gofile.io^$script
 ||s.pinimg.com/ct/core.js^$script
 ||sammobile.com^*/newrelic.js^$script
