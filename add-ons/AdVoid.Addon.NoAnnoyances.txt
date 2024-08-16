@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1028
-! Last modified: 2024-08-16T12:54:06.302+02:00
+! Version: 2.0.1029
+! Last modified: 2024-08-16T13:26:39.740+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1078
@@ -191,7 +191,7 @@ cookie-law*.
 ||mailerlite.com/js/universal.js^
 ||microsoft.com/mscc/
 ||pmc-pp-tou.*.amazonaws.com/privacy-notice.js^
-||ssstik.io/js/micromodal.min.js^
+||ssstik.io/js/micromodal.min.js^$script
 ||swiftypecdn.com^$third-party,domain=~swiftype.com
 
 ! {@7} Cosmetic (global)
