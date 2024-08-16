@@ -78,8 +78,8 @@ amp-web-push*js^$script
 /td-newsletter/*
 /cookiebox.js^$script
 /real-cookie-banner/public/*
-/*cookie-consent-link-element_cookie-consent-link-element*.js
-/cookie-popup-
+/*cookie-consent-link-element_cookie-consent-link-element*.js^$script
+/cookie-popup-$script,stylesheet,image
 /cookie-consent.$script,stylesheet,image
 /privacy-banner/storefront-banner.js^$script
 /one-trust.js^$script
