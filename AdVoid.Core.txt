@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2932
-! Last modified: 2024-08-16T13:20:47.866+02:00
+! Version: 3.0.2933
+! Last modified: 2024-08-16T13:21:12.131+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3421,12 +3421,12 @@ videojs.ads.css^
 ||9xbuddy.$script,third-party,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
 ||acacdn.com^$script,redirect-rule=noop.js
 ||aliyuncs.com/r.png^$image
-||amazonaws.com/jsstore/*/ge.js^
+||amazonaws.com/jsstore/*/ge.js^$script
 ||api.pinterest.com/v1/urls/count.json^
 ||app.link/_r?$script,third-party
 ||assets.alicdn.com/*/webpush-ui.js^$script
 ||attn.tv^*/dtag.js^
-||aviasales.ru/fp.js^
+||aviasales.ru/fp.js^$script
 ||b.cdnst.net/javascript/amazon.js^$script
 ||bang-movies.com/out/b.html^
 ||bing.com/fd/ls/l?ig=$image
@@ -3439,7 +3439,7 @@ videojs.ads.css^
 ||cse.google.com/adsense/search/async-ads.js^$script
 ||d3g5ovfngjw9bw.cloudfront.net^$script,redirect=noop.js
 ||dailymotion.com/logger/$image
-||datasink-sa.fotor.*/sa.gif^
+||datasink-sa.fotor.*/sa.gif^$image
 ||duplichecker.com/*.php$image
 ||eporner.com/dot/
 ||fast.fonts.net/jsapi/core/mt.js^$script
@@ -3510,7 +3510,7 @@ videojs.ads.css^
 ||sxyprn.$subdocument,third-party,domain=~google.com|~googleapis.com|~gstatic.com|~hcaptcha.com|~recaptcha.net
 ||thefreedictionary.com/_/tr.ashx?
 ||thegay.com^$script,domain=thegay.com
-||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js^
+||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js^$script
 ||tnaflix.com/js/mew.js^$script
 ||tubator.com/lookout/
 ||videonow.ru/*/vn_providers_vpaid.js^$script
