@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2939
-! Last modified: 2024-08-16T13:29:32.526+02:00
+! Version: 3.0.2940
+! Last modified: 2024-08-16T13:30:38.248+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3079,7 +3079,7 @@ _beacon?
 /ad-event-tracker-*.js^
 /ad-plugins/*.js^$script
 /ad-provider.js^
-/ad.gif^
+/ad.gif^$image
 /ad.js^$script
 /ad.min.js^$script
 /ad00.php^
@@ -3104,7 +3104,7 @@ _beacon?
 /ads02.js^$script
 /ads03.js^$script
 /ads_light.*.js^
-/adsbygoogle.js^
+/adsbygoogle.js^$script
 /adsdk.js^
 /adsense.min.css^$stylesheet
 /adserver.$~xmlhttprequest,domain=~konograma.com
@@ -3119,7 +3119,7 @@ _beacon?
 /afu.php?zoneid=$popup,document
 /amp-ad-
 /amp-analytics-
-/amp-consent*.mjs^
+/amp-consent*.mjs^$script
 /analytics-client.js^
 /analytics.js^
 /analytics.min.js^
@@ -3137,7 +3137,7 @@ _beacon?
 /blank.gif^$image
 /blogherads.js^
 /boom.gif^$image
-/BranchSdk*.js^
+/BranchSdk*.js^$script
 /browserstats.js^$script
 /bShowTrack.js^$script
 /bv-analytics.js^
@@ -3178,12 +3178,12 @@ _beacon?
 /dotcom-analytics.js^
 /dotcom-bootstrap.js^
 /dotcom-preroll.js^
-/dotmetrics*.js^
+/dotmetrics*.js^$script
 /doubleclick_instream_ad_status.js^
 /duracelltomi-google-tag-manager/*
 /e.gif?$image
 /edmontonalberta/*.js^
-/elfsight-popup.js^
+/elfsight-popup.js^$script
 /enblk/envblk.js^$script
 /entityTagging.min.js^$script
 /err.gif^
@@ -3198,28 +3198,28 @@ _beacon?
 /fbevents.js^
 /fingerprint2.min.js^
 /firebase-analytics.js^
-/firebase.js^
-/frontend-gtag.min.js^
+/firebase.js^$script
+/frontend-gtag.min.js^$script
 /ftt2/js.php^
 /fuckadblock.$script,redirect=noop.js
 /fuckadblock.js^$script
 /ga-analytics.js^$script
-/ga.js^
+/ga.js^$script
 /gads.js^$script
 /gapro.js^$script
 /gen_204^
 /generate_204^$image
 /give/*/give*.
-/google-analytics-universal*js^
+/google-analytics-universal*js^$script
 /google-analytics_analytics.js^
-/google-tag-manager*js^
+/google-tag-manager*js^$script
 /google_ab_testing.js^$script
 /google_head.js^
 /googleanalytics.json^
 /googlesyndication_adsbygoogle.js^
 /googletagmanager_gtm.js^
 /googletagservices_gpt.js^
-/greenoaks.gif^
+/greenoaks.gif^$image
 /grin-sdk.js^
 /gtag.js^
 /gtm.*.js^
@@ -3234,7 +3234,7 @@ _beacon?
 /huyass*.js^
 /i.gif^$image
 /ia-sentry.min.js^
-/imp.gif^
+/imp.gif^$image
 /imp.go^$image
 /impr.gif^
 /insight.min.js^$script
@@ -3246,7 +3246,7 @@ _beacon?
 /kl-identify-browser.js^
 /lg.php^
 /log.php^
-/magento-storefront-event*js^
+/magento-storefront-event*js^$script
 /matomo.js^
 /mendelstats.js^$script
 /metrics.js^
@@ -3257,7 +3257,7 @@ _beacon?
 /narrativ-pub.*.js^
 /nb/nbbl_*.php^
 /nb/nbfl_*.js^$script
-/noop*.js
+/noop*.js$script
 /ntfc.php?p=$script
 /ntv.json^
 /optanon-*.js^
@@ -3278,10 +3278,10 @@ _beacon?
 /pixelpropagate.js^$script
 /pixelyoursite/dist/scripts/*$script
 /plausible.js$domain=~plausible.io
-/player.vast.*.js^
+/player.vast.*.js^$script
 /plugins/ad-invalid-click-protector/*$script
 /plugins/meks-easy-ads-widget/*
-/plusone.js^
+/plusone.js^$script
 /pmc-cxense.js^
 /pop4.php^
 /popCode-*.js^
@@ -3304,7 +3304,7 @@ _beacon?
 /ptrn2.webp^
 /pubads.
 /pum-site-scripts.$script
-/push.js^
+/push.js^$script
 /pw/wawqiojew*=eyj.js^$script
 /px.gif?$image,redirect-rule=1x1.gif
 /pxl.gif^
@@ -3316,11 +3316,11 @@ _beacon?
 /related_1.html?$subdocument,third-party
 /ren.gif^
 /rep.js^
-/report*.js^
+/report*.js^$script
 /resfgabp.js^
 /ruxitagentjs_
 /sa.gif?
-/sanTracking.js^
+/sanTracking.js^$script
 /sbar.json^
 /script/xxag1.js^
 /seattle/*.js^
@@ -3349,7 +3349,7 @@ _beacon?
 /tacoma/*.js^
 /tag.js^$script
 /tag.min.js^$script
-/tagcommander.js^
+/tagcommander.js^$script
 /tardisrocinante/*.js^
 /teo7.$script
 /throbbing-cherry
@@ -3359,8 +3359,8 @@ _beacon?
 /track.gif^$image
 /track.js^$script
 /track.min.js^$script
-/tracker.js^
-/tracker.min.js^
+/tracker.js^$script
+/tracker.min.js^$script
 /tracking-opt-in.min.js^
 /tracking.js^
 /tracking.min.js^$script
@@ -3383,10 +3383,10 @@ _beacon?
 /videojs.ima.css^$stylesheet
 /videojs.ima.min.js^$script
 /videojs.vast.vpaid.min.css^
-/videopack-ads/*/video*.css^
-/videopack-ads/*/video*.js^
+/videopack-ads/*/video*.css^$stylesheet
+/videopack-ads/*/video*.js^$script
 /vidoomy-player.js^
-/vortex-simple-*.js^
+/vortex-simple-*.js^$script
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@$subdocument
 /web-vitals.$script
@@ -3400,16 +3400,16 @@ _beacon?
 /www/delivery/spcjs.php^
 /x.gif^
 /xads.js^$script
-1x1.gif^
+1x1.gif^$image
 _468x60_
 ad-manager
-amp-ad-*js^
-amp-analytics*js^
-amp-auto-ads*js^
-amp-iframe-*js^
+amp-ad-*js^$script
+amp-analytics*js^$script
+amp-auto-ads*js^$script
+amp-iframe-*js^$script
 Logger.js^
 trekkie*.js^
-videojs.ads.css^
+videojs.ads.css^$stylesheet
 
 ! {@12} Files (site)
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
