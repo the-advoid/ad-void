@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4096
-! Last modified: 2024-08-16T12:53:31.500+02:00
+! Version: 3.0.4097
+! Last modified: 2024-08-16T12:53:52.208+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7094
+! Entries: 7095
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6551,6 +6551,7 @@ beemtube.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 bflix.*##+js(abort-on-property-read, AaDetector)
 bflix.*##+js(abort-on-property-read, mm)
 bflix.*##+js(abort-on-property-read, zfgstorage)
+bing.com##+js(no-setInterval-if, logQueue, 10000)
 bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId)
 bleepingcomputer.com##.post_wrap:has-text(AdBot)
 boyfriendtv.com##+js(abort-on-property-read, popunder)
