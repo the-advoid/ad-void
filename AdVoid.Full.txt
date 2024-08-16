@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4144
-! Last modified: 2024-08-16T13:42:36.414+02:00
+! Version: 3.0.4145
+! Last modified: 2024-08-16T13:46:40.921+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7097
@@ -3592,65 +3592,65 @@ cookie-law*.
 /news_widget.js^$script
 /swfobject.js^$script
 -share-bar/$~stylesheet
-/addtoany.min.css^
-/addtoany.min.js^
-/amp-addthis*.js^
-/amp-facebook-*.js^
-/amp-geo-*.mjs^
-/amp-instagram-*.js^
-/amp-social-share-*.js^
-/amp-social-share-*.mjs^
-/amp-twitter-*.js^
-/browser-push-notifications.js^
-/cast_framework.js^
-/cast_sender.js^
+/addtoany.min.css^$stylesheet
+/addtoany.min.js^$script
+/amp-addthis*.js^$script
+/amp-facebook-*.js^$script
+/amp-geo-*.mjs^$script
+/amp-instagram-*.js^$script
+/amp-social-share-*.js^$script
+/amp-social-share-*.mjs^$script
+/amp-twitter-*.js^$script
+/browser-push-notifications.js^$script
+/cast_framework.js^$script
+/cast_sender.js^$script
 /cookie-notice/*$~stylesheet
-/dark-magenta-alternate/css/share.css^
-/dropins.js^
-/el-social-icons.min.css^
-/facebook.mjs^
+/dark-magenta-alternate/css/share.css^$stylesheet
+/dropins.js^$script
+/el-social-icons.min.css^$stylesheet
+/facebook.mjs^$script
 /facebook_share_$image
-/fb-sdk.js^
-/fb.min.js^
+/fb-sdk.js^$script
+/fb.min.js^$script
 /feed_external.php^
 /footer/facebook-$image
 /footer/instagram-$image
 /footer/social/*
 /footer/twitter-$image
-/jsshare.js^
-/KernelTeamVideoSharing*.js^
-/LikePosts.css^
-/LikePosts.js^
-/marketingNotificationsUnit-*.js^
+/jsshare.js^$script
+/KernelTeamVideoSharing*.js^$script
+/LikePosts.css^$stylesheet
+/LikePosts.js^$script
+/marketingNotificationsUnit-*.js^$script
 /news_widget_amc^
-/novashare.min.js^
-/pinit.js^
+/novashare.min.js^$script
+/pinit.js^$script
 /plugins/mashsharer/*
 /pmc-social-share-bar/*
-/provider.cast.js^
+/provider.cast.js^$script
 /rpc.php^
-/sassy-social-share-svg.css^
-/share-button.*.js^
-/share.*.js^
+/sassy-social-share-svg.css^$stylesheet
+/share-button.*.js^$script
+/share.*.js^$script
 /share_buttons_
-/sharedaddy/sharing.*.js^
-/silvermine-videojs-chromecast.js^
-/silvermine-videojs-chromecast.min.js^
+/sharedaddy/sharing.*.js^$script
+/silvermine-videojs-chromecast.js^$script
+/silvermine-videojs-chromecast.min.js^$script
 /simple-share-$~stylesheet
-/social-media.js^
-/SocialTool.min.js^
+/social-media.js^$script
+/SocialTool.min.js^$script
 /twitter_share_$image
-/videojs-chromecast.min.js^
+/videojs-chromecast.min.js^$script
 /videojs-share.$script
-/videojs-social.*.js^
-/videojs.pip.js^
+/videojs-social.*.js^$script
+/videojs.pip.js^$script
 /wp-content/*/social_$~stylesheet
-/wp-content/plugins/add-to-any/addtoany.min.
+/wp-content/plugins/add-to-any/addtoany.min.$script,stylesheet
 /wp-content/plugins/kadence-simple-share/*$script,stylesheet,image
 /wp-content/plugins/mailoptin/*
 /wp-content/plugins/social-warfare/*
-/wrappermessagingwithoutdetection.js^
-sassy-social-share-public*.
+/wrappermessagingwithoutdetection.js^$script
+sassy-social-share-public*.$script,stylesheet
 
 ! {@12} Files (site)
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
