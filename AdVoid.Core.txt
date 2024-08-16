@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2944
-! Last modified: 2024-08-16T13:36:16.667+02:00
+! Version: 3.0.2945
+! Last modified: 2024-08-16T13:37:24.745+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3078,7 +3078,7 @@ _beacon?
 /AC_ActiveX.js^
 /ad-event-tracker-*.js^
 /ad-plugins/*.js^$script
-/ad-provider.js^
+/ad-provider.js^$script
 /ad.gif^$image
 /ad.js^$script
 /ad.min.js^$script
@@ -3087,7 +3087,7 @@ _beacon?
 /ad_xv_cams_player_video.mustache^
 /adfox/*$script
 /adframe.js^$script
-/adgpt.js^
+/adgpt.js^$script
 /adinhead.png^$image
 /admvpopunder.swf^
 /adobe-analytics-$domain=~business.adobe.com
@@ -3114,7 +3114,7 @@ _beacon?
 /adunit.js^$script
 /advertise-*.js^$script
 /advertisement.min.js^$script
-/advertisers.js^
+/advertisers.js^$script
 /advertising.js^
 /afu.php?zoneid=$popup,document
 /amp-ad-
@@ -3133,7 +3133,7 @@ _beacon?
 /backbutton-*.js^$script
 /banner.cgi^
 /banner.go^
-/beardeddragon/*.js^
+/beardeddragon/*.js^$script
 /blank.gif^$image
 /blogherads.js^
 /boom.gif^$image
@@ -3152,7 +3152,7 @@ _beacon?
 /clickback.js^$script
 /client_204?$image
 /client_event.json^
-/clk.gif^
+/clk.gif^$image
 /code/native.js?h=$script
 /cohesion-latest.min.js^
 /common-player-arrow/index.html?var=*&zoneid=$document
@@ -3160,14 +3160,14 @@ _beacon?
 /counter.js^$script
 /counters.gif^$image
 /critical-tracking-scripts-*.js^$script
-/CustomGoogleTagManagerEvents.js^
+/CustomGoogleTagManagerEvents.js^$script
 /cxense-entitlement.js^
 /dealeron.runtime.js^$script
 /dealerOnLead.min.js^$script
 /deleted-ad-more.js,dummy1.js^$script
 /delivery/avw.php^
 /desktop_bottom.json^
-/detroitchicago/*.js^
+/detroitchicago/*.js^$script
 /dfpAds.css^$image
 /dfpAds.js^$script
 /disable-devtool.min.js^$script
@@ -3179,10 +3179,10 @@ _beacon?
 /dotcom-bootstrap.js^$script
 /dotcom-preroll.js^$script
 /dotmetrics*.js^$script
-/doubleclick_instream_ad_status.js^
-/duracelltomi-google-tag-manager/*
+/doubleclick_instream_ad_status.js^$script
+/duracelltomi-google-tag-manager/*$script,stylesheet
 /e.gif?$image
-/edmontonalberta/*.js^
+/edmontonalberta/*.js^$script
 /elfsight-popup.js^$script
 /enblk/envblk.js^$script
 /entityTagging.min.js^$script
@@ -3191,7 +3191,7 @@ _beacon?
 /exoNat.css^$stylesheet
 /exort*.js^$script
 /ezoic/*$script
-/ezoic/*.js^
+/ezoic/*.js^$script
 /f.php?nd=*&sid=*&rand=*$popup,document
 /facebook.js^$script
 /fb.js^$script
@@ -3211,25 +3211,25 @@ _beacon?
 /generate_204^$image
 /give/*/give*.
 /google-analytics-universal*js^$script
-/google-analytics_analytics.js^
+/google-analytics_analytics.js^$script
 /google-tag-manager*js^$script
 /google_ab_testing.js^$script
 /google_head.js^$script
 /googleanalytics.json^
-/googlesyndication_adsbygoogle.js^
-/googletagmanager_gtm.js^
-/googletagservices_gpt.js^
+/googlesyndication_adsbygoogle.js^$script
+/googletagmanager_gtm.js^$script
+/googletagservices_gpt.js^$script
 /greenoaks.gif^$image
 /grin-sdk.js^$script
 /gtag.js^
-/gtm.*.js^
+/gtm.*.js^$script
 /gtm.js^$script
 /gtmpixel.js^$script
 /hawklinks.js^
 /hit.xiti^
 /house-ad/*
 /house-ads/*$image
-/hs.go-to.js^
+/hs.go-to.js^$script
 /htmlPauseRoll/pb_block
 /huyass*.js^$script
 /i.gif^$image
@@ -3249,11 +3249,11 @@ _beacon?
 /magento-storefront-event*js^$script
 /matomo.js^$script
 /mendelstats.js^$script
-/metrics.js^
+/metrics.js^$script
 /micro.tag.min.js^$script
 /mtc.js^
 /mts-wp-in-post-ads/*
-/nano-ppc-media-tracking*.js^
+/nano-ppc-media-tracking*.js^$script
 /narrativ-pub.*.js^$script
 /nb/nbbl_*.php^
 /nb/nbfl_*.js^$script
@@ -3265,10 +3265,10 @@ _beacon?
 /optimize.js^$script
 /p.gif^$image
 /p1x1.jpg^$image
-/pa-ad.js^
-/pagead.js^
-/parsonsmaize/*.js^
-/partner.ads.js^
+/pa-ad.js^$script
+/pagead.js^$script
+/parsonsmaize/*.js^$script
+/partner.ads.js^$script
 /piano-live.js^$script
 /ping.gif^$image
 /pingd?$image
@@ -3287,7 +3287,7 @@ _beacon?
 /popCode-*.js^$script
 /popunder.gif^
 /popunder.js^$script
-/porpoiseant/*.js^
+/porpoiseant/*.js^$script
 /ppms.js^
 /prebid*.js^$script
 /prebid/*$script
@@ -3323,7 +3323,7 @@ _beacon?
 /sanTracking.js^$script
 /sbar.json^
 /script/xxag1.js^
-/seattle/*.js^
+/seattle/*.js^$script
 /sentry-js.min.js^$script
 /sentry.*.js^$script
 /shopify-boomerang-
@@ -3346,11 +3346,11 @@ _beacon?
 /sw.js?puid=$script
 /swfobject_*.js^$script
 /t.gif^$image
-/tacoma/*.js^
+/tacoma/*.js^$script
 /tag.js^$script
 /tag.min.js^$script
 /tagcommander.js^$script
-/tardisrocinante/*.js^
+/tardisrocinante/*.js^$script
 /teo7.$script
 /throbbing-cherry$script
 /tight-firefly
