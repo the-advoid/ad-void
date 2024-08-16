@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2915
-! Last modified: 2024-08-16T13:11:26.544+02:00
+! Version: 3.0.2916
+! Last modified: 2024-08-16T13:11:50.118+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5310
@@ -3433,7 +3433,7 @@ videojs.ads.css^
 ||boyfriendtv.com/bftv/www/js/*.min.js?url=
 ||brave.com/static-assets/js/analysis.js^$script
 ||bunnycdn.ru/assets/_bnx/
-||cdn.abysscdn.com/players/playhydraxb.min.js^
+||cdn.abysscdn.com/players/playhydraxb.min.js^$script
 ||cloudflare.com/beacon.js^$script
 ||cloudfront.net/prebid_$script,redirect-rule=noop.js
 ||cloudfront.net/script.js^
@@ -3453,7 +3453,7 @@ videojs.ads.css^
 ||google.com/adsense/domains^
 ||google.com/adsense/search/ads.js^
 ||google.com/adsense/search/async-ads.js^$script
-||google.com/images/cleardot.gif^
+||google.com/images/cleardot.gif^$image
 ||google.com^*/fastbutton?$subdocument,third-party
 ||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
 ||googletagmanager.com/gtm.js^$script,redirect=googletagmanager_gtm.js:5
