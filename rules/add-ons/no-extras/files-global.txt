@@ -1,8 +1,8 @@
 .js.map^
 .css.map^
-/swfobject.js^
-/news_widget.js^
-/cnPlay.js^
+/swfobject.js^$script
+/news_widget.js^$script
+/cnPlay.js^$script
 /install-sw.amp.html^
-/jquery.smartwebbanner.min.js^
-/crm/site_button/loader_*.js^
+/jquery.smartwebbanner.min.js^$script
+/crm/site_button/loader_*.js^$script
