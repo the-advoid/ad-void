@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4129
-! Last modified: 2024-08-16T13:26:44.028+02:00
+! Version: 3.0.4130
+! Last modified: 2024-08-16T13:27:08.087+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7097
@@ -3771,19 +3771,19 @@ sassy-social-share-public*.
 ||ytmp3.cc/js/ad$script
 ||ytmp3.cc/js/inner.js^$script
 ||a.mailmunch.co/app/$script,third-party
-||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^
+||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^$script
 ||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
 ||cdn-cookieyes.com/client_data/$script,stylesheet
-||consent.cookiebot.eu/uc.js^
-||cscript-cdn-irl.cassiecloud.com/loader.js^
+||consent.cookiebot.eu/uc.js^$script
+||cscript-cdn-irl.cassiecloud.com/loader.js^$script
 ||flamelab.io/flamelab.js^$script
 ||gstatic.com/glue/cookienotificationbar/cookienotificationbar.
-||images.dmca.com/badges/dmcabadgehelper.min.js^$third-party
-||itv.com/itvstatic/assets/cookies-prompt/
+||images.dmca.com/badges/dmcabadgehelper.min.js^$third-party,script
+||itv.com/itvstatic/assets/cookies-prompt/$script,stylesheet
 ||lightboxcdn.com/vendor/$script,third-party
-||mailerlite.com/js/universal.js^
+||mailerlite.com/js/universal.js^$script
 ||microsoft.com/mscc/
-||pmc-pp-tou.*.amazonaws.com/privacy-notice.js^
+||pmc-pp-tou.*.amazonaws.com/privacy-notice.js^$script
 ||ssstik.io/js/micromodal.min.js^$script
 ||swiftypecdn.com^$third-party,domain=~swiftype.com
 ||news.google.com/swg/js/v1/swg.js^$script
