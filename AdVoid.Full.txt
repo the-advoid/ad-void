@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4143
-! Last modified: 2024-08-16T13:42:20.012+02:00
+! Version: 3.0.4144
+! Last modified: 2024-08-16T13:42:36.414+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7097
@@ -3585,12 +3585,12 @@ amp-web-push*js^
 cookie-law*.
 .css.map^
 .js.map^
-/cnPlay.js^
-/crm/site_button/loader_*.js^
+/cnPlay.js^$script
+/crm/site_button/loader_*.js^$script
 /install-sw.amp.html^
-/jquery.smartwebbanner.min.js^
-/news_widget.js^
-/swfobject.js^
+/jquery.smartwebbanner.min.js^$script
+/news_widget.js^$script
+/swfobject.js^$script
 -share-bar/$~stylesheet
 /addtoany.min.css^
 /addtoany.min.js^
