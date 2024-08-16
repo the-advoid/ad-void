@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4132
-! Last modified: 2024-08-16T13:28:46.908+02:00
+! Version: 3.0.4133
+! Last modified: 2024-08-16T13:29:10.919+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7097
@@ -3209,9 +3209,9 @@ _beacon?
 /analytics-client.js^
 /analytics.js^
 /analytics.min.js^
-/analytics_and_notifications-*.js^
-/analyticscore.js^
-/analyticssecondary.js^
+/analytics_and_notifications-*.js^$script
+/analyticscore.js^$script
+/analyticssecondary.js^$script
 /applicationinsights-web.min.js^$script
 /atrk.js^
 /autotrack.js^$script
@@ -3225,7 +3225,7 @@ _beacon?
 /boom.gif^$image
 /BranchSdk*.js^
 /browserstats.js^$script
-/bShowTrack.js^
+/bShowTrack.js^$script
 /bv-analytics.js^
 /carbon.js^
 /cdn-cgi/apps/head/*$script,~third-party
@@ -3310,7 +3310,7 @@ _beacon?
 /gtag.js^
 /gtm.*.js^
 /gtm.js^$script
-/gtmpixel.js^
+/gtmpixel.js^$script
 /hawklinks.js^
 /hit.xiti^
 /house-ad/*
@@ -3361,7 +3361,7 @@ _beacon?
 /piwik.js^
 /pixel.gif^
 /pixel.png^
-/pixelpropagate.js^
+/pixelpropagate.js^$script
 /pixelyoursite/dist/scripts/*$script
 /plausible.js$domain=~plausible.io
 /player.vast.*.js^
@@ -3397,7 +3397,7 @@ _beacon?
 /pxl.png?
 /reactAds.*.js^
 /reactMixpanel.*.js^
-/referrer-tracking-*.js^
+/referrer-tracking-*.js^$script
 /reklamexport_global.php^
 /related_1.html?$subdocument,third-party
 /ren.gif^
@@ -3420,7 +3420,7 @@ _beacon?
 /smartad.$script,domain=~smartad.ai
 /solid.gif^$image
 /sponsor-invent.*.js^
-/sranalytics.js^
+/sranalytics.js^$script
 /statistics/statistics_apcu.php^
 /stats.gif?
 /stats.js^$script
@@ -3433,8 +3433,8 @@ _beacon?
 /swfobject_*.js^
 /t.gif^$image
 /tacoma/*.js^
-/tag.js^
-/tag.min.js^
+/tag.js^$script
+/tag.min.js^$script
 /tagcommander.js^
 /tardisrocinante/*.js^
 /teo7.$script
@@ -3442,7 +3442,7 @@ _beacon?
 /tight-firefly
 /tilda-stat-*.js^
 /trace.js^
-/track.gif^
+/track.gif^$image
 /track.js^$script
 /track.min.js^$script
 /tracker.js^
