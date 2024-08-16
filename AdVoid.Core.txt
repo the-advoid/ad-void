@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2936
-! Last modified: 2024-08-16T13:27:58.817+02:00
+! Version: 3.0.2937
+! Last modified: 2024-08-16T13:28:39.109+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3052,14 +3052,14 @@ _beacon?
 -sticky-ad-
 -universal-analytics/
 .ads.css^$stylesheet
-.airlytics.*.js^
-.amznHdBid.*.js^
-.confiant.*.js^
-.criteoSlot.*.js^
-.DaybreakMetrics.*.js^
+.airlytics.*.js^$script
+.amznHdBid.*.js^$script
+.confiant.*.js^$script
+.criteoSlot.*.js^$script
+.DaybreakMetrics.*.js^$script
 .js?id=gtm-
-.moatYieldIntelligence.*.js^
-.wxAdTargeting.*.js^
+.moatYieldIntelligence.*.js^$script
+.wxAdTargeting.*.js^$script
 /*&sw=/sw-check-permissions.js^$third-party
 /*m-Mob
 /1clkn/*$script,third-party
@@ -3109,7 +3109,7 @@ _beacon?
 /adsense.min.css^
 /adserver.$~xmlhttprequest,domain=~konograma.com
 /adshow.php^
-/adslot-*.js^
+/adslot-*.js^$script
 /adthrive.min.js^
 /adunit.js^
 /advertise-*.js^
@@ -3128,7 +3128,7 @@ _beacon?
 /analyticssecondary.js^
 /applicationinsights-web.min.js^$script
 /atrk.js^
-/autotrack.js^
+/autotrack.js^$script
 /b/ss/*&aqe=$image,redirect-rule=1x1.gif
 /backbutton-*.js^
 /banner.cgi^
@@ -3138,7 +3138,7 @@ _beacon?
 /blogherads.js^
 /boom.gif^$image
 /BranchSdk*.js^
-/browserstats.js^
+/browserstats.js^$script
 /bShowTrack.js^
 /bv-analytics.js^
 /carbon.js^
@@ -3164,7 +3164,7 @@ _beacon?
 /cxense-entitlement.js^
 /dealeron.runtime.js^
 /dealerOnLead.min.js^
-/deleted-ad-more.js,dummy1.js^
+/deleted-ad-more.js,dummy1.js^$script
 /delivery/avw.php^
 /desktop_bottom.json^
 /detroitchicago/*.js^
@@ -3185,7 +3185,7 @@ _beacon?
 /edmontonalberta/*.js^
 /elfsight-popup.js^
 /enblk/envblk.js^$script
-/entityTagging.min.js^
+/entityTagging.min.js^$script
 /err.gif^
 /ex_rendr3.js^
 /exoNat.css^
@@ -3193,8 +3193,8 @@ _beacon?
 /ezoic/*$script
 /ezoic/*.js^
 /f.php?nd=*&sid=*&rand=*$popup,document
-/facebook.js^
-/fb.js^
+/facebook.js^$script
+/fb.js^$script
 /fbevents.js^
 /fingerprint2.min.js^
 /firebase-analytics.js^
@@ -3202,8 +3202,8 @@ _beacon?
 /frontend-gtag.min.js^
 /ftt2/js.php^
 /fuckadblock.$script,redirect=noop.js
-/fuckadblock.js^
-/ga-analytics.js^
+/fuckadblock.js^$script
+/ga-analytics.js^$script
 /ga.js^
 /gads.js^$script
 /gapro.js^$script
@@ -3213,7 +3213,7 @@ _beacon?
 /google-analytics-universal*js^
 /google-analytics_analytics.js^
 /google-tag-manager*js^
-/google_ab_testing.js^
+/google_ab_testing.js^$script
 /google_head.js^
 /googleanalytics.json^
 /googlesyndication_adsbygoogle.js^
@@ -3237,7 +3237,7 @@ _beacon?
 /imp.gif^
 /imp.go^$image
 /impr.gif^
-/insight.min.js^
+/insight.min.js^$script
 /InstallTracking.aspx^
 /istats-*.min.js^
 /jquery.adi.js^$script
@@ -3328,7 +3328,7 @@ _beacon?
 /sentry.*.js^
 /shopify-boomerang-
 /shopifycloud/shopify/assets/shop_events_listener-$script
-/showads*.js^
+/showads*.js^$script
 /simple-banner/simple-banner.$script,stylesheet
 /siropu/am/core.min.js^$script,important,from=~audi-sport.net|~hifiwigwam.com
 /smartad.$script,domain=~smartad.ai
@@ -3366,7 +3366,7 @@ _beacon?
 /tracking.min.js^$script
 /transparent-pixel.png^
 /trendmd.min.js^
-/underpop-*.js^
+/underpop-*.js^$script
 /ut.js?cb=
 /utag*.js^
 /valnet-header-ads.*.js^
@@ -3377,11 +3377,11 @@ _beacon?
 /video.counters.$script
 /video.counters.*.js^$script
 /videojs*.vast.vpaid.min.js^
-/videojs-contrib-ads.js^
-/videojs.ads.min.js^
+/videojs-contrib-ads.js^$script
+/videojs.ads.min.js^$script
 /videojs.ga.$script
-/videojs.ima.css^
-/videojs.ima.min.js^
+/videojs.ima.css^$stylesheet
+/videojs.ima.min.js^$script
 /videojs.vast.vpaid.min.css^
 /videopack-ads/*/video*.css^
 /videopack-ads/*/video*.js^
