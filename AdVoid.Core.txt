@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2947
-! Last modified: 2024-08-16T13:40:13.266+02:00
+! Version: 3.0.2948
+! Last modified: 2024-08-16T13:42:11.762+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3050,14 +3050,14 @@ _beacon?
 -adobe-analytics/$script
 -contrib-ads.$~stylesheet
 -sticky-ad-$script,stylesheet,image
--universal-analytics/
+-universal-analytics/$script,stylesheet
 .ads.css^$stylesheet
 .airlytics.*.js^$script
 .amznHdBid.*.js^$script
 .confiant.*.js^$script
 .criteoSlot.*.js^$script
 .DaybreakMetrics.*.js^$script
-.js?id=gtm-
+.js?id=gtm-$script
 .moatYieldIntelligence.*.js^$script
 .wxAdTargeting.*.js^$script
 /*&sw=/sw-check-permissions.js^$third-party
@@ -3076,7 +3076,7 @@ _beacon?
 /a_cntn.png^$image
 /aas/r45d/vki/*$script,redirect-rule=noop.js
 /AC_ActiveX.js^$script
-/ad-event-tracker-*.js^
+/ad-event-tracker-*.js^$script
 /ad-plugins/*.js^$script
 /ad-provider.js^$script
 /ad.gif^$image
@@ -3091,7 +3091,7 @@ _beacon?
 /adinhead.png^$image
 /admvpopunder.swf^
 /adobe-analytics-$domain=~business.adobe.com
-/adrecover.js^
+/adrecover.js^$script
 /ads-*.css^$stylesheet
 /ads-*.js^$script
 /ads-banner.png^$image
@@ -3127,7 +3127,7 @@ _beacon?
 /analyticscore.js^$script
 /analyticssecondary.js^$script
 /applicationinsights-web.min.js^$script
-/atrk.js^
+/atrk.js^$script
 /autotrack.js^$script
 /b/ss/*&aqe=$image,redirect-rule=1x1.gif
 /backbutton-*.js^$script
@@ -3135,16 +3135,16 @@ _beacon?
 /banner.go^
 /beardeddragon/*.js^$script
 /blank.gif^$image
-/blogherads.js^
+/blogherads.js^$script
 /boom.gif^$image
 /BranchSdk*.js^$script
 /browserstats.js^$script
 /bShowTrack.js^$script
-/bv-analytics.js^
+/bv-analytics.js^$script
 /carbon.js^$script
 /cdn-cgi/apps/head/*$script,~third-party
 /cdn-cgi/zaraz/*
-/chartbeat.js^
+/chartbeat.js^$script
 /chartbeat.json^
 /cimp.php^
 /clever_ads.js^$script
@@ -3154,14 +3154,14 @@ _beacon?
 /client_event.json^
 /clk.gif^$image
 /code/native.js?h=$script
-/cohesion-latest.min.js^
+/cohesion-latest.min.js^$script
 /common-player-arrow/index.html?var=*&zoneid=$document
 /contents/other/player/*$script,stylesheet,image
 /counter.js^$script
 /counters.gif^$image
 /critical-tracking-scripts-*.js^$script
 /CustomGoogleTagManagerEvents.js^$script
-/cxense-entitlement.js^
+/cxense-entitlement.js^$script
 /dealeron.runtime.js^$script
 /dealerOnLead.min.js^$script
 /deleted-ad-more.js,dummy1.js^$script
@@ -3196,7 +3196,7 @@ _beacon?
 /facebook.js^$script
 /fb.js^$script
 /fbevents.js^$script
-/fingerprint2.min.js^
+/fingerprint2.min.js^$script
 /firebase-analytics.js^$script
 /firebase.js^$script
 /frontend-gtag.min.js^$script
@@ -3221,11 +3221,11 @@ _beacon?
 /googletagservices_gpt.js^$script
 /greenoaks.gif^$image
 /grin-sdk.js^$script
-/gtag.js^
+/gtag.js^$script
 /gtm.*.js^$script
 /gtm.js^$script
 /gtmpixel.js^$script
-/hawklinks.js^
+/hawklinks.js^$script
 /hit.xiti^
 /house-ad/*$script,stylesheet,image
 /house-ads/*$image
@@ -3233,7 +3233,7 @@ _beacon?
 /htmlPauseRoll/pb_block
 /huyass*.js^$script
 /i.gif^$image
-/ia-sentry.min.js^
+/ia-sentry.min.js^$script
 /imp.gif^$image
 /imp.go^$image
 /impr.gif^$image
@@ -3251,8 +3251,8 @@ _beacon?
 /mendelstats.js^$script
 /metrics.js^$script
 /micro.tag.min.js^$script
-/mtc.js^
-/mts-wp-in-post-ads/*
+/mtc.js^$script
+/mts-wp-in-post-ads/*$script,stylesheet,image
 /nano-ppc-media-tracking*.js^$script
 /narrativ-pub.*.js^$script
 /nb/nbbl_*.php^
@@ -3282,13 +3282,13 @@ _beacon?
 /plugins/ad-invalid-click-protector/*$script
 /plugins/meks-easy-ads-widget/*$script,stylesheet
 /plusone.js^$script
-/pmc-cxense.js^
+/pmc-cxense.js^$script
 /pop4.php^
 /popCode-*.js^$script
 /popunder.gif^$image
 /popunder.js^$script
 /porpoiseant/*.js^$script
-/ppms.js^
+/ppms.js^$script
 /prebid*.js^$script
 /prebid/*$script
 /prebid8.$script
@@ -3298,7 +3298,7 @@ _beacon?
 /production/ads/*$script,stylesheet,image
 /projectagora.min.js^$script
 /promo.php^
-/promo_float_banner.*.js^
+/promo_float_banner.*.js^$script
 /promotools.
 /ptrn*.$image
 /ptrn2.webp^$image
@@ -3308,7 +3308,7 @@ _beacon?
 /pw/wawqiojew*=eyj.js^$script
 /px.gif?$image,redirect-rule=1x1.gif
 /pxl.gif^$image
-/pxl.png?
+/pxl.png?$image
 /reactAds.*.js^$script
 /reactMixpanel.*.js^$script
 /referrer-tracking-*.js^$script
@@ -3318,15 +3318,15 @@ _beacon?
 /rep.js^$script
 /report*.js^$script
 /resfgabp.js^$script
-/ruxitagentjs_
-/sa.gif?
+/ruxitagentjs_$script,stylesheet
+/sa.gif?$image
 /sanTracking.js^$script
 /sbar.json^
-/script/xxag1.js^
+/script/xxag1.js^$script
 /seattle/*.js^$script
 /sentry-js.min.js^$script
 /sentry.*.js^$script
-/shopify-boomerang-
+/shopify-boomerang-$script,stylesheet,image
 /shopifycloud/shopify/assets/shop_events_listener-$script
 /showads*.js^$script
 /simple-banner/simple-banner.$script,stylesheet
@@ -3336,11 +3336,11 @@ _beacon?
 /sponsor-invent.*.js^$script
 /sranalytics.js^$script
 /statistics/statistics_apcu.php^
-/stats.gif?
+/stats.gif?$image
 /stats.js^$script
 /stats.php^
 /stattag.js^$script
-/strpixel.png?
+/strpixel.png?$image
 /strpixel.png^$image
 /submenu/*/&oaid=$popup,document
 /sw.js?puid=$script
@@ -3354,7 +3354,7 @@ _beacon?
 /teo7.$script
 /throbbing-cherry$script
 /tight-firefly
-/tilda-stat-*.js^
+/tilda-stat-*.js^$script
 /trace.js^$script
 /track.gif^$image
 /track.js^$script
@@ -3367,7 +3367,7 @@ _beacon?
 /transparent-pixel.png^$image
 /trendmd.min.js^$script
 /underpop-*.js^$script
-/ut.js?cb=
+/ut.js?cb=$script
 /utag*.js^$script
 /valnet-header-ads.*.js^$script
 /valnet-header.$script,stylesheet
@@ -3385,9 +3385,9 @@ _beacon?
 /videojs.vast.vpaid.min.css^$stylesheet
 /videopack-ads/*/video*.css^$stylesheet
 /videopack-ads/*/video*.js^$script
-/vidoomy-player.js^
+/vidoomy-player.js^$script
 /vortex-simple-*.js^$script
-/web-pixel-shopify-app-pixel@
+/web-pixel-shopify-app-pixel@$script,stylesheet,image
 /web-pixel-shopify-custom-pixel@$subdocument
 /web-vitals.$script
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
