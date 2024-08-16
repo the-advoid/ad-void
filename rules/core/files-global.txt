@@ -95,7 +95,6 @@
 /videopack-ads/*/video*.css^$stylesheet
 /give/*/give*.
 /tight-firefly
-videojs.ads.css^$stylesheet
 /client_event.json^
 /firebase.js^$script
 /adsbygoogle.js^$script
