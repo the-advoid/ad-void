@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid logo">
+  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid logo">
 <h1>AdVoid</h1>
 </div>
 
@@ -19,14 +19,11 @@
   <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-launched.svg" alt="AdVoid is available from Feb 15, 2022">
   <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.2948-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="GitHub file size in bytes" src="https://custom-icon-badges.herokuapp.com/github/size/the-advoid/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
-  <a href="https://github.com/the-advoid/ad-void/tree/main/"><img alt="AdVoid Modules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-modules.svg"></a>
-	<br>
-  <a href="https://github.com/the-advoid/ad-void/tree/main/add-ons"><img alt="AdVoid Add-ons" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-addons.svg"></a>
-  <a href="https://github.com/the-advoid/ad-void/tree/main/scriptlets"><img alt="AdVoid Scriptlets" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-scriptlets.svg"></a>
+  <br>
   <a href="https://github.com/the-advoid/ad-void/pulls?q=is%3Apr+is%3Aclosed"><img alt="GitHub closed pull requests" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/the-advoid/ad-void?color=0f167d&style=flat-square&logo=git-pull-request&logoColor=white&label=closed%20PRs"></a>
   <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="GitHub commit activity" src="https://custom-icon-badges.herokuapp.com/github/commit-activity/m/the-advoid/ad-void?style=flat-square&label=commits&logo=checklist&logoColor=white&color=006600"></a>
-	<br>
   <a href="https://github.com/the-advoid/ad-void/issues?q=is%3Aissue+is%3Aclosed"><img alt="GitHub closed issues" src="https://custom-icon-badges.herokuapp.com/github/issues-closed/the-advoid/ad-void?style=flat-square&logo=issue-closed&logoColor=white&color=3333ff"></a>
+  <br>
   <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="GitHub last commit" src="https://custom-icon-badges.herokuapp.com/github/last-commit/the-advoid/ad-void?style=flat-square&label=last%20updated&logo=git-commit&logoColor=white&color=e65c00"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/LICENSE"><img alt="GitHub" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-license.svg"></a>
 </div>
@@ -34,31 +31,31 @@
 <br>
 
 <div align="center">
-	<blockquote>
-		<h4>💖 Support further development</h4>
-		<span>I work hard for every project, including this one and your support means a lot to me!
-		<br>
-		Consider buying me a coffee. ☕
-		<br>
-		<strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-		<br>
-		<br>
-		<a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-		<br>
-		<br>
-		<a href="https://github.com/igorskyflyer"><em>Igor Dimitrijević (@igorskyflyer)</em></a>
-		<br>
-		<br>
-	</blockquote>
+  <blockquote>
+    <h4>💖 Support further development</h4>
+    <span>I work hard for every project, including this one and your support means a lot to me!
+    <br>
+    Consider buying me a coffee. ☕
+    <br>
+    <strong>Thank you for supporting my efforts! 🙏😊</strong></span>
+    <br>
+    <br>
+    <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
+    <br>
+    <br>
+    <a href="https://github.com/igorskyflyer"><em>Igor Dimitrijević (@igorskyflyer)</em></a>
+    <br>
+    <br>
+  </blockquote>
 </div>
 
 <br>
 <br>
 
 <blockquote align="center">
-	💕<em>Since Dec 19 2022, this project is supported by the <a href="https://adguard.com" target="_blank">AdGuard</a> <sup>(*)</sup> team.</em> 🥳
-	<br>
-	<sub>* support via a free developer license being given</sub>
+  💕<em>Since Dec 19 2022, this project is supported by the <a href="https://adguard.com" target="_blank">AdGuard</a> <sup>(*)</sup> team.</em> 🥳
+  <br>
+  <sub>* support via a free developer license being given</sub>
 </blockquote>
 
 <br>
@@ -187,11 +184,11 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 <br>
 
 <div align="center">
-	<figure>
-		<img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="A graph showing substantial increase of rule additions">
-		<br>
-		<figcaption><sub>Figure 1: a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
-	</figure>
+  <figure>
+    <img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="A graph showing substantial increase of rule additions">
+    <br>
+    <figcaption><sub>Figure 1: a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
+  </figure>
 </div>
 
 <br>
