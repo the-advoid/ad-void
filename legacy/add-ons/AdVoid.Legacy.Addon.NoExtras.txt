@@ -1,17 +1,10 @@
 [Adblock Plus 2.0]
 !
-!     ___        __   _    __        _      __
-!    /   |  ____/ /  | |  / /____   (_)____/ /
-!   / /| | / __  /   | | / // __ \ / // __  /
-!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
-! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
-!
-!
 ! {@!}
 ! Title: AdVoid.Legacy.Addon.NoExtras
 ! Description: [LEGACY] Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, website reporters, etc.
-! Version: 1.0.13
-! Last modified: 2024-07-07T15:22:28.983+02:00
+! Version: 1.0.14
+! Last modified: 2024-08-16T13:50:22.050+02:00
 ! Expires: 15 days (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 13
@@ -25,15 +18,15 @@
 
 ! {@0} Files (global)
 .webmanifest^
-/amp-script-worker-*.mjs^
-/homesw.js^
+/amp-script-worker-*.mjs^$script
+/homesw.js^$script
 /manifest*.json^
-/pwa.js^
-/service-worker-*.js^
-/service-worker.js^
-/service_worker.js^
-/socket-worker*.js^
-/sw.js^
+/pwa.js^$script
+/service-worker-*.js^$script
+/service-worker.js^$script
+/service_worker.js^$script
+/socket-worker*.js^$script
+/sw.js^$script
 /swj.php^
-/sworker.js^
+/sworker.js^$script
 /webmanifest.php^
