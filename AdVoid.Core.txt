@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2938
-! Last modified: 2024-08-16T13:29:03.032+02:00
+! Version: 3.0.2939
+! Last modified: 2024-08-16T13:29:32.526+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3096,7 +3096,7 @@ _beacon?
 /ads-*.js^$script
 /ads-banner.png^
 /ads-iframe-display.php^
-/ads.*.js^
+/ads.*.js^$script
 /ads.min.css^
 /ads/*.$image
 /ads/bid*.aspx^$subdocument
@@ -3106,7 +3106,7 @@ _beacon?
 /ads_light.*.js^
 /adsbygoogle.js^
 /adsdk.js^
-/adsense.min.css^
+/adsense.min.css^$stylesheet
 /adserver.$~xmlhttprequest,domain=~konograma.com
 /adshow.php^
 /adslot-*.js^$script
@@ -3130,11 +3130,11 @@ _beacon?
 /atrk.js^
 /autotrack.js^$script
 /b/ss/*&aqe=$image,redirect-rule=1x1.gif
-/backbutton-*.js^
+/backbutton-*.js^$script
 /banner.cgi^
 /banner.go^
 /beardeddragon/*.js^
-/blank.gif^
+/blank.gif^$image
 /blogherads.js^
 /boom.gif^$image
 /BranchSdk*.js^
@@ -3232,7 +3232,7 @@ _beacon?
 /hs.go-to.js^
 /htmlPauseRoll/pb_block
 /huyass*.js^
-/i.gif^
+/i.gif^$image
 /ia-sentry.min.js^
 /imp.gif^
 /imp.go^$image
@@ -3262,7 +3262,7 @@ _beacon?
 /ntv.json^
 /optanon-*.js^
 /optanonApiBootstrap.js^
-/optimize.js^
+/optimize.js^$script
 /p.gif^
 /p1x1.jpg^
 /pa-ad.js^
@@ -3324,7 +3324,7 @@ _beacon?
 /sbar.json^
 /script/xxag1.js^
 /seattle/*.js^
-/sentry-js.min.js^
+/sentry-js.min.js^$script
 /sentry.*.js^
 /shopify-boomerang-
 /shopifycloud/shopify/assets/shop_events_listener-$script
@@ -3371,7 +3371,7 @@ _beacon?
 /utag*.js^
 /valnet-header-ads.*.js^
 /valnet-header.$script,stylesheet
-/vast-im.js^
+/vast-im.js^$script
 /vast.js^
 /vast.vpaid.*.js^
 /video.counters.$script
@@ -3392,14 +3392,14 @@ _beacon?
 /web-vitals.$script
 /wp-content/plugins/wp-ad-guru/*
 /wp2leads/*/*.js^$script
-/ws-tracking.js^
+/ws-tracking.js^$script
 /www/delivery/*$script
 /www/delivery/*$subdocument
 /www/delivery/cl.php^
 /www/delivery/spc.php^
 /www/delivery/spcjs.php^
 /x.gif^
-/xads.js^
+/xads.js^$script
 1x1.gif^
 _468x60_
 ad-manager
