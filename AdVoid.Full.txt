@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4130
-! Last modified: 2024-08-16T13:27:08.087+02:00
+! Version: 3.0.4131
+! Last modified: 2024-08-16T13:28:06.736+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7097
@@ -3163,11 +3163,11 @@ _beacon?
 /aas/r45d/vki/*$script,redirect-rule=noop.js
 /AC_ActiveX.js^
 /ad-event-tracker-*.js^
-/ad-plugins/*.js^
+/ad-plugins/*.js^$script
 /ad-provider.js^
 /ad.gif^
-/ad.js^
-/ad.min.js^
+/ad.js^$script
+/ad.min.js^$script
 /ad00.php^
 /ad_image/*$image
 /ad_xv_cams_player_video.mustache^
@@ -3179,16 +3179,16 @@ _beacon?
 /adobe-analytics-$domain=~business.adobe.com
 /adrecover.js^
 /ads-*.css^
-/ads-*.js^
+/ads-*.js^$script
 /ads-banner.png^
 /ads-iframe-display.php^
 /ads.*.js^
 /ads.min.css^
 /ads/*.$image
 /ads/bid*.aspx^$subdocument
-/ads01.js^
-/ads02.js^
-/ads03.js^
+/ads01.js^$script
+/ads02.js^$script
+/ads03.js^$script
 /ads_light.*.js^
 /adsbygoogle.js^
 /adsdk.js^
@@ -3212,7 +3212,7 @@ _beacon?
 /analytics_and_notifications-*.js^
 /analyticscore.js^
 /analyticssecondary.js^
-/applicationinsights-web.min.js^
+/applicationinsights-web.min.js^$script
 /atrk.js^
 /autotrack.js^
 /b/ss/*&aqe=$image,redirect-rule=1x1.gif
@@ -3222,7 +3222,7 @@ _beacon?
 /beardeddragon/*.js^
 /blank.gif^
 /blogherads.js^
-/boom.gif^
+/boom.gif^$image
 /BranchSdk*.js^
 /browserstats.js^
 /bShowTrack.js^
@@ -3270,7 +3270,7 @@ _beacon?
 /e.gif?$image
 /edmontonalberta/*.js^
 /elfsight-popup.js^
-/enblk/envblk.js^
+/enblk/envblk.js^$script
 /entityTagging.min.js^
 /err.gif^
 /ex_rendr3.js^
@@ -3291,7 +3291,7 @@ _beacon?
 /fuckadblock.js^
 /ga-analytics.js^
 /ga.js^
-/gads.js^
+/gads.js^$script
 /gapro.js^$script
 /gen_204^
 /generate_204^$image
@@ -3309,7 +3309,7 @@ _beacon?
 /grin-sdk.js^
 /gtag.js^
 /gtm.*.js^
-/gtm.js^
+/gtm.js^$script
 /gtmpixel.js^
 /hawklinks.js^
 /hit.xiti^
@@ -3342,7 +3342,7 @@ _beacon?
 /nano-ppc-media-tracking*.js^
 /narrativ-pub.*.js^
 /nb/nbbl_*.php^
-/nb/nbfl_*.js^
+/nb/nbfl_*.js^$script
 /noop*.js
 /ntfc.php?p=$script
 /ntv.json^
@@ -3418,12 +3418,12 @@ _beacon?
 /simple-banner/simple-banner.$script,stylesheet
 /siropu/am/core.min.js^$script,important,from=~audi-sport.net|~hifiwigwam.com
 /smartad.$script,domain=~smartad.ai
-/solid.gif^
+/solid.gif^$image
 /sponsor-invent.*.js^
 /sranalytics.js^
 /statistics/statistics_apcu.php^
 /stats.gif?
-/stats.js^
+/stats.js^$script
 /stats.php^
 /stattag.js^
 /strpixel.png?
@@ -3431,7 +3431,7 @@ _beacon?
 /submenu/*/&oaid=$popup,document
 /sw.js?puid=$script
 /swfobject_*.js^
-/t.gif^
+/t.gif^$image
 /tacoma/*.js^
 /tag.js^
 /tag.min.js^
@@ -3443,13 +3443,13 @@ _beacon?
 /tilda-stat-*.js^
 /trace.js^
 /track.gif^
-/track.js^
-/track.min.js^
+/track.js^$script
+/track.min.js^$script
 /tracker.js^
 /tracker.min.js^
 /tracking-opt-in.min.js^
 /tracking.js^
-/tracking.min.js^
+/tracking.min.js^$script
 /transparent-pixel.png^
 /trendmd.min.js^
 /underpop-*.js^
@@ -3461,7 +3461,7 @@ _beacon?
 /vast.js^
 /vast.vpaid.*.js^
 /video.counters.$script
-/video.counters.*.js^
+/video.counters.*.js^$script
 /videojs*.vast.vpaid.min.js^
 /videojs-contrib-ads.js^
 /videojs.ads.min.js^
