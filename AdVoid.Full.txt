@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4141
-! Last modified: 2024-08-16T13:37:59.662+02:00
+! Version: 3.0.4142
+! Last modified: 2024-08-16T13:40:21.443+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7097
@@ -3135,7 +3135,7 @@ _beacon?
 ! {@11} Files (global)
 -adobe-analytics/$script
 -contrib-ads.$~stylesheet
--sticky-ad-
+-sticky-ad-$script,stylesheet,image
 -universal-analytics/
 .ads.css^$stylesheet
 .airlytics.*.js^$script
@@ -3155,13 +3155,13 @@ _beacon?
 /300x250_$image
 /@mozilla/glean/$script
 /_adview_.ad.json^
-/a.gif?
+/a.gif?$image
 /a_cntg.png^$image
 /a_cnti.png^$image
 /a_cntm.png^$image
 /a_cntn.png^$image
 /aas/r45d/vki/*$script,redirect-rule=noop.js
-/AC_ActiveX.js^
+/AC_ActiveX.js^$script
 /ad-event-tracker-*.js^
 /ad-plugins/*.js^$script
 /ad-provider.js^$script
@@ -3189,7 +3189,7 @@ _beacon?
 /ads01.js^$script
 /ads02.js^$script
 /ads03.js^$script
-/ads_light.*.js^
+/ads_light.*.js^$script
 /adsbygoogle.js^$script
 /adsdk.js^$script
 /adsense.min.css^$stylesheet
@@ -3203,8 +3203,8 @@ _beacon?
 /advertisers.js^$script
 /advertising.js^
 /afu.php?zoneid=$popup,document
-/amp-ad-
-/amp-analytics-
+/amp-ad-$script
+/amp-analytics-$script
 /amp-consent*.mjs^$script
 /analytics-client.js^$script
 /analytics.js^$script
@@ -3233,7 +3233,7 @@ _beacon?
 /chartbeat.js^
 /chartbeat.json^
 /cimp.php^
-/clever_ads.js^
+/clever_ads.js^$script
 /click_tracker.php^
 /clickback.js^$script
 /client_204?$image
@@ -3242,7 +3242,7 @@ _beacon?
 /code/native.js?h=$script
 /cohesion-latest.min.js^
 /common-player-arrow/index.html?var=*&zoneid=$document
-/contents/other/player/*
+/contents/other/player/*$script,stylesheet,image
 /counter.js^$script
 /counters.gif^$image
 /critical-tracking-scripts-*.js^$script
@@ -3273,7 +3273,7 @@ _beacon?
 /enblk/envblk.js^$script
 /entityTagging.min.js^$script
 /err.gif^$image
-/ex_rendr3.js^
+/ex_rendr3.js^$script
 /exoNat.css^$stylesheet
 /exort*.js^$script
 /ezoic/*$script
@@ -3313,7 +3313,7 @@ _beacon?
 /gtmpixel.js^$script
 /hawklinks.js^
 /hit.xiti^
-/house-ad/*
+/house-ad/*$script,stylesheet,image
 /house-ads/*$image
 /hs.go-to.js^$script
 /htmlPauseRoll/pb_block
@@ -3381,7 +3381,7 @@ _beacon?
 /preconnect.gif^$image
 /prepop.php^
 /productAdsScroll.js^$script
-/production/ads/*
+/production/ads/*$script,stylesheet,image
 /projectagora.min.js^$script
 /promo.php^
 /promo_float_banner.*.js^
@@ -3393,7 +3393,7 @@ _beacon?
 /push.js^$script
 /pw/wawqiojew*=eyj.js^$script
 /px.gif?$image,redirect-rule=1x1.gif
-/pxl.gif^
+/pxl.gif^$image
 /pxl.png?
 /reactAds.*.js^$script
 /reactMixpanel.*.js^$script
@@ -3401,7 +3401,7 @@ _beacon?
 /reklamexport_global.php^
 /related_1.html?$subdocument,third-party
 /ren.gif^$image
-/rep.js^
+/rep.js^$script
 /report*.js^$script
 /resfgabp.js^$script
 /ruxitagentjs_
@@ -3451,7 +3451,7 @@ _beacon?
 /tracking.js^$script
 /tracking.min.js^$script
 /transparent-pixel.png^$image
-/trendmd.min.js^
+/trendmd.min.js^$script
 /underpop-*.js^$script
 /ut.js?cb=
 /utag*.js^$script
@@ -3476,7 +3476,7 @@ _beacon?
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@$subdocument
 /web-vitals.$script
-/wp-content/plugins/wp-ad-guru/*
+/wp-content/plugins/wp-ad-guru/*$script,stylesheet
 /wp2leads/*/*.js^$script
 /ws-tracking.js^$script
 /www/delivery/*$script
