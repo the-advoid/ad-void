@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2943
-! Last modified: 2024-08-16T13:35:09.863+02:00
+! Version: 3.0.2944
+! Last modified: 2024-08-16T13:36:16.667+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3070,10 +3070,10 @@ _beacon?
 /@mozilla/glean/$script
 /_adview_.ad.json^
 /a.gif?
-/a_cntg.png^
-/a_cnti.png^
-/a_cntm.png^
-/a_cntn.png^
+/a_cntg.png^$image
+/a_cnti.png^$image
+/a_cntm.png^$image
+/a_cntn.png^$image
 /aas/r45d/vki/*$script,redirect-rule=noop.js
 /AC_ActiveX.js^
 /ad-event-tracker-*.js^
@@ -3092,12 +3092,12 @@ _beacon?
 /admvpopunder.swf^
 /adobe-analytics-$domain=~business.adobe.com
 /adrecover.js^
-/ads-*.css^
+/ads-*.css^$stylesheet
 /ads-*.js^$script
 /ads-banner.png^$image
 /ads-iframe-display.php^
 /ads.*.js^$script
-/ads.min.css^
+/ads.min.css^$stylesheet
 /ads/*.$image
 /ads/bid*.aspx^$subdocument
 /ads01.js^$script
@@ -3110,17 +3110,17 @@ _beacon?
 /adserver.$~xmlhttprequest,domain=~konograma.com
 /adshow.php^
 /adslot-*.js^$script
-/adthrive.min.js^
+/adthrive.min.js^$script
 /adunit.js^$script
-/advertise-*.js^
-/advertisement.min.js^
+/advertise-*.js^$script
+/advertisement.min.js^$script
 /advertisers.js^
 /advertising.js^
 /afu.php?zoneid=$popup,document
 /amp-ad-
 /amp-analytics-
 /amp-consent*.mjs^$script
-/analytics-client.js^
+/analytics-client.js^$script
 /analytics.js^$script
 /analytics.min.js^$script
 /analytics_and_notifications-*.js^$script
@@ -3141,7 +3141,7 @@ _beacon?
 /browserstats.js^$script
 /bShowTrack.js^$script
 /bv-analytics.js^
-/carbon.js^
+/carbon.js^$script
 /cdn-cgi/apps/head/*$script,~third-party
 /cdn-cgi/zaraz/*
 /chartbeat.js^
@@ -3159,7 +3159,7 @@ _beacon?
 /contents/other/player/*
 /counter.js^$script
 /counters.gif^$image
-/critical-tracking-scripts-*.js^
+/critical-tracking-scripts-*.js^$script
 /CustomGoogleTagManagerEvents.js^
 /cxense-entitlement.js^
 /dealeron.runtime.js^$script
@@ -3186,10 +3186,10 @@ _beacon?
 /elfsight-popup.js^$script
 /enblk/envblk.js^$script
 /entityTagging.min.js^$script
-/err.gif^
+/err.gif^$image
 /ex_rendr3.js^
 /exoNat.css^$stylesheet
-/exort*.js^
+/exort*.js^$script
 /ezoic/*$script
 /ezoic/*.js^
 /f.php?nd=*&sid=*&rand=*$popup,document
@@ -3214,7 +3214,7 @@ _beacon?
 /google-analytics_analytics.js^
 /google-tag-manager*js^$script
 /google_ab_testing.js^$script
-/google_head.js^
+/google_head.js^$script
 /googleanalytics.json^
 /googlesyndication_adsbygoogle.js^
 /googletagmanager_gtm.js^
@@ -3239,9 +3239,9 @@ _beacon?
 /impr.gif^$image
 /insight.min.js^$script
 /InstallTracking.aspx^
-/istats-*.min.js^
+/istats-*.min.js^$script
 /jquery.adi.js^$script
-/jquery.iframetracker.min.js^
+/jquery.iframetracker.min.js^$script
 /js/static/header/sda/ppsuma*.js^$script
 /kl-identify-browser.js^$script
 /lg.php^
@@ -3250,7 +3250,7 @@ _beacon?
 /matomo.js^$script
 /mendelstats.js^$script
 /metrics.js^
-/micro.tag.min.js^
+/micro.tag.min.js^$script
 /mtc.js^
 /mts-wp-in-post-ads/*
 /nano-ppc-media-tracking*.js^
@@ -3260,8 +3260,8 @@ _beacon?
 /noop*.js$script
 /ntfc.php?p=$script
 /ntv.json^
-/optanon-*.js^
-/optanonApiBootstrap.js^
+/optanon-*.js^$script
+/optanonApiBootstrap.js^$script
 /optimize.js^$script
 /p.gif^$image
 /p1x1.jpg^$image
@@ -3289,19 +3289,19 @@ _beacon?
 /popunder.js^$script
 /porpoiseant/*.js^
 /ppms.js^
-/prebid*.js^
+/prebid*.js^$script
 /prebid/*$script
 /prebid8.$script
 /preconnect.gif^$image
 /prepop.php^
-/productAdsScroll.js^
+/productAdsScroll.js^$script
 /production/ads/*
-/projectagora.min.js^
+/projectagora.min.js^$script
 /promo.php^
 /promo_float_banner.*.js^
 /promotools.
 /ptrn*.$image
-/ptrn2.webp^
+/ptrn2.webp^$image
 /pubads.
 /pum-site-scripts.$script
 /push.js^$script
@@ -3314,7 +3314,7 @@ _beacon?
 /referrer-tracking-*.js^$script
 /reklamexport_global.php^
 /related_1.html?$subdocument,third-party
-/ren.gif^
+/ren.gif^$image
 /rep.js^
 /report*.js^$script
 /resfgabp.js^$script
@@ -3333,18 +3333,18 @@ _beacon?
 /siropu/am/core.min.js^$script,important,from=~audi-sport.net|~hifiwigwam.com
 /smartad.$script,domain=~smartad.ai
 /solid.gif^$image
-/sponsor-invent.*.js^
+/sponsor-invent.*.js^$script
 /sranalytics.js^$script
 /statistics/statistics_apcu.php^
 /stats.gif?
 /stats.js^$script
 /stats.php^
-/stattag.js^
+/stattag.js^$script
 /strpixel.png?
 /strpixel.png^$image
 /submenu/*/&oaid=$popup,document
 /sw.js?puid=$script
-/swfobject_*.js^
+/swfobject_*.js^$script
 /t.gif^$image
 /tacoma/*.js^
 /tag.js^$script
