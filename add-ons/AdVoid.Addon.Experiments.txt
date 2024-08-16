@@ -1,17 +1,10 @@
 [Adblock Plus 2.0]
 !
-!     ___        __   _    __        _      __
-!    /   |  ____/ /  | |  / /____   (_)____/ /
-!   / /| | / __  /   | | / // __ \ / // __  /
-!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
-! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
-!
-!
 ! {@!}
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 2.0.8
-! Last modified: 2024-07-07T15:21:20.126+02:00
+! Version: 2.0.9
+! Last modified: 2024-08-16T13:43:54.668+02:00
 ! Expires: 480 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5
@@ -30,4 +23,4 @@
 ||ka-p.fontawesome.com^
 
 ! {@1} Files (global)
-/videojs.airplay.js^
+/videojs.airplay.js^$script
