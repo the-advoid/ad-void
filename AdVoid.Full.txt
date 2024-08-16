@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4120
-! Last modified: 2024-08-16T13:20:40.015+02:00
+! Version: 3.0.4121
+! Last modified: 2024-08-16T13:20:56.007+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7097
@@ -3676,14 +3676,14 @@ sassy-social-share-public*.
 ||cdn.abysscdn.com/players/playhydraxb.min.js^$script
 ||cloudflare.com/beacon.js^$script
 ||cloudfront.net/prebid_$script,redirect-rule=noop.js
-||cloudfront.net/script.js^
+||cloudfront.net/script.js^$script
 ||cse.google.com/adsense/search/async-ads.js^$script
 ||d3g5ovfngjw9bw.cloudfront.net^$script,redirect=noop.js
 ||dailymotion.com/logger/$image
 ||datasink-sa.fotor.*/sa.gif^
 ||duplichecker.com/*.php$image
 ||eporner.com/dot/
-||fast.fonts.net/jsapi/core/mt.js^
+||fast.fonts.net/jsapi/core/mt.js^$script
 ||filemoon.*/js/baf.js^$script
 ||flixcar.com/*/tracking/
 ||flixcdn.com/a/*/sticky-banner/$image
@@ -3751,7 +3751,7 @@ sassy-social-share-public*.
 ||sxyprn.$subdocument,third-party,domain=~google.com|~googleapis.com|~gstatic.com|~hcaptcha.com|~recaptcha.net
 ||thefreedictionary.com/_/tr.ashx?
 ||thegay.com^$script,domain=thegay.com
-||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js^
+||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js^$script
 ||tnaflix.com/js/mew.js^$script
 ||tubator.com/lookout/
 ||videonow.ru/*/vn_providers_vpaid.js^$script
