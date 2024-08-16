@@ -12,7 +12,7 @@
 ||assets.alicdn.com/*/webpush-ui.js^$script
 ||porndig.com/sw$script
 ||rackcdn.com/stf.js^$script
-||filemoon.*/js/baf.js^
+||filemoon.*/js/baf.js^$script
 ||thegay.com^$script,domain=thegay.com
 ||sammobile.com^*/newrelic.js^$script
 ||jsdelivr.net^*/fp.min.js^$script
