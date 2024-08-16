@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.2945
-! Last modified: 2024-08-16T13:37:24.745+02:00
+! Version: 3.0.2946
+! Last modified: 2024-08-16T13:37:51.561+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5309
@@ -3195,7 +3195,7 @@ _beacon?
 /f.php?nd=*&sid=*&rand=*$popup,document
 /facebook.js^$script
 /fb.js^$script
-/fbevents.js^
+/fbevents.js^$script
 /fingerprint2.min.js^
 /firebase-analytics.js^$script
 /firebase.js^$script
@@ -3280,12 +3280,12 @@ _beacon?
 /plausible.js$domain=~plausible.io
 /player.vast.*.js^$script
 /plugins/ad-invalid-click-protector/*$script
-/plugins/meks-easy-ads-widget/*
+/plugins/meks-easy-ads-widget/*$script,stylesheet
 /plusone.js^$script
 /pmc-cxense.js^
 /pop4.php^
 /popCode-*.js^$script
-/popunder.gif^
+/popunder.gif^$image
 /popunder.js^$script
 /porpoiseant/*.js^$script
 /ppms.js^
@@ -3398,7 +3398,7 @@ _beacon?
 /www/delivery/cl.php^
 /www/delivery/spc.php^
 /www/delivery/spcjs.php^
-/x.gif^
+/x.gif^$image
 /xads.js^$script
 1x1.gif^$image
 _468x60_
