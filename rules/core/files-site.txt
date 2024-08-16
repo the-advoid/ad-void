@@ -60,12 +60,12 @@
 ||d3g5ovfngjw9bw.cloudfront.net^$script,redirect=noop.js
 ||soap2dayx.to/assets/_bnx/$image
 ||redditstatic.com/shreddit/sentry-
-||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js^
+||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js^$script
 ||www.fotor.com/photo-editor-app/assets/img/*adblock*.jpg^$domain=www.fotor.com
-||datasink-sa.fotor.*/sa.gif^
-||aviasales.ru/fp.js^
+||datasink-sa.fotor.*/sa.gif^$image
+||aviasales.ru/fp.js^$script
 ||soap2dayx2.to/assets/_bnx/$image
-||amazonaws.com/jsstore/*/ge.js^
+||amazonaws.com/jsstore/*/ge.js^$script
 ||msecnd.net/scripts/b/ai.
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5
