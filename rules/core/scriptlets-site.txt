@@ -449,3 +449,4 @@ www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="
 bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId)
 bing.com##+js(no-setInterval-if, logQueue, 10000)
 youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
