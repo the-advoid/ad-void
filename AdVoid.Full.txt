@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4168
-! Last modified: 2024-08-22T18:36:33.098+02:00
+! Version: 3.0.4169
+! Last modified: 2024-08-25T00:48:29.881+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7093
+! Entries: 7095
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6320,6 +6320,7 @@ hinative.com##.mod_banner_bestapp_footer
 hinative.com##.mod_banner_register_float_pc
 hindustantimes.com###divshopnowRight
 igdownloader.app###dlModal
+incibeauty.com##.modal
 instagram.com##._aagw:empty
 instagram.com##.HoverCard
 instagram.com##.xoegz02
@@ -7031,6 +7032,7 @@ hqq.to##+js(set-constant, document.oncontextmenu, null)
 hqq.to##+js(set-constant, document.onkeydown, trueFunc)
 igdownloader.app##body:style(overflow: auto !important;)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
+incibeauty.com##body,html:style(overflow: auto !important; position: initial !important;)
 instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
 instagram.com##+js(set-session-storage-item, loggedOutAppSheetIsMinimized, 1)
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
