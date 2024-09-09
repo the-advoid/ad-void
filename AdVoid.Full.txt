@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4188
-! Last modified: 2024-09-07T00:20:19.210+02:00
+! Version: 3.0.4189
+! Last modified: 2024-09-09T18:17:39.562+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7114
+! Entries: 7116
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6289,6 +6289,7 @@ youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
 ytmp3.nu###i
 zultv.com##.container > div.row:nth-of-type(1)
+zultv.com##div.row:nth-of-type(5)
 alfafile.net##[href^="https://play.google.com/store/apps/details"]
 ananas.rs###__next > div:nth-last-child(-n+2)
 apkmody.fun###body-fixed-footer
@@ -6412,6 +6413,7 @@ speedtest.net###modal-overlay
 speedtestcustom.com##.stc-wrapper > div[style]
 speedtestcustom.com##div[style^="position: fixed; bottom"]
 sporcle.com##.sporcle-promo
+super-hobby.rs##.message-footer-panel
 techtarget.com##.sponsored-news
 tenor.com##.LanguageBanner
 thesaurus.com##.crb-sailthtru-subscribe_wrapper
