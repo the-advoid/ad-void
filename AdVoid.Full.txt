@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4196
-! Last modified: 2024-09-27T22:10:47.957+02:00
+! Version: 3.0.4197
+! Last modified: 2024-09-27T22:13:21.657+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7123
@@ -7035,7 +7035,7 @@ fandom.com##body:style(margin-top: 0!important;)
 fandom.com##body:style(overflow: auto !important; margin-top: 0 !important)
 fenomenalfilm.com##body,html:style(overflow: auto !important;)
 filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
-fixthephoto.com##html:style(overflow: visible !important;)s
+fixthephoto.com##html:style(overflow: visible !important;)
 forgeofempires.com##+js(set-cookie, CookieNotification, 1)
 fotor.com###unic-gdpr:upward(2)
 fotor.com##+js(no-setTimeout-if, offsetHeight)
