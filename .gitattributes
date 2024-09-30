@@ -1,6 +1,6 @@
 *		  	 text=auto
 
 docs/**  -linguist-documentation
-*.txt    linguist-detectable linguist-language=AdBlock
-*.adbt   linguist-detectable linguist-language=AdBlock
+*.txt    linguist-detectable linguist-language=AdBlock eol=lf
+*.adbt   linguist-detectable linguist-language=AdBlock eol=lf
 *.adbm   linguist-language=JSON
