@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4212
-! Last modified: 2024-10-13T00:27:54.195+02:00
+! Version: 3.0.4213
+! Last modified: 2024-10-13T00:28:26.001+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7137
@@ -6591,10 +6591,10 @@ boyfriendtv.com##+js(abort-on-property-write, backgroundBanner)
 boyfriendtv.com##+js(addEventListener-defuser, click, interstitial)
 boyfriendtv.com##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 braflix.*##+js(addEventListener-defuser, keydown, 123)
+braflix.*##+js(no-window-open-if)
 braflix.*##+js(set-constant, console.clear, trueFunc)
 braflix.*##+js(set-constant, console.log, trueFunc)
 braflix.*##+js(set-constant, console.table, trueFunc)
-braflix.top##+js(no-window-open-if)
 britannica.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI|ad%6dr%6c%4c%6fa%64%65%64|succeedscene\.com/')
 britannica.com##+js(abort-current-script, document.createElement, admiral)
 britannica.com##body:style(overflow: visible !important;)
