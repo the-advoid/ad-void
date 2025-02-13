@@ -10,3 +10,4 @@
 @@/*.airlytics.*.js^$script,domain=weather.com
 @@||redditstatic.com/*/report*.js^
 @@||redditstatic.com/shreddit/en-US/ads-carousel-$script
+@@||hackerone.com/assets/static/*/report*.js^$script
