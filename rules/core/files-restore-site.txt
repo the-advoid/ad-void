@@ -11,3 +11,4 @@
 @@||redditstatic.com/*/report*.js^
 @@||redditstatic.com/shreddit/en-US/ads-carousel-$script
 @@||hackerone.com/assets/static/report*.js^$script
+@@/ads-carousel-*.js^$script,domain=reddit.com
