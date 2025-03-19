@@ -466,3 +466,4 @@ streamtape.*##+js(abort-current-script, EventTarget.prototype.addEventListener, 
 watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 streamtape.*##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
 watchadsontape.com##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
+wowroms.com##+js(adjust-setInterval, second)
