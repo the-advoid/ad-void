@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1060
-! Last modified: 2025-02-20T18:27:24.505+01:00
+! Version: 2.0.1061
+! Last modified: 2025-03-19T22:58:26.523+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1099
+! Entries: 1094
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -917,14 +917,9 @@ xhamster.com##[class*="bottom-"][class*="tip-"]
 y2meta.app##.extension
 youporn.*##.warning_block
 youporn.com##.right-aside
-youtube.com##.annotation.iv-branding
-youtube.com##.video-annotations
-youtube.com##.ytd-statement-banner-renderer
 youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-ce-playlist
-youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
-youtube.com##ytd-statement-banner-renderer
 
 ! {@10} Restore cosmetic (site)
 apkmody.io#@##body-fixed-footer
