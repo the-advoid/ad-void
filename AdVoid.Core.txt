@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3064
-! Last modified: 2025-03-19T22:57:24.354+01:00
+! Version: 3.0.3065
+! Last modified: 2025-03-19T22:58:03.832+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5346
+! Entries: 5334
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4911,18 +4911,6 @@ youporn.*##.e8-column
 youporn.com##.mgp_pausedState > #pb_template
 youporn.com##div.top_bottom_wrapper + a[href$="#advertise"]
 youporn.com##footer > div:has(.adsbytrafficjunky)
-youtube.com##.yt-mealbar-promo-renderer
-youtube.com##.ytd-action-companion-ad-renderer
-youtube.com##.ytd-ad-slot-renderer
-youtube.com##.ytd-banner-promo-renderer
-youtube.com##.ytd-display-ad-renderer
-youtube.com##.ytd-in-feed-ad-layout-renderer
-youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
-youtube.com##.ytp-ad-progress-list
-youtube.com##.ytp-pause-overlay
-youtube.com##ytd-ad-slot-renderer
-youtube.com##ytd-companion-slot-renderer
-youtube.com##ytd-feed-nudge-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
