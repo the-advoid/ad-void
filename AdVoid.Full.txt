@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4324
-! Last modified: 2025-03-19T23:21:21.757+01:00
+! Version: 3.0.4325
+! Last modified: 2025-03-19T23:21:37.820+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7158
+! Entries: 7159
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6967,6 +6967,7 @@ www.facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads da
 www.google.*###main a[href][data-sb^="/url?"]:remove-attr(data-sb)
 www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link"], rlhc, 1)
 www.google.*##+js(set-constant, rwt, noopFunc)
+www.google.com##div[role="dialog"] span:has-text(/^See results closer to you\?$/):upward(7)
 www.google.com##html:style(overflow: visible !important)
 www.youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots [].playerResponse.no_ads, '', propsToMatch, /\/(player|get_watch)\?/)
