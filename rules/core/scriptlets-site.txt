@@ -460,3 +460,4 @@ www.youtube.com##+js(json-prune-xhr-response, playerAds adPlacements adSlots no_
 www.youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
