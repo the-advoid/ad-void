@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4288
-! Last modified: 2025-03-19T22:31:26.088+01:00
+! Version: 3.0.4289
+! Last modified: 2025-03-19T22:31:41.327+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7161
+! Entries: 7162
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6947,6 +6947,7 @@ watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventList
 watchadsontape.com##+js(abort-on-property-read, Adcash)
 watchadsontape.com##+js(prevent-setInterval, adblock)
 watchadsontape.com##+js(prevent-window-open)
+watchadsontape.com##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
 watchadsontape.com##^script:has-text(/WebAssembly|forceunder/)
 watchseriesx.to##+js(no-window-open-if, _blank)
 watchseriesx.to##+js(set-cookie, __pf, 1)
