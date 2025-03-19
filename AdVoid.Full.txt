@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4275
-! Last modified: 2025-03-19T22:23:03.488+01:00
+! Version: 3.0.4276
+! Last modified: 2025-03-19T22:23:52.230+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7148
+! Entries: 7149
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6858,6 +6858,7 @@ streambucket.net##+js(abort-current-script, EventTarget.prototype.addEventListen
 streamnoads.com##+js(disable-newtab-links)
 streamtape.*##+js(abort-current-script, document.documentElement, break;case $.)
 streamtape.*##+js(abort-current-script, JSON.parse, Promise)
+streamtape.*##+js(abort-on-property-read, Adcash)
 streamtape.*##+js(abort-on-property-write, _pop)
 streamtape.*##+js(addEventListener-defuser, contextmenu)
 streamtape.*##+js(addEventListener-defuser, contextmenu, event.dispatch.apply)
