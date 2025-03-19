@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3038
-! Last modified: 2025-03-19T22:23:47.891+01:00
+! Version: 3.0.3039
+! Last modified: 2025-03-19T22:24:37.667+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5336
+! Entries: 5337
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5252,6 +5252,7 @@ streambucket.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s
 streambucket.net##+js(abort-current-script, EventTarget.prototype.addEventListener, /runPop|aclib|window\.open/)
 streamnoads.com##+js(disable-newtab-links)
 streamtape.*##+js(abort-current-script, document.documentElement, break;case $.)
+streamtape.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 streamtape.*##+js(abort-current-script, JSON.parse, Promise)
 streamtape.*##+js(abort-on-property-read, Adcash)
 streamtape.*##+js(abort-on-property-write, _pop)
