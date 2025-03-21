@@ -51,3 +51,4 @@
 ||facebook.com/ajax/qm/$xmlhttprequest
 ||www.youtube.com/s/player/*/base.js$xmlhttprequest,replace=/if\(e===""\)/if(0)/
 ||youtube.com/youtubei/v1/log_event?$xmlhttprequest
+*$xmlhttprequest,third-party,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
