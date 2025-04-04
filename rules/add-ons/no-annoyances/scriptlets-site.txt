@@ -203,3 +203,4 @@ revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-ri
 myflixerz.*##body:style(overflow: visible!important;)
 weather.com##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
 weather.com##+js(set-constant, navigator.globalPrivacyControl, false)
+myflixerz.*##+js(set-cookie, show_share, false)
