@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3104
-! Last modified: 2025-04-04T17:15:02.231+02:00
+! Version: 3.0.3105
+! Last modified: 2025-04-04T17:15:16.072+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5368
+! Entries: 5369
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5010,6 +5010,7 @@ bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_bGFzdF9iZmFfYXQ=$/, $remove$)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
+bleepingcomputer.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
 bleepingcomputer.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
 bleepingcomputer.com##.post_wrap:has-text(AdBot)
