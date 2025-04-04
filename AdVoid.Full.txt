@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4361
-! Last modified: 2025-04-04T17:48:25.226+02:00
+! Version: 3.0.4362
+! Last modified: 2025-04-04T17:57:45.299+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7192
@@ -2869,7 +2869,7 @@
 ||youtube.cleverads.vn^
 ||assets.klicktipp.com^
 ||cdn.larapush.com^$third-party
-||cdn.privacy-mgmt.com^$third-party
+||cdn.privacy-mgmt.com^$third-party,from=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 ||cmp.setupcmp.com^
 ||consent.radiotimes.com^
 ||consent.trustarc.com^
