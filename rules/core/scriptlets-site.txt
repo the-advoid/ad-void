@@ -466,3 +466,4 @@ www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entrie
 www.google.com##html:style(overflow: visible !important)
 www.google.com##div[role="dialog"] span:has-text(/^See results closer to you\?$/):upward(7)
 bleepingcomputer.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+bleepingcomputer.com##+js(set-local-storage-item, /_fa_bGFzdF9iZmFfYXQ=$/, $remove$)
