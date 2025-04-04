@@ -200,3 +200,4 @@ incibeauty.com##body,html:style(overflow: auto !important; position: initial !im
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 fixthephoto.com##html:style(overflow: visible !important;)
 revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+myflixerz.*##body:style(overflow: visible!important;)
