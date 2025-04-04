@@ -64,3 +64,4 @@ _beacon?
 /embed-1/ajax/e-1/banners|$xmlhttprequest,strict1p
 ! aglint-disable-next-line invalid-modifiers
 ||com/|$xhr,third-party,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
+/graph?operation=getSponsoredAds$xmlhttprequest
