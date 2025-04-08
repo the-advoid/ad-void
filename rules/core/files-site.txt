@@ -108,3 +108,4 @@
 ||vimeocdn.com/ga/$script
 ||bing.com/fd/ls/l?ig=$image
 ||ay.delivery/client-v2.js^$script,third-party,redirect-rule=noop.js
+/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$script,third-party,redirect-rule=noop.js,to=com|net
