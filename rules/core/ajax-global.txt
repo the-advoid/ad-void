@@ -2,7 +2,7 @@
 /ajax/ad/*$xmlhttprequest,popup
 /banners^$xmlhttprequest
 /directory-banner^$xmlhttprequest
-/log^$xmlhttprequest,from=~meet.google.com
+/log^$xmlhttprequest,domain=~meet.google.com
 /VisualFrontendUi/browserinfo^$xmlhttprequest
 /dot.php^$xmlhttprequest
 /ad/www/delivery/*$xmlhttprequest
