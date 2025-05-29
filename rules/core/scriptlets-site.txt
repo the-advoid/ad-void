@@ -473,3 +473,4 @@ bleepingcomputer.com##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjd
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
 myflixerz.*##+js(no-window-open-if)
 onlinesaprevodom.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
+myflixerz.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
