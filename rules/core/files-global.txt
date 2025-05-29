@@ -345,7 +345,7 @@ _468x60_
 /300x250-$image
 /gapro.js^$script
 /www/delivery/*$script
-/siropu/am/core.min.js^$script,important,from=~audi-sport.net|~hifiwigwam.com
+/siropu/am/core.min.js^$script,important,domain=~audi-sport.net|~hifiwigwam.com
 /disable-devtool.min.js^$script
 /mendelstats.js^$script
 -adobe-analytics/$script
