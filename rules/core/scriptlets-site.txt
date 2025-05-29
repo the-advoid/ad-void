@@ -474,3 +474,4 @@ bleepingcomputer.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfY
 myflixerz.*##+js(no-window-open-if)
 onlinesaprevodom.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
 myflixerz.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+y2meta.mobi##+js(no-window-open-if)
