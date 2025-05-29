@@ -7,6 +7,6 @@
 ||ads*-adnow.com^
 ||d-*.cfd^
 ||check-tl-ver-$document
-.org/ad/$from=~ylilauta.org
+.org/ad/$domain=~ylilauta.org
 /api/users?token=$popup
 ://click-v4.*.com/click?$document
