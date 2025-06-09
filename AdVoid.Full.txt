@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4469
-! Last modified: 2025-06-09T20:38:06.170+02:00
+! Version: 3.0.4470
+! Last modified: 2025-06-09T20:41:57.775+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7251
+! Entries: 7252
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6266,6 +6266,7 @@ mydramalist.com##.ad-removal-info:has-text(ads):upward([class])
 mydramalist.com##.content-side > [class*="right"]
 mydramalist.com##.spnsr-row
 mydramalist.com##.sticky
+mydramalist.com##div.htlad-header_top:upward(div[class])
 myvidster.com##.container3 > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:not(:nth-child(1)):not(:nth-child(5))
 nanoreview.net###nfloat-sb-right
 nintendolife.com##.for-desktop
