@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4508
-! Last modified: 2025-06-26T00:54:01.775+02:00
+! Version: 3.0.4509
+! Last modified: 2025-06-26T00:54:25.014+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7283
+! Entries: 7284
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7008,6 +7008,7 @@ tnaflix.com##+js(addEventListener-defuser, getexoloader)
 trakt.tv##+js(set-constant, artemisDisplays, [])
 trakt.tv##+js(set-constant, artemisItemNames, [])
 trakt.tv##+js(set-constant, hucksterInit, trueFunc)
+twitch.tv##+js(set-constant, navigator.globalPrivacyControl, false)
 twitch.tv##+js(twitch-videoad)
 twitter.com##+js(json-prune-xhr-response, data.home.home_timeline_urt.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/Home)
 twitter.com##+js(json-prune-xhr-response, data.search_by_raw_query.search_timeline.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/SearchTimeline)
