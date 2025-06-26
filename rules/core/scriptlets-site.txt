@@ -476,3 +476,4 @@ onlinesaprevodom.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popun
 myflixerz.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 y2meta.mobi##+js(no-window-open-if)
 myflixerz.*##+js(abort-on-property-write, zfgproxyhttp)
+twitch.tv##+js(twitch-videoad)
