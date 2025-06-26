@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1081
-! Last modified: 2025-06-26T00:27:21.348+02:00
+! Version: 2.0.1082
+! Last modified: 2025-06-26T00:27:46.868+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1109
@@ -1055,9 +1055,9 @@ mixdrop.*##+js(nano-setTimeout-booster, Please wait, *, 0.02)
 modyolo.com##+js(adjust-setTimeout, #download-loading, *, 0.02)
 mp4upload.com##+js(adjust-setTimeout, tick, *, 0.001)
 my-subs.net##+js(adjust-setInterval, , , 0.02)
+myflixerz.*##+js(prevent-setInterval, _0x)
 myflixerz.*##+js(set-cookie, show_share, false)
 myflixerz.*##body:style(overflow: visible!important;)
-myflixerz.to##+js(prevent-setInterval, _0x)
 neowin.net##+js(abort-on-property-read, _sp_.mms.startMsg)
 nintendolife.com##+js(trusted-click-element, #onetrust-accept-btn-handler)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
