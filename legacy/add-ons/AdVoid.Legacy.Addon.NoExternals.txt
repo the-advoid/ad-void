@@ -1,20 +1,13 @@
 [Adblock Plus 2.0]
 !
-!     ___        __   _    __        _      __
-!    /   |  ____/ /  | |  / /____   (_)____/ /
-!   / /| | / __  /   | | / // __ \ / // __  /
-!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
-! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
-!
-!
 ! {@!}
 ! Title: AdVoid.Legacy.Addon.NoExternals
 ! Description: [LEGACY] Blocks comments.
-! Version: 1.0.21
-! Last modified: 2024-07-07T15:21:47.783+02:00
+! Version: 1.0.22
+! Last modified: 2025-06-26T00:35:53.845+02:00
 ! Expires: 15 days (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 20
+! Entries: 22
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -29,7 +22,7 @@
 
 ! {@1} Subdomains (global)
 ||comment.scoopwhoop.com^
-||connect.facebook.net^
+||connect.facebook.net^$third-party,from=~facebook.com|~fb.com
 
 ! {@2} Files (site)
 ||facebook.com/*/plugins/$domain=~facebook.com
@@ -41,7 +34,9 @@
 ! {@4} Cosmetic (global)
 ###commentlist-container
 ###disqus_thread
+###facebook-icon
 ###swCommentDiv
+###twitter-icon
 ###vuukle-comments
 ##.article__comments
 ##.comment-box
