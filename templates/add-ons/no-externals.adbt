@@ -56,4 +56,9 @@ include './rules/add-ons/no-externals/restore-cosmetic-site.txt' sort
 
 nl
 
+tag 'Scriptlets (site)'
+include './rules/add-ons/no-externals/scriptlets-site.txt' sort
+
+nl
+
 export './add-ons/AdVoid.Addon.NoExternals.txt'
