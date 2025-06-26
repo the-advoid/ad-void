@@ -34,4 +34,9 @@ nl
 tag 'Cosmetic (global)'
 include './rules/legacy/add-ons/no-externals/cosmetic-global.txt' sort
 
+tag 'Scriptlets (site)'
+include './rules/add-ons/no-externals/scriptlets-site.txt' sort
+
+nl
+
 export './legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt'
