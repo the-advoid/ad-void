@@ -140,6 +140,7 @@ nl
 tag 'Scriptlets (site)'
 include './rules/core/scriptlets-site.txt' sort
 include './rules/add-ons/no-annoyances/scriptlets-site.txt' sort
+include './rules/add-ons/no-externals/scriptlets-site.txt' sort
 
 nl
 
