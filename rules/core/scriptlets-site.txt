@@ -477,3 +477,4 @@ myflixerz.*##+js(abort-current-script, EventTarget.prototype.addEventListener, d
 y2meta.mobi##+js(no-window-open-if)
 myflixerz.*##+js(abort-on-property-write, zfgproxyhttp)
 twitch.tv##+js(twitch-videoad)
+twitch.tv##+js(set-constant, navigator.globalPrivacyControl, false)
