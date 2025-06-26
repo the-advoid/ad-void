@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4481
-! Last modified: 2025-06-26T00:27:24.315+02:00
+! Version: 3.0.4482
+! Last modified: 2025-06-26T00:27:49.810+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7262
@@ -7226,9 +7226,9 @@ mixdrop.*##+js(nano-setTimeout-booster, Please wait, *, 0.02)
 modyolo.com##+js(adjust-setTimeout, #download-loading, *, 0.02)
 mp4upload.com##+js(adjust-setTimeout, tick, *, 0.001)
 my-subs.net##+js(adjust-setInterval, , , 0.02)
+myflixerz.*##+js(prevent-setInterval, _0x)
 myflixerz.*##+js(set-cookie, show_share, false)
 myflixerz.*##body:style(overflow: visible!important;)
-myflixerz.to##+js(prevent-setInterval, _0x)
 neowin.net##+js(abort-on-property-read, _sp_.mms.startMsg)
 nintendolife.com##+js(trusted-click-element, #onetrust-accept-btn-handler)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
