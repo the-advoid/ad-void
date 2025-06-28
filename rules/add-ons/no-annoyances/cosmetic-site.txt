@@ -176,3 +176,4 @@ iq.com##.download
 iq.com##.multiport-show
 iq.com##.popup-container
 iq.com##.right-header > div.qrcode-wrap
+iq.com##div[class^="sc-"]:has(> div.popup-container > p.cookie-desc)
