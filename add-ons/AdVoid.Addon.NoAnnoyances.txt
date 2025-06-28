@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1096
-! Last modified: 2025-06-28T00:14:49.536+02:00
+! Version: 2.0.1097
+! Last modified: 2025-06-28T00:15:39.020+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1123
+! Entries: 1124
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1014,6 +1014,7 @@ geeksforgeeks.org##+js(abort-current-script, showAdblockerModal)
 geeksforgeeks.org##+js(no-setTimeout-if, .login-modal-btn:eq(0))
 geeksforgeeks.org##+js(no-setTimeout-if, onscroll, 5500)
 geeksforgeeks.org##body[class]:style(overflow: visible !important; height: unset !important;)
+github.com##+js(trusted-set-cookie, GHCC, Required:1-Analytics:0-SocialMedia:0-Advertising:0, '', '', domain, github.com)
 goodreads.com##+js(remove-class, Header__siteHeaderBanner, header.Header__siteHeaderBanner)
 google.*##+js(trusted-set-cookie, SOCS, CAISNQgQEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjQwNTE0LjA2X3AwGgJmaSADGgYIgOu0sgY, 1year)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
