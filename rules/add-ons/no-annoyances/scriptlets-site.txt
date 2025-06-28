@@ -220,3 +220,4 @@ github.com##+js(trusted-set-cookie, GHCC, Required:1-Analytics:0-SocialMedia:0-A
 mydramalist.com##+js(remove-class, smartbanner-active, body)
 vk.com##+js(abort-on-property-read, Groups.showDisclaimer)
 iq.com##body:style(overflow: auto !important;)
+mixdrop.*##+js(adjust-setTimeout, Please wait, *, 0.001)
