@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4539
-! Last modified: 2025-06-28T00:22:33.872+02:00
+! Version: 3.0.4540
+! Last modified: 2025-06-28T00:22:51.794+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7314
+! Entries: 7315
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6295,6 +6295,7 @@ mydramalist.com##.ad-removal-info
 mydramalist.com##.ad-removal-info
 mydramalist.com##.ad-removal-info:has-text(ads):upward([class])
 mydramalist.com##.ad-removal-info:has-text(ads):upward([class])
+mydramalist.com##.app-body > div[class] > div[class*="is-"]:has(> .htlad-header_top:only-child)
 mydramalist.com##.content-side > [class*="right"]
 mydramalist.com##.content-side > div[class*="_right"][style="min-height: 250px;"]
 mydramalist.com##.spnsr-row
