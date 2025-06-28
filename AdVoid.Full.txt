@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4631
-! Last modified: 2025-06-28T02:31:23.109+02:00
+! Version: 3.0.4632
+! Last modified: 2025-06-28T02:31:37.561+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7371
+! Entries: 7372
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6935,6 +6935,7 @@ mixdrop.*##+js(addEventListener-defuser, click, dtnoppu)
 mixdrop.*##+js(adjust-setTimeout, disabled)
 mixdrop.*##+js(no-window-open-if)
 mixdrop.*##+js(set-constant, MDCore.adblock, 0)
+mixdrop.*##+js(set-constant, MDinjectP3, undefined)
 mixdrop.*##^script:has-text(adserverDomain)
 mixdrop.*##^script:has-text(adserverDomain)
 mixdrop.*##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
