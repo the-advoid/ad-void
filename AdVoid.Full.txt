@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4584
-! Last modified: 2025-06-28T01:04:11.250+02:00
+! Version: 3.0.4585
+! Last modified: 2025-06-28T01:04:28.353+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7357
+! Entries: 7358
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7393,6 +7393,7 @@ verywellmind.com##html,body:style(overflow: auto !important; position: initial !
 videosection.com##.player-content .player:style(width: 100% !important;)
 virustotal.com##+js(set-cookie, euConsent, 1)
 virustotal.com##+js(set-cookie, tosChangedAccepted, 1)
+vk.com##+js(abort-on-property-read, Groups.showDisclaimer)
 vk.com##+js(set-constant, window.PageBottomBanners.initUnauthBanner, noopFunc)
 vk.com##+js(set-constant, window.Unauthorized2, undefined)
 weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
