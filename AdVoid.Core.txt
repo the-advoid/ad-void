@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3319
-! Last modified: 2025-06-28T01:39:32.097+02:00
+! Version: 3.0.3320
+! Last modified: 2025-06-28T01:39:48.969+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5506
+! Entries: 5507
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5112,6 +5112,7 @@ apkmody.io##+js(abort-current-script, parseInt, break;case $.)
 apkmody.io##+js(addEventListener-defuser, , break;case $.)
 archivebate.com##+js(abort-current-script, decodeURI, decodeURIComponent)
 archivebate.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+archivebate.com##+js(abort-current-script, WebAssembly, atob)
 archivebate.com##+js(addEventListener-defuser, click, popMagic)
 archivebate.com##+js(prevent-fetch, googlesyndication)
 archivebate.com##+js(prevent-fetch, pagead2.googlesyndication.com)
