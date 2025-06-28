@@ -278,3 +278,4 @@ twitch.tv##.stream-display-ad__wrapper
 dev.to##.js-billboard-container
 mydramalist.com###footer-stky
 mydramalist.com##.ad-removal-info
+mydramalist.com##.ad-removal-info:has-text(ads):upward([class])
