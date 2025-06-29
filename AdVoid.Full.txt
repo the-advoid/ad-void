@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4653
-! Last modified: 2025-06-29T20:22:49.206+02:00
+! Version: 3.0.4654
+! Last modified: 2025-06-29T20:25:26.185+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7393
+! Entries: 7394
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7370,6 +7370,7 @@ olympics.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
 olympics.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1, , , domain, olympics.com)
 opusteno.rs##body,html:style(overflow: auto !important; position: initial !important;)
 oriflame.com##+js(remove-class, hidden, .content-overlay + div.w-estimated-total)
+overdrive.com##+js(set-cookie, od_track, 0, '', reload, 1)
 patient.info##body:style(overflow: visible!important;)
 pdfdrive.com##body:style(overflow: visible !important; padding-right: 0 !important;)
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
