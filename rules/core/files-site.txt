@@ -121,3 +121,4 @@
 ||rover.ebay.com^$image
 ||ebaystatic.com/rs/c/scandal/$script
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
+||ebaystatic.com^*tracking/configuration.js^$script
