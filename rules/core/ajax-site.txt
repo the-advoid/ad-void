@@ -55,3 +55,4 @@
 ! aglint-disable-next-line invalid-modifiers
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
 ||notion.so/api/*/etclient|$method=post
+||www.ebay.*/gh/dfpsvc?$xmlhttprequest
