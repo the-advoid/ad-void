@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4685
-! Last modified: 2025-06-29T21:13:25.973+02:00
+! Version: 3.0.4686
+! Last modified: 2025-06-29T21:14:08.162+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7423
@@ -3041,7 +3041,6 @@ telemetry.officeapps.live.com^
 /toiads_new/*
 /track^
 /wp-stats-manager/*
-/yandex-metrica-watch/*
 /youtubei/*/att/*
 ://collector.*/event
 ads-manager/ads/*/track-view
@@ -3605,6 +3604,7 @@ _beacon?
 /www/delivery/spcjs.php^
 /x.gif^$image
 /xads.js^$script
+/yandex-metrica-watch/$script
 1x1.gif^$image
 _468x60_
 ad-manager
