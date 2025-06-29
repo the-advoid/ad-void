@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4678
-! Last modified: 2025-06-29T21:03:14.941+02:00
+! Version: 3.0.4679
+! Last modified: 2025-06-29T21:03:54.262+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7416
+! Entries: 7417
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3780,6 +3780,7 @@ sassy-social-share-public*.$script,stylesheet
 *$script,redirect-rule=noop.js,from=next-episode.net
 *$script,third-party,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,domain=readcomiconline.*
 *$script,third-party,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
+/js/analytics/fduserfingerprinttoken.js^$script,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /mm.js^$script,domain=1337x.*|x1337x.*
 ://creative.*/widgets/spot/lib.js^$third-party
 ||9xbuddy.$script,third-party,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
