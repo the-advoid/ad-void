@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 2.0.9
-! Last modified: 2024-08-16T13:43:54.668+02:00
+! Version: 2.0.10
+! Last modified: 2025-06-29T20:20:31.939+02:00
 ! Expires: 480 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5
+! Entries: 6
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -21,6 +21,7 @@
 ||scone-pa.googleapis.com^
 ||ka-f.fontawesome.com^
 ||ka-p.fontawesome.com^
+||ogads-pa.clients*.google.com^
 
 ! {@1} Files (global)
 /videojs.airplay.js^$script
