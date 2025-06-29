@@ -116,6 +116,11 @@ include './rules/core/query.txt' sort
 
 nl
 
+tag 'Params (global)'
+include './rules/core/params-global.txt' sort
+
+nl
+
 tag 'Cosmetic (global)'
 include './rules/core/cosmetic-global.txt' sort
 include './rules/add-ons/no-annoyances/cosmetic-global.txt' sort
