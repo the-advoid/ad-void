@@ -507,3 +507,4 @@ www.google.*##+js(remove-attr, jsaction, #islsp c-wiz a[href^="http"][data-ved][
 www.google.*##+js(remove-attr, ping, div[id="search"] a[data-ved][ping])
 google.*##+js(remove-attr, data-jsarwt, #rcnt [data-ved] a)
 google.*###main a[href][data-sb^="/url?"]:remove-attr(data-sb)
+turbobit.net##+js(abort-on-property-read, asgPopScript)
