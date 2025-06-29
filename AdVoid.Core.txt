@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3359
-! Last modified: 2025-06-29T20:36:18.172+02:00
+! Version: 3.0.3360
+! Last modified: 2025-06-29T20:37:35.390+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5546
+! Entries: 5547
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2411,6 +2411,7 @@
 ||37.1.213.100^
 ||5.255.255.77^
 ||54.229.239.44^
+||com/$document,ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 
 ! {@5} Subdomains (global)
 //matomo.$domain=~matomo.org
