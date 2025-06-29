@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3331
-! Last modified: 2025-06-28T02:32:30.299+02:00
+! Version: 3.0.3332
+! Last modified: 2025-06-29T19:51:33.045+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5518
+! Entries: 5519
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5530,6 +5530,7 @@ www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.res
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.[-].__bbox.result.data.node.sponsored_data.ad_id)
 www.facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, , propsToMatch, /api/graphql)
 www.google.*###main a[href][data-sb^="/url?"]:remove-attr(data-sb)
+www.google.*##+js(remove-attr, jsaction, #islsp c-wiz a[href^="http"][data-ved][target], stay)
 www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link"], rlhc, 1)
 www.google.*##+js(set-constant, rwt, noopFunc)
 www.google.com##div[role="dialog"] span:has-text(/^See results closer to you\?$/):upward(7)
