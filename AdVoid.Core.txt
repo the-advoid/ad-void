@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3367
-! Last modified: 2025-06-29T21:04:26.457+02:00
+! Version: 3.0.3368
+! Last modified: 2025-06-29T21:04:49.959+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5552
+! Entries: 5553
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5492,6 +5492,7 @@ tnaflix.com##+js(addEventListener-defuser, getexoloader)
 trakt.tv##+js(set-constant, artemisDisplays, [])
 trakt.tv##+js(set-constant, artemisItemNames, [])
 trakt.tv##+js(set-constant, hucksterInit, trueFunc)
+turbobit.net##+js(abort-on-property-read, asgPopScript)
 twitch.tv##+js(prevent-window-open, amazon-adsystem)
 twitch.tv##+js(set-constant, navigator.globalPrivacyControl, false)
 twitch.tv##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
