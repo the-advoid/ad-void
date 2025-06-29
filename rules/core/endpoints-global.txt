@@ -22,7 +22,7 @@ ads-manager/ads/*/track-view
 /ajax/poll/tracker/counter^
 /exchange-widget^
 /stats/rotator^
-/js/analytics/*
+/js/analytics/*$domain=~turbobit.net|torbobit.net
 /wp-stats-manager/*
 /_adsense_/*
 /_adserver/*
