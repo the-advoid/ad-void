@@ -513,3 +513,4 @@ dailyuploads.net##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|b
 dailyuploads.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 dailyuploads.net##+js(prevent-window-open)
 dailyuploads.net##+js(abort-current-script, $, window.open)
+cam4.com##+js(prevent-window-open)
