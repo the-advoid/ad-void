@@ -273,7 +273,6 @@ mydramalist.com##.ad-removal-info
 mydramalist.com##.ad-removal-info:has-text(ads):upward([class])
 mydramalist.com##.spnsr-row
 mydramalist.com##div.htlad-header_top:upward(div[class])
-speedtest.net##.top-placeholder
 twitch.tv##.stream-display-ad__wrapper
 mydramalist.com###footer-stky
 mydramalist.com##.app-body > div[class] > div[class*="is-"]:has(> .htlad-header_top:only-child)
