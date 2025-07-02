@@ -543,7 +543,6 @@
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ##div[data-google-query-id]
-##[id^="google_ads_iframe"]:not(.rb-adbanner)
 ##[name^="google_ads_iframe"]
 ##mv-ad-reporter
 ##.adunitwrapper
@@ -959,7 +958,7 @@
 ##[data-component="ad-slot"]
 ##[class*="is-desktop-ads-"]
 ##.ad_728
-##[id*="google_ads"]
+##[id*="google_ads"]:not(.rb-adbanner)
 ##[id^="aswift"]
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ##.standard-article-vertical-ad
