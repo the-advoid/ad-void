@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4738
-! Last modified: 2025-07-02T01:40:17.637+02:00
+! Version: 3.0.4739
+! Last modified: 2025-07-02T02:12:31.582+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7457
@@ -3989,6 +3989,7 @@ sassy-social-share-public*.$script,stylesheet
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,third-party
 /^https:\/\/[a-z]+\.com\/away\.php\?url=[%0-9A-z]{100,}$/$document
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,third-party,match-case
+/^https:\/\/[a-z]{8,12}\.com(?:\/[a-z]{2,10}){1,3}$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-z]+-[0-9a-z]+"$/,to=com
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov
 /^https:\/\/www\.[a-z]{8,16}\.com\/(?:[A-Za-z]+\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\.js$/$script,third-party,match-case,header=popads-node,to=com
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$script,third-party,redirect-rule=noop.js,match-case
@@ -4013,7 +4014,6 @@ sassy-social-share-public*.$script,stylesheet
 /mp3yad.net\/.{7}\.php/
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
-r/^https:\/\/[a-z]{8,12}\.com(?:\/[a-z]{2,10}){1,3}$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-z]+-[0-9a-z]+"$/,to=com
 
 ! {@16} Queries (global)
 &ab=6$popup
