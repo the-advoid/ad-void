@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4692
-! Last modified: 2025-07-02T00:51:54.101+02:00
+! Version: 3.0.4693
+! Last modified: 2025-07-02T00:52:18.682+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7429
+! Entries: 7430
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7440,6 +7440,7 @@ temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
 temu.com##+js(set-local-storage-item, last_prompt_time, 1)
 temu.com##body:style(overflow: auto !important; position: initial !important;)
 tenforums.com##body:style(overflow: auto !important;)
+theguardian.com##+js(remove-class, sp-message-open, html.sp-message-open)
 theguardian.com##+js(set-local-storage-item, gu.history.dailyArticleCount, $remove$)
 theguardian.com##+js(set-local-storage-item, gu.history.weeklyArticleCount, $remove$)
 thewindowsclub.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
