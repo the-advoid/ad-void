@@ -126,3 +126,4 @@
 /js/analytics/fduserfingerprinttoken.js^$script,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 ||turbobit.net/pus/$script
 ||gyazo.com^$image,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turboobit.com
+||acscdn.com/script/aclib.js^$script,redirect-rule=noop.js
