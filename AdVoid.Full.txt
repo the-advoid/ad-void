@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4715
-! Last modified: 2025-07-02T01:06:40.404+02:00
+! Version: 3.0.4716
+! Last modified: 2025-07-02T01:09:16.460+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7436
+! Entries: 7437
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3699,6 +3699,7 @@ trekkie*.js^$script
 /wcp-consent.js^$script
 /web-push-$script,stylesheet,image
 /wp-content/plugins/cookie-law-info/*
+/wp-content/plugins/gdpr-cookie-compliance/*$script
 /wp-content/plugins/q2w3-fixed-widget/*
 /wrappermessagingwithoutdetection.js^$script,domain=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 /zdconsent.js^$script
