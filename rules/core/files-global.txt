@@ -356,5 +356,4 @@ _468x60_
 /koko-analytics/*$script
 /\/js\/script_\d{2}\.\d{2}\.js\?\d+$/$script,1p,strict1p
 /firebase-performance-standalone.js^$script
-/ad.min.js^$script
 /yandex-metrica-watch/$script
