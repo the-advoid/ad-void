@@ -514,3 +514,4 @@ dailyuploads.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s
 dailyuploads.net##+js(prevent-window-open)
 dailyuploads.net##+js(abort-current-script, $, window.open)
 cam4.com##+js(prevent-window-open)
+imgur.com##+js(remove-attr, style, .GalleryPage-bg)
