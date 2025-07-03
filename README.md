@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid logo">
+  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid logo" width="128" height="128">
 <h1>AdVoid</h1>
 </div>
 
