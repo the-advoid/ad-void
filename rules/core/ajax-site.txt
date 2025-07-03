@@ -51,7 +51,7 @@
 ||facebook.com/ajax/qm/$xmlhttprequest
 ||www.youtube.com/s/player/*/base.js$xmlhttprequest,replace=/if\(e===""\)/if(0)/
 *$xmlhttprequest,third-party,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
-://plausible.*/api/event|$xmlhttprequest,third-party
+://plausible.*/api/event$xmlhttprequest,third-party
 ! aglint-disable-next-line invalid-modifiers
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
 ||notion.so/api/*/etclient|$method=post
