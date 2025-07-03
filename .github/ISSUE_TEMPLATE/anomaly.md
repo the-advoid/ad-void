@@ -9,7 +9,7 @@ assignees: igorskyflyer
 <!--
   State your issue below,
   the affected URL(s),
-  and, if necessary, the state, action, or triggers that cause it—like a menu/button click, etc.
+  and, if applicable, the state, action, or triggers that cause it—like a menu/button click, etc.
 -->
 
 **Issue**:   
