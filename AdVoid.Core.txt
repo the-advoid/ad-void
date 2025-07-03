@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3415
-! Last modified: 2025-07-03T00:53:11.936+02:00
+! Version: 3.0.3416
+! Last modified: 2025-07-03T00:55:43.669+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5577
@@ -3112,7 +3112,6 @@ _beacon?
 *$xmlhttprequest,third-party,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xmlhttprequest,third-party,method=head,header=x-trace2-id,to=com
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,third-party,domain=~amazon.com
-://plausible.*/api/event$xmlhttprequest,third-party
 ||adem.my.id^$xmlhttprequest
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
 ||api.github.com/_private/browser/errors^$xmlhttprequest
@@ -3146,6 +3145,7 @@ _beacon?
 ||officeapps.live.com/x/_layouts/RemoteTelemetry.ashx^$xmlhttprequest
 ||ophan.theguardian.com^$xmlhttprequest
 ||pingback.issuu.com^$xmlhttprequest
+||plausible.*/api/event$xmlhttprequest,third-party
 ||rebuyengine.com/api/*/analytics/event/$xmlhttprequest
 ||smy.iheart.com^$xmlhttprequest
 ||splunkcloud.com/services/collector/$xmlhttprequest
