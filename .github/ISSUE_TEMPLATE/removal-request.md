@@ -4,7 +4,6 @@ about: Request a removal of a certain rule.
 title: "❌ [Removal]: "
 labels: pending-approval, removal-request
 assignees: igorskyflyer
-
 ---
 
 <!--
