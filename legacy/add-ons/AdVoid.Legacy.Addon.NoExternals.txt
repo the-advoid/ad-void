@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Legacy.Addon.NoExternals
 ! Description: [LEGACY] Blocks comments.
-! Version: 1.0.22
-! Last modified: 2025-06-26T00:35:53.845+02:00
+! Version: 1.0.23
+! Last modified: 2025-07-03T12:11:45.273+02:00
 ! Expires: 15 days (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 22
+! Entries: 21
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -22,7 +22,6 @@
 
 ! {@1} Subdomains (global)
 ||comment.scoopwhoop.com^
-||connect.facebook.net^$third-party,from=~facebook.com|~fb.com
 
 ! {@2} Files (site)
 ||facebook.com/*/plugins/$domain=~facebook.com
