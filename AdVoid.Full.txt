@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4756
-! Last modified: 2025-07-03T15:05:16.140+02:00
+! Version: 3.0.4757
+! Last modified: 2025-07-03T15:05:35.594+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7469
+! Entries: 7470
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6969,6 +6969,7 @@ imasdk.googleapis.com##+js(xml-prune, VAST, , adnxs)
 imasdk.googleapis.com##+js(xml-prune, VAST, , barstoolsports.com)
 imgur.com##+js(adjust-setTimeout, /function\(\)\{try\{|adBegan/, 5000, 0.02)
 imgur.com##+js(remove-attr, style, .GalleryPage-bg)
+imgur.com##+js(set-constant, ADBLOCKED, false)
 imgur.com##+js(set-constant, Object.prototype.adsEnabled, false)
 imgur.com##+js(set-constant, Object.prototype.has_opted_out_tracking, trueFunc)
 itv.com##+js(json-prune, Playlist.ContentBreaks)
