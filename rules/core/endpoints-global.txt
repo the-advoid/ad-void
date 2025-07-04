@@ -67,3 +67,4 @@ ads-manager/ads/*/track-view
 /redirect?feed=*pubid=
 /.well-known/shopify/monorail
 ://collector.*/event
+/batch/1/oe/*
