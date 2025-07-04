@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4781
-! Last modified: 2025-07-04T23:46:41.650+02:00
+! Version: 3.0.4782
+! Last modified: 2025-07-04T23:46:56.509+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7494
+! Entries: 7495
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7243,6 +7243,7 @@ voe.sx##+js(addEventListener-defuser, /keydown|keyup/, keyCode)
 voe.sx##+js(addEventListener-defuser, contextmenu)
 voe.sx##+js(set-constant, console.clear, undefined)
 watch.plex.tv##+js(prevent-fetch, /doubleclick\.com/ method:HEAD, '', opaque)
+watch.plex.tv##+js(prevent-fetch, doubleclick.com, '', opaque)
 watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 watchadsontape.com##+js(abort-on-property-read, Adcash)
 watchadsontape.com##+js(prevent-setInterval, adblock)
