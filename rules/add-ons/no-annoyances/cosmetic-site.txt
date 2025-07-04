@@ -183,3 +183,4 @@ theguardian.com##[name="StickyBottomBanner"]
 faphouse.com##.manage-cookie-sticky-banner
 opensubtitles.org###watch_online
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
+opensubtitles.org##a[onclick*="installSearchEngine"]
