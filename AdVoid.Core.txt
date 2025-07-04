@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3443
-! Last modified: 2025-07-04T23:46:36.279+02:00
+! Version: 3.0.3444
+! Last modified: 2025-07-04T23:46:51.088+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5603
+! Entries: 5604
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5591,6 +5591,7 @@ voe.sx##+js(addEventListener-defuser, /keydown|keyup/, keyCode)
 voe.sx##+js(addEventListener-defuser, contextmenu)
 voe.sx##+js(set-constant, console.clear, undefined)
 watch.plex.tv##+js(prevent-fetch, /doubleclick\.com/ method:HEAD, '', opaque)
+watch.plex.tv##+js(prevent-fetch, doubleclick.com, '', opaque)
 watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 watchadsontape.com##+js(abort-on-property-read, Adcash)
 watchadsontape.com##+js(prevent-setInterval, adblock)
