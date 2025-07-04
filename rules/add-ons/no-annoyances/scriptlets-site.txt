@@ -228,3 +228,4 @@ theguardian.com##+js(set-local-storage-item, gu.history.weeklyArticleCount, $rem
 theguardian.com##+js(remove-class, sp-message-open, html.sp-message-open)
 wowroms.com##body:style(overflow: auto !important;)
 romspedia.com##+js(adjust-setInterval, timeLeft, *, 0.02)
+opensubtitles.org##+js(set-constant, displayed, false)
