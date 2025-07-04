@@ -67,3 +67,4 @@ _beacon?
 /graph?operation=getSponsoredAds$xmlhttprequest
 /v2/pv-data?$xmlhttprequest
 /ads1.$~xhr,from=~ads-i.org
+/usage/clickstream?$xhr
