@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4765
-! Last modified: 2025-07-04T22:07:05.439+02:00
+! Version: 3.0.4766
+! Last modified: 2025-07-04T22:07:21.103+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7478
+! Entries: 7479
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7050,6 +7050,7 @@ onlinesaprevodom.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popun
 onlinevideoconverter.*##+js(abort-current-script, JSON.parse, break;case $.)
 onlinevideoconverter.*##+js(no-window-open-if)
 onlymp3.to##+js(no-window-open-if)
+opensubtitles.org##+js(json-prune, *, pop_type)
 opensubtitles.org##+js(json-prune, *, rot_url)
 opensubtitles.org##+js(set-constant, hide_ads3, 1)
 paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallback=http"], ?fallback)
