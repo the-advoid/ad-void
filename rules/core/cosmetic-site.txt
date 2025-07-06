@@ -293,3 +293,4 @@ speedtest.net##.eot-box-wrapper > div.pure-g
 quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has-text(Advertisement)
 gsmarena.com###review-body > div[style*="padding-bottom:"][style*="min-height:"]:has(> pgs-ad)
 gsmarena.com###subHeader3
+gsmarena.com###wrapper > div#outer > div#subHeader
