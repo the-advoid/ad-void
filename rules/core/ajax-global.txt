@@ -69,3 +69,4 @@ _beacon?
 /ads1.$~xhr,from=~ads-i.org
 /usage/clickstream?$xhr
 /insights/reportevent/*$xhr
+/census/recordhit$xhr
