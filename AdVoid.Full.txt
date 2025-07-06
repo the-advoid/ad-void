@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4823
-! Last modified: 2025-07-06T01:44:03.123+02:00
+! Version: 3.0.4824
+! Last modified: 2025-07-06T01:44:30.461+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7534
+! Entries: 7535
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7012,6 +7012,7 @@ imgur.com##+js(set-constant, Object.prototype.adsEnabled, false)
 imgur.com##+js(set-constant, Object.prototype.has_opted_out_tracking, trueFunc)
 imgur.com##+js(set-cookie, WHITELISTED_CLOSED, 1)
 instagram.com##+js(json-prune, data.xdt_injected_story_units.ad_media_items)
+iqiyi.com##+js(json-prune, data.template.tabs.*.blocks.*.data.data.videos.*.ad)
 itv.com##+js(json-prune, Playlist.ContentBreaks)
 itv.com##+js(no-window-open-if)
 jenismac.com##+js(remove-node-text, script, /eval.*RegExp/)
