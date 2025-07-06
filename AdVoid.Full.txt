@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4809
-! Last modified: 2025-07-06T01:17:57.697+02:00
+! Version: 3.0.4810
+! Last modified: 2025-07-06T01:18:15.573+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7519
+! Entries: 7520
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7428,6 +7428,7 @@ hqq.to##+js(set-constant, document.onkeydown, trueFunc)
 igdownloader.app##body:style(overflow: auto !important;)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 incibeauty.com##body,html:style(overflow: auto !important; position: initial !important;)
+instagram.com##+js(addEventListener-defuser, mouseleave)
 instagram.com##+js(close-window, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)
 instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
 instagram.com##+js(set-session-storage-item, lodum, 1)
