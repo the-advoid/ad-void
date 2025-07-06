@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4815
-! Last modified: 2025-07-06T01:28:42.583+02:00
+! Version: 3.0.4816
+! Last modified: 2025-07-06T01:29:20.716+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7526
+! Entries: 7527
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6356,6 +6356,7 @@ gosexpod.com###xtw
 gosexpod.com##.zzz-ddnotice
 gsmarena.com###review-body > div[style*="padding-bottom:"][style*="min-height:"]:has(> pgs-ad)
 gsmarena.com###subHeader
+gsmarena.com###subHeader3
 gsmarena.com##.pt-10
 gsmarena.com##div[style*="padding-bottom: 24px;"]
 gsmarena.com##table + div[style^="min-height: 310px;"]
