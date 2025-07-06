@@ -535,3 +535,4 @@ www.primevideo.com##+js(json-prune, cuepointPlaylist vodPlaybackUrls.result.play
 primevideo.com##+js(set-constant, ue_adb_chk, 1)
 instagram.com##+js(json-prune, data.xdt_injected_story_units.ad_media_items)
 iqiyi.com##+js(json-prune, data.template.tabs.*.blocks.*.data.data.videos.*.ad)
+iqiyi.com##+js(adjust-setInterval, adUI, 1000, 0.02)
