@@ -170,7 +170,7 @@
 ##.lv_cm_int_no
 ##.video-addBlockerWarning
 ##.livecamv2-rotate
-##.cookie-bar
+##.cookie-bar:not(body)
 ##.wio-pcams-widget
 ##.wio-p
 ##[class*="cookieBanner-module"]
