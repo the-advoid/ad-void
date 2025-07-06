@@ -534,3 +534,4 @@ www.primevideo.com##+js(xml-prune, xpath(//*[name()="Period"][.//*[@value="Ad"]]
 www.primevideo.com##+js(json-prune, cuepointPlaylist vodPlaybackUrls.result.playbackUrls.cuepoints)
 primevideo.com##+js(set-constant, ue_adb_chk, 1)
 instagram.com##+js(json-prune, data.xdt_injected_story_units.ad_media_items)
+iqiyi.com##+js(json-prune, data.template.tabs.*.blocks.*.data.data.videos.*.ad)
