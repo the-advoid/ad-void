@@ -70,3 +70,4 @@ _beacon?
 /usage/clickstream?$xhr
 /insights/reportevent/*$xhr
 /census/recordhit$xhr
+/blaize/datalayer$xhr
