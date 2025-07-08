@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4871
-! Last modified: 2025-07-08T18:54:33.290+02:00
+! Version: 3.0.4872
+! Last modified: 2025-07-08T19:39:32.945+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7582
+! Entries: 7581
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7590,7 +7590,6 @@ tenforums.com##body:style(overflow: auto !important;)
 theguardian.com##+js(remove-class, sp-message-open, html.sp-message-open)
 theguardian.com##+js(set-local-storage-item, gu.history.dailyArticleCount, $remove$)
 theguardian.com##+js(set-local-storage-item, gu.history.weeklyArticleCount, $remove$)
-theverge.com##+js(addEventListener-defuser, scroll)
 theverge.com##+js(addEventListener-defuser, scroll)
 theverge.com##+js(remove-cookie, blaize_tracking_id)
 theverge.com##+js(set-cookie, _duet_gdpr_acknowledged, 1)
