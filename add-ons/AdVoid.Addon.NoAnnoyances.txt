@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1188
-! Last modified: 2025-07-09T17:08:13.000+02:00
+! Version: 2.0.1189
+! Last modified: 2025-07-09T17:08:36.915+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1187
@@ -190,7 +190,7 @@ cookie-law*.$script,css
 ! {@7} Files (site)
 ||a.mailmunch.co/app/$script,3p
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^$script
-||anyclip.com^$3p,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
+||anyclip.com^$3p,from=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
 ||cdn-cookieyes.com/client_data/$script,css
 ||consent.cookiebot.eu/uc.js^$script
 ||consent.cookiefirst.com^$script
@@ -205,7 +205,7 @@ cookie-law*.$script,css
 ||pmc-pp-tou.*.amazonaws.com/privacy-notice.js^$script
 ||sammobile.com/wp-content/plugins/sam-push-notifications/$script
 ||ssstik.io/js/micromodal.min.js^$script
-||swiftypecdn.com^$3p,domain=~swiftype.com
+||swiftypecdn.com^$3p,from=~swiftype.com
 
 ! {@8} Cosmetic (global)
 ###__cookie-consent
