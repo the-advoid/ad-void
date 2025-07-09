@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3547
-! Last modified: 2025-07-09T17:05:53.587+02:00
+! Version: 3.0.3548
+! Last modified: 2025-07-09T17:06:32.290+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -1403,7 +1403,7 @@
 ||npttech.com^
 ||nslokxweviwqbg.com^
 ||nspiringtgandm.info^
-||ntv.io^$3p,domain=~teslarati.com
+||ntv.io^$3p,from=~teslarati.com
 ||ntvpforever.com^
 ||ntymxykyh.com^
 ||nudgehydrogen.com^
@@ -1674,7 +1674,7 @@
 ||quantserve.com^
 ||quantumdex.io^
 ||queitho.com^$popup,document
-||questionpro.com^$3p,domain=~questionpro.com.au|~questionpro.eu
+||questionpro.com^$3p,from=~questionpro.com.au|~questionpro.eu
 ||queue-it.net^
 ||quickfuck-app.com^
 ||quotersoxbane.top^
@@ -1829,7 +1829,7 @@
 ||sentimentalsuffice.cn^
 ||sentimenthypocrisy.com^
 ||sentinelbi.com^$3p
-||sentry-cdn.com^$3p,domain=~sentry.dev|~sentry.io
+||sentry-cdn.com^$3p,from=~sentry.dev|~sentry.io
 ||sentry.io^$3p
 ||seon.io^$3p
 ||serfdivia.com^
@@ -1894,7 +1894,7 @@
 ||smallfunnybears.com^
 ||smalltoysome.shop^
 ||smart-x.systems^
-||smartadserver.com^$3p,domain=~smartadserver.de|~smartadserver.fr
+||smartadserver.com^$3p,from=~smartadserver.de|~smartadserver.fr
 ||smartclick.net^
 ||smartifai.ai^
 ||smartyads.com^
