@@ -36,7 +36,7 @@
 ||heyoya.com^$script,3p
 ||mcloud.bz/assets/bn/$image
 ||pussyspace.*/lazyload.im^
-||googletagservices.com/tag/js/gpt.js^$script,xmlhttprequest,redirect=googletagservices_gpt.js
+||googletagservices.com/tag/js/gpt.js^$script,xhr,redirect=googletagservices_gpt.js
 ||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect=googletagservices_gpt.js:5
 ||google-analytics.com/ga.js^$script,redirect=google-analytics_analytics.js:5
 ||googletagmanager.com/gtm.js^$script,redirect=googletagmanager_gtm.js:5
