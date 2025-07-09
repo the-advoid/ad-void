@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3515
-! Last modified: 2025-07-09T16:36:06.219+02:00
+! Version: 3.0.3516
+! Last modified: 2025-07-09T16:36:34.701+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -3573,7 +3573,7 @@ trekkie*.js^$script
 *$script,third-party,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
 /js/analytics/fduserfingerprinttoken.js^$script,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /mm.js^$script,domain=1337x.*|x1337x.*
-://creative.*/widgets/spot/lib.js^$third-party
+://creative.*/widgets/spot/lib.js^$3p
 ||9xbuddy.$script,third-party,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
 ||acacdn.com^$script,redirect-rule=noop.js
 ||acscdn.com/script/aclib.js^$script,redirect-rule=noop.js
