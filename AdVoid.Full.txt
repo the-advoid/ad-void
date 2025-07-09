@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4899
-! Last modified: 2025-07-09T16:38:21.843+02:00
+! Version: 3.0.4900
+! Last modified: 2025-07-09T16:38:39.824+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -3966,18 +3966,18 @@ sassy-social-share-public*.$script,stylesheet
 ||ssstik.io/js/micromodal.min.js^$script
 ||swiftypecdn.com^$3p,domain=~swiftype.com
 ||news.google.com/swg/js/v1/swg.js^$script
-||app.mailjet.com^$third-party,script
+||app.mailjet.com^$3p,script
 ||assets.pinterest.com/js/pinit_main.js^$script
 ||cdn.kik.com/kik/*/kik-share.js^$script
 ||cdn.shopify.com/extensions/*/assets/inbox-chat-loader.js^$script
 ||facebook.com/v2.9/plugins/like.php^
-||platform.twitter.com/js/button.$third-party
+||platform.twitter.com/js/button.$3p
 ||vk.com/js/api/openapi.js^$script
 ||vk.com/js/api/share.js^$script
 ||vk.com/widget_like.php^
 ||widgets.wp.com/likes/master.html^
 ||yastatic.net/share2/share.js^$script
-||youtube.com/subscribe_embed?$third-party
+||youtube.com/subscribe_embed?$3p
 ||zdassets.com/ekr/snippet.js^$script
 ||gay.bingo/agent.php^$subdocument
 ||google.com^*/fastbutton?$subdocument,third-party
