@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1177
-! Last modified: 2025-07-08T19:43:19.447+02:00
+! Version: 2.0.1178
+! Last modified: 2025-07-09T16:39:57.270+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1187
@@ -65,17 +65,17 @@
 
 ! {@1} Subdomains (global)
 ||assets.klicktipp.com^
-||cdn.larapush.com^$third-party
-||cdn.privacy-mgmt.com^$third-party,domain=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
+||cdn.larapush.com^$3p
+||cdn.privacy-mgmt.com^$3p,domain=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 ||cmp.setupcmp.com^
 ||consent.radiotimes.com^
 ||consent.trustarc.com^
 ||gn-flagpoles.api.bbci.co.uk^
 ||platform.linkedin.com^
 ||player.anyclip.com^$domain=thewindowsclub.com
-||privacy-policy.truste.com^$third-party
+||privacy-policy.truste.com^$3p
 ||widget.beop.io^
-||widget.clutch.co^$third-party
+||widget.clutch.co^$3p
 ||widget.justwatch.com^
 ||widget.objektiv.rs^
 
@@ -190,14 +190,14 @@ cookie-law*.$script,stylesheet
 ! {@7} Files (site)
 ||a.mailmunch.co/app/$script,third-party
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^$script
-||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
+||anyclip.com^$3p,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
 ||cdn-cookieyes.com/client_data/$script,stylesheet
 ||consent.cookiebot.eu/uc.js^$script
 ||consent.cookiefirst.com^$script
 ||cscript-cdn-irl.cassiecloud.com/loader.js^$script
 ||flamelab.io/flamelab.js^$script
 ||gstatic.com/glue/cookienotificationbar/cookienotificationbar.
-||images.dmca.com/badges/dmcabadgehelper.min.js^$third-party,script
+||images.dmca.com/badges/dmcabadgehelper.min.js^$3p,script
 ||itv.com/itvstatic/assets/cookies-prompt/$script,stylesheet
 ||lightboxcdn.com/vendor/$script,third-party
 ||mailerlite.com/js/universal.js^$script
@@ -205,7 +205,7 @@ cookie-law*.$script,stylesheet
 ||pmc-pp-tou.*.amazonaws.com/privacy-notice.js^$script
 ||sammobile.com/wp-content/plugins/sam-push-notifications/$script
 ||ssstik.io/js/micromodal.min.js^$script
-||swiftypecdn.com^$third-party,domain=~swiftype.com
+||swiftypecdn.com^$3p,domain=~swiftype.com
 
 ! {@8} Cosmetic (global)
 ###__cookie-consent
