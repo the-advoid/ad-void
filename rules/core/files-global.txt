@@ -235,7 +235,7 @@ Logger.js^$script
 /tacoma/*.js^$script
 /tardisrocinante/*.js^$script
 /aas/r45d/vki/*$script,redirect-rule=noop.js
-/plausible.js$domain=~plausible.io
+/plausible.js$from=~plausible.io
 /ad-provider.js^$script
 /wp2leads/*/*.js^$script
 /duracelltomi-google-tag-manager/*$script,css
@@ -338,7 +338,7 @@ _468x60_
 /house-ads/*$image
 /ftt2/js.php^
 /*&sw=/sw-check-permissions.js^$3p
-/adobe-analytics-$domain=~business.adobe.com
+/adobe-analytics-$from=~business.adobe.com
 .js?id=gtm-$script
 /submenu/*/&oaid=$popup,document
 /discourse-adplugin-$script
