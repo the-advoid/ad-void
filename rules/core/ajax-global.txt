@@ -60,7 +60,6 @@ _beacon?
 /logimpressions?$xhr
 /ezais/analytics?$xhr
 /hc/activity$xhr
-*$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 /embed-1/ajax/e-1/banners|$xhr,strict1p
 ! aglint-disable-next-line invalid-modifiers
 ||com/|$xhr,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
