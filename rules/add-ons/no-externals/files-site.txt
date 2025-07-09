@@ -5,9 +5,9 @@
 ||vk.com/js/api/share.js^$script
 ||vk.com/js/api/openapi.js^$script
 ||yastatic.net/share2/share.js^$script
-||platform.twitter.com/js/button.$third-party
+||platform.twitter.com/js/button.$3p
 ||cdn.shopify.com/extensions/*/assets/inbox-chat-loader.js^$script
 ||facebook.com/v2.9/plugins/like.php^
-||youtube.com/subscribe_embed?$third-party
+||youtube.com/subscribe_embed?$3p
 ||zdassets.com/ekr/snippet.js^$script
-||app.mailjet.com^$third-party,script
+||app.mailjet.com^$3p,script
