@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3565
-! Last modified: 2025-07-09T17:19:28.528+02:00
+! Version: 3.0.3566
+! Last modified: 2025-07-09T17:19:55.414+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -144,7 +144,7 @@
 ||adt567.net^
 ||adtelligent.com^
 ||adthrive.com^
-||adtng.com^$popup,subdocument
+||adtng.com^$popup,frame
 ||adtrace.online^
 ||adtrafficquality.google^$3p
 ||aduptaihafy.net^
@@ -1577,7 +1577,7 @@
 ||popbutler.com^
 ||popcash.net^
 ||poplardealtcarrying.com^
-||popmansion.com^$popup,subdocument
+||popmansion.com^$popup,frame
 ||popmonetizer.net^
 ||popmyads.com^
 ||poprtb.com^
