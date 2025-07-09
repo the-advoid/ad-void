@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1186
-! Last modified: 2025-07-09T17:03:29.871+02:00
+! Version: 2.0.1187
+! Last modified: 2025-07-09T17:05:32.011+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1187
@@ -66,7 +66,7 @@
 ! {@1} Subdomains (global)
 ||assets.klicktipp.com^
 ||cdn.larapush.com^$3p
-||cdn.privacy-mgmt.com^$3p,domain=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
+||cdn.privacy-mgmt.com^$3p,from=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 ||cmp.setupcmp.com^
 ||consent.radiotimes.com^
 ||consent.trustarc.com^
