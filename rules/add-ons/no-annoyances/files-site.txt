@@ -5,12 +5,12 @@
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^$script
 ||lightboxcdn.com/vendor/$script,3p
 ||pmc-pp-tou.*.amazonaws.com/privacy-notice.js^$script
-||swiftypecdn.com^$3p,domain=~swiftype.com
+||swiftypecdn.com^$3p,from=~swiftype.com
 ||consent.cookiebot.eu/uc.js^$script
 ||images.dmca.com/badges/dmcabadgehelper.min.js^$3p,script
 ||gstatic.com/glue/cookienotificationbar/cookienotificationbar.
 ||cdn-cookieyes.com/client_data/$script,css
-||anyclip.com^$3p,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
+||anyclip.com^$3p,from=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
 ||itv.com/itvstatic/assets/cookies-prompt/$script,css
 ||cscript-cdn-irl.cassiecloud.com/loader.js^$script
 ||mailerlite.com/js/universal.js^$script
