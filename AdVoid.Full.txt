@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4966
-! Last modified: 2025-07-09T17:20:09.069+02:00
+! Version: 3.0.4967
+! Last modified: 2025-07-09T17:20:42.288+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -160,7 +160,7 @@
 ||adxpremium.services^
 ||adxsrver.com^
 ||ae57ve.com^
-||affcpatrk.com^$document
+||affcpatrk.com^$doc
 ||affluentshinymulticultural.com^
 ||affpa.top^
 ||afgr1.com^
@@ -613,7 +613,7 @@
 ||dimpuxoh.net^
 ||dinclinx.com^
 ||dingholog.com^
-||directdexchange.com^$document
+||directdexchange.com^$doc
 ||diromalxx.com^
 ||dishwaterconcedehearty.com^
 ||dismantlepenantiterrorist.com^
@@ -750,7 +750,7 @@
 ||ezoic.net^
 ||ezojs.com^
 ||f9pennsy3glvkm6ania.com^
-||facevideosc.com^$document,popup
+||facevideosc.com^$doc,popup
 ||facilitatevoluntarily.com^
 ||facilitypestilent.com^
 ||facinggleg.life^
@@ -1418,7 +1418,7 @@
 ||oblongseller.com^
 ||obmvfiruckuz.com^
 ||obplwenpukme.com^
-||obqj2.com^$document
+||obqj2.com^$doc
 ||obsessivepetsbean.com^
 ||obtaintrout.com^
 ||occbfyjmacka.com^
