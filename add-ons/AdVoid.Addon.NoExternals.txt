@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, location trackers, etc.
-! Version: 2.0.643
-! Last modified: 2025-07-09T16:52:14.647+02:00
+! Version: 2.0.644
+! Last modified: 2025-07-09T16:55:08.517+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 723
@@ -49,7 +49,7 @@
 *$ping,3p
 
 ! {@4} Files (global)
--share-bar/$~stylesheet
+-share-bar/$~css
 /addtoany.min.css^$css
 /addtoany.min.js^$script
 /amp-addthis*.js^$script
@@ -62,7 +62,7 @@
 /browser-push-notifications.js^$script
 /cast_framework.js^$script
 /cast_sender.js^$script
-/cookie-notice/*$~stylesheet
+/cookie-notice/*$~css
 /dark-magenta-alternate/css/share.css^$css
 /dropins.js^$script
 /el-social-icons.min.css^$css
@@ -94,7 +94,7 @@
 /sharedaddy/sharing.*.js^$script
 /silvermine-videojs-chromecast.js^$script
 /silvermine-videojs-chromecast.min.js^$script
-/simple-share-$~stylesheet
+/simple-share-$~css
 /social-media.js^$script
 /SocialTool.min.js^$script
 /twitter_share_$image
@@ -102,12 +102,12 @@
 /videojs-share.$script
 /videojs-social.*.js^$script
 /videojs.pip.js^$script
-/wp-content/*/social_$~stylesheet
-/wp-content/plugins/add-to-any/addtoany.min.$script,stylesheet
-/wp-content/plugins/kadence-simple-share/*$script,stylesheet,image
+/wp-content/*/social_$~css
+/wp-content/plugins/add-to-any/addtoany.min.$script,css
+/wp-content/plugins/kadence-simple-share/*$script,css,image
 /wp-content/plugins/mailoptin/*
 /wp-content/plugins/social-warfare/*
-sassy-social-share-public*.$script,stylesheet
+sassy-social-share-public*.$script,css
 
 ! {@5} Files (site)
 ||app.mailjet.com^$3p,script
