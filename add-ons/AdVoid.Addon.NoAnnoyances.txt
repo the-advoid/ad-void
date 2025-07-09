@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1181
-! Last modified: 2025-07-09T16:52:38.134+02:00
+! Version: 2.0.1182
+! Last modified: 2025-07-09T16:54:29.612+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1187
@@ -191,14 +191,14 @@ cookie-law*.$script,stylesheet
 ||a.mailmunch.co/app/$script,3p
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^$script
 ||anyclip.com^$3p,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
-||cdn-cookieyes.com/client_data/$script,stylesheet
+||cdn-cookieyes.com/client_data/$script,css
 ||consent.cookiebot.eu/uc.js^$script
 ||consent.cookiefirst.com^$script
 ||cscript-cdn-irl.cassiecloud.com/loader.js^$script
 ||flamelab.io/flamelab.js^$script
 ||gstatic.com/glue/cookienotificationbar/cookienotificationbar.
 ||images.dmca.com/badges/dmcabadgehelper.min.js^$3p,script
-||itv.com/itvstatic/assets/cookies-prompt/$script,stylesheet
+||itv.com/itvstatic/assets/cookies-prompt/$script,css
 ||lightboxcdn.com/vendor/$script,3p
 ||mailerlite.com/js/universal.js^$script
 ||microsoft.com/mscc/
