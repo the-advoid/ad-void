@@ -2,7 +2,7 @@
 /cookieblocker.min.css^$css
 /complianz.min.js^$script
 /cookieconsent.min.css^$css
-/js.cookie.js^$script,domain=~ascii-generator.site
+/js.cookie.js^$script,from=~ascii-generator.site
 /jquery.cookie.min.js^$script
 /cookies.min.js^$script
 /require-cookie.min.js^$script
@@ -85,7 +85,7 @@ amp-web-push*js^$script
 /one-trust.js^$script
 /cookieconsent/*$script,css,image
 /cookiebanner.$script,css
-/wrappermessagingwithoutdetection.js^$script,domain=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
+/wrappermessagingwithoutdetection.js^$script,from=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 /wp-content/plugins/gdpr-cookie-compliance/*$script
 -cookie-banner-$script,css
 /htdocs/js/admiral/init.js^$script
