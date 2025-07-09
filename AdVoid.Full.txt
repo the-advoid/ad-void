@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4929
-! Last modified: 2025-07-09T16:55:55.908+02:00
+! Version: 3.0.4930
+! Last modified: 2025-07-09T16:58:15.113+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -3648,38 +3648,38 @@ amp-auto-ads*js^$script
 amp-iframe-*js^$script
 Logger.js^$script
 trekkie*.js^$script
--cookie-banner-$script,stylesheet
+-cookie-banner-$script,css
 .cookielaw.js^$script
-.cookielaw.min.$script,stylesheet,image
-.cookienotice.$script,stylesheet,image
-.cookiepolicy.$script,stylesheet,image
+.cookielaw.min.$script,css,image
+.cookienotice.$script,css,image
+.cookiepolicy.$script,css,image
 .cookiesdirective.js^$script
-.cookiesdirective_$script,stylesheet,image
-.cookiesmessage.$script,stylesheet,image
-.cookiesPolicy.$script,stylesheet,image
-.divascookies-$script,stylesheet,image
-.EuCookieCompliance.$script,stylesheet,image
-.fscookieconsent.$script,stylesheet,image
-.gdpr-banner.$script,stylesheet,image
+.cookiesdirective_$script,css,image
+.cookiesmessage.$script,css,image
+.cookiesPolicy.$script,css,image
+.divascookies-$script,css,image
+.EuCookieCompliance.$script,css,image
+.fscookieconsent.$script,css,image
+.gdpr-banner.$script,css,image
 .gdpr.js^$script
-.gdpr.min$script,stylesheet,image
-.javascript.gdpr.$script,stylesheet,image
-.notificationCookies.$script,stylesheet,image
-.PrivacyDataNotice.$script,stylesheet,image
+.gdpr.min$script,css,image
+.javascript.gdpr.$script,css,image
+.notificationCookies.$script,css,image
+.PrivacyDataNotice.$script,css,image
 /*cookie-consent-link-element_cookie-consent-link-element*.js^$script
 /amp-consent-*.*.js^$script
-/amp-user-notification-$script,stylesheet,image
+/amp-user-notification-$script,css,image
 /amp-user-notification.css^$css
 /avada-privacy.js^$script
 /browser-nocookie.*.js^$script
 /cmp.js^$script
 /complianz.min.js^$script
 /consent-tracking-api.js^$script
-/cookie-consent.$script,stylesheet,image
+/cookie-consent.$script,css,image
 /cookie-policy.js^$script
-/cookie-popup-$script,stylesheet,image
+/cookie-popup-$script,css,image
 /cookie-prompt.js^$script
-/cookiebanner.$script,stylesheet
+/cookiebanner.$script,css
 /cookiebar-*.js^$script
 /cookiebar.css^$css
 /cookieblocker.min.css^$css
@@ -3689,7 +3689,7 @@ trekkie*.js^$script
 /cookieconsent.$domain=~alginor.no|~crm.cat|~download.pixelexperience.org|~khl.ru|~kundenkonto.lidl-connect.de|~retrogames.cc|~shmoop.com
 /cookieconsent.*.js^$script
 /cookieconsent.min.css^$css
-/cookieconsent/*$script,stylesheet,image
+/cookieconsent/*$script,css,image
 /cookielaw.css^$css
 /cookielaw.js^$script
 /cookiepolicy.min.css^$css
@@ -3698,7 +3698,7 @@ trekkie*.js^$script
 /cookiesDisclaimer.css^$css
 /disable-right-click-images/*.js^$script
 /dl.cmp.min.js^$script
-/eu-cookie-$script,stylesheet,image
+/eu-cookie-$script,css,image
 /eu_consent.js^$script
 /gdpr.min.js^$script
 /gpt.js^$script
@@ -3714,8 +3714,8 @@ trekkie*.js^$script
 /one-trust.js^$script
 /oneSignal.js^$script
 /OneSignalSDK.js^$script
-/onesignalsdkupdaterworker.$script,stylesheet
-/onesignalsdkworker.$script,stylesheet
+/onesignalsdkupdaterworker.$script,css
+/onesignalsdkworker.$script,css
 /oneTapMobile*.js^$script
 /otBannerSdk.js^$script
 /otSDKStub.js^$script
@@ -3724,21 +3724,21 @@ trekkie*.js^$script
 /popup-maker/assets/js/site.min.js^$script
 /privacy-banner/storefront-banner.js^$script
 /pushNotification*.js^$script
-/quantcast_$script,stylesheet
+/quantcast_$script,css
 /real-cookie-banner/public/*
 /require-cookie.min.js^$script
 /survey-a.js^$script
 /td-newsletter/*
 /top-popup-gdpr.js^$script
 /wcp-consent.js^$script
-/web-push-$script,stylesheet,image
+/web-push-$script,css,image
 /wp-content/plugins/cookie-law-info/*
 /wp-content/plugins/gdpr-cookie-compliance/*$script
 /wp-content/plugins/q2w3-fixed-widget/*
 /wrappermessagingwithoutdetection.js^$script,domain=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 /zdconsent.js^$script
 amp-web-push*js^$script
-cookie-law*.$script,stylesheet
+cookie-law*.$script,css
 .css.map^
 .js.map^
 /cnPlay.js^$script
