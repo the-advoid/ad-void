@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3522
-! Last modified: 2025-07-09T16:45:06.857+02:00
+! Version: 3.0.3523
+! Last modified: 2025-07-09T16:45:35.985+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -3566,28 +3566,28 @@ trekkie*.js^$script
 /www/delivery/*$subdocument
 
 ! {@14} Files (site)
+*$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,domain=readcomiconline.*
+*$script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
 *$script,3p,denyallow=gstatic.com,domain=streambucket.net
 *$script,redirect-rule=noop.js,domain=mp4upload.com
 *$script,redirect-rule=noop.js,from=next-episode.net
-*$script,third-party,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,domain=readcomiconline.*
-*$script,third-party,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
 /js/analytics/fduserfingerprinttoken.js^$script,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /mm.js^$script,domain=1337x.*|x1337x.*
 ://creative.*/widgets/spot/lib.js^$3p
-||9xbuddy.$script,third-party,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
+||9xbuddy.$script,3p,domain=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
 ||acacdn.com^$script,redirect-rule=noop.js
 ||acscdn.com/script/aclib.js^$script,redirect-rule=noop.js
 ||aliyuncs.com/r.png^$image
 ||amazonaws.com/jsstore/*/ge.js^$script
 ||api.pinterest.com/v1/urls/count.json^
-||app.link/_r?$script,third-party
+||app.link/_r?$script,3p
 ||apps.bazaarvoice.com/analytics/$script
 ||aps.amazon-adsystem.com^$script,redirect-rule=amazon_apstag.js:5
 ||assets.alicdn.com/*/webpush-ui.js^$script
 ||assets.hearstapps.com/commerce/release/affiliate-$script
 ||attn.tv^*/dtag.js^$script
 ||aviasales.ru/fp.js^$script
-||ay.delivery/client-v2.js^$script,third-party,redirect-rule=noop.js
+||ay.delivery/client-v2.js^$script,3p,redirect-rule=noop.js
 ||b.cdnst.net/javascript/amazon.js^$script
 ||bang-movies.com/out/b.html^
 ||bing.com/fd/ls/l?ig=$image
@@ -3616,12 +3616,12 @@ trekkie*.js^$script
 ||google.com/adsense/search/ads.js^$script
 ||google.com/adsense/search/async-ads.js^$script
 ||google.com/images/cleardot.gif^$image
-||googletagmanager.com/gtag/$script,third-party,redirect-rule=noop.js
+||googletagmanager.com/gtag/$script,3p,redirect-rule=noop.js
 ||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
 ||googletagmanager.com/gtm.js^$script,redirect=googletagmanager_gtm.js:5
 ||googletagservices.com/tag/js/gpt.js^$script,xmlhttprequest,redirect=googletagservices_gpt.js
 ||gyazo.com^$image,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turboobit.com
-||heyoya.com^$script,third-party
+||heyoya.com^$script,3p
 ||humix.com/video.js^$script
 ||id.google.*/verify/$image
 ||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noop.js
@@ -3642,7 +3642,7 @@ trekkie*.js^$script
 ||myvidster.com/js/myv_ad_camp2.php^
 ||myvidster.com/js/myv_smart_banner.php^
 ||nofraud.com/js/device.js^$script
-||oaphoace.net^$script,third-party,redirect-rule=noop.js
+||oaphoace.net^$script,3p,redirect-rule=noop.js
 ||optimizely.com/public/
 ||p.typekit.net/p.css^$stylesheet,redirect-rule=noop.css
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
@@ -3655,7 +3655,7 @@ trekkie*.js^$script
 ||perfops.net/rom3/$script
 ||porn-hub.live/*/*.php?$image
 ||porndig.com/sw$script
-||porntrex.com^$script,third-party,domain=~blazingcdn.net|~cdntrex.com|~fastly.net|~google.com|~googleapis.com|~gstatic.com|~h-cdn.com|~stackpathcdn.com
+||porntrex.com^$script,3p,domain=~blazingcdn.net|~cdntrex.com|~fastly.net|~google.com|~googleapis.com|~gstatic.com|~h-cdn.com|~stackpathcdn.com
 ||pornunique.com/ad/$image
 ||pussyspace.*/lazyload.im^
 ||quora.com/ads/$image
