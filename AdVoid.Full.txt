@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4997
-! Last modified: 2025-07-09T18:49:38.517+02:00
+! Version: 3.0.4998
+! Last modified: 2025-07-09T18:50:12.141+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7572
+! Entries: 7573
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7523,6 +7523,7 @@ myflixerz.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 myflixerz.*##body:style(overflow: visible!important;)
 neowin.net##+js(abort-current-script, Uint8Array, getAndSetOverlay)
 neowin.net##+js(abort-on-property-read, _sp_.mms.startMsg)
+neowin.net##+js(prevent-setTimeout, /new Promise[\s\S]*?"throw"[\s\S]*?void 0/)
 nintendolife.com##+js(trusted-click-element, #onetrust-accept-btn-handler)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
 noodlemagazine.com##+js(adjust-setTimeout, download, 1100)
