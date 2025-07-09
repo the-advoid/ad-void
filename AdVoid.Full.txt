@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4980
-! Last modified: 2025-07-09T17:28:43.387+02:00
+! Version: 3.0.4981
+! Last modified: 2025-07-09T17:29:03.953+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -4072,15 +4072,15 @@ ab=1
 ab_test=AdOpt
 ablk=
 abp=1
-abr={IsAdblockRequest}$xmlhttprequest
+abr={IsAdblockRequest}$xhr
 abvar=
 action=js_online_status
 action=js_stats
 ad_id=
-ad_size=$xmlhttprequest
+ad_size=$xhr
 ad_unit_id=
-adarea=$xmlhttprequest
-adb=y$xmlhttprequest
+adarea=$xhr
+adb=y$xhr
 adblk=
 adblock=1
 adblocked=
@@ -4097,7 +4097,7 @@ aff_ad=
 aff_id=
 aff_sub=
 agent.php?spot=
-banner.id=$xmlhttprequest
+banner.id=$xhr
 BANNER_ID=
 bannerid=
 bannnerid=
@@ -4110,9 +4110,9 @@ cookie=ec_etag
 counters=
 event=impressions
 event=PageVisit
-event_category=campaign$xmlhttprequest
-event_label=popup_blocked$xmlhttprequest
-event_value=pg_pop$xmlhttprequest
+event_category=campaign$xhr
+event_label=popup_blocked$xhr
+event_value=pg_pop$xhr
 js_build=iclick
 noads=
 OACBLOCK=
