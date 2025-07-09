@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4960
-! Last modified: 2025-07-09T17:17:37.160+02:00
+! Version: 3.0.4961
+! Last modified: 2025-07-09T17:18:04.806+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -3806,10 +3806,10 @@ cookie-law*.$script,css
 /wp-content/plugins/mailoptin/*
 /wp-content/plugins/social-warfare/*
 sassy-social-share-public*.$script,css
-/ads/bid*.aspx^$subdocument
-/related_1.html?$subdocument,3p
-/web-pixel-shopify-custom-pixel@$subdocument
-/www/delivery/*$subdocument
+/ads/bid*.aspx^$frame
+/related_1.html?$frame,3p
+/web-pixel-shopify-custom-pixel@$frame
+/www/delivery/*$frame
 
 ! {@12} Files (site)
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,from=readcomiconline.*
