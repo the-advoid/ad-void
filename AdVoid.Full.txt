@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4903
-! Last modified: 2025-07-09T16:40:01.784+02:00
+! Version: 3.0.4904
+! Last modified: 2025-07-09T16:40:32.118+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -2438,23 +2438,23 @@
 ||webpushr.com^$third-party
 ||zergnet.com^$third-party
 ||zopim.com^
-||addtoany.com^$third-party
-||chatango.com^$third-party
+||addtoany.com^$3p
+||chatango.com^$3p
 ||chatbro.com^
 ||gubagoo.io^
-||helpscout.net^$third-party
-||livechatinc.com^$third-party
-||mailerlite.com^$third-party
+||helpscout.net^$3p
+||livechatinc.com^$3p
+||mailerlite.com^$3p
 ||purechat.com^
 ||sharedid.org^
 ||shareron.xyz^
 ||sharethis.com^
 ||sharethrough.com^
-||smartsuppchat.com^$third-party
-||sprinklr.com$third-party
+||smartsuppchat.com^$3p
+||sprinklr.com$3p
 ||tawk.to^
-||tidio.co^$third-party
-||userway.org^$third-party
+||tidio.co^$3p
+||userway.org^$3p
 ||workerz1.com^
 ||zworker11.me^
 ||mnuu.nu^$subdocument
