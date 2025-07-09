@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4949
-! Last modified: 2025-07-09T17:08:41.594+02:00
+! Version: 3.0.4950
+! Last modified: 2025-07-09T17:12:32.284+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -3345,7 +3345,7 @@ _beacon?
 /adsbygoogle.js^$script
 /adsdk.js^$script
 /adsense.min.css^$css
-/adserver.$~xmlhttprequest,domain=~konograma.com
+/adserver.$~xmlhttprequest,from=~konograma.com
 /adshow.php^
 /adslot-*.js^$script
 /adthrive.min.js^$script
@@ -3571,8 +3571,8 @@ _beacon?
 /shopifycloud/shopify/assets/shop_events_listener-$script
 /showads*.js^$script
 /simple-banner/simple-banner.$script,css
-/siropu/am/core.min.js^$script,important,domain=~audi-sport.net|~hifiwigwam.com
-/smartad.$script,domain=~smartad.ai
+/siropu/am/core.min.js^$script,important,from=~audi-sport.net|~hifiwigwam.com
+/smartad.$script,from=~smartad.ai
 /solid.gif^$image
 /sponsor-invent.*.js^$script
 /sranalytics.js^$script
