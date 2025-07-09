@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4921
-! Last modified: 2025-07-09T16:52:01.234+02:00
+! Version: 3.0.4922
+! Last modified: 2025-07-09T16:52:19.357+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -3748,7 +3748,7 @@ cookie-law*.$script,stylesheet
 /news_widget.js^$script
 /swfobject.js^$script
 -share-bar/$~stylesheet
-/addtoany.min.css^$stylesheet
+/addtoany.min.css^$css
 /addtoany.min.js^$script
 /amp-addthis*.js^$script
 /amp-facebook-*.js^$script
@@ -3761,9 +3761,9 @@ cookie-law*.$script,stylesheet
 /cast_framework.js^$script
 /cast_sender.js^$script
 /cookie-notice/*$~stylesheet
-/dark-magenta-alternate/css/share.css^$stylesheet
+/dark-magenta-alternate/css/share.css^$css
 /dropins.js^$script
-/el-social-icons.min.css^$stylesheet
+/el-social-icons.min.css^$css
 /facebook.mjs^$script
 /facebook_share_$image
 /fb-sdk.js^$script
@@ -3775,7 +3775,7 @@ cookie-law*.$script,stylesheet
 /footer/twitter-$image
 /jsshare.js^$script
 /KernelTeamVideoSharing*.js^$script
-/LikePosts.css^$stylesheet
+/LikePosts.css^$css
 /LikePosts.js^$script
 /marketingNotificationsUnit-*.js^$script
 /news_widget_amc^
@@ -3785,7 +3785,7 @@ cookie-law*.$script,stylesheet
 /pmc-social-share-bar/*
 /provider.cast.js^$script
 /rpc.php^
-/sassy-social-share-svg.css^$stylesheet
+/sassy-social-share-svg.css^$css
 /share-button.*.js^$script
 /share.*.js^$script
 /share_buttons_
