@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3533
-! Last modified: 2025-07-09T16:51:52.096+02:00
+! Version: 3.0.3534
+! Last modified: 2025-07-09T16:52:58.282+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -3197,7 +3197,7 @@ _beacon?
 -contrib-ads.$~stylesheet
 -sticky-ad-$script,stylesheet,image
 -universal-analytics/$script,stylesheet
-.ads.css^$stylesheet
+.ads.css^$css
 .airlytics.*.js^$script
 .amznHdBid.*.js^$script
 .confiant.*.js^$script
@@ -3240,12 +3240,12 @@ _beacon?
 /admvpopunder.swf^
 /adobe-analytics-$domain=~business.adobe.com
 /adrecover.js^$script
-/ads-*.css^$stylesheet
+/ads-*.css^$css
 /ads-*.js^$script
 /ads-banner.png^$image
 /ads-iframe-display.php^
 /ads.*.js^$script
-/ads.min.css^$stylesheet
+/ads.min.css^$css
 /ads/*.$image
 /ads/native.js^$script
 /ads01.js^$script
@@ -3254,7 +3254,7 @@ _beacon?
 /ads_light.*.js^$script
 /adsbygoogle.js^$script
 /adsdk.js^$script
-/adsense.min.css^$stylesheet
+/adsense.min.css^$css
 /adserver.$~xmlhttprequest,domain=~konograma.com
 /adshow.php^
 /adslot-*.js^$script
@@ -3338,7 +3338,7 @@ _beacon?
 /entityTagging.min.js^$script
 /err.gif^$image
 /ex_rendr3.js^$script
-/exoNat.css^$stylesheet
+/exoNat.css^$css
 /exort*.js^$script
 /ezoic/*$script
 /f.php?nd=*&sid=*&rand=*$popup,document
@@ -3529,10 +3529,10 @@ _beacon?
 /videojs*.vast.vpaid.min.js^$script
 /videojs.ads.min.js^$script
 /videojs.ga.$script
-/videojs.ima.css^$stylesheet
+/videojs.ima.css^$css
 /videojs.ima.min.js^$script
-/videojs.vast.vpaid.min.css^$stylesheet
-/videopack-ads/*/video*.css^$stylesheet
+/videojs.vast.vpaid.min.css^$css
+/videopack-ads/*/video*.css^$css
 /videopack-ads/*/video*.js^$script
 /vidoomy-player.js^$script
 /vortex-simple-*.js^$script
