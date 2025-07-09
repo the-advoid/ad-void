@@ -36,7 +36,7 @@
 /autotrack.js^$script
 /ga-analytics.js^$script
 /videojs.ima.min.js^$script
-/videojs.ima.css^$stylesheet
+/videojs.ima.css^$css
 /videojs.ads.min.js^$script
 /google_ab_testing.js^$script
 /showads*.js^$script
@@ -64,7 +64,7 @@
 /gtmpixel.js^$script
 /pixelpropagate.js^$script
 /sranalytics.js^$script
-/adsense.min.css^$stylesheet
+/adsense.min.css^$css
 /ws-tracking.js^$script
 /sentry-js.min.js^$script
 /xads.js^$script
@@ -92,7 +92,7 @@
 /px.gif?$image,redirect-rule=1x1.gif
 /advertising.js^
 /videopack-ads/*/video*.js^$script
-/videopack-ads/*/video*.css^$stylesheet
+/videopack-ads/*/video*.css^$css
 /give/*/give*.
 /tight-firefly
 /client_event.json^
@@ -148,12 +148,12 @@ Logger.js^$script
 /counters.gif^$image
 /valnet-header-ads.*.js^$script
 /trace.js^$script
-/exoNat.css^$stylesheet
+/exoNat.css^$css
 /tracking-opt-in.min.js^$script
 /p1x1.jpg^$image
 /narrativ-pub.*.js^$script
 /sentry.*.js^$script
-/videojs.vast.vpaid.min.css^$stylesheet
+/videojs.vast.vpaid.min.css^$css
 /videojs*.vast.vpaid.min.js^$script
 /analytics.min.js^$script
 /dealerOnLead.min.js^$script
@@ -193,11 +193,11 @@ Logger.js^$script
 /advertisement.min.js^$script
 /exort*.js^$script
 /err.gif^$image
-/ads.min.css^$stylesheet
+/ads.min.css^$css
 /adthrive.min.js^$script
 /sponsor-invent.*.js^$script
 /critical-tracking-scripts-*.js^$script
-/ads-*.css^$stylesheet
+/ads-*.css^$css
 /carbon.js^$script
 /ren.gif^$image
 /click_tracker.php^
@@ -246,7 +246,7 @@ Logger.js^$script
 /video.counters.$script
 /fbevents.js^$script
 /imp.go^$image
-.ads.css^$stylesheet
+.ads.css^$css
 /videojs.ga.$script
 /pubads.
 /300x250_$image
