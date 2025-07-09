@@ -18,7 +18,7 @@
 ||config-security.com/event^$xmlhttprequest
 ||api.github.com/_private/browser/errors^$xmlhttprequest
 ||xvideos.com/zoneload/$xmlhttprequest
-/^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,third-party,domain=~amazon.com
+/^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,3p,domain=~amazon.com
 ||smy.iheart.com^$xmlhttprequest
 ||xp.apple.com^$xmlhttprequest
 ||xp2.apple.com^$xmlhttprequest
@@ -28,7 +28,7 @@
 ||tiktokv.com/monitor_browser/^$xmlhttprequest
 ||utilapi.geeksforgeeks.org/api/geo/usergeodetails/$xmlhttprequest
 ||dev.to/fallback_activity_recorder^$xmlhttprequest
-/^https?:\/\/[a-z]{8,15}\.com\/$/$xmlhttprequest,third-party,method=head,header=x-trace2-id,to=com
+/^https?:\/\/[a-z]{8,15}\.com\/$/$xmlhttprequest,3p,method=head,header=x-trace2-id,to=com
 ||linkedin.com/sensorcollect/$xmlhttprequest
 ||linkedin.com/li/track$xmlhttprequest
 ||techpowerup.com/__botcheck$xmlhttprequest
@@ -44,16 +44,16 @@
 ||mmcdn.com/events/$xmlhttprequest
 ||youtube.com/youtubei/v1/player?$xmlhttprequest,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||doubleclick.net^$xmlhttprequest,redirect-rule=noop.txt
-||googlevideo.com/videoplayback*&ctier=l&*%2cctier%2c$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
+||googlevideo.com/videoplayback*&ctier=l&*%2cctier%2c$xmlhttprequest,3p,domain=m.youtube.com|music.youtube.com|www.youtube.com
 ||datahub-srgssr.ch/tracking/$xmlhttprequest
 ||disqus.com/api/ping$xmlhttprequest
-||cloudflare.com/cdn-cgi/trace$xmlhttprequest,third-party,redirect-rule=noop.txt,domain=~1bit.space|~1bitspace.com|~funimation.com
+||cloudflare.com/cdn-cgi/trace$xmlhttprequest,3p,redirect-rule=noop.txt,domain=~1bit.space|~1bitspace.com|~funimation.com
 ||facebook.com/ajax/qm/$xmlhttprequest
 ||www.youtube.com/s/player/*/base.js$xmlhttprequest,replace=/if\(e===""\)/if(0)/
-*$xmlhttprequest,third-party,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
-||plausible.*/api/event$xmlhttprequest,third-party
+*$xmlhttprequest,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+||plausible.*/api/event$xmlhttprequest,3p
 ! aglint-disable-next-line invalid-modifiers
-||xyz/|$xmlhttprequest,third-party,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
+||xyz/|$xmlhttprequest,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
 ||notion.so/api/*/etclient|$method=post
 ||www.ebay.*/gh/dfpsvc?$xmlhttprequest
 ||ophan.theguardian.com^$xmlhttprequest
