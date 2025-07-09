@@ -7,7 +7,7 @@
 ||ads*-adnow.com^
 ||d-*.cfd^
 ||check-tl-ver-$document
-.org/ad/$domain=~ylilauta.org
+.org/ad/$from=~ylilauta.org
 /api/users?token=$popup
 ://click-v4.*.com/click?$document
-://counter.$domain=~tengrinews.kz|~vesti.kz
+://counter.$from=~tengrinews.kz|~vesti.kz
