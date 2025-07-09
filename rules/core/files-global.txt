@@ -276,7 +276,7 @@ Logger.js^$script
 /js/static/header/sda/ppsuma*.js^$script
 -contrib-ads.$~stylesheet
 /simple-banner/simple-banner.$script,stylesheet
-/1clkn/*$script,third-party
+/1clkn/*$script,3p
 /ad_image/*$image
 /common-player-arrow/index.html?var=*&zoneid=$document
 /InstallTracking.aspx^
@@ -330,7 +330,7 @@ _468x60_
 /sa.gif?$image
 /gtag.js^$script
 /@mozilla/glean/$script
-/cdn-cgi/apps/head/*$script,~third-party
+/cdn-cgi/apps/head/*$script,~3p
 /delivery/avw.php^
 /shopifycloud/shopify/assets/shop_events_listener-$script
 /ia-sentry.min.js^$script
