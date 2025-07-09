@@ -1,7 +1,7 @@
 ---
 name: Optimization
 about: Suggest an optimization; an optimization that makes AdVoid more efficient/compact.
-title: "[Optimization]: "
+title: "\U0001F680 [Optimization]: "
 labels: optimization, pending-approval
 assignees: igorskyflyer
 ---
