@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4942
-! Last modified: 2025-07-09T17:04:54.674+02:00
+! Version: 3.0.4943
+! Last modified: 2025-07-09T17:05:37.098+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -2964,7 +2964,7 @@
 ||youtube.cleverads.vn^
 ||assets.klicktipp.com^
 ||cdn.larapush.com^$3p
-||cdn.privacy-mgmt.com^$3p,domain=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
+||cdn.privacy-mgmt.com^$3p,from=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 ||cmp.setupcmp.com^
 ||consent.radiotimes.com^
 ||consent.trustarc.com^
