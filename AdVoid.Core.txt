@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3628
-! Last modified: 2025-07-09T23:00:58.887+02:00
+! Version: 3.0.3629
+! Last modified: 2025-07-09T23:01:16.760+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5666
+! Entries: 5667
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5242,6 +5242,7 @@ beemtube.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 bflix.*##+js(abort-on-property-read, AaDetector)
 bflix.*##+js(abort-on-property-read, mm)
 bflix.*##+js(abort-on-property-read, zfgstorage)
+bing.com##+js(href-sanitizer, a[href^="/rebates/welcome?url=http"], ?url)
 bing.com##+js(json-prune, relatedAds)
 bing.com##+js(no-setInterval-if, logQueue, 10000)
 bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId)
