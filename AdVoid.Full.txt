@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4974
-! Last modified: 2025-07-09T17:23:33.086+02:00
+! Version: 3.0.4975
+! Last modified: 2025-07-09T17:23:56.655+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -3354,7 +3354,7 @@ _beacon?
 /advertisement.min.js^$script
 /advertisers.js^$script
 /advertising.js^
-/afu.php?zoneid=$popup,document
+/afu.php?zoneid=$popup,doc
 /amp-ad-$script
 /amp-analytics-$script
 /amp-consent*.mjs^$script
@@ -3431,7 +3431,7 @@ _beacon?
 /exoNat.css^$css
 /exort*.js^$script
 /ezoic/*$script
-/f.php?nd=*&sid=*&rand=*$popup,document
+/f.php?nd=*&sid=*&rand=*$popup,doc
 /facebook.js^$script
 /fb.js^$script
 /fbevents.js^$script
@@ -3582,7 +3582,7 @@ _beacon?
 /stats.php^
 /stattag.js^$script
 /strpixel.png^$image
-/submenu/*/&oaid=$popup,document
+/submenu/*/&oaid=$popup,doc
 /sw.js?puid=$script
 /swfobject_*.js^$script
 /t.gif^$image
