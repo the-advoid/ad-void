@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3554
-! Last modified: 2025-07-09T17:13:39.670+02:00
+! Version: 3.0.3555
+! Last modified: 2025-07-09T17:14:01.270+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -3074,7 +3074,7 @@ ads-manager/ads/*/track-view
 /ajax/top-banner-home-abr.php^$xmlhttprequest
 /analytics_ads^$xmlhttprequest
 /antibot/ab.php$xmlhttprequest
-/api/models?userid=$xmlhttprequest,domain=buktube.com|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|taoxh.life|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhbig.com|xhbranch5.com|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtab4.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
+/api/models?userid=$xmlhttprequest,from=buktube.com|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|taoxh.life|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhbig.com|xhbranch5.com|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtab4.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
 /banners^$xmlhttprequest
 /blaize/datalayer$xhr
 /blaize/datalayer^$xmlhttprequest
@@ -3093,7 +3093,7 @@ ads-manager/ads/*/track-view
 /graph?operation=getSponsoredAds$xmlhttprequest
 /hc/activity$xmlhttprequest
 /insights/reportevent/*$xhr
-/log^$xmlhttprequest,domain=~meet.google.com
+/log^$xmlhttprequest,from=~meet.google.com
 /log_event$xmlhttprequest
 /logimpressions?$xmlhttprequest
 /picserror/*$xmlhttprequest
@@ -3106,7 +3106,7 @@ ads-manager/ads/*/track-view
 /rneve^$xmlhttprequest,script
 /search/tsc.php?$xmlhttprequest
 /stats-collect$xmlhttprequest
-/stats^$xmlhttprequest,domain=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com
+/stats^$xmlhttprequest,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com
 /statsLog^$xmlhttprequest
 /T-V3-BAD-NULL^$xmlhttprequest
 /T-V3-CLIENT-OPS-LOAD^$xmlhttprequest
