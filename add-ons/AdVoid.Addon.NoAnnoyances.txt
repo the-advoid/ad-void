@@ -3,17 +3,18 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1196
-! Last modified: 2025-07-09T18:58:16.109+02:00
+! Version: 2.0.1197
+! Last modified: 2025-07-09T20:05:56.590+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1190
+! Entries: 1191
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
 ! License: https://github.com/the-advoid/ad-void/blob/main/LICENSE
 ! Maintained by: Aria, igorskyflyer and all of the contributors
 ! See the CONTRIBUTORS.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) file for more information
+! See the CONTRIBUTING.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) file for more information on how to contribute
 ! Source: World Wide Web
 
 ! {@0} Domains (global)
@@ -959,6 +960,7 @@ wikipedia.org###centralNotice
 wikipedia.org###siteNotice
 wordreference.com###wotdTR
 wordreference.com##a[title$=" App"]
+www.insmind.com##.agree
 xhamster.*##a[class*="promoMessageBanner-"]
 xhamster.*##div[class*="cookiesAnnounce-"]
 xhamster.com##.dyltv-container
