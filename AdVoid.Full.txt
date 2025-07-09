@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4962
-! Last modified: 2025-07-09T17:18:35.317+02:00
+! Version: 3.0.4963
+! Last modified: 2025-07-09T17:18:55.595+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -2981,8 +2981,8 @@
 ||ekr.zdassets.com^
 ||share.pluso.ru^
 ||widgets.getpocket.com^$3p
-||consent.dropbox.com^$subdocument
-||sasomange.rs/widget1.sasomange.rs$subdocument
+||consent.dropbox.com^$frame
+||sasomange.rs/widget1.sasomange.rs$frame
 
 ! {@5} Subdomains - wildcard (global)
 -amp-error-reporting.cloudfunctions.net^
