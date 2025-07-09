@@ -1,4 +1,4 @@
-||cdn77.org^$script,xmlhttprequest
+||cdn77.org^$script,xhr
 ||xxxviijmp.com^$xhr
 ||adem.my.id^$xhr
 ||pingback.issuu.com^$xhr
@@ -12,7 +12,7 @@
 ||facebook.com/a/bz^$xhr
 ||convertkit.com^*/visit$xhr
 ||myanimelist.net/static/logging.html^$xhr
-||cetin.cz/collector/^$3p,xmlhttprequest
+||cetin.cz/collector/^$3p,xhr
 ||xhamster.com/mlxhl/v1/for-video?$xhr
 ||xhamster.com/api/models?userId=^$xhr
 ||config-security.com/event^$xhr
