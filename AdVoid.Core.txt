@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3577
-! Last modified: 2025-07-09T17:26:08.535+02:00
+! Version: 3.0.3578
+! Last modified: 2025-07-09T17:27:12.407+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -3055,76 +3055,76 @@ ads-manager/ads/*/track-view
 ||xnxx.com/zoneload/^
 
 ! {@9} AJAX paths (global)
-*$xmlhttprequest,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
-.com/add.php^$xmlhttprequest,3p
-/*-ads^$xmlhttprequest
-/_/trace/trace/*$xmlhttprequest
-/_ga^$xmlhttprequest
-/A-V3-DATA-DUMP^$xmlhttprequest
-/A-V4-DATA-DUMP^$xmlhttprequest
-/ad/www/delivery/*$xmlhttprequest
-/ad_break^$xmlhttprequest
+*$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+.com/add.php^$xhr,3p
+/*-ads^$xhr
+/_/trace/trace/*$xhr
+/_ga^$xhr
+/A-V3-DATA-DUMP^$xhr
+/A-V4-DATA-DUMP^$xhr
+/ad/www/delivery/*$xhr
+/ad_break^$xhr
 /ads1.$~xhr,from=~ads-i.org
-/afu.php^$xmlhttprequest
-/ahoy/visits^$xmlhttprequest
-/ajax/ad/*$xmlhttprequest,popup
-/ajax/banner$xmlhttprequest
-/ajax/bz^$xmlhttprequest
-/ajax/get_4ads.php^$xmlhttprequest
-/ajax/top-banner-home-abr.php^$xmlhttprequest
-/analytics_ads^$xmlhttprequest
-/antibot/ab.php$xmlhttprequest
-/api/models?userid=$xmlhttprequest,from=buktube.com|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|taoxh.life|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhbig.com|xhbranch5.com|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtab4.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
-/banners^$xmlhttprequest
+/afu.php^$xhr
+/ahoy/visits^$xhr
+/ajax/ad/*$xhr,popup
+/ajax/banner$xhr
+/ajax/bz^$xhr
+/ajax/get_4ads.php^$xhr
+/ajax/top-banner-home-abr.php^$xhr
+/analytics_ads^$xhr
+/antibot/ab.php$xhr
+/api/models?userid=$xhr,from=buktube.com|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|taoxh.life|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhbig.com|xhbranch5.com|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtab4.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
+/banners^$xhr
 /blaize/datalayer$xhr
-/blaize/datalayer^$xmlhttprequest
-/browserinfo?f.sid=$xmlhttprequest
-/cdn-cgi/trace^$xmlhttprequest
+/blaize/datalayer^$xhr
+/browserinfo?f.sid=$xhr
+/cdn-cgi/trace^$xhr
 /census/recordhit$xhr
-/csync^$xmlhttprequest
-/directory-banner^$xmlhttprequest
-/dot.php^$xmlhttprequest
-/ec/etg^$xmlhttprequest
-/embed-1/ajax/e-1/banners|$xmlhttprequest,strict1p
-/entry_stats^$xmlhttprequest
+/csync^$xhr
+/directory-banner^$xhr
+/dot.php^$xhr
+/ec/etg^$xhr
+/embed-1/ajax/e-1/banners|$xhr,strict1p
+/entry_stats^$xhr
 /event-tracking/*$from=~github.com
-/ezais/analytics?$xmlhttprequest
-/fusion/lucid/data/*$xmlhttprequest
-/graph?operation=getSponsoredAds$xmlhttprequest
-/hc/activity$xmlhttprequest
+/ezais/analytics?$xhr
+/fusion/lucid/data/*$xhr
+/graph?operation=getSponsoredAds$xhr
+/hc/activity$xhr
 /insights/reportevent/*$xhr
-/log^$xmlhttprequest,from=~meet.google.com
-/log_event$xmlhttprequest
-/logimpressions?$xmlhttprequest
-/picserror/*$xmlhttprequest
-/pixel/puclc^$xmlhttprequest
-/prebid$xmlhttprequest
-/reklame/www/delivery/*$xmlhttprequest
-/report_ga_events^$xmlhttprequest
-/reports/performance^$xmlhttprequest
-/resource?zones=$xmlhttprequest
-/rneve^$xmlhttprequest,script
-/search/tsc.php?$xmlhttprequest
-/stats-collect$xmlhttprequest
-/stats^$xmlhttprequest,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com
-/statsLog^$xmlhttprequest
-/T-V3-BAD-NULL^$xmlhttprequest
-/T-V3-CLIENT-OPS-LOAD^$xmlhttprequest
-/T-V3-IFRAME^$xmlhttprequest
-/T-V3-NO-CLIENT-ID^$xmlhttprequest
-/T-V3-OBJECT-OBJECT^$xmlhttprequest
-/T-V3-SLOT-NETWORK-CODE^$xmlhttprequest
-/T-V3-TRUNC^$xmlhttprequest
-/T-V3-WINDOW-PERFORMANCE^$xmlhttprequest
-/Test_oPS_Script_Loads^$xmlhttprequest
-/track-impression^$xmlhttprequest
+/log^$xhr,from=~meet.google.com
+/log_event$xhr
+/logimpressions?$xhr
+/picserror/*$xhr
+/pixel/puclc^$xhr
+/prebid$xhr
+/reklame/www/delivery/*$xhr
+/report_ga_events^$xhr
+/reports/performance^$xhr
+/resource?zones=$xhr
+/rneve^$xhr,script
+/search/tsc.php?$xhr
+/stats-collect$xhr
+/stats^$xhr,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com
+/statsLog^$xhr
+/T-V3-BAD-NULL^$xhr
+/T-V3-CLIENT-OPS-LOAD^$xhr
+/T-V3-IFRAME^$xhr
+/T-V3-NO-CLIENT-ID^$xhr
+/T-V3-OBJECT-OBJECT^$xhr
+/T-V3-SLOT-NETWORK-CODE^$xhr
+/T-V3-TRUNC^$xhr
+/T-V3-WINDOW-PERFORMANCE^$xhr
+/Test_oPS_Script_Loads^$xhr
+/track-impression^$xhr
 /usage/clickstream?$xhr
-/v2/pv-data?$xmlhttprequest
-/vast^$xmlhttprequest
-/vastcams.php^$xmlhttprequest
-/VisualFrontendUi/browserinfo^$xmlhttprequest
-/wutime-adblocktracker/*$xmlhttprequest
-/www/delivery/asyncspc.php^$xmlhttprequest
+/v2/pv-data?$xhr
+/vast^$xhr
+/vastcams.php^$xhr
+/VisualFrontendUi/browserinfo^$xhr
+/wutime-adblocktracker/*$xhr
+/www/delivery/asyncspc.php^$xhr
 _beacon?
 ||com/|$xhr,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
 
