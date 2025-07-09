@@ -310,8 +310,8 @@ _468x60_
 /pxl.png?$image
 /bv-analytics.js^$script
 /mtc.js^$script
-/f.php?nd=*&sid=*&rand=*$popup,document
-/afu.php?zoneid=$popup,document
+/f.php?nd=*&sid=*&rand=*$popup,doc
+/afu.php?zoneid=$popup,doc
 /ruxitagentjs_$script,css
 /cxense-entitlement.js^$script
 /pmc-cxense.js^$script
@@ -340,7 +340,7 @@ _468x60_
 /*&sw=/sw-check-permissions.js^$3p
 /adobe-analytics-$from=~business.adobe.com
 .js?id=gtm-$script
-/submenu/*/&oaid=$popup,document
+/submenu/*/&oaid=$popup,doc
 /discourse-adplugin-$script
 /300x250-$image
 /gapro.js^$script
