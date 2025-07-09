@@ -296,7 +296,7 @@ Logger.js^$script
 /web-pixel-shopify-app-pixel@$script,css,image
 /vidoomy-player.js^$script
 /adfox/*$script
-/adserver.$~xmlhttprequest,from=~konograma.com
+/adserver.$~xhr,from=~konograma.com
 _468x60_
 /tilda-stat-*.js^$script
 /hawklinks.js^$script
