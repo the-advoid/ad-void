@@ -266,7 +266,7 @@ Logger.js^$script
 /clever_ads.js^$script
 /AC_ActiveX.js^$script
 /trendmd.min.js^$script
-/smartad.$script,domain=~smartad.ai
+/smartad.$script,from=~smartad.ai
 /displayad.$~script
 /pxl.gif^$image
 /pum-site-scripts.$script
@@ -296,7 +296,7 @@ Logger.js^$script
 /web-pixel-shopify-app-pixel@$script,css,image
 /vidoomy-player.js^$script
 /adfox/*$script
-/adserver.$~xmlhttprequest,domain=~konograma.com
+/adserver.$~xmlhttprequest,from=~konograma.com
 _468x60_
 /tilda-stat-*.js^$script
 /hawklinks.js^$script
@@ -345,7 +345,7 @@ _468x60_
 /300x250-$image
 /gapro.js^$script
 /www/delivery/*$script
-/siropu/am/core.min.js^$script,important,domain=~audi-sport.net|~hifiwigwam.com
+/siropu/am/core.min.js^$script,important,from=~audi-sport.net|~hifiwigwam.com
 /disable-devtool.min.js^$script
 /mendelstats.js^$script
 -adobe-analytics/$script
