@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4900
-! Last modified: 2025-07-09T16:38:39.824+02:00
+! Version: 3.0.4901
+! Last modified: 2025-07-09T16:39:13.333+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -2564,7 +2564,7 @@
 ||analytics.dealer.com^
 ||analytics.facebook.com^
 ||analytics.getshogun.com^
-||analytics.google.com^$third-party
+||analytics.google.com^$3p
 ||analytics.htmedia.in^
 ||analytics.mobile.yandex.net^
 ||analytics.mouthshut.com^
@@ -2615,7 +2615,7 @@
 ||business.samsungusa.com^
 ||buzzer.xhamster.com^
 ||c.bing.com^
-||cdn.branch.io^$third-party
+||cdn.branch.io^$3p
 ||cdn.krxd.net^
 ||cdn.mouseflow.com^
 ||cdn.segment.com^
@@ -2766,7 +2766,7 @@
 ||insights.algolia.io^
 ||insitez.blob.core.windows.net^
 ||interactive.forthnet.gr^
-||io.narrative.io^$third-party
+||io.narrative.io^$3p
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
 ||jnn-pa.googleapis.com^
