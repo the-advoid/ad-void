@@ -3,7 +3,7 @@
 /SocialTool.min.js^$script
 /share.*.js^$script
 /feed_external.php^
-/addtoany.min.css^$stylesheet
+/addtoany.min.css^$css
 /addtoany.min.js^$script
 /pinit.js^$script
 /amp-addthis*.js^$script
@@ -15,7 +15,7 @@
 /social-media.js^$script
 /provider.cast.js^$script
 /fb-sdk.js^$script
-/sassy-social-share-svg.css^$stylesheet
+/sassy-social-share-svg.css^$css
 /fb.min.js^$script
 /videojs-social.*.js^$script
 /silvermine-videojs-chromecast.min.js^$script
@@ -26,11 +26,11 @@
 /amp-twitter-*.js^$script
 /amp-geo-*.mjs^$script
 /marketingNotificationsUnit-*.js^$script
-/el-social-icons.min.css^$stylesheet
+/el-social-icons.min.css^$css
 /sharedaddy/sharing.*.js^$script
 /browser-push-notifications.js^$script
 /LikePosts.js^$script
-/LikePosts.css^$stylesheet
+/LikePosts.css^$css
 /wp-content/*/social_$~stylesheet
 /videojs-share.$script
 /wp-content/plugins/mailoptin/*
@@ -50,7 +50,7 @@ sassy-social-share-public*.$script,stylesheet
 /footer/facebook-$image
 /footer/instagram-$image
 /simple-share-$~stylesheet
-/dark-magenta-alternate/css/share.css^$stylesheet
+/dark-magenta-alternate/css/share.css^$css
 /share-button.*.js^$script
 -share-bar/$~stylesheet
 /pmc-social-share-bar/*
