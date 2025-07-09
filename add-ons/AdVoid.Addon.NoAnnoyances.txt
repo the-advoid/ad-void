@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1187
-! Last modified: 2025-07-09T17:05:32.011+02:00
+! Version: 2.0.1188
+! Last modified: 2025-07-09T17:08:13.000+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1187
@@ -151,7 +151,7 @@
 /gpt.js^$script
 /htdocs/js/admiral/init.js^$script
 /jquery.cookie.min.js^$script
-/js.cookie.js^$script,domain=~ascii-generator.site
+/js.cookie.js^$script,from=~ascii-generator.site
 /kraken-service-worker.js^$script
 /mailchimp-woocommerce-public.min.js^$script
 /ManageCookieDrop.js^$script
@@ -182,7 +182,7 @@
 /wp-content/plugins/cookie-law-info/*
 /wp-content/plugins/gdpr-cookie-compliance/*$script
 /wp-content/plugins/q2w3-fixed-widget/*
-/wrappermessagingwithoutdetection.js^$script,domain=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
+/wrappermessagingwithoutdetection.js^$script,from=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 /zdconsent.js^$script
 amp-web-push*js^$script
 cookie-law*.$script,css
