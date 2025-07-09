@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, location trackers, etc.
-! Version: 2.0.642
-! Last modified: 2025-07-09T16:46:39.307+02:00
+! Version: 2.0.643
+! Last modified: 2025-07-09T16:52:14.647+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 723
@@ -50,7 +50,7 @@
 
 ! {@4} Files (global)
 -share-bar/$~stylesheet
-/addtoany.min.css^$stylesheet
+/addtoany.min.css^$css
 /addtoany.min.js^$script
 /amp-addthis*.js^$script
 /amp-facebook-*.js^$script
@@ -63,9 +63,9 @@
 /cast_framework.js^$script
 /cast_sender.js^$script
 /cookie-notice/*$~stylesheet
-/dark-magenta-alternate/css/share.css^$stylesheet
+/dark-magenta-alternate/css/share.css^$css
 /dropins.js^$script
-/el-social-icons.min.css^$stylesheet
+/el-social-icons.min.css^$css
 /facebook.mjs^$script
 /facebook_share_$image
 /fb-sdk.js^$script
@@ -77,7 +77,7 @@
 /footer/twitter-$image
 /jsshare.js^$script
 /KernelTeamVideoSharing*.js^$script
-/LikePosts.css^$stylesheet
+/LikePosts.css^$css
 /LikePosts.js^$script
 /marketingNotificationsUnit-*.js^$script
 /news_widget_amc^
@@ -87,7 +87,7 @@
 /pmc-social-share-bar/*
 /provider.cast.js^$script
 /rpc.php^
-/sassy-social-share-svg.css^$stylesheet
+/sassy-social-share-svg.css^$css
 /share-button.*.js^$script
 /share.*.js^$script
 /share_buttons_
