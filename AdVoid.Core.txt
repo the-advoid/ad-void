@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3517
-! Last modified: 2025-07-09T16:37:15.072+02:00
+! Version: 3.0.3518
+! Last modified: 2025-07-09T16:38:59.579+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -2502,7 +2502,7 @@
 ||analytics.dealer.com^
 ||analytics.facebook.com^
 ||analytics.getshogun.com^
-||analytics.google.com^$third-party
+||analytics.google.com^$3p
 ||analytics.htmedia.in^
 ||analytics.mobile.yandex.net^
 ||analytics.mouthshut.com^
@@ -2553,7 +2553,7 @@
 ||business.samsungusa.com^
 ||buzzer.xhamster.com^
 ||c.bing.com^
-||cdn.branch.io^$third-party
+||cdn.branch.io^$3p
 ||cdn.krxd.net^
 ||cdn.mouseflow.com^
 ||cdn.segment.com^
@@ -2704,7 +2704,7 @@
 ||insights.algolia.io^
 ||insitez.blob.core.windows.net^
 ||interactive.forthnet.gr^
-||io.narrative.io^$third-party
+||io.narrative.io^$3p
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
 ||jnn-pa.googleapis.com^
