@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3580
-! Last modified: 2025-07-09T17:28:33.425+02:00
+! Version: 3.0.3581
+! Last modified: 2025-07-09T17:28:54.865+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -3796,15 +3796,15 @@ ab=1
 ab_test=AdOpt
 ablk=
 abp=1
-abr={IsAdblockRequest}$xmlhttprequest
+abr={IsAdblockRequest}$xhr
 abvar=
 action=js_online_status
 action=js_stats
 ad_id=
-ad_size=$xmlhttprequest
+ad_size=$xhr
 ad_unit_id=
-adarea=$xmlhttprequest
-adb=y$xmlhttprequest
+adarea=$xhr
+adb=y$xhr
 adblk=
 adblock=1
 adblocked=
@@ -3821,7 +3821,7 @@ aff_ad=
 aff_id=
 aff_sub=
 agent.php?spot=
-banner.id=$xmlhttprequest
+banner.id=$xhr
 BANNER_ID=
 bannerid=
 bannnerid=
@@ -3834,9 +3834,9 @@ cookie=ec_etag
 counters=
 event=impressions
 event=PageVisit
-event_category=campaign$xmlhttprequest
-event_label=popup_blocked$xmlhttprequest
-event_value=pg_pop$xmlhttprequest
+event_category=campaign$xhr
+event_label=popup_blocked$xhr
+event_value=pg_pop$xhr
 js_build=iclick
 noads=
 OACBLOCK=
