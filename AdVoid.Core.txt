@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3566
-! Last modified: 2025-07-09T17:19:55.414+02:00
+! Version: 3.0.3567
+! Last modified: 2025-07-09T17:20:28.476+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -160,7 +160,7 @@
 ||adxpremium.services^
 ||adxsrver.com^
 ||ae57ve.com^
-||affcpatrk.com^$document
+||affcpatrk.com^$doc
 ||affluentshinymulticultural.com^
 ||affpa.top^
 ||afgr1.com^
@@ -613,7 +613,7 @@
 ||dimpuxoh.net^
 ||dinclinx.com^
 ||dingholog.com^
-||directdexchange.com^$document
+||directdexchange.com^$doc
 ||diromalxx.com^
 ||dishwaterconcedehearty.com^
 ||dismantlepenantiterrorist.com^
@@ -750,7 +750,7 @@
 ||ezoic.net^
 ||ezojs.com^
 ||f9pennsy3glvkm6ania.com^
-||facevideosc.com^$document,popup
+||facevideosc.com^$doc,popup
 ||facilitatevoluntarily.com^
 ||facilitypestilent.com^
 ||facinggleg.life^
@@ -1418,7 +1418,7 @@
 ||oblongseller.com^
 ||obmvfiruckuz.com^
 ||obplwenpukme.com^
-||obqj2.com^$document
+||obqj2.com^$doc
 ||obsessivepetsbean.com^
 ||obtaintrout.com^
 ||occbfyjmacka.com^
