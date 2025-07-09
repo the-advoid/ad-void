@@ -50,7 +50,7 @@
 /search/tsc.php?$xmlhttprequest
 /resource?zones=$xmlhttprequest
 _beacon?
-.com/add.php^$xmlhttprequest,third-party
+.com/add.php^$xmlhttprequest,3p
 /ahoy/visits^$xmlhttprequest
 /blaize/datalayer^$xmlhttprequest
 /fusion/lucid/data/*$xmlhttprequest
@@ -63,7 +63,7 @@ _beacon?
 *$xmlhttprequest,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 /embed-1/ajax/e-1/banners|$xmlhttprequest,strict1p
 ! aglint-disable-next-line invalid-modifiers
-||com/|$xhr,third-party,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
+||com/|$xhr,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
 /graph?operation=getSponsoredAds$xmlhttprequest
 /v2/pv-data?$xmlhttprequest
 /ads1.$~xhr,from=~ads-i.org
