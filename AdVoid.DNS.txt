@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 3.0.1295
-! Last modified: 2025-07-09T17:21:03.331+02:00
+! Version: 3.0.1296
+! Last modified: 2025-07-09T17:22:36.830+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 2931
@@ -2399,7 +2399,7 @@
 ||37.1.213.100^
 ||5.255.255.77^
 ||54.229.239.44^
-||com/$document,ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
+||com/$doc,ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 
 ! {@2} Subdomains (global)
 ||ads.google.com^
