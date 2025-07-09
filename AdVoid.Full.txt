@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4939
-! Last modified: 2025-07-09T17:03:07.972+02:00
+! Version: 3.0.4940
+! Last modified: 2025-07-09T17:03:34.587+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -2434,7 +2434,7 @@
 ||truevaultcdn.com^$3p
 ||trustpilot.com^$3p
 ||usefulcontentsites.com^
-||usercentrics.eu^$3p,domain=~rts.ch
+||usercentrics.eu^$3p,from=~rts.ch
 ||webpushr.com^$3p
 ||zergnet.com^$3p
 ||zopim.com^
