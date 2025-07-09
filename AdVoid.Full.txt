@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4928
-! Last modified: 2025-07-09T16:55:13.260+02:00
+! Version: 3.0.4929
+! Last modified: 2025-07-09T16:55:55.908+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -3284,9 +3284,9 @@ _beacon?
 
 ! {@11} Files (global)
 -adobe-analytics/$script
--contrib-ads.$~stylesheet
--sticky-ad-$script,stylesheet,image
--universal-analytics/$script,stylesheet
+-contrib-ads.$~css
+-sticky-ad-$script,css,image
+-universal-analytics/$script,css
 .ads.css^$css
 .airlytics.*.js^$script
 .amznHdBid.*.js^$script
@@ -3396,7 +3396,7 @@ _beacon?
 /code/native.js?h=$script
 /cohesion-latest.min.js^$script
 /common-player-arrow/index.html?var=*&zoneid=$document
-/contents/other/player/*$script,stylesheet,image
+/contents/other/player/*$script,css,image
 /counter.js^$script
 /counters.gif^$image
 /critical-tracking-scripts-*.js^$script
@@ -3420,7 +3420,7 @@ _beacon?
 /dotcom-preroll.js^$script
 /dotmetrics*.js^$script
 /doubleclick_instream_ad_status.js^$script
-/duracelltomi-google-tag-manager/*$script,stylesheet
+/duracelltomi-google-tag-manager/*$script,css
 /e.gif?$image
 /edmontonalberta/*.js^$script
 /elfsight-popup.js^$script
@@ -3466,7 +3466,7 @@ _beacon?
 /gtmpixel.js^$script
 /hawklinks.js^$script
 /hit.xiti^
-/house-ad/*$script,stylesheet,image
+/house-ad/*$script,css,image
 /house-ads/*$image
 /hs.go-to.js^$script
 /htmlPauseRoll/pb_block
@@ -3492,7 +3492,7 @@ _beacon?
 /metrics.js^$script
 /micro.tag.min.js^$script
 /mtc.js^$script
-/mts-wp-in-post-ads/*$script,stylesheet,image
+/mts-wp-in-post-ads/*$script,css,image
 /nano-ppc-media-tracking*.js^$script
 /narrativ-pub.*.js^$script
 /nb/nbbl_*.php^
@@ -3522,7 +3522,7 @@ _beacon?
 /plausible.js$domain=~plausible.io
 /player.vast.*.js^$script
 /plugins/ad-invalid-click-protector/*$script
-/plugins/meks-easy-ads-widget/*$script,stylesheet
+/plugins/meks-easy-ads-widget/*$script,css
 /plusone.js^$script
 /pmc-cxense.js^$script
 /pop4.php^
@@ -3537,7 +3537,7 @@ _beacon?
 /preconnect.gif^$image
 /prepop.php^
 /productAdsScroll.js^$script
-/production/ads/*$script,stylesheet,image
+/production/ads/*$script,css,image
 /projectagora.min.js^$script
 /promo.php^
 /promo_float_banner.*.js^$script
@@ -3559,7 +3559,7 @@ _beacon?
 /rep.js^$script
 /report*.js^$script
 /resfgabp.js^$script
-/ruxitagentjs_$script,stylesheet
+/ruxitagentjs_$script,css
 /sa.gif?$image
 /sanTracking.js^$script
 /sbar.json^
@@ -3567,10 +3567,10 @@ _beacon?
 /seattle/*.js^$script
 /sentry-js.min.js^$script
 /sentry.*.js^$script
-/shopify-boomerang-$script,stylesheet,image
+/shopify-boomerang-$script,css,image
 /shopifycloud/shopify/assets/shop_events_listener-$script
 /showads*.js^$script
-/simple-banner/simple-banner.$script,stylesheet
+/simple-banner/simple-banner.$script,css
 /siropu/am/core.min.js^$script,important,domain=~audi-sport.net|~hifiwigwam.com
 /smartad.$script,domain=~smartad.ai
 /solid.gif^$image
@@ -3611,7 +3611,7 @@ _beacon?
 /ut.js?cb=$script
 /utag*.js^$script
 /valnet-header-ads.*.js^$script
-/valnet-header.$script,stylesheet
+/valnet-header.$script,css
 /vast-im.js^$script
 /vast.js^$script
 /vast.vpaid.*.js^$script
@@ -3626,10 +3626,10 @@ _beacon?
 /videopack-ads/*/video*.js^$script
 /vidoomy-player.js^$script
 /vortex-simple-*.js^$script
-/web-pixel-shopify-app-pixel@$script,stylesheet,image
+/web-pixel-shopify-app-pixel@$script,css,image
 /web-vitals.$script
 /webads.js^$script
-/wp-content/plugins/wp-ad-guru/*$script,stylesheet
+/wp-content/plugins/wp-ad-guru/*$script,css
 /wp2leads/*/*.js^$script
 /ws-tracking.js^$script
 /www/delivery/*$script
