@@ -2,7 +2,7 @@
 ||xxxviijmp.com^$xmlhttprequest
 ||adem.my.id^$xmlhttprequest
 ||pingback.issuu.com^$xmlhttprequest
-||blic.rs/widget/carousel^$third-party
+||blic.rs/widget/carousel^$3p
 ||intake-analytics.wikimedia.org^$xmlhttprequest
 ||vivaldi.com/rep/rep^$xmlhttprequest
 ||xhamster.*/api/models/vast*preroll$xmlhttprequest
@@ -12,7 +12,7 @@
 ||facebook.com/a/bz^$xmlhttprequest
 ||convertkit.com^*/visit$xmlhttprequest
 ||myanimelist.net/static/logging.html^$xmlhttprequest
-||cetin.cz/collector/^$third-party,xmlhttprequest
+||cetin.cz/collector/^$3p,xmlhttprequest
 ||xhamster.com/mlxhl/v1/for-video?$xmlhttprequest
 ||xhamster.com/api/models?userId=^$xmlhttprequest
 ||config-security.com/event^$xmlhttprequest
@@ -40,7 +40,7 @@
 ||vimeo.com/ablincoln/
 ||collector.xhamster.desi^
 ||mediadelivery.net/.metrics/$xmlhttprequest
-||events.launchdarkly.com^$third-party
+||events.launchdarkly.com^$3p
 ||mmcdn.com/events/$xmlhttprequest
 ||youtube.com/youtubei/v1/player?$xmlhttprequest,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||doubleclick.net^$xmlhttprequest,redirect-rule=noop.txt
