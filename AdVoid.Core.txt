@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3518
-! Last modified: 2025-07-09T16:38:59.579+02:00
+! Version: 3.0.3519
+! Last modified: 2025-07-09T16:39:27.824+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -3135,9 +3135,9 @@ _beacon?
 ||adem.my.id^$xmlhttprequest
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
 ||api.github.com/_private/browser/errors^$xmlhttprequest
-||blic.rs/widget/carousel^$third-party
+||blic.rs/widget/carousel^$3p
 ||cdn77.org^$script,xmlhttprequest
-||cetin.cz/collector/^$third-party,xmlhttprequest
+||cetin.cz/collector/^$3p,xmlhttprequest
 ||cloudflare.com/cdn-cgi/trace$xmlhttprequest,third-party,redirect-rule=noop.txt,domain=~1bit.space|~1bitspace.com|~funimation.com
 ||collector.xhamster.desi^
 ||config-security.com/event^$xmlhttprequest
@@ -3146,7 +3146,7 @@ _beacon?
 ||dev.to/fallback_activity_recorder^$xmlhttprequest
 ||disqus.com/api/ping$xmlhttprequest
 ||doubleclick.net^$xmlhttprequest,redirect-rule=noop.txt
-||events.launchdarkly.com^$third-party
+||events.launchdarkly.com^$3p
 ||facebook.com/a/bz^$xmlhttprequest
 ||facebook.com/ajax/qm/$xmlhttprequest
 ||facebook.com/method/links.getstats^$xmlhttprequest
