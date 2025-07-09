@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4961
-! Last modified: 2025-07-09T17:18:04.806+02:00
+! Version: 3.0.4962
+! Last modified: 2025-07-09T17:18:35.317+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -2457,8 +2457,8 @@
 ||userway.org^$3p
 ||workerz1.com^
 ||zworker11.me^
-||mnuu.nu^$subdocument
-||netvisiteurs.com^$subdocument
+||mnuu.nu^$frame
+||netvisiteurs.com^$frame
 
 ! {@1} Domains - wildcard (global)
 -pglstatp.com^
