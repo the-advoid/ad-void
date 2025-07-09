@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3542
-! Last modified: 2025-07-09T17:01:59.967+02:00
+! Version: 3.0.3543
+! Last modified: 2025-07-09T17:02:30.624+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5642
@@ -2427,7 +2427,7 @@
 ||com/$document,ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 
 ! {@5} Subdomains (global)
-//matomo.$domain=~matomo.org
+//matomo.$from=~matomo.org
 ||10945-4.s.cdn15.com^
 ||1558334541.rsc.cdn77.org^
 ||a.apkpure.com^
@@ -2786,7 +2786,7 @@
 ||pixel.tatpek.com^
 ||pixel.wp.com^
 ||player-logs-service-*.run.app^
-||player.anyclip.com^$domain=dictionary.com
+||player.anyclip.com^$from=dictionary.com
 ||plx.porndig.com^
 ||pns-sdk.opera-api.com^
 ||pr-bh.ybp.yahoo.com^
