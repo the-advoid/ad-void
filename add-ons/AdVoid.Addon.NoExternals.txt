@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, location trackers, etc.
-! Version: 2.0.640
-! Last modified: 2025-07-09T16:38:35.281+02:00
+! Version: 2.0.641
+! Last modified: 2025-07-09T16:40:27.414+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 723
@@ -17,23 +17,23 @@
 ! Source: World Wide Web
 
 ! {@0} Domains (global)
-||addtoany.com^$third-party
-||chatango.com^$third-party
+||addtoany.com^$3p
+||chatango.com^$3p
 ||chatbro.com^
 ||gubagoo.io^
-||helpscout.net^$third-party
-||livechatinc.com^$third-party
-||mailerlite.com^$third-party
+||helpscout.net^$3p
+||livechatinc.com^$3p
+||mailerlite.com^$3p
 ||purechat.com^
 ||sharedid.org^
 ||shareron.xyz^
 ||sharethis.com^
 ||sharethrough.com^
-||smartsuppchat.com^$third-party
-||sprinklr.com$third-party
+||smartsuppchat.com^$3p
+||sprinklr.com$3p
 ||tawk.to^
-||tidio.co^$third-party
-||userway.org^$third-party
+||tidio.co^$3p
+||userway.org^$3p
 
 ! {@1} Subdomains (global)
 ||connect.facebook.net^$3p,from=~facebook.com|~fb.com
