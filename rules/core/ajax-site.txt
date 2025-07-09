@@ -18,7 +18,7 @@
 ||config-security.com/event^$xmlhttprequest
 ||api.github.com/_private/browser/errors^$xmlhttprequest
 ||xvideos.com/zoneload/$xmlhttprequest
-/^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,3p,domain=~amazon.com
+/^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xmlhttprequest,3p,from=~amazon.com
 ||smy.iheart.com^$xmlhttprequest
 ||xp.apple.com^$xmlhttprequest
 ||xp2.apple.com^$xmlhttprequest
@@ -44,10 +44,10 @@
 ||mmcdn.com/events/$xmlhttprequest
 ||youtube.com/youtubei/v1/player?$xmlhttprequest,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||doubleclick.net^$xmlhttprequest,redirect-rule=noop.txt
-||googlevideo.com/videoplayback*&ctier=l&*%2cctier%2c$xmlhttprequest,3p,domain=m.youtube.com|music.youtube.com|www.youtube.com
+||googlevideo.com/videoplayback*&ctier=l&*%2cctier%2c$xmlhttprequest,3p,from=m.youtube.com|music.youtube.com|www.youtube.com
 ||datahub-srgssr.ch/tracking/$xmlhttprequest
 ||disqus.com/api/ping$xmlhttprequest
-||cloudflare.com/cdn-cgi/trace$xmlhttprequest,3p,redirect-rule=noop.txt,domain=~1bit.space|~1bitspace.com|~funimation.com
+||cloudflare.com/cdn-cgi/trace$xmlhttprequest,3p,redirect-rule=noop.txt,from=~1bit.space|~1bitspace.com|~funimation.com
 ||facebook.com/ajax/qm/$xmlhttprequest
 ||www.youtube.com/s/player/*/base.js$xmlhttprequest,replace=/if\(e===""\)/if(0)/
 *$xmlhttprequest,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
