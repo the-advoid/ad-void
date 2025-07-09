@@ -109,7 +109,7 @@
 ||bing.com/fd/ls/l?ig=$image
 ||ay.delivery/client-v2.js^$script,3p,redirect-rule=noop.js
 ||unpkg.com/videojs-vast-vpaid@$script
-||ziffstatic.com/pg/$script,stylesheet
+||ziffstatic.com/pg/$script,css
 *$script,redirect-rule=noop.js,from=next-episode.net
 ||assets.hearstapps.com/commerce/release/affiliate-$script
 ||apps.bazaarvoice.com/analytics/$script
