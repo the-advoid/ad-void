@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4927
-! Last modified: 2025-07-09T16:54:34.328+02:00
+! Version: 3.0.4928
+! Last modified: 2025-07-09T16:55:13.260+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7563
@@ -3747,7 +3747,7 @@ cookie-law*.$script,stylesheet
 /jquery.smartwebbanner.min.js^$script
 /news_widget.js^$script
 /swfobject.js^$script
--share-bar/$~stylesheet
+-share-bar/$~css
 /addtoany.min.css^$css
 /addtoany.min.js^$script
 /amp-addthis*.js^$script
@@ -3760,7 +3760,7 @@ cookie-law*.$script,stylesheet
 /browser-push-notifications.js^$script
 /cast_framework.js^$script
 /cast_sender.js^$script
-/cookie-notice/*$~stylesheet
+/cookie-notice/*$~css
 /dark-magenta-alternate/css/share.css^$css
 /dropins.js^$script
 /el-social-icons.min.css^$css
@@ -3792,7 +3792,7 @@ cookie-law*.$script,stylesheet
 /sharedaddy/sharing.*.js^$script
 /silvermine-videojs-chromecast.js^$script
 /silvermine-videojs-chromecast.min.js^$script
-/simple-share-$~stylesheet
+/simple-share-$~css
 /social-media.js^$script
 /SocialTool.min.js^$script
 /twitter_share_$image
@@ -3800,12 +3800,12 @@ cookie-law*.$script,stylesheet
 /videojs-share.$script
 /videojs-social.*.js^$script
 /videojs.pip.js^$script
-/wp-content/*/social_$~stylesheet
-/wp-content/plugins/add-to-any/addtoany.min.$script,stylesheet
-/wp-content/plugins/kadence-simple-share/*$script,stylesheet,image
+/wp-content/*/social_$~css
+/wp-content/plugins/add-to-any/addtoany.min.$script,css
+/wp-content/plugins/kadence-simple-share/*$script,css,image
 /wp-content/plugins/mailoptin/*
 /wp-content/plugins/social-warfare/*
-sassy-social-share-public*.$script,stylesheet
+sassy-social-share-public*.$script,css
 /ads/bid*.aspx^$subdocument
 /related_1.html?$subdocument,3p
 /web-pixel-shopify-custom-pixel@$subdocument
