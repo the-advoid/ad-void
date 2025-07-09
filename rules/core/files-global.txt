@@ -99,8 +99,7 @@
 /firebase.js^$script
 /adsbygoogle.js^$script
 /push.js^$script
-/noop*.js$script
-ad-manager
+/noop*.js$script,from=~insmind.com
 /sanTracking.js^$script
 /tracker.js^$script
 /tracker.min.js^$script
