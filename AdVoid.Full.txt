@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4992
-! Last modified: 2025-07-09T18:25:42.040+02:00
+! Version: 3.0.4993
+! Last modified: 2025-07-09T18:26:12.307+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7568
+! Entries: 7569
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7421,6 +7421,7 @@ decider.com##+js(set-constant, admiral, noopFunc)
 dood.re##+js(addEventListener-defuser, contextmenu)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
 duckduckgo.com##+js(set-cookie, dcm, 3)
+duckduckgo.com##+js(trusted-set-local-storage-item, adblockNotice, '{"dismissed":true,"impressionCount":1}')
 duplichecker.com##*:style(animation: none !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
 emojipedia.org##+js(abort-current-script, Uint8Array, getAndSetOverlay)
