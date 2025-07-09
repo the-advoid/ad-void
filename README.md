@@ -55,7 +55,7 @@
 <blockquote align="center">
   💕<em>Since Dec 19 2022, this project is supported by the <a href="https://adguard.com" target="_blank">AdGuard</a> <sup>(*)</sup> team.</em> 🥳
   <br>
-  <sub>* support via a free developer license being given</sub>
+  <sub>* support via a free 1y developer license being given</sub>
 </blockquote>
 
 <br>
