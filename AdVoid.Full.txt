@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5079
-! Last modified: 2025-07-11T18:18:12.992+02:00
+! Version: 3.0.5080
+! Last modified: 2025-07-11T18:18:32.445+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7620
+! Entries: 7621
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7593,6 +7593,7 @@ platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]
 plex.tv##+js(set-cookie, plex_tv_cookie_consent, 2)
 quillbot.com##+js(set-local-storage-item, gcSurveyMonkeyShown, true)
 quillbot.com##+js(set-local-storage-item, mode-quills, $remove$)
+quillbot.com##+js(set-local-storage-item, showPrivacyBannerNov2023, false)
 quillbot.com##+js(set-local-storage-item, showPromoBanner, false)
 quora.com##+js(set-constant, ansFrontendGlobals.settings.signupWallType, undefined)
 radiotimes.com##+js(remove-class, sp-message-open, html, stay)
