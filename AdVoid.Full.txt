@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5051
-! Last modified: 2025-07-11T16:14:35.973+02:00
+! Version: 3.0.5052
+! Last modified: 2025-07-11T16:14:58.584+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7606
+! Entries: 7607
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7234,6 +7234,7 @@ sporcle.com##+js(abort-current-script, document.createElement, '/admiral|String\
 sporcle.com##+js(abort-current-script, document.createElement, admiral)
 sporcle.com##+js(abort-on-property-read, googletag)
 spotify.com##+js(set-constant, navigator.globalPrivacyControl, false)
+spotify.com##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
 ssstik.io##body:style(overflow: auto!important;)
 storiesig.info.*##+js(no-window-open-if)
 streambucket.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByTagName[\s\S]*?insertBefore/)
