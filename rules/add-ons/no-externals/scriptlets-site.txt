@@ -1,1 +1,2 @@
 myflixerz.*##+js(set-cookie, show_share, true)
+check-host.net##+js(remove-node-text, span, /Поделиться|Share on/)
