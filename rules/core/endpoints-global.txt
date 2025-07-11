@@ -27,7 +27,7 @@ ads-manager/ads/*/track-view
 /_adserver/*
 /ad-click^
 /_hcms/perf^
-/track^
+/track^$from=~spotify.com
 /ads/eyeo^
 /__track/*
 /interstitial_v1^
