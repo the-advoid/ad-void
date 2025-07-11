@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1209
-! Last modified: 2025-07-11T17:52:21.270+02:00
+! Version: 2.0.1210
+! Last modified: 2025-07-11T18:17:26.536+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1198
+! Entries: 1199
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1154,6 +1154,7 @@ pinterest.*##.gridCentered:style(margin-top: auto !important;)
 pinterest.*##body:style(overflow: visible!important; touch-action: auto!important;)
 platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","indices":([^"]+)"url":"[^"]+"/g', ',"expanded_url":"$1","indices":$2"url":"$1"', /tweet-result)
 plex.tv##+js(set-cookie, plex_tv_cookie_consent, 2)
+quillbot.com##+js(set-local-storage-item, mode-quills, $remove$)
 quora.com##+js(set-constant, ansFrontendGlobals.settings.signupWallType, undefined)
 radiotimes.com##+js(remove-class, sp-message-open, html, stay)
 readcomiconline.li##+js(addEventListener-defuser, /keydown|contextmenu/)
