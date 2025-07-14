@@ -135,3 +135,4 @@
 ||check-host.net/*-en.png^$image
 ||check-host.net/*-ru.png^$image
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect-rule=google-ima.js,from=plex.tv
+||sascdn.com/diff/$script,redirect-rule=noop.js,from=imgur.com
