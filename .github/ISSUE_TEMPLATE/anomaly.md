@@ -13,13 +13,12 @@ assignees: igorskyflyer
 -->
 
 ### Issue
+<!-- The issue you're facing and if applicable, its device mode (desktop, tablet, mobile) -->
 
-
-<br>
 
 ### URL
-
-
-<br>
+<!-- The URL where the issue can be observed -->
+https://
 
 ### Occurrence
+<!-- Does the anomaly occur always or only with certain triggers -->
