@@ -134,3 +134,4 @@
 ||open.spotifycdn.com/cdn/js/retargeting-pixels.*.js^$script
 ||check-host.net/*-en.png^$image
 ||check-host.net/*-ru.png^$image
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect-rule=google-ima.js,from=plex.tv
