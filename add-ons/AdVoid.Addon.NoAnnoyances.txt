@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1223
-! Last modified: 2025-07-14T20:25:16.426+02:00
+! Version: 2.0.1224
+! Last modified: 2025-07-14T21:13:38.987+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1212
+! Entries: 1213
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1222,6 +1222,7 @@ tvbalkanuzivo.com##+js(no-setInterval-if, , 4000)
 tvbalkanuzivo.com##+js(no-setTimeout-if, , 5000)
 tvinsider.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
 tvinsider.com##+js(set-constant, admiral, noopFunc)
+tvprofil.com##+js(trusted-set-cookie, gdpr_consent, necessary%3D1%26analytics%3D0, '', '', domain, tvprofil.com, reload, 1)
 twitter.com##+js(set-cookie, twtr_pixel_opt_in, N)
 twitter.com##html:style(overflow:auto!important)
 txxx.com##.jwplayer:style(max-height: initial!important;)
