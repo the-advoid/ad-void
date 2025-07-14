@@ -71,3 +71,4 @@ _beacon?
 /census/recordhit$xhr
 /blaize/datalayer$xhr
 /?sentry_version=$xhr
+/analytics-client-identification/*$xhr
