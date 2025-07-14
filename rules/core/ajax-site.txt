@@ -61,3 +61,4 @@
 ||collector.quillbot.com^$xhr
 ||paypal.com/platform/tealeaftarget$xhr
 ||hoo.be/api/hoobe/analytics$xhr
+||google.com/log?$xhr,redirect-rule=noop.txt
