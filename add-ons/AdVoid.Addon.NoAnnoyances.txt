@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1226
-! Last modified: 2025-07-14T23:14:59.055+02:00
+! Version: 2.0.1227
+! Last modified: 2025-07-15T20:00:41.136+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1215
+! Entries: 1216
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1210,6 +1210,7 @@ theverge.com##+js(remove-cookie, blaize_tracking_id)
 theverge.com##+js(set-cookie, _duet_gdpr_acknowledged, 1)
 thewindowsclub.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
 thewindowsclub.com##+js(set-constant, ezAardvarkDetected, false)
+threads.com##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
 tiktok.com##+js(addEventListener-defuser, keydown)
