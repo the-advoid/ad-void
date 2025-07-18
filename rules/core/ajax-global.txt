@@ -73,3 +73,4 @@ _beacon?
 /?sentry_version=$xhr
 /analytics-client-identification/*$xhr
 /trackpageview/*$xhr
+/ahoy/visits$xhr
