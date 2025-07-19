@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1229
-! Last modified: 2025-07-15T20:01:55.435+02:00
+! Version: 2.0.1230
+! Last modified: 2025-07-19T08:22:38.616+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1218
@@ -764,6 +764,7 @@ cookie-law*.$script,css
 ##[class^="UseCookie_useCookieModle__"]
 ##[data-name="CookieConsent"]
 ##[data-testid="cookie-banner"]
+##[data-testid="cookies-consent-banner"]
 ##[data-testid="cookies-dialog"]
 ##[data-view-name="privacy-updated-notice"]
 ##[id$="-cookie-bar"]
@@ -1041,7 +1042,6 @@ dood.re##+js(addEventListener-defuser, contextmenu)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
 duckduckgo.com##+js(set-cookie, dcm, 3)
 duckduckgo.com##+js(trusted-set-local-storage-item, adblockNotice, '{"dismissed":true,"impressionCount":1}')
-duplichecker.com##*:style(animation: none !important;)
 edreams.de###didomi-host:style(visibility: hidden !important;)
 edreams.de##body:style(overflow: auto !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
