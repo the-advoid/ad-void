@@ -577,3 +577,4 @@
 ##.pwa-install-notification-wrapper
 ##.cookie-consent-content
 ##[class^="Components_cookies_container__"]
+##[data-testid="cookies-consent-banner"]
