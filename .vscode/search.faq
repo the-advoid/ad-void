@@ -1,0 +1,15 @@
+{
+	"searches": {
+		"AdVoid rules": {
+			"include": "**/**.txt",
+			"exclude": "**/AdVoid*.txt, ./add-ons/**, ./legacy/**",
+			"caseSensitive": true,
+			"description": "Search AdVoid rules"
+		},
+		"AdVoid lists": {
+			"include": "./AdVoid.*.txt, ./add-ons/AdVoid.*.txt",
+			"caseSensitive": true,
+			"description": "Search AdVoid lists"
+		}
+	}
+}
