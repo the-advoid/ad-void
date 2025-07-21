@@ -63,3 +63,4 @@
 ||hoo.be/api/hoobe/analytics$xhr
 ||google.com/log?$xhr,redirect-rule=noop.txt
 ||myanimelist.net/ma/s$xhr
+||gsmarena.com/*.php3?sSearch=$xhr,1p,from=gsmarena.com
