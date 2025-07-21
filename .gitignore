@@ -1,4 +1,5 @@
-.vscode/
+.vscode/*
+!.vscode/search.faq
 node_modules/
 bin/
 assets/*.afdesign
