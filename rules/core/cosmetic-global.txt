@@ -366,7 +366,7 @@
 ##.ad_large_square
 ##[class*="AdContainer"]
 ##.bigad
-##.ads-top-center
+##-top-center
 ##.ads-below-view-content
 ##.ads-bottom-center
 ###ad_contx
@@ -990,3 +990,4 @@
 ###bottomads
 ##.ads_top_container_publift
 ##[class^="publift_in_content_"]
+###AdContainer
