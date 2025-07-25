@@ -255,3 +255,4 @@ tvprofil.com##+js(trusted-set-cookie, gdpr_consent, necessary%3D1%26analytics%3D
 threads.com##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 threads.com##+js(set-session-storage-item, cb, 1)
 threads.com##+js(trusted-set-cookie, cb, '{"version":"1","date":"2029_07_03","third_party_consent":"withdrawn","categories":{},"integration_controls":{}}', '', '', reload, 1)
+thetvdb.com##body:style(overflow: auto !important;)
