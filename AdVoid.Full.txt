@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5163
-! Last modified: 2025-07-25T00:57:06.905+02:00
+! Version: 3.0.5164
+! Last modified: 2025-07-25T00:58:11.916+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7694
+! Entries: 7693
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6375,7 +6375,6 @@ aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*=
 apkcombo.com##.column > div.widget:has(> a.installer)
 apkcombo.com##.diseanmevrtt
 apkdone.com##div[style^="height:250px"]
-asianwiki.com##.ad
 badgerherald.com##.flytead + hrld-preflight
 bang-movies.com##.container + center
 bbc.com##.bbccom_advert
