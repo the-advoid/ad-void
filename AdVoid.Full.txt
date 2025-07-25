@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5174
-! Last modified: 2025-07-25T23:42:32.157+02:00
+! Version: 3.0.5175
+! Last modified: 2025-07-25T23:42:49.128+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7702
+! Entries: 7703
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7110,6 +7110,7 @@ filemoon.*##+js(no-window-open-if)
 filemoon.*##^script:has-text(/Math.floor|FMPoopS/)
 filmotip.com##+js(no-window-open-if)
 filmoton.net##+js(no-window-open-if)
+filmoviplex.com##+js(abort-on-property-read, BetterJsPop)
 filmoviplex.com##+js(abort-on-property-read, doSecondPop)
 filmoviplex.com##+js(prevent-setInterval, debugger)
 filmoviplex.com##+js(prevent-window-open)
