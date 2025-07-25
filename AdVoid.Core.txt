@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3712
-! Last modified: 2025-07-25T23:40:39.601+02:00
+! Version: 3.0.3713
+! Last modified: 2025-07-25T23:42:10.390+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5730
+! Entries: 5731
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5406,6 +5406,7 @@ filemoon.*##+js(no-window-open-if)
 filemoon.*##^script:has-text(/Math.floor|FMPoopS/)
 filmotip.com##+js(no-window-open-if)
 filmoton.net##+js(no-window-open-if)
+filmoviplex.com##+js(prevent-setInterval, debugger)
 filmoviplex.com##+js(prevent-window-open)
 filmoviplex.com##+js(set-constant, openNewTab, noopFunc)
 gamespot.com##+js(abort-current-script, $, sp.blocking)
