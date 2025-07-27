@@ -14,6 +14,7 @@ jenismac.com#@#.advertisement
 account.microsoft.com#@#[id^="ad-"]
 dailyuploads.net#@#.banner:not(html):not(body)
 asianwiki.com#@#.ads
+openretro.org#@#[id^="banner_"]
 
 @@||streamtape.*$generichide
 @@||google.*/search?$generichide
