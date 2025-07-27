@@ -65,3 +65,4 @@
 ||myanimelist.net/ma/s$xhr
 ||gsmarena.com/*.php3?sSearch=$xhr,1p,from=gsmarena.com
 ||awswaf.com^*/telemetry$xhr
+||token.awswaf.com/*/report|$xhr
