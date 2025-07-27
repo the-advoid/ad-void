@@ -10,5 +10,4 @@
 @@/*.airlytics.*.js^$script,from=weather.com
 @@||redditstatic.com/shreddit/en-US/ads-carousel-$script
 @@/ads-carousel-*.js^$script,from=reddit.com
-@@/report*.js^$script,from=ui.com
 @@||filmoviplex.com^$script,1p
