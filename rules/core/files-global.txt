@@ -109,7 +109,6 @@
 /magento-storefront-event*js^$script
 /google-analytics-universal*js^$script
 /google-tag-manager*js^$script
-/report*.js^$script
 amp-ad-*js^$script
 amp-iframe-*js^$script
 amp-analytics*js^$script
