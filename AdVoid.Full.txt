@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5216
-! Last modified: 2025-07-30T19:56:51.611+02:00
+! Version: 3.0.5217
+! Last modified: 2025-07-30T19:57:16.282+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7735
@@ -7253,10 +7253,10 @@ myvidster.com##+js(abort-current-script, document.write, cachebuster)
 next-episode.net##+js(abort-on-property-read, tryCheckB32)
 ngontinh24.com##+js(no-setTimeout-if, aaaaa-modal)
 nhentai.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+nhentai.*##+js(set-constant, N_BetterJsPop.object, {})
 nhentai.net##+js(prevent-window-open)
 nhentai.net##+js(set-constant, _n_app.options.ads.show_popunders, false)
 nhentai.net##+js(set-constant, _n_app.popunder, null)
-nhentai.net##+js(set-constant, N_BetterJsPop.object, {})
 nhentai.net##+js(trusted-replace-node-text, script, popunder, p)
 nintendolife.com##+js(abort-on-property-read, _sp_._networkListenerData)
 olympics.com##+js(prevent-fetch, event-router.olympics.com)
