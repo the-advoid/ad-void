@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3743
-! Last modified: 2025-07-30T19:58:50.291+02:00
+! Version: 3.0.3744
+! Last modified: 2025-07-30T19:59:07.244+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5750
@@ -5536,11 +5536,11 @@ myvidster.com##+js(abort-current-script, document.write, cachebuster)
 next-episode.net##+js(abort-on-property-read, tryCheckB32)
 ngontinh24.com##+js(no-setTimeout-if, aaaaa-modal)
 nhentai.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+nhentai.*##+js(prevent-window-open)
 nhentai.*##+js(set-constant, _n_app.options.ads.show_popunders, false)
 nhentai.*##+js(set-constant, _n_app.popunder, null)
 nhentai.*##+js(set-constant, N_BetterJsPop.object, {})
 nhentai.*##+js(trusted-replace-node-text, script, popunder, p)
-nhentai.net##+js(prevent-window-open)
 nintendolife.com##+js(abort-on-property-read, _sp_._networkListenerData)
 olympics.com##+js(prevent-fetch, event-router.olympics.com)
 onlinesaprevodom.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
