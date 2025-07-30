@@ -74,3 +74,4 @@ _beacon?
 /analytics-client-identification/*$xhr
 /trackpageview/*$xhr
 /ahoy/visits$xhr
+/v2/pv-data?$xhr
