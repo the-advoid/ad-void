@@ -203,3 +203,4 @@ milenio.com###pushNotification-disclaimer
 milenio.com##div[id$="x1sidebar"]
 milenio.com###nota-carrusel-1
 nexusmods.com##div#mainContent > div.gap-x-4
+cam4.com##footer + div[class]:has(> div > div > a[href="/legal/cookies"])
