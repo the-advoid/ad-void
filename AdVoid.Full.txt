@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5232
-! Last modified: 2025-07-30T20:43:12.376+02:00
+! Version: 3.0.5233
+! Last modified: 2025-08-01T20:45:32.414+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7746
+! Entries: 7747
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6708,6 +6708,7 @@ aviasales.ru##.s__y2gjNiIS0o1RA_5Ebnkw
 axios.com##.\!bg-blue-core
 bbc.com##.nw-c-breaking-news-banner
 blessedprint.com##.t972
+cam4.com##footer + div[class]:has(> div > div > a[href="/legal/cookies"])
 careerkarma.com###fast-track-modal-window2
 careerkarma.com###full-sticky-footer-container
 careerkarma.com##.ck_box_1
