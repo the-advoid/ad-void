@@ -258,3 +258,4 @@ threads.com##+js(trusted-set-cookie, cb, '{"version":"1","date":"2029_07_03","th
 thetvdb.com##body:style(overflow: auto !important;)
 milenio.com##+js(addEventListener-defuser, copy)
 milenio.com##+js(addEventListener-defuser, mouseleave)
+kick.com##+js(set-local-storage-item, cookies_accepted, true)
