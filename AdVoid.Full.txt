@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5233
-! Last modified: 2025-08-01T20:45:32.414+02:00
+! Version: 3.0.5234
+! Last modified: 2025-08-04T17:35:11.743+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7747
+! Entries: 7748
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7648,6 +7648,7 @@ iqiyi.com##+js(set-constant, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set-constant, Object.prototype.parseXML, noopFunc)
 iqiyi.com##+js(set-constant, QiyiPlayerProphetData.a.data, {})
 jenismac.com##+js(adjust-setInterval, counter--, *, 0.02)
+kick.com##+js(set-local-storage-item, cookies_accepted, true)
 kiktu.com##+js(adjust-setInterval, runTimer, , 0.02)
 kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
 libgen.*##+js(no-setTimeout-if, appendMessage)
