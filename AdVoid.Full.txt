@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5238
-! Last modified: 2025-08-04T17:52:18.492+02:00
+! Version: 3.0.5239
+! Last modified: 2025-08-04T17:56:24.882+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7752
+! Entries: 7753
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7081,6 +7081,7 @@ camwhorez.tv##+js(set-constant, flashvars.adv_pre_src, )
 camwhorez.tv##+js(set-constant, flashvars.adv_pre_url, )
 camwhorez.tv##+js(set-constant, flashvars.adv_pre_vast, )
 camwhorez.tv##+js(set-constant, flashvars.protect_block, )
+canela.tv##+js(trusted-replace-fetch-response, /#EXT-X-KEY:METHOD=NONE\n#EXT(?:INF:[^\n]+|-X-DISCONTINUITY)\n.+?(?=#EXT-X-KEY)/gms, '', /media.m3u8)
 cbr.com##+js(addEventListener-defuser, error, admiral)
 cbr.com##^script:has-text(admiral)
 cineby.app##+js(no-window-open-if)
