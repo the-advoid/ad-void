@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5273
-! Last modified: 2025-08-05T19:39:50.358+02:00
+! Version: 3.0.5274
+! Last modified: 2025-08-05T19:40:11.346+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7773
+! Entries: 7774
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7728,6 +7728,7 @@ olympics.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3
 opensubtitles.org##+js(set-constant, displayed, false)
 opensubtitles.org##+js(set-cookie, download-counter, 1)
 opusteno.rs##body,html:style(overflow: auto !important; position: initial !important;)
+oralb.*##+js(trusted-click-element, button[id="onetrust-reject-all-handler"], '', 1500)
 oriflame.com##+js(remove-class, hidden, .content-overlay + div.w-estimated-total)
 overdrive.com##+js(set-cookie, od_track, 0, '', reload, 1)
 overdrive.com##html:style(overflow:visible!important;)
