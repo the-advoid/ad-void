@@ -564,3 +564,4 @@ nexusmods.com##+js(trusted-replace-node-text, script, = getSetTimeout(), '= func
 canela.tv##+js(trusted-replace-fetch-response, /#EXT-X-KEY:METHOD=NONE\n#EXT(?:INF:[^\n]+|-X-DISCONTINUITY)\n.+?(?=#EXT-X-KEY)/gms, '', /media.m3u8)
 canela.tv##+js(xml-prune, [breakId*="Roll"], '', /content.vmap)
 ssstik.io##+js(prevent-xhr, pagead2.googlesyndication.com)
+ssstik.io##+js(prevent-xhr, googlesyndication)
