@@ -69,7 +69,6 @@ _beacon?
 /usage/clickstream?$xhr
 /insights/reportevent/*$xhr
 /census/recordhit$xhr
-/blaize/datalayer$xhr
 /?sentry_version=$xhr
 /analytics-client-identification/*$xhr
 /trackpageview/*$xhr
