@@ -1,0 +1,11 @@
+{
+	"search.exclude": {
+		"**/node_modules/**": true
+	},
+	"[adblock]": {
+		"files.eol": "\n"
+	},
+	"[adbt]": {
+		"files.eol": "\n"
+	}
+}
