@@ -565,3 +565,4 @@ canela.tv##+js(trusted-replace-fetch-response, /#EXT-X-KEY:METHOD=NONE\n#EXT(?:I
 canela.tv##+js(xml-prune, [breakId*="Roll"], '', /content.vmap)
 ssstik.io##+js(prevent-xhr, pagead2.googlesyndication.com)
 ssstik.io##+js(prevent-xhr, googlesyndication)
+imdb.com##+js(set-constant, doWithAds, noopFunc)
