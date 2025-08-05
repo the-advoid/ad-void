@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, location trackers, etc.
-! Version: 2.0.664
-! Last modified: 2025-08-05T20:25:00.727+02:00
+! Version: 2.0.665
+! Last modified: 2025-08-05T20:27:20.547+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 741
+! Entries: 742
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -51,7 +51,10 @@
 ! {@3} AJAX paths (global)
 *$ping,3p
 
-! {@4} Files (global)
+! {@4} AJAX paths (site)
+||zendesk.com/frontendevents/$xhr
+
+! {@5} Files (global)
 -share-bar/$~css
 /addtoany.min.css^$css
 /addtoany.min.js^$script
@@ -113,7 +116,7 @@
 /wp-content/plugins/social-warfare/*
 sassy-social-share-public*.$script,css
 
-! {@5} Files (site)
+! {@6} Files (site)
 ||app.mailjet.com^$3p,script
 ||assets.pinterest.com/js/pinit_main.js^$script
 ||cdn.kik.com/kik/*/kik-share.js^$script
@@ -129,7 +132,7 @@ sassy-social-share-public*.$script,css
 ||youtube.com/subscribe_embed?$3p
 ||zdassets.com/ekr/snippet.js^$script
 
-! {@6} Cosmetic (global)
+! {@7} Cosmetic (global)
 ###___plusone_0
 ###adBlockerShare
 ###customSocialNetwork
@@ -728,7 +731,7 @@ sassy-social-share-public*.$script,css
 ##span[data-link="#share-facebook"]
 ##span[data-link="#share-twitter"]
 
-! {@7} Cosmetic (site)
+! {@8} Cosmetic (site)
 archive.org##.iconochive-share
 blog.mozilla.org##.ft-c-post-share
 coolrom.com.au##font table[width][cellpadding="3"]:has(> tbody > tr > td > b:contains(/^Share:$/))
@@ -764,7 +767,7 @@ windowslatest.com##.wl-floatbar
 xfreehd.com###share_video
 xvideos.com###tabShareAndEmbed > h4:has(> span.icf-share)
 
-! {@8} Restore cosmetic (site)
+! {@9} Restore cosmetic (site)
 benable.com#@#.social-container
 benable.com#@#.social-icons
 github.com#@#[class*="social-button"]
@@ -774,6 +777,6 @@ netlify.com#@#.btn-social
 passport.yandex.com#@#[class$="-social-block"]
 taplink.cc#@#.socials
 
-! {@9} Scriptlets (site)
+! {@10} Scriptlets (site)
 check-host.net##+js(remove-node-text, span, /Поделиться|Share on/)
 myflixerz.*##+js(set-cookie, show_share, true)
