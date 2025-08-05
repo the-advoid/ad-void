@@ -67,3 +67,4 @@
 ||awswaf.com^*/telemetry$xhr
 ||token.awswaf.com/*/report|$xhr
 ||player.stats.live-video.net^$xhr
+||dc.services.visualstudio.com^*/track$xhr
