@@ -71,3 +71,4 @@
 ||otlp-http-production.shopifysvc.com/v1/metrics|$xhr
 ||backend.alia-cloudflare.com/launcher/events/$xhr
 ||metrics.imdb.com^$xhr
+||imdb.com/api/_ajax/metrics/$xhr
