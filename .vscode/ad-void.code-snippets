@@ -1,0 +1,28 @@
+{
+	"Domain": {
+		"prefix": "dom",
+		"body": [
+			"||$1^"
+		],
+		"description": "Add domain rule"
+	},
+	"Third-party": {
+		"prefix":"3",
+		"body":[
+			"\\$3p"
+		],
+		"description": "Third-party modifier"
+	},"AJAX": {
+		"prefix":"a",
+		"body":[
+			"\\$xhr"
+		],
+		"description": "AJAX modifier"
+	},"Popup": {
+		"prefix": "pop",
+		"body": [
+			"||$1^\\$popup,document"
+		],
+		"description": "Add domain popup rule"
+	},
+}
