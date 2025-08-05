@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5275
-! Last modified: 2025-08-05T19:40:46.800+02:00
+! Version: 3.0.5276
+! Last modified: 2025-08-05T19:41:07.826+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7775
+! Entries: 7776
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6835,6 +6835,7 @@ onlinevideoconverter.pro##.helper-widget
 open.spotify.com##span[dir="auto"][draggable="true"]:style(user-select: auto!important;-webkit-touch-callout: default!important;-webkit-user-select: auto!important;-moz-user-select: text!important;-ms-user-select: text!important;)
 opensubtitles.org###watch_online
 opensubtitles.org##a[onclick*="installSearchEngine"]
+oralb.co.uk##.ob-interstitial-popup-modal
 oreilly.com##.exitIntentOverlay
 pagespeed.web.dev##.glAfi
 parade.com##.m-flex-nav--right-engagement
