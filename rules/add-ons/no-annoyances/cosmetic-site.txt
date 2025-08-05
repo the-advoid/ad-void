@@ -206,3 +206,4 @@ nexusmods.com##div#mainContent > div.gap-x-4
 cam4.com##footer + div[class]:has(> div > div > a[href="/legal/cookies"])
 oralb.co.uk##.ob-interstitial-popup-modal
 coinbrain.com##[data-context="cookie_consent"]:upward(4)
+imdb.com##.footer__app
