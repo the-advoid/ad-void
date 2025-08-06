@@ -263,7 +263,6 @@ kick.com##+js(trusted-set-cookie, cookie_preferences_set_v1, %7B%22state%22%3A%7
 lasestrellas.tv##+js(set-cookie, _tvsPrivacy, true)
 oralb.*##+js(trusted-click-element, button[id="onetrust-reject-all-handler"], '', 1500)
 imdb.com##+js(set-local-storage-item, videopage_autoplay_policy_tooltip_dismissed, true)
-imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 bbc.com##+js(adjust-setTimeout, viewClickAttributeId)
 bbc.com##+js(trusted-click-element, [data-testid="consentBanner"] > button[data-testid="banner-button"], '', 1300)
 bbc.com##+js(remove-cookie, xbc)
