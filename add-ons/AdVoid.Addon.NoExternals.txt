@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, location trackers, etc.
-! Version: 2.0.668
-! Last modified: 2025-08-06T21:52:25.375+02:00
+! Version: 2.0.669
+! Last modified: 2025-08-06T21:55:56.024+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 743
+! Entries: 744
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -135,6 +135,7 @@ sassy-social-share-public*.$script,css
 ###___plusone_0
 ###adBlockerShare
 ###customSocialNetwork
+###facebook-share
 ###fb-root:not(body):not(html)
 ###float-sb
 ###footer-social
