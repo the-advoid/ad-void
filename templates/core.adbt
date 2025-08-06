@@ -71,6 +71,11 @@ include './rules/core/restore-ajax-site.txt' sort
 
 nl
 
+tag 'Ping paths - (site)'
+include './rules/core/ping-site.txt' sort
+
+nl
+
 tag 'Files (global)'
 include './rules/core/files-global.txt' sort
 
