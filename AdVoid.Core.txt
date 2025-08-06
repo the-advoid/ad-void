@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3816
-! Last modified: 2025-08-06T21:46:57.558+02:00
+! Version: 3.0.3817
+! Last modified: 2025-08-06T21:51:03.942+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5808
+! Entries: 5809
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3255,7 +3255,10 @@ _beacon?
 ! {@11} AJAX paths - restore (site)
 @@||doc.moplay.org/cdn-cgi/trace^$xhr
 
-! {@12} Files (global)
+! {@12} Ping paths - (site)
+||techpowerup.com/js/mt$ping
+
+! {@13} Files (global)
 -adobe-analytics/$script
 -contrib-ads.$~css
 -sticky-ad-$script,css,image
@@ -3630,13 +3633,13 @@ amp-iframe-*js^$script
 Logger.js^$script
 trekkie*.js^$script
 
-! {@13} Files - frames (global)
+! {@14} Files - frames (global)
 /ads/bid*.aspx^$frame
 /related_1.html?$frame,3p
 /web-pixel-shopify-custom-pixel@$frame
 /www/delivery/*$frame
 
-! {@14} Files (site)
+! {@15} Files (site)
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,from=readcomiconline.*
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
@@ -3782,14 +3785,14 @@ trekkie*.js^$script
 ||ytmp3.cc/js/inner.js^$script
 ||ziffstatic.com/pg/$script,css
 
-! {@15} Files - frames (site)
+! {@16} Files - frames (site)
 ||coinbrain.com/a^$frame
 ||gay.bingo/agent.php^$frame
 ||google.com^*/fastbutton?$frame,3p
 ||mp3y.info/*.php^$frame
 ||xnxx.army/click/$frame
 
-! {@16} Files (site) - RegExp
+! {@17} Files (site) - RegExp
 /\/[a-z]{4,}\/(?!holly7|siksik7)[0-9a-z]{3,}\d\.\d{1,2}\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,from=555.porn|abxxx.com|aniporn.com|bigdick.tube|gaytxxx.com|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.*|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xjav.tube
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$script,3p,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{12,120}(?:[-.](?:app|bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?$/$script,3p,redirect-rule=noop.js,match-case,to=com
@@ -3805,7 +3808,7 @@ trekkie*.js^$script
 /yts\.nu\/\d+\.html/
 ://www.*.com/*.css|$script,3p,header=popads-node
 
-! {@17} Restore files (site)
+! {@18} Restore files (site)
 @@/*.airlytics.*.js^$script,from=weather.com
 @@/ads-carousel-*.js^$script,from=reddit.com
 @@||filmoviplex.com^$script,1p
@@ -3822,7 +3825,7 @@ trekkie*.js^$script
 @@||ziffstatic.com^*/zdconsent.js$from=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|humblebundle.com|ign.com|nintendolife.com|purexbox.com|pushsquare.com|speedtest.net|timeextension.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 ||tags.news.com.au/prod/heartbeat/*/mediasdk.min.js$script,important,redirect-rule=noop.js
 
-! {@18} RegExp (global)
+! {@19} RegExp (global)
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~3p,from=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /\.[a-z]{3,5}\/[0-9a-z]{8,12}\/[0-9a-z]{8,12}\.js$/$script,from=555.porn|abxxx.com|aniporn.com|asiantv.fun|bdsmx.tube|bigdick.tube|blackporn.tube|gaytxxx.com|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.*|mrgay.tube|onlyporn.tube|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornhits.com|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|sextu.com|shemalez.com|sss.xxx|teenorgy.video|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xjav.tube|xmilf.com
 /\/[0-9a-f]{32}\/invoke\.js/$script,3p
@@ -3857,7 +3860,7 @@ trekkie*.js^$script
 /pornzog\.com\/[a-z]{5,}\/[a-z]{5,}\.js/$script
 /txxx\.tube\/[a-z]{8,}\/[a-z]{8,}\.js/$script
 
-! {@19} Queries (global)
+! {@20} Queries (global)
 &ab=6$popup
 &ad_tags=$popup
 &adshow
@@ -3947,10 +3950,10 @@ utm_content=Image_ad
 utm_term=ads
 zoneid=
 
-! {@20} Params (global)
+! {@21} Params (global)
 *$removeparam=gad_source
 
-! {@21} Cosmetic (global)
+! {@22} Cosmetic (global)
 ###action-companion-click-target
 ###ad
 ###ad-footer
@@ -4960,7 +4963,7 @@ zoneid=
 ##trc_rbox_container
 ##wio-x
 
-! {@22} Cosmetic (site)
+! {@23} Cosmetic (site)
 1337x.*##[href*="vpn"]
 1337x.*##[onclick*="vpn"]
 1337x.*##[onclick^="location.href='https://1337x.vpnonly.site/"]
@@ -5282,7 +5285,7 @@ zultv.com##.bg-secondary.border.order-lg-2.order-xl-2.order-sm-2.order-2.col-xl-
 zultv.com##.border.row
 zultv.com##.container > div.row:nth-of-type(1)
 
-! {@23} Restore cosmetic (site)
+! {@24} Restore cosmetic (site)
 @@||accounts.google.com^$generichide
 @@||google.*/search?$generichide
 @@||streamtape.*$generichide
@@ -5305,7 +5308,7 @@ veed.io#@#[class*="adWrapper"]
 viber.com#@#.banner:not(html):not(body)
 xvideos.com#@#.exo-ad-ins-container
 
-! {@24} Scriptlets (site)
+! {@25} Scriptlets (site)
 *$doc,csp=worker-src 'none',from=alltube.pl|alltube.tv|assia1.tv|centrum-dramy.pl|coinfaucet.eu|crictime.com|crictime.is|doodcdn.com|estream.to|gomo.to|hdvid.fun|hdvid.tv|hitomi.la|kinox.to|lewd.ninja|nflbite.com|pirateproxy.live|plytv.me|potomy.ru|powvideo.cc|powvideo.net|putlocker.to|reactor.cc|rojadirecta.direct|sickrage.ca|streamtape.com|thehiddenbay.com|thepiratebay.org|thepiratebay10.org|torlock.com|tpb.party|uptomega.me|ustream.to|vidoza.co|vidoza.net|wallpoper.com|wearesaudis.net|yazilir.com
 *$doc,csp=worker-src 'none',from=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
 1337x.*##+js(abort-on-property-read, AaDetector)
