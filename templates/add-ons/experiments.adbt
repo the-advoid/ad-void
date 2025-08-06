@@ -19,4 +19,9 @@ nl
 tag 'Files (global)'
 include './rules/add-ons/experiments/files-global.txt'
 
+nl
+
+tag 'Cosmetic (site)'
+include './rules/add-ons/experiments/cosmetic-site.txt'
+
 export './add-ons/AdVoid.Addon.Experiments.txt'
