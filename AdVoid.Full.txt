@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5364
-! Last modified: 2025-08-07T13:55:53.375+02:00
+! Version: 3.0.5365
+! Last modified: 2025-08-07T13:56:10.643+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7836
@@ -6731,7 +6731,6 @@ worlddata.info###adtg-1
 worlddata.info##.adtg
 www.fotor.com##[src*="adblock"]
 www.youtube.com##.ytd-in-feed-ad-layout-renderer
-www.youtube.com##.ytp-featured-product
 wwwxxx.uno##.wide.desktop.place-wink
 xgroovy.com###headMA
 xgroovy.com##.table
@@ -6750,6 +6749,7 @@ youporn.*##.e8-column
 youporn.com##.mgp_pausedState > #pb_template
 youporn.com##div.top_bottom_wrapper + a[href$="#advertise"]
 youporn.com##footer > div:has(.adsbytrafficjunky)
+youtube.com##.ytp-featured-product
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
