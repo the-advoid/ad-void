@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5405
-! Last modified: 2025-08-07T14:28:06.410+02:00
+! Version: 3.0.5406
+! Last modified: 2025-08-07T14:34:03.371+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7857
+! Entries: 7858
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6834,6 +6834,7 @@ incibeauty.com##.modal
 incibeauty.com##.modal-backdrop
 informer.rs##.apps-box
 informer.rs##.platforms-text
+infostud.com##div[class="fixed bottom-0 z-[9999] flex w-full flex-col justify-center bg-primary p-4 duration-300 sm:flex-row sm:items-center"]
 instagram.com##._aagw:empty
 instagram.com##.HoverCard
 instagram.com##.xoegz02
