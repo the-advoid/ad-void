@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3856
-! Last modified: 2025-08-07T14:11:20.366+02:00
+! Version: 3.0.3857
+! Last modified: 2025-08-07T14:12:22.951+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5815
@@ -3062,7 +3062,6 @@ ads-manager/ads/*/track-view
 ||graph.instagram.com/logging_client_events^
 ||hdsex.org/agent.php^
 ||hello.myfonts.net/count/
-||ichnaea-web.netflix.com/log^
 ||imdb.com/tr/^
 ||instagram.com/logging/falco^
 ||itc.cn/pv/
@@ -3073,7 +3072,6 @@ ads-manager/ads/*/track-view
 ||mparticle.weather.com/identity/
 ||myvidster.com/ads/^
 ||nbcnews.com/bentoapi/commerceRecommended^
-||netflix.com/ichnaea/log^
 ||nyt.com/ads^
 ||onet.pl/eclk/
 ||paypal.com/xoplatform/logger/api/logger^
@@ -3210,6 +3208,7 @@ _beacon?
 ||gsmarena.com/*.php3?sSearch=$xhr,1p,from=gsmarena.com
 ||hoo.be/api/hoobe/analytics$xhr
 ||hqq.*/cdn-cgi/trace$xhr
+||ichnaea-web.netflix.com/log^$xhr
 ||imdb.com/api/_ajax/metrics/$xhr
 ||intake-analytics.wikimedia.org^$xhr
 ||linkedin.com/li/track$xhr
@@ -3220,6 +3219,7 @@ _beacon?
 ||myanimelist.net/ma/s$xhr
 ||myanimelist.net/static/logging.html^$xhr
 ||netflix.com/api/ftl/probe?monotonic=$xhr
+||netflix.com/ichnaea/log^$xhr
 ||notion.so/api/*/etclient|$method=post
 ||notion.so/api/v*/tev1$xhr
 ||office.com/suite/RemoteTelemetry.ashx^$xhr
