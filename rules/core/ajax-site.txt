@@ -48,7 +48,7 @@
 ||disqus.com/api/ping$xhr
 ||cloudflare.com/cdn-cgi/trace$xhr,3p,redirect-rule=noop.txt,from=~1bit.space|~1bitspace.com|~funimation.com
 ||facebook.com/ajax/qm/$xhr
-||www.youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
+||youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
 *$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 ://plausible.*/api/event|$xhr,3p
 ! aglint-disable-next-line invalid-modifiers
