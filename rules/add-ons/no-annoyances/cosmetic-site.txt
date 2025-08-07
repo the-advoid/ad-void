@@ -214,3 +214,4 @@ informer.rs##.platforms-text
 infostud.com##div[class="fixed bottom-0 z-[9999] flex w-full flex-col justify-center bg-primary p-4 duration-300 sm:flex-row sm:items-center"]
 scribd.com##+js(set-constant, docManager.doDynamicBlurring, noopFunc)
 scribd.com##+js(trusted-click-element, button.osano-cm-denyAll, '', 1000)
+scribd.com##.between_page_portal_root
