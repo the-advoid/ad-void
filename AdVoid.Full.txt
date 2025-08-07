@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5363
-! Last modified: 2025-08-07T13:55:30.526+02:00
+! Version: 3.0.5364
+! Last modified: 2025-08-07T13:55:53.375+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7836
@@ -3334,7 +3334,6 @@ _beacon?
 ||vimeo.com/ablincoln/
 ||vivaldi.com/rep/rep^$xhr
 ||www.ebay.*/gh/dfpsvc?$xhr
-||www.youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
 ||xhamster.*/api/models/vast*preroll$xhr
 ||xhamster.com/api/models?userId=^$xhr
 ||xhamster.com/mlxhl/v1/for-video?$xhr
@@ -3343,6 +3342,7 @@ _beacon?
 ||xvideos.com/zoneload/$xhr
 ||xxxviijmp.com^$xhr
 ||xyz/|$xhr,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
+||youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
 ||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||contributions.guardianapis.com^$xhr
 ||reddit.com/svc/shreddit/experiences?names=app_selector$xhr
