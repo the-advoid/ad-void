@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5367
-! Last modified: 2025-08-07T13:56:48.216+02:00
+! Version: 3.0.5368
+! Last modified: 2025-08-07T13:57:04.558+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7836
@@ -7882,7 +7882,6 @@ weather.com##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
 wikihow.com##+js(abort-current-script, document.addEventListener, contribute)
 wordreference.com##body:style(overflow: auto !important;)
 wowroms.com##body:style(overflow: auto !important;)
-www.youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 xhamster.*##+js(remove-class, xh-thumb-disabled, html)
 xhamster.*##.xh-scroll-disabled:style(overflow: auto !important; position: static !important;)
 xhamster.com##+js(remove-class, xh-thumb-disabled, , stay)
@@ -7893,6 +7892,7 @@ xnxx.com##body:style(overflow: auto !important;)
 xvideos.com##+js(set-constant, xv.disclaimer.displayCookiePopup, noopFunc)
 youporn.*##+js(set-constant, page_params.holiday_promo, true)
 youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event=video_description"][href*="&q=http"], ?q)
+youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
 youtube.com##+js(trusted-click-element, ytd-button-renderer.ytd-consent-bump-v2-lightbox + ytd-button-renderer.ytd-consent-bump-v2-lightbox button[style][aria-label][title], '', 1000)
 youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1, domain, youtube.com)
