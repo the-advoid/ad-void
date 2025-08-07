@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1299
-! Last modified: 2025-08-07T20:25:18.920+02:00
+! Version: 2.0.1300
+! Last modified: 2025-08-07T20:27:25.929+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1272
+! Entries: 1273
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1123,6 +1123,7 @@ github.com##+js(trusted-set-cookie, GHCC, Required:1-Analytics:0-SocialMedia:0-A
 goodreads.com##+js(remove-class, Header__siteHeaderBanner, header.Header__siteHeaderBanner)
 google.*##+js(trusted-set-cookie, SOCS, CAISNQgQEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjQwNTE0LjA2X3AwGgJmaSADGgYIgOu0sgY, 1year)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
+healthline.com##+js(remove-class, jw-flag-floating|jw-flag-small-player)
 healthline.com##+js(remove-class, jw-flag-floating|jw-flag-small-player)
 healthline.com##body:style(overflow: auto !important; position: initial !important;)
 hinative.com##body:style(overflow: auto !important;)
