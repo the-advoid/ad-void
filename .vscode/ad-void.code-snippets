@@ -12,12 +12,12 @@
 			"\\$3p"
 		],
 		"description": "Third-party modifier"
-	},"AJAX": {
-		"prefix":"a",
+	},"XMLHttpRequest": {
+		"prefix":"x",
 		"body":[
 			"\\$xhr"
 		],
-		"description": "AJAX modifier"
+		"description": "XMLHttpRequest modifier"
 	},"Popup": {
 		"prefix": "pop",
 		"body": [
