@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5429
-! Last modified: 2025-08-07T20:27:28.337+02:00
+! Version: 3.0.5430
+! Last modified: 2025-08-07T20:29:21.010+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7867
+! Entries: 7869
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2796,6 +2796,7 @@
 ||globalapi.ad.xiaomi.com^
 ||gocm.c.appier.net^
 ||grs.hicloud.com^
+||gtm-server.healthline.com^
 ||gtm-sst.crowdin.com^
 ||gtm.udemy.com^
 ||hbrt.adobe.com^
@@ -6586,6 +6587,7 @@ hclips.com##span[style="display:flex !important"] > div:first-child
 hdsex.org##.player__inline
 hdzog.*##.pagination + div[class]:last-of-type
 healthline.com##.css-umsscj
+healthline.com##[data-empty]
 healthline.com,medicalnewstoday.com###DMR1__slot
 healthline.com,medicalnewstoday.com##.css-12efcmn
 healthline.com,medicalnewstoday.com##.css-1d8h8gm
