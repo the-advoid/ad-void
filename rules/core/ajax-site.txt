@@ -76,3 +76,4 @@
 ||netflix.com/api/ftl/probe?monotonic=$xhr
 ||netflix.com/ichnaea/log^$xhr
 ||weglot.com/pageviews?$xhr
+||scribd.com/log/$xhr
