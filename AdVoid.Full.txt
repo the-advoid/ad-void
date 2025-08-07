@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5413
-! Last modified: 2025-08-07T14:40:56.738+02:00
+! Version: 3.0.5414
+! Last modified: 2025-08-07T14:41:57.830+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7865
@@ -3704,7 +3704,7 @@ _beacon?
 /vast.vpaid.*.js^$script
 /video.counters.$script
 /videojs*.vast.vpaid.min.js^$script
-/videojs.ads.min.js^$script
+/videojs.ads.$script,css,from=~danet.vn
 /videojs.ga.$script
 /videojs.ima.css^$css
 /videojs.ima.min.js^$script
