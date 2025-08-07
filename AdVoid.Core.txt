@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3835
-! Last modified: 2025-08-07T13:53:41.304+02:00
+! Version: 3.0.3836
+! Last modified: 2025-08-07T13:54:12.153+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5815
+! Entries: 5816
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5871,6 +5871,7 @@ y2mate.lol##+js(abort-on-property-write, afStorage)
 y2mate.lol##+js(no-window-open-if)
 y2meta.mobi##+js(no-window-open-if)
 youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
+youtube.com##+js(json-prune, entries.[-].command.reelWatchEndpoint.adClientParams.isAd)
 youtube.com##+js(set-constant, google_ad_status, 1)
 youtube.com##+js(trusted-json-edit-fetch-request, .context.client+={"clientScreen":"ADUNIT"}, /get_watch?)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
