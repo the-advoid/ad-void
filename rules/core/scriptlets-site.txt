@@ -572,3 +572,4 @@ youtube.com##+js(trusted-replace-outbound-text, JSON.stringify, '"clientScreen":
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, JSON.parse)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, Request)
 youtube.com##+js(json-prune, entries.[-].command.reelWatchEndpoint.adClientParams.isAd)
+telegraf.rs##+js(set-constant, telegrafSettings.noAds, true)
