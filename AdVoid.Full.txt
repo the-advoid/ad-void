@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5362
-! Last modified: 2025-08-07T13:55:14.765+02:00
+! Version: 3.0.5363
+! Last modified: 2025-08-07T13:55:30.526+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7836
@@ -7008,7 +7008,7 @@ xvideos.com###tabShareAndEmbed > h4:has(> span.icf-share)
 @@||accounts.google.com^$generichide
 @@||google.*/search?$generichide
 @@||streamtape.*$generichide
-@@||www.youtube.com^$generichide
+@@||youtube.com^$generichide
 account.microsoft.com#@#[id^="ad-"]
 asianwiki.com#@#.ads
 dailyuploads.net#@#.banner:not(html):not(body)
