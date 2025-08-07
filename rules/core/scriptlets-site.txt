@@ -460,7 +460,7 @@ youtube.com##+js(json-prune-xhr-response, playerAds adPlacements adSlots no_ads 
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
-www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
 www.youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, '', propsToMatch, url:/reel_watch_sequence?)
 www.google.com##html:style(overflow: visible !important)
