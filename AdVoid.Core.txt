@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3838
-! Last modified: 2025-08-07T13:55:26.073+02:00
+! Version: 3.0.3839
+! Last modified: 2025-08-07T13:55:48.948+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5816
@@ -3242,7 +3242,6 @@ _beacon?
 ||vimeo.com/ablincoln/
 ||vivaldi.com/rep/rep^$xhr
 ||www.ebay.*/gh/dfpsvc?$xhr
-||www.youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
 ||xhamster.*/api/models/vast*preroll$xhr
 ||xhamster.com/api/models?userId=^$xhr
 ||xhamster.com/mlxhl/v1/for-video?$xhr
@@ -3251,6 +3250,7 @@ _beacon?
 ||xvideos.com/zoneload/$xhr
 ||xxxviijmp.com^$xhr
 ||xyz/|$xhr,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
+||youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
 ||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 
 ! {@11} AJAX paths - restore (site)
