@@ -37,7 +37,7 @@
 /ga-analytics.js^$script
 /videojs.ima.min.js^$script
 /videojs.ima.css^$css
-/videojs.ads.min.js^$script
+/videojs.ads.$script,css,from=~danet.vn
 /google_ab_testing.js^$script
 /showads*.js^$script
 .moatYieldIntelligence.*.js^$script
