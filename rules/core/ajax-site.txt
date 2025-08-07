@@ -74,3 +74,4 @@
 ||imdb.com/api/_ajax/metrics/$xhr
 ||collector-pxebumdlwe.px-cloud.net^$xhr
 ||netflix.com/api/ftl/probe?monotonic=$xhr
+||netflix.com/ichnaea/log^$xhr
