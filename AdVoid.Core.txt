@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3854
-! Last modified: 2025-08-07T14:01:46.408+02:00
+! Version: 3.0.3855
+! Last modified: 2025-08-07T14:02:03.463+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5815
+! Entries: 5814
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5859,7 +5859,6 @@ y2mate.lol##+js(abort-on-property-read, mm)
 y2mate.lol##+js(abort-on-property-write, afStorage)
 y2mate.lol##+js(no-window-open-if)
 y2meta.mobi##+js(no-window-open-if)
-youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 youtube.com##+js(json-prune, entries.[-].command.reelWatchEndpoint.adClientParams.isAd)
 youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots [].playerResponse.no_ads, '', propsToMatch, /\/(player|get_watch)\?/)
