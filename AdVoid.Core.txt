@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3849
-! Last modified: 2025-08-07T13:59:01.718+02:00
+! Version: 3.0.3850
+! Last modified: 2025-08-07T13:59:24.254+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5816
@@ -5831,7 +5831,6 @@ www.primevideo.com##+js(json-prune, cuepointPlaylist vodPlaybackUrls.result.play
 www.primevideo.com##+js(xml-prune, xpath(//*[name()="Period"][.//*[@value="Ad"]] | //*[name()="Period"]/@start), [value="Ad"], .mpd)
 www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, '', propsToMatch, url:/reel_watch_sequence?)
 www.youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
@@ -5870,6 +5869,7 @@ youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ad
 youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads, '', propsToMatch, /playlist?)
 youtube.com##+js(json-prune-xhr-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots [].playerResponse.no_ads, '', propsToMatch, /\/player(?:\?.+)?$/)
 youtube.com##+js(set-constant, google_ad_status, 1)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(trusted-json-edit-fetch-request, .context.client+={"clientScreen":"ADUNIT"}, /get_watch?)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
