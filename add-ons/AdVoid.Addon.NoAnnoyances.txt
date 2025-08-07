@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1300
-! Last modified: 2025-08-07T20:27:25.929+02:00
+! Version: 2.0.1301
+! Last modified: 2025-08-07T20:33:01.738+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1273
+! Entries: 1274
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1245,6 +1245,7 @@ saveinsta.app##html:style(overflow: auto !important;)
 screenrant.com##+js(abort-current-script, document.createElement, /admiral|String\.fromCharCode\(97\,( )*?100\,( )*?109\,( )*?105\,( )*?114\,( )*?97\,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/)
 screenrant.com##+js(addEventListener-defuser, error, admiral)
 screenrant.com##+js(remove-cookie, articlesRead)
+scribd.com##+js(addEventListener-defuser, /^(mouseout|mouseleave)$/)
 soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
 streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
