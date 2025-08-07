@@ -570,3 +570,4 @@ youtube.com##+js(trusted-replace-fetch-response, '"adSlots"', '"no_ads"', /get_w
 youtube.com##+js(trusted-json-edit-fetch-request, .context.client+={"clientScreen":"ADUNIT"}, /get_watch?)
 youtube.com##+js(trusted-replace-outbound-text, JSON.stringify, '"clientScreen":"WATCH"', '"clientScreen":"ADUNIT"', condition, contentPlaybackContext)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, JSON.parse)
+youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, Request)
