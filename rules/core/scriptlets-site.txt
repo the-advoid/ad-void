@@ -573,3 +573,4 @@ youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, JSON.pa
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, Request)
 youtube.com##+js(json-prune, entries.[-].command.reelWatchEndpoint.adClientParams.isAd)
 telegraf.rs##+js(set-constant, telegrafSettings.noAds, true)
+powerthesaurus.org##+js(abort-on-property-write, ad_abblock_ad)
