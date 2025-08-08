@@ -150,7 +150,7 @@ Logger.js^$script
 /tracking-opt-in.min.js^$script
 /p1x1.jpg^$image
 /narrativ-pub.*.js^$script
-/sentry.*.js^$script
+/sentry.*.js^$script,from=~powerthesaurus.org
 /videojs.vast.vpaid.min.css^$css
 /videojs*.vast.vpaid.min.js^$script
 /analytics.min.js^$script
