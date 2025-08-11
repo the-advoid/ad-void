@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5455
-! Last modified: 2025-08-10T20:17:34.319+02:00
+! Version: 3.0.5456
+! Last modified: 2025-08-11T16:09:22.240+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7891
+! Entries: 7892
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7604,6 +7604,7 @@ whats-on-netflix.com##+js(abort-current-script, eval, replace)
 whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
 wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
 wizzair.com##+js(set-session-storage-item, bookingSearchAlreadyOpened, true)
+wmovies.one##+js(prevent-window-open)
 wootly.ch##+js(disable-newtab-links)
 wowroms.com##+js(adjust-setInterval, second)
 www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.marketplace_search.feed_units.edges.[-].node.story.sponsored_data.ad_id)
