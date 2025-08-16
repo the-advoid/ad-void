@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3911
-! Last modified: 2025-08-16T17:36:51.482+02:00
+! Version: 3.0.3912
+! Last modified: 2025-08-16T17:37:26.902+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5858
+! Entries: 5859
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3150,6 +3150,7 @@ ads-manager/ads/*/track-view
 /dot.php^$xhr
 /ec/etg^$xhr
 /embed-1/ajax/e-1/banners|$xhr,strict1p
+/embed-1/e-1/banners|$xhr,1p
 /entry_stats^$xhr
 /event-tracking/*$from=~github.com
 /ezais/analytics?$xhr
