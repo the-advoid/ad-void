@@ -575,3 +575,4 @@ youtube.com##+js(json-prune, entries.[-].command.reelWatchEndpoint.adClientParam
 telegraf.rs##+js(set-constant, telegrafSettings.noAds, true)
 powerthesaurus.org##+js(abort-on-property-write, ad_abblock_ad)
 wmovies.one##+js(prevent-window-open)
+grok.com##+js(prevent-fetch, url:/api/statsig/log_event method:POST)
