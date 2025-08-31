@@ -2,7 +2,7 @@
 /ajax/ad/*$xhr,popup
 /banners^$xhr
 /directory-banner^$xhr
-/log^$xhr,from=~meet.google.com
+/log^$xhr,from=~meet.google.com|~sigstore.dev
 /VisualFrontendUi/browserinfo^$xhr
 /dot.php^$xhr
 /ad/www/delivery/*$xhr
