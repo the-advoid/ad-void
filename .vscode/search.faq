@@ -10,6 +10,11 @@
 			"include": "./AdVoid.*.txt, ./add-ons/AdVoid.*.txt",
 			"caseSensitive": true,
 			"description": "Search AdVoid lists"
+		},
+		"Docs": {
+			"include": "./**/*.md",
+			"caseSensitive": true,
+			"description": "Search docs"
 		}
 	}
 }
