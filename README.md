@@ -84,7 +84,7 @@ Or add it manually using this URL:
 <br>
 
 <p align="center">
- <code>https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt</code>
+ <pre>https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt</pre>
 </p>
 
 ---
