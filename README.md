@@ -75,9 +75,10 @@
 
 Get all AdVoid filter lists in one bundle - everything except experimental rules and scriptlets.
 
+Click to add instantly 👉🏼 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-lime.svg"></a>
+
 <br>
 
-Click to add instantly 👉🏼 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-lime.svg"></a>  
 Or add manually using this URL:
 
 <br>
