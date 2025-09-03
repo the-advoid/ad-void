@@ -32,7 +32,7 @@ Another benefit of ad-blocking inside browsers is that it can help protect your 
 
 Some of the most popular browser-based extensions, including Chrome, Edge, Firefox, etc. extensions are:
 
-- AdGuard,
+- [AdGuard](https://adguard.com?aid=135952),
 - uBlock Origin,
 - AdBlock.
 
