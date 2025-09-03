@@ -3,7 +3,7 @@
   <h1>AdVoid</h1>
 </div>
 
-> Super‑fast updates • more complete blocking • always‑fresh protection - trusted by thousands daily
+> Super‑fast updates • more complete blocking • always‑fresh protection • trusted by thousands daily
 
 
 <br>
@@ -79,7 +79,21 @@ If you are new to ad-blocking, make sure to read the <a href="https://github.com
 
 ## 🕵🏼 Usage
 
-Install it into your ad-blocker by clicking on following subscribe button <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> or by manually adding a filter list with the URL of: <br>
+Install it into your ad-blocker by clicking on following subscribe button <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> or by manually adding a filter list with the URL of:
+
+<br>
+
+<p align="center">
+ <code>https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt</code>
+</p>
+
+<br>
+
+If you are using a system-wide ad-blocker it is also beneficial to add this filter list by clicking on the following button <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a> or by manually adding a filter list with the URL of: <br>
+
+<p align="center">
+ <code>https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt</code>
+</p>
 
 > ### 💡 Tip
 >
