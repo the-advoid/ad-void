@@ -5,9 +5,6 @@
 
 > Super‑fast updates • more complete blocking • always‑fresh protection • trusted by thousands daily
 
-
-<br>
-
 <h4 align="center">
   ✈ An efficient AdBlock filter list that blocks ads, trackers, malware, phishing, and a wide range of web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
 </h4>
@@ -30,9 +27,7 @@
 <br>
 
 <blockquote align="center">
-  💕<em>Since Dec 19 2022, this project is supported by the <a href="https://adguard.com" target="_blank">AdGuard</a> <sup>(*)</sup> team.</em> 🥳
-  <br>
-  <sub>* support via a free 1y developer license being given</sub>
+  💕 Supported by the <a href="https://adguard.com?aid=135952">AdGuard</a> team since Dec 19 2022. 🥳
 </blockquote>
 
 <br>
@@ -43,8 +38,7 @@
 - [Quickstart](#ℹ️-quickstart)
 - [Features](#-features)
 - [Usage](#-usage)
-- [API](#-api)
-- [Examples](#️-examples)
+- [Case Study](#-case-study)
 - [Changelog](#-changelog)
 - [Support](#-support)
 - [License](#-license)
@@ -72,12 +66,25 @@
 
 ## ℹ️ Quickstart
 
-If you are new to ad-blocking, make sure to read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank">QUICKSTART</a> first. 😉
+🆕 New to ad‑blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank">QUICKSTART</a> first. 😉
 
 <br>
 <br>
 
 ## 🕵🏼 Usage
+
+Get all AdVoid filter lists in one bundle — everything except experimental rules and scriptlets.
+
+Click to add instantly 👉🏼 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-lime.svg"></a>  
+Or add manually using this URL:
+
+<br>
+
+<p align="center">
+ <code>https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt</code>
+</p>
+
+---
 
 Install it into your ad-blocker by clicking on following subscribe button <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> or by manually adding a filter list with the URL of:
 
@@ -95,6 +102,39 @@ If you are using a system-wide ad-blocker it is also beneficial to add this filt
  <code>https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt</code>
 </p>
 
+---
+
+For additional privacy, faster browsing experience and less tracking these AdVoid add-ons are available as well:
+<br>
+
+😒 &nbsp; [AdVoid.Addon.NoAnnoyances](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-dark.svg"></a>
+<br>
+<br>
+<em>Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.</em>
+<br>
+<br>
+
+💬 &nbsp; [AdVoid.Addon.NoExternals](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-green-dark.svg"></a>
+<br>
+<br>
+<em>Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, etc.</em>
+<br>
+<br>
+
+🦄 &nbsp; [AdVoid.Addon.NoExtras](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
+<br>
+<br>
+<em>Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.</em>
+<br>
+<br>
+
+🧪 &nbsp; [AdVoid.Addon.Experiments](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-pink.svg"></a>
+<br>
+<br>
+<em>Unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.</em>
+<br>
+<br>
+
 > ### 💡 Tip
 >
 > As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the *Legacy* filter lists, see [Legacy README](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
@@ -104,12 +144,7 @@ If you are using a system-wide ad-blocker it is also beneficial to add this filt
 <br>
 <br>
 
-## 🤹🏼 API
-
-<br>
-<br>
-
-## 🗒️ Examples
+## 📚 Case Study
 
 <br>
 <br>
