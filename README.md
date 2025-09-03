@@ -93,17 +93,17 @@ Install it into your ad-blocker by clicking on following subscribe button <a hre
 
 <br>
 
-<p align="center">
- <code>https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt</code>
-</p>
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt
+```
 
 <br>
 
 If you are using a system-wide ad-blocker it is also beneficial to add this filter list by clicking on the following button <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a> or by manually adding a filter list with the URL of: <br>
 
-<p align="center">
- <code>https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt</code>
-</p>
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt
+```
 
 ---
 
