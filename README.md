@@ -27,7 +27,7 @@
 <br>
 
 <blockquote align="center">
-  💕 Supported by the <a href="https://adguard.com?aid=135952">AdGuard</a> team since Dec 19 2022. 🥳
+  💕 Supported by <a href="https://adguard.com?aid=135952">AdGuard</a> since Dec 19 2022. 🥳
 </blockquote>
 
 <br>
