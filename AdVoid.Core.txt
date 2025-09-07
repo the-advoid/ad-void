@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3928
-! Last modified: 2025-09-07T22:34:57.475+02:00
+! Version: 3.0.3929
+! Last modified: 2025-09-07T22:35:14.397+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5864
+! Entries: 5865
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5780,6 +5780,7 @@ thegay.*##+js(abort-current-script, adver)
 theverge.com##+js(prevent-setTimeout, adsBlocked)
 thewindowsclub.com##+js(abort-on-property-read, googletag)
 thisvid.com##+js(abort-current-script, document.dispatchEvent, /getexoloader/)
+thisvid.com##+js(abort-on-property-read, ExoLoader)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 thisvid.com##+js(addEventListener-defuser, click, popMagic)
 tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
