@@ -321,10 +321,10 @@ Scriptlets are chunks of `JavaScript` code that run on a particular site and can
 
 Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/refs/heads/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-ad-block scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-orange.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-ad-block scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-orange.svg"></a>
 
 ```
-https://raw.githubusercontent.com/the-advoid/ad-void/refs/heads/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
+https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
 ```
 
 <br>
