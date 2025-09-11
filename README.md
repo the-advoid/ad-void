@@ -84,27 +84,27 @@ Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modu
 
 <br>
 
+Click either of the following buttons to install it into your adblocker:
+
 <div align="center">
-  Click either of the following buttons to install it into your adblocker:
-  
   <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
-
-  <br>
-
-  Or add it manually using either of the following URLs:
-
-  <br>
-
-  <code>
-  https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt
-  </code>
-
-  or
-
-  <code>
-  https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
-  </code>
 </div>
+
+<br>
+
+Or add it manually using either of the following URLs:
+
+<br>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt
+```
+
+or
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
+```
 
 ---
 
