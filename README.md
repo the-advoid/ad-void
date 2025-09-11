@@ -399,7 +399,7 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 <br>
 <br>
 
-> Let's crunch those numbers! 🍪
+<blockquote align="center">🍪 <strong>Let's crunch those numbers!</strong> 🍪</blockquote>
 
 <br>
 
