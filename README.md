@@ -74,7 +74,13 @@
 
 ## 🕵🏼 Usage
 
-Get all `AdVoid` filter lists in one bundle below, as `AdVoid.Full` - everything except experimental rules and scriptlets.
+Get all `AdVoid` filter lists in one bundle below, as `AdVoid.Full`.
+
+<br>
+
+### AdVoid.Full
+
+> The complete protection. Includes all modules, except experimental rules and standalone scriptlets.
 
 Click either of the following buttons to add it instantly:
 <div align="center">
@@ -98,6 +104,8 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 ```
 
 ---
+
+### AdVoid.Core
 
 Install it into your ad-blocker by clicking on following subscribe button <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> or by manually adding a filter list with the URL of:
 
