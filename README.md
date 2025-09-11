@@ -49,6 +49,7 @@
     - [**AdVoid.Addon.NoExternals**](#-advoidaddonnoexternals)
     - [**AdVoid.Addon.NoExtras**](#-advoidaddonnoextras)
     - [**AdVoid.Addon.Experiments**](#-advoidaddonexperiments)
+  - [**Scriptlets**](#-scriptlets)
 - [**Case Study**](#-case-study)
   - [**Divergence Pt. 1**](#-divergence-pt-1)
   - [**Divergence Pt. 2**](#-divergence-pt-2)
@@ -182,7 +183,7 @@ For additional privacy, faster browsing experience and less tracking these `AdVo
 
 ---
 
-### 😒 AdVoid.Addon.NoAnnoyances
+#### 😒 AdVoid.Addon.NoAnnoyances
 
 > The no annoyances add-on. Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.
 
@@ -208,7 +209,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoy
 
 ---
 
-### 💬 AdVoid.Addon.NoExternals
+#### 💬 AdVoid.Addon.NoExternals
 
 > The no externals add-on. Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, etc.
 
@@ -234,7 +235,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExter
 
 ---
 
-### 🦄 AdVoid.Addon.NoExtras
+#### 🦄 AdVoid.Addon.NoExtras
 
 > The no extras add-on. Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.
 
@@ -260,7 +261,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtra
 
 ---
 
-### 🧪 AdVoid.Addon.Experiments
+#### 🧪 AdVoid.Addon.Experiments
 
 > The experimental add-on. Unstable and experimental filter list, for testing purposes only.
 >
@@ -285,6 +286,14 @@ Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), ei
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt
 ```
+
+---
+
+### ⚡ Scriptlets
+
+Scriptlets are a superpower inside adblocking world. But… *with great power, comes great responsibility*! Scriptlets are chunks of `JavaScript` code that runs on a particular site and can change its behavior majorly, e.g.: cut down waiting time, disable popup windows, prevent aggressive ads and many things more!  
+
+Remember to add scriptlets only from trusted source. `AdVoid` being a complete adblocking solution, also provides scriptlets listed below.
 
 ---
 
