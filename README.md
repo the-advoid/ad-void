@@ -354,7 +354,7 @@ AdVoid was started as a personal project in January, 2022 then made public mid F
 #### 🐛 Divergence Pt. 1
 
 The modules are:
-- [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt) - core functionality &rarr; ad-blocking (URL + cosmetic)
+- [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt) - core functionality (ad-blocking, URL + cosmetic)
 - [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) - DNS-blocking (URL only)
 - [**AdVoid.Full**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) - full content blocking (core functionality + add-ons)
 
