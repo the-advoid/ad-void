@@ -37,14 +37,20 @@
 
 ## 📃 Table of Contents
 
-- [Quickstart](#ℹ️-quickstart)
-- [Features](#-features)
-- [Usage](#-usage)
-- [Case Study](#-case-study)
-- [Support](#-support)
-- [License](#-license)
-- [Related](#-related)
-- [Author](#-author)
+- [**Quickstart**](#ℹ️-quickstart)
+- [**Features**](#-features)
+- [**Usage**](#-usage)
+  - [**AdVoid.Full**](#️-advoidfull)
+  - [**AdVoid.Core**](#-advoidcore)
+  - [**AdVoid.DNS**](#)
+  - [**AdVoid.Addon.**](#)
+  - [**AdVoid.Addon.**](#)
+  - [**AdVoid.Addon.**](#)
+- [**Case Study**](#-case-study)
+- [**Support**](#-support)
+- [**License**](#-license)
+- [**Related**](#-related)
+- [**Author**](#-author)
 
 <br>
 <br>
@@ -78,7 +84,7 @@ Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modu
 
 ---
 
-### AdVoid.Full
+### 🛡️ AdVoid.Full
 
 > The complete protection. Includes all modules, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
 
@@ -106,7 +112,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 
 ---
 
-### AdVoid.Core
+### 📦 AdVoid.Core
 
 > The core protection module. Blocks major ad-servers, trackers, malware, fake download links, cuts-down timer executions.
 
