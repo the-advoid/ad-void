@@ -86,9 +86,7 @@ Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modu
 
 Click either of the following buttons to install it into your adblocker:
 
-<div align="center">
-  <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
-</div>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
 <br>
 
@@ -115,9 +113,8 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 <br>
 
 Click either of the following buttons to install it into your adblocker:
-<div align="center">
-  <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
-</div>
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
 <br>
 
