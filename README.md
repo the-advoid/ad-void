@@ -300,7 +300,7 @@ Many times, basic ad-blocking is not enough and that's where scriptlets come in.
 Scriptlets are chunks of `JavaScript` code that run on a particular site and can change its behavior majorly, e.g.: cut down waiting time, disable popup windows, prevent aggressive ads and many things more!  
 
 >
-> Remember to add scriptlets ***only*** from trusted source.  
+> 💡 Remember to add scriptlets ***only*** from trusted source.  
 >
 
 `AdVoid` being a complete ad-blocking solution, also provides scriptlets listed below.
