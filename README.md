@@ -50,6 +50,7 @@
     - [**AdVoid.Addon.NoExtras**](#-advoidaddonnoextras)
     - [**AdVoid.Addon.Experiments**](#-advoidaddonexperiments)
   - [**Scriptlets**](#-scriptlets)
+    - [**AdVoid.Scriptlets.AntiAntiAdBlock**](#-advoidscriptletsantiantiadblock)
 - [**Case Study**](#-case-study)
   - [**Divergence Pt. 1**](#-divergence-pt-1)
   - [**Divergence Pt. 2**](#-divergence-pt-2)
