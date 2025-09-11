@@ -482,11 +482,10 @@ Licensed under the MIT license which is available here, [**MIT license**](https:
 > _✂️ An npm module that provides ways to extract header and metadata from an ad-block filter file. 📃_
 
 <br>
+<br>
 
 <sub>※ The author might earn commissions with some affiliate links, but at no cost to you.</sub>
 
-<br>
-<br>
 <br>
 
 ## 👨🏻‍💻 Author
