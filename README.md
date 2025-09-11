@@ -193,7 +193,7 @@ For additional privacy, faster browsing experience and less tracking these `AdVo
 
 #### 😒 AdVoid.Addon.NoAnnoyances
 
-##### The No Annoyances Add-on.
+##### The No Annoyances Add-on
 
 > Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.
 
@@ -221,7 +221,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoy
 
 #### 💬 AdVoid.Addon.NoExternals
 
-##### The No Externals Add-on.
+##### The No Externals Add-on
 
 > Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, etc.
 
@@ -249,7 +249,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExter
 
 #### 🦄 AdVoid.Addon.NoExtras
 
-##### The No Extras Add-on.
+##### The No Extras Add-on
 
 > Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.
 
@@ -277,7 +277,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtra
 
 #### 🧪 AdVoid.Addon.Experiments
 
-##### The Experimental Add-on.
+##### The Experimental Add-on
 
 > **Unstable** and *experimental* filter list, for testing purposes only.
 >
