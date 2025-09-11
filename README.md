@@ -339,7 +339,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 <br>
 
-### 🎠 Legacy
+## 🎠 Legacy
 
 As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and transferred to the *Legacy* filter lists, see [**Legacy README**](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
 
