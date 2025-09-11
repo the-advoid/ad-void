@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid icon - privacy-first adblock filter list by Igor Dimitrijević (@igorskyflyer), trusted by hundreds of thousands" width="256" height="256">
+  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid icon - privacy-first ad-block filter list by Igor Dimitrijević (@igorskyflyer), trusted by hundreds of thousands" width="256" height="256">
   <h1>AdVoid</h1>
 </div>
 
 <blockquote align="center">Super‑Fast Updates • More Complete Blocking • Always‑Fresh Protection • Trusted by Thousands Daily</blockquote>
 
 <h4 align="center">
-  ✈ An efficient AdBlock filter list that blocks ads, trackers, malware, phishing, and a wide range of web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
+  ✈ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
 </h4>
 
 <br>
@@ -24,7 +24,7 @@ We welcome:
 - ⚙️ **Optimizations** — Smaller, smarter, faster alternatives (e.g. modifier shorthand, regex refinement).
 - 🧱 **New Rules** — Targeted filters that eliminate intrusive content without affecting layout or core functionality.
 
-Use the appropriate [issue template](../../issues/new/choose) when opening a suggestion.
+Use the appropriate [**issue template**](https://github.com/the-advoid/ad-void/issues/new/choose) when opening a suggestion.
 
 ## 🧠 Style Guide
 
