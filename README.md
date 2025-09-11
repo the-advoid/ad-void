@@ -106,8 +106,6 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
-<br>
-
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt
 ```
@@ -139,8 +137,6 @@ Click either of the following buttons to install it into your adblocker:
 <br>
 
 Or add it manually using either of the following URLs:
-
-<br>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt
@@ -174,8 +170,6 @@ Click either of the following buttons to install it into your adblocker:
 <br>
 
 Or add it manually using either of the following URLs:
-
-<br>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt
@@ -217,8 +211,6 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
-<br>
-
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt
 ```
@@ -251,8 +243,6 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
-<br>
-
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt
 ```
@@ -284,8 +274,6 @@ Click either of the following buttons to install it into your adblocker:
 <br>
 
 Or add it manually using either of the following URLs:
-
-<br>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt
@@ -320,8 +308,6 @@ Click either of the following buttons to install it into your adblocker:
 <br>
 
 Or add it manually using either of the following URLs:
-
-<br>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt
