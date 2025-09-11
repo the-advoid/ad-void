@@ -299,7 +299,36 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experim
 Many times, basic ad-blocking is not enough and that's where scriptlets come in. Scriptlets are a superpower inside ad-blocking world. But… *`with great power, comes great responsibility`*!  
 Scriptlets are chunks of `JavaScript` code that run on a particular site and can change its behavior majorly, e.g.: cut down waiting time, disable popup windows, prevent aggressive ads and many things more!  
 
-Remember to add scriptlets ***only*** from trusted source. `AdVoid` being a complete ad-blocking solution, also provides scriptlets listed below.
+Remember to add scriptlets ***only*** from trusted source.  
+`AdVoid` being a complete ad-blocking solution, also provides scriptlets listed below.
+
+---
+
+#### 🧪 AdVoid.Addon.Experiments
+
+> The experimental add-on. Unstable and experimental filter list, for testing purposes only.
+>
+> ‼️ **It may break certain sites.**
+
+<br>
+
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/refs/heads/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-adblock scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-orange.svg"></a>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/refs/heads/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
+```
+
+<br>
+
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-adblock scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
+```
 
 ---
 
