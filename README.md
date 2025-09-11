@@ -116,6 +116,8 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 ```
 
+<br>
+
 > #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
@@ -148,6 +150,8 @@ or
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 ```
+
+<br>
 
 > #### 🐚 NOTICE
 >
@@ -182,6 +186,8 @@ or
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt
 ```
+
+<br>
 
 > #### 🐚 NOTICE
 >
@@ -224,6 +230,8 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt
 ```
 
+<br>
+
 > #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
@@ -257,6 +265,8 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt
 ```
 
+<br>
+
 > #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
@@ -289,6 +299,8 @@ or
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt
 ```
+
+<br>
 
 > #### 🐚 NOTICE
 >
@@ -324,6 +336,8 @@ or
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt
 ```
+
+<br>
 
 > #### 🐚 NOTICE
 >
