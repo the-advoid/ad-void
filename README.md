@@ -419,7 +419,7 @@ By using `AdVoid`, you acknowledge that:
 - **You** accept full responsibility for any site breakage, content disruption, or unintended behavior.
 - **You** agree not to hold the maintainers liable for any direct or indirect consequences resulting from its use.
 
-<br>
+---
 
 >
 > 💡 Use only what you **trust**. Review before you subscribe.
