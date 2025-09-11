@@ -351,7 +351,7 @@ AdVoid was started as a personal project in January, 2022 then made public mid F
 
 <br>
 
-#### 🐛 Divergence pt. 1
+#### 🐛 Divergence Pt. 1
 
 The modules are:
 - [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt) - core functionality = ad-blocking (URL + cosmetic)
@@ -360,7 +360,7 @@ The modules are:
 
 <br>
 
-#### 🐛 Divergence pt. 2
+#### 🐛 Divergence Pt. 2
 
 The add-ons are:
 - [**AdVoid.Addon.NoAnnoyances**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances like cookie-consent banners, popups, etc.
