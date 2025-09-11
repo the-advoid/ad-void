@@ -118,6 +118,12 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 ```
 
+> #### 🐚 NOTICE
+>
+> For instant updates, use the first URL, the GitHub-hosted version.
+> The second URL is a fallback, CDN-hosted and will **not** get instant updates.
+>
+
 ---
 
 #### 📦 AdVoid.Core
@@ -146,7 +152,7 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 ```
 
-> #### 🐚 Tip
+> #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
 > The second URL is a fallback, CDN-hosted and will **not** get instant updates.
@@ -181,7 +187,7 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt
 ```
 
-> #### 🐚 Tip
+> #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
 > The second URL is a fallback, CDN-hosted and will **not** get instant updates.
@@ -223,7 +229,7 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt
 ```
 
-> #### 🐚 Tip
+> #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
 > The second URL is a fallback, CDN-hosted and will **not** get instant updates.
@@ -257,7 +263,7 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt
 ```
 
-> #### 🐚 Tip
+> #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
 > The second URL is a fallback, CDN-hosted and will **not** get instant updates.
@@ -291,7 +297,7 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt
 ```
 
-> #### 🐚 Tip
+> #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
 > The second URL is a fallback, CDN-hosted and will **not** get instant updates.
@@ -327,7 +333,7 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt
 ```
 
-> #### 🐚 Tip
+> #### 🐚 NOTICE
 >
 > For instant updates, use the first URL, the GitHub-hosted version.
 > The second URL is a fallback, CDN-hosted and will **not** get instant updates.
