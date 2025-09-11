@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid icon - privacy-first adblock filter list by Igor Dimitrijević (@igorskyflyer), trusted by hundreds of thousands" width="256" height="256">
+  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid icon - privacy-first ad-block filter list by Igor Dimitrijević (@igorskyflyer), trusted by hundreds of thousands" width="256" height="256">
   <h1>AdVoid</h1>
 </div>
 
 <blockquote align="center">Super‑Fast Updates • More Complete Blocking • Always‑Fresh Protection • Trusted by Thousands Daily</blockquote>
 
 <h4 align="center">
-  ✈ An efficient AdBlock filter list that blocks ads, trackers, malware, phishing, and a wide range of web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
+  ✈ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
 </h4>
 
 <br>
@@ -21,7 +21,7 @@ For additional privacy, faster browsing experience and less tracking these `AdVo
 
 <br>
 
-Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.N
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -47,7 +47,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoy
 
 <br>
 
-Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
@@ -57,7 +57,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.N
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -73,7 +73,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExter
 
 <br>
 
-Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
@@ -83,7 +83,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.N
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -101,9 +101,9 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtra
 
 <br>
 
-Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge adblock rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-pink.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge ad-block rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-pink.svg"></a>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt
@@ -111,9 +111,9 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.E
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge adblock rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge ad-block rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt
