@@ -51,6 +51,7 @@
     - [**AdVoid.Addon.Experiments**](#-advoidaddonexperiments)
   - [**Scriptlets**](#-scriptlets)
     - [**AdVoid.Scriptlets.AntiAntiAdBlock**](#-advoidscriptletsantiantiadblock)
+- [**Legacy**](#-legacy)
 - [**Case Study**](#-case-study)
   - [**Divergence Pt. 1**](#-divergence-pt-1)
   - [**Divergence Pt. 2**](#-divergence-pt-2)
@@ -336,13 +337,9 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 ---
 
-<br>
+### 🎠 Legacy
 
-> ### 💡 Tip
->
-> As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the *Legacy* filter lists, see [**Legacy README**](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
->
->
+As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and transferred to the *Legacy* filter lists, see [**Legacy README**](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
 
 <br>
 <br>
