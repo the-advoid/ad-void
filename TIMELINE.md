@@ -1,4 +1,17 @@
-<h2>⏳ Timeline</h2>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid icon - privacy-first adblock filter list by Igor Dimitrijević (@igorskyflyer), trusted by hundreds of thousands" width="256" height="256">
+  <h1>AdVoid</h1>
+</div>
+
+> Super‑Fast Updates • More Complete Blocking • Always‑Fresh Protection • Trusted by Thousands Daily
+
+<h4 align="center">
+  ✈ An efficient AdBlock filter list that blocks ads, trackers, malware, phishing, and a wide range of web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
+</h4>
+
+<br>
+
+## ⏳ Timeline
 
 <br>
 
@@ -6,11 +19,11 @@ This file tracks <strong>deprecation</strong>/<strong>removal</strong> of filter
 
 <br>
 
-<h3>🎞️ Events</h3>
+### 🎞️ Events
 
 ---
 
-<h4>⌚ 30 Jun 2024</h4>
+#### ⌚ 30 Jun 2024
 
 <strong>Filter list</strong>: <a href="https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt"><strong>AdVoid.Addon.NoExternals</strong></a>
 <br>
@@ -22,7 +35,7 @@ This file tracks <strong>deprecation</strong>/<strong>removal</strong> of filter
 
 ---
 
-<h4>⌚ 16 Oct 2023</h4>
+#### ⌚ 16 Oct 2023
 
 <strong>Filter list</strong>: <a href="https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt"><strong>AdVoid.Addon.NoExtras</strong></a>
 <br>
