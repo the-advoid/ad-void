@@ -350,7 +350,7 @@ After creating the before-mentioned solutions, [**AdVoid**](https://github.com/t
 
 ### 🚀 Productivity Gains
 
-Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves a substantial amount of time needed for maintaining filter lists, it \[ *Aria* \] has allowed the productivity to increase exponentially which in turn allowed for rule additions/deletions to skyrocket, see the graph below. 🚀
+Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves a substantial amount of time needed for maintaining filter lists, `Aria` has allowed the productivity to increase exponentially which in turn allowed for rule additions/deletions to skyrocket, see the graph below. 🚀
 
 <br>
 
