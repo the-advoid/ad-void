@@ -374,8 +374,6 @@ Even so it was a hassle to maintain the filter lists, in particular it involved 
 
 > That's where [**ADBT**](https://github.com/adbt-lang/adbt) - a language that defines template files and provides ways of writing reusable, component-like based ad-block filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) come into play.
 
-<br>
-
 After creating the before-mentioned solutions, [**AdVoid**](https://github.com/the-advoid/ad-void) was split even further into small chunks of rules, properly organized which allowed for easier maintenance, less time scrolling through endless lists of rules and more importantly it allowed re-use of rules, i.e. rules that were repeating, e.g. URLs that are blocked in all 3 modules: [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt), [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt), [**AdVoid.Full**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) are contained in a single file and [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) fetches the URLs from the given file and applies transformations when needed, e.g. domain rules are stripped of all modifiers for the [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) module.
 
 <br>
