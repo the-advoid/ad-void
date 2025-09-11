@@ -146,6 +146,12 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 ```
 
+> #### 🐚 Tip
+>
+> For instant updates, use the first URL, the GitHub-hosted version.
+> The second URL is a fallback, CDN-hosted and will **not** get instant updates.
+>
+
 ---
 
 #### 🌐 AdVoid.DNS
@@ -174,6 +180,12 @@ or
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt
 ```
+
+> #### 🐚 Tip
+>
+> For instant updates, use the first URL, the GitHub-hosted version.
+> The second URL is a fallback, CDN-hosted and will **not** get instant updates.
+>
 
 ---
 
@@ -211,6 +223,12 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt
 ```
 
+> #### 🐚 Tip
+>
+> For instant updates, use the first URL, the GitHub-hosted version.
+> The second URL is a fallback, CDN-hosted and will **not** get instant updates.
+>
+
 ---
 
 ### 💬 AdVoid.Addon.NoExternals
@@ -239,6 +257,12 @@ or
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt
 ```
 
+> #### 🐚 Tip
+>
+> For instant updates, use the first URL, the GitHub-hosted version.
+> The second URL is a fallback, CDN-hosted and will **not** get instant updates.
+>
+
 ---
 
 ### 🦄 AdVoid.Addon.NoExtras
@@ -266,6 +290,12 @@ or
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt
 ```
+
+> #### 🐚 Tip
+>
+> For instant updates, use the first URL, the GitHub-hosted version.
+> The second URL is a fallback, CDN-hosted and will **not** get instant updates.
+>
 
 ---
 
@@ -296,6 +326,12 @@ or
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt
 ```
+
+> #### 🐚 Tip
+>
+> For instant updates, use the first URL, the GitHub-hosted version.
+> The second URL is a fallback, CDN-hosted and will **not** get instant updates.
+>
 
 ---
 
