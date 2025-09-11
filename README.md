@@ -101,22 +101,20 @@ Modules are the three core `AdVoid` filter lists. Designed for layered protectio
 
 <br>
 
-Click either of the following buttons to install it into your adblocker:
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button or copying the URL and pasting it into your adblocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
-<br>
-
-Or add it manually using either of the following URLs:
-
-`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt
 ```
 
-or
+<br>
 
-`CDN (delayed updates)`
+Subscribe via the fallback CDN `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button or copying the URL and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
+
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 ```
