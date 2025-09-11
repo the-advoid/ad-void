@@ -427,6 +427,10 @@ By using `AdVoid`, you acknowledge that:
 
 <br>
 
+<sub>※ The author might earn commissions with some affiliate links, but at no cost to you.</sub>
+
+<br>
+
 ## 🪪 License
 
 Licensed under the MIT license which is available here, [**MIT license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
@@ -483,9 +487,6 @@ Licensed under the MIT license which is available here, [**MIT license**](https:
 
 <br>
 <br>
-
-<sub>※ The author might earn commissions with some affiliate links, but at no cost to you.</sub>
-
 <br>
 
 ## 👨🏻‍💻 Author
