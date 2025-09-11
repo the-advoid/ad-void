@@ -86,7 +86,7 @@ Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modu
 
 ### 🛡️ AdVoid.Full
 
-> The complete protection. Includes all modules, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
+> The complete protection. Includes all modules and add-ons, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
 
 <br>
 
@@ -142,7 +142,8 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 ### 🌐 AdVoid.DNS
 
-> The DNS-level module. Blocks domains before requests reach your browser: ads, trackers, telemetry, malware, and known nuisances. Lightweight, system-wide protection. Suitable for system-wide adblockers.
+> The DNS-level module. Blocks domains before requests reach your browser: ads, trackers, telemetry, malware, and known nuisances. Lightweight, system-wide protection.
+> Suitable for system-wide adblockers.
 
 <br>
 
@@ -168,15 +169,39 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt
 
 ---
 
-For additional privacy, faster browsing experience and less tracking these AdVoid add-ons are available as well:
+### 🪼 Add-ons
+
+For additional privacy, faster browsing experience and less tracking these `AdVoid` add-ons are available.
+
+---
+
+### 😒 AdVoid.Addon.NoAnnoyances
+
+> The no annoyances add-on. Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.
+
 <br>
 
-😒 &nbsp; [AdVoid.Addon.NoAnnoyances](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-dark.svg"></a>
+Click either of the following buttons to install it into your adblocker:
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+
 <br>
+
+Or add it manually using either of the following URLs:
+
 <br>
-<em>Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.</em>
-<br>
-<br>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt
+```
+
+or
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt
+```
+
+---
 
 💬 &nbsp; [AdVoid.Addon.NoExternals](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-green-dark.svg"></a>
 <br>
@@ -210,7 +235,7 @@ For additional privacy, faster browsing experience and less tracking these AdVoi
 
 ## 📚 Case Study
 
-AdVoid was started as a personal project in January, 2022 then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **add-ons** and **modules** - for easier maintenance.
+AdVoid was started as a personal project in January, 2022 then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **modules** and **add-ons** - for easier maintenance.
 
 <br>
 
