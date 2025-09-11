@@ -324,7 +324,7 @@ The add-ons are:
 
 ---
 
-Even so it was a hassle to maintain the filter lists, in particular it involved hours of endless scrolling through rules to add a new rule to the end of a particular section or deleting one, updating the timestamp to the current one following the ISO 8601 standard using non-maintainer's timezone, bumping the version, changing the description and many things more.
+Even so it was a hassle to maintain the filter lists, in particular it involved hours of endless scrolling through rules to add a new rule to the end of a particular section or deleting one, updating the timestamp to the current one following the ISO 8601 standard often using non-maintainer's timezone, bumping the version, changing the description and many things more.
 
 > That's where [**ADBT**](https://github.com/adbt-lang/adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) come into play.
 
