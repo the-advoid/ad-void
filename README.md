@@ -42,10 +42,12 @@
 - [**Usage**](#-usage)
   - [**AdVoid.Full**](#️-advoidfull)
   - [**AdVoid.Core**](#-advoidcore)
-  - [**AdVoid.DNS**](#)
-  - [**AdVoid.Addon.**](#)
-  - [**AdVoid.Addon.**](#)
-  - [**AdVoid.Addon.**](#)
+  - [**AdVoid.DNS**](#-advoiddns)
+  - [**Add-ons**](#-add-ons)
+    - [**AdVoid.Addon.NoAnnoyances**](#-advoidaddonnoannoyances)
+    - [**AdVoid.Addon.NoExternals**](#-advoidaddonnoexternals)
+    - [**AdVoid.Addon.NoExtras**](#-advoidaddonnoextras)
+    - [**AdVoid.Addon.Experiments**](#-advoidaddonexpriments)
 - [**Case Study**](#-case-study)
 - [**Support**](#-support)
 - [**License**](#-license)
@@ -205,26 +207,91 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoy
 
 ---
 
-💬 &nbsp; [AdVoid.Addon.NoExternals](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-green-dark.svg"></a>
-<br>
-<br>
-<em>Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, etc.</em>
-<br>
+### 💬 AdVoid.Addon.NoExternals
+
+> The no externals add-on. Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, etc.
+
 <br>
 
-🦄 &nbsp; [AdVoid.Addon.NoExtras](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
-<br>
-<br>
-<em>Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.</em>
-<br>
+Click either of the following buttons to install it into your adblocker:
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-green-dark.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+
 <br>
 
-🧪 &nbsp; [AdVoid.Addon.Experiments](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge adblock rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-pink.svg"></a>
+Or add it manually using either of the following URLs:
+
 <br>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt
+```
+
+or
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt
+```
+
+---
+
+### 🦄 AdVoid.Addon.NoExtras
+
+> The no extras add-on. Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.
+
 <br>
-<em>Unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.</em>
+
+Click either of the following buttons to install it into your adblocker:
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+
 <br>
+
+Or add it manually using either of the following URLs:
+
 <br>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt
+```
+
+or
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt
+```
+
+---
+
+### 🧪 AdVoid.Addon.Experiments
+
+> The experimental add-on. Unstable and experimental filter list, use only for testing purposes only.
+>
+> ‼️ **It may break certain sites.**
+
+<br>
+
+Click either of the following buttons to install it into your adblocker:
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge adblock rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-pink.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge adblock rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+
+<br>
+
+Or add it manually using either of the following URLs:
+
+<br>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt
+```
+
+or
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt
+```
+
+---
 
 > ### 💡 Tip
 >
