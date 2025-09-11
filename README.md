@@ -48,7 +48,7 @@
     - [**AdVoid.Addon.NoAnnoyances**](#-advoidaddonnoannoyances)
     - [**AdVoid.Addon.NoExternals**](#-advoidaddonnoexternals)
     - [**AdVoid.Addon.NoExtras**](#-advoidaddonnoextras)
-    - [**AdVoid.Addon.Experiments**](#-advoidaddonexpriments)
+    - [**AdVoid.Addon.Experiments**](#-advoidaddonexperiments)
 - [**Case Study**](#-case-study)
 - [**Support**](#-support)
 - [**License**](#-license)
