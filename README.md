@@ -291,9 +291,14 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experim
 
 ### ⚡ Scriptlets
 
-Scriptlets are a superpower inside adblocking world. But… *with great power, comes great responsibility*! Scriptlets are chunks of `JavaScript` code that runs on a particular site and can change its behavior majorly, e.g.: cut down waiting time, disable popup windows, prevent aggressive ads and many things more!  
+> #### 🛑 DANGER
+>
+> If you are not aware what scriptlets are beforehand, it's recommended **not** to use them.
+>
 
-Remember to add scriptlets only from trusted source. `AdVoid` being a complete adblocking solution, also provides scriptlets listed below.
+Many times, basic ad-blocking is not enough and that's where scriptlets come in. Scriptlets are a superpower inside ad-blocking world. But… *with great power, comes great responsibility*! Scriptlets are chunks of `JavaScript` code that run on a particular site and can change its behavior majorly, e.g.: cut down waiting time, disable popup windows, prevent aggressive ads and many things more!  
+
+Remember to add scriptlets ***only*** from trusted source. `AdVoid` being a complete ad-blocking solution, also provides scriptlets listed below.
 
 ---
 
