@@ -304,9 +304,9 @@ Remember to add scriptlets ***only*** from trusted source.
 
 ---
 
-#### 🧪 AdVoid.Addon.Experiments
+#### 🥷🏼 AdVoid.Scriptlets.AntiAntiAdBlock
 
-> The experimental add-on. Unstable and experimental filter list, for testing purposes only.
+> Infiltrates and then destroys common anti-adblock techniques.
 >
 > ‼️ **It may break certain sites.**
 
