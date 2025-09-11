@@ -16,18 +16,57 @@ See the <a href="https://github.com/the-advoid/ad-void/tree/main/TIMELINE.md">TI
 
 👇🏼 Below are the available legacy filter lists - with their names and the features they block - you can freely subscribe to.
 
+
+---
+
+### 💬 AdVoid.Legacy.Addon.NoExternals
+
+> Blocks comments.
+
 <br>
 
-💬 &nbsp; [AdVoid.Legacy.Addon.NoExternals](https://github.com/the-advoid/ad-void/blob/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt&title=AdVoid.Legacy.Addon.NoExternals"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=0a4a73"></a>
-<br>
-<br>
-<em>Blocks comments.</em>
-<br>
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt&title=AdVoid.Legacy.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Legacy.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block comments" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt
+```
+
 <br>
 
-🦄 &nbsp; [AdVoid.Legacy.Addon.NoExtras](https://github.com/the-advoid/ad-void/blob/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt) &nbsp; <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt&title=AdVoid.Legacy.Addon.NoExtras"><img alt="Subscribe" src="https://custom-icon-badges.herokuapp.com/badge/subscribe-blue?style=flat-square&logo=plug&logoColor=white&color=990033"></a>
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt&title=AdVoid.Legacy.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Legacy.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block comments" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt
+```
+
+---
+
+### 🦄 AdVoid.Legacy.Addon.NoExtras
+
+> Blocks non-essential resources Webmanifests and service workers.
+
 <br>
+
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt&title=AdVoid.Legacy.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Legacy.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt
+```
+
 <br>
-<em>Blocks non-essential resources Webmanifests and service workers.</em>
-<br>
-<br>
+
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt&title=AdVoid.Legacy.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Legacy.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt
+```
+
+---
