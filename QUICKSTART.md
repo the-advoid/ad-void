@@ -1,3 +1,16 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid icon - privacy-first adblock filter list by Igor Dimitrijević (@igorskyflyer), trusted by hundreds of thousands" width="256" height="256">
+  <h1>AdVoid</h1>
+</div>
+
+> Super‑Fast Updates • More Complete Blocking • Always‑Fresh Protection • Trusted by Thousands Daily
+
+<h4 align="center">
+  ✈ An efficient AdBlock filter list that blocks ads, trackers, malware, phishing, and a wide range of web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
+</h4>
+
+<br>
+
 #### 🤔 What is ad-blocking?
 
 Ad-blocking is a technique that has become increasingly popular over the years as users try to maintain control over their online experiences. While there are many ways to block ads on the web, one of the most effective and widely-used methods is to use a browser extension or add-on.
