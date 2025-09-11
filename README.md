@@ -11,14 +11,14 @@
 
 <br>
 
-<div align="center" style="margin: auto;">
+<div align="center">
   <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-launched.svg" alt="AdVoid launch badge - efficient adblock filter list by Igor Dimitrijević (@igorskyflyer), live since Feb 2022">
-  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.3935-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7"></a>
-  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core file size badge - lightweight adblock filter by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/size/the-advoid/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900"></a>
+  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.3935-blue?style=flat-square&logo=rocket&logoColor=white&color=508cc7&label=Version"></a>
+  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core file size badge - lightweight adblock filter by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/size/the-advoid/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900&label=Size"></a>
   <br>
   <a href="https://github.com/the-advoid/ad-void/pulls?q=is%3Apr+is%3Aclosed"><img alt="AdVoid closed PRs badge - active development by Igor Dimitrijević (@igorskyflyer), community-driven" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/the-advoid/ad-void?color=0f167d&style=flat-square&logo=git-pull-request&logoColor=white&label=Closed%20PRs"></a>
   <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="AdVoid commit activity badge - frequent updates by Igor Dimitrijević (@igorskyflyer), always-fresh protection" src="https://custom-icon-badges.herokuapp.com/github/commit-activity/m/the-advoid/ad-void?style=flat-square&label=Commits&logo=checklist&logoColor=white&color=006600"></a>
-  <a href="https://github.com/the-advoid/ad-void/issues?q=is%3Aissue+is%3Aclosed"><img alt="AdVoid closed issues badge - responsive maintenance by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/issues-closed/the-advoid/ad-void?style=flat-square&logo=issue-closed&logoColor=white&color=3333ff"></a>
+  <a href="https://github.com/the-advoid/ad-void/issues?q=is%3Aissue+is%3Aclosed"><img alt="AdVoid closed issues badge - responsive maintenance by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/issues-closed/the-advoid/ad-void?style=flat-square&logo=issue-closed&logoColor=white&color=3333ff&label=Issues"></a>
   <br>
   <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://data.jsdelivr.com/v1/package/gh/the-advoid/ad-void/badge" alt="AdVoid CDN badge - fast, reliable adblock filter list by Igor Dimitrijević (@igorskyflyer), hosted on jsDelivr for global privacy protection">
   <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="AdVoid last updated badge - latest commit by Igor Dimitrijević (@igorskyflyer), filter list always evolving" src="https://custom-icon-badges.herokuapp.com/github/last-commit/the-advoid/ad-void?style=flat-square&label=Updated&logo=git-commit&logoColor=white&color=e65c00"></a>
