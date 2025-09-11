@@ -88,7 +88,7 @@ Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modu
 
 ### 🐦‍🔥 Modules
 
-The three core `AdVoid` filter lists. Designed for layered protection—block ads, trackers, malware, and annoyances across web, DNS, and browser surfaces.
+Modules are the three core `AdVoid` filter lists. Designed for layered protection: block ads, trackers, malware, and annoyances across web, DNS, and browser surfaces.
 
 ---
 
