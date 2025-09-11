@@ -298,6 +298,8 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experim
 
 ---
 
+<br>
+
 > ### 💡 Tip
 >
 > As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the *Legacy* filter lists, see [Legacy README](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
