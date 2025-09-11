@@ -74,17 +74,17 @@
 
 ## 🕵🏼 Usage
 
-Get all `AdVoid` filter lists in one bundle below, as `AdVoid.Full`.
+Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modules that you need.
 
-<br>
+---
 
 ### AdVoid.Full
 
-> The complete protection. Includes all modules, except experimental rules and standalone scriptlets.
+> The complete protection. Includes all modules, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
 
 <br>
 
-Click either of the following buttons to add it instantly:
+Click either of the following buttons to install it into your adblocker:
 <div align="center">
   <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 </div>
@@ -108,6 +108,31 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 ---
 
 ### AdVoid.Core
+
+> The core protection module. Blocks major ad-servers, trackers, malware, fake download links, cuts-down timer executions.
+
+<br>
+
+Click either of the following buttons to install it into your adblocker:
+<div align="center">
+  <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+</div>
+
+<br>
+
+Or add it manually using either of the following URLs:
+
+<br>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt
+```
+
+or
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
+```
 
 Install it into your ad-blocker by clicking on following subscribe button <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> or by manually adding a filter list with the URL of:
 
