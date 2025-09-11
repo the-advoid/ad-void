@@ -42,7 +42,7 @@ By using `AdVoid`, you acknowledge that:
 
 <br>
 
-<sub>&dagger; The author might earn commissions with some affiliate links, but at no cost to you.</sub>
+<sub>&dagger; The author might earn commissions with some affiliate links, but at no cost to you. These earnings help support ongoing updates, maintenance, and future development of the project.</sub>
 
 <br>
 
