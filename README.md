@@ -29,7 +29,7 @@
 <br>
 
 <blockquote align="center">
-  💕 Supported by <a href="https://adguard.com?aid=135952">AdGuard</a> since December 19, 2022. 🥳
+  💕 Supported by <a href="https://adguard.com?aid=135952"><strong>AdGuard</strong></a> since December 19, 2022. 🥳
 </blockquote>
 
 <br>
@@ -79,7 +79,7 @@
 
 ## ℹ️ Quickstart
 
-🆕 New to ad‑blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank">QUICKSTART</a> first. 😉
+🆕 New to ad‑blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank"><strong>QUICKSTART</strong>></a> first. 😉
 
 <br>
 
@@ -355,7 +355,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experim
 
 > ### 💡 Tip
 >
-> As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the *Legacy* filter lists, see [Legacy README](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
+> As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and be transferred to the *Legacy* filter lists, see [**Legacy README**](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
 >
 >
 
@@ -371,19 +371,19 @@ AdVoid was started as a personal project in January, 2022 then made public mid F
 #### 🐛 Divergence pt. 1
 
 The modules are:
-- [AdVoid.Core](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt) - core functionality = ad-blocking (URL + cosmetic)
-- [AdVoid.DNS](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) - DNS-blocking (URL only)
-- [AdVoid.Full](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) - full content blocking (core functionality + add-ons)
+- [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt) - core functionality = ad-blocking (URL + cosmetic)
+- [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) - DNS-blocking (URL only)
+- [**AdVoid.Full**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) - full content blocking (core functionality + add-ons)
 
 <br>
 
 #### 🐛 Divergence pt. 2
 
 The add-ons are:
-- [AdVoid.Addon.NoAnnoyances](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances like cookie-consent banners, popups, etc.
-- [AdVoid.Addon.NoExternals](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) - blocks external features, like sharing, Google Chromecast, etc.
-- [AdVoid.Addon.NoExtras](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) - blocks non-essential resources like news widgets, JavaScript and CSS maps, PWA install banners, etc.
-- [AdVoid.Addon.Experiments](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) - unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.
+- [**AdVoid.Addon.NoAnnoyances**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances like cookie-consent banners, popups, etc.
+- [**AdVoid.Addon.NoExternals**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) - blocks external features, like sharing, Google Chromecast, etc.
+- [**AdVoid.Addon.NoExtras**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) - blocks non-essential resources like news widgets, JavaScript and CSS maps, PWA install banners, etc.
+- [**AdVoid.Addon.Experiments**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) - unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.
 
 ---
 
@@ -393,7 +393,7 @@ Even so it was a hassle to maintain the filter lists, in particular it involved 
 
 <br>
 
-After creating the before-mentioned solutions, [AdVoid](https://github.com/the-advoid/ad-void) was split even further into small chunks of rules, properly organized which allowed for easier maintenance, less time scrolling through endless lists of rules and more importantly it allowed re-use of rules, i.e. rules that were repeating, e.g. URLs that are blocked in all 3 modules: [AdVoid.Core](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt), [AdVoid.DNS](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt), [AdVoid.Full](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) are contained in a single file and [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) fetches the URLs from the given file and applies transformations when needed, e.g. domain rules are stripped of all modifiers for the [AdVoid.DNS](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) module.
+After creating the before-mentioned solutions, [**AdVoid**](https://github.com/the-advoid/ad-void) was split even further into small chunks of rules, properly organized which allowed for easier maintenance, less time scrolling through endless lists of rules and more importantly it allowed re-use of rules, i.e. rules that were repeating, e.g. URLs that are blocked in all 3 modules: [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt), [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt), [**AdVoid.Full**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) are contained in a single file and [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) fetches the URLs from the given file and applies transformations when needed, e.g. domain rules are stripped of all modifiers for the [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) module.
 
 <br>
 
@@ -427,7 +427,7 @@ After implementing the before-mentioned solutions there were ~**4240** rule comm
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
+Licensed under the MIT license which is available here, [**MIT license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
 
 <br>
 <br>
@@ -451,31 +451,31 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[@igorskyflyer/aria](https://www.npmjs.com/package/@igorskyflyer/aria)
+[**@igorskyflyer/aria**](https://www.npmjs.com/package/@igorskyflyer/aria)
 
 > _🧬 Meet Aria, an efficient Adblock filter list compiler, with many features that make your maintenance of Adblock filter lists a breeze! 🦖_
 
 <br>
 
-[@igorskyflyer/adblock-filter-counter](https://www.npmjs.com/package/@igorskyflyer/adblock-filter-counter)
+[**@igorskyflyer/adblock-filter-counter**](https://www.npmjs.com/package/@igorskyflyer/adblock-filter-counter)
 
 > _🐲  A dead simple npm module that counts Adblock filter rules.🦘_
 
 <br>
 
-[@igorskyflyer/biome-config-igorskyflyer](https://www.npmjs.com/package/@igorskyflyer/biome-config-igorskyflyer)
+[**@igorskyflyer/biome-config**](https://www.npmjs.com/package/@igorskyflyer/biome-config)
 
 > _👽 An opinionated config for Biome to be used in JavaScript, TypeScript, JSX, TSX and any JavaScript-related projects. 🐺_
 
 <br>
 
-[@igorskyflyer/strip-headings](https://www.npmjs.com/package/@igorskyflyer/strip-headings)
+[**@igorskyflyer/strip-headings**](https://www.npmjs.com/package/@igorskyflyer/strip-headings)
 
 > _⛸ Strips Markdown headings!🏹_
 
 <br>
 
-[@igorskyflyer/adblock-header-extract](https://www.npmjs.com/package/@igorskyflyer/adblock-header-extract)
+[**@igorskyflyer/adblock-header-extract**](https://www.npmjs.com/package/@igorskyflyer/adblock-header-extract)
 
 > _✂️ An npm module that provides ways to extract header and metadata from an Adblock filter file. 📃_
 
