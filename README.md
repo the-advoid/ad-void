@@ -21,7 +21,7 @@
   <a href="https://github.com/the-advoid/ad-void/issues?q=is%3Aissue+is%3Aclosed"><img alt="AdVoid closed issues badge - responsive maintenance by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/issues-closed/the-advoid/ad-void?style=flat-square&logo=issue-closed&logoColor=white&color=3333ff&label=Issues"></a>
   <br>
   <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://data.jsdelivr.com/v1/package/gh/the-advoid/ad-void/badge" alt="AdVoid CDN badge - fast, reliable adblock filter list by Igor Dimitrijević (@igorskyflyer), hosted on jsDelivr for global privacy protection">
-  <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="AdVoid last updated badge - latest commit by Igor Dimitrijević (@igorskyflyer), filter list always evolving" src="https://custom-icon-badges.herokuapp.com/github/last-commit/the-advoid/ad-void?style=flat-square&logo=git-commit&logoColor=white&color=e65c00&label=Last%20update"></a>
+  <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="AdVoid last updated badge - latest commit by Igor Dimitrijević (@igorskyflyer), filter list always evolving" src="https://custom-icon-badges.herokuapp.com/github/last-commit/the-advoid/ad-void?style=flat-square&logo=git-commit&logoColor=white&color=e65c00&label=Last%20Update"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/LICENSE"><img alt="AdVoid license badge - MIT licensed by Igor Dimitrijević (@igorskyflyer), open-source adblock innovation" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-license.svg"></a>
 </a>
 </div>
