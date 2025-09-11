@@ -56,6 +56,7 @@
   - [**Divergence Pt. 1**](#-divergence-pt-1)
   - [**Divergence Pt. 2**](#-divergence-pt-2)
 - [**Productivity Gains**](#-productivity-gains)
+- [**Disclaimer**](#️-disclaimer)
 - [**Support**](#-support)
 - [**License**](#-license)
 - [**Related**](#-related)
@@ -408,6 +409,22 @@ Prior to implementing `ADBT` template files and using the [`Aria`](https://githu
 After implementing the before-mentioned solutions there were ~**4240** rule commits per month (+**1104.5%**), while commits reached their peak in December, with staggering ~**5861** rule commits (+**1565.1%**).
 
 <br>
+
+## ⚠️ Disclaimer
+
+`AdVoid` is provided *as-is*, without warranty of any kind. While every effort is made to ensure the accuracy and effectiveness of its modules, add-ons and scriptlets, its users are solely responsible for how and where they use `AdVoid` in their own local environments.  
+
+By using `AdVoid`, you acknowledge that:
+- **You** understand the risks associated with ad-blocking and/or scriptlet usage.
+- **You** accept full responsibility for any site breakage, content disruption, or unintended behavior.
+- **You** agree not to hold the maintainers liable for any direct or indirect consequences resulting from its use.
+
+<br>
+
+>
+> 💡 Use only what you **trust**. Review before you subscribe.
+>
+
 <br>
 
 ## 🪪 License
@@ -463,6 +480,10 @@ Licensed under the MIT license which is available here, [**MIT license**](https:
 [**@igorskyflyer/ad-block-header-extract**](https://www.npmjs.com/package/@igorskyflyer/adblock-header-extract)
 
 > _✂️ An npm module that provides ways to extract header and metadata from an ad-block filter file. 📃_
+
+<br>
+
+<sub>※ The author might earn commissions with some affiliate links, but at no cost to you.</sub>
 
 <br>
 <br>
