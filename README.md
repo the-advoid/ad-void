@@ -109,24 +109,17 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
+`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt
 ```
 
 or
 
+`CDN (delayed updates)`
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 ```
-
-<br>
-
-> #### 🐚 NOTICE
->
-> For **instant** updates, use the first URL - the GitHub-hosted version.
->
-> The second URL is a fallback - CDN-hosted and will **NOT** get instant updates.
->
 
 ---
 
@@ -144,24 +137,17 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
+`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt
 ```
 
 or
 
+`CDN (delayed updates)`
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 ```
-
-<br>
-
-> #### 🐚 NOTICE
->
-> For **instant** updates, use the first URL - the GitHub-hosted version.
->
-> The second URL is a fallback - CDN-hosted and will **NOT** get instant updates.
->
 
 ---
 
@@ -180,24 +166,17 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
+`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt
 ```
 
 or
 
+`CDN (delayed updates)`
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt
 ```
-
-<br>
-
-> #### 🐚 NOTICE
->
-> For **instant** updates, use the first URL - the GitHub-hosted version.
->
-> The second URL is a fallback - CDN-hosted and will **NOT** get instant updates.
->
 
 ---
 
@@ -223,24 +202,17 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
+`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt
 ```
 
 or
 
+`CDN (delayed updates)`
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt
 ```
-
-<br>
-
-> #### 🐚 NOTICE
->
-> For **instant** updates, use the first URL - the GitHub-hosted version.
->
-> The second URL is a fallback - CDN-hosted and will **NOT** get instant updates.
->
 
 ---
 
@@ -258,24 +230,17 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
+`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt
 ```
 
 or
 
+`CDN (delayed updates)`
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt
 ```
-
-<br>
-
-> #### 🐚 NOTICE
->
-> For **instant** updates, use the first URL - the GitHub-hosted version.
->
-> The second URL is a fallback - CDN-hosted and will **NOT** get instant updates.
->
 
 ---
 
@@ -293,24 +258,17 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
+`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt
 ```
 
 or
 
+`CDN (delayed updates)`
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt
 ```
-
-<br>
-
-> #### 🐚 NOTICE
->
-> For **instant** updates, use the first URL - the GitHub-hosted version.
->
-> The second URL is a fallback - CDN-hosted and will **NOT** get instant updates.
->
 
 ---
 
@@ -330,24 +288,17 @@ Click either of the following buttons to install it into your adblocker:
 
 Or add it manually using either of the following URLs:
 
+`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt
 ```
 
 or
 
+`CDN (delayed updates)`
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt
 ```
-
-<br>
-
-> #### 🐚 NOTICE
->
-> For **instant** updates, use the first URL - the GitHub-hosted version.
->
-> The second URL is a fallback - CDN-hosted and will **NOT** get instant updates.
->
 
 ---
 
