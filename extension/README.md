@@ -3,7 +3,7 @@
   <h1>AdVoid</h1>
 </div>
 
-> Super‑Fast Updates • More Complete Blocking • Always‑Fresh Protection • Trusted by Thousands Daily
+<blockquote align="center">Super‑Fast Updates • More Complete Blocking • Always‑Fresh Protection • Trusted by Thousands Daily</blockquote>
 
 <h4 align="center">
   ✈ An efficient AdBlock filter list that blocks ads, trackers, malware, phishing, and a wide range of web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
