@@ -347,7 +347,9 @@ As `AdVoid` continues to improve, certain rules will get deprecated and removed 
 
 ## 📚 Case Study
 
-AdVoid was started as a personal project in January, 2022 then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **modules** and **add-ons** - for easier maintenance.
+`AdVoid` was started as a personal project in `January, 2022` then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **modules** and **add-ons** - for easier maintenance.  
+
+Even with all the rules-splitting, maintenance was cumbersome. Since `Aug 14 2023`, `AdVoid` has been powered by [**ADBT**](https://github.com/adbt-lang/adbt) - a language that defines template files and provides ways of writing reusable, component-like based Adblock filter files and its compiler `Aria` that substantially increase productivity and cut off the time needed for maintaining these filter lists, which means more frequent updates and delivery on a daily basis.
 
 <br>
 
