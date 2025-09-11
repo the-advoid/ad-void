@@ -11,9 +11,6 @@ See the <a href="https://github.com/the-advoid/ad-void/tree/main/TIMELINE.md">TI
 
 ---
 
-<br>
-<br>
-
 👇🏼 Below are the available legacy filter lists - with their names and the features they block - you can freely subscribe to.
 
 
