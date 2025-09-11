@@ -79,7 +79,6 @@
 - 🕹 Removes SWF objects and site reporters
 
 <br>
-<br>
 
 ## ℹ️ Quickstart
 
@@ -101,7 +100,9 @@ Modules are the three core `AdVoid` filter lists. Designed for layered protectio
 
 #### 🛡️ AdVoid.Full
 
-> The complete protection. Includes all modules and add-ons, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
+##### The Complete Protection
+
+> Includes all modules and add-ons, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects.
 
 <br>
 
@@ -127,7 +128,9 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 
 #### 📦 AdVoid.Core
 
-> The core protection module. Blocks major ad-servers, trackers, malware, fake download links, cuts-down timer executions.
+##### The Core Protection Module
+
+> Blocks major ad-servers, trackers, malware, fake download links, cuts-down timer executions.
 
 <br>
 
@@ -153,7 +156,9 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 #### 🌐 AdVoid.DNS
 
-> The DNS-level module. Blocks domains before requests reach your browser: ads, trackers, telemetry, malware, and known nuisances. Lightweight, system-wide protection.
+##### The DNS-level Module
+
+> Blocks domains before requests reach your browser: ads, trackers, telemetry, malware, and known nuisances. Lightweight, system-wide protection.
 > Suitable for system-wide ad-blockers.
 
 <br>
@@ -188,7 +193,9 @@ For additional privacy, faster browsing experience and less tracking these `AdVo
 
 #### 😒 AdVoid.Addon.NoAnnoyances
 
-> The no annoyances add-on. Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.
+##### The No Annoyances Add-on.
+
+> Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.
 
 <br>
 
@@ -214,7 +221,9 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoy
 
 #### 💬 AdVoid.Addon.NoExternals
 
-> The no externals add-on. Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, etc.
+##### The No Externals Add-on.
+
+> Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, etc.
 
 <br>
 
@@ -240,7 +249,9 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExter
 
 #### 🦄 AdVoid.Addon.NoExtras
 
-> The no extras add-on. Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.
+##### The No Extras Add-on.
+
+> Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.
 
 <br>
 
@@ -266,7 +277,9 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtra
 
 #### 🧪 AdVoid.Addon.Experiments
 
-> The experimental add-on. Unstable and experimental filter list, for testing purposes only.
+##### The Experimental Add-on.
+
+> **Unstable** and *experimental* filter list, for testing purposes only.
 >
 > ‼️ **It may break certain sites.**
 
@@ -313,6 +326,8 @@ Scriptlets are chunks of `JavaScript` code that run on a particular site and can
 ---
 
 #### 🥷🏼 AdVoid.Scriptlets.AntiAntiAdBlock
+
+##### Anti-ad-block Scriptlet
 
 > Infiltrates and then destroys common anti-ad-block techniques.
 >
