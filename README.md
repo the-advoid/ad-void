@@ -274,7 +274,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtra
 
 ### 🧪 AdVoid.Addon.Experiments
 
-> The experimental add-on. Unstable and experimental filter list, use only for testing purposes only.
+> The experimental add-on. Unstable and experimental filter list, for testing purposes only.
 >
 > ‼️ **It may break certain sites.**
 
