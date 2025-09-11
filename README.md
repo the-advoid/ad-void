@@ -128,7 +128,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 
 Click either of the following buttons to install it into your adblocker:
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-dark.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
 <br>
 
@@ -157,7 +157,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 Click either of the following buttons to install it into your adblocker:
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-lime.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple-med.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
 <br>
 
@@ -193,7 +193,7 @@ For additional privacy, faster browsing experience and less tracking these `AdVo
 
 Click either of the following buttons to install it into your adblocker:
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-orange.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-orange.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
 <br>
 
@@ -221,7 +221,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoy
 
 Click either of the following buttons to install it into your adblocker:
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-green-dark.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-green.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
 <br>
 
@@ -249,7 +249,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExter
 
 Click either of the following buttons to install it into your adblocker:
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue-light.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-brown.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
 <br>
 
