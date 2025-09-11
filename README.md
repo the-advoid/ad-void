@@ -79,7 +79,6 @@
 🆕 New to ad‑blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank">QUICKSTART</a> first. 😉
 
 <br>
-<br>
 
 ## 🕵🏼 Usage
 
