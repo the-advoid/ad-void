@@ -101,7 +101,7 @@ Modules are the three core `AdVoid` filter lists. Designed for layered protectio
 
 <br>
 
-Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button or copying the URL and pasting it into your adblocker.
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
@@ -111,7 +111,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button or copying the URL and pasting it into your adblocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -127,22 +127,20 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 
 <br>
 
-Click either of the following buttons to install it into your adblocker:
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-blue.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
-<br>
-
-Or add it manually using either of the following URLs:
-
-`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt
 ```
 
-or
+<br>
 
-`CDN (delayed updates)`
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
+
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 ```
@@ -156,22 +154,20 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 <br>
 
-Click either of the following buttons to install it into your adblocker:
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple-med.svg"></a> <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-purple.svg"></a>
 
-<br>
-
-Or add it manually using either of the following URLs:
-
-`GitHub (instant updates)`
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt
 ```
 
-or
+<br>
 
-`CDN (delayed updates)`
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your adblocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
+
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt
 ```
