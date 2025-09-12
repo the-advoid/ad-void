@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.NoExternals.txt&title=AdVoid.Legacy.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Legacy.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block comments" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -71,7 +71,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.NoExtras.txt&title=AdVoid.Legacy.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Legacy.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
