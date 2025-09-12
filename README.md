@@ -116,7 +116,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -144,7 +144,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Core.txt
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt&title=AdVoid.Core"><img alt="Subscribe button - install AdVoid.Core filter list by Igor Dimitrijević (@igorskyflyer) for essential protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -173,7 +173,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.DNS.txt
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt&title=AdVoid.DNS"><img alt="Subscribe button - enable AdVoid.DNS filter list by Igor Dimitrijević (@igorskyflyer) for system-wide blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -209,7 +209,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.N
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -237,7 +237,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.N
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExternals.txt&title=AdVoid.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block widgets & chats" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -265,7 +265,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.N
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtras.txt&title=AdVoid.Addon.NoExtras"><img alt="Subscribe button - apply AdVoid.Addon.NoExtras by Igor Dimitrijević (@igorskyflyer), block JS maps & PWA banners" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -295,7 +295,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.E
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge ad-block rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
@@ -345,7 +345,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scri
 
 <br>
 
-Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (~2-3h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-ad-block scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-red.svg"></a>
 
