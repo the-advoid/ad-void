@@ -327,9 +327,9 @@ Scriptlets are chunks of `JavaScript` code that run on a particular site and can
 
 #### 🥷🏼 AdVoid.Scriptlets.AntiAntiAdBlock
 
-##### Anti-ad-block Scriptlet
+##### Anti-adblock Scriptlet
 
-> Infiltrates and then destroys common anti-ad-block techniques.
+> Infiltrates and then destroys common anti-adblock techniques.
 >
 > ‼️ **It may break certain sites.**
 
@@ -337,7 +337,7 @@ Scriptlets are chunks of `JavaScript` code that run on a particular site and can
 
 Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-ad-block scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-adblock scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
@@ -347,7 +347,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scri
 
 Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-ad-block scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt&title=AdVoid.Scriptlets.AntiAntiAdBlock"><img alt="Subscribe button - enable AdVoid.Scriptlets.AntiAntiAdBlock by Igor Dimitrijević (@igorskyflyer), bypass anti-adblock scripts with precision" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
 
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
