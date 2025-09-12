@@ -13,8 +13,18 @@
 
 ## 🫱🏼‍🫲🏼 Contributors of AdVoid
 
-<p>🍀 Wonderful people that helped with the growth of AdVoid</p>
+#### 🍀 Wonderful people that helped with the growth of AdVoid.
 
 <br>
+<br>
+<br>
 
-\* Such void here… 🌬️🍃🍂 \*
+<div align="center">
+  <a href="https://github.com/the-advoid/ad-void/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=the-advoid/ad-void">
+  </a>
+
+  <br>
+
+  Made with <a href="https://contrib.rocks"><strong>contrib.rocks</strong></a>
+</div>
