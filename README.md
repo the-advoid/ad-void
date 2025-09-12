@@ -287,7 +287,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtra
 
 Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge ad-block rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt&title=AdVoid.Addon.Experiments"><img alt="Subscribe button - test AdVoid.Addon.Experiments by Igor Dimitrijević (@igorskyflyer), cutting-edge ad-block rules" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Experiments.txt
