@@ -195,7 +195,7 @@ For additional privacy, faster browsing experience and less tracking these `AdVo
 
 ##### The No Annoyances Add-on
 
-> Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.
+> Blocks site annoyances: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.
 
 <br>
 
@@ -223,7 +223,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoy
 
 ##### The No Externals Add-on
 
-> Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, etc.
+> Blocks external features: sharing, Google Chromecast, popup chats, post widgets, like widgets, etc.
 
 <br>
 
@@ -251,7 +251,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExter
 
 ##### The No Extras Add-on
 
-> Blocks non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, etc.
+> Blocks non-essential resources: news widgets, JavaScript and CSS maps, PWA install banners, SWF objects, etc.
 
 <br>
 
@@ -383,9 +383,9 @@ The modules are:
 #### 🐛 Divergence Pt. 2
 
 The add-ons are:
-- [**AdVoid.Addon.NoAnnoyances**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances like cookie-consent banners, popups, etc.
-- [**AdVoid.Addon.NoExternals**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) - blocks external features, like sharing, Google Chromecast, etc.
-- [**AdVoid.Addon.NoExtras**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) - blocks non-essential resources like news widgets, JavaScript and CSS maps, PWA install banners, etc.
+- [**AdVoid.Addon.NoAnnoyances**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances: cookie-consent banners, popups, etc.
+- [**AdVoid.Addon.NoExternals**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) - blocks external features: sharing, Google Chromecast, etc.
+- [**AdVoid.Addon.NoExtras**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) - blocks non-essential resources: news widgets, JavaScript and CSS maps, PWA install banners, etc.
 - [**AdVoid.Addon.Experiments**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) - unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.
 
 ---
