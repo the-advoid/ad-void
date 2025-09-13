@@ -106,6 +106,12 @@ Modules are the three core `AdVoid` filter lists. Designed for layered protectio
 
 <br>
 
+>
+> ✨ If you subscribe to this filter list, you do not need any of the other filter lists below.
+>
+
+<br>
+
 Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt&title=AdVoid.Full"><img alt="Subscribe button - add AdVoid.Full filter list by Igor Dimitrijević (@igorskyflyer) for complete ad-blocking" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
