@@ -1,1 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" style="fill-rule:evenodd;clip-rule:evenodd" text-rendering="geometricPrecision" viewBox="0 0 8684 3267"><path d="M8644.38 614.879v2025.45c0 319.413-259.304 578.717-578.712 578.717H614.878c-319.413 0-578.717-259.304-578.717-578.717V614.879c0-319.408 259.304-578.717 578.717-578.717h7450.79c319.408 0 578.712 259.309 578.712 578.717Z" style="fill:none;stroke:#ffac4c;stroke-width:75px"/><path d="M8644.38 614.879v2025.45c0 319.413-259.304 578.717-578.712 578.717H614.878c-319.413 0-578.717-259.304-578.717-578.717V614.879c0-319.408 259.304-578.717 578.717-578.717h7450.79c319.408 0 578.712 259.309 578.712 578.717Z" style="fill:url(#a);stroke:#fff;stroke-opacity:.25;stroke-width:72.42px"/><clipPath id="b"><path d="M8644.38 614.879v2025.45c0 319.413-259.304 578.717-578.712 578.717H614.878c-319.413 0-578.717-259.304-578.717-578.717V614.879c0-319.408 259.304-578.717 578.717-578.717h7450.79c319.408 0 578.712 259.309 578.712 578.717"/></clipPath><g clip-path="url(#b)" opacity=".7"><ellipse cx="1446.75" cy="578.7" rx="2531.83" ry="1446.75" style="fill:url(#c)"/><ellipse cx="6872.08" cy="2676.51" rx="3255.21" ry="1808.45" style="fill:url(#d)"/></g><path d="M1019.51 1430.96c-50.541-452.416 213.834-770.625 709.417-951.791-303.542 393.75 258.708 820.333 289.708 1229.29 72.667-123.958 113.917-289.5 122.084-510.625 371.583 583 63.541 1535.79-754.25 1398.88-75.084-12.541-147.417-36.25-213.375-71.541-298.167-159.334-476.334-506.292-476.334-837.667 0-211.208 90.334-399.792 207.25-549.625 15.625 146.792 48.875 256.292 115.5 293.083Z" style="fill:#e20919"/><path d="M1276.59 2031.21c-90.959-240.25-78.375-628.125 176.375-764.208 1.791 445.958 431.541 502.667 351.833 978.75 73.5-84.958 110.458-220.917 117.083-328.125 116.5 272.417 25.167 490.5-140.875 601.542-504.791 337.5-939.5-346.792-650.458-721.917 8.667 83.625 108.917 213 146.042 233.958" style="fill:url(#e)"/><text x="2895.48" y="1987.64" style="font-family:'SegoeUI-Bold','Segoe UI';font-weight:700;font-size:1012.73px;fill:#fff;">SUBSCRIBE</text><defs><radialGradient id="c" cx="0" cy="0" r="1" gradientTransform="translate(-72.338 -578.704)scale(4557.29)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#ffcf7a;stop-opacity:.9"/><stop offset="1" style="stop-color:#ff6b00;stop-opacity:0"/></radialGradient><radialGradient id="d" cx="0" cy="0" r="1" gradientTransform="translate(4918.96 1229.75)scale(5859.38)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#ffcf7a;stop-opacity:.9"/><stop offset="1" style="stop-color:#ff6b00;stop-opacity:0"/></radialGradient><linearGradient id="a" x1="0" x2="1" y1="0" y2="0" gradientTransform="scale(9177.8)rotate(20.292 -.009 .013)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#1b0a08;stop-opacity:1"/><stop offset=".35" style="stop-color:#5b0d0a;stop-opacity:1"/><stop offset=".7" style="stop-color:#b32e0e;stop-opacity:1"/><stop offset="1" style="stop-color:#ff6b00;stop-opacity:1"/></linearGradient><linearGradient id="e" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(90 -147.35 1525.44)scale(892.667)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#fb6404;stop-opacity:1"/><stop offset="1" style="stop-color:#f2be10;stop-opacity:1"/></linearGradient></defs></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9584 3267" style="fill-rule:evenodd;clip-rule:evenodd" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="a" x1="0" x2="1" y1="0" y2="0" gradientTransform="scale(9177.8) rotate(20.292 -.009 .013)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b0a08"/>
+      <stop offset="0.35" stop-color="#5b0d0a"/>
+      <stop offset="0.7" stop-color="#b32e0e"/>
+      <stop offset="1" stop-color="#ff6b00"/>
+    </linearGradient>
+
+    <!-- Radial overlays -->
+    <radialGradient id="c" cx="0" cy="0" r="1" gradientTransform="translate(-72.338 -578.704) scale(4557.29)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffcf7a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ff6b00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="d" cx="0" cy="0" r="1" gradientTransform="translate(4918.96 1229.75) scale(5859.38)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffcf7a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ff6b00" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Flame gradient -->
+    <linearGradient id="e" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(90 -147.35 1525.44) scale(892.667)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fb6404"/>
+      <stop offset="1" stop-color="#f2be10"/>
+    </linearGradient>
+
+    <!-- Clip path for frame -->
+    <clipPath id="_clip1">
+      <path d="M9541.67,614.879v2025.45c0,319.413-259.305,578.717-578.713,578.717H614.878c-319.413,0-578.717-259.304-578.717-578.717V614.879c0-319.408 259.304-578.717 578.717-578.717h8348.09c319.409,0 578.713,259.309 578.713,578.717Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background fill -->
+  <g clip-path="url(#_clip1)">
+    <rect x="0" y="0" width="9583.33" height="3266.67" fill="url(#a)"/>
+    <ellipse cx="1446.75" cy="578.7" rx="2531.83" ry="1446.75" fill="url(#c)" opacity="0.7"/>
+    <ellipse cx="6872.08" cy="2676.51" rx="3255.21" ry="1808.45" fill="url(#d)" opacity="0.7"/>
+  </g>
+
+  <!-- Orange frame border only -->
+  <path d="M9541.67,614.879v2025.45c0,319.413-259.305,578.717-578.713,578.717H614.878c-319.413,0-578.717-259.304-578.717-578.717V614.879c0-319.408 259.304-578.717 578.717-578.717h8348.09c319.409,0 578.713,259.309 578.713,578.717Z"
+        style="fill:none;stroke:#ffac4c;stroke-width:72pt"/>
+
+  <!-- Flame icon -->
+  <g transform="translate(584.583,416.667)">
+    <path d="M370.827,1093.573c-58.071,-519.808 245.685,-885.416 815.09,-1093.57 -348.757,452.402 297.245,942.528 332.863,1412.4 83.491,-142.423 130.885,-332.624 140.268,-586.687 426.934,669.842 73.007,1764.56 -866.602,1607.25 -86.267,-14.41 -169.375,-41.65 -245.159,-82.199 -342.581,-183.067 -547.287,-581.708 -547.287,-962.444 0,-242.669 103.79,-459.344 238.122,-631.496 17.952,168.658 56.155,294.469 132.705,336.741Z"
+          fill="#e20919"/>
+    <path d="M666.207,1788.09c-104.508,-276.037 -90.05,-721.69 202.647,-878.044 2.059,512.388 495.824,577.543 404.242,1124.54 84.448,-97.613 126.912,-253.824 134.524,-377.002 133.854,312.996 28.915,563.564 -161.86,691.147 -579.984,387.773 -1079.45,-398.45 -747.349,-829.453 9.958,96.082 125.141,244.729 167.796,268.809Z"
+          fill="url(#e)"/>
+  </g>
+
+  <!-- Text -->
+  <text x="3333.33" y="1986.25" style="font-family:'SegoeUI-Bold','Segoe UI'; font-weight:700; font-size:1012.73px; fill:#fff;">
+    SUBSCRIBE
+  </text>
+</svg>
