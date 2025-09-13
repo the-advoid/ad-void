@@ -107,9 +107,7 @@ Modules are the three core `AdVoid` filter lists. Designed for layered protectio
 >
 > ✨ If you subscribe to this filter list, you do **not** need any of the other filter lists below it.
 >
-
-<br>
-
+>
 > Includes all modules and add-ons, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, news widgets, JavaScript and CSS maps, PWA install banners, SWF objects.
 
 <br>
