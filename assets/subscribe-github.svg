@@ -83,24 +83,24 @@
     <animate attributeName="opacity" values="1;0" dur="2.1s" begin="2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- New stars (vertical motion only) -->
+  <!-- New stars (vertical motion, faster) -->
   <circle r="8" fill="#fff">
-    <animate attributeName="cx" values="600" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="700;100" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="8;30" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="1042" dur="1.4s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="392;100" dur="1.4s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;30" dur="1.4s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="1.4s" begin="2.5s" repeatCount="indefinite"/>
   </circle>
   <circle r="8" fill="#fff">
-    <animate attributeName="cx" values="1500" dur="2.4s" begin="3s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="100;700" dur="2.4s" begin="3s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="8;36" dur="2.4s" begin="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0" dur="2.4s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="1042" dur="1.2s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="392;700" dur="1.2s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;36" dur="1.2s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="1.2s" begin="3s" repeatCount="indefinite"/>
   </circle>
   <circle r="8" fill="#fff">
-    <animate attributeName="cx" values="900" dur="2.6s" begin="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="700;200" dur="2.6s" begin="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="8;40" dur="2.6s" begin="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0" dur="2.6s" begin="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="1042" dur="1.6s" begin="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="392;150" dur="1.6s" begin="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;40" dur="1.6s" begin="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="1.6s" begin="3.5s" repeatCount="indefinite"/>
   </circle>
 </g>
 
