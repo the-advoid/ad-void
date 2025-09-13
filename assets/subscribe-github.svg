@@ -55,33 +55,55 @@
   <path d="M2074.65,147.571v486.108c0,76.659 -62.233,138.892 -138.891,138.892H147.569c-76.659,0 -138.892,-62.233 -138.892,-138.892V147.571c0,-76.658 62.233,-138.892 138.892,-138.892h1788.19c76.658,0 138.891,62.234 138.891,138.892Z"
         style="fill:none;stroke:#ffffff;stroke-opacity:0.65;stroke-width:18pt;"/>
 
-  <!-- Warp stars -->
-  <g clip-path="url(#_clip2)" opacity="0.95">
-    <circle r="6" fill="#fff">
-      <animate attributeName="cx" values="1042;200" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="392;100" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="6;24" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="6" fill="#fff">
-      <animate attributeName="cx" values="1042;1800" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="392;200" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="6;28" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="6" fill="#fff">
-      <animate attributeName="cx" values="1042;300" dur="4s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="392;700" dur="4s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="6;32" dur="4s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="4s" begin="1s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="6" fill="#fff">
-      <animate attributeName="cx" values="1042;1900" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="392;700" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="8;48" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+<!-- Warp stars -->
+<g clip-path="url(#_clip2)" opacity="0.95">
+  <!-- Original stars (diagonal motion) -->
+  <circle r="8" fill="#fff">
+    <animate attributeName="cx" values="1042;200" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="392;100" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;24" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="#fff">
+    <animate attributeName="cx" values="1042;1800" dur="1.8s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="392;200" dur="1.8s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;28" dur="1.8s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="1.8s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="#fff">
+    <animate attributeName="cx" values="1042;300" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="392;700" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;32" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="#fff">
+    <animate attributeName="cx" values="1042;1900" dur="2.1s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="392;700" dur="2.1s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;48" dur="2.1s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="2.1s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- New stars (vertical motion only) -->
+  <circle r="8" fill="#fff">
+    <animate attributeName="cx" values="600" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="700;100" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;30" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="#fff">
+    <animate attributeName="cx" values="1500" dur="2.4s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;700" dur="2.4s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;36" dur="2.4s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="2.4s" begin="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="#fff">
+    <animate attributeName="cx" values="900" dur="2.6s" begin="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="700;200" dur="2.6s" begin="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;40" dur="2.6s" begin="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="2.6s" begin="3.5s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
 
   <!-- GitHub-like logo -->
   <g>
