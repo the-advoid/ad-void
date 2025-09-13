@@ -102,6 +102,8 @@ Modules are the three core `AdVoid` filter lists. Designed for layered protectio
 
 ##### The Complete Protection
 
+<br>
+
 >
 > ✨ If you subscribe to this filter list, you do **not** need any of the other filter lists below it.
 >
