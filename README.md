@@ -473,12 +473,12 @@ After implementing the before-mentioned solutions there were ~**4240** rule comm
 
 ## ⚠️ Disclaimer
 
-`AdVoid` is provided *as-is*, without warranty of any kind. While every effort is made to ensure the accuracy and effectiveness of its modules, add-ons and scriptlets, its users are solely responsible for how and where they use `AdVoid` in their own local environments.  
+`AdVoid` is provided *as-is*, without warranty of any kind. While every effort is made to ensure the accuracy and effectiveness of its modules, add-ons and scriptlets, its users are solely responsible for how and where they use `AdVoid` in their own, local environments.  
 
 By using `AdVoid`, you acknowledge that:
-- **You** understand the risks associated with ad-blocking and/or scriptlet usage.
-- **You** accept full responsibility for any site breakage, content disruption, or unintended behavior.
-- **You** agree not to hold the maintainers liable for any direct or indirect consequences resulting from its use.
+- ***You*** understand the risks associated with ad-blocking and/or scriptlet usage.
+- ***You*** accept full responsibility for any site breakage, content disruption, or unintended behavior.
+- ***You*** agree not to hold the maintainers liable for any direct or indirect consequences resulting from its use.
 
 ---
 
