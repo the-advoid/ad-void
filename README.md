@@ -376,9 +376,15 @@ This will unlock advanced techniques like:
 - Rewriting JavaScript on the fly (`replace=...`)
 - Redirecting scripts with custom logic (`redirect-rule=...`)
 
+<br>
+
 These are powerful tools that go beyond cosmetic hiding and ad-blocking, they alter a site's behavior directly. To enable them, users must manually mark `AdVoid` filter list(s) as ***trusted*** in their ad-blocker settings.  
 
 Many ad-blockers show an error when trusted rules are encountered (shown below), thus, signaling the list needs to be ***trusted*** to achieve its full potential.
+
+<br>
+
+> See the [**Disclaimer**](#️-disclaimer) as well.
 
 <br>
 
