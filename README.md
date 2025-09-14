@@ -372,7 +372,20 @@ This will unlock advanced techniques like:
 
 These are powerful tools that go beyond cosmetic hiding and ad-blocking, they alter a site's behavior directly. To enable them, users must manually mark `AdVoid` filter list(s) as ***trusted*** in their ad-blocker settings.  
 
-Many ad-blockers show an error when trusted rules are encountered, thus, signaling the list needs to be ***trusted*** to achieve its full potential.
+Many ad-blockers show an error when trusted rules are encountered (shown below), thus, signaling the list needs to be ***trusted*** to achieve its full potential.
+
+<br>
+
+<div align="center">
+  <figure>
+    <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/untrusted-filter.webp" alt="Ad-blocker error message showing untrusted filter list warning in uBlock Origin">
+    <figcaption>
+      <em><strong>Figure 1.</strong> Trust warning in uBlock Origin
+      <br>
+      <code>AdVoid</code>'s advanced rules blocked until the list is marked as trusted</em>
+    </figcaption>
+  </figure>
+</div>
 
 <br>
 
@@ -427,7 +440,9 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
   <figure>
     <img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="Aria compiler impact graph - rule additions skyrocketed with AdVoid by Igor Dimitrijević (@igorskyflyer), powered by ADBT">
     <br>
-    <figcaption><sub>Figure 1: a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</sub></figcaption>
+    <figcaption>
+      <em><strong>Figure 2.</strong> a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</em>
+    </figcaption>
   </figure>
 </div>
 
