@@ -93,7 +93,7 @@ Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modu
 
 > 🛡️ Note that some `AdVoid` rules require ***trust*** to activate.
 >
-> See [**Filter Trust**](#️-filter-trust) for more details - benefits and dangers that brings.
+> See [**Filter Trust**](#️-filter-trust) for more details - benefits and dangers that it brings.
 
 <br>
 
