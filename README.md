@@ -363,7 +363,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 ## 🛡️ Filter Trust
 
-While the majority of `AdVoid`'s rules manage to block more than *enough* ads for most users, some rules in `AdVoid` only activate if the ad-blocker marks the used list(s) as ***trusted***.  
+While the majority of `AdVoid`'s rules manage to block more than *enough* ads for *most* users, some rules in `AdVoid` only activate if the ad-blocker marks the used list(s) as ***trusted***.  
 
 This will unlock advanced techniques like:
 - Setting cookies via scriptlets (`trusted-set-cookie`)
