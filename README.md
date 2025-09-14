@@ -51,6 +51,7 @@
     - [**Experiments**](#-advoidaddonexperiments)
   - [**Scriptlets**](#-scriptlets)
     - [**AntiAntiAdBlock**](#-advoidscriptletsantiantiadblock)
+- [**Filter Trust**](#️-filter-trust)
 - [**Legacy**](#-legacy)
 - [**Case Study**](#-case-study)
   - [**Divergence Pt. 1**](#-divergence-pt-1)
@@ -357,6 +358,21 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 ```
 
 ---
+
+<br>
+
+## 🛡️ Filter Trust
+
+While the majority of `AdVoid`'s rules manage to block more than *enough* ads for most users, some rules in `AdVoid` only activate if the ad-blocker marks the used list(s) as ***trusted***.  
+
+This will unlock advanced techniques like:
+- Setting cookies via scriptlets (`trusted-set-cookie`)
+- Rewriting JavaScript on the fly (`replace=...`)
+- Redirecting scripts with custom logic (`redirect-rule=...`)
+
+These are powerful tools that go beyond cosmetic hiding and ad-blocking, they alter a site's behavior directly. To enable them, users must manually mark `AdVoid` filter list(s) as ***trusted*** in their ad-blocker settings.  
+
+Many ad-blockers show an error when trusted rules are encountered, thus, signaling the list needs to be ***trusted*** to achieve its full potential.
 
 <br>
 
