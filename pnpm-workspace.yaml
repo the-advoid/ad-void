@@ -1,2 +1,5 @@
 onlyBuiltDependencies:
   - core-js-pure
+
+overrides:
+  zod@<=3.22.2: '>=3.22.3'
