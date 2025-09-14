@@ -91,6 +91,10 @@
 
 Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modules that you need.
 
+> 🛡️ Note that some `AdVoid` rules require ***trust*** to activate.
+>
+> See [**Filter Trust**](#️-filter-trust) for more details - benefits and dangers that brings.
+
 <br>
 
 ### 🐦‍🔥 Modules
