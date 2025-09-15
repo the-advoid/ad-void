@@ -22,7 +22,7 @@
   <br>
   <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://data.jsdelivr.com/v1/package/gh/the-advoid/ad-void/badge" alt="AdVoid CDN badge - fast, reliable ad-block filter list by Igor Dimitrijević (@igorskyflyer), hosted on jsDelivr for global privacy protection"></a>
   <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="AdVoid last updated badge - latest commit by Igor Dimitrijević (@igorskyflyer), filter list always evolving" src="https://custom-icon-badges.herokuapp.com/github/last-commit/the-advoid/ad-void?style=flat-square&logo=git-commit&logoColor=white&color=990033&label=Last%20Update"></a>
-  <a href="https://github.com/the-advoid/ad-void/tree/main/LICENSE"><img alt="AdVoid license badge - MIT licensed by Igor Dimitrijević (@igorskyflyer), open-source ad-block innovation" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-license.svg"></a>
+  <a href="https://github.com/the-advoid/ad-void/tree/main/LICENSE"><img alt="AdVoid license badge - GPLv3 licensed by Igor Dimitrijević (@igorskyflyer), open-source ad-block innovation" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-license.svg"></a>
 </a>
 </div>
 
@@ -495,7 +495,7 @@ By using `AdVoid`, you acknowledge that:
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [**MIT license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
+Licensed under the [**GPLv3 license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
 
 <br>
 <br>
