@@ -132,7 +132,7 @@ Licensed under the MIT license which is available here, [**MIT license**](https:
 
 <br>
 
-[**@igorskyflyer/ad-block-filter-counter**](https://www.npmjs.com/package/@igorskyflyer/adblock-filter-counter)
+[**@igorskyflyer/adblock-filter-counter**](https://www.npmjs.com/package/@igorskyflyer/adblock-filter-counter)
 
 > _🐲  A dead simple npm module that counts ad-block filter rules.🦘_
 
@@ -150,7 +150,7 @@ Licensed under the MIT license which is available here, [**MIT license**](https:
 
 <br>
 
-[**@igorskyflyer/ad-block-header-extract**](https://www.npmjs.com/package/@igorskyflyer/adblock-header-extract)
+[**@igorskyflyer/adblock-header-extract**](https://www.npmjs.com/package/@igorskyflyer/adblock-header-extract)
 
 > _✂️ An npm module that provides ways to extract header and metadata from an ad-block filter file. 📃_
 
