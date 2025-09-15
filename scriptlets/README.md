@@ -48,7 +48,7 @@ By using `AdVoid`, you acknowledge that:
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [**MIT license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
+Licensed under the [**GPLv3 license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
 
 <br>
 <br>
