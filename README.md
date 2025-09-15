@@ -400,6 +400,7 @@ Many ad-blockers show an error when trusted rules are encountered (shown below),
 </div>
 
 <br>
+<br>
 
 ## 🎠 Legacy
 
