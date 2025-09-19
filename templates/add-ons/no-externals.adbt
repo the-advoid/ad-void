@@ -26,11 +26,6 @@ include './rules/add-ons/no-externals/endpoints-site.txt' sort
 
 nl
 
-tag 'AJAX paths (global)'
-include './rules/add-ons/no-externals/ajax-global.txt' sort
-
-nl
-
 tag 'AJAX paths (site)'
 include './rules/add-ons/no-externals/ajax-site.txt' sort
 
