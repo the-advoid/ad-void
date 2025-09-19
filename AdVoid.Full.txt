@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5503
-! Last modified: 2025-09-13T17:24:32.674+02:00
+! Version: 3.0.5504
+! Last modified: 2025-09-19T19:21:18.292+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7916
+! Entries: 7915
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7547,7 +7547,6 @@ theverge.com##+js(prevent-setTimeout, adsBlocked)
 thewindowsclub.com##+js(abort-on-property-read, googletag)
 thisvid.com##+js(abort-current-script, document.dispatchEvent, /getexoloader/)
 thisvid.com##+js(abort-on-property-read, ExoLoader)
-thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 thisvid.com##+js(addEventListener-defuser, click, popMagic)
 tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
