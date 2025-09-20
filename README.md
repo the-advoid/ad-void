@@ -390,7 +390,7 @@ Many ad-blockers show an error when trusted rules are encountered (shown below),
 
 <div align="center">
   <figure>
-    <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/untrusted-filter.png" alt="Ad-blocker error message showing untrusted filter list warning in uBlock Origin" width="430" height="81">
+    <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/untrusted-filter.png" alt="Ad-blocker error message showing untrusted filter list warning in uBlock Origin" width="646" height="122">
     <br>
     <figcaption>
       <em><strong>Figure 1.</strong> Errors caused by untrusted rules in uBlock Origin
