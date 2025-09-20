@@ -384,7 +384,9 @@ Many ad-blockers show an error when trusted rules are encountered (shown below),
 
 <br>
 
-> See the [**Disclaimer**](#️-disclaimer) as well.
+<blockquote align="center">
+  See the <a href="#️-disclaimer"><strong>Disclaimer</strong></a> as well.
+</blockquote>
 
 <br>
 
