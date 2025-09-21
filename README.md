@@ -440,15 +440,15 @@ The add-ons are:
 
 Even so it was a hassle to maintain the filter lists, in particular it involved hours of endless scrolling through rules to add a new rule to the end of a particular section or deleting one, updating the timestamp to the current one following the ISO 8601 standard often using non-maintainer's timezone, bumping the version, changing the description and many things more.
 
-> That's where [**ADBT**](https://github.com/adbt-lang/adbt) - a language that defines template files and provides ways of writing reusable, component-like based ad-block filter files and its compiler [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) come into play.
+> That's where [**ADBT**](https://github.com/adbt-lang/adbt) - a language that defines template files and provides ways of writing reusable, component-like based ad-block filter files and its compiler [`Aria`](https://github.com/aria-toolkit/aria-cli) come into play.
 
-After creating the before-mentioned solutions, [**AdVoid**](https://github.com/the-advoid/ad-void) was split even further into small chunks of rules, properly organized which allowed for easier maintenance, less time scrolling through endless lists of rules and more importantly it allowed re-use of rules, i.e. rules that were repeating, e.g. URLs that are blocked in all 3 modules: [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt), [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt), [**AdVoid.Full**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) are contained in a single file and [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) fetches the URLs from the given file and applies transformations when needed, e.g. domain rules are stripped of all modifiers for the [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) module.
+After creating the before-mentioned solutions, [**AdVoid**](https://github.com/the-advoid/ad-void) was split even further into small chunks of rules, properly organized which allowed for easier maintenance, less time scrolling through endless lists of rules and more importantly it allowed re-use of rules, i.e. rules that were repeating, e.g. URLs that are blocked in all 3 modules: [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt), [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt), [**AdVoid.Full**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) are contained in a single file and [`Aria`](https://github.com/aria-toolkit/aria-cli) fetches the URLs from the given file and applies transformations when needed, e.g. domain rules are stripped of all modifiers for the [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) module.
 
 <br>
 
 ### 🚀 Productivity Gains
 
-Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves a substantial amount of time needed for maintaining filter lists, `Aria` has allowed the productivity to increase exponentially which in turn allowed for rule additions/deletions to skyrocket, see the graph below. 🚀
+Since [`Aria`](https://github.com/aria-toolkit/aria-cli) saves a substantial amount of time needed for maintaining filter lists, `Aria` has allowed the productivity to increase exponentially which in turn allowed for rule additions/deletions to skyrocket, see the graph below. 🚀
 
 <br>
 
@@ -457,7 +457,7 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
     <img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="Aria compiler impact graph - rule additions skyrocketed with AdVoid by Igor Dimitrijević (@igorskyflyer), powered by ADBT">
     <br>
     <figcaption>
-      <em><strong>Figure 2.</strong> a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/igorskyflyer/npm-adblock-aria-compiler"><code>Aria</code></a> compiler</em>
+      <em><strong>Figure 2.</strong> a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/aria-toolkit/aria-cli"><code>Aria</code></a> compiler</em>
     </figcaption>
   </figure>
 </div>
@@ -469,7 +469,7 @@ Since [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) saves 
 
 <br>
 
-Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/igorskyflyer/npm-adblock-aria-compiler) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
+Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
 
 After implementing the before-mentioned solutions there were ~**4240** rule commits per month (+**1104.5%**), while commits reached their peak in December, with staggering ~**5861** rule commits (+**1565.1%**).
 
