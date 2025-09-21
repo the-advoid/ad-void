@@ -43,6 +43,7 @@
   - [**Modules**](#-modules)
     - [**Full**](#️-advoidfull)
     - [**Core**](#-advoidcore)
+    - [**Lite**](#-advoidlite)
     - [**DNS**](#-advoiddns)
   - [**Add-ons**](#-add-ons)
     - [**NoAnnoyances**](#-advoidaddonnoannoyances)
