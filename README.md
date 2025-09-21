@@ -164,6 +164,34 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 ---
 
+#### 🌱 AdVoid.Lite
+
+##### The Lite Protection Module
+
+> 🌱 Blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low‑power devices, or users who want a simple baseline shield. ⚡
+
+<br>
+
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Lite.txt&title=AdVoid.Lite"><img alt="Subscribe button - install AdVoid.Lite filter list by Igor Dimitrijević (@igorskyflyer) for lightweight protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Lite.txt
+```
+
+<br>
+
+Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Lite.txt&title=AdVoid.Lite"><img alt="Subscribe button - install AdVoid.Lite filter list by Igor Dimitrijević (@igorskyflyer) for lightweight protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Lite.txt
+```
+
+---
+
 #### 🌐 AdVoid.DNS
 
 ##### The DNS-level Module
