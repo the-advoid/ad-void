@@ -171,7 +171,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 > Blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low‑power devices, or users who want a simple baseline shield. Refrains from using advanced and CPU-heavy rules.
 >
-> 🌱 Lighter by ~35% than [**AdVoid.Full**](#️-advoidfull) and by ~12% than [**AdVoid.Core**](#-advoidcore).
+> Lighter by ~35% than [**AdVoid.Full**](#️-advoidfull) and by ~12% than [**AdVoid.Core**](#-advoidcore).
 
 <br>
 
