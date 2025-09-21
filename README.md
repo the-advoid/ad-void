@@ -450,7 +450,7 @@ Even with all the rules-splitting, maintenance was cumbersome. Since `Aug 14 202
 
 #### 🐛 Divergence Pt. 1
 
-The modules are:
+The modules were:
 - [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt) - core functionality (ad-blocking, URL + cosmetic)
 - [**AdVoid.DNS**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.DNS.txt) - DNS-blocking (URL only)
 - [**AdVoid.Full**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Full.txt) - full content blocking (core functionality + add-ons)
@@ -459,7 +459,7 @@ The modules are:
 
 #### 🐛 Divergence Pt. 2
 
-The add-ons are:
+The add-ons were:
 - [**AdVoid.Addon.NoAnnoyances**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances: cookie-consent banners, popups, etc.
 - [**AdVoid.Addon.NoExternals**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) - blocks external features: sharing, Google Chromecast, etc.
 - [**AdVoid.Addon.NoExtras**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) - blocks non-essential resources: news widgets, JavaScript and CSS maps, PWA install banners, etc.
