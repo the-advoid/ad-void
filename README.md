@@ -169,7 +169,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 ##### The Lite Protection Module
 
-> 🌱 Blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low‑power devices, or users who want a simple baseline shield. ⚡
+> Blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low‑power devices, or users who want a simple baseline shield.
 
 <br>
 
