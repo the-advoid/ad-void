@@ -173,6 +173,10 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 <br>
 
+> 🌱 Lighter by ~35% than [**AdVoid.Full**](#️-advoidfull) and by ~12% than [**AdVoid.Core**](#-advoidcore).
+
+<br>
+
 Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Lite.txt&title=AdVoid.Lite"><img alt="Subscribe button - install AdVoid.Lite filter list by Igor Dimitrijević (@igorskyflyer) for lightweight protection" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
