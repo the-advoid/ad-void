@@ -1,0 +1,92 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+@ [ADBT 2.0.0]
+
+header './templates/headers/advoid-header.txt'
+
+meta title = 'AdVoid.Lite'
+meta description = '🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡'
+meta expires = '12 hours'
+
+nl
+
+tag 'Domains (global)'
+include './rules/common/domains.txt' sort
+
+nl
+
+tag 'IP addresses (global)'
+include './rules/common/ip-addresses.txt' sort
+
+nl
+
+tag 'Subdomains (global)'
+include './rules/common/subdomains.txt' sort
+
+nl
+
+tag 'Endpoints (global)'
+include './rules/core/endpoints-global.txt' sort
+
+nl
+
+tag 'Endpoints (site)'
+include './rules/common/endpoints-site.txt' sort
+
+nl
+
+tag 'AJAX paths (global)'
+include './rules/core/ajax-global.txt' sort
+
+nl
+
+tag 'AJAX paths (site)'
+include './rules/core/ajax-site.txt' sort
+
+nl
+
+tag 'AJAX paths - restore (site)'
+include './rules/core/restore-ajax-site.txt' sort
+
+nl
+
+tag 'Files (global)'
+include './rules/core/files-global.txt' sort
+
+nl
+
+tag 'Files (site)'
+include './rules/core/files-site.txt' sort
+
+nl
+
+tag 'Restore files (site)'
+include './rules/core/files-restore-site.txt' sort
+
+nl
+
+tag 'Queries (global)'
+include './rules/core/query.txt' sort
+
+nl
+
+tag 'Params (global)'
+include './rules/core/params-global.txt' sort
+
+nl
+
+tag 'Cosmetic (global)'
+include './rules/core/cosmetic-global.txt' sort
+
+nl
+
+tag 'Cosmetic (site)'
+include './rules/core/cosmetic-site.txt' sort
+
+nl
+
+tag 'Restore cosmetic (site)'
+include './rules/core/restore-cosmetic-site.txt' sort
+
+export './AdVoid.Lite.txt'
