@@ -16,6 +16,14 @@
 #### 🍀 Wonderful people that helped with the growth of AdVoid.
 
 <br>
+
+|                                  **User**                                  |                  **Link**                 |   |
+|:--------------------------------------------------------------------------:|:-----------------------------------------:|:-:|
+|  ![Metrokoto](https://avatars.githubusercontent.com/u/161226960?v=4&s=64)  | [Metrokoto](https://github.com/Metrokoto) |   |
+|  ![Rtizer-9](https://avatars.githubusercontent.com/u/35103368?v=4&s=64)    | [Rtizer-9](https://github.com/Rtizer-9)   |   |
+
+
+<br>
 <br>
 <br>
 
