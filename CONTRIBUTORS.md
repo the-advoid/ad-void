@@ -28,17 +28,3 @@
 
   <sub><strong>Figure 1.</strong> table of AdVoid's contributors (A-Z)</sub>
 </div>
-
-<br>
-<br>
-<br>
-
-<div align="center">
-  <a href="https://github.com/the-advoid/ad-void/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=the-advoid/ad-void">
-  </a>
-
-  <br>
-
-  Made with <a href="https://contrib.rocks"><strong>contrib.rocks</strong></a>
-</div>
