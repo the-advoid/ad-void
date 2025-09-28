@@ -59,7 +59,7 @@
   - [**Divergence Pt. 2**](#-divergence-pt-2)
 - [**Productivity Gains**](#-productivity-gains)
 - [**Disclaimer**](#️-disclaimer)
-- [**Contributors**](#-contributors)
+- [**Contributors**](#%E2%80%8D-contributors)
 - [**Support**](#-support)
 - [**License**](#-license)
 - [**Related**](#-related)
@@ -507,22 +507,6 @@ After implementing the before-mentioned solutions there were ~**4240** rule comm
 
 <br>
 
-## 🫱🏼‍🫲🏽 Contributors
-
-Contributors to `AdVoid`'s codebase are shown below:
-
-<br>
-
-<a href="https://github.com/the-advoid/ad-void/graphs/contributors">
-	<img src="https://contrib.rocks/image?repo=the-advoid/ad-void">
-</a>
-
-<br>
-
-Additional acknowledgments can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
-
-<br>
-
 ## ⚠️ Disclaimer
 
 `AdVoid` is provided *as-is*, without warranty of any kind. While every effort is made to ensure the accuracy and effectiveness of its modules, add-ons and scriptlets, its users are solely responsible for how and where they use `AdVoid` in their own, local environments.  
@@ -541,6 +525,22 @@ By using `AdVoid`, you acknowledge that:
 <br>
 
 <sub>&dagger; The author might earn commissions with some affiliate links, but at no cost to you. These earnings help support ongoing updates, maintenance, and future development of the project.</sub>
+
+<br>
+
+## 🫱🏼‍🫲🏽 Contributors
+
+Contributors to `AdVoid`'s codebase are shown below:
+
+<br>
+
+<a href="https://github.com/the-advoid/ad-void/graphs/contributors">
+	<img src="https://contrib.rocks/image?repo=the-advoid/ad-void">
+</a>
+
+<br>
+
+Additional acknowledgments can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
 
 <br>
 
