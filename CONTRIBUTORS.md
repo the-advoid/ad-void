@@ -21,12 +21,12 @@
 <div align="center">
 
 
-|                                  **Avatar**                                              |  **User**              |                              **Link**                                 | **Contributions**  |
-|:----------------------------------------------------------------------------------------:|:----------------------:|:---------------------------------------------------------------------:|:------------------:|
-| <img src="https://avatars.githubusercontent.com/u/163652912?v=4" width="64" height="64"> | **Ayanokoji Kiyotaka** | [AyanokojiK1yotaka](https://github.com/AyanokojiK1yotaka)             | Optimisations      |
-| <img src="https://avatars.githubusercontent.com/u/95123743?v=4" width="64" height="64">  | **Clevy**              | [ClevyPasserby](https://github.com/ClevyPasserby)                     | Anomalies          |
-| <img src="https://avatars.githubusercontent.com/u/161226960?v=4" width="64" height="64"> | **Koto**               | [Metrokoto](https://github.com/Metrokoto)                             | URLs to scan       |
-| <img src="https://avatars.githubusercontent.com/u/35103368?v=4" width="64" height="64">  | **Rtizer-9**           | [Rtizer-9](https://github.com/Rtizer-9)                               | Compatibility      |
+|                                  **Avatar**                                              |  **User**              |                              **Link**                         | **Contributions**  |
+|:----------------------------------------------------------------------------------------:|:----------------------:|:-------------------------------------------------------------:|:------------------:|
+| <img src="https://avatars.githubusercontent.com/u/163652912?v=4" width="64" height="64"> | **Ayanokoji Kiyotaka** | [**AyanokojiK1yotaka**](https://github.com/AyanokojiK1yotaka) | **Optimisations**  |
+| <img src="https://avatars.githubusercontent.com/u/95123743?v=4" width="64" height="64">  | **Clevy**              | [**ClevyPasserby**](https://github.com/ClevyPasserby)         | **Anomalies**      |
+| <img src="https://avatars.githubusercontent.com/u/161226960?v=4" width="64" height="64"> | **Koto**               | [**Metrokoto**](https://github.com/Metrokoto)                 | **URLs to scan**   |
+| <img src="https://avatars.githubusercontent.com/u/35103368?v=4" width="64" height="64">  | **Rtizer-9**           | [**Rtizer-9**](https://github.com/Rtizer-9)                   | **Compatibility**  |
 
   <sub><strong>Figure 1.</strong> table of AdVoid's contributors (A-Z)</sub>
 </div>
