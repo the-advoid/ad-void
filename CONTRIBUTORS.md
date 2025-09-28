@@ -23,7 +23,7 @@
 
 |                                  **Avatar**                                         |  **User**  |                              **Link**                                 | **Contributions**  |
 |:-----------------------------------------------------------------------------------:|:----------:|:---------------------------------------------------------------------:|:------------------:|
-| ![Ayanokoji Kiyotaka](https://avatars.githubusercontent.com/u/163652912?v=4&s=64)   | **Ayanokoji Kiyotaka** | [AyanokojiK1yotaka](https://github.com/AyanokojiK1yotaka) | Optimisations      |
+| <img src="https://avatars.githubusercontent.com/u/163652912?v=4&s=64" width="64" height="64">   | **Ayanokoji Kiyotaka** | [AyanokojiK1yotaka](https://github.com/AyanokojiK1yotaka) | Optimisations      |
 | ![Clevy](https://avatars.githubusercontent.com/u/95123743?v=4&s=64)                 | **Clevy**              | [ClevyPasserby](https://github.com/ClevyPasserby)         | Anomalies          |
 | ![Koto](https://avatars.githubusercontent.com/u/161226960?v=4&s=64)                 | **Koto**               | [Metrokoto](https://github.com/Metrokoto)                 | URLs to scan       |
 | ![Rtizer-9](https://avatars.githubusercontent.com/u/35103368?v=4&s=64)              | **Rtizer-9**           | [Rtizer-9](https://github.com/Rtizer-9)                   | Compatibility      |
