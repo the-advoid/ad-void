@@ -3,10 +3,10 @@
   <h1>AdVoid</h1>
 </div>
 
-<blockquote align="center">Super‑Fast Updates • More Complete Blocking • Always‑Fresh Protection • Trusted by Thousands Daily</blockquote>
+<blockquote align="center">Super-Fast Updates • More Complete Blocking • Always-Fresh Protection • Trusted by Thousands Daily</blockquote>
 
 <h4 align="center">
-  🛡️ A set of modular, highly‑optimized, and efficient filter lists that block ads, trackers, malware, phishing, and intrusive web clutter - from cookie banners to fake links. 👾
+  🛡️ A set of modular, highly-optimized, and efficient filter lists that block ads, trackers, malware, phishing, and intrusive web clutter - from cookie banners to fake links. 👾
 </h4>
 
 <br>
@@ -85,7 +85,7 @@
 
 ## ℹ️ Quickstart
 
-🆕 New to ad‑blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank"><strong>QUICKSTART</strong></a> first. 😉
+🆕 New to ad-blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank"><strong>QUICKSTART</strong></a> first. 😉
 
 <br>
 
@@ -170,7 +170,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 ##### The Lite Protection Module
 
-> Blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low‑power devices, or users who want a simple baseline shield. Refrains from using advanced and CPU-heavy rules.
+> Blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. Refrains from using advanced and CPU-heavy rules.
 >
 > Lighter by ~35% than [**AdVoid.Full**](#️-advoidfull) and by ~12% than [**AdVoid.Core**](#-advoidcore).
 
