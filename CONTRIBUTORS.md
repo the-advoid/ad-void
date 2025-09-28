@@ -3,10 +3,10 @@
   <h1>AdVoid</h1>
 </div>
 
-<blockquote align="center">Super‑Fast Updates • More Complete Blocking • Always‑Fresh Protection • Trusted by Thousands Daily</blockquote>
+<blockquote align="center">Super-Fast Updates • More Complete Blocking • Always-Fresh Protection • Trusted by Thousands Daily</blockquote>
 
 <h4 align="center">
-  🛡️ A set of modular, highly‑optimized, and efficient filter lists that block ads, trackers, malware, phishing, and intrusive web clutter - from cookie banners to fake links. 👾
+  🛡️ A set of modular, highly-optimized, and efficient filter lists that block ads, trackers, malware, phishing, and intrusive web clutter - from cookie banners to fake links. 👾
 </h4>
 
 <br>
