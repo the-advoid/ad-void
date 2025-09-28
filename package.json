@@ -1,8 +1,8 @@
 {
-	"name": "@igor.dvlpr/ad-void",
+	"name": "@igorskyflyer/ad-void",
 	"private": true,
 	"version": "1.0.0",
-	"description": "🛡️ An efficient AdBlock filter list that blocks ads, trackers, malware, phishing attempts, fake download links, fake search results, and a lot more if you want it to! Things like: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, sharing, Google Chromecast and a lot more! 👾",
+	"description": "🛡️ A set of modular, highly-optimized, and efficient filter lists that block ads, trackers, malware, phishing, and intrusive web clutter - from cookie banners to fake links. 👾",
 	"scripts": {
 		"lint": "aglint"
 	},
