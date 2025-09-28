@@ -59,6 +59,7 @@
   - [**Divergence Pt. 2**](#-divergence-pt-2)
 - [**Productivity Gains**](#-productivity-gains)
 - [**Disclaimer**](#️-disclaimer)
+- [**Contributors**](#-contributors)
 - [**Support**](#-support)
 - [**License**](#-license)
 - [**Related**](#-related)
@@ -503,6 +504,22 @@ Since [`Aria`](https://github.com/aria-toolkit/aria-cli) saves a substantial amo
 Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
 
 After implementing the before-mentioned solutions there were ~**4240** rule commits per month (+**1104.5%**), while commits reached their peak in December, with staggering ~**5861** rule commits (+**1565.1%**).
+
+<br>
+
+## 🫱🏼‍🫲🏽 Contributors
+
+Contributors to `AdVoid`'s codebase are shown below:
+
+<br>
+
+<a href="https://github.com/the-advoid/ad-void/graphs/contributors">
+	<img src="https://contrib.rocks/image?repo=the-advoid/ad-void">
+</a>
+
+<br>
+
+Additional acknowledgments can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
 
 <br>
 
