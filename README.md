@@ -539,6 +539,7 @@ Contributors to `AdVoid`'s codebase are shown below:
 </a>
 
 <br>
+<br>
 
 Additional acknowledgments can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
 
