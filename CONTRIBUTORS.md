@@ -28,5 +28,5 @@
 | <img src="https://avatars.githubusercontent.com/u/163652912?v=4" width="64" height="64"> | **Ayanokoji Kiyotaka** | [**AyanokojiK1yotaka**](https://github.com/AyanokojiK1yotaka) | **Optimisations** | [**View**](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc%20is%3Aissue%20author%3AAyanokojiK1yotaka) | **1**                       |
 | <img src="https://avatars.githubusercontent.com/u/95123743?v=4" width="64" height="64">  | **Clevy**              | [**ClevyPasserby**](https://github.com/ClevyPasserby)         | **Anomalies**     | [**View**](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc%20is%3Aissue%20author%3AClevyPasserby)     | **1**                       |
 
-  <sub><strong>Figure 1.</strong> table of AdVoid's contributors (sorted by the number of contributions)</sub>
+  <sub><strong>Figure 1.</strong> table of AdVoid's contributors <em>(sorted by the number of contributions)</em></sub>
 </div>
