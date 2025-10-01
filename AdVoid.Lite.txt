@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.5
-! Last modified: 2025-10-01T14:48:59.645+02:00
+! Version: 1.0.6
+! Last modified: 2025-10-01T14:50:11.354+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5207
+! Entries: 5209
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4391,6 +4391,7 @@ zoneid=
 ##.footer-banner-ads
 ##.footer-banners
 ##.footerad
+##.fp-player > div[style*="position: absolute"][style*="inset: 0px"][style*="overflow: hidden"][style*="z-index:"][style*="background: transparent"][style*="display: block"]
 ##.fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"]
 ##.full-ave-pl
 ##.fuse-ad
@@ -5090,6 +5091,7 @@ porn300.com##.wrapper__related-sites
 porn300.com##li[class*="special-offer-"]
 pornone.com##.warp
 pornone.com##a[class^="listing"]
+porntrex.com###exclusive-link
 porntrex.com###exclusive-link
 porntrex.com###index-link
 pornzog.com###ntv_a
