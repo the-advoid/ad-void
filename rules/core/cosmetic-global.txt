@@ -1008,3 +1008,4 @@
 ##.ad-spaces
 ##.article-ad
 ##.gpt-ad-banner:not(html, body, :empty)
+##.fp-player > div[style*="position: absolute"][style*="inset: 0px"][style*="overflow: hidden"][style*="z-index:"][style*="background: transparent"][style*="display: block"]
