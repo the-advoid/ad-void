@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5513
-! Last modified: 2025-10-01T14:45:49.527+02:00
+! Version: 3.0.5514
+! Last modified: 2025-10-01T14:46:16.914+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7916
+! Entries: 7917
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7431,6 +7431,7 @@ pornhub.*##+js(set-constant, abp1, 1)
 pornhub.*##+js(set-constant, page_params.holiday_promo, true)
 pornone.com##+js(abort-current-script, $, adblock)
 pornone.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+porntrex.*##+js(addEventListener-defuser, click, popMagic)
 porntrex.com##+js(abort-current-script, String.fromCharCode, zfgloaded)
 porntrex.com##+js(abort-on-property-read, popns)
 porntrex.com##+js(abort-on-property-write, __showPush)
