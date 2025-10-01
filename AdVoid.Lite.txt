@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.2
-! Last modified: 2025-09-30T19:04:40.142+02:00
+! Version: 1.0.3
+! Last modified: 2025-10-01T14:47:37.003+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5203
+! Entries: 5205
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -65,6 +65,7 @@
 ||a-static.com^
 ||a23e391b84.com^
 ||a2nn5eri7ce.com^
+||aawspeedy.com^
 ||aaxads.com^
 ||abadit5rckd.com^
 ||abedwest.com^
@@ -3623,6 +3624,7 @@ Logger.js^$script,domain=~crowdin.com
 trekkie*.js^$script
 
 ! {@9} Files (site)
+*$script,3p,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,from=readcomiconline.*
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
