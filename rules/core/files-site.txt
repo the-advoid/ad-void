@@ -145,3 +145,4 @@
 ||player.globalsun.io/*-player.js^$script
 ||cdn.defractal.com^$script
 ||s3.us-east-2.amazonaws.com/telemetry.bydata/$script
+*$script,3p,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
