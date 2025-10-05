@@ -1,3 +1,5 @@
+<!-- GitAds-Verify: OW4DALUZOPA9QFX7GNTQ4F7KNT98R3AK -->
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/icon.png" alt="AdVoid icon - privacy-first ad-block filter list by Igor Dimitrijević (@igorskyflyer), trusted by hundreds of thousands" width="256" height="256">
   <h1>AdVoid</h1>
