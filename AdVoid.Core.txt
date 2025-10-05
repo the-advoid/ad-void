@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.3968
-! Last modified: 2025-10-05T20:31:23.905+02:00
+! Version: 3.0.3969
+! Last modified: 2025-10-05T20:31:49.643+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5891
+! Entries: 5890
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5205,7 +5205,6 @@ porn300.com##.wrapper__related-sites
 porn300.com##li[class*="special-offer-"]
 pornone.com##.warp
 pornone.com##a[class^="listing"]
-porntrex.com###exclusive-link
 porntrex.com###exclusive-link
 porntrex.com###index-link
 porntrex.com##.opt
