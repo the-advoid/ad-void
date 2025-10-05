@@ -19,7 +19,8 @@
 		"advoid:noextras": "aria -f \"./templates/add-ons/no-extras.adbt\" && pnpm advoid:bot noextras",
 		"advoid:noextras+full": "pnpm advoid:noextras && pnpm advoid:full",
 		"advoid:experiments": "aria -f \"./templates/add-ons/experiments.adbt\" && pnpm advoid:bot experiments",
-		"advoid:legacy-noexternals": "aria -f \"./templates/legacy/add-ons/no-externals\" && pnpm advoid:bot noexternalsleg",
+		"advoid:legacy-noexternals": "aria -f \"./templates/legacy/add-ons/no-externals.adbt\" && pnpm advoid:bot noexternalsleg",
+		"advoid:legacy-noextras": "aria -f \"./templates/legacy/add-ons/no-extras.adbt\" && pnpm advoid:bot noextrasleg",
 		"lint": "aglint"
 	},
 	"keywords": [
