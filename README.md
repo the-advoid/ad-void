@@ -31,7 +31,9 @@
 <br>
 
 <blockquote align="center">
-  💕 Supported by <a href="https://adguard.com?aid=135952"><strong>AdGuard</strong></a> since December 19, 2022. 🥳
+  Supported by <a href="https://adguard.com?aid=135952"><strong>AdGuard</strong></a> since December 19, 2022 and GitAds.
+  <br>
+  <a href="https://gitads.dev/v1/ad-track?source=the-advoid/ad-void@github"><img src="https://gitads.dev/v1/ad-serve?source=the-advoid/ad-void@github"></a>
 </blockquote>
 
 <br>
