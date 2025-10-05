@@ -4,6 +4,22 @@
 	"version": "1.0.0",
 	"description": "🛡️ A set of modular, highly-optimized, and efficient filter lists that block ads, trackers, malware, phishing, and intrusive web clutter - from cookie banners to fake links. 👾",
 	"scripts": {
+		"advoid:bump": "pwsh \"./bin/bump.ps1\"",
+		"advoid:bot": "pwsh \"./bin/advoid.ps1\"",
+		"advoid:core": "aria -f \"./templates/core.adbt\" && pnpm advoid:bot core && pnpm advoid:bump",
+		"advoid:dns": "aria -f \"./templates/dns.adbt\" && pnpm advoid:bot dns",
+		"advoid:full": "aria -f \"./templates/full.adbt\" && pnpm advoid:bot full",
+		"advoid:lite": "aria -f \"./templates/lite.adbt\" && pnpm advoid:bot lite",
+		"advoid:core+full": "pnpm advoid:core && pnpm advoid:full",
+		"advoid:all-modules": "pnpm advoid:core && pnpm advoid:dns && pnpm advoid:lite && pnpm advoid:full",
+		"advoid:noannoyances": "aria -f \"./templates/add-ons/no-annoyances.adbt\" && pnpm advoid:bot noannoyances",
+		"advoid:noannoyances+full": "pnpm advoid:noannoyances && pnpm advoid:full",
+		"advoid:noexternals": "aria -f \"./templates/add-ons/no-externals.adbt\" && pnpm advoid:bot noexternals",
+		"advoid:noexternals+full": "pnpm advoid:noexternals && pnpm advoid:full",
+		"advoid:noextras": "aria -f \"./templates/add-ons/no-extras.adbt\" && pnpm advoid:bot noextras",
+		"advoid:noextras+full": "pnpm advoid:noextras && pnpm advoid:full",
+		"advoid:experiments": "aria -f \"./templates/add-ons/experiments.adbt\" && pnpm advoid:bot experiments",
+		"advoid:legacy-noexternals": "aria -f \"./templates/legacy/add-ons/no-externals\" && pnpm advoid:bot noexternalsleg",
 		"lint": "aglint"
 	},
 	"keywords": [
