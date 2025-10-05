@@ -15,7 +15,7 @@
 
 <div align="center">
   <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-launched.svg" alt="AdVoid launch badge - efficient ad-block filter list by Igor Dimitrijević (@igorskyflyer), live since Feb 2022"></a>
-  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.3966-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
+  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.3967-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core file size badge - lightweight ad-block filter by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/size/the-advoid/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900&label=Size"></a>
   <br>
   <a href="https://github.com/the-advoid/ad-void/pulls?q=is%3Apr+is%3Aclosed"><img alt="AdVoid closed PRs badge - active development by Igor Dimitrijević (@igorskyflyer), community-driven" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/the-advoid/ad-void?color=0f167d&style=flat-square&logo=git-pull-request&logoColor=white&label=Closed%20PRs"></a>
