@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5548
-! Last modified: 2025-10-09T23:38:10.641+02:00
+! Version: 3.0.5549
+! Last modified: 2025-10-09T23:38:36.421+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7936
+! Entries: 7937
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7148,6 +7148,7 @@ taplink.cc#@#.socials
 1337x.*##:xpath('//*[contains(text(),"Hide your IP")]/..')
 1azayf9w.xyz##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
 1azayf9w.xyz##+js(no-window-open-if)
+1movierulzhd.*##+js(prevent-xhr, pagead2.googlesyndication.com)
 1movierulzhd.wiki##+js(noeval-if, document.getElementById)
 2embed.*##+js(abort-current-script, navigator, break;case $.)
 2embed.*##+js(abort-on-property-read, mm)
