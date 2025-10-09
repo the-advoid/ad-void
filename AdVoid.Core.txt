@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.3974
-! Last modified: 2025-10-09T21:30:07.190+02:00
+! Version: 3.0.3975
+! Last modified: 2025-10-09T21:43:32.572+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5888
+! Entries: 5889
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5819,6 +5819,7 @@ turbobit.net##+js(abort-current-script, decodeURI, decodeURIComponent)
 turbobit.net##+js(abort-on-property-read, asgPopScript)
 turbobit.net##+js(abort-on-property-read, open)
 turbobit.net##+js(popads-dummy)
+twitch.tv##+js(prevent-window-open, /amazon-adsystem|example\.com/)
 twitch.tv##+js(prevent-window-open, amazon-adsystem)
 twitch.tv##+js(set-constant, navigator.globalPrivacyControl, false)
 twitch.tv##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
