@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.13
-! Last modified: 2025-10-05T20:32:56.011+02:00
+! Version: 1.0.14
+! Last modified: 2025-10-09T21:29:19.139+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5217
+! Entries: 5215
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -151,7 +151,7 @@
 ||adt567.net^
 ||adtelligent.com^
 ||adthrive.com^
-||adtng.com^$popup,frame
+||adtng.com^
 ||adtrace.online^
 ||adtrafficquality.google^$3p
 ||aduptaihafy.net^
@@ -4201,7 +4201,6 @@ zoneid=
 ##.adsbox
 ##.adsbyexoclick
 ##.adsbygoogle
-##.adsbygoogle[data-ad-slot]
 ##.adsbytrafficjunky
 ##.adsbyvli
 ##.adSense
@@ -4399,7 +4398,6 @@ zoneid=
 ##.footer-banner-ads
 ##.footer-banners
 ##.footerad
-##.fp-player > div[style*="position: absolute"][style*="inset: 0px"][style*="overflow: hidden"][style*="z-index:"][style*="background: transparent"][style*="display: block"]
 ##.fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"]
 ##.full-ave-pl
 ##.fuse-ad
