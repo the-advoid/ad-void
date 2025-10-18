@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5564
-! Last modified: 2025-10-18T15:20:09.572+02:00
+! Version: 3.0.5565
+! Last modified: 2025-10-18T15:20:39.814+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7945
+! Entries: 7944
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7717,7 +7717,6 @@ youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
-youtube.com##+js(trusted-json-edit-fetch-request, .context.client+={"clientScreen":"ADUNIT"}, /get_watch?)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, JSON.parse)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, Request)
