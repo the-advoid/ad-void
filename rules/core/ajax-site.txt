@@ -43,7 +43,6 @@
 ||mmcdn.com/events/$xhr
 ||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||doubleclick.net^$xhr,redirect-rule=noop.txt
-||googlevideo.com/videoplayback*&ctier=l&*%2cctier%2c$xhr,3p,from=m.youtube.com|music.youtube.com|www.youtube.com
 ||datahub-srgssr.ch/tracking/$xhr
 ||disqus.com/api/ping$xhr
 ||cloudflare.com/cdn-cgi/trace$xhr,3p,redirect-rule=noop.txt,from=~1bit.space|~1bitspace.com|~funimation.com
