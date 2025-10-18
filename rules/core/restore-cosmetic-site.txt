@@ -15,6 +15,7 @@ account.microsoft.com#@#[id^="ad-"]
 dailyuploads.net#@#.banner:not(html):not(body)
 asianwiki.com#@#.ads
 openretro.org#@#[id^="banner_"]
+audiofanzine.com#@#[class*="mobile-leaderboard-"]
 
 @@||streamtape.*$generichide
 @@||google.*/search?$generichide
