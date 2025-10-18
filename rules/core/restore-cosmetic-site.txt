@@ -6,7 +6,7 @@ timeanddate.com#@#.banner:not(html):not(body)
 fontspace.com#@#.container-ads
 viber.com#@#.banner:not(html):not(body)
 veed.io#@#[class*="adWrapper"]
-m.youtube.com#@#[class*="adWrapper"]
+youtube.com#@#[class*="adWrapper"]
 rexdl.com#@#[rel*="sponsored"]
 xvideos.com#@#.exo-ad-ins-container
 mp3convert.org#@#.ad-placeholder
