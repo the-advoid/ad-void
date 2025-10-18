@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5562
-! Last modified: 2025-10-18T15:12:55.012+02:00
+! Version: 3.0.5563
+! Last modified: 2025-10-18T15:17:12.225+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7946
+! Entries: 7945
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7722,7 +7722,6 @@ youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, JSON.parse)
 youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, Request)
 youtube.com##+js(trusted-replace-fetch-response, '"adSlots"', '"no_ads"', /get_watch?)
-youtube.com##+js(trusted-replace-node-text, script, (function serverContract(), '/*START*/"YOUTUBE_PREMIUM_LOGO"!==ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType&&(location.href.startsWith("https://www.youtube.com/tv#/")||location.href.startsWith("https://www.youtube.com/embed/")||document.addEventListener("DOMContentLoaded",(function(){const t=()=>{const t=document.getElementById("movie_player");if(!t)return;if(!t.getStatsForNerds?.()?.debug_info?.startsWith?.("SSAP, AD"))return;const e=t.getProgressState?.();e&&e.duration>0&&(e.loaded<e.duration||e.duration-e.current>1)&&t.seekTo?.(e.duration)};t(),new MutationObserver((()=>{t()})).observe(document,{childList:!0,subtree:!0})})));(function serverContract()', sedCount, 1)
 youtube.com##+js(trusted-replace-outbound-text, JSON.stringify, '"clientScreen":"WATCH"', '"clientScreen":"ADUNIT"', condition, contentPlaybackContext)
 youtube4kdownloader.com##+js(addEventListener-defuser, , break;case $.)
 ytc.*##+js(no-window-open-if)
