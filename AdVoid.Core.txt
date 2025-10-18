@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.3988
-! Last modified: 2025-10-18T15:09:00.504+02:00
+! Version: 3.0.3989
+! Last modified: 2025-10-18T15:12:49.068+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5899
@@ -5363,7 +5363,6 @@ fontspace.com#@#.container-ads
 halooglasi.com#@#[id^="ad-"]
 jenismac.com#@#.advertisement
 jiosaavn.com#@#.banner:not(html):not(body)
-m.youtube.com#@#[class*="adWrapper"]
 mail.google.com#@#.ads
 mediafire.com#@#.ads
 mp3convert.org#@#.ad-placeholder
@@ -5373,6 +5372,7 @@ timeanddate.com#@#.banner:not(html):not(body)
 veed.io#@#[class*="adWrapper"]
 viber.com#@#.banner:not(html):not(body)
 xvideos.com#@#.exo-ad-ins-container
+youtube.com#@#[class*="adWrapper"]
 
 ! {@25} Scriptlets (site)
 *$doc,csp=worker-src 'none',from=alltube.pl|alltube.tv|assia1.tv|centrum-dramy.pl|coinfaucet.eu|crictime.com|crictime.is|doodcdn.com|estream.to|gomo.to|hdvid.fun|hdvid.tv|hitomi.la|kinox.to|lewd.ninja|nflbite.com|pirateproxy.live|plytv.me|potomy.ru|powvideo.cc|powvideo.net|putlocker.to|reactor.cc|rojadirecta.direct|sickrage.ca|streamtape.com|thehiddenbay.com|thepiratebay.org|thepiratebay10.org|torlock.com|tpb.party|uptomega.me|ustream.to|vidoza.co|vidoza.net|wallpoper.com|wearesaudis.net|yazilir.com
