@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5561
-! Last modified: 2025-10-18T15:09:15.551+02:00
+! Version: 3.0.5562
+! Last modified: 2025-10-18T15:12:55.012+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7946
@@ -7107,7 +7107,6 @@ fontspace.com#@#.container-ads
 halooglasi.com#@#[id^="ad-"]
 jenismac.com#@#.advertisement
 jiosaavn.com#@#.banner:not(html):not(body)
-m.youtube.com#@#[class*="adWrapper"]
 mail.google.com#@#.ads
 mediafire.com#@#.ads
 mp3convert.org#@#.ad-placeholder
@@ -7117,6 +7116,7 @@ timeanddate.com#@#.banner:not(html):not(body)
 veed.io#@#[class*="adWrapper"]
 viber.com#@#.banner:not(html):not(body)
 xvideos.com#@#.exo-ad-ins-container
+youtube.com#@#[class*="adWrapper"]
 analytics.google.com#@#.cdk-overlay-container
 apkmody.io#@##body-fixed-footer
 devonstank.com#@#[class*="-cookie-banner"]
