@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4002
-! Last modified: 2025-10-25T16:44:57.351+02:00
+! Version: 3.0.4003
+! Last modified: 2025-10-25T16:45:13.438+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5906
+! Entries: 5907
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5360,6 +5360,7 @@ zultv.com##.container > div.row:nth-of-type(1)
 @@||192.168.$generichide
 @@||accounts.google.com^$generichide
 @@||google.*/search?$generichide
+@@||localhost$generichide
 @@||streamtape.*$generichide
 @@||youtube.com^$generichide
 account.microsoft.com#@#[id^="ad-"]
