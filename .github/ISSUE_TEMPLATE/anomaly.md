@@ -13,6 +13,8 @@ assignees: igorskyflyer
 - [ ] I have provided clear steps to reproduce the issue.
 - [ ] I have included any relevant logs, screenshots, and/or filter snippets.
 
+<br>
+
 <!--
   State the issue below,
   the affected URL(s),
@@ -22,6 +24,7 @@ assignees: igorskyflyer
 ### Issue
 <!-- The description of the faced issue or the steps to reproduce it. -->
 
+<br>
 
 ### URL
 <!-- The URL where the issue can be observed.
@@ -30,6 +33,8 @@ assignees: igorskyflyer
 -->
 `https://`
 
+<br>
+
 ### Environment
 <!-- This helps with exact identification and issue reproduction. -->
 
@@ -37,6 +42,8 @@ assignees: igorskyflyer
 - Browser/version: 
 - Ad-blocking extension/version: 
 - AdVoid/version:
+
+<br>
 
 ### Additional information
 <!-- Optional additional information. -->
