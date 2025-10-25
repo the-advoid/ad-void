@@ -50,7 +50,7 @@ PRs that are respectful, focused, and well-explained get reviewed fastest.
 
 ## ✅ Before You Submit
 
-- [ ] Ensure your rules don’t break essential site functionality.
+- [ ] Ensure your rules don't break essential site functionality.
 - [ ] Check for duplicates—someone may have suggested a similar fix.
 - [ ] Run a dry test with uBlock Origin or another supported engine.
 - [ ] Follow the commit and PR naming guidelines above.
@@ -61,7 +61,5 @@ This project values:
 - Simplicity without compromise
 - Speed without sloppiness
 - Collaboration without ego
-
-You’re not just blocking ads—you’re writing a more deliberate version of the web. And that’s worth doing well.
 
 ---
