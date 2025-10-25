@@ -17,6 +17,7 @@ _Please review the [**Contributing Guidelines**](https://github.com/the-advoid/a
 <!-- Link to the related issue(s) using keywords like Fixes #123, Closes #456. -->
 ## Related Issue
 
+
 <!-- Select the type of the introduced change - one per pull request -->
 ## Type of Change
 - [ ] 🧟‍♂️ **Anomaly** fix (*resolves a broken site caused by AdVoid*)
@@ -29,6 +30,7 @@ _Please review the [**Contributing Guidelines**](https://github.com/the-advoid/a
 
 <!-- Include context such as why this change is needed, and how it improves AdVoid. -->
 ## Implementation Notes
+
 
 ## Checklist for Reviewer
 - [ ] Code/rules follow the project's style and contribution guidelines
