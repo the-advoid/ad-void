@@ -31,7 +31,7 @@ Fixes #
 <!-- Include context such as why this change is needed, and how it improves AdVoid. -->
 ## Implementation Notes
 
-<!-- Please do not modify the checklist below -->
+<!-- Please do not modify the checklist below. -->
 ## Checklist for Reviewer
 - [ ] Code/rules follow the project's style and contribution guidelines
 - [ ] No new warnings or errors are introduced
