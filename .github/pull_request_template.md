@@ -1,11 +1,3 @@
----
-name: Pull request
-about: Pull request.
-title: "🥂 [PR]: "
-labels: pending-approval
-assignees: igorskyflyer
----
-
 ## Description
 
 Please provide a clear and concise description of the changes introduced by this pull request.
