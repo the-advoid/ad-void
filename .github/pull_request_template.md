@@ -14,7 +14,7 @@ _Please review the [**Contributing Guidelines**](https://github.com/the-advoid/a
 ## Description
   
 
-<!-- Link to the related issue(s) using keywords like Fixes #123, Closes #456. -->
+<!-- Link to the related issue(s) using keywords like "Fixes #123", "Closes #456". -->
 ## Related Issue
   
 
