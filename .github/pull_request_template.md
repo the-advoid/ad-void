@@ -18,13 +18,13 @@
 
 <!-- Select the type of the introduced change - one per pull request -->
 ## Type of Change
-- [ ] 🧟‍♂️ Anomaly fix (*resolves a broken site caused by AdVoid*)
-- [ ] 🐛 Malformation fix (*corrects a malformed filter rule*)
-- [ ] 🐞 Candidate addition (*adds a new URL/rule candidate*)
-- [ ] 🚀 Optimization (*makes AdVoid more efficient/compact*)
-- [ ] ❌ Removal (*removes an outdated/false-positive rule*)
-- [ ] 📖 Documentation update (*updates AdVoid's documentation*)
-- [ ] ⚡ Other (*please specify in Implementation Notes*)
+- [ ] 🧟‍♂️ **Anomaly** fix (*resolves a broken site caused by AdVoid*)
+- [ ] 🐛 **Malformation** fix (*corrects a malformed filter rule*)
+- [ ] 🐞 **Candidate** addition (*adds a new URL/rule candidate*)
+- [ ] 🚀 **Optimization** (*makes AdVoid more efficient/compact*)
+- [ ] ❌ **Removal** (*removes an outdated/false-positive rule*)
+- [ ] 📖 **Documentation** update (*updates AdVoid's documentation*)
+- [ ] ⚡ **Other** (*please specify in Implementation Notes*)
 
 <!-- Include context such as why this change is needed, and how it improves AdVoid. -->
 ## Implementation Notes
@@ -33,4 +33,4 @@
 - [ ] Code/rules follow the project's style and contribution guidelines
 - [ ] No new warnings or errors are introduced
 - [ ] Changes align with the related issue template (Anomaly, Candidate, etc.)
-- [ ] This PR references the correct issue(s) (Fixes # / Closes #)
+- [ ] This PR correctly references the related issue(s) (Fixes # / Closes #)
