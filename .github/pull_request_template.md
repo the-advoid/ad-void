@@ -1,3 +1,16 @@
+<!--
+    The initial checks are required.
+    Pull requests that do not have all boxes checked may be closed or ignored.
+-->
+## Initial checks
+- [ ] I confirm that this PR only modifies rules found under the [**/rules**](https://github.com/the-advoid/ad-void/tree/main/rules) directory or `*.md` files found anywhere.
+- [ ] I have searched for [**existing PRs**](https://github.com/the-advoid/ad-void/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen) and confirmed this is not a duplicate.
+- [ ] I have labelled the PR as **NSFW** if the content is not safe for work.
+- [ ] I have provided a clear description of the PR.
+- [ ] I have referenced the correct issue number this PR fixes.
+- [ ] I have selected the correct type of change for this PR.
+- [ ] I understand that this PR may be declined or closed if it does not meet project requirements.
+
 <!-- Provide a clear and concise description of the changes introduced by this pull request. -->
 ## Description
 
@@ -13,9 +26,9 @@
 - [ ] 🚀 Optimization (*makes AdVoid more efficient/compact*)
 - [ ] ❌ Removal (*removes an outdated/false-positive rule*)
 - [ ] 📖 Documentation update (*updates AdVoid's documentation*)
-- [ ] ⚡ Other (*please specify*):
+- [ ] ⚡ Other (*please specify below this line*)
 
-<!-- Briefly explain what was changed and why. If relevant, include filter snippets, rule references, or benchmarks. -->
+<!-- Include context such as why this change is needed, and how it improves AdVoid. -->
 ## Implementation Notes
 
 ## Checklist for Reviewer
