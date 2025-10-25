@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5581
-! Last modified: 2025-10-25T16:54:20.393+02:00
+! Version: 3.0.5582
+! Last modified: 2025-10-25T16:54:48.619+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7958
+! Entries: 7959
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7433,6 +7433,7 @@ myflixerz.*##+js(abort-current-script, EventTarget.prototype.addEventListener, d
 myflixerz.*##+js(abort-on-property-write, zfgproxyhttp)
 myflixerz.*##+js(no-window-open-if)
 myvidster.com##+js(abort-current-script, document.write, cachebuster)
+netflix.com##+js(prevent-fetch, logs.netflix.com)
 next-episode.net##+js(abort-on-property-read, tryCheckB32)
 nexusmods.com##+js(remove-cookie, ab)
 nexusmods.com##+js(set-constant, blockingAds, false)
