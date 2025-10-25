@@ -13,7 +13,6 @@ assignees: igorskyflyer
 ### Initial checks
 
 - [ ] I have searched for [**existing issues**](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
-- [ ] I have labelled the issue as **NSFW** if the content is not safe for work.
 - [ ] I have provided a clear description of why the rule should be removed.
 - [ ] I acknowledge that the author may decline or close this request after review if removal is not appropriate.
  
