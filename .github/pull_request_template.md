@@ -26,7 +26,7 @@ Fixes #
 - [ ] 🚀 **Optimization** (*makes AdVoid more efficient/compact*)
 - [ ] ❌ **Removal** (*removes an outdated/false-positive rule*)
 - [ ] 📖 **Documentation** update (*updates AdVoid's documentation*)
-- [ ] ⚡ **Other** (*please specify in Implementation Notes*)
+- [ ] ⚡ **Other** (*please specify in [**Implementation Notes**](#implementation-notes)*)
 
 <!-- Include context such as why this change is needed, and how it improves AdVoid. -->
 ## Implementation Notes
