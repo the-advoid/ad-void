@@ -1,31 +1,22 @@
+<!-- Provide a clear and concise description of the changes introduced by this pull request. -->
 ## Description
 
-Please provide a clear and concise description of the changes introduced by this pull request.
+<!-- Link to the related issue(s) using keywords like Fixes #123, Closes #456. -->
+## Related Issue
 
-## Type of change
+## Type of Change
+- [ ] 🧟‍♂️ Anomaly fix (resolves a broken site caused by AdVoid)
+- [ ] 🐛 Malformation fix (corrects a malformed filter rule)
+- [ ] 🐞 Candidate addition (adds a new URL/rule candidate)
+- [ ] 🚀 Optimization (makes AdVoid more efficient/compact)
+- [ ] ❌ Removal (removes an outdated/false-positive rule)
+- [ ] 📖 Documentation update
+- [ ] ⚡ Other (please describe):
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation update
-- [ ] Other (please specify):
-
-## Related Issues/Tickets
-
-(e.g., Closes #123, Fixes #456)
-
-## How Has This Been Tested?
-
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration.
-
-- [ ] Unit tests
-- [ ] Integration tests
-- [ ] Manual testing
+<!-- Briefly explain what was changed and why. If relevant, include filter snippets, rule references, or benchmarks. -->
+## Implementation Notes
 
 ## Checklist for Reviewer
-
-- [ ] Code follows the project's style guidelines
-- [ ] Self-review of the code has been performed
-- [ ] Changes are adequately documented (if applicable)
-- [ ] Tests pass locally and on CI (if applicable)
+- [ ] Code/rules follow the project’s style and contribution guidelines
 - [ ] No new warnings or errors are introduced
+- [ ] Changes align with the related issue template (Anomaly, Candidate, etc.)
