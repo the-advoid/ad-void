@@ -28,7 +28,7 @@ Use the appropriate [**issue template**](https://github.com/the-advoid/ad-void/i
 
 ## 🧠 Style Guide
 
-Keep things clean, elegant, and surgical. Follow the established AdVoid conventions:
+Keep things clean, elegant, and surgically precise. Follow the established AdVoid conventions:
 
 - Use **alias modifiers** when possible (`$1p`, `$xhr`, `$css`, etc.).
 - Group filters by domain and function. Keep unrelated rules separate.
