@@ -3,7 +3,7 @@
     Pull requests that do not have all boxes checked may be closed or ignored.
 
 
-   Please do not submit if you have not read the contributing guidelines.
+   Please do not submit a PR without first reading the contributing guidelines.
 -->
 ## Initial checks
 - [ ] I have read and followed the [**Contributing Guidelines**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md).
