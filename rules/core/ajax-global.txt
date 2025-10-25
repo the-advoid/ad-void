@@ -77,3 +77,4 @@ _beacon?
 /monitoring?o=$xhr
 _pagespeed_beacon?$xhr
 /ingest/*^ip=
+?v=2&tid=g-$1p,xhr
