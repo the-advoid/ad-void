@@ -22,3 +22,4 @@
 - [ ] Code/rules follow the project's style and contribution guidelines
 - [ ] No new warnings or errors are introduced
 - [ ] Changes align with the related issue template (Anomaly, Candidate, etc.)
+- [ ] This PR references the correct issue(s) (Fixes # / Closes #)
