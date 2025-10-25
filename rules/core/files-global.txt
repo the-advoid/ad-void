@@ -74,7 +74,7 @@
 /vast-im.js^$script
 /i.gif^$image
 /ads.*.js^$script
-/blank.gif^$image
+/blank.gif^$image,from=~steampowered.com|~steamstatic.com
 /googleanalytics.json^
 /tagcommander.js^$script
 /player.vast.*.js^$script
