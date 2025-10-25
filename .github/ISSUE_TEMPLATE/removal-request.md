@@ -7,14 +7,25 @@ assignees: igorskyflyer
 ---
 
 <!--
-  Write at least a sentence about your removal request.
-  
-  Optimally, a reference to the rule should be pasted here (File → Copy permalink).
-  For convenience, you can paste a permalink to a line in the AdVoid.Full list.
-  If not possible, just paste the rule itself.
-  
-  If the rule(s) break a site, create an Anomaly issue instead.
+    The initial checks are required.
+    Issues that do not have all boxes checked may be closed or ignored.
 -->
+### Initial checks
+
+- [ ] I have searched for [**existing issues**](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
+- [ ] I have labelled the issue as **NSFW** if the content is not safe for work.
+- [ ] I have provided a clear description of why the rule should be removed.
  
-**URL**:   
-**Reason**: 
+<!--
+    Write at least a sentence about the removal request.
+    Optimally, a reference to the rule should be pasted here (File → Copy permalink).
+    If not possible, just paste the rule itself.
+    
+    If the rule breaks a site, create an Anomaly issue instead.
+
+    One rule per issue!
+-->
+### URL
+`https://`
+
+### Reason
