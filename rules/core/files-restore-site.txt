@@ -15,3 +15,4 @@
 ||tags.news.com.au/prod/heartbeat/*/mediasdk.min.js$script,important,redirect-rule=noop.js
 @@||127.0.0.1^$all
 @@||localhost^$all
+@@||192.168.$all
