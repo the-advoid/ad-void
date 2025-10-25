@@ -13,7 +13,7 @@
 - [ ] 🚀 Optimization (*makes AdVoid more efficient/compact*)
 - [ ] ❌ Removal (*removes an outdated/false-positive rule*)
 - [ ] 📖 Documentation update (*updates AdVoid's documentation*)
-- [ ] ⚡ Other (*please describe*):
+- [ ] ⚡ Other (*please specify*):
 
 <!-- Briefly explain what was changed and why. If relevant, include filter snippets, rule references, or benchmarks. -->
 ## Implementation Notes
