@@ -1,3 +1,5 @@
+_Please review the [**Contributing Guidelines**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) before submitting._  
+
 <!--
     The initial checks are required.
     Pull requests that do not have all boxes checked may be closed or ignored.
