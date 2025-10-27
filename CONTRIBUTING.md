@@ -28,7 +28,7 @@
 
 We appreciate your interest in enhancing the web to be cleaner, faster, and more respectful.
 
-`AdVoid` is a carefully curated set of filter lists and rules designed for accuracy and performance rather than excess.
+`AdVoid` is a carefully curated set of filter lists and rules designed for accuracy and performance rather than excess.  
 `AdVoid` lists are not edited directly, they are generated from [**ADBT**](https://github.com/adbt-lang/adbt) templates using the [**Aria**](https://github.com/aria-toolkit/aria-cli) compiler.  
 
 Whether you are proposing a minor adjustment, assisting in the refinement of larger sections or suggesting optimizations, every contribution is significant, even a single rule can improve the browsing experience for thousands of users.
