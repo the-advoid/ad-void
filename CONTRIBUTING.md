@@ -10,6 +10,19 @@
 </h4>
 
 <br>
+<br>
+
+## 📃 Table of Contents
+
+- [**Contributing to AdVoid**](#-contributing-to-advoid)
+- [**Getting Started**](#-getting-started)
+- [**Style Guide**](#-style-guide)
+- [**Submitting Pull Requests**](#-submitting-pull-requests)
+- [**Before You Submit**](#-before-you-submit)
+- [**Maintainer Notes**](#-maintainer-notes)
+
+<br>
+<br>
 
 ## 🤝 Contributing to AdVoid
 
@@ -19,6 +32,7 @@ We appreciate your interest in enhancing the web to be cleaner, faster, and more
 
 Whether you are proposing a minor adjustment, assisting in the refinement of larger sections or suggesting optimizations, every contribution is significant, even a single rule can improve the browsing experience for thousands of users.
 
+<br>
 <br>
 
 ## 🚀 Getting Started
@@ -32,6 +46,7 @@ We welcome:
 Use the appropriate [**issue template**](https://github.com/the-advoid/ad-void/issues/new/choose) when opening a suggestion.
 
 <br>
+<br>
 
 ## 🧠 Style Guide
 Keep things clean, elegant and straightforward by following the established `AdVoid` conventions:
@@ -42,6 +57,7 @@ Keep things clean, elegant and straightforward by following the established `AdV
 - Prefer CSS filters (`##`) over JS scriptlets (`##+js`) unless JS is required.
 - Single rule per commit is *desired* but not **required**.
 
+<br>
 <br>
 
 ## 📄 Submitting Pull Requests
@@ -57,6 +73,7 @@ Keep things clean, elegant and straightforward by following the established `AdV
 *PRs that are respectful, focused, and well-explained get reviewed fastest.*
 
 <br>
+<br>
 
 ## ✅ Before You Submit
 - [ ] Ensure that the modifications only apply to files in the [**/rules**](https://github.com/the-advoid/ad-void/tree/main/rules) directory.
@@ -66,7 +83,7 @@ Keep things clean, elegant and straightforward by following the established `AdV
 - [ ] Follow the commit and PR naming guidelines above.
 - [ ] You acknowledge your PR *might* get modified or declined if it doesn't align with `AdVoid's` conventions.
 
-
+<br>
 <br>
 
 ## 🧷 Maintainer Notes
