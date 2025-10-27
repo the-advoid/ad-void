@@ -48,7 +48,7 @@ Use the appropriate [**issue template**](https://github.com/the-advoid/ad-void/i
 ## 🧠 Style Guide
 Keep things clean, elegant and straightforward by following the established `AdVoid` conventions:
 - All changes should happen in the [**/rules**](https://github.com/the-advoid/ad-void/tree/main/rules) directory, editing the final, compiled filter lists e.g. `AdVoid.Core.txt`, `AdVoid.Full.txt` is **not** permitted ([**why?**](https://github.com/the-advoid/ad-void#-case-study)).
-- Use **alias modifiers** when possible (`$1p`, `$xhr`, `$css`, etc.), see [**AdGuard's tutorial**](https://adguard.com/kb/general/ad-filtering/create-own-filters/#basic-rule-modifiers?aid=135952) for more information.
+- Use **alias modifiers** when possible (`$1p`, `$xhr`, `$css` instead of `$first-party`, `$xmlhttprequest`, `$stylesheet`, etc.), see [**AdGuard's tutorial**](https://adguard.com/kb/general/ad-filtering/create-own-filters/#basic-rule-modifiers?aid=135952) for more information.
 - Group filters by domain and function. Keep unrelated rules separate.
 - Regex should be precise and performant; avoid overly greedy or complex expressions. Use them sparingly.
 - Prefer CSS filters (`##`) over JS scriptlets (`##+js`) unless JS is required.
