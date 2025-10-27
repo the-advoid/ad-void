@@ -64,6 +64,7 @@
   - [**Divergence Pt. 2**](#-divergence-pt-2)
 - [**Productivity Gains**](#-productivity-gains)
 - [**Disclaimer**](#️-disclaimer)
+- [**Contributing**](#-contributing)
 - [**Contributors**](#%E2%80%8D-contributors)
 - [**Support**](#-support)
 - [**License**](#-license)
@@ -530,6 +531,14 @@ By using `AdVoid`, you acknowledge that:
 <br>
 
 <sub>&dagger; The author might earn commissions with some affiliate links, but at no cost to you. These earnings help support ongoing updates, maintenance, and future development of the project.</sub>
+
+<br>
+
+## ✨ Contributing
+
+We welcome community contributions!  
+
+Please see our [**Contributing Guidelines**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) for full details on how to propose changes, report issues, or submit pull requests.
 
 <br>
 
