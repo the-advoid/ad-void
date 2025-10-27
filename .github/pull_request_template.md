@@ -33,7 +33,7 @@ Fixes #
 
 <!-- Please do not modify the checklist below. -->
 ## Checklist for Reviewer
-- [ ] Code/rules follow the project's style and contribution guidelines
+- [ ] Code/rules follow the project's style and [**contribution guidelines**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md)
 - [ ] No new warnings or errors are introduced
 - [ ] Changes align with the related issue template (Anomaly, Candidate, etc.)
 - [ ] This PR correctly references the related issue(s) (Fixes # / Closes #)
