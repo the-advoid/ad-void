@@ -41,7 +41,7 @@ We welcome:
 - ⚙️ **Optimizations** - Smaller, smarter, faster alternatives (e.g. modifier shorthand, regex refinement).
 - ⚠️ **Anomalies Reports** - Reports of rule(s) that break site(s) functionality.
 
-Use the appropriate [**issue template**](https://github.com/the-advoid/ad-void/issues/new/choose) when opening a suggestion.
+Use the appropriate [**issue template**](https://github.com/the-advoid/ad-void/issues/new/choose) when opening an issue.
 
 <br>
 
