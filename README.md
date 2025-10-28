@@ -544,18 +544,7 @@ Please see our [**Contributing Guidelines**](https://github.com/the-advoid/ad-vo
 
 ## 🫱🏼‍🫲🏽 Contributors
 
-Contributors to `AdVoid`'s codebase are shown below:
-
-<br>
-
-<a href="https://github.com/the-advoid/ad-void/graphs/contributors">
-	<img src="https://contrib.rocks/image?repo=the-advoid/ad-void">
-</a>
-
-<br>
-<br>
-
-Additional acknowledgments can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
+Contributors to `AdVoid` can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
 
 <br>
 
