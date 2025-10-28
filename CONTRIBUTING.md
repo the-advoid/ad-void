@@ -85,3 +85,7 @@ This project values:
 - Simplicity without compromise
 - Speed without sloppiness
 - Collaboration without ego
+
+<br>
+
+<sub>&dagger; The author might earn commissions with some affiliate links, but at no cost to you. These earnings help support ongoing updates, maintenance, and future development of the project.</sub>
