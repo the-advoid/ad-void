@@ -239,7 +239,7 @@ Logger.js^$script,domain=~crowdin.com
 /duracelltomi-google-tag-manager/*$script,css
 /admvpopunder.swf^
 /popunder.gif^$image
-/x.gif^$image,from=~mangabuddy.com
+/x.gif^$image,from=~mangabuddy.com|~novelbuddy.com
 /display/items.php?$script
 /video.counters.$script
 /fbevents.js^$script
