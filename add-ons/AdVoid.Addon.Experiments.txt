@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 2.0.17
-! Last modified: 2025-10-14T19:14:41.525+02:00
+! Version: 2.0.18
+! Last modified: 2025-11-06T21:41:58.079+01:00
 ! Expires: 480 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8
+! Entries: 7
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -28,5 +28,4 @@
 /videojs.airplay.js^$script
 
 ! {@2} Cosmetic (site)
-instagram.com##article span:has-text(Sponsored):upward(6)
 youtube.com###masthead-ad
