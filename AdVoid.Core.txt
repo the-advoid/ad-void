@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4016
-! Last modified: 2025-11-06T21:44:39.746+01:00
+! Version: 3.0.4017
+! Last modified: 2025-11-06T21:46:09.202+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5917
+! Entries: 5918
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5353,6 +5353,7 @@ youporn.com##div.top_bottom_wrapper + a[href$="#advertise"]
 youporn.com##footer > div:has(.adsbytrafficjunky)
 youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##.ytp-featured-product
+youtube.com##ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
