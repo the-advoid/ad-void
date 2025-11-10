@@ -77,7 +77,7 @@
 ## 🤖 Features
 
 - 🚫 Blocks ads, trackers, malware and phishing
-- 🍪 Removes cookie banners and consent popups
+- 🍪 Removes cookie banners and consent pop-ups
 - 📦 Eliminates fake download links and search results
 - 📣 Silences push notifications and intrusive modals
 - 📰 Hides news widgets, post widgets and comments
@@ -117,7 +117,7 @@ Modules are the four core `AdVoid` filter lists. Designed for layered protection
 
 ##### The Complete Protection
 
-> Includes all modules and add-ons, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, news widgets, JavaScript and CSS maps, PWA install banners, SWF objects.
+> Includes all modules and add-ons, except experimental rules and standalone scriptlets. Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, news widgets, JavaScript and CSS maps, PWA install banners, SWF objects.
 >
 > ✨ If you subscribe to this filter list, you do **not** need any of the other filter lists below it.
 >
@@ -243,13 +243,13 @@ For additional privacy, faster browsing experience and less tracking these `AdVo
 
 ##### The No Annoyances Add-on
 
-> Blocks site annoyances: cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, rating dialogs, skips countdowns, etc.
+> Blocks site annoyances: cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, rating dialogs, skips countdowns, etc.
 
 <br>
 
 Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block pop-ups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.NoAnnoyances.txt
@@ -259,7 +259,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.N
 
 Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block popups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt&title=AdVoid.Addon.NoAnnoyances"><img alt="Subscribe button - activate AdVoid.Addon.NoAnnoyances by Igor Dimitrijević (@igorskyflyer), block pop-ups & modals" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
 
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoyances.txt
@@ -469,7 +469,7 @@ The modules were:
 #### 🐛 Divergence Pt. 2
 
 The add-ons were:
-- [**AdVoid.Addon.NoAnnoyances**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances: cookie-consent banners, popups, etc.
+- [**AdVoid.Addon.NoAnnoyances**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances: cookie-consent banners, pop-ups, etc.
 - [**AdVoid.Addon.NoExternals**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) - blocks external features: sharing, Google Chromecast, etc.
 - [**AdVoid.Addon.NoExtras**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) - blocks non-essential resources: news widgets, JavaScript and CSS maps, PWA install banners, etc.
 - [**AdVoid.Addon.Experiments**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) - unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.
