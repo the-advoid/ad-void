@@ -8,7 +8,9 @@ assignees: igorskyflyer
 
 <!--
     The initial checks are required.
-    Issues that do not have all boxes checked may be closed or ignored.
+    Issues that do not have all boxes checked may be closed or ignored.  
+
+    Put an 'X' in between brackets to mark the task as completed.
 -->
 ## Initial checks
 
