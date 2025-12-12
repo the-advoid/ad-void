@@ -33,7 +33,7 @@ event_label=popup_blocked$xhr
 event_value=pg_pop$xhr
 utm_content=Image_ad
 agent.php?spot=
-request_ab2=
+/?request_ab*&zoneid=*&rb=$document
 ! Not a typo
 bannnerid=
 adslot=
