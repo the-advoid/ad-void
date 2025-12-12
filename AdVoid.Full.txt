@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5609
-! Last modified: 2025-12-12T19:12:24.530+01:00
+! Version: 3.0.5610
+! Last modified: 2025-12-12T19:13:08.408+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7972
+! Entries: 7973
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7749,6 +7749,7 @@ youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, Request
 youtube.com##+js(trusted-replace-fetch-response, '"adSlots"', '"no_ads"', /get_watch?)
 youtube.com##+js(trusted-replace-outbound-text, JSON.stringify, {"contentPlaybackContext", '{"adPlaybackContext":{"pyv":true},"contentPlaybackContext"', condition, currentUrl":"/watch)
 youtube4kdownloader.com##+js(addEventListener-defuser, , break;case $.)
+ytapi.cc##+js(prevent-fetch, pagead2.googlesyndication.com)
 ytapi.cc##+js(prevent-window-open)
 ytc.*##+js(no-window-open-if)
 ytmp3.*##+js(no-window-open-if)
