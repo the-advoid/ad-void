@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.21
-! Last modified: 2025-10-28T22:40:54.591+01:00
+! Version: 1.0.22
+! Last modified: 2025-12-12T19:04:19.490+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5233
+! Entries: 5237
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2749,7 +2749,6 @@
 ||io.narrative.io^$3p
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
-||jnn-pa.googleapis.com^
 ||journey.wired.com^
 ||kive-intro.web.app^
 ||kiwi.mdldb.net^
@@ -3179,6 +3178,7 @@ _pagespeed_beacon?$xhr
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
 ://plausible.*/api/event|$xhr,3p
 ||adem.my.id^$xhr
+||amazon.com/follow/log-metrics^$xhr
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xhr
 ||api.github.com/_private/browser/errors^$xhr
 ||awswaf.com^*/telemetry$xhr
@@ -3234,7 +3234,7 @@ _pagespeed_beacon?$xhr
 ||scribd.com/log/$xhr
 ||smy.iheart.com^$xhr
 ||splunkcloud.com/services/collector/$xhr
-||store.steampowered.com/app/usabilitytracking/
+||store.steampowered.com/app/usabilitytracking/$xhr
 ||techpowerup.com/__botcheck$xhr
 ||tiktok.com/ttwid/check/^$xhr
 ||tiktokv.com/monitor_browser/^$xhr
@@ -3938,6 +3938,7 @@ zoneid=
 ###admobilefoot
 ###admobilefootinside
 ###admobilemiddle
+###admobileoutstream
 ###admobiletop
 ###admobiletopinside
 ###adp_top_ads
@@ -4113,6 +4114,7 @@ zoneid=
 ##.ad-mrec
 ##.ad-panel
 ##.ad-placeholder
+##.ad-section
 ##.ad-slot
 ##.ad-slot--inline
 ##.ad-slot--mostpop
@@ -4882,7 +4884,6 @@ zoneid=
 ##a[href^="https://t.ajrkm1.com/"]
 ##a[href^="https://teksishe.net/"]
 ##a[href^="https://www.adxsrve.com/"]
-##ad-slot-renderer
 ##admobiletopinside
 ##amp-ad
 ##app-gpt-banner
@@ -4924,6 +4925,7 @@ zoneid=
 adblock-tester.com##embed
 adblock-tester.com##object
 aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
+amazon.*###nav-swmslot
 apkcombo.com##.column > div.widget:has(> a.installer)
 apkcombo.com##.diseanmevrtt
 apkdone.com##div[style^="height:250px"]
@@ -5057,6 +5059,7 @@ imdb.com##.cornerstone_slot
 imdb.com##.slot_wrapper
 informer.rs##.bnr
 insta-stories-viewer.com##.context
+instagram.com##article span:has-text(Sponsored):upward(6)
 iproductkeys.com###theme-footer
 iq.com##div[class][style^="bottom: 0px; left: 0px; position: fixed;"]
 jetpunk.com##.banner-x-outer
@@ -5246,6 +5249,7 @@ youporn.com##div.top_bottom_wrapper + a[href$="#advertise"]
 youporn.com##footer > div:has(.adsbytrafficjunky)
 youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##.ytp-featured-product
+youtube.com##ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube4kdownloader.com##.sub-form-container
 ytmp3.cc###a-320-50
