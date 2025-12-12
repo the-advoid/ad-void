@@ -67,7 +67,7 @@
 		]
 	},
 	"devDependencies": {
-		"@adguard/aglint": "^3.0.0"
+		"@adguard/aglint": "^3.0.2"
 	},
 	"dependencies": {
 		"@adguard/dead-domains-linter": "^1.0.33"
