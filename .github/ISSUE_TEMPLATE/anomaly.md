@@ -42,4 +42,4 @@ assignees: igorskyflyer
 <!-- Add logs, screenshots or filter snippets below, if necessary. -->
 ## Additional information
 
-N/A.
+N/A
