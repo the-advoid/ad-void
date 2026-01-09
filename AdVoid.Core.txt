@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4044
-! Last modified: 2025-12-27T18:20:56.797+01:00
+! Version: 3.0.4059
+! Last modified: 2026-01-09T19:36:13.725+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5931
+! Entries: 5946
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -512,6 +512,7 @@
 ||condenastdigital.com^
 ||conductrics.com^
 ||confiant-integrations.net^
+||config-factory.com^$3p
 ||confrontationdrunk.com^
 ||congerstunish.com^
 ||connatix.com^
@@ -1449,6 +1450,7 @@
 ||nxt-psh.com^
 ||nya2.com^
 ||o333o.com^
+||oamoameevee.net^
 ||oaphoace.net^
 ||oblongseller.com^
 ||obmvfiruckuz.com^
@@ -2326,6 +2328,7 @@
 ||whaulaul.net^
 ||whedupache.pro^
 ||wheeshoo.net^
+||whiadcnrnrju.com^
 ||whiskerssituationdisturb.com^
 ||whisperingauroras.com^
 ||whitemaincode.com^
@@ -3339,6 +3342,7 @@ _pagespeed_beacon?$xhr
 /ad-event-tracker-*.js^$script
 /ad-plugins/*.js^$script
 /ad-provider.js^$script
+/ad-shield/e/*$script,3p
 /ad.gif^$image
 /ad.js^$script
 /ad.min.js^$script
@@ -3811,6 +3815,7 @@ trekkie*.js^$script
 ||squarespace.com/universal/scripts-compressed/performance-$script,3p
 ||src.ebay-us.com/*=usllpic$script,from=ebay.com
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^$script
+||svc.dynamics.com/t/v/$3p,image
 ||tags.news.com.au^$script
 ||techpowerup.com/reviyu$image
 ||thefreedictionary.com/_/tr.ashx?
@@ -4900,6 +4905,7 @@ zoneid=
 ##[data-ez-ph-id]
 ##[data-freestar-ad]
 ##[data-identity*="billboard-ad"]
+##[data-identity="adhesive-ad"]
 ##[data-identity="leaderboard-ad"]
 ##[data-m-ad-id]
 ##[data-pg-ad-spot]
@@ -5005,6 +5011,7 @@ zoneid=
 ##div[data-adunit]
 ##div[data-contentexchange-widget]
 ##div[data-google-query-id]
+##div[data-identity*="board-ad"]
 ##div[data-testid^="ad-container"]
 ##div[id*="ScriptRoot"]
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
@@ -5296,6 +5303,9 @@ thewrap.com##.wp-block-the-wrap-ad
 thisvid.com##.bottom-spots
 thisvid.com##.main-nav > li > a[target="_blank"]
 thisvid.com##.spots
+time.is###recover
+time.is##div[style="display:flex;justify-content:center;width:100%;margin-top:20px;height:250px"]
+time.is##div[style="margin-top:10px;float:right;background:#c35;padding:10px;"]
 tnaflix.com###vidPlayer > div:last-child
 tnaflix.com###vidPlayer span:has-text(Advertisement)
 tnaflix.com###zoneInPlayer
@@ -5763,9 +5773,13 @@ savefrom.net##+js(no-window-open-if)
 scamadviser.com##body:style(overflow: auto !important;)
 screenrant.com##^script:has-text(/typeof [a-z]\.cmd\.unshift/)
 search.brave.com##+js(prevent-fetch, body:browser)
+sflix.*##+js(abort-current-script, document.createElement, break;case $.)
+sflix.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 sflix.*##+js(abort-on-property-read, AaDetector)
+sflix.*##+js(addEventListener-defuser, '', break;case $.)
 sflix.*##+js(addEventListener-defuser, , break;case $.)
 sflix.*##^script:has-text(;}}};break;case $.)
+sflix.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sflix.to##+js(abort-current-script, parseInt, break;case $.)
 sflix.to##+js(no-setInterval-if, /_0x|devtools/)
 sflix.to##+js(no-setTimeout-if, devtools)
@@ -5841,6 +5855,7 @@ thisvid.com##+js(abort-on-property-read, ExoLoader)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 thisvid.com##+js(addEventListener-defuser, click, popMagic)
 tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
+time.is##html:style(overflow: auto !important;)
 timeanddate.com##+js(addEventListener-defuser, load, Dislike intrusive ads)
 tinyzonetv.*##+js(no-window-open-if)
 tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)

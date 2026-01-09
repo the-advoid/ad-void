@@ -146,3 +146,4 @@
 ||s3.us-east-2.amazonaws.com/telemetry.bydata/$script
 *$script,3p,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
 ||s.nitropay.com/ads-*.js^$script,redirect-rule=noop.js
+||svc.dynamics.com/t/v/$3p,image

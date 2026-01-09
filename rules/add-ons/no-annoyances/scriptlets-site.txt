@@ -276,3 +276,4 @@ youtube.com##+js(trusted-click-element, ytd-button-renderer.ytd-consent-bump-v2-
 scribd.com##+js(addEventListener-defuser, /^(mouseout|mouseleave)$/)
 1movierulzhd.*##body:style(overflow: auto !important;)
 www.amazon.com##+js(remove-node-text, script, /introSplashVideo.+renderStoresWidgetsPendingList/s)
+aiesec.org##body:style(overflow: auto !important;)

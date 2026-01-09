@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1327
-! Last modified: 2025-12-12T19:38:42.003+01:00
+! Version: 2.0.1333
+! Last modified: 2026-01-09T19:26:48.115+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1287
+! Entries: 1293
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -18,6 +18,7 @@
 ! Source: World Wide Web
 
 ! {@0} Domains (global)
+||bigidcmp.cloud^$3p
 ||condenast.io^
 ||consensu.org^
 ||consentframework.com^$3p
@@ -816,6 +817,7 @@ cookie-law*.$script,css
 
 ! {@9} Global (site)
 4zida.rs##div.peer-checked\:hidden.backdrop-blur
+aiesec.org##.ant-modal-root:style(display: none !important;)
 alfafile.net##[href^="https://play.google.com/store/apps/details"]
 ananas.rs###__next > div:nth-last-child(-n+2)
 apkmody.fun###body-fixed-footer
@@ -828,6 +830,7 @@ cam4.com##footer + div[class]:has(> div > div > a[href="/legal/cookies"])
 careerkarma.com###fast-track-modal-window2
 careerkarma.com###full-sticky-footer-container
 careerkarma.com##.ck_box_1
+cityexpress.rs##.show.fade.modal-backdrop
 cnet.com###video-rectangle
 cnet.com##.c-avStickyVideo
 coinbrain.com##[data-context="cookie_consent"]:upward(4)
@@ -978,6 +981,8 @@ scribd.com##.between_page_portal_root
 scribd.com##div[data-testid="sticky-wrapper"]
 search.brave.com###usage-metrics-notice
 search.brave.com##.download-cta
+sflix.*###modalshare:style(display: none !important;)
+sflix.*##.modal-backdrop:style(display: none !important;)
 siberianhealth.com##.top-informer-container
 space.com###slice-container-newsletterForm-exitIntent
 space.com##.hawk-nest
@@ -1054,6 +1059,7 @@ accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transition)
 accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
 accuweather.com##body:style(overflow: auto !important;)
+aiesec.org##body:style(overflow: auto !important;)
 alternativeto.net##body:style(overflow: auto !important;)
 apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)

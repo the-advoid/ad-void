@@ -14,18 +14,13 @@
 <br>
 
 <div align="center">
-  <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/advoid-launched.svg" alt="AdVoid launch badge - efficient ad-block filter list by Igor Dimitrijević (@igorskyflyer), live since Feb 2022"></a>
-  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.4044-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
+  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.4059-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core file size badge - lightweight ad-block filter by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/size/the-advoid/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900&label=Size"></a>
+  <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://data.jsdelivr.com/v1/package/gh/the-advoid/ad-void/badge" alt="AdVoid CDN badge - fast, reliable ad-block filter list by Igor Dimitrijević (@igorskyflyer), hosted on jsDelivr for global privacy protection"></a>
   <br>
   <a href="https://github.com/the-advoid/ad-void/pulls?q=is%3Apr+is%3Aclosed"><img alt="AdVoid closed PRs badge - active development by Igor Dimitrijević (@igorskyflyer), community-driven" src="https://custom-icon-badges.herokuapp.com/github/issues-pr-closed-raw/the-advoid/ad-void?color=0f167d&style=flat-square&logo=git-pull-request&logoColor=white&label=Closed%20PRs"></a>
-  <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="AdVoid commit activity badge - frequent updates by Igor Dimitrijević (@igorskyflyer), always-fresh protection" src="https://custom-icon-badges.herokuapp.com/github/commit-activity/m/the-advoid/ad-void?style=flat-square&label=Commits&logo=checklist&logoColor=white&color=006600"></a>
   <a href="https://github.com/the-advoid/ad-void/issues?q=is%3Aissue+is%3Aclosed"><img alt="AdVoid closed issues badge - responsive maintenance by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/issues-closed/the-advoid/ad-void?style=flat-square&logo=issue-closed&logoColor=white&color=3333ff&label=Issues"></a>
-  <br>
-  <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://data.jsdelivr.com/v1/package/gh/the-advoid/ad-void/badge" alt="AdVoid CDN badge - fast, reliable ad-block filter list by Igor Dimitrijević (@igorskyflyer), hosted on jsDelivr for global privacy protection"></a>
-  <a href="https://github.com/the-advoid/ad-void/commits/"><img alt="AdVoid last updated badge - latest commit by Igor Dimitrijević (@igorskyflyer), filter list always evolving" src="https://custom-icon-badges.herokuapp.com/github/last-commit/the-advoid/ad-void?style=flat-square&logo=git-commit&logoColor=white&color=990033&label=Last%20Update"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/LICENSE"><img alt="AdVoid license badge - GPL-3.0-or-later licensed by Igor Dimitrijević (@igorskyflyer), open-source ad-block innovation" src="https://img.shields.io/github/license/the-advoid/ad-void?style=flat-square&label=License"></a>
-</a>
 </div>
 
 <br>
@@ -495,116 +490,4 @@ Since [`Aria`](https://github.com/aria-toolkit/aria-cli) saves a substantial amo
     <img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="Aria compiler impact graph - rule additions skyrocketed with AdVoid by Igor Dimitrijević (@igorskyflyer), powered by ADBT">
     <br>
     <figcaption>
-      <em><strong>Figure 2.</strong> a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/aria-toolkit/aria-cli"><code>Aria</code></a> compiler</em>
-    </figcaption>
-  </figure>
-</div>
-
-<br>
-<br>
-
-<blockquote align="center">🍪 <strong>Let's crunch those numbers!</strong> 🍪</blockquote>
-
-<br>
-
-Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
-
-After implementing the before-mentioned solutions there were ~**4240** rule commits per month (+**1104.5%**), while commits reached their peak in December, with staggering ~**5861** rule commits (+**1565.1%**).
-
-<br>
-
-## ⚠️ Disclaimer
-
-`AdVoid` is provided *as-is*, without warranty of any kind. While every effort is made to ensure the accuracy and effectiveness of its modules, add-ons and scriptlets, its users are solely responsible for how and where they use `AdVoid` in their own, local environments.  
-
-By using `AdVoid`, you acknowledge that:
-- ***YOU*** understand the risks associated with ad-blocking and/or scriptlet usage.
-- ***YOU*** accept full responsibility for any site breakage, content disruption, or unintended behavior.
-- ***YOU*** agree not to hold the maintainers liable for any direct or indirect consequences resulting from its use.
-
----
-
->
-> 💡 Use only what you **trust**. Review before you subscribe.
->
-
-<br>
-
-<sub>&dagger; The author might earn commissions with some affiliate links, but at no cost to you. These earnings help support ongoing updates, maintenance, and future development of the project.</sub>
-
-<br>
-
-## ✨ Contributing
-
-We welcome community contributions!  
-
-Please see our [**Contributing Guidelines**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) for full details on how to propose changes, report issues, or submit pull requests.
-
-<br>
-
-## 🫱🏼‍🫲🏽 Contributors
-
-Contributors to `AdVoid` can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
-
-<br>
-
-## 🪪 License
-
-Licensed under the [**GPL-3.0-or-later license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
-
-<br>
-<br>
-
-## 💖 Support
-
-<div align="center">
-  I work hard for every project, including this one and your support means a lot to me!
-  <br>
-  Consider buying me a coffee. ☕
-  <br>
-  <br>
-  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Ko-fi donation button - support Igor Dimitrijević (@igorskyflyer), creator of AdVoid ad-block filter lists" width="180" height="46"></a>
-  <br>
-  <br>
-  <em>Thank you for supporting my efforts!</em> 🙏😊
-</div>
-
-<br>
-<br>
-
-## 🧬 Related
-
-[**@igorskyflyer/aria**](https://www.npmjs.com/package/@igorskyflyer/aria)
-
-> _🧬 Meet Aria, an efficient ad-block filter list compiler, with many features that make your maintenance of ad-block filter lists a breeze! 🦖_
-
-<br>
-
-[**@igorskyflyer/adblock-filter-counter**](https://www.npmjs.com/package/@igorskyflyer/adblock-filter-counter)
-
-> _🐲  A dead simple npm module that counts ad-block filter rules.🦘_
-
-<br>
-
-[**@igorskyflyer/biome-config**](https://www.npmjs.com/package/@igorskyflyer/biome-config)
-
-> _👽 An opinionated config for Biome to be used in JavaScript, TypeScript, JSX, TSX and any JavaScript-related projects. 🐺_
-
-<br>
-
-[**@igorskyflyer/strip-headings**](https://www.npmjs.com/package/@igorskyflyer/strip-headings)
-
-> _⛸ Strips Markdown headings!🏹_
-
-<br>
-
-[**@igorskyflyer/adblock-header-extract**](https://www.npmjs.com/package/@igorskyflyer/adblock-header-extract)
-
-> _✂️ An npm module that provides ways to extract header and metadata from an ad-block filter file. 📃_
-
-<br>
-<br>
-<br>
-
-## 👨🏻‍💻 Author
-Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
+      <em><stron

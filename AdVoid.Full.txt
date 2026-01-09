@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5627
-! Last modified: 2025-12-27T18:21:02.527+01:00
+! Version: 3.0.5648
+! Last modified: 2026-01-09T19:36:19.820+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7985
+! Entries: 8006
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -512,6 +512,7 @@
 ||condenastdigital.com^
 ||conductrics.com^
 ||confiant-integrations.net^
+||config-factory.com^$3p
 ||confrontationdrunk.com^
 ||congerstunish.com^
 ||connatix.com^
@@ -1449,6 +1450,7 @@
 ||nxt-psh.com^
 ||nya2.com^
 ||o333o.com^
+||oamoameevee.net^
 ||oaphoace.net^
 ||oblongseller.com^
 ||obmvfiruckuz.com^
@@ -2326,6 +2328,7 @@
 ||whaulaul.net^
 ||whedupache.pro^
 ||wheeshoo.net^
+||whiadcnrnrju.com^
 ||whiskerssituationdisturb.com^
 ||whisperingauroras.com^
 ||whitemaincode.com^
@@ -2458,6 +2461,7 @@
 ||zvylzwkzeklme.top^
 ||zypanafo.pro^
 ||zzaniglcic.com^
+||bigidcmp.cloud^$3p
 ||condenast.io^
 ||consensu.org^
 ||consentframework.com^$3p
@@ -3435,6 +3439,7 @@ _pagespeed_beacon?$xhr
 /ad-event-tracker-*.js^$script
 /ad-plugins/*.js^$script
 /ad-provider.js^$script
+/ad-shield/e/*$script,3p
 /ad.gif^$image
 /ad.js^$script
 /ad.min.js^$script
@@ -4069,6 +4074,7 @@ sassy-social-share-public*.$script,css
 ||squarespace.com/universal/scripts-compressed/performance-$script,3p
 ||src.ebay-us.com/*=usllpic$script,from=ebay.com
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^$script
+||svc.dynamics.com/t/v/$3p,image
 ||tags.news.com.au^$script
 ||techpowerup.com/reviyu$image
 ||thefreedictionary.com/_/tr.ashx?
@@ -5188,6 +5194,7 @@ zoneid=
 ##[data-ez-ph-id]
 ##[data-freestar-ad]
 ##[data-identity*="billboard-ad"]
+##[data-identity="adhesive-ad"]
 ##[data-identity="leaderboard-ad"]
 ##[data-m-ad-id]
 ##[data-pg-ad-spot]
@@ -5293,6 +5300,7 @@ zoneid=
 ##div[data-adunit]
 ##div[data-contentexchange-widget]
 ##div[data-google-query-id]
+##div[data-identity*="board-ad"]
 ##div[data-testid^="ad-container"]
 ##div[id*="ScriptRoot"]
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
@@ -6789,6 +6797,9 @@ thewrap.com##.wp-block-the-wrap-ad
 thisvid.com##.bottom-spots
 thisvid.com##.main-nav > li > a[target="_blank"]
 thisvid.com##.spots
+time.is###recover
+time.is##div[style="display:flex;justify-content:center;width:100%;margin-top:20px;height:250px"]
+time.is##div[style="margin-top:10px;float:right;background:#c35;padding:10px;"]
 tnaflix.com###vidPlayer > div:last-child
 tnaflix.com###vidPlayer span:has-text(Advertisement)
 tnaflix.com###zoneInPlayer
@@ -6863,6 +6874,7 @@ zultv.com##.bg-secondary.border.order-lg-2.order-xl-2.order-sm-2.order-2.col-xl-
 zultv.com##.border.row
 zultv.com##.container > div.row:nth-of-type(1)
 4zida.rs##div.peer-checked\:hidden.backdrop-blur
+aiesec.org##.ant-modal-root:style(display: none !important;)
 alfafile.net##[href^="https://play.google.com/store/apps/details"]
 ananas.rs###__next > div:nth-last-child(-n+2)
 apkmody.fun###body-fixed-footer
@@ -6875,6 +6887,7 @@ cam4.com##footer + div[class]:has(> div > div > a[href="/legal/cookies"])
 careerkarma.com###fast-track-modal-window2
 careerkarma.com###full-sticky-footer-container
 careerkarma.com##.ck_box_1
+cityexpress.rs##.show.fade.modal-backdrop
 cnet.com###video-rectangle
 cnet.com##.c-avStickyVideo
 coinbrain.com##[data-context="cookie_consent"]:upward(4)
@@ -7025,6 +7038,8 @@ scribd.com##.between_page_portal_root
 scribd.com##div[data-testid="sticky-wrapper"]
 search.brave.com###usage-metrics-notice
 search.brave.com##.download-cta
+sflix.*###modalshare:style(display: none !important;)
+sflix.*##.modal-backdrop:style(display: none !important;)
 siberianhealth.com##.top-informer-container
 space.com###slice-container-newsletterForm-exitIntent
 space.com##.hawk-nest
@@ -7531,9 +7546,13 @@ savefrom.net##+js(no-window-open-if)
 scamadviser.com##body:style(overflow: auto !important;)
 screenrant.com##^script:has-text(/typeof [a-z]\.cmd\.unshift/)
 search.brave.com##+js(prevent-fetch, body:browser)
+sflix.*##+js(abort-current-script, document.createElement, break;case $.)
+sflix.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 sflix.*##+js(abort-on-property-read, AaDetector)
+sflix.*##+js(addEventListener-defuser, '', break;case $.)
 sflix.*##+js(addEventListener-defuser, , break;case $.)
 sflix.*##^script:has-text(;}}};break;case $.)
+sflix.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sflix.to##+js(abort-current-script, parseInt, break;case $.)
 sflix.to##+js(no-setInterval-if, /_0x|devtools/)
 sflix.to##+js(no-setTimeout-if, devtools)
@@ -7609,6 +7628,7 @@ thisvid.com##+js(abort-on-property-read, ExoLoader)
 thisvid.com##+js(addEventListener-defuser, /^(?:load|click)$/, popMagic)
 thisvid.com##+js(addEventListener-defuser, click, popMagic)
 tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
+time.is##html:style(overflow: auto !important;)
 timeanddate.com##+js(addEventListener-defuser, load, Dislike intrusive ads)
 tinyzonetv.*##+js(no-window-open-if)
 tinyzonetv.se##body:style(overflow: auto !important; padding-right: 0 !important;)
@@ -7772,6 +7792,7 @@ accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transition)
 accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
 accuweather.com##body:style(overflow: auto !important;)
+aiesec.org##body:style(overflow: auto !important;)
 alternativeto.net##body:style(overflow: auto !important;)
 apkmirror.com##body:style(overflow: auto !important;)
 apkmody.*##+js(adjust-setTimeout, download_loading, *)
