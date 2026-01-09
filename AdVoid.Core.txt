@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4044
-! Last modified: 2025-12-27T18:20:56.797+01:00
+! Version: 3.0.4045
+! Last modified: 2026-01-09T18:22:02.784+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5931
+! Entries: 5932
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5763,6 +5763,7 @@ savefrom.net##+js(no-window-open-if)
 scamadviser.com##body:style(overflow: auto !important;)
 screenrant.com##^script:has-text(/typeof [a-z]\.cmd\.unshift/)
 search.brave.com##+js(prevent-fetch, body:browser)
+sflix.*##+js(abort-current-script, document.createElement, break;case $.)
 sflix.*##+js(abort-on-property-read, AaDetector)
 sflix.*##+js(addEventListener-defuser, , break;case $.)
 sflix.*##^script:has-text(;}}};break;case $.)
