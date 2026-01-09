@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5648
-! Last modified: 2026-01-09T19:36:19.820+01:00
+! Version: 3.0.5649
+! Last modified: 2026-01-09T19:51:54.970+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8006
+! Entries: 8012
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -521,6 +521,8 @@
 ||constructpreachystopper.com^
 ||contagiousantagonizequarry.com^
 ||contagiousaugust.com^
+||content-load.com^
+||content-loader.com^
 ||contentabc.com^
 ||contentexchange.me^
 ||contentinsights.com^
@@ -566,6 +568,7 @@
 ||crumblerefunddiana.com^
 ||crwdcntrl.net^
 ||crystalcraft.top^$popup,doc
+||css-load.com^
 ||cssrvsync.com^
 ||cubeuptownpert.com^
 ||cuddlepolitely.com^
@@ -996,6 +999,8 @@
 ||hscta.net^$3p
 ||hsleadflows.net^
 ||htlbid.com^
+||html-load.cc^
+||html-load.com^
 ||htplayground.com^
 ||httpool.com^
 ||hubtraffic.com^$3p
@@ -1114,6 +1119,7 @@
 ||joygaskin.com^
 ||jpjrkdtbnwc.com^
 ||jqmebveabmbj.top^
+||js-load.com^
 ||jsecoin.com^
 ||jsfiz.com^
 ||jthumdmxmy.com^
