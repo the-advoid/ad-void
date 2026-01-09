@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.29
-! Last modified: 2026-01-09T19:32:14.914+01:00
+! Version: 1.0.30
+! Last modified: 2026-01-09T19:51:51.583+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5250
+! Entries: 5260
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -521,6 +521,8 @@
 ||constructpreachystopper.com^
 ||contagiousantagonizequarry.com^
 ||contagiousaugust.com^
+||content-load.com^
+||content-loader.com^
 ||contentabc.com^
 ||contentexchange.me^
 ||contentinsights.com^
@@ -566,6 +568,7 @@
 ||crumblerefunddiana.com^
 ||crwdcntrl.net^
 ||crystalcraft.top^$popup,doc
+||css-load.com^
 ||cssrvsync.com^
 ||cubeuptownpert.com^
 ||cuddlepolitely.com^
@@ -996,6 +999,8 @@
 ||hscta.net^$3p
 ||hsleadflows.net^
 ||htlbid.com^
+||html-load.cc^
+||html-load.com^
 ||htplayground.com^
 ||httpool.com^
 ||hubtraffic.com^$3p
@@ -1114,6 +1119,7 @@
 ||joygaskin.com^
 ||jpjrkdtbnwc.com^
 ||jqmebveabmbj.top^
+||js-load.com^
 ||jsecoin.com^
 ||jsfiz.com^
 ||jthumdmxmy.com^
@@ -3301,6 +3307,7 @@ _pagespeed_beacon?$xhr
 /ad-event-tracker-*.js^$script
 /ad-plugins/*.js^$script
 /ad-provider.js^$script
+/ad-shield/e/*$script,3p
 /ad.gif^$image
 /ad.js^$script
 /ad.min.js^$script
@@ -5197,6 +5204,9 @@ thewrap.com##.wp-block-the-wrap-ad
 thisvid.com##.bottom-spots
 thisvid.com##.main-nav > li > a[target="_blank"]
 thisvid.com##.spots
+time.is###recover
+time.is##div[style="display:flex;justify-content:center;width:100%;margin-top:20px;height:250px"]
+time.is##div[style="margin-top:10px;float:right;background:#c35;padding:10px;"]
 tnaflix.com###vidPlayer > div:last-child
 tnaflix.com###vidPlayer span:has-text(Advertisement)
 tnaflix.com###zoneInPlayer
