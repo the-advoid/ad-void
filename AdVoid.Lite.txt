@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.26
-! Last modified: 2025-12-12T19:30:13.844+01:00
+! Version: 1.0.27
+! Last modified: 2026-01-09T18:26:58.067+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5240
+! Entries: 5245
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1449,6 +1449,7 @@
 ||nxt-psh.com^
 ||nya2.com^
 ||o333o.com^
+||oamoameevee.net^
 ||oaphoace.net^
 ||oblongseller.com^
 ||obmvfiruckuz.com^
@@ -3019,7 +3020,7 @@
 /stats/rotator^
 /Tag.engine?
 /toiads_new/*
-/track^$from=~spotify.com
+/track^$from=~spotify.com|~podtrac.com|~megaphone.fm|~wolf359.fm|~pdst.fm
 /wp-stats-manager/*
 /youtubei/*/att/*
 ://collector.*/event
@@ -3136,7 +3137,7 @@ ads-manager/ads/*/track-view
 /hc/activity$xhr
 /ingest/*^ip=
 /insights/reportevent/*$xhr
-/log^$xhr,from=~meet.google.com|~sigstore.dev
+/log^$xhr,from=~meet.google.com|~sigstore.dev|~backloggd.com
 /log_event$xhr
 /logimpressions?$xhr
 /monitoring?o=$xhr
@@ -3752,12 +3753,12 @@ trekkie*.js^$script
 ||rover.ebay.com^$image
 ||rts.ch^*/boreas_b01.js^$script
 ||s.gofile.io^$script
+||s.nitropay.com/ads-*.js^$script,redirect-rule=noop.js
 ||s.pinimg.com/ct/core.js^$script
 ||s3.us-east-2.amazonaws.com/telemetry.bydata/$script
 ||sammobile.com^*/newrelic.js^$script
 ||sascdn.com/diff/$script,redirect-rule=noop.js,from=imgur.com
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5
-||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect=googletagservices_gpt.js:5
+||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect-rule=googletagservices_gpt.js:5
 ||shopify.com/shopifycloud/consent-tracking-api/
 ||soap2dayx.to/assets/_bnx/$image
 ||soap2dayx2.to/assets/_bnx/$image
@@ -4138,6 +4139,7 @@ zoneid=
 ##.ad-top
 ##.ad-top-spacing
 ##.ad-unit
+##.ad-unit-container
 ##.ad-vertical
 ##.ad-w
 ##.ad-wrapper
@@ -4924,6 +4926,9 @@ zoneid=
 1337x.*##[onclick*="vpn"]
 1337x.*##[onclick^="location.href='https://1337x.vpnonly.site/"]
 4zida.rs###ed-container
+4zida.rs##[id*="4Z_Desktop_"]
+4zida.rs##aside.desk-lg\:w-1\/3.w-full.sticky
+4zida.rs##div.flex-row.h-full.shadow-sm.mx-auto.border-gray-200.border.bg-dotted.rounded.overflow-hidden.w-min.flex.relative
 7soap2day.co##.aa-mdl.fa-cloud-download-alt
 adblock-tester.com##embed
 adblock-tester.com##object
