@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5670
-! Last modified: 2026-01-12T20:23:41.283+01:00
+! Version: 3.0.5671
+! Last modified: 2026-01-12T20:24:00.944+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8031
+! Entries: 8032
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7301,6 +7301,7 @@ canela.tv##+js(trusted-replace-fetch-response, /#EXT-X-KEY:METHOD=NONE\n#EXT(?:I
 canela.tv##+js(xml-prune, [breakId*="Roll"], '', /content.vmap)
 canyoublockit.com##+js(abort-on-property-write, a9LL)
 canyoublockit.com##+js(remove-attr, href, a[href*="http://deloplen.com/afu.php?"])
+canyoublockit.com##+js(set-constant, D4zz, noopFunc)
 canyoublockit.com##+js(set-constant, window.open, noopFunc)
 cbr.com##+js(addEventListener-defuser, error, admiral)
 cbr.com##^script:has-text(admiral)
