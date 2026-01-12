@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4073
-! Last modified: 2026-01-12T20:11:40.758+01:00
+! Version: 3.0.4074
+! Last modified: 2026-01-12T20:22:55.389+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5962
+! Entries: 5964
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -225,6 +225,7 @@
 ||anonymised.io^$3p
 ||antagonizelabourer.com^
 ||antecedentbees.com^
+||antiadblocksystems.com^
 ||anybodyproper.com^
 ||apathylahuli.website^
 ||apfbumnzymas.com^
@@ -5523,6 +5524,7 @@ camwhorez.tv##+js(set-constant, flashvars.adv_pre_vast, )
 camwhorez.tv##+js(set-constant, flashvars.protect_block, )
 canela.tv##+js(trusted-replace-fetch-response, /#EXT-X-KEY:METHOD=NONE\n#EXT(?:INF:[^\n]+|-X-DISCONTINUITY)\n.+?(?=#EXT-X-KEY)/gms, '', /media.m3u8)
 canela.tv##+js(xml-prune, [breakId*="Roll"], '', /content.vmap)
+canyoublockit.com##+js(remove-attr, href, a[href*="http://deloplen.com/afu.php?"])
 cbr.com##+js(addEventListener-defuser, error, admiral)
 cbr.com##^script:has-text(admiral)
 cineby.app##+js(no-window-open-if)
