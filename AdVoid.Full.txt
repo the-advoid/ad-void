@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5653
-! Last modified: 2026-01-12T19:15:36.987+01:00
+! Version: 3.0.5654
+! Last modified: 2026-01-12T19:15:57.961+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8016
+! Entries: 8017
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7713,6 +7713,7 @@ watchseriesx.to##+js(set-cookie, __pf, 1)
 weather.com##+js(abort-on-property-read, _sp_._networkListenerData)
 weather.com##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/ppub_config)
 weather.com##+js(prevent-fetch, securepubads.g.doubleclick.net/pagead/ppub_config)
+weather.com##+js(remove-node-text, script, `/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["']_aQS0\w+["']|decodeURI\(decodeURI\("|<a href="https:\/\/getad%/`)
 weather.com##+js(set-constant, adBlockerReady, false)
 weather.com##+js(set-cookie, __adblocker, false, '', reload, 1)
 weather.com##+js(set-cookie, __adblocker, false, , reload, 1)
