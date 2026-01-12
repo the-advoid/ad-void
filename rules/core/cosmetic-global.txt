@@ -89,7 +89,7 @@
 ##.mobile-display-ad
 ##.main-ad-container
 ##.foobar-container
-##.adContainer
+##.adContainer:not(body):not(html)
 ##.topAdContainter
 ##.ezoic-ad
 ##.ezoic_ad
