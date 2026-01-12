@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.30
-! Last modified: 2026-01-09T19:51:51.583+01:00
+! Version: 1.0.31
+! Last modified: 2026-01-12T20:11:56.543+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5260
+! Entries: 5267
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -23,6 +23,7 @@
 ||0af2a962b0102942d9a7df351b20be55.com^
 ||0i0i0i0.com^
 ||0x01n2ptpuz3.com^
+||12ezo5v60.com^
 ||1clickcdn.ru^
 ||1osb.com^
 ||1rx.io^
@@ -3204,6 +3205,7 @@ _pagespeed_beacon?$xhr
 ||collector.xhamster.desi^
 ||config-security.com/event^$xhr
 ||convertkit.com^*/visit$xhr
+||data.nrk.no^$xhr
 ||datahub-srgssr.ch/tracking/$xhr
 ||dc.services.visualstudio.com^*/track$xhr
 ||dev.to/fallback_activity_recorder^$xhr
@@ -3676,6 +3678,7 @@ trekkie*.js^$script
 ||attn.tv^*/dtag.js^$script
 ||aviasales.ru/fp.js^$script
 ||ay.delivery/client-v2.js^$script,3p,redirect-rule=noop.js
+||ay.delivery/client-v2.js^$script,3p,redirect-rule=noop.js
 ||b.cdnst.net/javascript/amazon.js^$script
 ||bang-movies.com/out/b.html^
 ||beehiiv.com^*/ad_network/$image
@@ -3726,6 +3729,7 @@ trekkie*.js^$script
 ||licdn.com/*li.lms-analytics/$script
 ||linkedin.com/litms/utag/$script
 ||live.primis.tech/live/liveView.php^
+||log.medietall.no^$script
 ||mcloud.bz/assets/bn/$image
 ||mediadelivery.net/rum.js^$script
 ||moa.mediaoutcast.com^$script
@@ -3781,6 +3785,7 @@ trekkie*.js^$script
 ||thegay.com^$script,from=thegay.com
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js^$script
 ||tnaflix.com/js/mew.js^$script
+||tns-cs.net^$3p,image
 ||tubator.com/lookout/
 ||turbobit.net/pus/$script
 ||unpkg.com/videojs-vast-vpaid@$script
@@ -4182,7 +4187,7 @@ zoneid=
 ##.adBox
 ##.adcls
 ##.adcls_small
-##.adContainer
+##.adContainer:not(body):not(html)
 ##.adcontainer_big
 ##.adContent
 ##.add_href_jsclick
@@ -4365,6 +4370,7 @@ zoneid=
 ##.clever-core-ads
 ##.cli-bar-popup
 ##.clipstore-bottom
+##.combinedTopAdsSectionWrapper
 ##.commentsSection-ads
 ##.consumer-marketing-unit
 ##.container-ads
@@ -4920,6 +4926,7 @@ zoneid=
 ##div[id^="dfp-ad-"]
 ##div[id^="rc-widget-"]
 ##div[id^="Taboola-main-"]
+##div[id^="WxuAd-"]
 ##div[id^="zergnet-widget"]
 ##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
 ##iframe[src*="coinbrain.com/a"]
