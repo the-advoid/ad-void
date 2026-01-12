@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5663
-! Last modified: 2026-01-12T19:31:58.274+01:00
+! Version: 3.0.5664
+! Last modified: 2026-01-12T19:32:34.757+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8025
+! Entries: 8026
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7809,6 +7809,7 @@ z3.fm##+js(no-window-open-if)
 accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transition)
 accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
+accuweather.com##+js(remove-class, has-adhesion, .header-placeholder.has-adhesion)
 accuweather.com##body:style(overflow: auto !important;)
 aiesec.org##body:style(overflow: auto !important;)
 alternativeto.net##body:style(overflow: auto !important;)
