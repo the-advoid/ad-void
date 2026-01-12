@@ -603,3 +603,4 @@ sflix.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delet
 sflix.*##+js(addEventListener-defuser, '', break;case $.)
 sflix.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 time.is##html:style(overflow: auto !important;)
+weather.com##+js(prevent-fetch, securepubads.g.doubleclick.net/pagead/ppub_config)
