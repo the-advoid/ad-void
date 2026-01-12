@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4077
-! Last modified: 2026-01-12T20:23:55.006+01:00
+! Version: 3.0.4078
+! Last modified: 2026-01-12T20:24:12.233+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5967
+! Entries: 5968
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5525,6 +5525,7 @@ camwhorez.tv##+js(set-constant, flashvars.protect_block, )
 canela.tv##+js(trusted-replace-fetch-response, /#EXT-X-KEY:METHOD=NONE\n#EXT(?:INF:[^\n]+|-X-DISCONTINUITY)\n.+?(?=#EXT-X-KEY)/gms, '', /media.m3u8)
 canela.tv##+js(xml-prune, [breakId*="Roll"], '', /content.vmap)
 canyoublockit.com##+js(abort-on-property-write, a9LL)
+canyoublockit.com##+js(nobab)
 canyoublockit.com##+js(remove-attr, href, a[href*="http://deloplen.com/afu.php?"])
 canyoublockit.com##+js(set-constant, D4zz, noopFunc)
 canyoublockit.com##+js(set-constant, window.open, noopFunc)
