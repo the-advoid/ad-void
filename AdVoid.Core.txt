@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4075
-! Last modified: 2026-01-12T20:23:17.116+01:00
+! Version: 3.0.4076
+! Last modified: 2026-01-12T20:23:35.434+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5965
+! Entries: 5966
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5524,6 +5524,7 @@ camwhorez.tv##+js(set-constant, flashvars.adv_pre_vast, )
 camwhorez.tv##+js(set-constant, flashvars.protect_block, )
 canela.tv##+js(trusted-replace-fetch-response, /#EXT-X-KEY:METHOD=NONE\n#EXT(?:INF:[^\n]+|-X-DISCONTINUITY)\n.+?(?=#EXT-X-KEY)/gms, '', /media.m3u8)
 canela.tv##+js(xml-prune, [breakId*="Roll"], '', /content.vmap)
+canyoublockit.com##+js(abort-on-property-write, a9LL)
 canyoublockit.com##+js(remove-attr, href, a[href*="http://deloplen.com/afu.php?"])
 canyoublockit.com##+js(set-constant, window.open, noopFunc)
 cbr.com##+js(addEventListener-defuser, error, admiral)
