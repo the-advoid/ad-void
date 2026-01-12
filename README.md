@@ -82,6 +82,7 @@
 - 🛠 Stops service workers, PWA banners and webmanifests
 - 🗺 Strips JavaScript and CSS maps
 - 🕹 Removes SWF objects and site reporters
+- 💸 Independent, with **no** Acceptable Ads Program
 
 <br>
 
