@@ -490,7 +490,16 @@ Since [`Aria`](https://github.com/aria-toolkit/aria-cli) saves a substantial amo
     <img src="./assets/promo/aria-adblock-rules-addition-graph.png" alt="Aria compiler impact graph - rule additions skyrocketed with AdVoid by Igor Dimitrijević (@igorskyflyer), powered by ADBT">
     <br>
     <figcaption>
-      <em><stron
+      <em><strong>Figure 2.</strong> a graph showing substantial increase of rule commits (Jan - Dec, 2023) when using the <a href="https://github.com/aria-toolkit/aria-cli"><code>Aria</code></a> compiler</em>
+    </figcaption>
+  </figure>
+</div>
+
+<br>
+<br>
+
+<blockquote align="center">🍪 <strong>Let's crunch those numbers!</strong> 🍪</blockquote>
+
 <br>
 
 Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
