@@ -609,3 +609,4 @@ weather.com##+js(remove-node-text, script, `/"v4ac1eiZr0"|""\)\.split\(","\)\[4\
 canyoublockit.com##+js(remove-attr, href, a[href*="http://deloplen.com/afu.php?"])
 canyoublockit.com##+js(set-constant, window.open, noopFunc)
 canyoublockit.com##+js(abort-on-property-write, a9LL)
+canyoublockit.com##+js(set-constant, D4zz, noopFunc)
