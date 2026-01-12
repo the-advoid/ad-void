@@ -148,3 +148,4 @@
 ||s.nitropay.com/ads-*.js^$script,redirect-rule=noop.js
 ||svc.dynamics.com/t/v/$3p,image
 ||ay.delivery/client-v2.js^$script,3p,redirect-rule=noop.js
+||log.medietall.no^$script
