@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4085
-! Last modified: 2026-01-12T20:29:00.316+01:00
+! Version: 3.0.4086
+! Last modified: 2026-01-12T20:30:15.791+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5975
+! Entries: 5976
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5093,6 +5093,7 @@ camwhores.tv##a[href*="theporndude.com"]
 camwhorez.*##.block-video .table
 canyoublockit.com##.elementor-widget-container > center > p
 canyoublockit.com##a[href="ad.com"]
+canyoublockit.com##center > p:contains(Advertisement)
 cdromance.com###custom_html-8
 cenoteka.rs##.banner
 chaturbate.com##img[src*="//static-pub.highwebmedia.com/featureshow/"]
