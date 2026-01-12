@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.36
-! Last modified: 2026-01-12T20:27:44.467+01:00
+! Version: 1.0.37
+! Last modified: 2026-01-12T20:33:54.962+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5273
+! Entries: 5278
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -291,6 +291,7 @@
 ||banetabbeetroot.com^
 ||banhq.com^
 ||bankingbloatedcaptive.com^
+||bannersnack.com^
 ||banquetunarmedgrater.com^
 ||baradoot.com^
 ||barbelskerugma.com^
@@ -3483,6 +3484,7 @@ _pagespeed_beacon?$xhr
 /impr.gif^$image
 /insight.min.js^$script
 /InstallTracking.aspx^
+/interstitial-ads/*$script
 /istats-*.min.js^$script
 /jquery.adi.js^$script
 /jquery.iframetracker.min.js^$script
@@ -4986,6 +4988,9 @@ cam4.com##[data-section-id="Sponsored Ads"]
 cambridge.org##.topslot-container
 camwhores.tv##a[href*="theporndude.com"]
 camwhorez.*##.block-video .table
+canyoublockit.com##.elementor-widget-container > center > p
+canyoublockit.com##a[href="ad.com"]
+canyoublockit.com##center > p:contains(Advertisement)
 cdromance.com###custom_html-8
 cenoteka.rs##.banner
 chaturbate.com##img[src*="//static-pub.highwebmedia.com/featureshow/"]
