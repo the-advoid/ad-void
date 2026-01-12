@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5680
-! Last modified: 2026-01-12T20:29:06.047+01:00
+! Version: 3.0.5681
+! Last modified: 2026-01-12T20:30:24.388+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8041
+! Entries: 8042
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6590,6 +6590,7 @@ camwhores.tv##a[href*="theporndude.com"]
 camwhorez.*##.block-video .table
 canyoublockit.com##.elementor-widget-container > center > p
 canyoublockit.com##a[href="ad.com"]
+canyoublockit.com##center > p:contains(Advertisement)
 cdromance.com###custom_html-8
 cenoteka.rs##.banner
 chaturbate.com##img[src*="//static-pub.highwebmedia.com/featureshow/"]
