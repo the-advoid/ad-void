@@ -279,3 +279,4 @@ www.amazon.com##+js(remove-node-text, script, /introSplashVideo.+renderStoresWid
 aiesec.org##body:style(overflow: auto !important;)
 weather.com##+js(trusted-set-local-storage-item, userConsents, {"functional-technology":true})
 accuweather.com##+js(remove-class, has-adhesion, .header-placeholder.has-adhesion)
+canyoublockit.com##+js(abort-on-property-read, anOptions)
