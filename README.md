@@ -491,3 +491,106 @@ Since [`Aria`](https://github.com/aria-toolkit/aria-cli) saves a substantial amo
     <br>
     <figcaption>
       <em><stron
+<br>
+
+Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
+
+After implementing the before-mentioned solutions there were ~**4240** rule commits per month (+**1104.5%**), while commits reached their peak in December, with staggering ~**5861** rule commits (+**1565.1%**).
+
+<br>
+
+## ⚠️ Disclaimer
+
+`AdVoid` is provided *as-is*, without warranty of any kind. While every effort is made to ensure the accuracy and effectiveness of its modules, add-ons and scriptlets, its users are solely responsible for how and where they use `AdVoid` in their own, local environments.  
+
+By using `AdVoid`, you acknowledge that:
+- ***YOU*** understand the risks associated with ad-blocking and/or scriptlet usage.
+- ***YOU*** accept full responsibility for any site breakage, content disruption, or unintended behavior.
+- ***YOU*** agree not to hold the maintainers liable for any direct or indirect consequences resulting from its use.
+
+---
+
+>
+> 💡 Use only what you **trust**. Review before you subscribe.
+>
+
+<br>
+
+<sub>&dagger; The author might earn commissions with some affiliate links, but at no cost to you. These earnings help support ongoing updates, maintenance, and future development of the project.</sub>
+
+<br>
+
+## ✨ Contributing
+
+We welcome community contributions!  
+
+Please see our [**Contributing Guidelines**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) for full details on how to propose changes, report issues, or submit pull requests.
+
+<br>
+
+## 🫱🏼‍🫲🏽 Contributors
+
+Contributors to `AdVoid` can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
+
+<br>
+
+## 🪪 License
+
+Licensed under the [**GPL-3.0-or-later license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
+
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Ko-fi donation button - support Igor Dimitrijević (@igorskyflyer), creator of AdVoid ad-block filter lists" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
+
+## 🧬 Related
+
+[**@igorskyflyer/aria**](https://www.npmjs.com/package/@igorskyflyer/aria)
+
+> _🧬 Meet Aria, an efficient ad-block filter list compiler, with many features that make your maintenance of ad-block filter lists a breeze! 🦖_
+
+<br>
+
+[**@igorskyflyer/adblock-filter-counter**](https://www.npmjs.com/package/@igorskyflyer/adblock-filter-counter)
+
+> _🐲  A dead simple npm module that counts ad-block filter rules.🦘_
+
+<br>
+
+[**@igorskyflyer/biome-config**](https://www.npmjs.com/package/@igorskyflyer/biome-config)
+
+> _👽 An opinionated config for Biome to be used in JavaScript, TypeScript, JSX, TSX and any JavaScript-related projects. 🐺_
+
+<br>
+
+[**@igorskyflyer/strip-headings**](https://www.npmjs.com/package/@igorskyflyer/strip-headings)
+
+> _⛸ Strips Markdown headings!🏹_
+
+<br>
+
+[**@igorskyflyer/adblock-header-extract**](https://www.npmjs.com/package/@igorskyflyer/adblock-header-extract)
+
+> _✂️ An npm module that provides ways to extract header and metadata from an ad-block filter file. 📃_
+
+<br>
+<br>
+<br>
+
+## 👨🏻‍💻 Author
+Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
