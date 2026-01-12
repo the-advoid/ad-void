@@ -81,3 +81,4 @@
 ||grok.com/api/statsig/$xhr
 ||store.steampowered.com/app/usabilitytracking/$xhr
 ||amazon.com/follow/log-metrics^$xhr
+||data.nrk.no^$xhr
