@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5691
-! Last modified: 2026-01-16T18:19:53.601+01:00
+! Version: 3.0.5692
+! Last modified: 2026-01-16T18:26:29.099+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8052
+! Entries: 8053
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7256,6 +7256,7 @@ apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !imp
 apkmody.*##+js(abort-current-script, parseInt, break;case $.)
 apkmody.*##+js(addEventListener-defuser, , break;case $.)
 apkmody.*##+js(no-window-open-if)
+archive.org##+js(set-constant, archive_analytics.send_event_no_sampling, noopFunc)
 archivebate.com##+js(abort-current-script, decodeURI, decodeURIComponent)
 archivebate.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 archivebate.com##+js(abort-current-script, WebAssembly, atob)
