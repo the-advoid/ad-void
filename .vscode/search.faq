@@ -11,6 +11,11 @@
 			"caseSensitive": true,
 			"description": "Search AdVoid lists"
 		},
+		"ADBT": {
+			"include": "./**/*.adbt",
+			"caseSensitive": false,
+			"description": "Search ADBT templates"
+		},
 		"Docs": {
 			"include": "./**/*.md",
 			"caseSensitive": true,
