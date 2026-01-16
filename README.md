@@ -14,7 +14,7 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.4093-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
+  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.4094-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core file size badge - lightweight ad-block filter by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/size/the-advoid/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900&label=Size"></a>
   <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://data.jsdelivr.com/v1/package/gh/the-advoid/ad-void/badge" alt="AdVoid CDN badge - fast, reliable ad-block filter list by Igor Dimitrijević (@igorskyflyer), hosted on jsDelivr for global privacy protection"></a>
   <br>
