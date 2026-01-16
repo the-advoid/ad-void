@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5702
-! Last modified: 2026-01-16T18:55:23.094+01:00
+! Version: 3.0.5703
+! Last modified: 2026-01-16T18:56:22.229+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8063
+! Entries: 8064
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7287,6 +7287,7 @@ bing.com##+js(href-sanitizer, a[href^="/rebates/welcome?url=http"], ?url)
 bing.com##+js(json-prune, relatedAds)
 bing.com##+js(no-setInterval-if, logQueue, 10000)
 bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId)
+bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId, when, scroll keydown)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_bGFzdF9iZmFfYXQ=$/, $remove$)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
