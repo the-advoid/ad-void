@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1340
-! Last modified: 2026-01-16T18:02:38.190+01:00
+! Version: 2.0.1341
+! Last modified: 2026-01-16T18:09:13.463+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1300
+! Entries: 1301
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -97,11 +97,14 @@
 ||onet.pl^*/tags?
 ||securiti.ai/consent/
 
-! {@5} AJAX paths (site)
+! {@5} AJAX paths (global)
+/cookie_banner/*$xhr
+
+! {@6} AJAX paths (site)
 ||contributions.guardianapis.com^$xhr
 ||reddit.com/svc/shreddit/experiences?names=app_selector$xhr
 
-! {@6} Files (global)
+! {@7} Files (global)
 -cookie-banner-$script,css
 .cookielaw.js^$script
 .cookielaw.min.$script,css,image
@@ -199,7 +202,7 @@
 amp-web-push*js^$script
 cookie-law*.$script,css
 
-! {@7} Files (site)
+! {@8} Files (site)
 ||a.mailmunch.co/app/$script,3p
 ||anyclip.com^$3p,from=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
 ||cdn-cookieyes.com/client_data/$script,css
@@ -220,7 +223,7 @@ cookie-law*.$script,css
 ||swiftypecdn.com^$3p,from=~swiftype.com
 ||weather.com/*.medalliasurvey.$script
 
-! {@8} Cosmetic (global)
+! {@9} Cosmetic (global)
 ###__cookie-consent
 ###__cookie-consent-wrapper
 ###_evidon_banner
@@ -818,7 +821,7 @@ cookie-law*.$script,css
 ##sibbo-cmp-layout
 ##ung-anonymous-consent-management
 
-! {@9} Global (site)
+! {@10} Global (site)
 4zida.rs##div.peer-checked\:hidden.backdrop-blur
 aiesec.org##.ant-modal-root:style(display: none !important;)
 alfafile.net##[href^="https://play.google.com/store/apps/details"]
@@ -1045,7 +1048,7 @@ youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-ce-playlist
 youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
 
-! {@10} Restore cosmetic (site)
+! {@11} Restore cosmetic (site)
 analytics.google.com#@#.cdk-overlay-container
 apkmody.io#@##body-fixed-footer
 devonstank.com#@#[class*="-cookie-banner"]
@@ -1056,7 +1059,7 @@ xvideos.*#@##disclaimer-cookies
 xvideos.*#@##disclaimer_background
 xvideos.*#@##disclaimer_message
 
-! {@11} Scriptlets (site)
+! {@12} Scriptlets (site)
 1movierulzhd.*##body:style(overflow: auto !important;)
 accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transition)
