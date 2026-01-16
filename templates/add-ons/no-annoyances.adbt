@@ -36,6 +36,11 @@ include './rules/add-ons/no-annoyances/endpoints-site.txt' sort
 
 nl
 
+tag 'AJAX paths (global)'
+include './rules/add-ons/no-annoyances/ajax-global.txt' sort
+
+nl
+
 tag 'AJAX paths (site)'
 include './rules/add-ons/no-annoyances/ajax-site.txt' sort
 
