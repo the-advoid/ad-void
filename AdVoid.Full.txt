@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5703
-! Last modified: 2026-01-16T18:56:22.229+01:00
+! Version: 3.0.5704
+! Last modified: 2026-01-16T18:56:51.973+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8064
+! Entries: 8065
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7865,6 +7865,7 @@ bbc.com##+js(set-local-storage-item, cvcConsentGiven, true)
 bbc.com##+js(trusted-click-element, [data-testid="consentBanner"] > button[data-testid="banner-button"], '', 1300)
 bbc.com##+js(trusted-set-cookie, consentUUID, 14ec7082-be8b-4b4c-a5b4-668972e0e04b_21, 1year)
 bbc.com##body:style(overflow: auto !important;)
+bing.com##+js(prevent-setInterval, logQueue, 10000)
 bing.com##+js(trusted-set-cookie, BCP, AD=0&AL=0&SM=0)
 bleepingcomputer.com##+js(set-cookie, sc_cookie_consent, 0)
 canyoublockit.com##+js(abort-on-property-read, anOptions)
