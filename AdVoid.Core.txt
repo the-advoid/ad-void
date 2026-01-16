@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4091
-! Last modified: 2026-01-16T18:19:47.863+01:00
+! Version: 3.0.4092
+! Last modified: 2026-01-16T18:26:23.138+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5981
+! Entries: 5982
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5476,6 +5476,7 @@ apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !imp
 apkmody.*##+js(abort-current-script, parseInt, break;case $.)
 apkmody.*##+js(addEventListener-defuser, , break;case $.)
 apkmody.*##+js(no-window-open-if)
+archive.org##+js(set-constant, archive_analytics.send_event_no_sampling, noopFunc)
 archivebate.com##+js(abort-current-script, decodeURI, decodeURIComponent)
 archivebate.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 archivebate.com##+js(abort-current-script, WebAssembly, atob)
