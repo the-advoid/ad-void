@@ -616,3 +616,4 @@ archive.org##+js(set-constant, archive_analytics.send_pageview_on_load, noopFunc
 archive.org##+js(set-constant, archive_analytics.set_up_event_tracking, noopFunc)
 archive.org##+js(set-constant, archive_analytics.create_tracking_image, noopFunc)
 archive.org##+js(set-constant, archive_analytics.process_url_events, noopFunc)
+archive.org##+js(set-constant, archive_analytics.get_data_packets, noopFunc)
