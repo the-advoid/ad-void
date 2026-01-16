@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4102
-! Last modified: 2026-01-16T18:55:17.287+01:00
+! Version: 3.0.4103
+! Last modified: 2026-01-16T18:56:16.455+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5992
+! Entries: 5993
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5507,6 +5507,7 @@ bing.com##+js(href-sanitizer, a[href^="/rebates/welcome?url=http"], ?url)
 bing.com##+js(json-prune, relatedAds)
 bing.com##+js(no-setInterval-if, logQueue, 10000)
 bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId)
+bing.com##+js(remove-cookie, MicrosoftApplicationsTelemetryDeviceId, when, scroll keydown)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_bGFzdF9iZmFfYXQ=$/, $remove$)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
 bleepingcomputer.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
