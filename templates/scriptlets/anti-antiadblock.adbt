@@ -1,0 +1,32 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+@ [ADBT 2.0.0]
+
+header './templates/headers/advoid-header.txt'
+
+meta title = 'AdVoid.Scriptlets.AntiAntiAdBlock'
+meta description = 'Infiltrates and then destroys common anti-adblock techniques. 💥'
+meta expires = '96 hours (update frequency)'
+
+nl
+
+tag 'Hijack these primitives'
+include './rules/scriptlets/anti-antiadblock/primitives.txt'
+
+nl
+
+tag 'Hijack these objects'
+include './rules/scriptlets/anti-antiadblock/objects.txt'
+
+nl
+
+tag 'Hijack these functions'
+include './rules/scriptlets/anti-antiadblock/functions.txt'
+
+nl
+
+tag 'Hijack using advanced functions'
+include './rules/scriptlets/anti-antiadblock/advanced.txt'
+
+export './scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt'
