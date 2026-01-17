@@ -21,6 +21,8 @@
 		"advoid:noannoyances+full": "pnpm advoid:noannoyances && pnpm advoid:full",
 		"advoid:noexternals+full": "pnpm advoid:noexternals && pnpm advoid:full",
 		"advoid:noextras+full": "pnpm advoid:noextras && pnpm advoid:full",
+		"advoid:anti-antiadblock": "aria -f \"./templates/scriptlets/anti-antiadblock.adbt\" && pnpm advoid:bot antiantiadblock",
+		"advoid:privacy": "aria -f \"./templates/scriptlets/privacy.adbt\" && pnpm advoid:privacy",
 		"lint": "aglint"
 	},
 	"keywords": [
