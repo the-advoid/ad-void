@@ -1,0 +1,40 @@
+[Adblock Plus 2.0]
+!
+! {@!}
+! Title: AdVoid.Scriptlets.Privacy
+! Description: Hardens user privacy via PageVisibility and HTML filtering. 🛡️
+! Version: 1.0.0
+! Last modified: 2026-01-17T17:12:23.122+01:00
+! Expires: 96 hours (update frequency)
+! Homepage: https://github.com/the-advoid/ad-void
+! Entries: 7
+! Author: Igor Dimitrijević (@igorskyflyer)
+! GitHub issues: https://github.com/the-advoid/ad-void/issues
+! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
+! License: https://github.com/the-advoid/ad-void/blob/main/LICENSE
+! Maintained by: Aria, igorskyflyer and all of the contributors
+! See the CONTRIBUTORS.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) file for more information
+! See the CONTRIBUTING.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) file for more information on how to contribute
+! Source: World Wide Web
+! From a PR by Metrokoto (https://github.com/the-advoid/ad-void/pull/3126)
+
+! {@0} Hijack these primitives
+! Source: https://badblock.celenity.dev/hardened/block-page-visibility.txt
+*##+js(set, document.hidden, false)
+! Source: https://github.com/uBlockOrigin/uBlock-issues/issues/3672#issuecomment-2972762596
+*##+js(trusted-set, document.visibilityState, json:"visible")
+
+! {@1} Hijack these LocalStorage entries
+*##+js(set-local-storage-item, plausible_ignore, true)
+
+! {@2} Hijack these functions
+! Source: https://badblock.celenity.dev/hardened/block-page-visibility.txt
+*##+js(set, document.hasFocus, trueFunc)
+
+! {@3} Hijack this HTML
+*##^responseheader(report-to)
+
+! {@4} Hijack using advanced functions
+! Source: https://badblock.celenity.dev/hardened/block-page-visibility.txt
+*##+js(aeld, pagehide)
+*##+js(aeld, visibilitychange)
