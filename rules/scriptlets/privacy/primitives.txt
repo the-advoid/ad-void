@@ -1,0 +1,4 @@
+! Source: https://badblock.celenity.dev/hardened/block-page-visibility.txt
+*##+js(set, document.hidden, false)
+! Source: https://github.com/uBlockOrigin/uBlock-issues/issues/3672#issuecomment-2972762596
+*##+js(trusted-set, document.visibilityState, json:"visible")
