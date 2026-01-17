@@ -1,0 +1,2 @@
+! Source: https://badblock.celenity.dev/hardened/block-page-visibility.txt
+*##+js(set, document.hasFocus, trueFunc)
