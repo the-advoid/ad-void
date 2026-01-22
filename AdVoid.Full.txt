@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5707
-! Last modified: 2026-01-22T18:55:23.351+01:00
+! Version: 3.0.5708
+! Last modified: 2026-01-22T19:30:10.613+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8068
+! Entries: 8069
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6641,6 +6641,7 @@ emulatorgames.net##[class*="-label"]
 emulatorgames.net##[class*="site-unit"]
 eporner.com##.hptab
 eporner.com##.vjs-inplayer-container
+fandom.com##.main-container > .top_leaderboard-odyssey-wrapper:has(> .top-ads-container)
 faphouse.com##.fh-bottom-sticky-banner
 fastdl.app###ads-modal
 fastdl.app###modal-overlay
