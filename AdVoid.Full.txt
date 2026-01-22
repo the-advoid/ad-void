@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5705
-! Last modified: 2026-01-22T18:45:48.490+01:00
+! Version: 3.0.5706
+! Last modified: 2026-01-22T18:48:17.117+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8066
+! Entries: 8067
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7910,6 +7910,7 @@ facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
 facebook.com##.ssr #screen-root img:style(pointer-events: auto !important;)
 fandom.com##+js(set-constant, wgAffiliateEnabled, false)
+fandom.com##+js(set-cookie, leftPanelOpen, 0)
 fandom.com##+js(set-cookie, tracking_session_id, OK, , reload, 1)
 fandom.com##+js(trusted-set-cookie, addtl_consent, 1~, 1year)
 fandom.com##+js(trusted-set-cookie, euconsent-v2, CPt3fQAPt3fQACNAFAENDLCgAAAAAAAAACiQAAAOCgDAB-AIsAZ8A6QDBAHBAAAA.YAAAAAAAAAAA, 1year)
