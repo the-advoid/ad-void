@@ -282,3 +282,4 @@ accuweather.com##+js(remove-class, has-adhesion, .header-placeholder.has-adhesio
 canyoublockit.com##+js(abort-on-property-read, anOptions)
 shein.com##+js(trusted-replace-outbound-text, String.prototype.trim, iframe, nonframe)
 bing.com##+js(prevent-setInterval, logQueue, 10000)
+fandom.com##+js(set-cookie, leftPanelOpen, 0)
