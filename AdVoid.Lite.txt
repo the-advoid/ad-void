@@ -3,16 +3,16 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.39
-! Last modified: 2026-01-16T18:17:52.979+01:00
+! Version: 1.0.40
+! Last modified: 2026-01-22T23:06:09.080+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5280
+! Entries: 5284
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
 ! License: https://github.com/the-advoid/ad-void/blob/main/LICENSE
-! Maintained by: Aria, igorskyflyer and all of the contributors
+! Maintained by: Aria, Igor Dimitrijević (@igorskyflyer) and all of the contributors
 ! See the CONTRIBUTORS.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) file for more information
 ! See the CONTRIBUTING.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) file for more information on how to contribute
 ! Source: World Wide Web
@@ -851,7 +851,6 @@
 ||furstraitsbrowse.com^
 ||fuseplatform.net^
 ||futuredistracting.com^
-||fvcwqkkqmuv.com^
 ||fvcwqkkqmuv.com^
 ||fwmrm.net^
 ||fxtiumvhfucrkp.com^
@@ -3205,6 +3204,8 @@ _pagespeed_beacon?$xhr
 ||api.github.com/_private/browser/errors^$xhr
 ||awswaf.com^*/telemetry$xhr
 ||backend.alia-cloudflare.com/launcher/events/$xhr
+||bing.com/adsfetch?$xhr
+||bing.com/web/xlsc.aspx^$xhr
 ||blic.rs/widget/carousel^$3p
 ||cdn77.org^$script,xhr
 ||cetin.cz/collector/^$3p,xhr
@@ -3257,6 +3258,7 @@ _pagespeed_beacon?$xhr
 ||scribd.com/log/$xhr
 ||smy.iheart.com^$xhr
 ||splunkcloud.com/services/collector/$xhr
+||srmdata-eur.com^$xhr
 ||store.steampowered.com/app/usabilitytracking/$xhr
 ||techpowerup.com/__botcheck$xhr
 ||tiktok.com/ttwid/check/^$xhr
@@ -3518,6 +3520,7 @@ _pagespeed_beacon?$xhr
 /p1x1.jpg^$image
 /pa-ad.js^$script
 /pagead.js^$script
+/pageview.js^$script
 /parsonsmaize/*.js^$script
 /partner.ads.js^$script
 /phoenixgoogleanalytics.min.js^$script
@@ -5033,6 +5036,7 @@ emulatorgames.net##[class*="-label"]
 emulatorgames.net##[class*="site-unit"]
 eporner.com##.hptab
 eporner.com##.vjs-inplayer-container
+fandom.com##.main-container > .top_leaderboard-odyssey-wrapper:has(> .top-ads-container)
 faphouse.com##.fh-bottom-sticky-banner
 fastdl.app###ads-modal
 fastdl.app###modal-overlay
