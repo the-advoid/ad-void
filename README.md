@@ -462,8 +462,6 @@ Explore the links below to view `AdVoid`'s structure, possible issues and commun
 - [**issues**](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [**pull requests**](https://github.com/the-advoid/ad-void/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 
-<br>
-
 #### 👥 Community
 - [**roadmap**](https://github.com/the-advoid/roadmap)
 - [**URL proposals**](https://github.com/the-advoid/watchlist)
