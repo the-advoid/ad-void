@@ -451,6 +451,22 @@ Many ad-blockers show an error when trusted rules are encountered (shown below),
 
 ## 🪟 Transparency
 
+[`AdVoid`](https://github.com/the-advoid) is fully transparent, no hidden agendas, no whitelisted ads, all issues and reports are public.  
+
+Explore the links below to view `AdVoid`'s structure, possible issues and community reports.  
+
+#### 🔨 Development
+- [**source and rules**](https://github.com/the-advoid/ad-void)
+- [**issues**](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
+- [**pull requests**](https://github.com/the-advoid/ad-void/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
+
+<br>
+
+#### 👥 Community
+- [**roadmap**](https://github.com/the-advoid/roadmap)
+- [**URL proposals**](https://github.com/the-advoid/watchlist)
+- [**discussions**](https://github.com/the-advoid/ad-void/discussions)
+
 <br>
 <br>
 
