@@ -71,6 +71,12 @@
 <br>
 <br>
 
+## ℹ️ Quickstart
+
+🆕 New to ad-blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank"><strong>QUICKSTART</strong></a> first. 😉
+
+<br>
+
 ## 🤖 Features
 
 - 🚫 Blocks ads, trackers, malware and phishing
@@ -84,12 +90,6 @@
 - 🗺 Strips JavaScript and CSS maps
 - 🕹 Removes SWF objects and site reporters
 - 💸 Independent and transparent, with **no** Acceptable Ads Program
-
-<br>
-
-## ℹ️ Quickstart
-
-🆕 New to ad-blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank"><strong>QUICKSTART</strong></a> first. 😉
 
 <br>
 
