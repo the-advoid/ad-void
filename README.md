@@ -54,6 +54,8 @@
     - [**AntiAntiAdBlock**](#-advoidscriptletsantiantiadblock)
 - [**Filter Trust**](#️-filter-trust)
 - [**Transparency**](#-transparency)
+  - [**Development**](#-development)
+  - [**Community**](#-community)
 - [**Legacy**](#-legacy)
 - [**Case Study**](#-case-study)
   - [**Divergence Pt. 1**](#-divergence-pt-1)
