@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5721
-! Last modified: 2026-01-31T17:36:40.574+01:00
+! Version: 3.0.5722
+! Last modified: 2026-01-31T17:37:42.163+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8078
+! Entries: 8079
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7823,6 +7823,7 @@ youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event
 youtube.com##+js(json-prune, entries.[-].command.reelWatchEndpoint.adClientParams.isAd)
 youtube.com##+js(json-prune-fetch-response, adPlacements adSlots no_ads playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.adSlots [].playerResponse.no_ads, '', propsToMatch, /player?)
 youtube.com##+js(json-prune-fetch-response, adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.adSlots, '', propsToMatch, /player?)
+youtube.com##+js(json-prune-fetch-response, adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots, '', propsToMatch, /playlist?)
 youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots [].playerResponse.no_ads, '', propsToMatch, /\/(player|get_watch)\?/)
 youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads, '', propsToMatch, /playlist?)
 youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, '', propsToMatch, url:/reel_watch_sequence?)
