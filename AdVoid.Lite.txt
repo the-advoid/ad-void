@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.40
-! Last modified: 2026-01-22T23:06:09.080+01:00
+! Version: 1.0.41
+! Last modified: 2026-01-31T17:50:35.149+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5284
+! Entries: 5287
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3278,6 +3278,8 @@ _pagespeed_beacon?$xhr
 ||xvideos.com/zoneload/$xhr
 ||xxxviijmp.com^$xhr
 ||xyz/|$xhr,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
+||youtube.com/api/stats/qoe?fmt=^$xhr
+||youtube.com/pagead/$xhr
 ||youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
 ||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 
@@ -3932,6 +3934,7 @@ zoneid=
 
 ! {@12} Params (global)
 *$removeparam=gad_source
+*$removeparam=usqp
 
 ! {@13} Cosmetic (global)
 ###action-companion-click-target
