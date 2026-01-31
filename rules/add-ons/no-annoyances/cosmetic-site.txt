@@ -227,3 +227,4 @@ shein.com##[class^="_shein_privacy_"]
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 music.youtube.com##.ytmusic-popup-container.style-scope
 tiktok.com##div[class*="--DivPromotionContainer"]
+youtube.com###ticker.ytd-masthead:style(display: none!important;)
