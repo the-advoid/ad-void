@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4127
-! Last modified: 2026-02-06T20:26:54.101+01:00
+! Version: 3.0.4128
+! Last modified: 2026-02-06T20:27:34.161+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6015
+! Entries: 6016
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5624,6 +5624,7 @@ file-upload.*##+js(abort-current-script, getCookie, setCookie)
 file-upload.*##+js(abort-on-property-write, Fingerprint2)
 file-upload.*##+js(no-window-open-if)
 file-upload.*##+js(noeval-if, ppu)
+filemoon.*##+js(abort-current-script, document.createElement, /\.onerror|break;case \$\./)
 filemoon.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 filemoon.*##+js(abort-current-script, navigator, popunder)
 filemoon.*##+js(abort-on-property-read, Dulak)
