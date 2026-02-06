@@ -353,3 +353,4 @@ fenixsite.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPer
 mydramalist.com##div[class*="is-desktop-ads-"]
 mydramalist.com##div[class*="_right_"]:has(> .ad-removal-info)
 independent.co.uk###billboard-wrapper
+independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
