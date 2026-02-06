@@ -351,3 +351,4 @@ fandom.com##.main-container > .top_leaderboard-odyssey-wrapper:has(> .top-ads-co
 youtube.com##.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer > #masthead-ad.ytd-rich-grid-renderer
 fenixsite.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
 mydramalist.com##div[class*="is-desktop-ads-"]
+mydramalist.com##div[class*="_right_"]:has(> .ad-removal-info)
