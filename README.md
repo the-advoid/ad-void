@@ -52,6 +52,7 @@
     - [**Experiments**](#-advoidaddonexperiments)
   - [**Scriptlets**](#-scriptlets)
     - [**AntiAntiAdBlock**](#-advoidscriptletsantiantiadblock)
+    - [**Privacy**](#privacy-hardening-scriptlet)
 - [**Filter Trust**](#️-filter-trust)
 - [**Transparency**](#-transparency)
   - [**Development**](#-development)
