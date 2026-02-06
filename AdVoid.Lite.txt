@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.48
-! Last modified: 2026-02-06T21:10:44.194+01:00
+! Version: 1.0.49
+! Last modified: 2026-02-06T21:26:18.075+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5309
+! Entries: 5321
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -770,6 +770,7 @@
 ||exoclick.com^
 ||exosrv.com^
 ||expdirclk.com^
+||experianmatch.info^
 ||explorads.media^
 ||exploredefinitely.com^
 ||exponea.com^$3p
@@ -3205,15 +3206,21 @@ _pagespeed_beacon?$xhr
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,method=head,header=x-trace2-id,to=com
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
 ://plausible.*/api/event|$xhr,3p
+||accounts.google.com/gsi/log$xhr
 ||adem.my.id^$xhr
 ||amazon.com/follow/log-metrics^$xhr
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xhr
 ||api.github.com/_private/browser/errors^$xhr
+||awswaf.com^*/report$xhr
+||awswaf.com^*/telemetry$xhr
 ||awswaf.com^*/telemetry$xhr
 ||backend.alia-cloudflare.com/launcher/events/$xhr
 ||bing.com/adsfetch?$xhr
 ||bing.com/web/xlsc.aspx^$xhr
 ||blic.rs/widget/carousel^$3p
+||booking.com/c360/v1/track$xhr
+||booking.com/js_tracking?
+||booking.com/navigation_times$xhr
 ||cdn77.org^$script,xhr
 ||cetin.cz/collector/^$3p,xhr
 ||cloudflare.com/cdn-cgi/trace$xhr,3p,redirect-rule=noop.txt,from=~1bit.space|~1bitspace.com|~funimation.com
@@ -3296,6 +3303,7 @@ _pagespeed_beacon?$xhr
 @@||doc.moplay.org/cdn-cgi/trace^$xhr
 
 ! {@8} Files (global)
+&cx=c&gtm=$script
 -adobe-analytics/$script
 -contrib-ads.$~css
 -sticky-ad-$script,css,image
@@ -3550,6 +3558,8 @@ _pagespeed_beacon?$xhr
 /player.vast.*.js^$script
 /plugins/ad-invalid-click-protector/*$script
 /plugins/meks-easy-ads-widget/*$script,css
+/plugins/pixelyoursite$script
+/plugins/wp-rocket/assets/js/wpr-beacon.$script
 /plusone.js^$script
 /pmc-cxense.js^$script
 /pop4.php^
@@ -3789,6 +3799,7 @@ trekkie*.js^$script
 ||r.z3.fm^$script
 ||rackcdn.com/stf.js^$script
 ||redditstatic.com/ads/$script
+||redditstatic.com/ads/pixel.js^$script
 ||redditstatic.com/shreddit/*/ad-event-tracker-*.js^$script,redirect-rule=noop.js
 ||redditstatic.com/shreddit/sentry-
 ||rover.ebay.com^$image
@@ -3871,6 +3882,7 @@ trekkie*.js^$script
 /?request_ab*&zoneid=*&rb=$document
 /redirect?tid=
 ?bidId=push_
+?blockID=$popup
 ?event=pageview&
 ?utm_source=adcash$popup
 ?utm_source=pdcampaign$popup
