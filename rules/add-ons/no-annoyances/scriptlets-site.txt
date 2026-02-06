@@ -284,3 +284,4 @@ shein.com##+js(trusted-replace-outbound-text, String.prototype.trim, iframe, non
 bing.com##+js(prevent-setInterval, logQueue, 10000)
 fandom.com##+js(set-cookie, leftPanelOpen, 0)
 youtube.com##+js(trusted-click-element, ytd-button-renderer.ytd-consent-bump-v2-lightbox + ytd-button-renderer.ytd-consent-bump-v2-lightbox button[aria-label], '', 1000)
+booking.com##+js(trusted-click-element, button[id="onetrust-reject-all-handler"], '', 1500)
