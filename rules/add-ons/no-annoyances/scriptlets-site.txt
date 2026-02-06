@@ -288,3 +288,4 @@ booking.com##+js(trusted-click-element, button[id="onetrust-reject-all-handler"]
 independent.co.uk##+js(remove-class, sticky, '', stay)
 independent.co.uk##+js(remove-class, jw-flag-floating, '', stay)
 independent.co.uk##+js(remove-class, sticky, .video-top-container)
+independent.co.uk##+js(trusted-click-element, button[title="ACCEPT"], '', 1000)
