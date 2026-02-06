@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4134
-! Last modified: 2026-02-06T20:29:52.960+01:00
+! Version: 3.0.4135
+! Last modified: 2026-02-06T20:30:11.456+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6022
+! Entries: 6023
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5637,6 +5637,7 @@ filemoon.*##+js(addEventListener-defuser, , break;case $.)
 filemoon.*##+js(adjust-setInterval, seconds)
 filemoon.*##+js(nano-setInterval-booster, seconds)
 filemoon.*##+js(no-window-open-if)
+filemoon.*##+js(prevent-addEventListener, '', break;case $.)
 filemoon.*##+js(prevent-window-open)
 filemoon.*##^script:has-text(/Math.floor|FMPoopS/)
 filmotip.com##+js(no-window-open-if)
