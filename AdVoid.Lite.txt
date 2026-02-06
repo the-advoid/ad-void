@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.41
-! Last modified: 2026-01-31T17:50:35.149+01:00
+! Version: 1.0.42
+! Last modified: 2026-02-06T20:20:54.212+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5287
+! Entries: 5291
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1496,6 +1496,7 @@
 ||onclckmn.com^
 ||onclickperformance.com^
 ||oneegrou.net^
+||onerukh.com^
 ||onesignal.com^
 ||onetag-sys.com^
 ||onetag.com^
@@ -3281,6 +3282,7 @@ _pagespeed_beacon?$xhr
 ||youtube.com/api/stats/qoe?fmt=^$xhr
 ||youtube.com/pagead/$xhr
 ||youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
+||youtube.com/youtubei/v1/log_event?$xhr
 ||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 
 ! {@7} AJAX paths - restore (site)
@@ -3722,6 +3724,7 @@ trekkie*.js^$script
 ||flixcdn.com/a/*/sticky-banner/$image
 ||go.techtarget.com^$image
 ||google-analytics.com/ga.js^$script,redirect=google-analytics_analytics.js:5
+||google.*/pagead/lvz?$image
 ||google.com/adsense/domains^
 ||google.com/adsense/search/ads.js^$script
 ||google.com/adsense/search/async-ads.js^$script
@@ -5298,6 +5301,7 @@ youporn.com##.mgp_pausedState > #pb_template
 youporn.com##div.top_bottom_wrapper + a[href$="#advertise"]
 youporn.com##footer > div:has(.adsbytrafficjunky)
 youtube.com##.ytd-in-feed-ad-layout-renderer
+youtube.com##.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer > #masthead-ad.ytd-rich-grid-renderer
 youtube.com##.ytp-featured-product
 youtube.com##ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
