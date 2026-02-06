@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4143
-! Last modified: 2026-02-06T20:38:24.105+01:00
+! Version: 3.0.4144
+! Last modified: 2026-02-06T20:38:39.824+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6031
+! Entries: 6032
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5971,6 +5971,7 @@ vid2faf.site##+js(set-constant, DisDevTool, undefined)
 videosection.com##+js(abort-on-property-read, exoJsPop101)
 vidplay.*##+js(remove-attr, data-id|data-p, [data-id]\,[data-p], stay)
 vidplay.*##+js(set-constant, DisDevTool, undefined)
+vidsrc-embed.*##+js(abort-current-script, document.write, .js?_=)
 vidsrc-embed.ru##+js(abort-on-property-read, Adcash)
 vidsrc-embed.ru##+js(prevent-window-open)
 vidsrc.*##+js(abort-current-script, document.documentElement, break;case $.)
