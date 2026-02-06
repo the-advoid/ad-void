@@ -631,3 +631,4 @@ youtube.com##+js(trusted-json-edit-fetch-request, ..client[?.clientName=="WEB"]+
 youtube.com##+js(json-prune-fetch-response, adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots, '', propsToMatch, /playlist?)
 filemoon.*##+js(abort-on-property-read, Dulak)
 filemoon.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+filemoon.*##+js(abort-current-script, document.createElement, /\.onerror|break;case \$\./)
