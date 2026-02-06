@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5793
-! Last modified: 2026-02-06T21:26:36.863+01:00
+! Version: 3.0.5794
+! Last modified: 2026-02-06T21:26:50.430+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8150
+! Entries: 8151
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8028,6 +8028,7 @@ igdownloader.app##body:style(overflow: auto !important;)
 imdb.com##+js(set-local-storage-item, videopage_autoplay_policy_tooltip_dismissed, true)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 incibeauty.com##body,html:style(overflow: auto !important; position: initial !important;)
+independent.co.uk##+js(remove-class, jw-flag-floating, '', stay)
 independent.co.uk##+js(remove-class, sticky, '', stay)
 instagram.com##+js(addEventListener-defuser, mouseleave)
 instagram.com##+js(close-window, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)
