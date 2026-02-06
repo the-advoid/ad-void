@@ -630,3 +630,4 @@ youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event
 youtube.com##+js(trusted-json-edit-fetch-request, ..client[?.clientName=="WEB"]+={"clientScreen":"CHANNEL"}, propsToMatch, /\/(player|get_watch)/)
 youtube.com##+js(json-prune-fetch-response, adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots, '', propsToMatch, /playlist?)
 filemoon.*##+js(abort-on-property-read, Dulak)
+filemoon.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
