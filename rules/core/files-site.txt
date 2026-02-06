@@ -153,3 +153,4 @@
 ||google.*/pagead/lvz?$image
 .info/ad/$script
 ||redditstatic.com/ads/pixel.js^$script
+.demdex.net/id^$xhr,important,redirect-rule=noop.txt
