@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5795
-! Last modified: 2026-02-06T21:27:07.785+01:00
+! Version: 3.0.5796
+! Last modified: 2026-02-06T21:27:21.663+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8152
+! Entries: 8153
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8031,6 +8031,7 @@ incibeauty.com##body,html:style(overflow: auto !important; position: initial !im
 independent.co.uk##+js(remove-class, jw-flag-floating, '', stay)
 independent.co.uk##+js(remove-class, sticky, '', stay)
 independent.co.uk##+js(remove-class, sticky, .video-top-container)
+independent.co.uk##+js(trusted-click-element, button[title="ACCEPT"], '', 1000)
 instagram.com##+js(addEventListener-defuser, mouseleave)
 instagram.com##+js(close-window, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)
 instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
