@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.44
-! Last modified: 2026-02-06T20:25:04.963+01:00
+! Version: 1.0.45
+! Last modified: 2026-02-06T20:31:39.223+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5294
+! Entries: 5296
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -337,6 +337,7 @@
 ||bidr.io^
 ||bidswitch.com^
 ||bidswitch.net^
+||bigboxads.com^
 ||biggersplinterrattle.com^
 ||bildirt.com^
 ||bimathyphy.com^
@@ -3679,6 +3680,7 @@ trekkie*.js^$script
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
 *$script,redirect-rule=noop.js,from=mp4upload.com
 *$script,redirect-rule=noop.js,from=next-episode.net
+.info/ad/$script
 /js/analytics/fduserfingerprinttoken.js^$script,from=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /mm.js^$script,from=1337x.*|x1337x.*
 ://creative.*/widgets/spot/lib.js^$3p
