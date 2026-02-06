@@ -155,3 +155,4 @@
 ||redditstatic.com/ads/pixel.js^$script
 .demdex.net/id^$xhr,important,redirect-rule=noop.txt
 ||npttech.com/advertising.js^$script,important,from=~vijesti.me
+||jwpcdn.com/player/*/googima.js^$script
