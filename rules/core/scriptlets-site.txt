@@ -632,3 +632,4 @@ youtube.com##+js(json-prune-fetch-response, adPlacements adSlots playerResponse.
 filemoon.*##+js(abort-on-property-read, Dulak)
 filemoon.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 filemoon.*##+js(abort-current-script, document.createElement, /\.onerror|break;case \$\./)
+filemoon.*##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
