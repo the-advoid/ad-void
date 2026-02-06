@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.51
-! Last modified: 2026-02-06T21:31:18.858+01:00
+! Version: 1.0.52
+! Last modified: 2026-02-06T21:36:02.986+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5325
+! Entries: 5329
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1139,6 +1139,7 @@
 ||justpremium.com^
 ||jwpltx.com^$3p
 ||jzmwipkal.com^
+||k-words.io^$3p
 ||k9gj.site^
 ||kabrwrykymqaa.top^
 ||kamzajojfn.com^
@@ -5138,6 +5139,9 @@ healthline.com,medicalnewstoday.com##[class*="css"]:matches-css-before(content:/
 healthline.com,medicalnewstoday.com##[data-empty]
 imdb.com##.cornerstone_slot
 imdb.com##.slot_wrapper
+independent.co.uk###billboard-wrapper
+independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
+independent.co.uk##.teads:has(.third-party-ad)
 informer.rs##.bnr
 insta-stories-viewer.com##.context
 instagram.com##article span:has-text(Sponsored):upward(6)
