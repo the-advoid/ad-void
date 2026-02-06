@@ -635,3 +635,4 @@ filemoon.*##+js(abort-current-script, document.createElement, /\.onerror|break;c
 filemoon.*##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
 filemoon.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 filemoon.*##+js(abort-on-property-read, FMPoopS)
+filemoon.*##+js(adjust-setInterval, seconds)
