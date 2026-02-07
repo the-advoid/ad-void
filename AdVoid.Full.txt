@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5877
-! Last modified: 2026-02-07T22:59:04.393+01:00
+! Version: 3.0.5878
+! Last modified: 2026-02-07T22:59:59.791+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8201
@@ -7130,7 +7130,6 @@ quora.com##.qu-overflow--hidden:not(.q-relative):style(overflow: auto !important
 quora.com##.qu-zIndex--action_bar.qu-bg--raised:style(bottom: 0px !important;)
 reddit.com###xpromo-bottom-sheet
 reddit.com##[slot="use-app"]
-reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-slotter[slot-name="inlineAuthLandingExperienceXpromo"]
@@ -8173,6 +8172,7 @@ reddit.com##+js(remove-class, m-blurred, .m-blurred)
 reddit.com##+js(remove-class, scroll-disabled, body, complete)
 reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
+reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
 revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 rog-forum.asus.com##body,html:style(overflow: auto !important; position: initial !important;)
