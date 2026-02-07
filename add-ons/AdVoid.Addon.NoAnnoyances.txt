@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1375
-! Last modified: 2026-02-07T22:58:24.480+01:00
+! Version: 2.0.1376
+! Last modified: 2026-02-07T22:59:01.200+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1330
@@ -1060,7 +1060,6 @@ youporn.*##.warning_block
 youporn.com##.right-aside
 youtube.com###offer-module
 youtube.com###shopping-timely-shelf
-youtube.com###ticker.ytd-masthead:style(display: none!important;)
 youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-rich-item-renderer > .ytd-ad-slot-renderer.style-scope
 youtube.com##.ytmPaidContentOverlayHost
 youtube.com##.ytp-cards-teaser
@@ -1366,6 +1365,7 @@ xnxx.com##+js(set-local-storage-item, xvutils.nb_tabs_opened, 1)
 xnxx.com##body:style(overflow: auto !important;)
 xvideos.com##+js(set-constant, xv.disclaimer.displayCookiePopup, noopFunc)
 youporn.*##+js(set-constant, page_params.holiday_promo, true)
+youtube.com###ticker.ytd-masthead:style(display: none!important;)
 youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event=video_description"][href*="&q=http"], ?q)
 youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
