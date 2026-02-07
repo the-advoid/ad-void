@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.69
-! Last modified: 2026-02-07T20:09:51.521+01:00
+! Version: 1.0.70
+! Last modified: 2026-02-07T23:05:02.225+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5354
+! Entries: 5349
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2047,6 +2047,7 @@
 ||successfulpatience.com^
 ||successionsnapteenagers.com^
 ||sufficientretiredbunker.com^
+||sukasdqgetzq.com^
 ||sultingcoe.buzz^
 ||sultingcoem.com^
 ||sulvo.com^$3p
@@ -3396,7 +3397,6 @@ _pagespeed_beacon?$xhr
 /advertising.js^
 /afu.php?zoneid=$popup,doc
 /afx_prid/*$script
-/akam/13/*$script
 /amp-ad-$script
 /amp-analytics-$script
 /amp-auto-ads-$script
@@ -3762,7 +3762,6 @@ trekkie*.js^$script
 ||flixcdn.com/a/*/sticky-banner/$image
 ||go.techtarget.com^$image
 ||google-analytics.com/ga.js^$script,redirect=google-analytics_analytics.js:5
-||google.*/pagead/lvz?$image
 ||google.com/adsense/domains^
 ||google.com/adsense/search/ads.js^$script
 ||google.com/adsense/search/async-ads.js^$script
@@ -3819,7 +3818,6 @@ trekkie*.js^$script
 ||r.z3.fm^$script
 ||rackcdn.com/stf.js^$script
 ||redditstatic.com/ads/$script
-||redditstatic.com/ads/pixel.js^$script
 ||redditstatic.com/shreddit/*/ad-event-tracker-*.js^$script,redirect-rule=noop.js
 ||redditstatic.com/shreddit/sentry-
 ||rover.ebay.com^$image
@@ -5083,7 +5081,6 @@ duplichecker.com##div:has(> span[id^="side_bar"] > .adsbygoogle)
 duplichecker.com##div[class]:not([id]):not(.container):not(.main-content):has(> div[id] > ins.adsbygoogle)
 duplichecker.com##div[style^="min-height:"]:has(> span > ._ap_apex_ad)
 dxomark.com##.banner
-ebay.*##.x-rx-slot:style(position: absolute!important; left: -4000px!important;)
 ekspres.net###floating-content
 ekspres.net##.region--content-top
 elevenforum.com##.p-body-sidebar > .block-container
@@ -5208,7 +5205,6 @@ mydramalist.com##.spnsr-row
 mydramalist.com##.sticky
 mydramalist.com##div.htlad-header_top:upward(div[class])
 mydramalist.com##div[class*="_right_"]:has(> .ad-removal-info)
-mydramalist.com##div[class*="is-desktop-ads-"]
 myvidster.com##.container3 > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:not(:nth-child(1)):not(:nth-child(5))
 nanoreview.net###nfloat-sb-right
 nanoreview.net##.sewisinad_only_desktop
@@ -5363,7 +5359,6 @@ youporn.com##.mgp_pausedState > #pb_template
 youporn.com##div.top_bottom_wrapper + a[href$="#advertise"]
 youporn.com##footer > div:has(.adsbytrafficjunky)
 youtube.com##.ytd-in-feed-ad-layout-renderer
-youtube.com##.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer > #masthead-ad.ytd-rich-grid-renderer
 youtube.com##.ytp-featured-product
 youtube.com##ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
