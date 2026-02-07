@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5856
-! Last modified: 2026-02-07T20:06:46.680+01:00
+! Version: 3.0.5857
+! Last modified: 2026-02-07T20:07:07.084+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8210
+! Entries: 8209
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7550,7 +7550,6 @@ hqq.*##+js(no-window-open-if)
 hqq.*##+js(popads-dummy)
 hqq.*##+js(prevent-window-open)
 hqq.*##+js(set-constant, adblockcheck, false)
-hqq.*##+js(set-constant, sadbl, false)
 hqq.*##+js(set-constant, sadbl, false)
 hqq.tv##+js(abort-on-property-read, popns)
 hqq.tv##+js(nofab)
