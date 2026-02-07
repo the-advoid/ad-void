@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5883
-! Last modified: 2026-02-07T23:01:42.477+01:00
+! Version: 3.0.5884
+! Last modified: 2026-02-07T23:02:12.202+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8201
@@ -6982,7 +6982,6 @@ zultv.com##.bg-secondary.border.order-lg-2.order-xl-2.order-sm-2.order-2.col-xl-
 zultv.com##.border.row
 zultv.com##.container > div.row:nth-of-type(1)
 4zida.rs##div.peer-checked\:hidden.backdrop-blur
-aiesec.org##.ant-modal-root:style(display: none !important;)
 alfafile.net##[href^="https://play.google.com/store/apps/details"]
 ananas.rs###__next > div:nth-last-child(-n+2)
 apkmody.fun###body-fixed-footer
@@ -7148,7 +7147,6 @@ scribd.com##div[data-testid="sticky-wrapper"]
 search.brave.com###usage-metrics-notice
 search.brave.com##.download-cta
 shein.com##[class^="_shein_privacy_"]
-shein.com##body:style(overflow: auto !important; position: initial !important;)
 siberianhealth.com##.top-informer-container
 space.com###slice-container-newsletterForm-exitIntent
 space.com##.hawk-nest
@@ -7969,6 +7967,7 @@ accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transiti
 accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
 accuweather.com##+js(remove-class, has-adhesion, .header-placeholder.has-adhesion)
 accuweather.com##body:style(overflow: auto !important;)
+aiesec.org##.ant-modal-root:style(display: none !important;)
 aiesec.org##body:style(overflow: auto !important;)
 alternativeto.net##body:style(overflow: auto !important;)
 apkmirror.com##body:style(overflow: auto !important;)
@@ -8189,6 +8188,7 @@ scribd.com##+js(addEventListener-defuser, /^(mouseout|mouseleave)$/)
 sflix.*###modalshare:style(display: none !important;)
 sflix.*##.modal-backdrop:style(display: none !important;)
 shein.com##+js(trusted-replace-outbound-text, String.prototype.trim, iframe, nonframe)
+shein.com##body:style(overflow: auto !important; position: initial !important;)
 soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
 streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
