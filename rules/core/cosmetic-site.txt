@@ -349,7 +349,6 @@ canyoublockit.com##a[href="ad.com"]
 canyoublockit.com##center > p:contains(Advertisement)
 fandom.com##.main-container > .top_leaderboard-odyssey-wrapper:has(> .top-ads-container)
 fenixsite.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
-mydramalist.com##div[class*="is-desktop-ads-"]
 mydramalist.com##div[class*="_right_"]:has(> .ad-removal-info)
 independent.co.uk###billboard-wrapper
 independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
