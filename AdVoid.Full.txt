@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5834
-! Last modified: 2026-02-07T19:02:12.590+01:00
+! Version: 3.0.5835
+! Last modified: 2026-02-07T19:05:10.160+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8190
+! Entries: 8191
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6689,6 +6689,7 @@ ebay.*##.x-rx-slot:style(position: absolute!important; left: -4000px!important;)
 ekspres.net###floating-content
 ekspres.net##.region--content-top
 elevenforum.com##.p-body-sidebar > .block-container
+emoji.gg###yousmell
 emojipedia.org##.h-\[312px\]
 emojipedia.org##.items-center.flex-col.flex:has-text(Advertisement)
 emulatorgames.net##[class*="-label"]
