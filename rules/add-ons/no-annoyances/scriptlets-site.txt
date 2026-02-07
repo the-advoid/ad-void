@@ -295,3 +295,4 @@ quora.com##.qu-overflow--hidden:not(.q-relative):style(overflow: auto !important
 quora.com##.qu-zIndex--action_bar.qu-bg--raised:style(bottom: 0px !important;)
 open.spotify.com##span[dir="auto"][draggable="true"]:style(user-select: auto!important;-webkit-touch-callout: default!important;-webkit-user-select: auto!important;-moz-user-select: text!important;-ms-user-select: text!important;)
 sflix.*###modalshare:style(display: none !important;)
+sflix.*##.modal-backdrop:style(display: none !important;)
