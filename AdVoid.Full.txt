@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5882
-! Last modified: 2026-02-07T23:01:21.761+01:00
+! Version: 3.0.5883
+! Last modified: 2026-02-07T23:01:42.477+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8201
@@ -7147,7 +7147,6 @@ scribd.com##.between_page_portal_root
 scribd.com##div[data-testid="sticky-wrapper"]
 search.brave.com###usage-metrics-notice
 search.brave.com##.download-cta
-sflix.*##.modal-backdrop:style(display: none !important;)
 shein.com##[class^="_shein_privacy_"]
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 siberianhealth.com##.top-informer-container
@@ -8188,6 +8187,7 @@ screenrant.com##+js(addEventListener-defuser, error, admiral)
 screenrant.com##+js(remove-cookie, articlesRead)
 scribd.com##+js(addEventListener-defuser, /^(mouseout|mouseleave)$/)
 sflix.*###modalshare:style(display: none !important;)
+sflix.*##.modal-backdrop:style(display: none !important;)
 shein.com##+js(trusted-replace-outbound-text, String.prototype.trim, iframe, nonframe)
 soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
