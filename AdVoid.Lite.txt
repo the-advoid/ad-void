@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.54
-! Last modified: 2026-02-06T21:58:05.684+01:00
+! Version: 1.0.55
+! Last modified: 2026-02-07T17:48:56.342+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5332
+! Entries: 5337
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4258,6 +4258,7 @@ zoneid=
 ##.ads-728
 ##.ads-active
 ##.ads-below-view-content
+##.ads-block
 ##.ads-block-rightside
 ##.ads-bottom-center
 ##.ads-box
@@ -4493,6 +4494,7 @@ zoneid=
 ##.Gallery-Content-BottomAd
 ##.geekad
 ##.glacier-ad
+##.google-ad-160-600
 ##.google-ad-leaderboard
 ##.google-ad-placeholder
 ##.google-ad-wrap
@@ -5105,7 +5107,10 @@ genius.com##.cujBpY
 genius.com##div[class^="LeaderboardOrMarquee__"]
 giphy.com##div.device-desktop
 glosbe.com###topTrufleContainer
+glosbe.com###topTrufleContainer
 glosbe.com##.right-sidebar-trufle-container
+glosbe.com##.right-sidebar-trufle-container
+glosbe.com##div[id*="Trufle"]
 goodreads.com##.SiteHeaderBanner
 google.*###atvcap
 google.*###tvcap
