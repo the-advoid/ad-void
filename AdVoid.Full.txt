@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5880
-! Last modified: 2026-02-07T23:00:36.019+01:00
+! Version: 3.0.5881
+! Last modified: 2026-02-07T23:00:57.899+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8201
@@ -7104,7 +7104,6 @@ nperf.com###consent
 olafneumann.org###rg_container_cookie
 onlinevideoconverter.pro##.helper-promo
 onlinevideoconverter.pro##.helper-widget
-open.spotify.com##span[dir="auto"][draggable="true"]:style(user-select: auto!important;-webkit-touch-callout: default!important;-webkit-user-select: auto!important;-moz-user-select: text!important;-ms-user-select: text!important;)
 openrouter.ai##.fixed.bottom-0
 opensubtitles.org###watch_online
 opensubtitles.org##a[onclick*="installSearchEngine"]
@@ -8144,6 +8143,7 @@ ok.ru##+js(abort-on-property-read, globalAuthLoginPopupCounter)
 ok.ru##+js(json-prune, result.body.direct)
 olympics.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
 olympics.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1, , , domain, olympics.com)
+open.spotify.com##span[dir="auto"][draggable="true"]:style(user-select: auto!important;-webkit-touch-callout: default!important;-webkit-user-select: auto!important;-moz-user-select: text!important;-ms-user-select: text!important;)
 opensubtitles.org##+js(set-constant, displayed, false)
 opensubtitles.org##+js(set-cookie, download-counter, 1)
 opusteno.rs##body,html:style(overflow: auto !important; position: initial !important;)
