@@ -340,7 +340,7 @@
 ###ablock-notify
 ##.cookie-container
 ###cookie_consent_popup
-##.cookie-consent
+##.cookie-consent:not(body)
 ##.header__cookie
 ##.js-consent-banner
 ###gdprbx
