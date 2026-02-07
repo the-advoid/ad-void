@@ -634,7 +634,6 @@ filemoon.*##+js(abort-current-script, EventTarget.prototype.addEventListener, de
 filemoon.*##+js(abort-current-script, document.createElement, /\.onerror|break;case \$\./)
 filemoon.*##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
 filemoon.*##+js(abort-current-script, document.querySelectorAll, popMagic)
-filemoon.*##+js(abort-on-property-read, FMPoopS)
 filemoon.*##+js(adjust-setInterval, seconds)
 filemoon.*##+js(abort-current-script, navigator, popunder)
 filemoon.*##+js(prevent-window-open)
