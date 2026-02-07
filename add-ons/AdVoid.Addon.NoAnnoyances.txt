@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1378
-! Last modified: 2026-02-07T23:00:16.426+01:00
+! Version: 2.0.1379
+! Last modified: 2026-02-07T23:00:32.833+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1330
@@ -972,7 +972,6 @@ pngtree.com##.stylusid-anniversary
 pngtree.com##a[data-huejs="couponfixed-nologin-click"]
 pngtree.com##a[data-huejs="couponside-nologin-click"]
 pngtree.com##a[data-huejs="enterprise_hours_left"]
-quora.com##.qu-zIndex--action_bar.qu-bg--raised:style(bottom: 0px !important;)
 reddit.com###xpromo-bottom-sheet
 reddit.com##[slot="use-app"]
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
@@ -1276,6 +1275,7 @@ quillbot.com##+js(set-local-storage-item, showPrivacyBannerNov2023, false)
 quillbot.com##+js(set-local-storage-item, showPromoBanner, false)
 quora.com##+js(set-constant, ansFrontendGlobals.settings.signupWallType, undefined)
 quora.com##.qu-overflow--hidden:not(.q-relative):style(overflow: auto !important;)
+quora.com##.qu-zIndex--action_bar.qu-bg--raised:style(bottom: 0px !important;)
 radiotimes.com##+js(remove-class, sp-message-open, html, stay)
 readcomiconline.li##+js(addEventListener-defuser, /keydown|contextmenu/)
 reddit.com##+js(addEventListener-defuser, block-body-scrolling)
