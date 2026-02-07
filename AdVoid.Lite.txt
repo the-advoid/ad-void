@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.68
-! Last modified: 2026-02-07T20:04:48.573+01:00
+! Version: 1.0.69
+! Last modified: 2026-02-07T20:09:51.521+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5358
+! Entries: 5354
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2344,7 +2344,6 @@
 ||waisheph.com^
 ||wamarapayor.com^
 ||wargaming-aff.com^
-||wargaming-aff.com^
 ||wargaming.net^
 ||waspilysagene.com^
 ||watch-movies-time.club^
@@ -3230,7 +3229,6 @@ _pagespeed_beacon?$xhr
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xhr
 ||api.github.com/_private/browser/errors^$xhr
 ||awswaf.com^*/report$xhr
-||awswaf.com^*/telemetry$xhr
 ||awswaf.com^*/telemetry$xhr
 ||backend.alia-cloudflare.com/launcher/events/$xhr
 ||bing.com/adsfetch?$xhr
@@ -5128,8 +5126,6 @@ genius.com##.cujBpY
 genius.com##div[class^="LeaderboardOrMarquee__"]
 giphy.com##div.device-desktop
 glosbe.com###topTrufleContainer
-glosbe.com###topTrufleContainer
-glosbe.com##.right-sidebar-trufle-container
 glosbe.com##.right-sidebar-trufle-container
 glosbe.com##div[id*="Trufle"]
 goodreads.com##.SiteHeaderBanner
