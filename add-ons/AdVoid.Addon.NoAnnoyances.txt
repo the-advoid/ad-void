@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1381
-! Last modified: 2026-02-07T23:01:18.534+01:00
+! Version: 2.0.1382
+! Last modified: 2026-02-07T23:01:39.238+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1330
@@ -993,7 +993,6 @@ scribd.com##.between_page_portal_root
 scribd.com##div[data-testid="sticky-wrapper"]
 search.brave.com###usage-metrics-notice
 search.brave.com##.download-cta
-sflix.*##.modal-backdrop:style(display: none !important;)
 shein.com##[class^="_shein_privacy_"]
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 siberianhealth.com##.top-informer-container
@@ -1299,6 +1298,7 @@ screenrant.com##+js(addEventListener-defuser, error, admiral)
 screenrant.com##+js(remove-cookie, articlesRead)
 scribd.com##+js(addEventListener-defuser, /^(mouseout|mouseleave)$/)
 sflix.*###modalshare:style(display: none !important;)
+sflix.*##.modal-backdrop:style(display: none !important;)
 shein.com##+js(trusted-replace-outbound-text, String.prototype.trim, iframe, nonframe)
 soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
