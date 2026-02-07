@@ -30,3 +30,8 @@
 
   <sub><strong>Figure 1.</strong> table of AdVoid's contributors <em>(sorted by the number of contributions)</em></sub>
 </div>
+
+<br>
+<br>
+
+A big thank you to everyone that contributed to <code>AdVoid</code>.
