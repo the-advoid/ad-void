@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4238
-! Last modified: 2026-02-07T20:13:26.236+01:00
+! Version: 3.0.4239
+! Last modified: 2026-02-07T23:02:31.588+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6100
@@ -5189,7 +5189,6 @@ duplichecker.com##div:has(> span[id^="side_bar"] > .adsbygoogle)
 duplichecker.com##div[class]:not([id]):not(.container):not(.main-content):has(> div[id] > ins.adsbygoogle)
 duplichecker.com##div[style^="min-height:"]:has(> span > ._ap_apex_ad)
 dxomark.com##.banner
-ebay.*##.x-rx-slot:style(position: absolute!important; left: -4000px!important;)
 ekspres.net###floating-content
 ekspres.net##.region--content-top
 elevenforum.com##.p-body-sidebar > .block-container
@@ -5668,6 +5667,7 @@ duplichecker.com##+js(no-requestAnimationFrame-if, _0x)
 duplichecker.com##+js(no-setInterval-if, ads)
 duplichecker.com##+js(no-setTimeout-if, showPopup)
 duplichecker.com##+js(no-xhr-if, ads)
+ebay.*##.x-rx-slot:style(position: absolute!important; left: -4000px!important;)
 emoji.gg##+js(nobab)
 emoji.gg##+js(prevent-xhr, adsbygoogle)
 emoji.gg##+js(remove-node-text, script, self.loadPW)
