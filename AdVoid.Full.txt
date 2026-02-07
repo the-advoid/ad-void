@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5874
-! Last modified: 2026-02-07T22:57:31.327+01:00
+! Version: 3.0.5875
+! Last modified: 2026-02-07T22:57:48.665+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8199
+! Entries: 8200
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7212,6 +7212,7 @@ xhamster.com##[class*="bottom-"][class*="tip-"]
 y2meta.app##.extension
 youporn.*##.warning_block
 youporn.com##.right-aside
+youtube.com###offer-module
 youtube.com###shopping-timely-shelf
 youtube.com###ticker.ytd-masthead:style(display: none!important;)
 youtube.com##.ytmPaidContentOverlayHost
