@@ -3,16 +3,16 @@
 ! {@!}
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 2.0.18
-! Last modified: 2025-11-06T21:41:58.079+01:00
+! Version: 2.0.19
+! Last modified: 2026-02-07T23:55:41.024+01:00
 ! Expires: 480 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7
+! Entries: 6
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
 ! License: https://github.com/the-advoid/ad-void/blob/main/LICENSE
-! Maintained by: Aria, igorskyflyer and all of the contributors
+! Maintained by: Aria, Igor Dimitrijević (@igorskyflyer) and all of the contributors
 ! See the CONTRIBUTORS.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) file for more information
 ! See the CONTRIBUTING.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) file for more information on how to contribute
 ! Source: World Wide Web
@@ -25,7 +25,6 @@
 ||ogads-pa.clients*.google.com^
 
 ! {@1} Files (global)
-/videojs.airplay.js^$script
 
 ! {@2} Cosmetic (site)
 youtube.com###masthead-ad
