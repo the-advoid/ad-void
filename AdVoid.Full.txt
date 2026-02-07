@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5858
-! Last modified: 2026-02-07T20:07:25.430+01:00
+! Version: 3.0.5859
+! Last modified: 2026-02-07T20:07:42.755+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8208
+! Entries: 8207
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7498,7 +7498,6 @@ filemoon.*##+js(abort-current-script, document.createElement, /\.onerror|break;c
 filemoon.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 filemoon.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 filemoon.*##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
-filemoon.*##+js(abort-current-script, navigator, popunder)
 filemoon.*##+js(abort-current-script, navigator, popunder)
 filemoon.*##+js(abort-on-property-read, Dulak)
 filemoon.*##+js(abort-on-property-read, FMPoopS)
