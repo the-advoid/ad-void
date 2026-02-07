@@ -34,4 +34,4 @@
 <br>
 <br>
 
-A big thank you to everyone that contributed to <code>AdVoid</code>.
+A big <strong>thank you</strong> to everyone that contributed to <code>AdVoid</code>!
