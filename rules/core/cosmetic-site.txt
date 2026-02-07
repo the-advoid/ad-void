@@ -357,3 +357,4 @@ independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
 independent.co.uk##.teads:has(.third-party-ad)
 webextension.org###adb
 glosbe.com##div[id*="Trufle"]
+glosbe.com##.right-sidebar-trufle-container
