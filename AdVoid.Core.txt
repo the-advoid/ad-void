@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4276
-! Last modified: 2026-02-08T01:18:56.688+01:00
+! Version: 3.0.4277
+! Last modified: 2026-02-08T01:19:15.032+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6128
+! Entries: 6129
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5998,6 +5998,7 @@ stripchat.com##+js(abort-current-script, document.createElement, initTabUnder)
 stripchat.com##+js(set-constant, history.replaceState, noopFunc)
 stripchat.com##+js(set-cookie-reload, pShow, true)
 stripchat.com##+js(set-cookie-reload, pShowMob, true)
+stripchat.com##+js(set-local-storage-item, popseen, true)
 subtitletools.com##+js(nofab)
 sxyprn.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 sxyprn.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
