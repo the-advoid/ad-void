@@ -18,3 +18,4 @@
 @@||192.168.$all
 @@||hqq.$script,1p
 ||intergient.com^$script,redirect-rule=noop.js,from=emoji.gg
+/fingerprint2.min.js^$script,3p,important,redirect-rule=noop.js
