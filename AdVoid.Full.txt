@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5924
-! Last modified: 2026-02-08T01:13:54.164+01:00
+! Version: 3.0.5925
+! Last modified: 2026-02-08T01:16:24.688+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8223
+! Entries: 8224
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4250,6 +4250,7 @@ sassy-social-share-public*.$script,css
 ://www.*.com/*.css|$script,3p,header=popads-node
 
 ! {@15} Restore files (site)
+/fingerprint2.min.js^$script,3p,important,redirect-rule=noop.js
 @@/*.airlytics.*.js^$script,from=weather.com
 @@/ads-carousel-*.js^$script,from=reddit.com
 @@||127.0.0.1^$all
