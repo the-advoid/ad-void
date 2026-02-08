@@ -231,3 +231,4 @@ youtube.com###offer-module
 youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-rich-item-renderer > .ytd-ad-slot-renderer.style-scope
 instagram.com##._acc8
 cam4.*##.EEoPD
+cam4.*##footer + div[class]:has(> div > div > a[href="/legal/cookies"])
