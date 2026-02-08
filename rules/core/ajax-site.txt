@@ -95,3 +95,4 @@
 ||accounts.google.com/gsi/log$xhr
 ||awswaf.com^*/report$xhr
 *$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+||yandex.ru/ads/adfox/$xhr
