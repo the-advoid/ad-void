@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5942
-! Last modified: 2026-02-08T01:27:43.959+01:00
+! Version: 3.0.5943
+! Last modified: 2026-02-08T01:28:15.011+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8240
+! Entries: 8241
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7810,6 +7810,7 @@ sxyprn.*##+js(abort-on-property-read, popns)
 sxyprn.*##+js(abort-on-property-write, __aaZoneid)
 sxyprn.*##+js(no-window-open-if)
 sxyprn.*##+js(set-constant, vast_urls, {})
+sxyprn.com##+js(remove-node-text, script, typeof bait_)
 techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
 telegraf.rs##+js(set-constant, telegrafSettings.noAds, true)
 teleperformance.com##body:style(overflow: auto!important;)
