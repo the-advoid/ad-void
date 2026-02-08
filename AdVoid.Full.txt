@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5958
-! Last modified: 2026-02-08T01:38:33.505+01:00
+! Version: 3.0.5959
+! Last modified: 2026-02-08T01:38:52.043+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8246
@@ -7896,9 +7896,9 @@ vk.com##+js(href-sanitizer, a[href*="/away.php?"], ?to)
 vk.com##+js(set-constant, noAdsAtAll, {})
 vk.com##+js(set-constant, PageBottomBanners, undefined)
 voe.*##+js(abort-current-script, String.fromCharCode, /btoa|break/)
+voe.*##+js(addEventListener-defuser, /keydown|keyup/, keyCode)
 voe.*##+js(no-window-open-if)
 voe.*##+js(set-constant, console.clear, undefined)
-voe.sx##+js(addEventListener-defuser, /keydown|keyup/, keyCode)
 voe.sx##+js(addEventListener-defuser, contextmenu)
 watch.plex.tv##+js(prevent-fetch, /doubleclick\.com/ method:HEAD, '', opaque)
 watch.plex.tv##+js(prevent-fetch, doubleclick.com, '', opaque)
