@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4264
-! Last modified: 2026-02-08T01:01:03.645+01:00
+! Version: 3.0.4265
+! Last modified: 2026-02-08T01:03:23.160+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6122
+! Entries: 6121
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3270,7 +3270,6 @@ _pagespeed_beacon?$xhr
 ||com/|$xhr,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
 
 ! {@10} AJAX paths (site)
-*$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 *$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,method=head,header=x-trace2-id,to=com
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
