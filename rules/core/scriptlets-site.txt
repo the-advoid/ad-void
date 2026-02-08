@@ -336,7 +336,7 @@ streambucket.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s
 sflix.*##^script:has-text(;}}};break;case $.)
 sflix.*##+js(abort-current-script, parseInt, break;case $.)
 sflix.*##+js(no-setTimeout-if, devtools)
-sflix.to##+js(no-setInterval-if, /_0x|devtools/)
+sflix.*##+js(no-setInterval-if, /_0x|devtools/)
 sflix.*##+js(addEventListener-defuser, , break;case $.)
 sflix.*##+js(abort-on-property-read, AaDetector)
 sflix.to##body:style(overflow: auto !important; padding-right: 0 !important;)
