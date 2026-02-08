@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4277
-! Last modified: 2026-02-08T01:19:15.032+01:00
+! Version: 3.0.4278
+! Last modified: 2026-02-08T01:19:30.215+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6129
+! Entries: 6130
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5995,6 +5995,7 @@ streamtape.*##+js(remove-node-text, script, /parseInt.*push.*setTimeout.*try.*ca
 streamtape.*##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
 streamtape.*##^script:has-text(/WebAssembly|forceunder/)
 stripchat.com##+js(abort-current-script, document.createElement, initTabUnder)
+stripchat.com##+js(remove-cookie, video_view_count)
 stripchat.com##+js(set-constant, history.replaceState, noopFunc)
 stripchat.com##+js(set-cookie-reload, pShow, true)
 stripchat.com##+js(set-cookie-reload, pShowMob, true)
