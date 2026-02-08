@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5949
-! Last modified: 2026-02-08T01:29:47.663+01:00
+! Version: 3.0.5950
+! Last modified: 2026-02-08T01:30:01.781+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8247
+! Entries: 8248
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7810,6 +7810,7 @@ sxyprn.*##+js(abort-on-property-read, popns)
 sxyprn.*##+js(abort-on-property-read, PopURL)
 sxyprn.*##+js(abort-on-property-write, __aaZoneid)
 sxyprn.*##+js(no-window-open-if)
+sxyprn.*##+js(set-constant, D4zz, noopFunc)
 sxyprn.*##+js(set-constant, vast_urls, {})
 sxyprn.com##+js(abort-current-script, document.createElement, l.parentNode.insertBefore(s)
 sxyprn.com##+js(abort-current-script, document.querySelectorAll, popMagic)
