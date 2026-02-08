@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4262
-! Last modified: 2026-02-08T00:59:29.520+01:00
+! Version: 3.0.4263
+! Last modified: 2026-02-08T01:00:41.236+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6122
+! Entries: 6121
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5218,7 +5218,6 @@ emulatorgames.net##[class*="-label"]
 emulatorgames.net##[class*="site-unit"]
 eporner.com##.hptab
 eporner.com##.vjs-inplayer-container
-facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, '', /api/graphql)
 fandom.com##.main-container > .top_leaderboard-odyssey-wrapper:has(> .top-ads-container)
 faphouse.com##.fh-bottom-sticky-banner
 fastdl.app###ads-modal
@@ -5294,7 +5293,6 @@ independent.co.uk##.teads:has(.third-party-ad)
 informer.rs##.bnr
 insta-stories-viewer.com##.context
 instagram.com##article span:has-text(Sponsored):upward(6)
-instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
 iproductkeys.com###theme-footer
 iq.com##div[class][style^="bottom: 0px; left: 0px; position: fixed;"]
 jetpunk.com##.banner-x-outer
@@ -5784,6 +5782,7 @@ imgur.com##+js(set-cookie, WHITELISTED_CLOSED, 1)
 independent.co.uk##+js(adjust-setTimeout, [native code], 3000, 0.02)
 independent.co.uk##+js(set-constant, google_tag_manager.dataLayer.gtmDom, true)
 instagram.com##+js(json-prune, data.xdt_injected_story_units.ad_media_items)
+instagram.com##article:has(a[href^="https://www.facebook.com/ads/"]):style(height: 0 !important; overflow: hidden !important;)
 iqiyi.com##+js(adjust-setInterval, adUI, 1000, 0.02)
 iqiyi.com##+js(json-prune, data.template.tabs.*.blocks.*.data.data.videos.*.ad)
 itv.com##+js(json-prune, Playlist.ContentBreaks)
