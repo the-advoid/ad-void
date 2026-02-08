@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5914
-! Last modified: 2026-02-08T01:01:09.540+01:00
+! Version: 3.0.5915
+! Last modified: 2026-02-08T01:01:34.355+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8225
+! Entries: 8226
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8051,6 +8051,7 @@ emulatorgames.net##+js(adjust-setInterval, , , 0.3)
 emulatorgames.net##+js(adjust-setTimeout, , 7000, 0)
 emulatorgames.net##+js(adjust-setTimeout, .eg-manually-get, 7000, 0.02)
 facebook.com##+js(addEventListener-defuser, scroll, showPopup)
+facebook.com##+js(prevent-addEventListener, scroll, showPopup)
 facebook.com##+js(remove-class, _31e, body > ._li)
 facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
 facebook.com##.ssr #screen-root img:style(pointer-events: auto !important;)
