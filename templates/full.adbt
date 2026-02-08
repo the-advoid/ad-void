@@ -109,6 +109,7 @@ nl
 
 tag 'Restore files (site)'
 include './rules/core/files-restore-site.txt' sort
+include './rules/add-ons/no-externals/restore-files-site.txt' sort
 
 nl
 
