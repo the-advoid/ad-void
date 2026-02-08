@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4298
-! Last modified: 2026-02-08T01:35:52.168+01:00
+! Version: 3.0.4299
+! Last modified: 2026-02-08T01:36:27.032+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6142
@@ -6011,6 +6011,7 @@ sxyprn.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 sxyprn.*##+js(abort-current-script, document.createElement, l.parentNode.insertBefore(s)
 sxyprn.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 sxyprn.*##+js(abort-current-script, vast_urls)
+sxyprn.*##+js(abort-current-script, WebAssembly, atob)
 sxyprn.*##+js(abort-on-property-read, popns)
 sxyprn.*##+js(abort-on-property-read, PopURL)
 sxyprn.*##+js(abort-on-property-write, __aaZoneid)
@@ -6020,7 +6021,6 @@ sxyprn.*##+js(remove-class, js-pop)
 sxyprn.*##+js(remove-node-text, script, typeof bait_)
 sxyprn.*##+js(set-constant, D4zz, noopFunc)
 sxyprn.*##+js(set-constant, vast_urls, {})
-sxyprn.com##+js(abort-current-script, WebAssembly, atob)
 techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
 telegraf.rs##+js(set-constant, telegrafSettings.noAds, true)
 teleperformance.com##body:style(overflow: auto!important;)
