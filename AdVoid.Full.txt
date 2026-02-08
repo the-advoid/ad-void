@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5968
-! Last modified: 2026-02-08T01:41:45.186+01:00
+! Version: 3.0.5969
+! Last modified: 2026-02-08T01:42:00.517+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8246
@@ -7723,7 +7723,7 @@ radiotimes.com##+js(abort-on-property-read, _sp_._networkListenerData)
 readcomiconline.*##+js(abort-on-property-read, adblockDetector)
 readcomiconline.*##+js(addEventListener-defuser, mousedown, localStorage)
 readcomiconline.*##+js(no-xhr-if, /adskeeper|googlesyndication/)
-readcomiconline.li##+js(remove-node-text, script, checkAdsBlocked)
+readcomiconline.*##+js(remove-node-text, script, checkAdsBlocked)
 reddit.com##+js(abort-on-property-write, STICKY_CANARY)
 reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 reddit.com##+js(remove-class, scroll-disabled, body, stay)
