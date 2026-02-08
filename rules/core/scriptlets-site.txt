@@ -665,3 +665,4 @@ facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.s
 stripchat.com##+js(set-cookie-reload, pShowMob, true)
 stripchat.com##+js(set-constant, history.replaceState, noopFunc)
 stripchat.com##+js(set-cookie-reload, pShow, true)
+stripchat.com##+js(abort-current-script, document.createElement, initTabUnder)
