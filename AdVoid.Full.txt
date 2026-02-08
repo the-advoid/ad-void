@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5931
-! Last modified: 2026-02-08T01:19:02.412+01:00
+! Version: 3.0.5932
+! Last modified: 2026-02-08T01:19:20.796+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8230
+! Entries: 8231
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7791,6 +7791,7 @@ stripchat.com##+js(abort-current-script, document.createElement, initTabUnder)
 stripchat.com##+js(set-constant, history.replaceState, noopFunc)
 stripchat.com##+js(set-cookie-reload, pShow, true)
 stripchat.com##+js(set-cookie-reload, pShowMob, true)
+stripchat.com##+js(set-local-storage-item, popseen, true)
 subtitletools.com##+js(nofab)
 sxyprn.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 sxyprn.*##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
