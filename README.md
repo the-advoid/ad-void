@@ -416,7 +416,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 ##### Privacy Hardening Scriptlet
 
-> Hardens user privacy via PageVisibility and HTML filtering.
+> Hardens user privacy via PageVisibility and HTML filtering. Can also help mitigate media platforms from stopping playback when the tab is not active/in background or when the device is locked.
 >
 > ‼️ **It may break certain sites.**
 
