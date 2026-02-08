@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5962
-! Last modified: 2026-02-08T01:40:07.998+01:00
+! Version: 3.0.5963
+! Last modified: 2026-02-08T01:40:26.076+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8246
@@ -7865,10 +7865,10 @@ userload.*##+js(abort-current-script, document.getElementById, style.display)
 userload.*##+js(addEventListener-defuser, , _0x)
 userload.*##+js(no-window-open-if)
 variety.com##+js(abort-on-property-read, pmc_admanager.show_interrupt_ads)
+vid2faf.*##+js(abort-on-stack-trace, console.clear)
 vid2faf.*##+js(no-setTimeout-if, 0x)
 vid2faf.*##+js(no-setTimeout-if, ||null)
 vid2faf.*##+js(no-window-open-if)
-vid2faf.site##+js(abort-on-stack-trace, console.clear)
 vid2faf.site##+js(set-constant, DisDevTool, undefined)
 videosection.com##+js(abort-on-property-read, exoJsPop101)
 vidplay.*##+js(remove-attr, data-id|data-p, [data-id]\,[data-p], stay)
