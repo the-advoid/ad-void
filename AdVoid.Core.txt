@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4302
-! Last modified: 2026-02-08T01:38:46.237+01:00
+! Version: 3.0.4303
+! Last modified: 2026-02-08T01:39:04.288+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6142
@@ -6102,9 +6102,9 @@ vk.com##+js(set-constant, noAdsAtAll, {})
 vk.com##+js(set-constant, PageBottomBanners, undefined)
 voe.*##+js(abort-current-script, String.fromCharCode, /btoa|break/)
 voe.*##+js(addEventListener-defuser, /keydown|keyup/, keyCode)
+voe.*##+js(addEventListener-defuser, contextmenu)
 voe.*##+js(no-window-open-if)
 voe.*##+js(set-constant, console.clear, undefined)
-voe.sx##+js(addEventListener-defuser, contextmenu)
 watch.plex.tv##+js(prevent-fetch, /doubleclick\.com/ method:HEAD, '', opaque)
 watch.plex.tv##+js(prevent-fetch, doubleclick.com, '', opaque)
 watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
