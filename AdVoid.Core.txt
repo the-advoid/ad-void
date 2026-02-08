@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4283
-! Last modified: 2026-02-08T01:24:51.744+01:00
+! Version: 3.0.4284
+! Last modified: 2026-02-08T01:25:33.627+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6135
@@ -1455,6 +1455,7 @@
 ||nineteenthpurple.com^
 ||nipechala.com^
 ||nitrogendetestable.com^
+||nitropay.com^$3p
 ||nitroscripts.com^
 ||nkxingxh.top^
 ||no2veeamggaseber.com^
@@ -3979,7 +3980,6 @@ trekkie*.js^$script
 @@||ytmp3.cc/js/trace.js^
 @@||ziffstatic.com^*/zdconsent.js$from=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|humblebundle.com|ign.com|nintendolife.com|purexbox.com|pushsquare.com|speedtest.net|timeextension.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 ||intergient.com^$script,redirect-rule=noop.js,from=emoji.gg
-||s.nitropay.com/ads-*.js^$script,3p,redirect-rule=noop.js
 ||tags.news.com.au/prod/heartbeat/*/mediasdk.min.js$script,important,redirect-rule=noop.js
 
 ! {@19} RegExp (global)
