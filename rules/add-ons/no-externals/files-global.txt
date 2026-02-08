@@ -17,7 +17,7 @@
 /fb-sdk.js^$script
 /sassy-social-share-svg.css^$css
 /fb.min.js^$script
-/videojs-social.*.js^$script,from=~vipserije.com
+/videojs-social.*.js^$script,domain=~vipserije.com
 /silvermine-videojs-chromecast.min.js^$script
 /amp-facebook-*.js^$script
 /amp-instagram-*.js^$script
