@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5969
-! Last modified: 2026-02-08T01:42:00.517+01:00
+! Version: 3.0.5970
+! Last modified: 2026-02-08T01:43:14.333+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8246
+! Entries: 8245
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7745,7 +7745,6 @@ sflix.*##+js(addEventListener-defuser, , break;case $.)
 sflix.*##+js(no-setInterval-if, /_0x|devtools/)
 sflix.*##+js(no-setTimeout-if, devtools)
 sflix.*##^script:has-text(;}}};break;case $.)
-sflix.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sflix.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sherdog.com##^script:has-text(/typeof [a-z]\.cmd\.unshift/)
 slobodnadalmacija.hr##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
