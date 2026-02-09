@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5975
-! Last modified: 2026-02-09T00:59:35.669+01:00
+! Version: 3.0.5976
+! Last modified: 2026-02-09T01:02:06.279+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8248
@@ -8040,6 +8040,7 @@ careerkarma.com##+js(set-cookie, _Wmpci_Popup, true)
 cbr.com##+js(cookie-remover, articleLimitDrawerVisible)
 cbr.com##+js(cookie-remover, unauthenicatedArticleLimitReached)
 ccleaner.com##html:style(overflow: visible!important;)
+cdn.privacy-mgmt.com##+js(trusted-click-element, button.cta-button[title="Reject all"])
 cdromance.com##body:style(overflow: auto !important;)
 cenoteka.rs##+js(set-cookie-reload, android_download_hide, 1)
 cineby.app##+js(addEventListener-defuser, keydown, 123)
@@ -8286,7 +8287,6 @@ vk.com##+js(set-constant, window.Unauthorized2, undefined)
 weather.com##+js(abort-on-property-read, setNptTechAdblockerCookie)
 weather.com##+js(set-constant, navigator.globalPrivacyControl, false)
 weather.com##+js(set-constant, Navigator.prototype.globalPrivacyControl, false)
-weather.com##+js(trusted-click-element, button.cta-button[title="Reject all"])
 weather.com##+js(trusted-set-local-storage-item, userConsents, {"functional-technology":true})
 wikihow.com##+js(abort-current-script, document.addEventListener, contribute)
 wordreference.com##body:style(overflow: auto !important;)
