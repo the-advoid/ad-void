@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4315
-! Last modified: 2026-02-09T00:55:10.958+01:00
+! Version: 3.0.4316
+! Last modified: 2026-02-09T00:56:22.515+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6141
+! Entries: 6142
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5461,6 +5461,7 @@ w3schools.com###skyscraper
 watchadsontape.com##.play-overlay
 weather.com##.region-contentBottom:has([id^="WxuAd"])
 weather.com##section[aria-label="Sponsored Content"]
+weather.com##section[title="Sponsored Content"]
 webextension.org###adb
 webmd.com###ContentPane40
 webmd.com##.medianet-ctr
