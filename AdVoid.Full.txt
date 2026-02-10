@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5979
-! Last modified: 2026-02-10T18:44:32.987+01:00
+! Version: 3.0.5980
+! Last modified: 2026-02-10T18:45:04.387+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8251
+! Entries: 8252
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6867,6 +6867,7 @@ pornzog.com###ntv_a
 pornzog.com##.video-ntv
 pornzog.com##.video-ntv-list
 proboards.com##^script:has-text(vglnk)
+prva.rs##div[id^="midasWidget"]
 quora.com##.q-sticky > .qu-pb--medium
 quora.com##.q-sticky:has-text(Advertisement)
 quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has-text(Advertisement)
