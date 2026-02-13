@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5992
-! Last modified: 2026-02-13T19:14:46.854+01:00
+! Version: 3.0.5993
+! Last modified: 2026-02-13T19:15:09.325+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8260
+! Entries: 8261
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6659,6 +6659,7 @@ zoneid=
 adblock-tester.com##embed
 adblock-tester.com##object
 aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
+amazon.*###desktop-dp-ilm_feature_div_01
 amazon.*###nav-swmslot
 amazon.*##div[cel_widget_id*="desktop-dp-"]
 amazon.*##div[cel_widget_id^="adplacements:"]
