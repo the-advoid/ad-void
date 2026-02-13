@@ -366,3 +366,4 @@ prva.rs##div[id^="midasWidget"]
 amazon.*##div[cel_widget_id^="adplacements:"]
 amazon.*##div[cel_widget_id*="desktop-dp-"]
 amazon.*###desktop-dp-ilm_feature_div_01
+amazon.*##div[cel_widget_id*="_ad-placements-"]
