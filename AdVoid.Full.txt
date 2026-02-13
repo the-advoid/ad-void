@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.5989
-! Last modified: 2026-02-13T19:13:40.557+01:00
+! Version: 3.0.5990
+! Last modified: 2026-02-13T19:14:08.741+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8257
+! Entries: 8258
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5419,6 +5419,7 @@ zoneid=
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##div[id^="adtester-container-"]
 ##div[id^="dfp-ad-"]
+##div[id^="dp-ads-"]
 ##div[id^="rc-widget-"]
 ##div[id^="Taboola-main-"]
 ##div[id^="WxuAd-"]
