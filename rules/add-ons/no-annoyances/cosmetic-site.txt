@@ -234,3 +234,4 @@ cam4.*##.EEoPD
 cam4.*##footer + div[class]:has(> div > div > a[href="/legal/cookies"])
 amazon.*###sp-cc-wrapper
 amazon.*###cos-banner
+amazon.*##div[id^="sponsoredProducts"]
