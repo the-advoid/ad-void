@@ -237,3 +237,4 @@ amazon.*###cos-banner
 amazon.*##div[id^="sponsoredProducts"]
 amazon.*##div[id^="sp_detail"]
 amazon.*##div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
+amazon.*###heroQuickPromo_feature_div
