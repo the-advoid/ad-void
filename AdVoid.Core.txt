@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4334
-! Last modified: 2026-02-15T18:17:55.915+01:00
+! Version: 3.0.4335
+! Last modified: 2026-02-15T18:19:29.283+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6157
+! Entries: 6158
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5156,6 +5156,7 @@ adblock-tester.com##embed
 adblock-tester.com##object
 aliexpress.com###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
 alternativeto.net##div[data-testid="put-food-on-the-table"]
+alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
 amazon.*###desktop-dp-ilm_feature_div_01
 amazon.*###nav-swmslot
 amazon.*###nav-swmslot
