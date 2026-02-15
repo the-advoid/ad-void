@@ -1025,3 +1025,4 @@
 ##.ad-placeholder:not(#detect, #detect_ad_empire, #filter_ads_by_classname, .adsbox)
 ##div[id^="dp-ads-"]
 ##[class*="__adLeaderboard"]
+##[class*="AdsenseAd-"]
