@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6004
-! Last modified: 2026-02-15T18:16:48.068+01:00
+! Version: 3.0.6005
+! Last modified: 2026-02-15T18:17:32.949+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8272
+! Entries: 8273
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7380,6 +7380,7 @@ accuweather.com##body:remove-class(ads-not-loaded)
 alleneconomicmatter.com##+js(addEventListener-defuser, contextmenu)
 alleneconomicmatter.com##+js(no-window-open-if)
 alleneconomicmatter.com##+js(set-constant, console.clear, undefined)
+alternativeto.net##+js(abort-current-script, atob, /googlefc|\.parentNode\.removeChild\(f\)/)
 alternativeto.net##+js(json-prune, props.sponsoredAlternative)
 anix.*##+js(set-constant, DisDevTool, undefined)
 anix.to##+js(no-window-open-if, _blank)
