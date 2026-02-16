@@ -371,3 +371,4 @@ amazon.*###nav-swmslot
 gbmb.org##main > div.center
 alternativeto.net##div[data-testid="put-food-on-the-table"]
 alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
+alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-testid="adsense-wrapper"])
