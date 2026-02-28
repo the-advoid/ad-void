@@ -366,7 +366,6 @@ amazon.*##div[cel_widget_id^="adplacements:"]
 amazon.*##div[cel_widget_id*="desktop-dp-"]
 amazon.*###desktop-dp-ilm_feature_div_01
 amazon.*##div[cel_widget_id*="_ad-placements-"]
-amazon.*###nav-swmslot
 gbmb.org##main > div.center
 alternativeto.net##div[data-testid="put-food-on-the-table"]
 alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
