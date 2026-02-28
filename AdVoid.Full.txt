@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6025
-! Last modified: 2026-02-28T17:50:14.421+01:00
+! Version: 3.0.6026
+! Last modified: 2026-02-28T17:50:35.072+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8281
+! Entries: 8280
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6670,7 +6670,6 @@ alternativeto.net##div[data-testid="put-food-on-the-table"]
 alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-testid="adsense-wrapper"])
 alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
 amazon.*###desktop-dp-ilm_feature_div_01
-amazon.*###nav-swmslot
 amazon.*###nav-swmslot
 amazon.*##div[cel_widget_id*="_ad-placements-"]
 amazon.*##div[cel_widget_id*="desktop-dp-"]
