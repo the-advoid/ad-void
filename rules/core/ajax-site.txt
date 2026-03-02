@@ -99,3 +99,4 @@
 ||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
 .demdex.net/id^$xhr,important,redirect-rule=noop.txt
 ||androidauth.wpengine.com/wp-json/api/advanced_placement$xhr
+://analytics.*/event$xhr
