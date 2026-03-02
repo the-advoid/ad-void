@@ -383,4 +383,4 @@ _prebid.js^$script
 /plugins/wp-rocket/assets/js/wpr-beacon.$script
 &cx=c&gtm=$script
 /uploads/*/ads-$image
-/player/stats.php?$image
+/player/stats.php?$image,redirect-rule=1x1.gif
