@@ -372,3 +372,4 @@ alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsen
 alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-testid="adsense-wrapper"])
 linkedin.com###ads-container
 androidauthority.com##div[class]:has(> .pw-incontent)
+androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
