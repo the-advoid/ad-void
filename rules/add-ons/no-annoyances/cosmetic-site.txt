@@ -240,3 +240,4 @@ amazon.*##div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
 amazon.*###heroQuickPromo_feature_div
 search.brave.com##.mobile-promo-content-wrapper
 joberty.com##.cc-container
+androidauthority.com##div[data-container-type="content"]:has(> div[class] > ul > li > strong > a[href="https://andauth.co/AAGoogleDiscoverSource"])
