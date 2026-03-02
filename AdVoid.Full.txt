@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6052
-! Last modified: 2026-03-02T23:06:13.324+01:00
+! Version: 3.0.6053
+! Last modified: 2026-03-02T23:06:48.870+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8305
@@ -6694,6 +6694,7 @@ amazon.*##div[cel_widget_id*="_ad-placements-"]
 amazon.*##div[cel_widget_id*="desktop-dp-"]
 amazon.*##div[cel_widget_id^="adplacements:"]
 androidauthority.com##div[class]:has(> .pw-incontent)
+androidauthority.com##div[class]:has(> div[data-ad-type]:only-child)
 androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
 apkcombo.com##.column > div.widget:has(> a.installer)
 apkcombo.com##.diseanmevrtt
@@ -7058,7 +7059,6 @@ amazon.*##div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
 amazon.*##div[id^="sp_detail"]
 amazon.*##div[id^="sponsoredProducts"]
 ananas.rs###__next > div:nth-last-child(-n+2)
-androidauthority.com##div[class]:has(> div[data-ad-type]:only-child)
 androidauthority.com##div[data-container-type="content"]:has(> div[class] > ul > li > strong > a[href="https://andauth.co/AAGoogleDiscoverSource"])
 apkmody.fun###body-fixed-footer
 ascii-generator.site##.agreements
