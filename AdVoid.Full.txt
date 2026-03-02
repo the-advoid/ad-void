@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6030
-! Last modified: 2026-03-02T22:03:20.902+01:00
+! Version: 3.0.6031
+! Last modified: 2026-03-02T22:03:56.764+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8282
@@ -3372,6 +3372,7 @@ _pagespeed_beacon?$xhr
 
 ! {@9} XMLHttpRequest paths (site)
 *$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+.demdex.net/id^$xhr,important,redirect-rule=noop.txt
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,method=head,header=x-trace2-id,to=com
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
 ://plausible.*/api/event|$xhr,3p
@@ -4045,7 +4046,6 @@ sassy-social-share-public*.$script,css
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
 *$script,redirect-rule=noop.js,from=mp4upload.com
 *$script,redirect-rule=noop.js,from=next-episode.net
-.demdex.net/id^$xhr,important,redirect-rule=noop.txt
 .info/ad/$script
 /js/analytics/fduserfingerprinttoken.js^$script,from=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /mm.js^$script,from=1337x.*|x1337x.*
