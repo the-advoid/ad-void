@@ -373,3 +373,4 @@ alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-te
 linkedin.com###ads-container
 androidauthority.com##div[class]:has(> .pw-incontent)
 androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
+androidauthority.com##div[class]:has(> div[data-ad-type]:only-child)
