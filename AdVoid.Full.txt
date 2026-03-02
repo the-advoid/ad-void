@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6064
-! Last modified: 2026-03-02T23:30:27.574+01:00
+! Version: 3.0.6065
+! Last modified: 2026-03-02T23:40:57.989+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8315
+! Entries: 8316
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6771,6 +6771,7 @@ elevenforum.com##.p-body-sidebar > .block-container
 emoji.gg###yousmell
 emojipedia.org##.h-\[312px\]
 emojipedia.org##.items-center.flex-col.flex:has-text(Advertisement)
+emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
 emulatorgames.net##[class*="-label"]
 emulatorgames.net##[class*="site-unit"]
 eporner.com##.hptab
