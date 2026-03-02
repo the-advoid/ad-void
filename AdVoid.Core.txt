@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4375
-! Last modified: 2026-03-02T23:42:31.823+01:00
+! Version: 3.0.4376
+! Last modified: 2026-03-02T23:52:29.499+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6185
+! Entries: 6186
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5249,6 +5249,7 @@ elevenforum.com##.p-body-sidebar > .block-container
 emoji.gg###yousmell
 emojipedia.org##.h-\[312px\]
 emojipedia.org##.items-center.flex-col.flex:has-text(Advertisement)
+emojipedia.org##.items-center:has([class^="AdContainer_ad"])
 emojipedia.org##.text-\[\#adadad\]
 emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
 emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
