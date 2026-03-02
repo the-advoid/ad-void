@@ -376,3 +376,4 @@ androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
 androidauthority.com##div[class]:has(> div[data-ad-type]:only-child)
 gofile.io###index_ads
 emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
+emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
