@@ -378,3 +378,4 @@ gofile.io###index_ads
 emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
 emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
 emojipedia.org##.text-\[\#adadad\]
+emojipedia.org##.items-center:has([class^="AdContainer_ad"])
