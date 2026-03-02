@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6070
-! Last modified: 2026-03-02T23:47:48.878+01:00
+! Version: 3.0.6071
+! Last modified: 2026-03-02T23:52:35.603+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8319
+! Entries: 8320
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6772,6 +6772,7 @@ elevenforum.com##.p-body-sidebar > .block-container
 emoji.gg###yousmell
 emojipedia.org##.h-\[312px\]
 emojipedia.org##.items-center.flex-col.flex:has-text(Advertisement)
+emojipedia.org##.items-center:has([class^="AdContainer_ad"])
 emojipedia.org##.text-\[\#adadad\]
 emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
 emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
