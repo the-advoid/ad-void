@@ -679,3 +679,4 @@ alternativeto.net##+js(abort-current-script, atob, /googlefc|\.parentNode\.remov
 wionews.com##+js(set-constant, vgrAdBlock, false)
 wionews.com##+js(json-prune, conf.enableHeaderBidding)
 gofile.*##+js(prevent-addEventListener, click, popMagic)
+gofile.*##+js(set-constant, launchAds, noopFunc)
