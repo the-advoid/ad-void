@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1407
-! Last modified: 2026-02-14T18:43:51.937+01:00
+! Version: 2.0.1432
+! Last modified: 2026-03-03T17:21:04.655+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1345
+! Entries: 1359
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -102,7 +102,9 @@
 
 ! {@6} AJAX paths (site)
 /cookie-banner$from=~antritt-hilden.de|~github.com|~kontostand.at|~praxismarketing-institut.com
+||clearbuy.com/api/cookie^$xhr
 ||contributions.guardianapis.com^$xhr
+||notifications.viafoura.co^$xhr
 ||reddit.com/svc/shreddit/experiences?names=app_selector$xhr
 
 ! {@7} Files (global)
@@ -185,6 +187,7 @@
 /otSDKStub.js^$script
 /outbrain-widget.js^$script
 /page-links-to/dist/new-tab.js^$script
+/partytown-sw.js^$script
 /popup-maker/assets/js/site.min.js^$script
 /privacy-banner/storefront-banner.js^$script
 /pushNotification*.js^$script
@@ -309,6 +312,7 @@ cookie-law*.$script,css
 ###cookienotif
 ###cookieoptin
 ###cookieoptinoverlay
+###cookiepolicy-wrap
 ###CookiePrivacyNotice
 ###cookies
 ###cookies-accept
@@ -335,7 +339,6 @@ cookie-law*.$script,css
 ###fixed-addon-banner
 ###fixedbox
 ###floatingbox
-###floatingSocialShare
 ###footer_newsletter
 ###gdpr
 ###gdpr-banner
@@ -357,6 +360,7 @@ cookie-law*.$script,css
 ###inner-consent
 ###installAndroidApp
 ###js-cookie-box
+###js-pepco-cookies
 ###kolacic
 ###m-compartir
 ###mailchimp-top-bar
@@ -388,6 +392,7 @@ cookie-law*.$script,css
 ###privacy-policy-banner
 ###redim-cookiehint
 ###redim-cookiehint-modal
+###remove_ads_link
 ###saglasnost-container
 ###scroll_top_div
 ###scroll_top_wrap
@@ -410,6 +415,7 @@ cookie-law*.$script,css
 ###usercentrics-root
 ###vpn-top
 ###webarx-cookie-notice
+###widgetPopupFrame
 ###zdcFloatingBtn
 ##.abAlertInner
 ##.acceptcookies
@@ -526,6 +532,7 @@ cookie-law*.$script,css
 ##.cookiebanner
 ##.cookiebanner-content
 ##.CookieBanner_container:not(html):not(body)
+##.cookiebar
 ##.CookieConsent
 ##.cookieconsent
 ##.cookieConsent:not(body):not(html)
@@ -581,11 +588,11 @@ cookie-law*.$script,css
 ##.expanded-dock
 ##.ezoic-floating-bottom
 ##.fa-cookie
-##.facebook_button
 ##.fd-mailchimpbar-
 ##.fit-omv2-modal
 ##.FloatingGroup
 ##.fold_article__recommmended_for_you
+##.footer-cookies
 ##.footer-newsletter
 ##.footer-sign-up
 ##.footer__cookie
@@ -623,9 +630,11 @@ cookie-law*.$script,css
 ##.js-consent-banner
 ##.js-cookie-consent
 ##.js-cookie-message-placeholder
+##.js-cookiebar
 ##.js-cookies
 ##.js-cookies-confirm
 ##.js-terms-of-use-disclaimer
+##.js-toggle-cookie-panel
 ##.JScookies-part
 ##.jsGdprNoticeHolder
 ##.jw-nextup-container
@@ -698,6 +707,7 @@ cookie-law*.$script,css
 ##.pwa-install-notification
 ##.pwa-install-notification-wrapper
 ##.rate-us
+##.remove-ads
 ##.right-rail-cta
 ##.sec-subscribe
 ##.section-cookies
@@ -707,7 +717,6 @@ cookie-law*.$script,css
 ##.site-cookie-alert
 ##.sitenotice-wrapper
 ##.sliding-popup-bottom
-##.social-sharing
 ##.space-around-cookie-consent-container
 ##.spr-bottom
 ##.sqs-cookie-banner-v2
@@ -727,6 +736,8 @@ cookie-law*.$script,css
 ##.underathover
 ##.usernotice_pop
 ##.v-privacy-policy-popup
+##.vertbars
+##.vf3-conversations-list__promo
 ##.video-addBlockerWarning
 ##.viqeo-flyWidget
 ##.vismecookie
@@ -815,6 +826,7 @@ cookie-law*.$script,css
 ##div.l > .acu.act
 ##div.module-newsletter
 ##div.ot-sdk-container
+##div.subscription-widget-wrap
 ##div[aria-label="Cookie banner"]
 ##div[data-ev-component="CookieConsent"]
 ##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
@@ -838,6 +850,7 @@ amazon.*##div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
 amazon.*##div[id^="sp_detail"]
 amazon.*##div[id^="sponsoredProducts"]
 ananas.rs###__next > div:nth-last-child(-n+2)
+androidauthority.com##div[data-container-type="content"]:has(> div[class] > ul > li > strong > a[href="https://andauth.co/AAGoogleDiscoverSource"])
 apkmody.fun###body-fixed-footer
 ascii-generator.site##.agreements
 aviasales.ru##.s__y2gjNiIS0o1RA_5Ebnkw
@@ -881,6 +894,7 @@ fixthephoto.com###bf-modal
 fotor.com###rootPopup
 geeksforgeeks.org###openInApp-modal
 gemoo.com##.fixedbot
+globalmeteo.com##[style="position: fixed;bottom: 5px;padding: 5px;opacity: 0.9;width: 300px;left: 50%;transform: translateX(-50%);z-index: 1000"]
 google.com###taw > div > [data-ved]
 gorenje.com##.blurry-background
 greenmangaming.com###__tealiumGDPRecModal
@@ -914,6 +928,7 @@ itch.io##.youtube_banner
 itch.io##.youtube_mobile_banner_widget
 itv.com##.cp_dialog
 jdoodle.com##.bottom-0.fixed
+joberty.com##.cc-container
 kaspersky.com##[class*="CookiesAccept"]
 kimovil.com##.hotdeals-block
 kozmo.rs##.notification-wrapper-bottom.notification-wrapper
@@ -1144,7 +1159,6 @@ duckduckgo.com##+js(trusted-set-local-storage-item, adblockNotice, '{"dismissed"
 edreams.de###didomi-host:style(visibility: hidden !important;)
 edreams.de##body:style(overflow: auto !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
-emojipedia.org##+js(abort-current-script, Uint8Array, getAndSetOverlay)
 emulatorgames.net##+js(adjust-setInterval, #eg-timer, , 0.3)
 emulatorgames.net##+js(adjust-setInterval, , , 0.3)
 emulatorgames.net##+js(adjust-setTimeout, , 7000, 0)

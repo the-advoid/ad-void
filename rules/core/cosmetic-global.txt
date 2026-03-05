@@ -111,7 +111,6 @@
 ##.bannerBlock
 ###adBottom
 ###video-ad
-##.remove-ads
 ##.adsbytrafficjunky
 ##.facepkbdge
 ##.abovePlayer
@@ -771,7 +770,6 @@
 ##.mntl-outbrain
 ##iframe[src^="https://www.netvisiteurs.com/promotion-"]
 ##.adzone
-##.vertbars
 ###adsense-area-label
 ##.adsense-area
 ##div[class^="DisplayAd"]
@@ -1027,3 +1025,7 @@
 ##[class*="__adLeaderboard"]
 ##[class*="AdsenseAd-"]
 ##div[data-testid="adsense-wrapper"]
+##[class*="ads_adsBlock__"]
+##.player + .sponsor
+##.right-advert
+##[class*="MiddleBox__AdthriveBox-"]

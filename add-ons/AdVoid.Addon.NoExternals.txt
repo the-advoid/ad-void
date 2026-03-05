@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, location trackers, etc.
-! Version: 2.0.701
-! Last modified: 2026-02-08T00:40:25.346+01:00
+! Version: 2.0.716
+! Last modified: 2026-03-02T23:01:27.376+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 761
+! Entries: 766
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -139,16 +139,15 @@ sassy-social-share-public*.$script,css
 ###facebook-share
 ###fb-root:not(body):not(html)
 ###float-sb
+###floatingSocialShare
 ###footer-social
 ###footsocbuttons
 ###gp-social-share
 ###header-facebook-social-link
 ###header-youtube-social-link
-###js-pepco-cookies
 ###menu-footer-social-links
 ###mindsay-widget-app
 ###nav-social
-###remove_ads_link
 ###selectShareContainer
 ###share-block
 ###share-buttons
@@ -196,7 +195,6 @@ sassy-social-share-public*.$script,css
 ###twitter-icon
 ###twitter-share
 ###viber_share
-###widgetPopupFrame
 ##.actions-bar-share
 ##.actions-share
 ##.addthis
@@ -279,6 +277,7 @@ sassy-social-share-public*.$script,css
 ##.fab.fa-twitter
 ##.facebook-share
 ##.facebook-share-btn
+##.facebook_button
 ##.facebook_share
 ##.fb-like
 ##.fb-page
@@ -290,7 +289,6 @@ sassy-social-share-public*.$script,css
 ##.FollowButton
 ##.followSocial
 ##.footer-connect
-##.footer-cookies
 ##.footer-facebook
 ##.footer-follow
 ##.footer-follow-us
@@ -347,7 +345,6 @@ sassy-social-share-public*.$script,css
 ##.jeg_sticky_share
 ##.jetpack_widget_social_icons
 ##.js-social-share
-##.js-toggle-cookie-panel
 ##.js-twitter-share
 ##.jssocials
 ##.jssocials-share
@@ -570,6 +567,7 @@ sassy-social-share-public*.$script,css
 ##.social-share-sticky
 ##.social-shares-desktop
 ##.social-shares_list-item
+##.social-sharing
 ##.social-sharing__link
 ##.social-tooltip
 ##.social-widgets
@@ -654,6 +652,10 @@ sassy-social-share-public*.$script,css
 ##.uix_socialMedia
 ##.ux-social-icons
 ##.vaShare
+##.vf-share-bar
+##.vf-share-icon
+##.vf-share-menu
+##.vf-share-option
 ##.videoShare
 ##.vismesb__item
 ##.vjs-share-block
@@ -694,14 +696,17 @@ sassy-social-share-public*.$script,css
 ##[class*="social-share-links"]
 ##[class*="Social_social__links_"]
 ##[class*="SocialLinks__Container-"]
+##[class*="vf-share-bar"]
 ##[class^="es--sns-shares--"]
 ##[class^="Footer__socialWrapper"]
 ##[class^="Post-module--post__share-buttons--"]
 ##[class^="SiteFooterSocialIcons-"]
 ##[class^="SocialIconsList-"]
 ##[class^="SocialIconsWrapper-"]
+##[class^="socialShare_socialBlock__"]
 ##[data-cy^="social-share"]
 ##[data-test-id="share-button"]
+##[data-widget="sharebar"]
 ##[id^="menu-social"]
 ##[onclick^="window.open('https://twitter.com/intent/tweet"]
 ##[title="Share on Facebook"]

@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6009
-! Last modified: 2026-02-16T17:28:09.215+01:00
+! Version: 3.0.6075
+! Last modified: 2026-03-03T18:04:30.151+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8277
+! Entries: 8324
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -70,6 +70,7 @@
 ||aaxads.com^
 ||abadit5rckd.com^
 ||abedwest.com^
+||abistonfrau.com^
 ||absorbedscholarsvolatile.com^
 ||abstractedauthority.com^
 ||abtasty.com^$3p
@@ -101,6 +102,7 @@
 ||adform.net^
 ||adformdsp.net^
 ||adfox.ru^$3p
+||adgebra.co.in^
 ||adglare.net^$3p
 ||adgrid.io^$3p
 ||adhitzads.com^
@@ -129,6 +131,7 @@
 ||ads4g.pl^
 ||ads4media.online^
 ||adsafeprotected.com^
+||adsboosters.xyz^
 ||adscale.de^
 ||adscdnseed.com^$popup,doc
 ||adschill.com^
@@ -391,6 +394,7 @@
 ||brealtime.com^
 ||breathtricklealleviate.com^
 ||brithungown.com^
+||brittlesturdyunlovable.com^
 ||browser-update.org^
 ||btloader.com^
 ||btmessage.com^
@@ -534,6 +538,7 @@
 ||contagiousaugust.com^
 ||content-load.com^
 ||content-loader.com^
+||content-settings.com^$3p
 ||contentabc.com^
 ||contentexchange.me^
 ||contentinsights.com^
@@ -617,6 +622,7 @@
 ||dealsfor.life^
 ||decencyjessiebloom.com^
 ||decide.co^
+||deductgreedyheadroom.com^
 ||deductionkeepingbabysitter.com^
 ||deephicy.net^$popup,doc
 ||deepintent.com^
@@ -724,6 +730,7 @@
 ||edisin.net^
 ||edsgcgi11ii1iiwtsbno.online^
 ||edttmar.com^$popup,doc
+||educandrelock.com^
 ||eeglautsu.com^
 ||eehuzaih.com^
 ||eemedlikeama.xyz^
@@ -2889,6 +2896,7 @@
 ||hm.baidu.com^
 ||hubt.pornhub.com^
 ||i.posthog.com^
+||i.viafoura.co^
 ||iabusprivacy.pmc.com^
 ||iadsdk.apple.com^
 ||iaevent.scoopwhoop.com^
@@ -3372,12 +3380,15 @@ _pagespeed_beacon?$xhr
 
 ! {@9} XMLHttpRequest paths (site)
 *$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+.demdex.net/id^$xhr,important,redirect-rule=noop.txt
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,method=head,header=x-trace2-id,to=com
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
+://analytics.*/event$xhr
 ://plausible.*/api/event|$xhr,3p
 ||accounts.google.com/gsi/log$xhr
 ||adem.my.id^$xhr
 ||amazon.com/follow/log-metrics^$xhr
+||androidauth.wpengine.com/wp-json/api/advanced_placement$xhr
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xhr
 ||api.github.com/_private/browser/errors^$xhr
 ||awswaf.com^*/report$xhr
@@ -3416,6 +3427,7 @@ _pagespeed_beacon?$xhr
 ||imdb.com/api/_ajax/metrics/$xhr
 ||intake-analytics.wikimedia.org^$xhr
 ||linkedin.com/li/track$xhr
+||linkedin.com/platform-telemetry/$xhr
 ||linkedin.com/sensorcollect/$xhr
 ||mediadelivery.net/.metrics/$xhr
 ||metrics.imdb.com^$xhr
@@ -3449,6 +3461,7 @@ _pagespeed_beacon?$xhr
 ||token.awswaf.com/*/report|$xhr
 ||txxx.com/api/input.php^$xhr
 ||utilapi.geeksforgeeks.org/api/geo/usergeodetails/$xhr
+||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
 ||vimeo.com/ablincoln/
 ||vivaldi.com/rep/rep^$xhr
 ||weglot.com/pageviews?$xhr
@@ -3468,7 +3481,9 @@ _pagespeed_beacon?$xhr
 ||youtube.com/youtubei/v1/log_event?$xhr
 ||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 /cookie-banner$from=~antritt-hilden.de|~github.com|~kontostand.at|~praxismarketing-institut.com
+||clearbuy.com/api/cookie^$xhr
 ||contributions.guardianapis.com^$xhr
+||notifications.viafoura.co^$xhr
 ||reddit.com/svc/shreddit/experiences?names=app_selector$xhr
 ||zendesk.com/frontendevents/$xhr
 
@@ -3476,8 +3491,10 @@ _pagespeed_beacon?$xhr
 @@||doc.moplay.org/cdn-cgi/trace^$xhr
 
 ! {@11} Ping
+# websocket
 *$ping,3p
 /api/front/v2/observability$ping
+||viafoura.co/eventfeed?site_uuid=
 
 ! {@12} Files (global)
 &cx=c&gtm=$script
@@ -3732,6 +3749,7 @@ _pagespeed_beacon?$xhr
 /pixelyoursite/dist/scripts/*$script
 /plausible.js$from=~plausible.io
 /player.vast.*.js^$script
+/player/stats.php?$image,redirect-rule=1x1.gif
 /plugins/ad-invalid-click-protector/*$script
 /plugins/meks-easy-ads-widget/*$script,css
 /plugins/pixelyoursite$script
@@ -3944,6 +3962,7 @@ trekkie*.js^$script
 /otSDKStub.js^$script
 /outbrain-widget.js^$script
 /page-links-to/dist/new-tab.js^$script
+/partytown-sw.js^$script
 /popup-maker/assets/js/site.min.js^$script
 /privacy-banner/storefront-banner.js^$script
 /pushNotification*.js^$script
@@ -4043,12 +4062,12 @@ sassy-social-share-public*.$script,css
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
 *$script,redirect-rule=noop.js,from=mp4upload.com
 *$script,redirect-rule=noop.js,from=next-episode.net
-.demdex.net/id^$xhr,important,redirect-rule=noop.txt
 .info/ad/$script
 /js/analytics/fduserfingerprinttoken.js^$script,from=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /mm.js^$script,from=1337x.*|x1337x.*
 ://creative.*/widgets/spot/lib.js^$3p
 ||9xbuddy.$script,3p,from=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
+||a.vdo.ai^$script
 ||acacdn.com^$script,redirect-rule=noop.js
 ||acscdn.com/script/aclib.js^$script,redirect-rule=noop.js
 ||aliyuncs.com/r.png^$image
@@ -4177,14 +4196,12 @@ sassy-social-share-public*.$script,css
 ||turbobit.net/pus/$script
 ||unpkg.com/videojs-vast-vpaid@$script
 ||unpkg.com/web-vitals$script
-||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
 ||videonow.ru/*/vn_providers_vpaid.js^$script
 ||vimeocdn.com/ga/$script
 ||vipserije.online/images/adblock.jpg^$image
 ||viqeo.tv/*/vq_fly_widget.js^$script
 ||vk.com/js/lib/px.js^$script
 ||vk.com/rtrg?$image
-||w4m.rs/tracker.js^$script
 ||www.fotor.com/photo-editor-app/assets/img/*adblock*.jpg^$from=www.fotor.com
 ||www.techpowerup.com/reviyuu/$image,from=www.techpowerup.com
 ||wwwxxx.uno/pop-code.js^$script
@@ -5058,6 +5075,7 @@ zoneid=
 ##.pb-ad
 ##.pg-cmp-dap-row
 ##.play-page-banner
+##.player + .sponsor
 ##.player-detail__banners
 ##.player-section__ad-b
 ##.player-section__ad-block
@@ -5085,12 +5103,12 @@ zoneid=
 ##.ref89_uk_billboard
 ##.reklama:not(.ads)
 ##.related-sites
-##.remove-ads
 ##.remove-ads-link
 ##.responsive-ad-wrapper
 ##.resumecard__banner
 ##.rgtAdSection
 ##.right-ad
+##.right-advert
 ##.right-rail-ad
 ##.rightrail-ad-placed
 ##.rkads
@@ -5154,7 +5172,6 @@ zoneid=
 ##.underPlayerAd
 ##.van_taboola
 ##.van_vid_carousel
-##.vertbars
 ##.vertical-ad
 ##.video-ad
 ##.video-ad-support-mobile
@@ -5221,6 +5238,7 @@ zoneid=
 ##[class*="AdContainer"]
 ##[class*="adHesionFixed--"]
 ##[class*="Admobile"]
+##[class*="ads_adsBlock__"]
 ##[class*="AdsDialog"]
 ##[class*="AdSense"]
 ##[class*="adsense-projects-page-uas-"]
@@ -5261,6 +5279,7 @@ zoneid=
 ##[class*="is-desktop-ads-"]
 ##[class*="leaderboard-ad"]
 ##[class*="loop-ad-"]
+##[class*="MiddleBox__AdthriveBox-"]
 ##[class*="mobile-leaderboard-"]
 ##[class*="premiumAds"]
 ##[class*="PrimisPlayer__InreadContainer-"]
@@ -5523,6 +5542,7 @@ zoneid=
 ###cookienotif
 ###cookieoptin
 ###cookieoptinoverlay
+###cookiepolicy-wrap
 ###CookiePrivacyNotice
 ###cookies
 ###cookies-accept
@@ -5549,7 +5569,6 @@ zoneid=
 ###fixed-addon-banner
 ###fixedbox
 ###floatingbox
-###floatingSocialShare
 ###footer_newsletter
 ###gdpr
 ###gdpr-banner
@@ -5571,6 +5590,7 @@ zoneid=
 ###inner-consent
 ###installAndroidApp
 ###js-cookie-box
+###js-pepco-cookies
 ###kolacic
 ###m-compartir
 ###mailchimp-top-bar
@@ -5602,6 +5622,7 @@ zoneid=
 ###privacy-policy-banner
 ###redim-cookiehint
 ###redim-cookiehint-modal
+###remove_ads_link
 ###saglasnost-container
 ###scroll_top_div
 ###scroll_top_wrap
@@ -5624,6 +5645,7 @@ zoneid=
 ###usercentrics-root
 ###vpn-top
 ###webarx-cookie-notice
+###widgetPopupFrame
 ###zdcFloatingBtn
 ##.abAlertInner
 ##.acceptcookies
@@ -5740,6 +5762,7 @@ zoneid=
 ##.cookiebanner
 ##.cookiebanner-content
 ##.CookieBanner_container:not(html):not(body)
+##.cookiebar
 ##.CookieConsent
 ##.cookieconsent
 ##.cookieConsent:not(body):not(html)
@@ -5795,11 +5818,11 @@ zoneid=
 ##.expanded-dock
 ##.ezoic-floating-bottom
 ##.fa-cookie
-##.facebook_button
 ##.fd-mailchimpbar-
 ##.fit-omv2-modal
 ##.FloatingGroup
 ##.fold_article__recommmended_for_you
+##.footer-cookies
 ##.footer-newsletter
 ##.footer-sign-up
 ##.footer__cookie
@@ -5837,9 +5860,11 @@ zoneid=
 ##.js-consent-banner
 ##.js-cookie-consent
 ##.js-cookie-message-placeholder
+##.js-cookiebar
 ##.js-cookies
 ##.js-cookies-confirm
 ##.js-terms-of-use-disclaimer
+##.js-toggle-cookie-panel
 ##.JScookies-part
 ##.jsGdprNoticeHolder
 ##.jw-nextup-container
@@ -5912,6 +5937,7 @@ zoneid=
 ##.pwa-install-notification
 ##.pwa-install-notification-wrapper
 ##.rate-us
+##.remove-ads
 ##.right-rail-cta
 ##.sec-subscribe
 ##.section-cookies
@@ -5921,7 +5947,6 @@ zoneid=
 ##.site-cookie-alert
 ##.sitenotice-wrapper
 ##.sliding-popup-bottom
-##.social-sharing
 ##.space-around-cookie-consent-container
 ##.spr-bottom
 ##.sqs-cookie-banner-v2
@@ -5941,6 +5966,8 @@ zoneid=
 ##.underathover
 ##.usernotice_pop
 ##.v-privacy-policy-popup
+##.vertbars
+##.vf3-conversations-list__promo
 ##.video-addBlockerWarning
 ##.viqeo-flyWidget
 ##.vismecookie
@@ -6029,6 +6056,7 @@ zoneid=
 ##div.l > .acu.act
 ##div.module-newsletter
 ##div.ot-sdk-container
+##div.subscription-widget-wrap
 ##div[aria-label="Cookie banner"]
 ##div[data-ev-component="CookieConsent"]
 ##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
@@ -6049,16 +6077,15 @@ zoneid=
 ###facebook-share
 ###fb-root:not(body):not(html)
 ###float-sb
+###floatingSocialShare
 ###footer-social
 ###footsocbuttons
 ###gp-social-share
 ###header-facebook-social-link
 ###header-youtube-social-link
-###js-pepco-cookies
 ###menu-footer-social-links
 ###mindsay-widget-app
 ###nav-social
-###remove_ads_link
 ###selectShareContainer
 ###share-block
 ###share-buttons
@@ -6106,7 +6133,6 @@ zoneid=
 ###twitter-icon
 ###twitter-share
 ###viber_share
-###widgetPopupFrame
 ##.actions-bar-share
 ##.actions-share
 ##.addthis
@@ -6189,6 +6215,7 @@ zoneid=
 ##.fab.fa-twitter
 ##.facebook-share
 ##.facebook-share-btn
+##.facebook_button
 ##.facebook_share
 ##.fb-like
 ##.fb-page
@@ -6200,7 +6227,6 @@ zoneid=
 ##.FollowButton
 ##.followSocial
 ##.footer-connect
-##.footer-cookies
 ##.footer-facebook
 ##.footer-follow
 ##.footer-follow-us
@@ -6257,7 +6283,6 @@ zoneid=
 ##.jeg_sticky_share
 ##.jetpack_widget_social_icons
 ##.js-social-share
-##.js-toggle-cookie-panel
 ##.js-twitter-share
 ##.jssocials
 ##.jssocials-share
@@ -6480,6 +6505,7 @@ zoneid=
 ##.social-share-sticky
 ##.social-shares-desktop
 ##.social-shares_list-item
+##.social-sharing
 ##.social-sharing__link
 ##.social-tooltip
 ##.social-widgets
@@ -6564,6 +6590,10 @@ zoneid=
 ##.uix_socialMedia
 ##.ux-social-icons
 ##.vaShare
+##.vf-share-bar
+##.vf-share-icon
+##.vf-share-menu
+##.vf-share-option
 ##.videoShare
 ##.vismesb__item
 ##.vjs-share-block
@@ -6604,14 +6634,17 @@ zoneid=
 ##[class*="social-share-links"]
 ##[class*="Social_social__links_"]
 ##[class*="SocialLinks__Container-"]
+##[class*="vf-share-bar"]
 ##[class^="es--sns-shares--"]
 ##[class^="Footer__socialWrapper"]
 ##[class^="Post-module--post__share-buttons--"]
 ##[class^="SiteFooterSocialIcons-"]
 ##[class^="SocialIconsList-"]
 ##[class^="SocialIconsWrapper-"]
+##[class^="socialShare_socialBlock__"]
 ##[data-cy^="social-share"]
 ##[data-test-id="share-button"]
+##[data-widget="sharebar"]
 ##[id^="menu-social"]
 ##[onclick^="window.open('https://twitter.com/intent/tweet"]
 ##[title="Share on Facebook"]
@@ -6668,10 +6701,12 @@ alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-te
 alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
 amazon.*###desktop-dp-ilm_feature_div_01
 amazon.*###nav-swmslot
-amazon.*###nav-swmslot
 amazon.*##div[cel_widget_id*="_ad-placements-"]
 amazon.*##div[cel_widget_id*="desktop-dp-"]
 amazon.*##div[cel_widget_id^="adplacements:"]
+androidauthority.com##div[class]:has(> .pw-incontent)
+androidauthority.com##div[class]:has(> div[data-ad-type]:only-child)
+androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
 apkcombo.com##.column > div.widget:has(> a.installer)
 apkcombo.com##.diseanmevrtt
 apkdone.com##div[style^="height:250px"]
@@ -6740,6 +6775,10 @@ elevenforum.com##.p-body-sidebar > .block-container
 emoji.gg###yousmell
 emojipedia.org##.h-\[312px\]
 emojipedia.org##.items-center.flex-col.flex:has-text(Advertisement)
+emojipedia.org##.items-center:has([class^="AdContainer_ad"])
+emojipedia.org##.text-\[\#adadad\]
+emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
+emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
 emulatorgames.net##[class*="-label"]
 emulatorgames.net##[class*="site-unit"]
 eporner.com##.hptab
@@ -6779,6 +6818,7 @@ giphy.com##div.device-desktop
 glosbe.com###topTrufleContainer
 glosbe.com##.right-sidebar-trufle-container
 glosbe.com##div[id*="Trufle"]
+gofile.io###index_ads
 goodreads.com##.SiteHeaderBanner
 google.*###atvcap
 google.*###tvcap
@@ -6830,6 +6870,7 @@ kiktu.com##div[data-elementor-type="footer"] > div:first-child
 kimovil.com##.kau
 kurir.rs##.placeholder250px
 leetcode.com##[class*="lc-ads__"]
+linkedin.com###ads-container
 livestreamxtv.com##.container > .rounded.border.text-dark.bg-light.row
 livetvkodiserbia.com##.yt2.livetvaserbia.top
 mamul.am##div[style="height:29px"] + div.cont
@@ -6983,7 +7024,6 @@ w3schools.com###skyscraper
 watchadsontape.com##.play-overlay
 weather.com##.region-contentBottom:has([id^="WxuAd"])
 weather.com##section[aria-label="Sponsored Content"]
-weather.com##section[aria-label="Sponsored Content"]
 weather.com##section[title="Sponsored Content"]
 webextension.org###adb
 webmd.com###ContentPane40
@@ -7035,6 +7075,7 @@ amazon.*##div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
 amazon.*##div[id^="sp_detail"]
 amazon.*##div[id^="sponsoredProducts"]
 ananas.rs###__next > div:nth-last-child(-n+2)
+androidauthority.com##div[data-container-type="content"]:has(> div[class] > ul > li > strong > a[href="https://andauth.co/AAGoogleDiscoverSource"])
 apkmody.fun###body-fixed-footer
 ascii-generator.site##.agreements
 aviasales.ru##.s__y2gjNiIS0o1RA_5Ebnkw
@@ -7078,6 +7119,7 @@ fixthephoto.com###bf-modal
 fotor.com###rootPopup
 geeksforgeeks.org###openInApp-modal
 gemoo.com##.fixedbot
+globalmeteo.com##[style="position: fixed;bottom: 5px;padding: 5px;opacity: 0.9;width: 300px;left: 50%;transform: translateX(-50%);z-index: 1000"]
 google.com###taw > div > [data-ved]
 gorenje.com##.blurry-background
 greenmangaming.com###__tealiumGDPRecModal
@@ -7111,6 +7153,7 @@ itch.io##.youtube_banner
 itch.io##.youtube_mobile_banner_widget
 itv.com##.cp_dialog
 jdoodle.com##.bottom-0.fixed
+joberty.com##.cc-container
 kaspersky.com##[class*="CookiesAccept"]
 kimovil.com##.hotdeals-block
 kozmo.rs##.notification-wrapper-bottom.notification-wrapper
@@ -7523,6 +7566,7 @@ emoji.gg##+js(nobab)
 emoji.gg##+js(prevent-xhr, adsbygoogle)
 emoji.gg##+js(remove-node-text, script, self.loadPW)
 emoji.gg##+js(remove-node-text, script, smelly)
+emojipedia.org##+js(abort-current-script, document.createElement, abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=)
 eporner.com##+js(abort-on-property-write, EPeventFire)
 eporner.com##+js(no-setTimeout-if, additional_src, 300)
 eporner.com##+js(remove-node-text, script, /adb/i)
@@ -7568,6 +7612,8 @@ gayteam.club##+js(abort-on-property-read, AaDetector)
 glosbe.com##.dictionary-grid:matches-media((min-width: 1024px)):style(grid-template-columns: minmax(180px,200px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-template-columns: minmax(180px,250px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 glosbe.com##.dictionary-grid:matches-media((min-width: 768px)):style(grid-template-rows: 0 auto !important;)
+gofile.*##+js(prevent-addEventListener, click, popMagic)
+gofile.*##+js(set-constant, launchAds, noopFunc)
 google.*##+js(remove-attr, data-jsarwt, #rcnt [data-ved] a)
 gosexpod.com##+js(abort-on-property-read, document.dispatchEvent)
 gosexpod.com##+js(addEventListener-defuser, click, my_inter_listen)
@@ -7948,6 +7994,8 @@ weather.com##+js(set-cookie, __adblocker, false, , reload, 1)
 whats-on-netflix.com##+js(abort-current-script, eval, replace)
 whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
 wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
+wionews.com##+js(json-prune, conf.enableHeaderBidding)
+wionews.com##+js(set-constant, vgrAdBlock, false)
 wizzair.com##+js(set-session-storage-item, bookingSearchAlreadyOpened, true)
 wmovies.one##+js(prevent-window-open)
 wootly.ch##+js(disable-newtab-links)
@@ -8094,7 +8142,6 @@ duckduckgo.com##+js(trusted-set-local-storage-item, adblockNotice, '{"dismissed"
 edreams.de###didomi-host:style(visibility: hidden !important;)
 edreams.de##body:style(overflow: auto !important;)
 elle.com##+js(remove-class, glimmer-sticky, .content-lede-video.glimmer-sticky-container .glimmerPlayer.glimmer-sticky)
-emojipedia.org##+js(abort-current-script, Uint8Array, getAndSetOverlay)
 emulatorgames.net##+js(adjust-setInterval, #eg-timer, , 0.3)
 emulatorgames.net##+js(adjust-setInterval, , , 0.3)
 emulatorgames.net##+js(adjust-setTimeout, , 7000, 0)

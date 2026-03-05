@@ -151,9 +151,7 @@
 ||log.medietall.no^$script
 ||tns-cs.net^$3p,image
 .info/ad/$script
-.demdex.net/id^$xhr,important,redirect-rule=noop.txt
 ||npttech.com/advertising.js^$script,important,from=~vijesti.me
 ||jwpcdn.com/player/*/googima.js^$script
-||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
 ||vipserije.online/images/adblock.jpg^$image
-||w4m.rs/tracker.js^$script
+||a.vdo.ai^$script

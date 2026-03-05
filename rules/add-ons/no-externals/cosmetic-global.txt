@@ -99,8 +99,6 @@
 ##.elementor-share-btn
 ##.social-circle
 ##.blog-post-info-social
-###js-pepco-cookies
-##.footer-cookies
 ##.ghacks_share_widget
 ##.mashsb-box
 ##.button-share
@@ -187,7 +185,6 @@
 ##.jssocials
 ###shareicons
 ##.resp-sharing-button
-##.js-toggle-cookie-panel
 ##.novashare-buttons
 ##.novashare-floating
 ##.share-button
@@ -366,7 +363,6 @@
 ##.sharethis-inline-share-buttons
 ##.sheringbuttons
 ##.social-line
-###remove_ads_link
 ###social-icons
 ##.social-widgets
 ###viber_share
@@ -488,7 +484,6 @@
 ##.twitter-custom
 ##.social-l
 ##.share-popup
-###widgetPopupFrame
 ###smartsupp-widget-container
 ##.social-footer
 ###___plusone_0
@@ -607,3 +602,13 @@
 ##button[data-a-target="share-button"]
 ##.elementor-widget-share-buttons
 ##.social_share_wrapper
+##.social-sharing
+###floatingSocialShare
+##.facebook_button
+##[class^="socialShare_socialBlock__"]
+##.vf-share-menu
+##.vf-share-option
+##.vf-share-icon
+##.vf-share-bar
+##[class*="vf-share-bar"]
+##[data-widget="sharebar"]

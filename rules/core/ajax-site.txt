@@ -95,3 +95,8 @@
 ||accounts.google.com/gsi/log$xhr
 ||awswaf.com^*/report$xhr
 ||yandex.ru/ads/adfox/$xhr
+||linkedin.com/platform-telemetry/$xhr
+||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
+.demdex.net/id^$xhr,important,redirect-rule=noop.txt
+||androidauth.wpengine.com/wp-json/api/advanced_placement$xhr
+://analytics.*/event$xhr

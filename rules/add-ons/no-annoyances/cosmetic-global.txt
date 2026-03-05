@@ -37,7 +37,6 @@
 ###ban-cont
 ##.cookie-policy-box
 ###m-compartir
-##.social-sharing
 ##.nl-signup-inline
 ##[class^="ContentFooterNewsletterContentWrapper-"]
 ##.next-news-item
@@ -59,8 +58,6 @@
 ##.sliding-popup-bottom
 ###userAcceptCookieCont
 ##.grt-cookie
-###floatingSocialShare
-##.facebook_button
 ##.cookie-dialog-wrapper
 ##.cookie-ribbon-container
 ##.newsletter_form
@@ -600,3 +597,15 @@
 ##.fs-consent_component
 ##.fs-consent_banner
 ##div[data-ev-component="CookieConsent"]
+##.js-cookiebar
+##.cookiebar
+###js-pepco-cookies
+##.footer-cookies
+##.js-toggle-cookie-panel
+###remove_ads_link
+###widgetPopupFrame
+##.remove-ads
+##.vertbars
+###cookiepolicy-wrap
+##.vf3-conversations-list__promo
+##div.subscription-widget-wrap

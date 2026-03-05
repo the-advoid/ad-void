@@ -14,7 +14,7 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.4337-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
+  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.4378-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core file size badge - lightweight ad-block filter by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/size/the-advoid/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900&label=Size"></a>
   <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://data.jsdelivr.com/v1/package/gh/the-advoid/ad-void/badge" alt="AdVoid CDN badge - fast, reliable ad-block filter list by Igor Dimitrijević (@igorskyflyer), hosted on jsDelivr for global privacy protection"></a>
   <br>
@@ -61,6 +61,7 @@
 - [**Case Study**](#-case-study)
   - [**Divergence Pt. 1**](#-divergence-pt-1)
   - [**Divergence Pt. 2**](#-divergence-pt-2)
+  - [**Divergence Pt. 3**](#-divergence-pt-3)
 - [**Productivity Gains**](#-productivity-gains)
 - [**Alternative Sources**](#-alternative-sources)
 - [**Disclaimer**](#️-disclaimer)
@@ -531,6 +532,10 @@ The add-ons were:
 - [**AdVoid.Addon.NoExternals**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExternals.txt) - blocks external features: sharing, Google Chromecast, etc.
 - [**AdVoid.Addon.NoExtras**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoExtras.txt) - blocks non-essential resources: news widgets, JavaScript and CSS maps, PWA install banners, etc.
 - [**AdVoid.Addon.Experiments**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.Experiments.txt) - unstable and experimental filter list, use only for testing purposes and with caution since it may break certain sites.
+
+<br>
+
+#### 🐛 Divergence Pt. 3
 
 ---
 

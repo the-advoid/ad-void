@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4337
-! Last modified: 2026-02-16T17:28:02.708+01:00
+! Version: 3.0.4378
+! Last modified: 2026-03-03T18:04:24.109+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6160
+! Entries: 6188
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -70,6 +70,7 @@
 ||aaxads.com^
 ||abadit5rckd.com^
 ||abedwest.com^
+||abistonfrau.com^
 ||absorbedscholarsvolatile.com^
 ||abstractedauthority.com^
 ||abtasty.com^$3p
@@ -101,6 +102,7 @@
 ||adform.net^
 ||adformdsp.net^
 ||adfox.ru^$3p
+||adgebra.co.in^
 ||adglare.net^$3p
 ||adgrid.io^$3p
 ||adhitzads.com^
@@ -129,6 +131,7 @@
 ||ads4g.pl^
 ||ads4media.online^
 ||adsafeprotected.com^
+||adsboosters.xyz^
 ||adscale.de^
 ||adscdnseed.com^$popup,doc
 ||adschill.com^
@@ -391,6 +394,7 @@
 ||brealtime.com^
 ||breathtricklealleviate.com^
 ||brithungown.com^
+||brittlesturdyunlovable.com^
 ||browser-update.org^
 ||btloader.com^
 ||btmessage.com^
@@ -534,6 +538,7 @@
 ||contagiousaugust.com^
 ||content-load.com^
 ||content-loader.com^
+||content-settings.com^$3p
 ||contentabc.com^
 ||contentexchange.me^
 ||contentinsights.com^
@@ -617,6 +622,7 @@
 ||dealsfor.life^
 ||decencyjessiebloom.com^
 ||decide.co^
+||deductgreedyheadroom.com^
 ||deductionkeepingbabysitter.com^
 ||deephicy.net^$popup,doc
 ||deepintent.com^
@@ -724,6 +730,7 @@
 ||edisin.net^
 ||edsgcgi11ii1iiwtsbno.online^
 ||edttmar.com^$popup,doc
+||educandrelock.com^
 ||eeglautsu.com^
 ||eehuzaih.com^
 ||eemedlikeama.xyz^
@@ -2821,6 +2828,7 @@
 ||hm.baidu.com^
 ||hubt.pornhub.com^
 ||i.posthog.com^
+||i.viafoura.co^
 ||iabusprivacy.pmc.com^
 ||iadsdk.apple.com^
 ||iaevent.scoopwhoop.com^
@@ -3276,12 +3284,15 @@ _pagespeed_beacon?$xhr
 
 ! {@10} AJAX paths (site)
 *$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+.demdex.net/id^$xhr,important,redirect-rule=noop.txt
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,method=head,header=x-trace2-id,to=com
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
+://analytics.*/event$xhr
 ://plausible.*/api/event|$xhr,3p
 ||accounts.google.com/gsi/log$xhr
 ||adem.my.id^$xhr
 ||amazon.com/follow/log-metrics^$xhr
+||androidauth.wpengine.com/wp-json/api/advanced_placement$xhr
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xhr
 ||api.github.com/_private/browser/errors^$xhr
 ||awswaf.com^*/report$xhr
@@ -3320,6 +3331,7 @@ _pagespeed_beacon?$xhr
 ||imdb.com/api/_ajax/metrics/$xhr
 ||intake-analytics.wikimedia.org^$xhr
 ||linkedin.com/li/track$xhr
+||linkedin.com/platform-telemetry/$xhr
 ||linkedin.com/sensorcollect/$xhr
 ||mediadelivery.net/.metrics/$xhr
 ||metrics.imdb.com^$xhr
@@ -3353,6 +3365,7 @@ _pagespeed_beacon?$xhr
 ||token.awswaf.com/*/report|$xhr
 ||txxx.com/api/input.php^$xhr
 ||utilapi.geeksforgeeks.org/api/geo/usergeodetails/$xhr
+||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
 ||vimeo.com/ablincoln/
 ||vivaldi.com/rep/rep^$xhr
 ||weglot.com/pageviews?$xhr
@@ -3376,8 +3389,10 @@ _pagespeed_beacon?$xhr
 @@||doc.moplay.org/cdn-cgi/trace^$xhr
 
 ! {@12} Ping
+# websocket
 *$ping,3p
 /api/front/v2/observability$ping
+||viafoura.co/eventfeed?site_uuid=
 
 ! {@13} Files (global)
 &cx=c&gtm=$script
@@ -3632,6 +3647,7 @@ _pagespeed_beacon?$xhr
 /pixelyoursite/dist/scripts/*$script
 /plausible.js$from=~plausible.io
 /player.vast.*.js^$script
+/player/stats.php?$image,redirect-rule=1x1.gif
 /plugins/ad-invalid-click-protector/*$script
 /plugins/meks-easy-ads-widget/*$script,css
 /plugins/pixelyoursite$script
@@ -3779,12 +3795,12 @@ trekkie*.js^$script
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
 *$script,redirect-rule=noop.js,from=mp4upload.com
 *$script,redirect-rule=noop.js,from=next-episode.net
-.demdex.net/id^$xhr,important,redirect-rule=noop.txt
 .info/ad/$script
 /js/analytics/fduserfingerprinttoken.js^$script,from=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /mm.js^$script,from=1337x.*|x1337x.*
 ://creative.*/widgets/spot/lib.js^$3p
 ||9xbuddy.$script,3p,from=~9xbud.com|~disqus.com|~disquscdn.com|~jwpsrv.com|~plyr.io|~jsdelivr.net|~twimg.com|~twitter.com|~fastly.net|~fastlylb.net|~jquery.com|~hwcdn.net|~hcaptcha.com|~recaptcha.net|~cloudflare.com|~cloudflare.net|~google.com|~googleapis.com|~gstatic.com
+||a.vdo.ai^$script
 ||acacdn.com^$script,redirect-rule=noop.js
 ||acscdn.com/script/aclib.js^$script,redirect-rule=noop.js
 ||aliyuncs.com/r.png^$image
@@ -3913,14 +3929,12 @@ trekkie*.js^$script
 ||turbobit.net/pus/$script
 ||unpkg.com/videojs-vast-vpaid@$script
 ||unpkg.com/web-vitals$script
-||vast.yomeno.xyz^$xhr,redirect-rule=noop.txt
 ||videonow.ru/*/vn_providers_vpaid.js^$script
 ||vimeocdn.com/ga/$script
 ||vipserije.online/images/adblock.jpg^$image
 ||viqeo.tv/*/vq_fly_widget.js^$script
 ||vk.com/js/lib/px.js^$script
 ||vk.com/rtrg?$image
-||w4m.rs/tracker.js^$script
 ||www.fotor.com/photo-editor-app/assets/img/*adblock*.jpg^$from=www.fotor.com
 ||www.techpowerup.com/reviyuu/$image,from=www.techpowerup.com
 ||wwwxxx.uno/pop-code.js^$script
@@ -4762,6 +4776,7 @@ zoneid=
 ##.pb-ad
 ##.pg-cmp-dap-row
 ##.play-page-banner
+##.player + .sponsor
 ##.player-detail__banners
 ##.player-section__ad-b
 ##.player-section__ad-block
@@ -4789,12 +4804,12 @@ zoneid=
 ##.ref89_uk_billboard
 ##.reklama:not(.ads)
 ##.related-sites
-##.remove-ads
 ##.remove-ads-link
 ##.responsive-ad-wrapper
 ##.resumecard__banner
 ##.rgtAdSection
 ##.right-ad
+##.right-advert
 ##.right-rail-ad
 ##.rightrail-ad-placed
 ##.rkads
@@ -4858,7 +4873,6 @@ zoneid=
 ##.underPlayerAd
 ##.van_taboola
 ##.van_vid_carousel
-##.vertbars
 ##.vertical-ad
 ##.video-ad
 ##.video-ad-support-mobile
@@ -4925,6 +4939,7 @@ zoneid=
 ##[class*="AdContainer"]
 ##[class*="adHesionFixed--"]
 ##[class*="Admobile"]
+##[class*="ads_adsBlock__"]
 ##[class*="AdsDialog"]
 ##[class*="AdSense"]
 ##[class*="adsense-projects-page-uas-"]
@@ -4965,6 +4980,7 @@ zoneid=
 ##[class*="is-desktop-ads-"]
 ##[class*="leaderboard-ad"]
 ##[class*="loop-ad-"]
+##[class*="MiddleBox__AdthriveBox-"]
 ##[class*="mobile-leaderboard-"]
 ##[class*="premiumAds"]
 ##[class*="PrimisPlayer__InreadContainer-"]
@@ -5161,10 +5177,12 @@ alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-te
 alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
 amazon.*###desktop-dp-ilm_feature_div_01
 amazon.*###nav-swmslot
-amazon.*###nav-swmslot
 amazon.*##div[cel_widget_id*="_ad-placements-"]
 amazon.*##div[cel_widget_id*="desktop-dp-"]
 amazon.*##div[cel_widget_id^="adplacements:"]
+androidauthority.com##div[class]:has(> .pw-incontent)
+androidauthority.com##div[class]:has(> div[data-ad-type]:only-child)
+androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
 apkcombo.com##.column > div.widget:has(> a.installer)
 apkcombo.com##.diseanmevrtt
 apkdone.com##div[style^="height:250px"]
@@ -5233,6 +5251,10 @@ elevenforum.com##.p-body-sidebar > .block-container
 emoji.gg###yousmell
 emojipedia.org##.h-\[312px\]
 emojipedia.org##.items-center.flex-col.flex:has-text(Advertisement)
+emojipedia.org##.items-center:has([class^="AdContainer_ad"])
+emojipedia.org##.text-\[\#adadad\]
+emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
+emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
 emulatorgames.net##[class*="-label"]
 emulatorgames.net##[class*="site-unit"]
 eporner.com##.hptab
@@ -5272,6 +5294,7 @@ giphy.com##div.device-desktop
 glosbe.com###topTrufleContainer
 glosbe.com##.right-sidebar-trufle-container
 glosbe.com##div[id*="Trufle"]
+gofile.io###index_ads
 goodreads.com##.SiteHeaderBanner
 google.*###atvcap
 google.*###tvcap
@@ -5323,6 +5346,7 @@ kiktu.com##div[data-elementor-type="footer"] > div:first-child
 kimovil.com##.kau
 kurir.rs##.placeholder250px
 leetcode.com##[class*="lc-ads__"]
+linkedin.com###ads-container
 livestreamxtv.com##.container > .rounded.border.text-dark.bg-light.row
 livetvkodiserbia.com##.yt2.livetvaserbia.top
 mamul.am##div[style="height:29px"] + div.cont
@@ -5475,7 +5499,6 @@ w3schools.com###mainLeaderboard
 w3schools.com###skyscraper
 watchadsontape.com##.play-overlay
 weather.com##.region-contentBottom:has([id^="WxuAd"])
-weather.com##section[aria-label="Sponsored Content"]
 weather.com##section[aria-label="Sponsored Content"]
 weather.com##section[title="Sponsored Content"]
 webextension.org###adb
@@ -5718,6 +5741,7 @@ emoji.gg##+js(nobab)
 emoji.gg##+js(prevent-xhr, adsbygoogle)
 emoji.gg##+js(remove-node-text, script, self.loadPW)
 emoji.gg##+js(remove-node-text, script, smelly)
+emojipedia.org##+js(abort-current-script, document.createElement, abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=)
 eporner.com##+js(abort-on-property-write, EPeventFire)
 eporner.com##+js(no-setTimeout-if, additional_src, 300)
 eporner.com##+js(remove-node-text, script, /adb/i)
@@ -5763,6 +5787,8 @@ gayteam.club##+js(abort-on-property-read, AaDetector)
 glosbe.com##.dictionary-grid:matches-media((min-width: 1024px)):style(grid-template-columns: minmax(180px,200px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-template-columns: minmax(180px,250px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
 glosbe.com##.dictionary-grid:matches-media((min-width: 768px)):style(grid-template-rows: 0 auto !important;)
+gofile.*##+js(prevent-addEventListener, click, popMagic)
+gofile.*##+js(set-constant, launchAds, noopFunc)
 google.*##+js(remove-attr, data-jsarwt, #rcnt [data-ved] a)
 gosexpod.com##+js(abort-on-property-read, document.dispatchEvent)
 gosexpod.com##+js(addEventListener-defuser, click, my_inter_listen)
@@ -6143,6 +6169,8 @@ weather.com##+js(set-cookie, __adblocker, false, , reload, 1)
 whats-on-netflix.com##+js(abort-current-script, eval, replace)
 whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
 wikihow.com##+js(set-constant, Object.prototype.getTargetingMap, noopFunc)
+wionews.com##+js(json-prune, conf.enableHeaderBidding)
+wionews.com##+js(set-constant, vgrAdBlock, false)
 wizzair.com##+js(set-session-storage-item, bookingSearchAlreadyOpened, true)
 wmovies.one##+js(prevent-window-open)
 wootly.ch##+js(disable-newtab-links)

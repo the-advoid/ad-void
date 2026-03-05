@@ -361,14 +361,21 @@ backloggd.com###game-page-desktop-center-unit
 cssbattle.dev##div.sponsor-containerr
 stripchat.com##div[class*="banner-container"]
 weather.com##section[title="Sponsored Content"]
-weather.com##section[aria-label="Sponsored Content"]
 prva.rs##div[id^="midasWidget"]
 amazon.*##div[cel_widget_id^="adplacements:"]
 amazon.*##div[cel_widget_id*="desktop-dp-"]
 amazon.*###desktop-dp-ilm_feature_div_01
 amazon.*##div[cel_widget_id*="_ad-placements-"]
-amazon.*###nav-swmslot
 gbmb.org##main > div.center
 alternativeto.net##div[data-testid="put-food-on-the-table"]
 alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
 alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-testid="adsense-wrapper"])
+linkedin.com###ads-container
+androidauthority.com##div[class]:has(> .pw-incontent)
+androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
+androidauthority.com##div[class]:has(> div[data-ad-type]:only-child)
+gofile.io###index_ads
+emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
+emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
+emojipedia.org##.text-\[\#adadad\]
+emojipedia.org##.items-center:has([class^="AdContainer_ad"])
