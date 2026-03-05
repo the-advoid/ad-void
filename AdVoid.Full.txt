@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6076
-! Last modified: 2026-03-05T21:12:49.260+01:00
+! Version: 3.0.6077
+! Last modified: 2026-03-05T21:13:40.715+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8325
+! Entries: 8326
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7441,6 +7441,7 @@ apkmody.*##+js(abort-current-script, parseInt, break;case $.)
 apkmody.*##+js(addEventListener-defuser, , break;case $.)
 apkmody.*##+js(no-window-open-if)
 archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn##+js(nosiif, fetch)
+archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn##^script:has-text(Math.random\(\).toString\(36\))
 archive.org##+js(set-constant, archive_analytics, noopFunc)
 archive.org##+js(set-constant, archive_analytics.create_tracking_image, noopFunc)
 archive.org##+js(set-constant, archive_analytics.get_data_packets, noopFunc)
