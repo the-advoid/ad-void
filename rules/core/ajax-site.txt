@@ -100,3 +100,4 @@
 .demdex.net/id^$xhr,important,redirect-rule=noop.txt
 ||androidauth.wpengine.com/wp-json/api/advanced_placement$xhr
 ://analytics.*/event$xhr
+||gyrovague.com^$xhr,domain=archive.is|archive.ph|archive.md|archive.today|archive.fo|archive.li|archive.vn
