@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1433
-! Last modified: 2026-03-23T21:24:56.498+01:00
+! Version: 2.0.1434
+! Last modified: 2026-03-23T21:25:19.833+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1360
+! Entries: 1361
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1153,6 +1153,7 @@ dailymotion.com##+js(set-cookie-reload, cookie_policy_closed, 1)
 dailymotion.com##+js(trusted-set-cookie, dm-euconsent-v2, CPt6yMAPt6yMABpAGAENDECgAAAAAH_AAAqIAAAS3AJMNW4gC7MocGbQMIoEQIwrCQigUAEFAMLRAQAODgp2VgE-sIkAKAUARgRAhwBRkQCAAASAJCIAJAiwQAAAiAQAAgAQCIQAMDAIKACwEAgABAdAxRCgAECQgSIiIhTAgKgSCAlsqEEoLpDTCAKssAKARGwUACIJARWAAICwcAwRICViwQJMQbRAAMAKAUSoVqKT00BCxmQAAAAA, 1year)
 decider.com##+js(abort-on-property-read, googletag.cmd)
 decider.com##+js(set-constant, admiral, noopFunc)
+dnevnik.hr##+js(trusted-click-element, #didomi-notice-agree-button, '', 1000)
 dood.re##+js(addEventListener-defuser, contextmenu)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
 duckduckgo.com##+js(set-cookie, dcm, 3)
