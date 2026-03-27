@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.101
-! Last modified: 2026-03-02T23:41:46.754+01:00
+! Version: 1.0.102
+! Last modified: 2026-03-23T21:24:19.863+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5406
+! Entries: 5415
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2371,6 +2371,7 @@
 ||wargaming.net^
 ||waspilysagene.com^
 ||watch-movies-time.club^
+||watchetifuters.cloud^
 ||waust.at^
 ||waveelectbarn.com^
 ||wboptim.online^
@@ -3287,6 +3288,7 @@ _pagespeed_beacon?$xhr
 ||google.com/log?$xhr,redirect-rule=noop.txt
 ||grok.com/api/statsig/$xhr
 ||gsmarena.com/*.php3?sSearch=$xhr,1p,from=gsmarena.com
+||gyrovague.com^$xhr,domain=archive.is|archive.ph|archive.md|archive.today|archive.fo|archive.li|archive.vn
 ||hoo.be/api/hoobe/analytics$xhr
 ||hqq.*/cdn-cgi/trace$xhr
 ||hqq.*/cdn-cgi/trace$xhr,1p,important
@@ -4697,6 +4699,7 @@ zoneid=
 ##.resumecard__banner
 ##.rgtAdSection
 ##.right-ad
+##.right-advert
 ##.right-rail-ad
 ##.rightrail-ad-placed
 ##.rkads
@@ -4867,6 +4870,7 @@ zoneid=
 ##[class*="is-desktop-ads-"]
 ##[class*="leaderboard-ad"]
 ##[class*="loop-ad-"]
+##[class*="MiddleBox__AdthriveBox-"]
 ##[class*="mobile-leaderboard-"]
 ##[class*="premiumAds"]
 ##[class*="PrimisPlayer__InreadContainer-"]
@@ -5118,6 +5122,8 @@ cosmopolitan.com##section > div[class*="css-"]:has(> div[id^="gpt-ad"])
 cpu-monkey.com##.werb
 cssbattle.dev##div.sponsor-containerr
 distractify.com##.dpbdIG
+dnevnik.hr##^script:has-text(await eval)
+dnevnik.hr##^script[onload*="error-report.com"]
 downforeveryoneorjustme.com###bsa
 driverscloud.com##.dcpub
 duckduckgo.com##.button_size-md__dS3Yr.button_secondary__DAail
@@ -5137,6 +5143,9 @@ elevenforum.com##.p-body-sidebar > .block-container
 emoji.gg###yousmell
 emojipedia.org##.h-\[312px\]
 emojipedia.org##.items-center.flex-col.flex:has-text(Advertisement)
+emojipedia.org##.items-center:has([class^="AdContainer_ad"])
+emojipedia.org##.text-\[\#adadad\]
+emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
 emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
 emulatorgames.net##[class*="-label"]
 emulatorgames.net##[class*="site-unit"]
