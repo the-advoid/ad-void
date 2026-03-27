@@ -1,0 +1,45 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+@ [ADBT 2.0.0]
+
+header './templates/headers/advoid-header.txt'
+
+meta title = 'AdVoid.Scriptlets.All'
+meta description = 'Hardens user privacy and block anti-blockers. 🛡️'
+meta expires = '96 hours (update frequency)'
+
+nl
+
+tag 'Primitives'
+include './rules/scriptlets/privacy/primitives.txt'
+include './rules/scriptlets/anti-antiadblock/primitives.txt'
+
+nl
+
+tag 'LocalStorage entries'
+include './rules/scriptlets/privacy/localstorage.txt'
+
+nl
+
+tag 'Functions'
+include './rules/scriptlets/privacy/functions.txt'
+include './rules/scriptlets/anti-antiadblock/functions.txt'
+
+nl
+
+tag 'Advanced functions'
+include './rules/scriptlets/privacy/advanced.txt'
+include './rules/scriptlets/anti-antiadblock/advanced.txt'
+
+nl
+
+tag 'HTML'
+include './rules/scriptlets/privacy/html-filtering.txt'
+
+nl
+
+tag 'Objects'
+include './rules/scriptlets/anti-antiadblock/objects.txt'
+
+export './scriptlets/AdVoid.Scriptlets.All.txt'
