@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6079
-! Last modified: 2026-03-05T21:29:39.275+01:00
+! Version: 3.0.6086
+! Last modified: 2026-03-23T21:26:34.734+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8328
+! Entries: 8335
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2371,6 +2371,7 @@
 ||wargaming.net^
 ||waspilysagene.com^
 ||watch-movies-time.club^
+||watchetifuters.cloud^
 ||waust.at^
 ||waveelectbarn.com^
 ||wboptim.online^
@@ -4829,6 +4830,7 @@ zoneid=
 ##.banner-dl
 ##.banner-feed
 ##.banner-frame
+##.banner-holder
 ##.banner-leaderboard
 ##.banner-mpu
 ##.banner-placeholder-text
@@ -6757,6 +6759,8 @@ cosmopolitan.com##section > div[class*="css-"]:has(> div[id^="gpt-ad"])
 cpu-monkey.com##.werb
 cssbattle.dev##div.sponsor-containerr
 distractify.com##.dpbdIG
+dnevnik.hr##^script:has-text(await eval)
+dnevnik.hr##^script[onload*="error-report.com"]
 downforeveryoneorjustme.com###bsa
 driverscloud.com##.dcpub
 duckduckgo.com##.button_size-md__dS3Yr.button_secondary__DAail
@@ -7104,6 +7108,7 @@ dentalnewspk.com##.footer-top-wrap
 dev.to###runtime-banner-container
 dictionary.com##.gform_wrapper
 disqus.com###email-signup
+dnevnik.hr##+js(remove-class, jw-flag-floating, .main-media-holder > div.video-player > div.jwplayer)
 docs.google.com##.docs-ml-promotion
 duckduckgo.com##.header--aside.js-header-aside > .header--aside__item > [class]
 duckduckgo.com##.header__search-wrap + div.header--aside > div.header--aside__item
@@ -7542,6 +7547,7 @@ dev.to##+js(remove-cookie, ahoy_visitor)
 discord.com##+js(prevent-xhr, discord.com/api/v9/science)
 disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
 disqus.com##+js(href-sanitizer, a[href^="https://disq.us/url?url="][title^="http"], [title])
+dnevnik.hr##+js(trusted-replace-argument, HTMLScriptElement.prototype.setAttribute, 1, '', condition, /error-report|new Promise/)
 docs.google.com##+js(prevent-xhr, method:POST url:/logImpressions)
 domaceserije.net##+js(no-window-open-if)
 dood.*##+js(abort-current-script, decodeURI, decodeURIComponent)
@@ -8139,6 +8145,7 @@ dailymotion.com##+js(set-cookie-reload, cookie_policy_closed, 1)
 dailymotion.com##+js(trusted-set-cookie, dm-euconsent-v2, CPt6yMAPt6yMABpAGAENDECgAAAAAH_AAAqIAAAS3AJMNW4gC7MocGbQMIoEQIwrCQigUAEFAMLRAQAODgp2VgE-sIkAKAUARgRAhwBRkQCAAASAJCIAJAiwQAAAiAQAAgAQCIQAMDAIKACwEAgABAdAxRCgAECQgSIiIhTAgKgSCAlsqEEoLpDTCAKssAKARGwUACIJARWAAICwcAwRICViwQJMQbRAAMAKAUSoVqKT00BCxmQAAAAA, 1year)
 decider.com##+js(abort-on-property-read, googletag.cmd)
 decider.com##+js(set-constant, admiral, noopFunc)
+dnevnik.hr##+js(trusted-click-element, #didomi-notice-agree-button, '', 1000)
 dood.re##+js(addEventListener-defuser, contextmenu)
 ds2play.com##+js(adjust-setInterval, .countdown, , 0.02)
 duckduckgo.com##+js(set-cookie, dcm, 3)
