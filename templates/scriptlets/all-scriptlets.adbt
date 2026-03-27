@@ -6,7 +6,7 @@
 header './templates/headers/advoid-header.txt'
 
 meta title = 'AdVoid.Scriptlets.All'
-meta description = 'Hardens user privacy and block anti-blockers. 🛡️'
+meta description = 'Hardens user privacy and blocks anti-blockers. 🛡️'
 meta expires = '96 hours (update frequency)'
 
 # Based on a PR by Metrokoto (https://github.com/the-advoid/ad-void/pull/3134)
