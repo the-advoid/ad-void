@@ -89,7 +89,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy
 
 Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.All.txt&title=AdVoid.Legacy.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Legacy.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block comments" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.All.txt&title=AdVoid.Legacy.Addon.All"><img alt="Subscribe button - use AdVoid.Legacy.Addon.All by Igor Dimitrijević (@igorskyflyer), block comments" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
 
 ```
 https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.Legacy.Addon.All.txt
@@ -99,7 +99,7 @@ https://raw.githubusercontent.com/the-advoid/ad-void/main/legacy/add-ons/AdVoid.
 
 Subscribe via the *fallback CDN* `jsDelivr` to get `delayed` updates (up to 12h), either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
 
-<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.All.txt&title=AdVoid.Legacy.Addon.NoExternals"><img alt="Subscribe button - use AdVoid.Legacy.Addon.NoExternals by Igor Dimitrijević (@igorskyflyer), block comments" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.All.txt&title=AdVoid.Legacy.Addon.All"><img alt="Subscribe button - use AdVoid.Legacy.Addon.All by Igor Dimitrijević (@igorskyflyer), block comments" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
 
 ```
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy.Addon.All.txt
