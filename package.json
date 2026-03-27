@@ -23,8 +23,10 @@
 		"advoid:noexternals+full": "pnpm advoid:noexternals && pnpm advoid:full",
 		"advoid:noextras+full": "pnpm advoid:noextras && pnpm advoid:full",
 		"advoid:anti-antiadblock": "aria -f \"./templates/scriptlets/anti-antiadblock.adbt\" && pnpm advoid:bot antiantiadblock",
+		"advoid:anti-antiadblock+all": "aria -f \"./templates/scriptlets/anti-antiadblock.adbt\" && pnpm advoid:bot antiantiadblock && pnpm advoid:scriptlets-all",
 		"advoid:privacy": "aria -f \"./templates/scriptlets/privacy.adbt\" && pnpm advoid:bot privacy",
-		"advoid:all-scriptlets": "aria -f \"./templates/scriptlets/all-scriptlets.adbt\" && pnpm advoid:bot allscriptlets",
+		"advoid:privacy+all": "aria -f \"./templates/scriptlets/privacy.adbt\" && pnpm advoid:bot privacy && pnpm advoid:scriptlets-all",
+		"advoid:scriptlets-all": "aria -f \"./templates/scriptlets/all-scriptlets.adbt\" && pnpm advoid:bot allscriptlets",
 		"lint": "aglint"
 	},
 	"keywords": [
