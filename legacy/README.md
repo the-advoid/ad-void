@@ -81,7 +81,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/legacy/add-ons/AdVoid.Legacy
 
 ---
 
-### 💬 AdVoid.Legacy.Addon.All
+### 📰 AdVoid.Legacy.Addon.All
 
 > Blocks comments and non-essential resources Webmanifests and service workers.
 
