@@ -1,0 +1,64 @@
+[Adblock Plus 2.0]
+!
+! {@!}
+! Title: AdVoid.Legacy.Addon.All
+! Description: [LEGACY] Blocks comments, non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, website reporters, etc.
+! Version: 1.0.0
+! Last modified: 2026-03-27T19:01:31.254+01:00
+! Expires: 15 days (update frequency)
+! Homepage: https://github.com/the-advoid/ad-void
+! Entries: 33
+! Author: Igor Dimitrijević (@igorskyflyer)
+! GitHub issues: https://github.com/the-advoid/ad-void/issues
+! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
+! License: https://github.com/the-advoid/ad-void/blob/main/LICENSE
+! Maintained by: Aria, Igor Dimitrijević (@igorskyflyer) and all of the contributors
+! See the CONTRIBUTORS.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) file for more information
+! See the CONTRIBUTING.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) file for more information on how to contribute
+! Source: World Wide Web
+! Based on a PR by Metrokoto (https://github.com/the-advoid/ad-void/pull/3135)
+
+! {@0} Domains (global)
+||disqus.com^
+||disquscdn.com^
+
+! {@1} Subdomains (global)
+||comment.scoopwhoop.com^
+
+! {@2} Files (global)
+.webmanifest^
+/amp-script-worker-*.mjs^$script
+/homesw.js^$script
+/manifest*.json^
+/pwa.js^$script
+/service-worker-*.js^$script
+/service-worker.js^$script
+/service_worker.js^$script
+/socket-worker*.js^$script
+/sw.js^$script
+/swj.php^
+/sworker.js^$script
+/webmanifest.php^
+
+! {@3} Files (site)
+||facebook.com/*/plugins/$from=~facebook.com
+||jetpack.wordpress.com/jetpack-comment^
+
+! {@4} AJAX (global)
+/comment_load.php^$xhr
+
+! {@5} Cosmetic (global)
+###commentlist-container
+###disqus_thread
+###swCommentDiv
+###vuukle-comments
+##.article__comments
+##.comment-box
+##.comment-form
+##.comment-respond
+##.comment-tabs
+##.comments-area
+##.comments-control
+##.commWrap
+##.sw-comment
+##[class*="SongComments__Container-"]
