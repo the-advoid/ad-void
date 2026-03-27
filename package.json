@@ -16,6 +16,7 @@
 		"advoid:experiments": "aria -f \"./templates/add-ons/experiments.adbt\" && pnpm advoid:bot experiments",
 		"advoid:legacy-noexternals": "aria -f \"./templates/legacy/add-ons/no-externals.adbt\" && pnpm advoid:bot noexternalsleg",
 		"advoid:legacy-noextras": "aria -f \"./templates/legacy/add-ons/no-extras.adbt\" && pnpm advoid:bot noextrasleg",
+		"advoid:legacy-all": "aria -f \"./templates/legacy/add-ons/legacy-all.adbt\" && pnpm advoid:bot nolegall",
 		"advoid:core+full": "pnpm advoid:core && pnpm advoid:full",
 		"advoid:all-modules": "pnpm advoid:core && pnpm advoid:dns && pnpm advoid:lite && pnpm advoid:full",
 		"advoid:noannoyances+full": "pnpm advoid:noannoyances && pnpm advoid:full",
