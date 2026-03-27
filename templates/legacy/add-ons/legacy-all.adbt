@@ -1,0 +1,44 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+@ [ADBT 2.0.0]
+
+header './templates/headers/advoid-header.txt'
+
+meta title = 'AdVoid.Legacy.Addon.All'
+meta description = '[LEGACY] Blocks comments, non-essential resources like service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects, website reporters, etc.'
+meta expires = '15 days'
+
+# Based on a PR by Metrokoto (https://github.com/the-advoid/ad-void/pull/3135)
+
+nl
+
+tag 'Domains (global)'
+include './rules/legacy/add-ons/no-externals/domains.txt' sort
+
+nl
+
+tag 'Subdomains (global)'
+include './rules/legacy/add-ons/no-externals/subdomains.txt' sort
+
+nl
+
+tag 'Files (global)'
+include './rules/legacy/add-ons/no-extras/files-global.txt' sort
+
+nl
+
+tag 'Files (site)'
+include './rules/legacy/add-ons/no-externals/files-site.txt' sort
+
+nl
+
+tag 'AJAX (global)'
+include './rules/legacy/add-ons/no-externals/ajax-global.txt' sort
+
+nl
+
+tag 'Cosmetic (global)'
+include './rules/legacy/add-ons/no-externals/cosmetic-global.txt' sort
+
+export './legacy/add-ons/AdVoid.Legacy.Addon.All.txt'
