@@ -2,13 +2,13 @@
 !
 ! {@!}
 ! Title: AdVoid.Scriptlets.All
-! Description: Hardens user privacy and blocks anti-blockers. 🛡️
-! Version: 1.0.2
-! Last modified: 2026-03-27T18:50:39.164+01:00
+! Description: Hardens user privacy and block anti-blockers. 🛡️
+! Version: 1.0.3
+! Last modified: 2026-03-27T18:52:25.611+01:00
 ! Expires: 96 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 51
-! Author: Metrokoto (https://github.com/Metrokoto)
+! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
 ! License: https://github.com/the-advoid/ad-void/blob/main/LICENSE
@@ -16,6 +16,7 @@
 ! See the CONTRIBUTORS.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) file for more information
 ! See the CONTRIBUTING.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) file for more information on how to contribute
 ! Source: World Wide Web
+! Based on a PR by Metrokoto (https://github.com/the-advoid/ad-void/pull/3134)
 
 ! {@0} Primitives
 ! Source: https://badblock.celenity.dev/hardened/block-page-visibility.txt
