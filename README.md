@@ -52,12 +52,13 @@
     - [**Experiments**](#-advoidaddonexperiments)
   - [**Scriptlets**](#-scriptlets)
     - [**AntiAntiAdBlock**](#-advoidscriptletsantiantiadblock)
-    - [**Privacy**](#privacy-hardening-scriptlet)
+    - [**Privacy**](#️-advoidscriptletsprivacy)
+    - [**All**](#privacy-hardening-scriptlet)
+  - [**Legacy**](#-legacy)
 - [**Filter Trust**](#️-filter-trust)
 - [**Transparency**](#-transparency)
   - [**Development**](#-development)
   - [**Community**](#-community)
-- [**Legacy**](#-legacy)
 - [**Case Study**](#-case-study)
   - [**Divergence Pt. 1**](#-divergence-pt-1)
   - [**Divergence Pt. 2**](#-divergence-pt-2)
@@ -413,7 +414,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 ---
 
-#### 🔏 AdVoid.Scriptlets.Privacy
+#### 🛡️ AdVoid.Scriptlets.Privacy
 
 ##### Privacy Hardening Scriptlet
 
@@ -443,7 +444,41 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 ---
 
+#### 🔏 AdVoid.Scriptlets.All
+
+##### All Scriptlets Combined
+
+> Hardens user privacy via PageVisibility and HTML filtering while infiltrating and destroying common anti-adblock techniques. Can also help mitigate media platforms from stopping playback when the tab is not active/in background or when the device is locked.
+>
+> ‼️ **It may break certain sites.**
+
 <br>
+
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scriptlets.All.txt&title=AdVoid.Scriptlets.All"><img alt="Subscribe button - enable AdVoid.Scriptlets.All by Igor Dimitrijević (@igorskyflyer), harden user privacy via PageVisibility and HTML filtering and stop anti-antiadblock techniques." src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scriptlets.All.txt
+```
+
+<br>
+
+Choose the *fallback CDN* `jsDelivr` if you prefer CDN caching and global reliability. Updates may be delayed up to 12h, but delivery is stable and fast across regions.  Subscribe either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets.All.txt&title=AdVoid.Scriptlets.Privacy"><img alt="Subscribe button - enable AdVoid.Scriptlets.All by Igor Dimitrijević (@igorskyflyer), harden user privacy via PageVisibility and HTML filtering and stop anti-antiadblock techniques." src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets.All.txt
+```
+
+---
+
+## 🎠 Legacy
+
+As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and transferred to the *Legacy* filter lists, see [**Legacy README**](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
+
+---
 
 ## 🛡️ Filter Trust
 
@@ -498,13 +533,6 @@ Explore the links below to view `AdVoid`'s structure, possible issues and commun
 - [**roadmap**](https://github.com/the-advoid/roadmap)
 - [**URL proposals**](https://github.com/the-advoid/watchlist)
 - [**discussions**](https://github.com/the-advoid/ad-void/discussions)
-
-<br>
-<br>
-
-## 🎠 Legacy
-
-As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and transferred to the *Legacy* filter lists, see [**Legacy README**](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
 
 <br>
 
