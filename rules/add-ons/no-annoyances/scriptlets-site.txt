@@ -303,3 +303,4 @@ quotev.com##+js(remove-attr, onselectstart|ondragstart|oncontextmenu, div.story_
 quotev.com##+js(abort-on-property-read, document.body.oncopy)
 dnevnik.hr##+js(trusted-click-element, #didomi-notice-agree-button, '', 1000)
 megaup.net##+js(adjust-setInterval, /display\(\)|btnDownload/, *, 0.001)
+russianpower.org##body:style(overflow: visible!important;)
