@@ -688,3 +688,4 @@ dnevnik.hr##+js(trusted-replace-argument, HTMLScriptElement.prototype.setAttribu
 megaup.net##+js(abort-current-script, navigator, FingerprintJS)
 megaup.net##+js(abort-current-script, document.createElement, delete window)
 megaup.net##+js(abort-on-property-read, zfgformats)
+megaup.net##+js(abort-on-property-write, Fingerprint2)
