@@ -302,3 +302,4 @@ cdn.privacy-mgmt.com##+js(trusted-click-element, button.cta-button[title="Reject
 quotev.com##+js(remove-attr, onselectstart|ondragstart|oncontextmenu, div.story_text, complete)
 quotev.com##+js(abort-on-property-read, document.body.oncopy)
 dnevnik.hr##+js(trusted-click-element, #didomi-notice-agree-button, '', 1000)
+megaup.net##+js(adjust-setInterval, /display\(\)|btnDownload/, *, 0.001)
