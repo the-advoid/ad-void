@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6157
-! Last modified: 2026-03-30T17:05:44.076+02:00
+! Version: 3.0.6158
+! Last modified: 2026-03-30T17:06:20.371+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8403
+! Entries: 8404
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8313,6 +8313,7 @@ mediafire.com##.nonDLContentWrap:style(min-height: 1300px !important;)
 mediafire.com##body:style(overflow: auto !important;)
 medicalnewstoday.com##body:style(overflow: auto !important; position: initial !important;)
 medium.com##+js(set-local-storage-item, 201805-policy|accepted, 1)
+megaup.net##+js(adjust-setInterval, /display\(\)|btnDownload/, *, 0.001)
 meteoblue.com##body,html:style(overflow: auto !important; position: initial !important;)
 milenio.com##+js(addEventListener-defuser, copy)
 milenio.com##+js(addEventListener-defuser, mouseleave)
