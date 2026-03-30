@@ -685,3 +685,4 @@ emojipedia.org##+js(abort-current-script, document.createElement, abcdefghijklmn
 archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn##^script:has-text(Math.random\(\).toString\(36\))
 archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn##^script:has-text(setInterval.*fetch|fetch.*setInterval)
 dnevnik.hr##+js(trusted-replace-argument, HTMLScriptElement.prototype.setAttribute, 1, '', condition, /error-report|new Promise/)
+megaup.net##+js(abort-current-script, navigator, FingerprintJS)
