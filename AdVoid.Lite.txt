@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.102
-! Last modified: 2026-03-23T21:24:19.863+01:00
+! Version: 1.0.103
+! Last modified: 2026-03-30T16:21:49.670+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5415
+! Entries: 5423
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1787,6 +1787,7 @@
 ||rastrawteo.com^
 ||rauvoaty.net^
 ||razadroid.com^
+||rbtget.com^
 ||rdtrak.com^
 ||readpeak.com^$3p
 ||realhumandeals.com^
@@ -3232,6 +3233,7 @@ ads-manager/ads/*/track-view
 /T-V3-WINDOW-PERFORMANCE^$xhr
 /Test_oPS_Script_Loads^$xhr
 /track-impression^$xhr
+/track/?verbose=$xhr
 /trackpageview/*$xhr
 /usage/clickstream?$xhr
 /v2/pv-data?$xhr
@@ -4419,6 +4421,7 @@ zoneid=
 ##.banner-dl
 ##.banner-feed
 ##.banner-frame
+##.banner-holder
 ##.banner-leaderboard
 ##.banner-mpu
 ##.banner-placeholder-text
@@ -5180,8 +5183,13 @@ gbmb.org##main > div.center
 geeksforgeeks.org###text-15
 geeksforgeeks.org###text-16
 geeksforgeeks.org##div[id^="GFG_AD_"]
+genius.com##.bCLuZv
+genius.com##.bIZLkL
+genius.com##.bQYiCj
 genius.com##.cujBpY
 genius.com##div[class^="LeaderboardOrMarquee__"]
+genius.com##div[class^="RightSidebar__Container-sc-"] div[class^="sc"]
+genius.com##div[class^="SectionLeaderboard_"]
 giphy.com##div.device-desktop
 glosbe.com###topTrufleContainer
 glosbe.com##.right-sidebar-trufle-container
