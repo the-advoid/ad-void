@@ -1,1 +1,3 @@
+!#if cap_html_filtering
 *##^responseheader(report-to)
+!#endif
