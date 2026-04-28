@@ -245,3 +245,4 @@ globalmeteo.com##[style="position: fixed;bottom: 5px;padding: 5px;opacity: 0.9;w
 dnevnik.hr##+js(remove-class, jw-flag-floating, .main-media-holder > div.video-player > div.jwplayer)
 russianpower.org##div[consent-skip-blocker="1"]
 porkbun.com###pbUserPrefs
+chatgpt.com##h1:has-text(We use cookies):upward(3)
