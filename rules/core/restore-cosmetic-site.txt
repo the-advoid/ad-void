@@ -16,6 +16,7 @@ dailyuploads.net#@#.banner:not(html):not(body)
 asianwiki.com#@#.ads
 openretro.org#@#[id^="banner_"]
 audiofanzine.com#@#[class*="mobile-leaderboard-"]
+diskanalyzer.com#@#.banner:not(html):not(body)
 
 @@||streamtape.*$generichide
 @@||google.*/search?$generichide
