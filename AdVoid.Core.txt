@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4473
-! Last modified: 2026-05-13T20:35:32.528+02:00
+! Version: 3.0.4474
+! Last modified: 2026-05-16T15:25:27.787+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6272
+! Entries: 6273
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5457,6 +5457,7 @@ nintendolife.com##.for-desktop
 noodlemagazine.com##[style="max-width:450px;margin:0 auto;padding:15px 10px 0"]
 opensubtitles.org##.msg > div[itemscope] > fieldset:has(> legend > a[href="/support#vip"])
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
+percentagecalculator.net###incontent1
 popnable.com##.main-content > .row
 porn300.com##.wrapper__related-sites
 porn300.com##li[class*="special-offer-"]
