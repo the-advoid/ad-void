@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.166
-! Last modified: 2026-05-16T17:16:24.774+02:00
+! Version: 1.0.167
+! Last modified: 2026-05-16T23:31:51.067+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5484
+! Entries: 5490
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2297,6 +2297,7 @@
 ||unfinisheddolphin.com^
 ||unforgivablegrowl.com^
 ||unframesiberia.com^
+||unfreezehuge.com^
 ||ungroudonchan.com^
 ||unibots.in^
 ||unibotscdn.com^
@@ -3352,6 +3353,7 @@ _pagespeed_beacon?$xhr
 ||imdb.com/api/_ajax/metrics/$xhr
 ||intake-analytics.wikimedia.org^$xhr
 ||linkedin.com/li/track$xhr
+||linkedin.com/li/tscp/sct^$xhr
 ||linkedin.com/platform-telemetry/$xhr
 ||linkedin.com/sensorcollect/$xhr
 ||mediadelivery.net/.metrics/$xhr
@@ -4269,6 +4271,7 @@ zoneid=
 ##.ad-close-button
 ##.Ad-Container
 ##.ad-container
+##.ad-container
 ##.ad-current
 ##.ad-desktop
 ##.ad-disclaimer
@@ -4304,6 +4307,7 @@ zoneid=
 ##.ad-spaces
 ##.ad-sticky
 ##.ad-sticky-bottom
+##.ad-sticky-wrapper
 ##.ad-stickyhero
 ##.ad-summary
 ##.ad-tall-left
@@ -4374,6 +4378,7 @@ zoneid=
 ##.ads-content
 ##.ads-el
 ##.ads-fixed
+##.ads-in-page
 ##.ads-label
 ##.ads-left
 ##.ads-right
@@ -5306,6 +5311,7 @@ kurir.rs##.placeholder250px
 leetcode.com##[class*="lc-ads__"]
 linkedin.com###ads-container
 linkedin.com##[componentkey="MainFeedDesktopNav_feed_ad"]
+linkedin.com##iframe[title="advertisement"]:upward(1)
 livestreamxtv.com##.container > .rounded.border.text-dark.bg-light.row
 livetvkodiserbia.com##.yt2.livetvaserbia.top
 mamul.am##div[style="height:29px"] + div.cont
