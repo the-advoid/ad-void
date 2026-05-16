@@ -27,7 +27,7 @@ ads-manager/ads/*/track-view
 /_adserver/*
 /ad-click^
 /_hcms/perf^
-/track^$from=~spotify.com|~podtrac.com|~megaphone.fm|~wolf359.fm|~pdst.fm|~twitch.tv
+/track^$from=~spotify.com|~podtrac.com|~megap.fm|~wolf359.fm|~pdst.fm|~twitch.tv
 /ads/eyeo^
 /__track/*
 /interstitial_v1^
@@ -68,3 +68,4 @@ ads-manager/ads/*/track-view
 ://collector.*/event
 /batch/1/oe/*
 /click?pid=*&sub1=$document
+/cdn-cgi/rum?
