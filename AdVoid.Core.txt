@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4488
-! Last modified: 2026-05-16T23:37:52.836+02:00
+! Version: 3.0.4489
+! Last modified: 2026-05-16T23:39:09.515+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6285
+! Entries: 6286
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5867,6 +5867,7 @@ filmoviplex.com##+js(set-constant, openNewTab, noopFunc)
 freeconvert.com##+js(remove-node-text, script, '"v4ac1eiZr0"')
 freeconvert.com##+js(remove-node-text, script, `/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["']_aQS0\w+["']|decodeURI\(decodeURI\("|<a href="https:\/\/getad%|"cmp\.updated"/`)
 freeconvert.com##^script:has-text(html-load.com)
+freeconvert.com##div[data-aaad="true"]:upward(3)
 gamespot.com##+js(abort-current-script, $, sp.blocking)
 gayforfans.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 gayforfans.com##+js(addEventListener-defuser, getexoloader)
