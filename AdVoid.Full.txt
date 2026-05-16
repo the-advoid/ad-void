@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6184
-! Last modified: 2026-05-13T20:35:40.690+02:00
+! Version: 3.0.6185
+! Last modified: 2026-05-16T15:25:35.327+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8417
+! Entries: 8418
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6983,6 +6983,7 @@ nintendolife.com##.for-desktop
 noodlemagazine.com##[style="max-width:450px;margin:0 auto;padding:15px 10px 0"]
 opensubtitles.org##.msg > div[itemscope] > fieldset:has(> legend > a[href="/support#vip"])
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
+percentagecalculator.net###incontent1
 popnable.com##.main-content > .row
 porn300.com##.wrapper__related-sites
 porn300.com##li[class*="special-offer-"]
