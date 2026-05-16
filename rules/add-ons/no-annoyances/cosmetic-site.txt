@@ -245,3 +245,4 @@ dnevnik.hr##+js(remove-class, jw-flag-floating, .main-media-holder > div.video-p
 russianpower.org##div[consent-skip-blocker="1"]
 porkbun.com###pbUserPrefs
 chatgpt.com##h1:has-text(We use cookies):upward(3)
+music.youtube.com##.ytmusic-mealbar-promo-renderer:upward(1)
