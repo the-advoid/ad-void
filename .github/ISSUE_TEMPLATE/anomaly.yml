@@ -1,0 +1,86 @@
+name: Anomaly
+description: Report an anomaly; a site's broken functionality caused by AdVoid.
+title: "🧟‍♂️ [Anomaly]: "
+labels:
+  - anomaly
+  - pending-approval
+assignees:
+  - igorskyflyer
+body:
+  - type: checkboxes
+    id: initial-checks
+    attributes:
+      label: Initial checks
+      description: All boxes must be checked. Issues that do not comply may be closed or ignored.
+      options:
+        - label: I have searched for [existing issues](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
+          required: true
+        - label: I have labelled the issue as **NSFW** if the content is not safe for work.
+          required: true
+        - label: I have provided a clear description/steps to reproduce the issue.
+          required: true
+        - label: I have included any relevant logs, screenshots, and/or filter snippets.
+          required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: Describe the faced issue or the steps to reproduce it.
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The URL where the issue can be observed. Label the issue as NSFW if applicable.
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Android
+        - iOS
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / version
+      placeholder: e.g. Firefox 126.0
+    validations:
+      required: true
+
+  - type: input
+    id: extension
+    attributes:
+      label: Ad-blocking extension / version
+      placeholder: e.g. uBlock Origin 1.58.0
+    validations:
+      required: true
+
+  - type: input
+    id: advoid-version
+    attributes:
+      label: AdVoid / version
+      placeholder: e.g. AdVoid 3.1.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional information
+      description: Logs, screenshots, or filter snippets, if necessary.
+    validations:
+      required: false
