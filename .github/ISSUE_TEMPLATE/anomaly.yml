@@ -45,8 +45,8 @@ body:
       label: NSFW
       description: Issues containing NSFW content that are not labelled as such will be closed.
       options:
-        - "Yes"
         - "No"
+        - "Yes"
     validations:
       required: true
 
