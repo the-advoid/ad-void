@@ -47,6 +47,7 @@ body:
       options:
         - Yes
         - No
+    validations:
       required: true
 
   - type: dropdown
@@ -90,14 +91,16 @@ body:
         - AdVoid.Full
         - AdVoid.Lite
         - Other (specify below)
-      required: true
+      validations:
+        required: true
 
   - type: input
     id: advoid-custom
     attributes:
       label: Specify the used AdVoid flavour not listed in the list above.
       placeholder: e.g. AdVoid.Addon.NoExtras
-      required: false
+    validations:
+      required: true
 
   - type: input
     id: advoid-version
