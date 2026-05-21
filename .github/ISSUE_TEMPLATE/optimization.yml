@@ -15,8 +15,6 @@ body:
       options:
         - label: I have searched for [existing issues](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
           required: true
-        - label: I will provide a clear description of the optimization and, if possible, its implementation.
-          required: true
 
   - type: textarea
     id: suggestion
