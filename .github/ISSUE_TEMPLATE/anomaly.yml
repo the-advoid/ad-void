@@ -26,7 +26,7 @@ body:
     id: issue
     attributes:
       label: Issue
-      description: Describe the faced issue and the steps to reproduce it.
+      description: Describe the issue and/or the steps to reproduce it.
     validations:
       required: true
 
@@ -83,7 +83,7 @@ body:
   - type: dropdown
     id: advoid-flavour
     attributes:
-      label: Specify the used AdVoid flavour.
+      label: AdVoid flavour
       options:
         - AdVoid.Core
         - AdVoid.DNS
@@ -96,7 +96,7 @@ body:
   - type: input
     id: advoid-custom
     attributes:
-      label: Specify the used AdVoid flavour not listed in the list above.
+      label: AdVoid flavour (if not listed above)
       placeholder: e.g. AdVoid.Addon.NoExtras
     validations:
       required: false
@@ -105,7 +105,7 @@ body:
     id: advoid-version
     attributes:
       label: AdVoid / version
-      placeholder: e.g. AdVoid v3.1.0
+      placeholder: e.g. v3.1.0
     validations:
       required: true
 
