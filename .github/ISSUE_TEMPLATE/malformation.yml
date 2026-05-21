@@ -15,13 +15,13 @@ body:
       options:
         - label: I have searched for [existing issues](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
           required: true
-        - label: I have provided the malformed rule, or a permalink to it.
+        - label: I will provide the malformed rule, or a permalink to it.
           required: true
 
   - type: textarea
     id: rule
     attributes:
       label: Rule
-      description: Paste a permalink to the rule (File → Copy permalink) or the rule itself. One rule per issue.
+      description: Paste a permalink to the rule (File → Copy permalink), or the rule itself. One rule per issue.
     validations:
       required: true
