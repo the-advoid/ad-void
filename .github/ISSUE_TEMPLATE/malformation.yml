@@ -1,8 +1,8 @@
 name: Malformation
 description: Report a malformed filter rule.
-title: "🩹 [Malformed]: "
+title: "🩹 [Malformation]: "
 labels:
-  - malformed
+  - malformation
   - pending-approval
 assignees:
   - igorskyflyer
