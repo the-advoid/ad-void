@@ -593,9 +593,9 @@ Since [`Aria`](https://github.com/aria-toolkit/aria-cli) saves a substantial amo
 
 <br>
 
-Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
+Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler in mid-August 2023, there were ~**352** rule commits per month.
 
-After implementing the before-mentioned solutions there were ~**4240** rule commits per month (+**1104.5%**), while commits reached their peak in December, with staggering ~**5861** rule commits (+**1565.1%**).
+After adoption, that number rose to ~**4,240** rule commits per month (+**1,104.5%**, ~**12×**), peaking in December at ~**5,861** rule commits (+**1,565.1%**, ~**17×**).
 
 <br>
 
