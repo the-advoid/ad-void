@@ -84,15 +84,14 @@ body:
     id: advoid-flavour
     attributes:
       label: Specify the used AdVoid flavour.
-      placeholder: e.g. AdVoid.Full
       options:
         - AdVoid.Core
         - AdVoid.DNS
         - AdVoid.Full
         - AdVoid.Lite
         - Other (specify below)
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     id: advoid-custom
