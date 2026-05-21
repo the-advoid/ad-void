@@ -15,8 +15,6 @@ body:
       options:
         - label: I have searched for [existing issues](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
           required: true
-        - label: I have provided a clear description of why the rule should be removed.
-          required: true
         - label: I acknowledge that the author may decline or close this request after review if removal is not appropriate.
           required: true
 
@@ -33,7 +31,7 @@ body:
     id: rule
     attributes:
       label: Rule
-      description: Paste a permalink to the rule (File → Copy permalink) or the rule itself. One rule per issue.
+      description: Paste a permalink to the rule (File → Copy permalink), or the rule itself. One rule per issue.
     validations:
       required: true
 
