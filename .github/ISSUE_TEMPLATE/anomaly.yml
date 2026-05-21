@@ -43,7 +43,7 @@ body:
     id: nsfw
     attributes:
       label: NSFW
-      description: Label the URL if it is NSFW. Failing to do so might render the issue to get closed.
+      description: Issues containing NSFW content that are not labelled as such will be closed.
       options:
         - "Yes"
         - "No"
@@ -99,7 +99,7 @@ body:
       label: Specify the used AdVoid flavour not listed in the list above.
       placeholder: e.g. AdVoid.Addon.NoExtras
     validations:
-      required: true
+      required: false
 
   - type: input
     id: advoid-version
