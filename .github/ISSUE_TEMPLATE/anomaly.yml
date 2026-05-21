@@ -45,8 +45,8 @@ body:
       label: NSFW
       description: Label the URL if it is NSFW. Failing to do so might render the issue to get closed.
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
