@@ -27,7 +27,6 @@ body:
     validations:
       required: true
 
-
   - type: dropdown
     id: nsfw
     attributes:
