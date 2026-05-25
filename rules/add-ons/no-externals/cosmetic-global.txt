@@ -18,7 +18,7 @@
 ##.share-icons
 ###footer-social
 ##.footer__social
-##.share:not(div)
+##.share:not(div):not(body)
 ##.social-footer-holder
 ##.sharethis
 ##.social:not(body)
