@@ -102,3 +102,4 @@
 ://analytics.*/event$xhr
 ||gyrovague.com^$xhr,domain=archive.is|archive.ph|archive.md|archive.today|archive.fo|archive.li|archive.vn
 ||linkedin.com/li/tscp/sct^$xhr
+/\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xhr,from=gsmarena.com
