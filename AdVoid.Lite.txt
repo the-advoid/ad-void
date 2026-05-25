@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.169
-! Last modified: 2026-05-25T18:51:16.903+02:00
+! Version: 1.0.170
+! Last modified: 2026-05-25T19:18:31.519+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5492
+! Entries: 5499
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2072,6 +2072,7 @@
 ||spotxchange.com^
 ||springserve.com^
 ||sr7pv7n5x.com^
+||srvb1.com^
 ||ssdroidnotificationus.biz^
 ||sskmnews.pro^
 ||sskzlabs.com^
@@ -3308,6 +3309,7 @@ _pagespeed_beacon?$xhr
 ! {@6} AJAX paths (site)
 *$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 .demdex.net/id^$xhr,important,redirect-rule=noop.txt
+/\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xhr,from=gsmarena.com
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,method=head,header=x-trace2-id,to=com
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
 ://analytics.*/event$xhr
@@ -4432,6 +4434,7 @@ zoneid=
 ##.adv-leaderboard
 ##.adv-link
 ##.adv-mid
+##.adv-mpu
 ##.adv-top
 ##.adv-wrapper
 ##.adv_text
@@ -5271,6 +5274,7 @@ gosexpod.com##.zzz-ddnotice
 gsmarena.com###review-body > div[style*="padding-bottom:"][style*="min-height:"]:has(> pgs-ad)
 gsmarena.com###subHeader
 gsmarena.com###subHeader3
+gsmarena.com##.d-flex:has(pgs-ad)
 gsmarena.com##.pt-10
 gsmarena.com##div[style*="padding-bottom: 24px;"]
 gsmarena.com##table + div[style^="min-height: 310px;"]
@@ -5316,6 +5320,9 @@ linkedin.com##[componentkey="MainFeedDesktopNav_feed_ad"]
 linkedin.com##iframe[title="advertisement"]:upward(1)
 livestreamxtv.com##.container > .rounded.border.text-dark.bg-light.row
 livetvkodiserbia.com##.yt2.livetvaserbia.top
+m.gsmarena.com###specs-list > .align-center:has(> pgs-ad)
+m.gsmarena.com##body::after
+m.gsmarena.com##body::before
 mamul.am##div[style="height:29px"] + div.cont
 mashable.com##div[data-ga-category="newsletters"]
 mcloud.bz##.cgrd
