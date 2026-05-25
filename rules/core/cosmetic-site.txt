@@ -392,3 +392,4 @@ linkedin.com##iframe[title="advertisement"]:upward(1)
 m.gsmarena.com##body::before
 m.gsmarena.com##body::after
 gsmarena.com##.d-flex:has(pgs-ad)
+m.gsmarena.com###specs-list > .align-center:has(> pgs-ad)
