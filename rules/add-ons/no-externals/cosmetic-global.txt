@@ -174,7 +174,7 @@
 ##.socialSharing
 ##.ya-share2
 ##.share-addthis
-##.Share:not(div)
+##.Share:not(div):not(body)
 ##.social-icon-bar-mobile
 ##.ssba_s
 ##.ssba_share_link
