@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.168
-! Last modified: 2026-05-16T23:33:26.983+02:00
+! Version: 1.0.169
+! Last modified: 2026-05-25T18:51:16.903+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5489
+! Entries: 5492
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -842,6 +842,8 @@
 ||favaqo.xyz^
 ||favoritenought.com^
 ||fd5orie8e.com^
+||feathercdn.net^
+||feathermc.com^
 ||februarylovestory.com^
 ||februarynip.com^
 ||fedlee.com^
@@ -3105,6 +3107,7 @@
 /api/spots
 /b/stats?
 /batch/1/oe/*
+/cdn-cgi/rum?
 /click?pid=*&sub1=$document
 /clickadu/*
 /collect^
@@ -3145,7 +3148,7 @@
 /stats/rotator^
 /Tag.engine?
 /toiads_new/*
-/track^$from=~spotify.com|~podtrac.com|~megaphone.fm|~wolf359.fm|~pdst.fm|~twitch.tv
+/track^$from=~spotify.com|~podtrac.com|~megap.fm|~wolf359.fm|~pdst.fm|~twitch.tv
 /wp-stats-manager/*
 ://collector.*/event
 ads-manager/ads/*/track-view
