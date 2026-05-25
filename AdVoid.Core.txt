@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4490
-! Last modified: 2026-05-25T18:51:04.967+02:00
+! Version: 3.0.4491
+! Last modified: 2026-05-25T19:15:14.945+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6288
+! Entries: 6289
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3348,6 +3348,7 @@ _pagespeed_beacon?$xhr
 ! {@10} AJAX paths (site)
 *$xhr,3p,redirect-rule=noop.txt,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
 .demdex.net/id^$xhr,important,redirect-rule=noop.txt
+/\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xhr,from=gsmarena.com
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,method=head,header=x-trace2-id,to=com
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
 ://analytics.*/event$xhr
