@@ -389,3 +389,4 @@ genius.com##div[class^="RightSidebar__Container-sc-"] div[class^="sc"]
 percentagecalculator.net###incontent1
 linkedin.com##[componentkey="MainFeedDesktopNav_feed_ad"]
 linkedin.com##iframe[title="advertisement"]:upward(1)
+m.gsmarena.com##body::before
