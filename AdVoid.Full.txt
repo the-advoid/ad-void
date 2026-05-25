@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6214
-! Last modified: 2026-05-25T19:18:57.269+02:00
+! Version: 3.0.6215
+! Last modified: 2026-05-25T19:19:24.696+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8446
+! Entries: 8447
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8295,6 +8295,7 @@ github.com##+js(trusted-set-cookie, GHCC, Required:1-Analytics:0-SocialMedia:0-A
 goodreads.com##+js(remove-class, Header__siteHeaderBanner, header.Header__siteHeaderBanner)
 google.*##+js(trusted-set-cookie, SOCS, CAISNQgQEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjQwNTE0LjA2X3AwGgJmaSADGgYIgOu0sgY, 1year)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
+gsmarena.com##+js(remove-cookie, DeviceID)
 healthline.com##+js(remove-class, jw-flag-floating|jw-flag-small-player)
 healthline.com##body:style(overflow: auto !important; position: initial !important;)
 hinative.com##body:style(overflow: auto !important;)
