@@ -108,7 +108,7 @@
 /dotmetrics*.js^$script
 /magento-storefront-event*js^$script
 /google-analytics-universal*js^$script
-/google-tag-manager*js^$script
+/google-tag-manager*js^$script,from=~dribbble.com
 amp-ad-*js^$script
 amp-iframe-*js^$script
 amp-analytics*js^$script
@@ -384,3 +384,4 @@ _prebid.js^$script
 &cx=c&gtm=$script
 /uploads/*/ads-$image
 /player/stats.php?$image,redirect-rule=1x1.gif
+/google-tag-manager*js^$script,redirect-rule=noop.js
