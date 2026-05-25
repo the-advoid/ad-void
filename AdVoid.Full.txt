@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6213
-! Last modified: 2026-05-25T19:18:35.965+02:00
+! Version: 3.0.6214
+! Last modified: 2026-05-25T19:18:57.269+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8445
+! Entries: 8446
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7728,6 +7728,7 @@ gosexpod.com##+js(abort-on-property-read, document.dispatchEvent)
 gosexpod.com##+js(addEventListener-defuser, click, my_inter_listen)
 gotgayporn.com##+js(abort-on-property-read, decodeURI)
 grok.com##+js(prevent-fetch, url:/api/statsig/log_event method:POST)
+gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, doubleclick)
 hdeuropix.*##+js(abort-on-property-read, AaDetector)
 hdeuropix.*##+js(abort-on-property-read, LieDetector)
 hdeuropix.*##+js(disable-newtab-links)
