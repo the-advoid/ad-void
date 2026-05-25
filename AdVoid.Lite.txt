@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.164
-! Last modified: 2026-03-30T17:10:55.789+02:00
+! Version: 1.0.168
+! Last modified: 2026-05-16T23:33:26.983+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5479
+! Entries: 5489
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3145,7 +3145,7 @@
 /stats/rotator^
 /Tag.engine?
 /toiads_new/*
-/track^$from=~spotify.com|~podtrac.com|~megaphone.fm|~wolf359.fm|~pdst.fm
+/track^$from=~spotify.com|~podtrac.com|~megaphone.fm|~wolf359.fm|~pdst.fm|~twitch.tv
 /wp-stats-manager/*
 ://collector.*/event
 ads-manager/ads/*/track-view
@@ -3170,6 +3170,7 @@ ads-manager/ads/*/track-view
 ||facebook.com/adnw_logging^
 ||facebook.com/tr^
 ||fapality.com/*/serve^
+||feathermc.com/ads/
 ||fls-na.amazon.com/*/batch/
 ||github.com/_private/browser/stats
 ||goodreads.com/report_metric
@@ -3351,6 +3352,7 @@ _pagespeed_beacon?$xhr
 ||imdb.com/api/_ajax/metrics/$xhr
 ||intake-analytics.wikimedia.org^$xhr
 ||linkedin.com/li/track$xhr
+||linkedin.com/li/tscp/sct^$xhr
 ||linkedin.com/platform-telemetry/$xhr
 ||linkedin.com/sensorcollect/$xhr
 ||mediadelivery.net/.metrics/$xhr
@@ -4268,6 +4270,7 @@ zoneid=
 ##.ad-close-button
 ##.Ad-Container
 ##.ad-container
+##.ad-container
 ##.ad-current
 ##.ad-desktop
 ##.ad-disclaimer
@@ -4303,6 +4306,7 @@ zoneid=
 ##.ad-spaces
 ##.ad-sticky
 ##.ad-sticky-bottom
+##.ad-sticky-wrapper
 ##.ad-stickyhero
 ##.ad-summary
 ##.ad-tall-left
@@ -4373,6 +4377,7 @@ zoneid=
 ##.ads-content
 ##.ads-el
 ##.ads-fixed
+##.ads-in-page
 ##.ads-label
 ##.ads-left
 ##.ads-right
@@ -4483,6 +4488,7 @@ zoneid=
 ##.banner-placeholder-text
 ##.banner-promotion
 ##.banner-set
+##.banner-wrap
 ##.banner728x90
 ##.banner:not(html):not(body)
 ##.banner__placeholder
@@ -4725,7 +4731,6 @@ zoneid=
 ##.pb-ad
 ##.pg-cmp-dap-row
 ##.play-page-banner
-##.player + .sponsor
 ##.player-detail__banners
 ##.player-section__ad-b
 ##.player-section__ad-block
@@ -5019,6 +5024,7 @@ zoneid=
 ##[id^="adngin-"]
 ##[id^="adocean"]
 ##[id^="ads_"]
+##[id^="article_ads"]
 ##[id^="aswift"]
 ##[id^="banner_"]
 ##[id^="bsa-zone_"]
@@ -5303,6 +5309,8 @@ kimovil.com##.kau
 kurir.rs##.placeholder250px
 leetcode.com##[class*="lc-ads__"]
 linkedin.com###ads-container
+linkedin.com##[componentkey="MainFeedDesktopNav_feed_ad"]
+linkedin.com##iframe[title="advertisement"]:upward(1)
 livestreamxtv.com##.container > .rounded.border.text-dark.bg-light.row
 livetvkodiserbia.com##.yt2.livetvaserbia.top
 mamul.am##div[style="height:29px"] + div.cont
@@ -5342,6 +5350,7 @@ nintendolife.com##.for-desktop
 noodlemagazine.com##[style="max-width:450px;margin:0 auto;padding:15px 10px 0"]
 opensubtitles.org##.msg > div[itemscope] > fieldset:has(> legend > a[href="/support#vip"])
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
+percentagecalculator.net###incontent1
 popnable.com##.main-content > .row
 porn300.com##.wrapper__related-sites
 porn300.com##li[class*="special-offer-"]
@@ -5513,6 +5522,7 @@ account.microsoft.com#@#[id^="ad-"]
 asianwiki.com#@#.ads
 audiofanzine.com#@#[class*="mobile-leaderboard-"]
 dailyuploads.net#@#.banner:not(html):not(body)
+diskanalyzer.com#@#.banner:not(html):not(body)
 fontspace.com#@#.container-ads
 halooglasi.com#@#[id^="ad-"]
 jenismac.com#@#.advertisement

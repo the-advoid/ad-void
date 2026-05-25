@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1445
-! Last modified: 2026-05-06T21:06:19.406+02:00
+! Version: 2.0.1447
+! Last modified: 2026-05-16T23:25:12.192+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1368
+! Entries: 1370
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -896,6 +896,7 @@ fileproinfo.com###myNav
 fileproinfo.com##.overlay
 fixthephoto.com###bf-modal
 fotor.com###rootPopup
+freeconvert.com###TryFree
 geeksforgeeks.org###openInApp-modal
 gemoo.com##.fixedbot
 globalmeteo.com##[style="position: fixed;bottom: 5px;padding: 5px;opacity: 0.9;width: 300px;left: 50%;transform: translateX(-50%);z-index: 1000"]
@@ -960,6 +961,7 @@ mindtools.com##div[class^="jss"] div.MuiBox-root > div.MuiPaper-root:has(> div#n
 moddroid.com##.fixed-icons
 mozilla.org##.mzp-c-newsletter
 mp3convert.org###btnAdd
+music.youtube.com##.ytmusic-mealbar-promo-renderer:upward(1)
 myanimelist.net##.app
 myanimelist.net##.bottom-bar
 myanimelist.net##.btn-mal-service

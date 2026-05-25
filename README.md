@@ -12,7 +12,7 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.4472-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
+  <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core version badge - by Igor Dimitrijević (@igorskyflyer), optimized for fast ad-blocking" src="https://custom-icon-badges.herokuapp.com/badge/version-3.0.4488-blue?style=flat-square&logo=rocket&logoColor=white&color=7b3dd2&label=Version"></a>
   <a href="https://github.com/the-advoid/ad-void/tree/main/AdVoid.Core.txt"><img alt="AdVoid.Core file size badge - lightweight ad-block filter by Igor Dimitrijević (@igorskyflyer)" src="https://custom-icon-badges.herokuapp.com/github/size/the-advoid/ad-void/AdVoid.Core.txt?style=flat-square&logo=database&logoColor=white&color=269900&label=Size"></a>
   <a href="https://www.jsdelivr.com/package/gh/the-advoid/ad-void"><img src="https://data.jsdelivr.com/v1/package/gh/the-advoid/ad-void/badge" alt="AdVoid CDN badge - fast, reliable ad-block filter list by Igor Dimitrijević (@igorskyflyer), hosted on jsDelivr for global privacy protection"></a>
   <br>
@@ -593,9 +593,9 @@ Since [`Aria`](https://github.com/aria-toolkit/aria-cli) saves a substantial amo
 
 <br>
 
-Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler, which occurred in mid August, 2023, there were ~**352** rule commits per month.  
+Prior to implementing `ADBT` template files and using the [`Aria`](https://github.com/aria-toolkit/aria-cli) compiler in mid-August 2023, there were ~**352** rule commits per month.
 
-After implementing the before-mentioned solutions there were ~**4240** rule commits per month (+**1104.5%**), while commits reached their peak in December, with staggering ~**5861** rule commits (+**1565.1%**).
+After adoption, that number rose to ~**4,240** rule commits per month (+**1,104.5%**, ~**12×**), peaking in December at ~**5,861** rule commits (+**1,565.1%**, ~**17×**).
 
 <br>
 

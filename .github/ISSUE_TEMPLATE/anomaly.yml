@@ -1,0 +1,120 @@
+name: Anomaly
+description: Report an anomaly; a site's broken functionality caused by AdVoid.
+title: "🧟‍♂️ [Anomaly]: "
+labels:
+  - anomaly
+  - pending-approval
+assignees:
+  - igorskyflyer
+body:
+  - type: checkboxes
+    id: initial-checks
+    attributes:
+      label: Initial checks
+      description: All boxes must be checked. Issues that do not comply may be closed or ignored.
+      options:
+        - label: I have searched for [existing issues](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
+          required: true
+        - label: I will label the issue as **NSFW** if the content is not safe for work.
+          required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: Describe the issue and/or the steps to reproduce it.
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The URL where the issue can be observed.
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: nsfw
+    attributes:
+      label: NSFW
+      description: Issues containing NSFW content that are not labelled as such will be closed.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      description: The operating system on which the issue was observed.
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Android
+        - iOS
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser version
+      description: The browser and its version used when the issue was observed.
+      placeholder: e.g. Firefox v126.0
+    validations:
+      required: true
+
+  - type: input
+    id: extension
+    attributes:
+      label: Ad-blocking extension's version
+      description: The ad-blocking extension and its version used when the issue was observed.
+      placeholder: e.g. uBlock Origin v1.58.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: advoid-flavour
+    attributes:
+      label: AdVoid flavour
+      description: The AdVoid flavour in use when the issue was observed.
+      options:
+        - AdVoid.Core
+        - AdVoid.DNS
+        - AdVoid.Full
+        - AdVoid.Lite
+        - Other (specify below)
+    validations:
+      required: true
+
+  - type: input
+    id: advoid-custom
+    attributes:
+      label: AdVoid flavour (if not listed above)
+      description: Specify the AdVoid flavour if it is not listed above.
+      placeholder: e.g. AdVoid.Addon.NoExtras
+    validations:
+      required: false
+
+  - type: input
+    id: advoid-version
+    attributes:
+      label: AdVoid's version
+      description: The version of AdVoid in use when the issue was observed.
+      placeholder: e.g. v3.1.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional information
+      description: Logs, screenshots, or filter snippets, if available.
+    validations:
+      required: false

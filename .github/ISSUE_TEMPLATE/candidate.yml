@@ -1,0 +1,39 @@
+name: Candidate
+description: Propose a candidate URL to scan for ads and add to AdVoid.
+title: "🔍 [Candidate]: "
+labels:
+  - pending-approval
+  - scan
+assignees:
+  - igorskyflyer
+body:
+  - type: checkboxes
+    id: initial-checks
+    attributes:
+      label: Initial checks
+      description: All boxes must be checked. Issues that do not comply may be closed or ignored.
+      options:
+        - label: I have searched for [existing issues](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
+          required: true
+        - label: I will label the issue as **NSFW** if the content is not safe for work.
+          required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The URL to scan. One URL per issue. Must include the full URL with protocol.
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: nsfw
+    attributes:
+      label: NSFW
+      description: Issues containing NSFW content that are not labelled as such will be closed.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true

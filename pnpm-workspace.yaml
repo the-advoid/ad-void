@@ -1,9 +1,12 @@
+allowBuilds:
+  core-js-pure: true
+
 onlyBuiltDependencies:
   - core-js-pure
 
 overrides:
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
-  brace-expansion@>=4.0.0 <5.0.5: '>=5.0.5'
+  brace-expansion@>=4.0.0 <5.0.5: '>=5.0.6'
   glob@>=10.2.0 <10.5.0: '>=10.5.0'
   js-yaml@>=4.0.0 <4.1.1: '>=4.1.1'
   minimatch@>=10.0.0 <10.2.1: '>=10.2.1'

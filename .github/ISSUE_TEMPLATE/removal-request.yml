@@ -1,0 +1,44 @@
+name: Removal request
+description: Request a removal of a certain rule.
+title: "❌ [Removal]: "
+labels:
+  - pending-approval
+  - removal-request
+assignees:
+  - igorskyflyer
+body:
+  - type: checkboxes
+    id: initial-checks
+    attributes:
+      label: Initial checks
+      description: All boxes must be checked. Issues that do not comply may be closed or ignored.
+      options:
+        - label: I have searched for [existing issues](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) and confirmed this is not a duplicate.
+          required: true
+        - label: I acknowledge that the author may decline or close this request after review if removal is not appropriate.
+          required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The URL associated with the rule. If the rule breaks a site, create an Anomaly issue instead.
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: textarea
+    id: rule
+    attributes:
+      label: Rule
+      description: Paste a permalink to the rule (File → Copy permalink), or the rule itself. One rule per issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Write at least a sentence explaining why the rule should be removed.
+    validations:
+      required: true
