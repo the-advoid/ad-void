@@ -104,3 +104,4 @@
 ||linkedin.com/li/tscp/sct^$xhr
 /\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xhr,from=gsmarena.com
 ||dribbble.com/shots/log_views^$xhr
+||dribbble.com/client_app/events^$xhr
