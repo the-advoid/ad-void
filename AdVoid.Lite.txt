@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.170
-! Last modified: 2026-05-25T19:18:31.519+02:00
+! Version: 1.0.171
+! Last modified: 2026-05-25T20:17:53.889+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5499
+! Entries: 5506
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -376,6 +376,7 @@
 ||boanfo.cfd^
 ||bobapsoabauns.com^
 ||bodgeethenic.com^
+||bodybossmotivate.com^
 ||bofwcwlstyrts.com^
 ||bojel.com^
 ||boltepse.com^
@@ -3343,6 +3344,8 @@ _pagespeed_beacon?$xhr
 ||dev.to/fallback_activity_recorder^$xhr
 ||disqus.com/api/ping$xhr
 ||doubleclick.net^$xhr,redirect-rule=noop.txt
+||dribbble.com/client_app/events^$xhr
+||dribbble.com/shots/log_views^$xhr
 ||events.launchdarkly.com^$3p
 ||facebook.com/a/bz^$xhr
 ||facebook.com/ajax/qm/$xhr
@@ -3593,7 +3596,8 @@ _pagespeed_beacon?$xhr
 /give/*/give*.
 /google-analytics-universal*js^$script
 /google-analytics_analytics.js^$script
-/google-tag-manager*js^$script
+/google-tag-manager*js^$script,from=~dribbble.com
+/google-tag-manager*js^$script,redirect-rule=noop.js
 /google_ab_testing.js^$script
 /google_head.js^$script
 /google_tag/*$script
@@ -3670,6 +3674,7 @@ _pagespeed_beacon?$xhr
 /player.vast.*.js^$script
 /player/stats.php?$image,redirect-rule=1x1.gif
 /plugins/ad-invalid-click-protector/*$script
+/plugins/google-analytics^$script
 /plugins/meks-easy-ads-widget/*$script,css
 /plugins/pixelyoursite$script
 /plugins/wp-rocket/assets/js/wpr-beacon.$script
@@ -4782,6 +4787,7 @@ zoneid=
 ##.showcase-banner-text
 ##.side-bar-ad
 ##.sidebar-ad
+##.sidebar-ad:not(.adsbygoogle)
 ##.simple-banner
 ##.sinad_only_desktop
 ##.sinad_only_mobile
@@ -5116,6 +5122,7 @@ zoneid=
 ##iframe[src*="mp3y.info/"]
 ##iframe[src^="https://www.netvisiteurs.com/promotion-"]
 ##iframe[title="Advert"]
+##img[src*="banner-"][src*="-160x600"]
 ##mv-ad-reporter
 ##pgs-ad
 ##trc_rbox_container
