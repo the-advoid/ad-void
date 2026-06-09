@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 2.0.23
-! Last modified: 2026-05-16T13:36:41.026+02:00
+! Version: 2.0.24
+! Last modified: 2026-06-09T19:59:01.680+02:00
 ! Expires: 480 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8
+! Entries: 9
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -30,3 +30,4 @@
 google.*##div[aria-describedby="promo_desc_id"]
 x.com##div[style="position: absolute; bottom: 0px; width: 100%; transition: transform 200ms ease-out; transform: translateY(0px);"]
 twitter.com##div[style="position: absolute; bottom: 0px; width: 100%; transition: transform 200ms ease-out; transform: translateY(0px);"]
+google.*##g-bottom-sheet[aria-labelledby="promo_label_id"]
