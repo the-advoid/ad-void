@@ -1,3 +1,4 @@
 google.*##div[aria-describedby="promo_desc_id"]
 x.com##div[style="position: absolute; bottom: 0px; width: 100%; transition: transform 200ms ease-out; transform: translateY(0px);"]
 twitter.com##div[style="position: absolute; bottom: 0px; width: 100%; transition: transform 200ms ease-out; transform: translateY(0px);"]
+google.*##g-bottom-sheet[aria-labelledby="promo_label_id"]
