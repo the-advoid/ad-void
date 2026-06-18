@@ -393,3 +393,4 @@ m.gsmarena.com##body::before
 m.gsmarena.com##body::after
 gsmarena.com##.d-flex:has(pgs-ad)
 m.gsmarena.com###specs-list > .align-center:has(> pgs-ad)
+temp-mail.org##li:has(.viewLink:has-text(AD |))
