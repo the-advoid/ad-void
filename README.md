@@ -650,15 +650,15 @@ Licensed under the [**GPL-3.0-or-later license**](https://github.com/the-advoid/
 ## 💖 Support
 
 <div align="center">
-  I work hard for every project, including this one and your support means a lot to me!
-  <br>
-  Consider buying me a coffee. ☕
+  If this open-source project has saved you time or enhanced your privacy, consider supporting its continued development via <a href="https://liberapay.com/igorskyflyer/donate"><strong>LiberaPay</a> or <a href="https://ko-fi.com/igorskyflyer"><strong>Ko-Fi</strong></a>.
   <br>
   <br>
-  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Ko-fi donation button - support Igor Dimitrijević (@igorskyflyer), creator of AdVoid ad-block filter lists" width="180" height="46"></a>
+  <a href="https://liberapay.com/igorskyflyer/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a> <a href="https://ko-fi.com/igorskyflyer"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Support Igor Dimitrijević (igorskyflyer) - Donate to Sustain Open-Source Projects" width="118" height="30" loading="lazy"></a>
   <br>
   <br>
-  <em>Thank you for supporting my efforts!</em> 🙏😊
+  <blockquote>
+    Support helps fund new open-source tools, maintenance, and documentation.
+  </blockquote>
 </div>
 
 <br>
