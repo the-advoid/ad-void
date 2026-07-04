@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.179
-! Last modified: 2026-06-05T16:05:41.584+02:00
+! Version: 1.0.180
+! Last modified: 2026-07-04T00:39:56.815+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5515
+! Entries: 5516
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2482,6 +2482,7 @@
 ||wuzbhjpvsf.com^
 ||wwicnmksxd.com^
 ||wwnxulyvk.com^
+||wy903.com^
 ||wyeszcj.com^
 ||wzbngjhjak.com^
 ||wzrkt.com^
@@ -4289,7 +4290,6 @@ zoneid=
 ##.ad-close-button
 ##.Ad-Container
 ##.ad-container
-##.ad-container
 ##.ad-current
 ##.ad-desktop
 ##.ad-disclaimer
@@ -4795,7 +4795,6 @@ zoneid=
 ##.showcase-banner
 ##.showcase-banner-text
 ##.side-bar-ad
-##.sidebar-ad
 ##.sidebar-ad:not(.adsbygoogle)
 ##.simple-banner
 ##.sinad_only_desktop
@@ -5431,6 +5430,7 @@ technical.city##div[class^="banner_"]
 techpowerup.com##body:not([data-template]) a[rel*="nofollow"][target="_blank"][href$="er/images/gmchjhj.png"]
 techpowerup.com##div.s--item:has(a[href^="/reviyuu/"])
 techtarget.com##.cls-hlb-wrapper-desktop
+temp-mail.org##li:has(.viewLink:has-text(AD |))
 tenforums.com##.chill
 thefreedictionary.com###sidebar #trans_link ~ div[id]
 thefreedictionary.com##.content-holder > div[id]:first-child
@@ -5550,6 +5550,7 @@ audiofanzine.com#@#[class*="mobile-leaderboard-"]
 dailyuploads.net#@#.banner:not(html):not(body)
 diskanalyzer.com#@#.banner:not(html):not(body)
 fontspace.com#@#.container-ads
+fullstackopen.com#@#.banner:not(html):not(body)
 halooglasi.com#@#[id^="ad-"]
 jenismac.com#@#.advertisement
 jiosaavn.com#@#.banner:not(html):not(body)
