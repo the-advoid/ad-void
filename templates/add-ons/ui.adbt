@@ -1,0 +1,15 @@
+@ created by igorskyflyer
+@ used by AdVoid
+@ compiled by Aria
+@ [ADBT 2.0.0]
+
+header './templates/headers/advoid-header.txt'
+
+meta title = 'AdVoid.Addon.Ui'
+meta description = 'Fixes UI defects, layout glitches, bad fallback styling, dark mode bugs, contrast issues, and related UI regressions.'
+meta expires = '24 hours'
+
+tag 'Styling (site)'
+include './rules/add-ons/ui/styling-site.txt' sort
+
+export './add-ons/AdVoid.Addon.Ui.txt'
