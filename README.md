@@ -44,6 +44,7 @@
     - [**NoAnnoyances**](#-advoidaddonnoannoyances)
     - [**NoExternals**](#-advoidaddonnoexternals)
     - [**NoExtras**](#-advoidaddonnoextras)
+    - [**UI**](#-advoidaddonui)
     - [**Experiments**](#-advoidaddonexperiments)
   - [**Scriptlets**](#-scriptlets)
     - [**AntiAntiAdBlock**](#-advoidscriptletsantiantiadblock)
@@ -327,6 +328,33 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtra
 ```
 
 ---
+
+#### 💄 AdVoid.Addon.Ui
+
+##### The UI Add-on
+
+> Fixes UI defects, layout glitches, bad fallback styling, dark mode bugs, contrast issues, and related UI regressions.
+
+<br>
+
+Subscribe via `GitHub` to get `instant` updates, either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Ui.txt&title=AdVoid.Addon.Ui"><img alt="Subscribe button - apply AdVoid.Addon.Ui by Igor Dimitrijević (@igorskyflyer), fix UI regressions" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-github.svg" width="120" height="45"></a>
+
+```
+https://raw.githubusercontent.com/the-advoid/ad-void/main/add-ons/AdVoid.Addon.Ui.txt
+```
+
+<br>
+
+Choose the *fallback CDN* `jsDelivr` if you prefer CDN caching and global reliability. Updates may be delayed up to 12h, but delivery is stable and fast across regions.  
+Subscribe either by clicking the `Subscribe` button below or copying the URL below and pasting it into your ad-blocker.
+
+<a href="https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Ui.txt&title=AdVoid.Addon.Ui"><img alt="Subscribe button - apply AdVoid.Addon.Ui by Igor Dimitrijević (@igorskyflyer), fix UI regressions" src="https://raw.githubusercontent.com/the-advoid/ad-void/main/assets/subscribe-jsdelivr.svg" width="120" height="45"></a>
+
+```
+https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Ui.txt
+```
 
 #### 🧪 AdVoid.Addon.Experiments
 
