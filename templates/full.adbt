@@ -149,6 +149,11 @@ include './rules/add-ons/no-externals/restore-cosmetic-site.txt' sort
 
 nl
 
+tag 'Styling (site)'
+include './rules/add-ons/ui/styling-site.txt' sort
+
+nl
+
 tag 'Scriptlets (site)'
 include './rules/core/scriptlets-site.txt' sort
 include './rules/add-ons/no-annoyances/scriptlets-site.txt' sort
