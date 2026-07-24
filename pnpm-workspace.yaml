@@ -3,12 +3,14 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - js-yaml@3.15.0 || 4.1.2
+  - brace-expansion@5.0.7
 
 onlyBuiltDependencies:
   - core-js-pure
 
 overrides:
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
+  brace-expansion@>=3.0.0 <5.0.7: ^5.0.7
   brace-expansion@>=4.0.0 <5.0.5: '>=5.0.6'
   glob@>=10.2.0 <10.5.0: '>=10.5.0'
   js-yaml@<3.15.0: ^3.15.0
