@@ -1,0 +1,21 @@
+[Adblock Plus 2.0]
+!
+! {@!}
+! Title: AdVoid.Addon.Ui
+! Description: Fixes UI defects, layout glitches, bad fallback styling, dark mode bugs, contrast issues, and related UI regressions.
+! Version: 1.0.0
+! Last modified: 2026-07-24T19:40:07.151+02:00
+! Expires: 24 hours (update frequency)
+! Homepage: https://github.com/the-advoid/ad-void
+! Entries: 1
+! Author: Igor Dimitrijević (@igorskyflyer)
+! GitHub issues: https://github.com/the-advoid/ad-void/issues
+! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
+! License: https://github.com/the-advoid/ad-void/blob/main/LICENSE
+! Maintained by: Aria, Igor Dimitrijević (@igorskyflyer) and all of the contributors
+! See the CONTRIBUTORS.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) file for more information
+! See the CONTRIBUTING.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) file for more information on how to contribute
+! Source: World Wide Web
+
+! {@0} Styling (site)
+github.com##img.js-gh-image-fallback:style(background-color: transparent !important;)
