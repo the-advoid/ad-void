@@ -702,3 +702,4 @@ archivebate.com##+js(prevent-addEventListener, click, popMagic)
 archivebate.*##+js(abort-current-script, WebAssembly, atob)
 /^https:\/\/[a-z0-9]{4,8}\.[a-z]{2,5}\/[a-z0-9-]+\/[a-zA-Z0-9]{12,50}\b/$frame,3p,replace='/^/<script>(()=>{window.open=new Proxy(window.open,{apply:(n,o,w)=>{}});let e=document.querySelector("script");e.innerHTML.includes("window.open")&&e.parentElement.removeChild(e)})();<\/script>/i',match-case,ipaddress='/^(1(72\.67\.\d{3}|04\.21\.\d+)\.\d+|188\.114\.9[67]\.[08]|64:ff9b::[a-f0-9]{4}:[a-f0-9]{1,4})$/',to=~br|~edu|~gov|~ir|~it|~jp|~net|~org|~ru
 miixdrop.top##+js(prevent-window-open)
+miixdrop.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP|dtnoppu|adserverDomain/)
