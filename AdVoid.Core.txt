@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4542
-! Last modified: 2026-09-07T23:19:35.786+02:00
+! Version: 3.0.4543
+! Last modified: 2026-09-07T23:20:12.756+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6329
+! Entries: 6330
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6021,6 +6021,7 @@ megaup.net##+js(abort-on-property-write, Fingerprint2)
 megaup.net##+js(set-constant, ASksiwk, true)
 megaup.net##+js(set-constant, zJSYdQ, true)
 meteoblue.com##+js(set-constant, mb.advertisingShouldBeEnabled, false)
+miixdrop.top##+js(prevent-window-open)
 mixdrop.*##+js(abort-current-script, $, String.fromCharCode)
 mixdrop.*##+js(abort-current-script, document.createElement, dtnoppu)
 mixdrop.*##+js(abort-on-property-read, nativeInit)
