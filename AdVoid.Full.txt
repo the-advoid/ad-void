@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6279
-! Last modified: 2026-09-07T23:19:44.026+02:00
+! Version: 3.0.6280
+! Last modified: 2026-09-07T23:20:21.206+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8497
+! Entries: 8498
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7874,6 +7874,7 @@ megaup.net##+js(abort-on-property-write, Fingerprint2)
 megaup.net##+js(set-constant, ASksiwk, true)
 megaup.net##+js(set-constant, zJSYdQ, true)
 meteoblue.com##+js(set-constant, mb.advertisingShouldBeEnabled, false)
+miixdrop.top##+js(prevent-window-open)
 mixdrop.*##+js(abort-current-script, $, String.fromCharCode)
 mixdrop.*##+js(abort-current-script, document.createElement, dtnoppu)
 mixdrop.*##+js(abort-on-property-read, nativeInit)
