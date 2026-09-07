@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.185
-! Last modified: 2026-08-19T00:14:36.713+02:00
+! Version: 1.0.186
+! Last modified: 2026-09-07T23:12:01.188+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5518
+! Entries: 5525
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1031,6 +1031,7 @@
 ||hhbypdoecp.com^
 ||highcpmrevenuegate.com^
 ||highperformancedformats.com^
+||highperformanceformat.com^
 ||highperformancegate.com^
 ||highrevenuegate.com^
 ||histats.com^$3p
@@ -4102,6 +4103,7 @@ zoneid=
 ###ad
 ###ad-footer
 ###ad-lead
+###ad-top
 ###ad1
 ###ad1-placeholder
 ###ad2
@@ -4453,6 +4455,8 @@ zoneid=
 ##.adv-wrapper
 ##.adv_text
 ##.adv_wrap
+##.adver-fix
+##.adver-wrapper
 ##.advert
 ##.advert-title
 ##.advert-wrap
@@ -4669,6 +4673,7 @@ zoneid=
 ##.id_ad_content-horiz-center
 ##.id_inline_ad1
 ##.iframe-adv
+##.ig-top-ad-box
 ##.ima-ad-container
 ##.img_ad
 ##.in-content-ad
@@ -4886,6 +4891,7 @@ zoneid=
 ##.wp_ad_t
 ##.wpb-banner-mobile
 ##.wpcc-bottom
+##.wsl-between-ad
 ##.xp-banner-pause
 ##.xplayer-banner
 ##.yeni-bnnr
@@ -5040,6 +5046,7 @@ zoneid=
 ##[id*="taboola-"]
 ##[id^="ad-"]
 ##[id^="ad_houseslot_"]
+##[id^="adangle-"]
 ##[id^="adContent"]
 ##[id^="adm-inline-article-ad-"]
 ##[id^="adngin-"]
