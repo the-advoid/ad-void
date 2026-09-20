@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.199
-! Last modified: 2026-09-20T20:00:57.053+02:00
+! Version: 1.0.200
+! Last modified: 2026-09-20T20:22:05.013+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5540
+! Entries: 5544
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2127,6 +2127,7 @@
 ||stretchsquirrel.com^
 ||ststandard.com^
 ||styria.hr^
+||subgumgutwise.com^
 ||subjecttimberinspiration.com^
 ||submissionthemecolonialism.com^
 ||successfulpatience.com^
@@ -4134,6 +4135,7 @@ zoneid=
 ###ad_top
 ###AD_Top
 ###ad_topslot
+###adbd.overdiv
 ###adBlock
 ###adBottom
 ###adbox2
@@ -4273,6 +4275,7 @@ zoneid=
 ##-top-center
 ##._ad
 ##._adholder
+##._ap_apex_ad
 ##._ap_apex_ad
 ##._flamelab-ad
 ##.a-320-50-show
@@ -5161,6 +5164,7 @@ zoneid=
 ##wio-x
 
 ! {@14} Cosmetic (site)
+##body > div[style^="position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01"][style*=";cursor:pointer"]:empty
 1337x.*##[href*="vpn"]
 1337x.*##[onclick*="vpn"]
 1337x.*##[onclick^="location.href='https://1337x.vpnonly.site/"]
