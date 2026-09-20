@@ -706,3 +706,4 @@ miixdrop.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP|d
 livetvkodiserbia.com##+js(prevent-clipboard-write)
 kesug.com##+js(prevent-clipboard-write)
 bysebuho.com##+js(prevent-window-open)
+bysebuho.com##+js(prevent-setTimeout, readyWait)
