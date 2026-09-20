@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4582
-! Last modified: 2026-09-20T20:17:30.202+02:00
+! Version: 3.0.4583
+! Last modified: 2026-09-20T20:18:53.515+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6359
+! Entries: 6360
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6061,6 +6061,7 @@ mixdrop.*##^script:has-text(adserverDomain)
 mixdrop.*##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
 moddroid.com##+js(addEventListener-defuser, , break;case $.)
 moddroid.com##+js(no-window-open-if)
+morencius.com##+js(prevent-window-open, _blank)
 mp4upload.com##+js(abort-current-script, document.documentElement, break;case $.)
 mp4upload.com##+js(abort-on-property-read, Adcash)
 mp4upload.com##+js(abort-on-property-write, adcashMacros)
