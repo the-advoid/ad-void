@@ -386,3 +386,4 @@ _prebid.js^$script
 /player/stats.php?$image,redirect-rule=1x1.gif
 /google-tag-manager*js^$script,redirect-rule=noop.js
 /plugins/google-analytics^$script
+/prebid.$script,from=~prebid.org
