@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4595
-! Last modified: 2026-09-20T20:29:16.414+02:00
+! Version: 3.0.4596
+! Last modified: 2026-09-20T20:29:46.385+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6372
+! Entries: 6373
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6216,6 +6216,7 @@ streamtape.*##+js(adjust-setTimeout, counter)
 streamtape.*##+js(disable-newtab-links)
 streamtape.*##+js(no-setInterval-if, adblock)
 streamtape.*##+js(no-window-open-if)
+streamtape.*##+js(prevent-addEventListener, contextmenu, event.dispatch.apply)
 streamtape.*##+js(prevent-setInterval, adblock)
 streamtape.*##+js(prevent-setInterval, adblock, 700)
 streamtape.*##+js(prevent-window-open)
