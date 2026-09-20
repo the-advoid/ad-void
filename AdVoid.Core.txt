@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4554
-! Last modified: 2026-09-20T18:29:17.773+02:00
+! Version: 3.0.4555
+! Last modified: 2026-09-20T18:30:04.688+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6339
@@ -4091,7 +4091,7 @@ trekkie*.js^$script
 ! {@19} RegExp (global)
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~3p,from=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /\.[a-z]{3,5}\/[0-9a-z]{8,12}\/[0-9a-z]{8,12}\.js$/$script,from=555.porn|abxxx.com|aniporn.com|asiantv.fun|bdsmx.tube|bigdick.tube|blackporn.tube|gaytxxx.com|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.*|mrgay.tube|onlyporn.tube|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornhits.com|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|sextu.com|shemalez.com|sss.xxx|teenorgy.video|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xjav.tube|xmilf.com
-/\/[0-9a-f]{32}\/invoke\.js/$script,3p
+/\/[0-9a-f]{32}\/invoke\.js/$script,3p,redirect-rule=noop.js
 /\/[a-z]{4,}\/(?!holly7)(?!siksik7)[0-9a-z]{3,}\d\.\d{1,2}\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,from=555.porn|bigdick.tube|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~3p,from=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4}\/$/$script,1p,match-case,to=~xsso.leagueoflegends.com|~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
