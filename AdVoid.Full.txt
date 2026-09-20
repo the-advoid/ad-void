@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6337
-! Last modified: 2026-09-20T20:27:03.392+02:00
+! Version: 3.0.6338
+! Last modified: 2026-09-20T20:28:24.402+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8538
+! Entries: 8539
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8058,6 +8058,7 @@ storiesig.info.*##+js(no-window-open-if)
 streambucket.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByTagName[\s\S]*?insertBefore/)
 streambucket.net##+js(abort-current-script, EventTarget.prototype.addEventListener, /runPop|aclib|window\.open/)
 streamnoads.com##+js(disable-newtab-links)
+streamtape.*##+js(abort-current-script, document.createElement, adblock)
 streamtape.*##+js(abort-current-script, document.documentElement, break;case $.)
 streamtape.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 streamtape.*##+js(abort-current-script, JSON.parse, Promise)
