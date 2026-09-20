@@ -711,3 +711,4 @@ bysebuho.com##+js(abort-current-script, EventTarget.prototype.addEventListener, 
 n1mwq.org##+js(prevent-window-open)
 n1mwq.org##+js(abort-on-property-read, Dulak)
 n1mwq.org##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+n1mwq.org##+js(abort-current-script, document.createElement, delete window)
