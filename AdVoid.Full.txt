@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6304
-! Last modified: 2026-09-20T18:55:08.223+02:00
+! Version: 3.0.6305
+! Last modified: 2026-09-20T19:27:47.141+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8519
+! Entries: 8520
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3505,6 +3505,7 @@ _pagespeed_beacon?$xhr
 ||facebook.com/a/bz^$xhr
 ||facebook.com/ajax/qm/$xhr
 ||facebook.com/method/links.getstats^$xhr
+||goodreads.com/weblab^$xhr
 ||google.com/log?$xhr,redirect-rule=noop.txt
 ||grok.com/api/statsig/$xhr
 ||gsmarena.com/*.php3?sSearch=$xhr,1p,from=gsmarena.com
