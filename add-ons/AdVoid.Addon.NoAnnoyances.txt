@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1463
-! Last modified: 2026-09-20T19:56:20.137+02:00
+! Version: 2.0.1464
+! Last modified: 2026-09-20T20:02:41.495+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1382
@@ -892,6 +892,7 @@ duckduckgo.com##.header--aside.js-header-aside > .header--aside__item > [class]
 duckduckgo.com##.header__search-wrap + div.header--aside > div.header--aside__item
 dxomark.com##.orejime-Notice
 emojipedia.org##div[class^="Footer_footer-navigation-zedge__"]
+eurovisionworld.com##.teaser_flex_united24
 fandom.com###featured-video__player-container
 fandom.com###WikiaBar:has(> #WikiaBarWrapper > .wikia-bar-anon > .message[data-wikiabarcontent])
 fandom.com##.marketing-notifications
@@ -906,7 +907,6 @@ freeconvert.com###TryFree
 geeksforgeeks.org###openInApp-modal
 gemoo.com##.fixedbot
 globalmeteo.com##[style="position: fixed;bottom: 5px;padding: 5px;opacity: 0.9;width: 300px;left: 50%;transform: translateX(-50%);z-index: 1000"]
-goodreads.com##.SiteHeaderBanner:style(display: none !important;)
 google.com###taw > div > [data-ved]
 gorenje.com##.blurry-background
 greenmangaming.com###__tealiumGDPRecModal
