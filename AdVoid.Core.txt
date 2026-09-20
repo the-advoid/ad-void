@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4562
-! Last modified: 2026-09-20T18:45:25.902+02:00
+! Version: 3.0.4563
+! Last modified: 2026-09-20T18:45:52.646+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6346
+! Entries: 6347
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6062,6 +6062,7 @@ myflixerz.*##+js(abort-current-script, EventTarget.prototype.addEventListener, d
 myflixerz.*##+js(abort-on-property-write, zfgproxyhttp)
 myflixerz.*##+js(no-window-open-if)
 myvidster.com##+js(abort-current-script, document.write, cachebuster)
+n1mwq.org##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 n1mwq.org##+js(abort-on-property-read, Dulak)
 n1mwq.org##+js(prevent-window-open)
 netflix.com##+js(json-prune, data.pinotPausedPlaybackPage)
