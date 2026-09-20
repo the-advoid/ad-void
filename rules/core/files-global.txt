@@ -387,3 +387,4 @@ _prebid.js^$script
 /google-tag-manager*js^$script,redirect-rule=noop.js
 /plugins/google-analytics^$script
 /prebid.$script,from=~prebid.org
+/fingerprint2.min.js$script,3p,important,redirect-rule=fingerprint2.js,from=~abqjournal.com|~amateuralbum.net
