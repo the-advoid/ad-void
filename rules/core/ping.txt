@@ -1,4 +1,5 @@
 *$ping,3p
 /api/front/v2/observability$ping
-# websocket
+! websocket
 ||viafoura.co/eventfeed?site_uuid=
+/api/front/v2/observability$ping
