@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6341
-! Last modified: 2026-09-20T20:29:58.054+02:00
+! Version: 3.0.6342
+! Last modified: 2026-09-20T20:30:28.898+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8542
@@ -8062,6 +8062,7 @@ streamtape.*##+js(abort-current-script, document.createElement, adblock)
 streamtape.*##+js(abort-current-script, document.documentElement, break;case $.)
 streamtape.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 streamtape.*##+js(abort-current-script, JSON.parse, Promise)
+streamtape.*##+js(abort-on-property-read, aclib)
 streamtape.*##+js(abort-on-property-read, Adcash)
 streamtape.*##+js(abort-on-property-write, _pop)
 streamtape.*##+js(addEventListener-defuser, contextmenu)
@@ -8081,7 +8082,6 @@ streamtape.*##+js(set-constant, googleAd, true)
 streamtape.*##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
 streamtape.*##^script:has-text(/WebAssembly|forceunder/)
 streamtape.com##+js(abort-current-script, WebAssembly, atob)
-streamtape.com##+js(abort-on-property-read, aclib)
 streamtape.com##+js(abort-on-property-read, Adcash)
 stripchat.com##+js(abort-current-script, document.createElement, initTabUnder)
 stripchat.com##+js(remove-cookie, video_view_count)
