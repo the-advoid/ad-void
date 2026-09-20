@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6339
-! Last modified: 2026-09-20T20:28:55.410+02:00
+! Version: 3.0.6340
+! Last modified: 2026-09-20T20:29:27.888+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8540
+! Entries: 8541
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8074,6 +8074,7 @@ streamtape.*##+js(prevent-setInterval, adblock)
 streamtape.*##+js(prevent-setInterval, adblock, 700)
 streamtape.*##+js(prevent-window-open)
 streamtape.*##+js(remove-attr, target, #downloadvideo)
+streamtape.*##+js(remove-node-text, script, /parseInt.*push.*setTimeout.*try.*catch/)
 streamtape.*##+js(remove-node-text, script, /parseInt.*push.*setTimeout.*try.*catch/)
 streamtape.*##+js(set-constant, googleAd, true)
 streamtape.*##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
