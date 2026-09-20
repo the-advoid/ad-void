@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4596
-! Last modified: 2026-09-20T20:29:46.385+02:00
+! Version: 3.0.4597
+! Last modified: 2026-09-20T20:30:16.334+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6373
@@ -6208,6 +6208,7 @@ streamtape.*##+js(abort-current-script, document.createElement, adblock)
 streamtape.*##+js(abort-current-script, document.documentElement, break;case $.)
 streamtape.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 streamtape.*##+js(abort-current-script, JSON.parse, Promise)
+streamtape.*##+js(abort-on-property-read, aclib)
 streamtape.*##+js(abort-on-property-read, Adcash)
 streamtape.*##+js(abort-on-property-write, _pop)
 streamtape.*##+js(addEventListener-defuser, contextmenu)
@@ -6227,7 +6228,6 @@ streamtape.*##+js(set-constant, googleAd, true)
 streamtape.*##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
 streamtape.*##^script:has-text(/WebAssembly|forceunder/)
 streamtape.com##+js(abort-current-script, WebAssembly, atob)
-streamtape.com##+js(abort-on-property-read, aclib)
 streamtape.com##+js(abort-on-property-read, Adcash)
 stripchat.com##+js(abort-current-script, document.createElement, initTabUnder)
 stripchat.com##+js(remove-cookie, video_view_count)
