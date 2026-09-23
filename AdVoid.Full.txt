@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6368
-! Last modified: 2026-09-23T22:54:51.934+02:00
+! Version: 3.0.6369
+! Last modified: 2026-09-23T22:55:11.372+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8566
+! Entries: 8567
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7979,6 +7979,7 @@ opensubtitles.org##+js(json-prune, *, rot_url)
 opensubtitles.org##+js(set-constant, hide_ads3, 1)
 paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallback=http"], ?fallback)
 pinterest.*##+js(json-prune, resource_response.data.[-].pin_promotion_id)
+player.videasy.*##+js(prevent-addEventListener, unload, unloaded_at)
 player.videasy.*##+js(prevent-window-open)
 plex.tv##+js(prevent-fetch, plex.tv/api/v2/ads/vendors, emptyStr)
 porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
