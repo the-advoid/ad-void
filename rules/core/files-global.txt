@@ -388,3 +388,4 @@ _prebid.js^$script
 /plugins/google-analytics^$script
 /prebid.$script,from=~prebid.org
 /fingerprint2.min.js$script,3p,important,redirect-rule=fingerprint2.js,from=~abqjournal.com|~amateuralbum.net
+/728x90.g$image
