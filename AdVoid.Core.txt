@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4618
-! Last modified: 2026-09-23T22:55:07.276+02:00
+! Version: 3.0.4619
+! Last modified: 2026-09-23T22:55:28.298+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6392
+! Entries: 6393
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6122,6 +6122,7 @@ opensubtitles.org##+js(json-prune, *, rot_url)
 opensubtitles.org##+js(set-constant, hide_ads3, 1)
 paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallback=http"], ?fallback)
 pinterest.*##+js(json-prune, resource_response.data.[-].pin_promotion_id)
+player.videasy.*##+js(abort-current-script, addEventListener, HTMLAllCollection)
 player.videasy.*##+js(prevent-addEventListener, unload, unloaded_at)
 player.videasy.*##+js(prevent-window-open)
 plex.tv##+js(prevent-fetch, plex.tv/api/v2/ads/vendors, emptyStr)
