@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.212
-! Last modified: 2026-09-23T22:56:22.019+02:00
+! Version: 1.0.213
+! Last modified: 2026-09-23T22:59:25.944+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5559
+! Entries: 5562
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -533,6 +533,7 @@
 ||cm65.com^
 ||cm65.com^$document
 ||co5n3nerm6arapo7ny.com^
+||cobnutscopsole.com^
 ||cocoaladies.com^
 ||coconts.com^
 ||codez1.me^
@@ -3476,6 +3477,7 @@ _pagespeed_beacon?$xhr
 /300x250-$image
 /300x250.$image
 /300x250_$image
+/728x90.g$image
 /@mozilla/glean/$script
 /\/js\/script_\d{2}\.\d{2}\.js\?\d+$/$script,1p,strict1p
 /_adview_.ad.json^
@@ -3949,6 +3951,7 @@ trekkie*.js^$script
 ||paypal.com/tagmanager/pptm.js^$script
 ||perfops.net/rom3/$script
 ||player.globalsun.io/*-player.js^$script
+||player.videasy.to/scripts/ab.js^$script
 ||porn-hub.live/*/*.php?$image
 ||porndig.com/sw$script
 ||porntrex.com^$script,3p,from=~blazingcdn.net|~cdntrex.com|~fastly.net|~google.com|~googleapis.com|~gstatic.com|~h-cdn.com|~stackpathcdn.com
