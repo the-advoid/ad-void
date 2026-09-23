@@ -731,3 +731,4 @@ streamtape.*##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|creat
 streamtape.*##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
 player.videasy.*##+js(prevent-window-open)
 player.videasy.*##+js(prevent-addEventListener, unload, unloaded_at)
+player.videasy.*##+js(abort-current-script, addEventListener, HTMLAllCollection)
