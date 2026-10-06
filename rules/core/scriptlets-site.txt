@@ -732,3 +732,4 @@ streamtape.*##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]
 player.videasy.*##+js(prevent-window-open)
 player.videasy.*##+js(prevent-addEventListener, unload, unloaded_at)
 player.videasy.*##+js(abort-current-script, addEventListener, HTMLAllCollection)
+balkanjizz.com##+js(nowoif)
