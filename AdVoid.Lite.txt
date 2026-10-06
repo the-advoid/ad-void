@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.214
-! Last modified: 2026-09-23T22:59:49.322+02:00
+! Version: 1.0.215
+! Last modified: 2026-10-06T20:48:01.034+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5563
+! Entries: 5572
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2994,6 +2994,7 @@
 ||pixel.reddit.com^
 ||pixel.tatpek.com^
 ||pixel.wp.com^
+||pixiedust.buzzfeed.com^
 ||player-logs-service-*.run.app^
 ||player.anyclip.com^$from=dictionary.com
 ||plx.porndig.com^
@@ -3270,6 +3271,7 @@ ads-manager/ads/*/track-view
 /A-V4-DATA-DUMP^$xhr
 /ad/www/delivery/*$xhr
 /ad_break^$xhr
+/ads/*.xml$xhr
 /ads1.$~xhr,from=~ads-i.org
 /afu.php^$xhr
 /ahoy/visits$xhr
@@ -3840,6 +3842,7 @@ _pagespeed_beacon?$xhr
 /xads.js^$script,domain=~miixdrop.top
 /yandex-metrica-watch/$script
 1x1.gif^$image
+_300x250.$image
 _468x60_
 _prebid.js^$script
 amp-ad-*js^$script
@@ -4317,6 +4320,7 @@ zoneid=
 ##.ad-block-container
 ##.ad-block-wk
 ##.ad-body
+##.ad-body
 ##.ad-bottom
 ##.ad-box:not(#ad-banner)
 ##.ad-btn-left
@@ -4325,6 +4329,7 @@ zoneid=
 ##.ad-card
 ##.ad-close
 ##.ad-close-button
+##.ad-comment
 ##.Ad-Container
 ##.ad-container
 ##.ad-current
@@ -4654,6 +4659,7 @@ zoneid=
 ##.fold_article__banner_top
 ##.foobar-container
 ##.foot_ads
+##.footer-ad
 ##.footer-ad
 ##.footer-banner-ads
 ##.footer-banners
@@ -5005,6 +5011,7 @@ zoneid=
 ##[class*="rail-ads-"]
 ##[class*="raptive-content"]
 ##[class*="removeAdsButton"]
+##[class*="ResponsiveAd-module"]
 ##[class*="SponsoredAds"]
 ##[class*="staticAd"]
 ##[class*="sticky-ad"]
@@ -5133,6 +5140,7 @@ zoneid=
 ##a[href^="https://a.adtng.com/"]
 ##a[href^="https://chaturbate.com/in/?tour="]
 ##a[href^="https://clickadilla.com/"]
+##a[href^="https://clicks.pipaffiliates.com/"]
 ##a[href^="https://deliver.ptgncdn.com/"]
 ##a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img
 ##a[href^="https://go.xlviiirdr.com"]
@@ -5211,6 +5219,7 @@ apkcombo.com##.diseanmevrtt
 apkdone.com##div[style^="height:250px"]
 backloggd.com###game-page-desktop-center-unit
 badgerherald.com##.flytead + hrld-preflight
+balkanjizz.com##.cus-slider
 bang-movies.com##.container + center
 bbc.com##.bbccom_advert
 beemtube.com##.overspot
