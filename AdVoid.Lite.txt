@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.215
-! Last modified: 2026-10-06T20:48:01.034+02:00
+! Version: 1.0.216
+! Last modified: 2026-10-06T20:55:31.655+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5572
+! Entries: 5582
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1832,6 +1832,7 @@
 ||quantcast.com^$3p
 ||quantserve.com^
 ||quantumdex.io^
+||quantumlandingpageforge.com^
 ||queitho.com^$popup,doc
 ||questionpro.com^$3p,from=~questionpro.com.au|~questionpro.eu
 ||queue-it.net^
@@ -3352,6 +3353,7 @@ _pagespeed_beacon?$xhr
 /^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$xhr,3p,from=~amazon.com
 ://analytics.*/event$xhr
 ://plausible.*/api/event|$xhr,3p
+||abeagle-public.buzzfeed.com/public/*shield-script-$xhr
 ||accounts.google.com/gsi/log$xhr
 ||adem.my.id^$xhr
 ||amazon.com/follow/log-metrics^$xhr
@@ -4335,9 +4337,11 @@ zoneid=
 ##.ad-current
 ##.ad-desktop
 ##.ad-disclaimer
+##.ad-ex
 ##.ad-halfpage
 ##.ad-header
 ##.ad-hm-slot
+##.ad-inline
 ##.ad-inline
 ##.ad-inner
 ##.ad-item
@@ -4351,6 +4355,7 @@ zoneid=
 ##.ad-mobile--sticky
 ##.ad-mobile__container
 ##.ad-mrec
+##.ad-native
 ##.ad-panel
 ##.ad-placeholder
 ##.ad-placeholder:not(#detect, #detect_ad_empire, #filter_ads_by_classname, .adsbox)
@@ -4379,6 +4384,7 @@ zoneid=
 ##.ad-unit-container
 ##.ad-vertical
 ##.ad-w
+##.ad-wireframe-wrapper
 ##.ad-wrapper
 ##.ad-zone-container
 ##.ad-zone:not(.textads)
@@ -4731,6 +4737,8 @@ zoneid=
 ##.isiAds
 ##.jegStickyHolder
 ##.job-feed-ad
+##.js-ad
+##.js-ad-slot
 ##.js-ad-slot
 ##.js-advert
 ##.js-anchor-ad
@@ -4949,6 +4957,7 @@ zoneid=
 ##[class$="-spons-guide"]
 ##[class$="__video-units"]
 ##[class$="billboard_2_wrapper"]
+##[class*="-ad-placeholder-"]
 ##[class*="-adlabel"]
 ##[class*="-adsense-leaderboard"]
 ##[class*="-h-banner"]
@@ -5238,6 +5247,7 @@ boyfriendtv.com##li[class]:has(a[href^="https://boyfriend.show/"][rel="sponsored
 bporn.org##.global-army
 bporn.org##.player.flex > div.right
 braflix.top##.mvic-btn
+buzzfeed.com##.Ad--loading
 calculator.net###right > div[style]
 cam4.com##[data-section-id="Sponsored Ads"]
 cambridge.org##.topslot-container
