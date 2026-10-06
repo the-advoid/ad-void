@@ -109,3 +109,4 @@
 ||goodreads.com/logging^$xhr
 ||api2.amplitude.com^$xhr
 ||abeagle-public.buzzfeed.com/public/*shield-script-$xhr
+||awswaf.com^*/telemetry$xhr
