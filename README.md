@@ -706,7 +706,7 @@ Licensed under the [**GPL-3.0-or-later license**](https://github.com/the-advoid/
 ## 💖 Support
 
 <div align="center">
-  If this open-source project has enhanced your privacy or saved you time, consider supporting its continued development via <a href="https://liberapay.com/igorskyflyer/donate"><strong>LiberaPay</a> or <a href="https://ko-fi.com/igorskyflyer"><strong>Ko-Fi</strong></a>.
+  If this open-source project has enhanced your privacy or saved you time, consider supporting its continued development via <a href="https://liberapay.com/igorskyflyer/donate"><strong>LiberaPay</strong></a> or <a href="https://ko-fi.com/igorskyflyer"><strong>Ko-Fi</strong></a>.
   <br>
   <br>
   <a href="https://liberapay.com/igorskyflyer/donate"><img alt=" Igor Dimitrijević (igorskyflyer) - Donate via Liberapay to Sustain Open-Source Projects" src="https://liberapay.com/assets/widgets/donate.svg" loading="lazy"></a> <a href="https://ko-fi.com/igorskyflyer"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Support Igor Dimitrijević (igorskyflyer) - Donate via Ko-Fi to Sustain Open-Source Projects" width="120" height="30" loading="lazy"></a>
