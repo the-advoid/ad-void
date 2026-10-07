@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4727
-! Last modified: 2026-10-07T00:17:12.389+02:00
+! Version: 3.0.4728
+! Last modified: 2026-10-07T00:17:50.552+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6497
@@ -1036,7 +1036,7 @@
 ||h-cdn.com^
 ||hadglb7m3jcd.top^
 ||haffnetworkmm.com^
-||hai8g.com^$document
+||hai8g.com^$doc
 ||halidspilau.guru^
 ||harassmentgrowl.com^
 ||harmalpilotry.com^
@@ -1057,7 +1057,7 @@
 ||hellmade.top^
 ||hetaint.com^
 ||hetapus.com^
-||hetapus.com^$document
+||hetapus.com^$doc
 ||hewmjifrn4gway.com^
 ||hexagon-analytics.com^
 ||hhbypdoecp.com^
@@ -1564,8 +1564,8 @@
 ||nobledtenuous.com^
 ||noksootoux.net^
 ||nomorepecans.com^
-||noolt.com^$document
-||noolt.com^$document
+||noolt.com^$doc
+||noolt.com^$doc
 ||notifications.website^
 ||notifyoutspoken.com^
 ||notix.io^
@@ -1975,7 +1975,7 @@
 ||rtbbnr.com^
 ||rtbbonline.com^
 ||rtbbpowaq.com^
-||rtbbpowaq.com^$document
+||rtbbpowaq.com^$doc
 ||rtbrennab.com^
 ||rtbrvdirect.com^
 ||rtbsystem.org^
@@ -2331,7 +2331,7 @@
 ||trafficjunky.com^
 ||trafficjunky.net^
 ||trafficstars.com^^
-||trasupr.com^$document
+||trasupr.com^$doc
 ||traymute.com^
 ||trckswrm.com^
 ||trdnewsnow.net^
