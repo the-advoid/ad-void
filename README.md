@@ -98,6 +98,8 @@
 
 </details>
 
+<br>
+
 ## ℹ️ Quickstart
 
 🆕 New to ad-blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank"><strong>QUICKSTART</strong></a> first. 😉
