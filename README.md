@@ -31,7 +31,7 @@
 
 <details>
   <summary>
-    <h2>📃 Table of Contents</h2>
+    <strong>📃 Table of Contents</strong>
   </summary>
   <ul>
   <li><a href="#quickstart">ℹ️ <strong>Quickstart</strong></a></li>
@@ -62,14 +62,14 @@
         <a href="#scriptlets">⚡ <strong>Scriptlets</strong></a>
         <ul>
           <li><a href="#advoidscriptletsantiantiadblock">🥷🏼 <strong>AntiAntiAdBlock</strong></a></li>
-          <li><a href="#advoidscriptletsprivacy">🛡️ <strong>Privacy</strong></a></li>
+          <li><a href="#advoidscriptletsprivacy">🫆 <strong>Privacy</strong></a></li>
           <li><a href="#advoidscriptletsall">🔏 <strong>All</strong></a></li>
         </ul>
       </li>
       <li><a href="#legacy">🎠 <strong>Legacy</strong></a></li>
     </ul>
   </li>
-  <li><a href="#filter-trust">🛡️ <strong>Filter Trust</strong></a></li>
+  <li><a href="#filter-trust">🔒 <strong>Filter Trust</strong></a></li>
   <li>
     <a href="#transparency">🪟 <strong>Transparency</strong></a>
     <ul>
@@ -80,13 +80,13 @@
   <li>
     <a href="#case-study">📚 <strong>Case Study</strong></a>
     <ul>
-      <li><a href="#divergence-pt-1">🐛 <strong>Divergence Pt. 1</strong></a></li>
+      <li><a href="#divergence-pt-1">🧫 <strong>Divergence Pt. 1</strong></a></li>
       <li><a href="#divergence-pt-2">🐛 <strong>Divergence Pt. 2</strong></a></li>
-      <li><a href="#divergence-pt-3">🐛 <strong>Divergence Pt. 3</strong></a></li>
+      <li><a href="#divergence-pt-3">🦋 <strong>Divergence Pt. 3</strong></a></li>
     </ul>
   </li>
   <li><a href="#productivity-gains">🚀 <strong>Productivity Gains</strong></a></li>
-  <li><a href="#alternative-sources">🌐 <strong>Alternative Sources</strong></a></li>
+  <li><a href="#alternative-sources">🌍 <strong>Alternative Sources</strong></a></li>
   <li><a href="#disclaimer">⚠️ <strong>Disclaimer</strong></a></li>
   <li><a href="#contributing">✨ <strong>Contributing</strong></a></li>
   <li><a href="#contributors">🫂 <strong>Contributors</strong></a></li>
