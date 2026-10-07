@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.296
-! Last modified: 2026-10-07T00:19:16.063+02:00
+! Version: 1.0.297
+! Last modified: 2026-10-07T00:22:16.622+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5655
+! Entries: 5656
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -471,6 +471,7 @@
 ||catsnbootsncats2020.com^
 ||catsupsmanser.com^
 ||caudataolibene.com^
+||cavernousangle.com^
 ||ccfigtpmeaqnq.website^
 ||ccgateway.net^$3p
 ||ccmiocw.com^
@@ -3216,7 +3217,7 @@
 /b/stats?
 /batch/1/oe/*
 /cdn-cgi/rum?
-/click?pid=*&sub1=$document
+/click?pid=*&sub1=$doc
 /clickadu/*
 /collect^
 /com.snowplowanalytics.snowplow/*
@@ -3543,7 +3544,7 @@ _pagespeed_beacon?$xhr
 .DaybreakMetrics.*.js^$script
 .js?id=gtm-$script
 .moatYieldIntelligence.*.js^$script
-.php?key=*cost=$document
+.php?key=*cost=$doc
 .wxAdTargeting.*.js^$script
 /*&sw=/sw-check-permissions.js^$3p
 /*m-Mob
