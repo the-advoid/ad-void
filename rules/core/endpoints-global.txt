@@ -67,5 +67,5 @@ ads-manager/ads/*/track-view
 /.well-known/shopify/monorail
 ://collector.*/event
 /batch/1/oe/*
-/click?pid=*&sub1=$document
+/click?pid=*&sub1=$doc
 /cdn-cgi/rum?
