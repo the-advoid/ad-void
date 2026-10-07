@@ -34,79 +34,79 @@
     <h2>📃 Table of Contents</h2>
   </summary>
   <ul>
-  <li><a href="#ℹ️-quickstart"><strong>Quickstart</strong></a></li>
-  <li><a href="#-features"><strong>Features</strong></a></li>
+  <li><a href="#quickstart">ℹ️ <strong>Quickstart</strong></a></li>
+  <li><a href="#features">🤖 <strong>Features</strong></a></li>
   <li>
-    <a href="#-usage"><strong>Usage</strong></a>
+    <a href="#usage">🕵🏼 <strong>Usage</strong></a>
     <ul>
       <li>
-        <a href="#-modules"><strong>Modules</strong></a>
+        <a href="#modules">🐦‍🔥 <strong>Modules</strong></a>
         <ul>
-          <li><a href="#️-advoidfull"><strong>Full</strong></a></li>
-          <li><a href="#-advoidcore"><strong>Core</strong></a></li>
-          <li><a href="#-advoidlite"><strong>Lite</strong></a></li>
-          <li><a href="#-advoiddns"><strong>DNS</strong></a></li>
+          <li><a href="#advoidfull">🛡️ <strong>Full</strong></a></li>
+          <li><a href="#advoidcore">📦 <strong>Core</strong></a></li>
+          <li><a href="#advoidlite">🌱 <strong>Lite</strong></a></li>
+          <li><a href="#advoiddns">🌐 <strong>DNS</strong></a></li>
         </ul>
       </li>
       <li>
-        <a href="#-add-ons"><strong>Add-ons</strong></a>
+        <a href="#add-ons">🪼 <strong>Add-ons</strong></a>
         <ul>
-          <li><a href="#-advoidaddonnoannoyances"><strong>NoAnnoyances</strong></a></li>
-          <li><a href="#-advoidaddonnoexternals"><strong>NoExternals</strong></a></li>
-          <li><a href="#-advoidaddonnoextras"><strong>NoExtras</strong></a></li>
-          <li><a href="#-advoidaddonui"><strong>UI</strong></a></li>
-          <li><a href="#-advoidaddonexperiments"><strong>Experiments</strong></a></li>
+          <li><a href="#advoidaddonnoannoyances">😒 <strong>NoAnnoyances</strong></a></li>
+          <li><a href="#advoidaddonnoexternals">💬 <strong>NoExternals</strong></a></li>
+          <li><a href="#advoidaddonnoextras">🦄 <strong>NoExtras</strong></a></li>
+          <li><a href="#advoidaddonui">💄 <strong>UI</strong></a></li>
+          <li><a href="#advoidaddonexperiments">🧪 <strong>Experiments</strong></a></li>
         </ul>
       </li>
       <li>
-        <a href="#-scriptlets"><strong>Scriptlets</strong></a>
+        <a href="#scriptlets">⚡ <strong>Scriptlets</strong></a>
         <ul>
-          <li><a href="#-advoidscriptletsantiantiadblock"><strong>AntiAntiAdBlock</strong></a></li>
-          <li><a href="#️-advoidscriptletsprivacy"><strong>Privacy</strong></a></li>
-          <li><a href="#privacy-hardening-scriptlet"><strong>All</strong></a></li>
+          <li><a href="#advoidscriptletsantiantiadblock">🥷🏼 <strong>AntiAntiAdBlock</strong></a></li>
+          <li><a href="#advoidscriptletsprivacy">🛡️ <strong>Privacy</strong></a></li>
+          <li><a href="#advoidscriptletsall">🔏 <strong>All</strong></a></li>
         </ul>
       </li>
-      <li><a href="#-legacy"><strong>Legacy</strong></a></li>
+      <li><a href="#legacy">🎠 <strong>Legacy</strong></a></li>
     </ul>
   </li>
-  <li><a href="#️-filter-trust"><strong>Filter Trust</strong></a></li>
+  <li><a href="#filter-trust">🛡️ <strong>Filter Trust</strong></a></li>
   <li>
-    <a href="#-transparency"><strong>Transparency</strong></a>
+    <a href="#transparency">🪟 <strong>Transparency</strong></a>
     <ul>
-      <li><a href="#-development"><strong>Development</strong></a></li>
-      <li><a href="#-community"><strong>Community</strong></a></li>
+      <li><a href="#development">🔨 <strong>Development</strong></a></li>
+      <li><a href="#community">👥 <strong>Community</strong></a></li>
     </ul>
   </li>
   <li>
-    <a href="#-case-study"><strong>Case Study</strong></a>
+    <a href="#case-study">📚 <strong>Case Study</strong></a>
     <ul>
-      <li><a href="#-divergence-pt-1"><strong>Divergence Pt. 1</strong></a></li>
-      <li><a href="#-divergence-pt-2"><strong>Divergence Pt. 2</strong></a></li>
-      <li><a href="#-divergence-pt-3"><strong>Divergence Pt. 3</strong></a></li>
+      <li><a href="#divergence-pt-1">🐛 <strong>Divergence Pt. 1</strong></a></li>
+      <li><a href="#divergence-pt-2">🐛 <strong>Divergence Pt. 2</strong></a></li>
+      <li><a href="#divergence-pt-3">🐛 <strong>Divergence Pt. 3</strong></a></li>
     </ul>
   </li>
-  <li><a href="#-productivity-gains"><strong>Productivity Gains</strong></a></li>
-  <li><a href="#-alternative-sources"><strong>Alternative Sources</strong></a></li>
-  <li><a href="#️-disclaimer"><strong>Disclaimer</strong></a></li>
-  <li><a href="#-contributing"><strong>Contributing</strong></a></li>
-  <li><a href="#-contributors"><strong>Contributors</strong></a></li>
-  <li><a href="#-support"><strong>Support</strong></a></li>
-  <li><a href="#-license"><strong>License</strong></a></li>
-  <li><a href="#-related"><strong>Related</strong></a></li>
-  <li><a href="#-author"><strong>Author</strong></a></li>
+  <li><a href="#productivity-gains">🚀 <strong>Productivity Gains</strong></a></li>
+  <li><a href="#alternative-sources">🌐 <strong>Alternative Sources</strong></a></li>
+  <li><a href="#disclaimer">⚠️ <strong>Disclaimer</strong></a></li>
+  <li><a href="#contributing">✨ <strong>Contributing</strong></a></li>
+  <li><a href="#contributors">🫂 <strong>Contributors</strong></a></li>
+  <li><a href="#support">💖 <strong>Support</strong></a></li>
+  <li><a href="#license">🪪 <strong>License</strong></a></li>
+  <li><a href="#related">🧬 <strong>Related</strong></a></li>
+  <li><a href="#author">👨🏻‍💻 <strong>Author</strong></a></li>
 </ul>
 
 </details>
 
 <br>
 
-## ℹ️ Quickstart
+## Quickstart
 
 🆕 New to ad-blocking? Read the <a href="https://github.com/the-advoid/ad-void/blob/main/QUICKSTART.md" target="_blank"><strong>QUICKSTART</strong></a> first. 😉
 
 <br>
 
-## 🤖 Features
+## Features
 
 - 🚫 Blocks ads, trackers, malware and phishing
 - 🍪 Removes cookie banners and consent pop-ups
@@ -122,7 +122,7 @@
 
 <br>
 
-## 🕵🏼 Usage
+## Usage
 
 Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modules that you need.
 
@@ -130,17 +130,17 @@ Get all `AdVoid` filter lists in one bundle as `AdVoid.Full` or choose only modu
 
 > 🛡️ Note that some `AdVoid` rules require ***trust*** to activate.
 >
-> See [**Filter Trust**](#️-filter-trust) for more details - benefits and dangers that it brings.
+> See [**Filter Trust**](#filter-trust) for more details - benefits and dangers that it brings.
 
 <br>
 
-### 🐦‍🔥 Modules
+### Modules
 
 Modules are the four core `AdVoid` filter lists. Designed for layered protection: block ads, trackers, malware, and annoyances across web, DNS, and browser surfaces.
 
 ---
 
-#### 🛡️ AdVoid.Full
+#### AdVoid.Full
 
 ##### The Complete Protection
 
@@ -172,7 +172,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Full.txt
 
 ---
 
-#### 📦 AdVoid.Core
+#### AdVoid.Core
 
 ##### The Core Protection Module
 
@@ -201,13 +201,13 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Core.txt
 
 ---
 
-#### 🌱 AdVoid.Lite
+#### AdVoid.Lite
 
 ##### The Lite Protection Module
 
 > Blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. Refrains from using advanced and CPU-heavy rules.
 >
-> Lighter by ~35% than [**AdVoid.Full**](#️-advoidfull) and by ~12% than [**AdVoid.Core**](#-advoidcore).
+> Lighter by ~35% than [**AdVoid.Full**](#advoidfull) and by ~12% than [**AdVoid.Core**](#advoidcore).
 
 <br>
 
@@ -232,7 +232,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.Lite.txt
 
 ---
 
-#### 🌐 AdVoid.DNS
+#### AdVoid.DNS
 
 ##### The DNS-level Module
 
@@ -264,13 +264,13 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/AdVoid.DNS.txt
 
 <br>
 
-### 🪼 Add-ons
+### Add-ons
 
 For additional privacy, faster browsing experience and less tracking these `AdVoid` add-ons are available.
 
 ---
 
-#### 😒 AdVoid.Addon.NoAnnoyances
+#### AdVoid.Addon.NoAnnoyances
 
 ##### The No Annoyances Add-on
 
@@ -299,7 +299,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoAnnoy
 
 ---
 
-#### 💬 AdVoid.Addon.NoExternals
+#### AdVoid.Addon.NoExternals
 
 ##### The No Externals Add-on
 
@@ -328,7 +328,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExter
 
 ---
 
-#### 🦄 AdVoid.Addon.NoExtras
+#### AdVoid.Addon.NoExtras
 
 ##### The No Extras Add-on
 
@@ -357,7 +357,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.NoExtra
 
 ---
 
-#### 💄 AdVoid.Addon.Ui
+#### AdVoid.Addon.Ui
 
 ##### The UI Add-on
 
@@ -384,7 +384,7 @@ Subscribe either by clicking the `Subscribe` button below or copying the URL bel
 https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Ui.txt
 ```
 
-#### 🧪 AdVoid.Addon.Experiments
+#### AdVoid.Addon.Experiments
 
 ##### The Experimental Add-on
 
@@ -417,7 +417,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/add-ons/AdVoid.Addon.Experim
 
 <br>
 
-### ⚡ Scriptlets
+### Scriptlets
 
 > #### 🛑 DANGER
 >
@@ -435,7 +435,7 @@ Scriptlets are chunks of `JavaScript` code that run on a particular site and can
 
 ---
 
-#### 🥷🏼 AdVoid.Scriptlets.AntiAntiAdBlock
+#### AdVoid.Scriptlets.AntiAntiAdBlock
 
 ##### Anti-adblock Scriptlet
 
@@ -465,7 +465,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 ---
 
-#### 🛡️ AdVoid.Scriptlets.Privacy
+#### AdVoid.Scriptlets.Privacy
 
 ##### Privacy Hardening Scriptlet
 
@@ -495,7 +495,7 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 ---
 
-#### 🔏 AdVoid.Scriptlets.All
+#### AdVoid.Scriptlets.All
 
 ##### All Scriptlets Combined
 
@@ -525,13 +525,13 @@ https://cdn.jsdelivr.net/gh/the-advoid/ad-void@main/scriptlets/AdVoid.Scriptlets
 
 ---
 
-## 🎠 Legacy
+## Legacy
 
 As `AdVoid` continues to improve, certain rules will get deprecated and removed from main filter lists and transferred to the *Legacy* filter lists, see [**Legacy README**](https://github.com/the-advoid/ad-void/tree/main/legacy) for more information.
 
 ---
 
-## 🛡️ Filter Trust
+## Filter Trust
 
 While the majority of `AdVoid`'s rules manage to block more than *enough* ads for *most* users, some rules in `AdVoid` only activate if the ad-blocker marks the used list(s) as ***trusted***.  
 
@@ -549,7 +549,7 @@ Many ad-blockers show an error when trusted rules are encountered (shown below),
 <br>
 
 <blockquote align="center">
-  See the <a href="#️-disclaimer"><strong>Disclaimer</strong></a> as well.
+  See the <a href="#disclaimer"><strong>Disclaimer</strong></a> as well.
 </blockquote>
 
 <br>
@@ -569,25 +569,25 @@ Many ad-blockers show an error when trusted rules are encountered (shown below),
 <br>
 <br>
 
-## 🪟 Transparency
+## Transparency
 
 [`AdVoid`](https://github.com/the-advoid) is fully transparent, no hidden agendas, no whitelisted ads, all issues and reports are public.  
 
 Explore the links below to view `AdVoid`'s structure, possible issues and community reports.  
 
-#### 🔨 Development
+#### Development
 - [**source and rules**](https://github.com/the-advoid/ad-void)
 - [**issues**](https://github.com/the-advoid/ad-void/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [**pull requests**](https://github.com/the-advoid/ad-void/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 
-#### 👥 Community
+#### Community
 - [**roadmap**](https://github.com/the-advoid/roadmap)
 - [**URL proposals**](https://github.com/the-advoid/watchlist)
 - [**discussions**](https://github.com/the-advoid/ad-void/discussions)
 
 <br>
 
-## 📚 Case Study
+## Case Study
 
 `AdVoid` was started as a personal project in `January, 2022` then made public mid February of the same year. At first it was very easy to add new rules or modify existing ones since there were only a few rules to manage. As the filter list continued to grow, it diverged into distinct, smaller lists known as **modules** and **add-ons** - for easier maintenance.  
 
@@ -595,7 +595,7 @@ Even with all the rules-splitting, maintenance was cumbersome. Since `Aug 14 202
 
 <br>
 
-#### 🐛 Divergence Pt. 1
+#### Divergence Pt. 1
 
 The modules were:
 - [**AdVoid.Core**](https://github.com/the-advoid/ad-void/blob/main/AdVoid.Core.txt) - core functionality (ad-blocking, URL + cosmetic)
@@ -604,7 +604,7 @@ The modules were:
 
 <br>
 
-#### 🐛 Divergence Pt. 2
+#### Divergence Pt. 2
 
 The add-ons were:
 - [**AdVoid.Addon.NoAnnoyances**](https://github.com/the-advoid/ad-void/blob/main/add-ons/AdVoid.Addon.NoAnnoyances.txt) - blocks site annoyances: cookie-consent banners, pop-ups, etc.
@@ -614,7 +614,7 @@ The add-ons were:
 
 <br>
 
-#### 🐛 Divergence Pt. 3
+#### Divergence Pt. 3
 
 ---
 
@@ -626,7 +626,7 @@ After creating the before-mentioned solutions, [**AdVoid**](https://github.com/t
 
 <br>
 
-### 🚀 Productivity Gains
+### Productivity Gains
 
 Since [`Aria`](https://github.com/aria-toolkit/aria-cli) saves a substantial amount of time needed for maintaining filter lists, `Aria` has allowed the productivity to increase exponentially which in turn allowed for rule additions/deletions to skyrocket, see the graph below. 🚀
 
@@ -655,13 +655,13 @@ After adoption, that number rose to ~**4,240** rule commits per month (+**1,104.
 
 <br>
 
-## 🌐 Alternative Sources
+## Alternative Sources
 
 Besides [**this repository**](https://github.com/the-advoid/ad-void/), `AdVoid` is also listed on the [**filterlists.com**](https://filterlists.com/) website.
 
 <br>
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 `AdVoid` is provided *as-is*, without warranty of any kind. While every effort is made to ensure the accuracy and effectiveness of its modules, add-ons and scriptlets, its users are solely responsible for how and where they use `AdVoid` in their own, local environments.  
 
@@ -682,7 +682,7 @@ By using `AdVoid`, you acknowledge that:
 
 <br>
 
-## ✨ Contributing
+## Contributing
 
 We welcome community contributions!  
 
@@ -690,20 +690,20 @@ Please see our [**Contributing Guidelines**](https://github.com/the-advoid/ad-vo
 
 <br>
 
-## 🫂 Contributors
+## Contributors
 
 Contributors to `AdVoid` can be found on the [**CONTRIBUTORS**](https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTORS.md) page.
 
 <br>
 
-## 🪪 License
+## License
 
 Licensed under the [**GPL-3.0-or-later license**](https://github.com/the-advoid/ad-void/blob/main/LICENSE).
 
 <br>
 <br>
 
-## 💖 Support
+## Support
 
 <div align="center">
   If this open-source project has enhanced your privacy or saved you time, consider supporting its continued development via <a href="https://liberapay.com/igorskyflyer/donate"><strong>LiberaPay</strong></a> or <a href="https://ko-fi.com/igorskyflyer"><strong>Ko-Fi</strong></a>.
@@ -720,7 +720,7 @@ Licensed under the [**GPL-3.0-or-later license**](https://github.com/the-advoid/
 <br>
 <br>
 
-## 🧬 Related
+## Related
 
 [**@igorskyflyer/aria**](https://www.npmjs.com/package/@igorskyflyer/aria)
 
@@ -754,5 +754,5 @@ Licensed under the [**GPL-3.0-or-later license**](https://github.com/the-advoid/
 <br>
 <br>
 
-## 👨🏻‍💻 Author
+## Author
 Created by <a href="https://igorskyflyer.me/" target="_blank" rel="noopener noreferrer author"><strong>Igor Dimitrijević (<em>igorskyflyer</em>)</strong></a>, a senior full-stack software engineer and freelance architect.
