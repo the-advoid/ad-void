@@ -755,4 +755,4 @@ Licensed under the [**GPL-3.0-or-later license**](https://github.com/the-advoid/
 <br>
 
 ## 👨🏻‍💻 Author
-Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
+Created by <a href="https://igorskyflyer.me/" target="_blank"><strong>Igor Dimitrijević (<em>igorskyflyer</em>)</strong></a>, a senior full-stack software engineer and freelance architect.
