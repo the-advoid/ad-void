@@ -390,4 +390,4 @@ _prebid.js^$script
 /fingerprint2.min.js$script,3p,important,redirect-rule=fingerprint2.js,from=~abqjournal.com|~amateuralbum.net
 /728x90.g$image
 _300x250.$image
-.php?key=*cost=$document
+.php?key=*cost=$doc
