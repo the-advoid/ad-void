@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6486
-! Last modified: 2026-10-07T00:17:33.798+02:00
+! Version: 3.0.6487
+! Last modified: 2026-10-07T00:18:11.858+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8680
@@ -1036,7 +1036,7 @@
 ||h-cdn.com^
 ||hadglb7m3jcd.top^
 ||haffnetworkmm.com^
-||hai8g.com^$document
+||hai8g.com^$doc
 ||halidspilau.guru^
 ||harassmentgrowl.com^
 ||harmalpilotry.com^
@@ -1057,7 +1057,7 @@
 ||hellmade.top^
 ||hetaint.com^
 ||hetapus.com^
-||hetapus.com^$document
+||hetapus.com^$doc
 ||hewmjifrn4gway.com^
 ||hexagon-analytics.com^
 ||hhbypdoecp.com^
@@ -1564,8 +1564,8 @@
 ||nobledtenuous.com^
 ||noksootoux.net^
 ||nomorepecans.com^
-||noolt.com^$document
-||noolt.com^$document
+||noolt.com^$doc
+||noolt.com^$doc
 ||notifications.website^
 ||notifyoutspoken.com^
 ||notix.io^
@@ -1975,7 +1975,7 @@
 ||rtbbnr.com^
 ||rtbbonline.com^
 ||rtbbpowaq.com^
-||rtbbpowaq.com^$document
+||rtbbpowaq.com^$doc
 ||rtbrennab.com^
 ||rtbrvdirect.com^
 ||rtbsystem.org^
@@ -2331,7 +2331,7 @@
 ||trafficjunky.com^
 ||trafficjunky.net^
 ||trafficstars.com^^
-||trasupr.com^$document
+||trasupr.com^$doc
 ||traymute.com^
 ||trckswrm.com^
 ||trdnewsnow.net^
