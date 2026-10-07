@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.295
-! Last modified: 2026-10-07T00:18:04.814+02:00
+! Version: 1.0.296
+! Last modified: 2026-10-07T00:19:16.063+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5655
@@ -4116,25 +4116,25 @@ trekkie*.js^$script
 &adshow
 &adsrv=
 &btadsrv=
-&campid=*&did=$document
+&campid=*&did=$doc
 &com_ads
-&js_build=iclick-$document
+&js_build=iclick-$doc
 &spotpagetype=*&statsuid=$frame
 &spotType=widgetBeforeComments
 &utm_content=ad1
 &utm_medium=popunder$popup
 *$removeparam=gclid
-/?request_ab*&zoneid=*&rb=$document
-/?scontext_r=*&nrb=$document
+/?request_ab*&zoneid=*&rb=$doc
+/?scontext_r=*&nrb=$doc
 /redirect?tid=
-?ab=*&rl=1|$document
+?ab=*&rl=1|$doc
 ?bidId=push_
 ?blockID=$popup
 ?event=pageview&
 ?utm_source=adcash$popup
 ?utm_source=pdcampaign$popup
 ?utm_source=propellerads$popup
-^s=*&z=*&svar=*&ssk=$document
+^s=*&z=*&svar=*&ssk=$doc
 _browser_id=
 ab=1
 ab_test=AdOpt
