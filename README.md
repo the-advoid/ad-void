@@ -29,44 +29,74 @@
 <br>
 <br>
 
-## 📃 Table of Contents
+<details>
+  <summary>
+    <h2>📃 Table of Contents</h2>
+  </summary>
+  <ul>
+  <li><a href="#ℹ️-quickstart"><strong>Quickstart</strong></a></li>
+  <li><a href="#-features"><strong>Features</strong></a></li>
+  <li>
+    <a href="#-usage"><strong>Usage</strong></a>
+    <ul>
+      <li>
+        <a href="#-modules"><strong>Modules</strong></a>
+        <ul>
+          <li><a href="#️-advoidfull"><strong>Full</strong></a></li>
+          <li><a href="#-advoidcore"><strong>Core</strong></a></li>
+          <li><a href="#-advoidlite"><strong>Lite</strong></a></li>
+          <li><a href="#-advoiddns"><strong>DNS</strong></a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#-add-ons"><strong>Add-ons</strong></a>
+        <ul>
+          <li><a href="#-advoidaddonnoannoyances"><strong>NoAnnoyances</strong></a></li>
+          <li><a href="#-advoidaddonnoexternals"><strong>NoExternals</strong></a></li>
+          <li><a href="#-advoidaddonnoextras"><strong>NoExtras</strong></a></li>
+          <li><a href="#-advoidaddonui"><strong>UI</strong></a></li>
+          <li><a href="#-advoidaddonexperiments"><strong>Experiments</strong></a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#-scriptlets"><strong>Scriptlets</strong></a>
+        <ul>
+          <li><a href="#-advoidscriptletsantiantiadblock"><strong>AntiAntiAdBlock</strong></a></li>
+          <li><a href="#️-advoidscriptletsprivacy"><strong>Privacy</strong></a></li>
+          <li><a href="#privacy-hardening-scriptlet"><strong>All</strong></a></li>
+        </ul>
+      </li>
+      <li><a href="#-legacy"><strong>Legacy</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#️-filter-trust"><strong>Filter Trust</strong></a></li>
+  <li>
+    <a href="#-transparency"><strong>Transparency</strong></a>
+    <ul>
+      <li><a href="#-development"><strong>Development</strong></a></li>
+      <li><a href="#-community"><strong>Community</strong></a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#-case-study"><strong>Case Study</strong></a>
+    <ul>
+      <li><a href="#-divergence-pt-1"><strong>Divergence Pt. 1</strong></a></li>
+      <li><a href="#-divergence-pt-2"><strong>Divergence Pt. 2</strong></a></li>
+      <li><a href="#-divergence-pt-3"><strong>Divergence Pt. 3</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#-productivity-gains"><strong>Productivity Gains</strong></a></li>
+  <li><a href="#-alternative-sources"><strong>Alternative Sources</strong></a></li>
+  <li><a href="#️-disclaimer"><strong>Disclaimer</strong></a></li>
+  <li><a href="#-contributing"><strong>Contributing</strong></a></li>
+  <li><a href="#-contributors"><strong>Contributors</strong></a></li>
+  <li><a href="#-support"><strong>Support</strong></a></li>
+  <li><a href="#-license"><strong>License</strong></a></li>
+  <li><a href="#-related"><strong>Related</strong></a></li>
+  <li><a href="#-author"><strong>Author</strong></a></li>
+</ul>
 
-- [**Quickstart**](#ℹ️-quickstart)
-- [**Features**](#-features)
-- [**Usage**](#-usage)
-  - [**Modules**](#-modules)
-    - [**Full**](#️-advoidfull)
-    - [**Core**](#-advoidcore)
-    - [**Lite**](#-advoidlite)
-    - [**DNS**](#-advoiddns)
-  - [**Add-ons**](#-add-ons)
-    - [**NoAnnoyances**](#-advoidaddonnoannoyances)
-    - [**NoExternals**](#-advoidaddonnoexternals)
-    - [**NoExtras**](#-advoidaddonnoextras)
-    - [**UI**](#-advoidaddonui)
-    - [**Experiments**](#-advoidaddonexperiments)
-  - [**Scriptlets**](#-scriptlets)
-    - [**AntiAntiAdBlock**](#-advoidscriptletsantiantiadblock)
-    - [**Privacy**](#️-advoidscriptletsprivacy)
-    - [**All**](#privacy-hardening-scriptlet)
-  - [**Legacy**](#-legacy)
-- [**Filter Trust**](#️-filter-trust)
-- [**Transparency**](#-transparency)
-  - [**Development**](#-development)
-  - [**Community**](#-community)
-- [**Case Study**](#-case-study)
-  - [**Divergence Pt. 1**](#-divergence-pt-1)
-  - [**Divergence Pt. 2**](#-divergence-pt-2)
-  - [**Divergence Pt. 3**](#-divergence-pt-3)
-- [**Productivity Gains**](#-productivity-gains)
-- [**Alternative Sources**](#-alternative-sources)
-- [**Disclaimer**](#️-disclaimer)
-- [**Contributing**](#-contributing)
-- [**Contributors**](#-contributors)
-- [**Support**](#-support)
-- [**License**](#-license)
-- [**Related**](#-related)
-- [**Author**](#-author)
+</details>
 
 <br>
 <br>
