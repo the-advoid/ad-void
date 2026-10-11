@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.347
-! Last modified: 2026-10-11T21:04:31.610+02:00
+! Version: 1.0.348
+! Last modified: 2026-10-11T21:07:42.792+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5652
+! Entries: 5651
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1829,6 +1829,7 @@
 ||psairees.net^
 ||psaltauw.net^
 ||psapsiph.net^
+||pshdo.com^
 ||psilaurgi.net^
 ||psoalreh.com^
 ||pssy.xyz^
@@ -4054,7 +4055,6 @@ trekkie*.js^$script
 ||soap2dayx2.to/assets/_bnx/$image
 ||squarespace.com/universal/scripts-compressed/performance-$script,3p
 ||src.ebay-us.com/*=usllpic$script,from=ebay.com
-||srv.tunefindforfans.com^$3p,script
 ||static.rottentomatoes.com/static/js/lib/s_code_rottentomatoes.js^$script
 ||svc.dynamics.com/t/v/$3p,image
 ||tags.news.com.au^$script
@@ -4064,7 +4064,6 @@ trekkie*.js^$script
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js^$script
 ||tnaflix.com/js/mew.js^$script
 ||tns-cs.net^$3p,image
-||tracking.musixmatch.com^$3p,script
 ||tubator.com/lookout/
 ||turbobit.net/pus/$script
 ||unpkg.com/videojs-vast-vpaid@$script
