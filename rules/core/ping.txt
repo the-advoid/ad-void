@@ -4,3 +4,4 @@
 ||viafoura.co/eventfeed?site_uuid=
 /api/front/v2/observability$ping
 ||i.posthog.com/i/$ping
+||i.posthog.com/*/?retry_count$ping
