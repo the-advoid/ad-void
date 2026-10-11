@@ -63,7 +63,6 @@
 ||google.com/log?$xhr,redirect-rule=noop.txt
 ||myanimelist.net/ma/s$xhr
 ||gsmarena.com/*.php3?sSearch=$xhr,1p,from=gsmarena.com
-||awswaf.com^*/telemetry$xhr
 ||token.awswaf.com/*/report|$xhr
 ||player.stats.live-video.net^$xhr
 ||dc.services.visualstudio.com^*/track$xhr
