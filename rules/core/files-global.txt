@@ -135,7 +135,7 @@ Logger.js^$script,domain=~crowdin.com
 /clickback.js^$script
 /log.php^
 /adunit.js^$script
-/ping.gif^$image
+/ping.gif?^$image
 /p.gif^$image
 /transparent-pixel.png^$image
 /*m-Mob
