@@ -110,3 +110,4 @@
 ||api2.amplitude.com^$xhr
 ||abeagle-public.buzzfeed.com/public/*shield-script-$xhr
 ||awswaf.com^*/telemetry$xhr
+||i.posthog.com/*/?ip=$xhr
