@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4814
-! Last modified: 2026-10-11T22:23:09.800+02:00
+! Version: 3.0.4815
+! Last modified: 2026-10-11T22:23:31.859+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6503
+! Entries: 6504
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6431,6 +6431,7 @@ vid2faf.*##+js(no-window-open-if)
 vid2faf.*##+js(set-constant, DisDevTool, undefined)
 vidara.to##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 vidara.to##+js(abort-current-script, document.createElement, delete window)
+vidara.to##+js(abort-current-script, document.createElement, onerror)
 vidara.to##+js(abort-on-property-read, zfgdlpopup)
 vidara.to##+js(abort-on-property-write, zfgproxyhttp)
 vidara.to##+js(prevent-addEventListener, click, window.open)
