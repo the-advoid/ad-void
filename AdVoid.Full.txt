@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6575
-! Last modified: 2026-10-11T22:22:54.938+02:00
+! Version: 3.0.6576
+! Last modified: 2026-10-11T22:23:14.180+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8685
+! Entries: 8686
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8293,6 +8293,7 @@ vid2faf.*##+js(no-setTimeout-if, 0x)
 vid2faf.*##+js(no-setTimeout-if, ||null)
 vid2faf.*##+js(no-window-open-if)
 vid2faf.*##+js(set-constant, DisDevTool, undefined)
+vidara.to##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 vidara.to##+js(abort-current-script, document.createElement, delete window)
 vidara.to##+js(abort-on-property-read, zfgdlpopup)
 vidara.to##+js(abort-on-property-write, zfgproxyhttp)
