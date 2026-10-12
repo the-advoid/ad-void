@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.354
-! Last modified: 2026-10-11T22:35:07.920+02:00
+! Version: 1.0.355
+! Last modified: 2026-10-12T02:16:18.664+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5658
+! Entries: 5655
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -477,6 +477,7 @@
 ||ccmiocw.com^
 ||cct.google^
 ||cd4fb281e1.com^
+||cdn-fc.com^
 ||cdn4ads.com^
 ||cdnads.com^
 ||cdngcloud.com^
@@ -3527,11 +3528,7 @@ _pagespeed_beacon?$xhr
 ||xxxviijmp.com^$xhr
 ||xyz/|$xhr,3p,method=head,ipaddress='/^139\.45\.19[5-7]\.\d{1,3}/'
 ||yandex.ru/ads/adfox/$xhr
-||youtube.com/api/stats/qoe?fmt=^$xhr
-||youtube.com/pagead/$xhr
-||youtube.com/s/player/*/base.js$xhr,replace=/if\(e===""\)/if(0)/
-||youtube.com/youtubei/v1/log_event?$xhr
-||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$xhr
 
 ! {@7} AJAX paths - restore (site)
 @@||doc.moplay.org/cdn-cgi/trace^$xhr
@@ -3758,6 +3755,7 @@ _pagespeed_beacon?$xhr
 /log.php^
 /magento-storefront-event*js^$script
 /matomo.js^$script
+/matomo.php^$image
 /mendelstats.js^$script
 /metrics.js^$script
 /micro.tag.min.js^$script
@@ -5705,4 +5703,3 @@ timeanddate.com#@#.banner:not(html):not(body)
 veed.io#@#[class*="adWrapper"]
 viber.com#@#.banner:not(html):not(body)
 xvideos.com#@#.exo-ad-ins-container
-youtube.com#@#[class*="adWrapper"]
