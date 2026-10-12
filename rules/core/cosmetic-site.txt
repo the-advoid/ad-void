@@ -398,3 +398,4 @@ balkanjizz.com##.cus-slider
 buzzfeed.com##.Ad--loading
 sxyprn.*##a[aria-label="AI TAB"]
 sxyprn.*##body > .ppexcll
+sxyprn.*##div[style^="min-height:"]:has(> ins[data-zoneid])
