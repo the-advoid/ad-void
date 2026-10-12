@@ -80,3 +80,4 @@ _pagespeed_beacon?$xhr
 ?v=2&tid=g-$1p,xhr
 /track/?verbose=$xhr
 /ads/*.xml$xhr
+*$xhr,3p,redirect-rule=nooptext:-1,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
