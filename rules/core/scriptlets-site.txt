@@ -741,3 +741,4 @@ www.youtube.com##+js(trusted-replace-node-text, script, /(\(function serverContr
 www.youtube.com##+js(prevent-xhr, '/\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\d(&vis=3)?&docid=/ method:POST')
 www.youtube.com##+js(json-prune, entries.[-].command.reelWatchEndpoint.adClientParams.isAd)
 www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, '', propsToMatch, url:/reel_watch_sequence?)
+www.youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
