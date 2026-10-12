@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6625
-! Last modified: 2026-10-12T02:17:39.771+02:00
+! Version: 3.0.6626
+! Last modified: 2026-10-12T02:18:12.575+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8695
+! Entries: 8696
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4489,6 +4489,7 @@ sassy-social-share-public*.$script,css
 @@/*.airlytics.*.js^$script,from=weather.com
 @@/ads-carousel-*.js^$script,from=reddit.com
 @@/prebid.min.js$1p,from=adblockeronstape.me|adblockplustape.xyz|adblockstreamtape.*|adblockstrtape.link|adblockstrtech.link|advertape.net|advertisertape.com|antiadtape.com|gettapeads.com|noblocktape.com|shavetape.*|stape.fun|strcloud.link|streamadblocker.*|streamadblockplus.com|streamtape.*|streamtape.com|strtape.cloud|tapeadsenjoyer.com|tapeadvertisement.com|tapelovesads.org|tapepops.com|tapewithadblock.org|tpead.net|watchadsontape.com
+@@://www.exoclick.com/ads.js|$script
 @@||127.0.0.1^$all
 @@||192.168.$all
 @@||filmoviplex.com^$script,1p
