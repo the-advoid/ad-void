@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4872
-! Last modified: 2026-10-12T23:50:17.584+02:00
+! Version: 3.0.4873
+! Last modified: 2026-10-12T23:56:28.457+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6524
+! Entries: 6525
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5912,6 +5912,7 @@ archivebate.com##+js(prevent-addEventListener, click, popMagic)
 archivebate.com##+js(prevent-fetch, googlesyndication)
 archivebate.com##+js(prevent-fetch, pagead2.googlesyndication.com)
 archivebate.com##+js(set-constant, D4zz, noopFunc)
+azmen.com##+js(remove-cookie, videoPlayedNumber)
 balkanjizz.com##+js(nowoif)
 balkanportal.net##+js(abort-on-property-write, _pop)
 balkanteka.net##+js(noeval-if, /chp_?ad/)
