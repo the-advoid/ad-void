@@ -158,3 +158,4 @@
 ||player.videasy.to/scripts/ab.js^$script
 *$script,redirect-rule=noop.js,from=vidara.so|vidara.to|vidavra.com
 ||a.magsrv.com/ad-provider.js^$script,redirect-rule=noop.js
+||hb.vntsm.com/*/live/$script,redirect-rule=noop.js
