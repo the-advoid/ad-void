@@ -448,7 +448,6 @@ streamtape.*##+js(abort-current-script, EventTarget.prototype.addEventListener, 
 watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 watchadsontape.com##+js(trusted-replace-node-text, script, /\$\(['"]\.play-overlay['"]\)\.click.+/s, document.getElementById("mainvideo").src=srclink;player.currentTrack=0;})}), condition, srclink)
 wowroms.com##+js(adjust-setInterval, second)
-youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
