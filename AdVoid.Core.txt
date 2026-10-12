@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4858
-! Last modified: 2026-10-12T02:18:08.066+02:00
+! Version: 3.0.4859
+! Last modified: 2026-10-12T02:19:01.252+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6513
+! Entries: 6514
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6376,6 +6376,7 @@ sxyprn.*##+js(prevent-addEventListener, click, popMagic)
 sxyprn.*##+js(remove-class, js-pop)
 sxyprn.*##+js(remove-node-text, script, typeof bait_)
 sxyprn.*##+js(set-constant, D4zz, noopFunc)
+sxyprn.*##+js(set-constant, use_vast, false)
 sxyprn.*##+js(set-constant, vast_urls, {})
 techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
 telegraf.rs##+js(set-constant, telegrafSettings.noAds, true)
