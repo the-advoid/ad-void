@@ -743,3 +743,4 @@ www.youtube.com##+js(json-prune, entries.[-].command.reelWatchEndpoint.adClientP
 www.youtube.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, '', propsToMatch, url:/reel_watch_sequence?)
 www.youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 www.youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
+www.youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
