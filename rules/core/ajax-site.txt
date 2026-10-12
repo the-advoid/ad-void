@@ -105,3 +105,4 @@
 ||abeagle-public.buzzfeed.com/public/*shield-script-$xhr
 ||awswaf.com^*/telemetry$xhr
 ||i.posthog.com/*ip=$xhr
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$xhr
