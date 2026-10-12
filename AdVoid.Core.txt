@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4843
-! Last modified: 2026-10-12T01:54:28.777+02:00
+! Version: 3.0.4844
+! Last modified: 2026-10-12T01:54:48.963+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6498
+! Entries: 6499
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6519,6 +6519,7 @@ www.youtube.com##+js(json-prune-xhr-response, adPlacements adSlots playerRespons
 www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.web_streaming_watch, false)
 www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, '[?.context.client.userAgent=/adunit|channel|lactmilli|instream|inline|yahi|eafg/].playbackContext.contentPlaybackContext.referer=repl({"regex":"(?:#reloadxhr)?$","replacement":"#reloadxhr"})')
 www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.context.client.userAgent*="instream"].playbackContext[?.contentPlaybackContext]+={"adPlaybackContext":{"adType":"AD_TYPE_INSTREAM"}})
+www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.context.client.userAgent*="lactmilli"]+={"params":"8AUB"})
 www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.context.client.userAgent*="yahi"]+={"params":"YAHI"})
 www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.context.client.userAgent=/channel|lactmilli|instream/].playbackContext.contentPlaybackContext.lactMilliseconds="${now}")
 www.youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
