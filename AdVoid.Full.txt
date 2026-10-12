@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6633
-! Last modified: 2026-10-12T02:27:50.230+02:00
+! Version: 3.0.6634
+! Last modified: 2026-10-12T02:29:38.036+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8702
+! Entries: 8703
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7666,6 +7666,7 @@ xvideos.com###tabShareAndEmbed > h4:has(> span.icf-share)
 @@||localhost$generichide
 @@||netflix.com^$generichide
 @@||streamtape.*$generichide
+@@||twitch.tv^$generichide
 @@||youtube.com^$generichide
 account.microsoft.com#@#[id^="ad-"]
 asianwiki.com#@#.ads
