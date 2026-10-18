@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6703
-! Last modified: 2026-10-18T02:30:30.730+02:00
+! Version: 3.0.6704
+! Last modified: 2026-10-18T02:31:32.961+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8768
+! Entries: 8769
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8707,6 +8707,7 @@ olympics.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3
 open.spotify.com##span[dir="auto"][draggable="true"]:style(user-select: auto!important;-webkit-touch-callout: default!important;-webkit-user-select: auto!important;-moz-user-select: text!important;-ms-user-select: text!important;)
 opensubtitles.org##+js(set-constant, displayed, false)
 opensubtitles.org##+js(set-cookie, download-counter, 1)
+opentip.kaspersky.com##+js(set-local-storage-item, areCookiesAccepted, true)
 opusteno.rs##body,html:style(overflow: auto !important; position: initial !important;)
 oralb.*##+js(trusted-click-element, button[id="onetrust-reject-all-handler"], '', 1500)
 oriflame.com##+js(remove-class, hidden, .content-overlay + div.w-estimated-total)
