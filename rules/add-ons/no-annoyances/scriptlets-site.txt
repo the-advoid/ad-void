@@ -311,3 +311,4 @@ www.youtube.com##+js(trusted-click-element, .ytd-consent-bump-v2-lightbox > yt-b
 twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
 twitch.tv##+js(set-session-storage-item, twilight.mweb-upsell-dismissed, true)
 opentip.kaspersky.com##+js(set-local-storage-item, areCookiesAccepted, true)
+myabandonware.com##+js(abort-current-script, Uint8Array, getAndSetOverlay)
