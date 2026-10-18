@@ -2,3 +2,4 @@
 *$removeparam=usqp
 *$removeparam=utm_term,to=~glavnoe.life|~metabase.com
 *$removeparam=gclid
+^z=*&var=$removeparam=var
