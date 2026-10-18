@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6710
-! Last modified: 2026-10-18T17:25:19.998+02:00
+! Version: 3.0.6711
+! Last modified: 2026-10-18T17:26:42.608+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8775
+! Entries: 8776
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8129,6 +8129,7 @@ morencius.com##+js(prevent-window-open, _blank)
 mp4upload.com##+js(abort-current-script, document.documentElement, break;case $.)
 mp4upload.com##+js(abort-on-property-read, Adcash)
 mp4upload.com##+js(abort-on-property-write, adcashMacros)
+myabandonware.com##+js(abort-on-stack-trace, XMLHttpRequest, putPb)
 myanimelist.net##+js(nofab)
 myanimelist.net##+js(remove-node-text, style, body:not(.ownlist))
 mydramalist.com##+js(set-constant, canRunAds, true)
