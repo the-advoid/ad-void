@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 3.0.1808
-! Last modified: 2026-10-18T18:12:39.621+02:00
+! Version: 3.0.1809
+! Last modified: 2026-10-18T18:14:14.701+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 3309
+! Entries: 3310
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2742,6 +2742,7 @@
 ||viizmltm.com^
 ||newsboydurance.cfd^
 ||1xtraff.xyz^
+||simpleanalyticscdn.com^
 
 ! {@1} IP addresses (global)
 ||162.252.214.4^
