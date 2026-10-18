@@ -21,6 +21,11 @@ include './rules/add-ons/experiments/files-global.txt'
 
 nl
 
+tag 'Query'
+include './rules/add-ons/experiments/query.txt'
+
+nl
+
 tag 'Cosmetic (site)'
 include './rules/add-ons/experiments/cosmetic-site.txt'
 
