@@ -756,3 +756,4 @@ n1mwq.org##+js(abort-current-script, EventTarget.prototype.addEventListener, del
 n1mwq.org##+js(abort-current-script, document.createElement, delete window)
 n1mwq.org##+js(json-prune, adblock_detection force_disable_adblock)
 bing.com##+js(prevent-xhr, /fd/ls/lsp.aspx)
+myabandonware.com##+js(abort-on-stack-trace, XMLHttpRequest, putPb)
