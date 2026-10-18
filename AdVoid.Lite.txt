@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.382
-! Last modified: 2026-10-18T00:51:47.208+02:00
+! Version: 1.0.383
+! Last modified: 2026-10-18T00:52:17.553+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5696
+! Entries: 5697
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1806,6 +1806,7 @@
 ||povezano.com^
 ||powerad.ai^
 ||powerppshtraf.digital^
+||ppezijkacga.com^
 ||pq8ithtdw.com^$popup,doc
 ||pratimojpaket.com^
 ||praystakeinstinct.com^
