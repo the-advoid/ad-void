@@ -18,7 +18,7 @@
 		"advoid:legacy-noextras": "aria -f \"./templates/legacy/add-ons/no-extras.adbt\" && pnpm advoid:bot noextrasleg",
 		"advoid:legacy-all": "aria -f \"./templates/legacy/add-ons/legacy-all.adbt\" && pnpm advoid:bot nolegall",
 		"advoid:core+full": "cls && pnpm advoid:core && pnpm advoid:full",
-		"advoid:all-modules": "cls && git commit -am \"🫱🏽‍🫲🏼 [common]: add rule\" && pnpm advoid:core && pnpm advoid:dns && pnpm advoid:lite && pnpm advoid:full",
+		"advoid:all-modules": "cls && pnpm advoid:core && pnpm advoid:dns && pnpm advoid:lite && pnpm advoid:full",
 		"advoid:noannoyances+full": "cls && pnpm advoid:noannoyances && pnpm advoid:full",
 		"advoid:noexternals+full": "cls && pnpm advoid:noexternals && pnpm advoid:full",
 		"advoid:ui+full": "cls && pnpm advoid:ui && pnpm advoid:full",
