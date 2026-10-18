@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.4947
-! Last modified: 2026-10-18T17:51:16.929+02:00
+! Version: 3.0.4948
+! Last modified: 2026-10-18T17:51:49.796+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6597
@@ -4327,7 +4327,6 @@ trekkie*.js^$script
 ?utm_source=propellerads$popup
 ?zoneid=*&cost=0.$doc
 ^s=*&z=*&svar=*&ssk=$doc
-^z=*&var=$removeparam=var
 _browser_id=
 ab=1
 ab_test=AdOpt
@@ -4403,6 +4402,7 @@ zoneid=
 *$removeparam=gclid
 *$removeparam=usqp
 *$removeparam=utm_term,to=~glavnoe.life|~metabase.com
+^z=*&var=$removeparam=var
 
 ! {@22} Cosmetic (global)
 ###action-companion-click-target
