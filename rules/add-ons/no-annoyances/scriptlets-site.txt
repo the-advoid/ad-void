@@ -310,3 +310,4 @@ www.youtube.com##+js(set-constant, ytInitialPlayerResponse.auxiliaryUi.messageRe
 www.youtube.com##+js(trusted-click-element, .ytd-consent-bump-v2-lightbox > yt-button-shape > button[aria-label="Accept the use of cookies and other data for the purposes described"], '', 1000)
 twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
 twitch.tv##+js(set-session-storage-item, twilight.mweb-upsell-dismissed, true)
+opentip.kaspersky.com##+js(set-local-storage-item, areCookiesAccepted, true)
