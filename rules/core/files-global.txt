@@ -393,3 +393,4 @@ _300x250.$image
 .php?key=*cost=$doc
 /dead-clicks-autocapture.js^$script
 /matomo.php^$image
+/sxp/i/*$script,3p,from=~linkvertise.com
