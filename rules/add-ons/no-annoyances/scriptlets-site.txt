@@ -311,3 +311,4 @@ twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed,
 twitch.tv##+js(set-session-storage-item, twilight.mweb-upsell-dismissed, true)
 opentip.kaspersky.com##+js(set-local-storage-item, areCookiesAccepted, true)
 myabandonware.com##+js(abort-current-script, Uint8Array, getAndSetOverlay)
+afp.com##html:style(overflow: auto !important;)
