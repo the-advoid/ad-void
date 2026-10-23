@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.452
-! Last modified: 2026-10-23T01:49:29.067+02:00
+! Version: 1.0.453
+! Last modified: 2026-10-23T01:58:15.272+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5747
+! Entries: 5740
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -507,6 +507,7 @@
 ||chartbeat.com^
 ||chaudoubeets.net^$popup,doc
 ||chaupsoz.net^
+||chausessaip.com^
 ||chebecsunsack.com^
 ||chefishoani.com^
 ||chepsigrade.pro^
@@ -4488,7 +4489,6 @@ zoneid=
 ##.ad-close-button
 ##.ad-comment
 ##.Ad-Container
-##.ad-container
 ##.ad-current
 ##.ad-desktop
 ##.ad-disclaimer
@@ -4879,15 +4879,12 @@ zoneid=
 ##.id_inline_ad1
 ##.iframe-adv
 ##.ig-top-ad-box
-##.ima-ad-container
 ##.img_ad
 ##.in-content-ad
-##.in-content-ad-container
 ##.in-thread-ad
 ##.incontent-boxad
 ##.inline-ad
 ##.insticator-ads
-##.internal-ad-container
 ##.internal-ad-link
 ##.ipsAd
 ##.is-desktop-ads
@@ -4919,7 +4916,6 @@ zoneid=
 ##.m-header-ad
 ##.m-in-content-ad
 ##.m-in-content-ad-row
-##.main-ad-container
 ##.mayoad
 ##.medianet-ad
 ##.mh-ad
@@ -5046,7 +5042,6 @@ zoneid=
 ##.top-ads-container
 ##.top-adv
 ##.top-advert
-##.top-banner-ad-container
 ##.top-ed-placeholder
 ##.top-placeholder
 ##.top_ad
@@ -5070,7 +5065,6 @@ zoneid=
 ##.video-tube-friends
 ##.videos-tube-friends
 ##.view-reklamni-banneri
-##.vjs-ima3-ad-container
 ##.vs-ads
 ##.vuukle-ad-label
 ##.vuukle-ads
@@ -5159,7 +5153,6 @@ zoneid=
 ##[class*="Directory__innerImage__"]
 ##[class*="div-gpt-ad"]
 ##[class*="exoNativeWidget"]
-##[class*="ez-ad-container"]
 ##[class*="ezmob-footer"]
 ##[class*="ezoic-at-"]
 ##[class*="flytead-ad-unit"]
