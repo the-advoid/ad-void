@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6771
-! Last modified: 2026-10-23T01:42:51.944+02:00
+! Version: 3.0.6772
+! Last modified: 2026-10-23T01:43:07.254+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8811
+! Entries: 8810
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7855,7 +7855,6 @@ apkmirror.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
 apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
 apkmody.*##+js(abort-current-script, parseInt, break;case $.)
 apkmody.*##+js(addEventListener-defuser, , break;case $.)
-apkmody.*##+js(nowoif)
 apkmody.*##+js(nowoif)
 archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn##+js(nosiif, fetch)
 archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn##^script:has-text(Math.random\(\).toString\(36\))
