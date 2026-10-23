@@ -678,7 +678,6 @@ kesug.com##+js(prevent-clipboard-write)
 bysebuho.com##+js(nowoif)
 bysebuho.com##+js(prevent-setTimeout, readyWait)
 bysebuho.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
-n1mwq.org##+js(abort-on-property-read, Dulak)
 n1mwq.org##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 n1mwq.org##+js(abort-current-script, document.createElement, delete window)
 ! From uBlock filters – Ads
