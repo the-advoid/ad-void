@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5080
-! Last modified: 2026-10-24T01:23:11.775+02:00
+! Version: 3.0.5081
+! Last modified: 2026-10-24T01:23:37.463+02:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6656
+! Entries: 6657
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6201,6 +6201,7 @@ gamesmain.xyz##+js(abort-current-script, document.createElement, adsBlocked)
 gamesmain.xyz##+js(remove-node-text, script, .onerror)
 gamesmain.xyz##+js(remove-node-text, script, /adScriptURL|eval/)
 gamesmain.xyz##+js(trusted-replace-node-text, script, /window\.location\.href.*/)
+gamesmain.xyz##+js(trusted-replace-node-text, script, _blank, _self)
 gamesmain.xyz##+js(trusted-replace-node-text, script, typeof window.adsbygoogle === "undefined", false)
 gamespot.com##+js(abort-current-script, $, sp.blocking)
 gayforfans.com##+js(abort-current-script, document.querySelectorAll, popMagic)
