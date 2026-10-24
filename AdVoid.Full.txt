@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6878
-! Last modified: 2026-10-24T01:24:30.931+02:00
+! Version: 3.0.6879
+! Last modified: 2026-10-24T01:24:45.988+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8866
+! Entries: 8867
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8700,6 +8700,7 @@ forgeofempires.com##+js(set-cookie, CookieNotification, 1)
 fotor.com###unic-gdpr:upward(2)
 fotor.com##+js(no-setTimeout-if, offsetHeight)
 freecodecamp.org##+js(trusted-set-local-storage-item, lo-non-moc-membership-upsell|dismissed-at, $now$)
+gamesmain.xyz##+js(adjust-setInterval, /.?/, *, 0.001)
 gamesmain.xyz##+js(adjust-setTimeout, /.?/, *, 0.001)
 gamespot.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year)
 gamespot.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0, 1year)
