@@ -317,3 +317,4 @@ metro.co.uk##+js(trusted-click-element, div[data-project="mol-fe-cmp"] button[cl
 metro.co.uk##body,html:style(overflow: auto !important; position: initial !important;)
 gamesmain.xyz##+js(adjust-setTimeout, /.?/, *, 0.001)
 gamesmain.xyz##+js(adjust-setInterval, /.?/, *, 0.001)
+gamesmain.xyz##+js(adjust-setInterval, /countdownDisplay|\[_0x/, *, 0.001)
