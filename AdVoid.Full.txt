@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6894
-! Last modified: 2026-10-24T02:07:46.744+02:00
+! Version: 3.0.6895
+! Last modified: 2026-10-24T02:08:04.857+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8881
+! Entries: 8882
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7882,6 +7882,7 @@ github.com##img.js-gh-image-fallback:style(background-color: transparent !import
 2embed.*##+js(addEventListener-defuser, , break;case $.)
 2embed.*##+js(nowoif)
 9xbuddy.*##+js(nowoif)
+abyssplayer.com##+js(abort-on-stack-trace, HTMLElement.prototype.click, _0x)
 abyssplayer.com##+js(abort-on-stack-trace, String.prototype.charAt, $0)
 abyssplayer.com##+js(nowoif, !abyss.to, 1)
 academia.edu##body:style(overflow: auto!important;)
