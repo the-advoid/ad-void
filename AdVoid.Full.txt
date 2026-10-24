@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6920
-! Last modified: 2026-10-24T17:09:40.682+02:00
+! Version: 3.0.6921
+! Last modified: 2026-10-24T17:18:17.924+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8907
+! Entries: 8908
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8898,6 +8898,7 @@ shein.com##+js(trusted-replace-outbound-text, String.prototype.trim, iframe, non
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
+store.boilerplate.com##+js(trusted-set-cookie, cookie, '{"requiredCookies":{"paymentData":true,"personalizationData":true}}')
 streamtape.*##+js(adjust-setTimeout, counter, '', 0.02)
 streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
 streamtape.*##+js(nano-setTimeout-booster, counter)
