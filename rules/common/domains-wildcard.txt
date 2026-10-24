@@ -21,3 +21,4 @@
 /click?*visitor_id=$doc
 /pop/bidder?data=$doc
 .co/?mlk=$doc
+/redirect?tid=*&puid=$popup
