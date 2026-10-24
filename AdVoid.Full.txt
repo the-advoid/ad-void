@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6880
-! Last modified: 2026-10-24T01:25:26.792+02:00
+! Version: 3.0.6881
+! Last modified: 2026-10-24T01:25:40.422+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8868
+! Entries: 8869
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8088,6 +8088,7 @@ gamesmain.xyz##+js(trusted-replace-node-text, script, /30000/gm, 10)
 gamesmain.xyz##+js(trusted-replace-node-text, script, /\d{5}\);/gms, 10);)
 gamesmain.xyz##+js(trusted-replace-node-text, script, /window\.location\.href.*/)
 gamesmain.xyz##+js(trusted-replace-node-text, script, _blank, _self)
+gamesmain.xyz##+js(trusted-replace-node-text, script, getNowButton.classList, downloadButton.classList)
 gamesmain.xyz##+js(trusted-replace-node-text, script, typeof window.adsbygoogle === "undefined", false)
 gamespot.com##+js(abort-current-script, $, sp.blocking)
 gayforfans.com##+js(abort-current-script, document.querySelectorAll, popMagic)
