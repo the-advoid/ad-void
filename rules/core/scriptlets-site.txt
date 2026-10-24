@@ -758,3 +758,4 @@ gamesmain.xyz##+js(trusted-replace-node-text, script, /window\.location\.href.*/
 gamesmain.xyz##+js(trusted-replace-node-text, script, _blank, _self)
 gamesmain.xyz##+js(trusted-replace-node-text, script, /30000/gm, 10)
 gamesmain.xyz##+js(trusted-replace-node-text, script, /\d{5}\);/gms, 10);)
+gamesmain.xyz##+js(trusted-replace-node-text, script, getNowButton.classList, downloadButton.classList)
