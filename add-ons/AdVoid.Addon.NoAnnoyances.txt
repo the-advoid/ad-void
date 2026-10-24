@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1516
-! Last modified: 2026-10-24T17:09:36.879+02:00
+! Version: 2.0.1517
+! Last modified: 2026-10-24T17:18:13.026+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1419
+! Entries: 1420
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1390,6 +1390,7 @@ shein.com##+js(trusted-replace-outbound-text, String.prototype.trim, iframe, non
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
+store.boilerplate.com##+js(trusted-set-cookie, cookie, '{"requiredCookies":{"paymentData":true,"personalizationData":true}}')
 streamtape.*##+js(adjust-setTimeout, counter, '', 0.02)
 streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
 streamtape.*##+js(nano-setTimeout-booster, counter)
