@@ -318,3 +318,4 @@ metro.co.uk##body,html:style(overflow: auto !important; position: initial !impor
 gamesmain.xyz##+js(adjust-setTimeout, /.?/, *, 0.001)
 gamesmain.xyz##+js(adjust-setInterval, /.?/, *, 0.001)
 gamesmain.xyz##+js(adjust-setInterval, /countdownDisplay|\[_0x/, *, 0.001)
+gamesmain.xyz##+js(trusted-replace-node-text, script, *Opens in new tab)
