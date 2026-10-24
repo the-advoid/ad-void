@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6882
-! Last modified: 2026-10-24T01:25:56.360+02:00
+! Version: 3.0.6883
+! Last modified: 2026-10-24T01:26:11.790+02:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8870
+! Entries: 8871
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8083,6 +8083,7 @@ freeconvert.com##div[data-aaad="true"]:upward(3)
 gamesmain.xyz###outer-wrapper:style(clip-path: circle(0) !important;)
 gamesmain.xyz##+js(abort-current-script, document.createElement, adsBlocked)
 gamesmain.xyz##+js(adjust-setTimeout, /createLinkButton|buttonGroup|\("\d+"\)/, *, 0.001)
+gamesmain.xyz##+js(prevent-addEventListener, click, location.href, elements, #link-ready)
 gamesmain.xyz##+js(remove-node-text, script, .onerror)
 gamesmain.xyz##+js(remove-node-text, script, /adScriptURL|eval/)
 gamesmain.xyz##+js(trusted-replace-node-text, script, /30000/gm, 10)
