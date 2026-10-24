@@ -95,3 +95,4 @@ ads=true
 &ad_campaign_id$doc
 /1/index.html?c=$doc
 ?z=*&ymid=$doc
+/?z=*&syncedcookie=true&rhd=false$doc
