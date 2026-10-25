@@ -11,6 +11,11 @@ meta expires = '480 hours'
 
 nl
 
+tag 'Domains (global)'
+include './rules/add-ons/experiments/domains.txt'
+
+nl
+
 tag 'Subdomains (global)'
 include './rules/add-ons/experiments/subdomains.txt'
 
