@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 2.0.25
-! Last modified: 2026-10-18T18:24:57.552+02:00
+! Version: 2.0.26
+! Last modified: 2026-10-25T18:54:28.039+01:00
 ! Expires: 480 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 10
+! Entries: 11
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -17,19 +17,22 @@
 ! See the CONTRIBUTING.md (https://github.com/the-advoid/ad-void/blob/main/CONTRIBUTING.md) file for more information on how to contribute
 ! Source: World Wide Web
 
-! {@0} Subdomains (global)
+! {@0} Domains (global)
+||gardenbeast.world^
+
+! {@1} Subdomains (global)
 ||reach-pa.googleapis.com^
 ||scone-pa.googleapis.com^
 ||ka-f.fontawesome.com^
 ||ka-p.fontawesome.com^
 ||ogads-pa.clients*.google.com^
 
-! {@1} Files (global)
+! {@2} Files (global)
 
-! {@2} Query
+! {@3} Query
 /\/en\/[a-z]{5}\?kp=/
 
-! {@3} Cosmetic (site)
+! {@4} Cosmetic (site)
 google.*##div[aria-describedby="promo_desc_id"]
 x.com##div[style="position: absolute; bottom: 0px; width: 100%; transition: transform 200ms ease-out; transform: translateY(0px);"]
 twitter.com##div[style="position: absolute; bottom: 0px; width: 100%; transition: transform 200ms ease-out; transform: translateY(0px);"]
