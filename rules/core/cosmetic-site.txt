@@ -404,3 +404,4 @@ dofap.com###video_overlay_banner
 metro.co.uk##[class*="metro__ad_"]
 abyssplayer.com###overlay
 genius.com##div[data-exclude-from-selection="true"]
+genius.com##div[class^="sc-"] > div:has(> div[id^="div-gpt-"])
