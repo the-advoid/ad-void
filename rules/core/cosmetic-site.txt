@@ -403,3 +403,4 @@ twitch.tv##[data-test-selector="sda-wrapper"]
 dofap.com###video_overlay_banner
 metro.co.uk##[class*="metro__ad_"]
 abyssplayer.com###overlay
+genius.com##div[data-exclude-from-selection="true"]
