@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6933
-! Last modified: 2026-10-26T18:01:20.976+01:00
+! Version: 3.0.6934
+! Last modified: 2026-10-26T18:42:12.422+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8918
@@ -7310,6 +7310,7 @@ independent.co.uk###billboard-wrapper
 independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
 independent.co.uk##.teads:has(.third-party-ad)
 informer.rs##.bnr
+informer.rs##.sticky-lead-bnr
 insta-stories-viewer.com##.context
 instagram.com##article span:has-text(Sponsored):upward(6)
 iproductkeys.com###theme-footer
@@ -7363,7 +7364,6 @@ nanoreview.net###nfloat-sb-right
 nanoreview.net##.sewisinad_only_desktop
 nanoreview.net##.sewisinad_only_mobile
 next-episode.net##table #afh
-nformer.rs##.sticky-lead-bnr
 nintendolife.com##.for-desktop
 noodlemagazine.com##[style="max-width:450px;margin:0 auto;padding:15px 10px 0"]
 opensubtitles.org##.msg > div[itemscope] > fieldset:has(> legend > a[href="/support#vip"])
