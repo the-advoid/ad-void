@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5129
-! Last modified: 2026-10-26T18:01:09.262+01:00
+! Version: 3.0.5130
+! Last modified: 2026-10-26T18:42:08.620+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6703
@@ -5745,6 +5745,7 @@ independent.co.uk###billboard-wrapper
 independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
 independent.co.uk##.teads:has(.third-party-ad)
 informer.rs##.bnr
+informer.rs##.sticky-lead-bnr
 insta-stories-viewer.com##.context
 instagram.com##article span:has-text(Sponsored):upward(6)
 iproductkeys.com###theme-footer
@@ -5798,7 +5799,6 @@ nanoreview.net###nfloat-sb-right
 nanoreview.net##.sewisinad_only_desktop
 nanoreview.net##.sewisinad_only_mobile
 next-episode.net##table #afh
-nformer.rs##.sticky-lead-bnr
 nintendolife.com##.for-desktop
 noodlemagazine.com##[style="max-width:450px;margin:0 auto;padding:15px 10px 0"]
 opensubtitles.org##.msg > div[itemscope] > fieldset:has(> legend > a[href="/support#vip"])
