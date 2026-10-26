@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5134
-! Last modified: 2026-10-26T18:48:53.272+01:00
+! Version: 3.0.5135
+! Last modified: 2026-10-26T18:50:08.928+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6707
@@ -1373,7 +1373,7 @@
 ||liadm.com^
 ||libedgolart.com^
 ||libihimu.com^
-||licelus.com^$third-party
+||licelus.com^$3p
 ||lickingimprovementpropulsion.com^
 ||lidsaich.net^$popup
 ||lighthousemissingdisavow.com^
