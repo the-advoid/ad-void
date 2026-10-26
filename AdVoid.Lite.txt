@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.514
-! Last modified: 2026-10-25T20:16:02.083+01:00
+! Version: 1.0.515
+! Last modified: 2026-10-26T18:01:17.047+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5812
+! Entries: 5816
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2800,6 +2800,7 @@
 
 ! {@1} IP addresses (global)
 ||162.252.214.4^
+||176.65.139.135^
 ||185.80.128.4^
 ||37.1.213.100^
 ||5.255.255.77^
@@ -5561,7 +5562,10 @@ genius.com##.bQYiCj
 genius.com##.cujBpY
 genius.com##div[class^="LeaderboardOrMarquee__"]
 genius.com##div[class^="RightSidebar__Container-sc-"] div[class^="sc"]
+genius.com##div[class^="sc-"] > div:has(> div[id^="div-gpt-"])
 genius.com##div[class^="SectionLeaderboard_"]
+genius.com##div[data-exclude-from-selection="true"]
+genius.com##div[data-testid="sticky-leaderboard"]
 giphy.com##div.device-desktop
 glosbe.com###topTrufleContainer
 glosbe.com##.right-sidebar-trufle-container
