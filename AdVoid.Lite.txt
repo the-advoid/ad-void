@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.537
-! Last modified: 2026-10-27T02:42:21.546+01:00
+! Version: 1.0.538
+! Last modified: 2026-10-28T22:50:04.425+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5817
+! Entries: 5816
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -732,6 +732,7 @@
 ||dinclinx.com^
 ||dingholog.com^
 ||directdexchange.com^$doc
+||directyp.org^$popup
 ||diromalxx.com^
 ||disclosestockingsprestigious.com^
 ||dishwaterconcedehearty.com^
@@ -4178,7 +4179,6 @@ trekkie*.js^$script
 ||r.z3.fm^$script
 ||rackcdn.com/stf.js^$script
 ||redditstatic.com/ads/$script
-||redditstatic.com/ads/pixel.js^$script
 ||redditstatic.com/shreddit/*/ad-event-tracker-*.js^$script,redirect-rule=noop.js
 ||redditstatic.com/shreddit/sentry-
 ||rover.ebay.com^$image
@@ -4269,7 +4269,6 @@ trekkie*.js^$script
 /?request_ab*&zoneid=*&rb=$doc
 /?scontext_r=*&nrb=$doc
 /?z=*&syncedcookie=true&rhd=false$doc
-/click?key=*&click_id=*&ip=
 /redirect?tid=
 ?ab=*&rl=1|$doc
 ?bidId=push_
