@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5157
-! Last modified: 2026-10-28T22:49:55.025+01:00
+! Version: 3.0.5158
+! Last modified: 2026-10-28T22:51:53.245+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6703
+! Entries: 6704
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6029,7 +6029,7 @@ xvideos.com#@#.exo-ad-ins-container
 9xbuddy.*##+js(nowoif)
 abyssplayer.com##+js(abort-on-stack-trace, HTMLElement.prototype.click, _0x)
 abyssplayer.com##+js(abort-on-stack-trace, String.prototype.charAt, $0)
-abyssplayer.com##+js(nowoif, !abyss.to, 1)
+abyssplayer.com##+js(if, !abyss.to, 1)
 abyssplayer.com##+js(set-constant, isClick, true)
 abyssplayer.com##+js(set-constant, urls, [])
 academia.edu##body:style(overflow: auto!important;)
@@ -6180,6 +6180,7 @@ ds2play.com##+js(abort-on-property-write, _pop)
 ds2play.com##+js(abort-on-property-write, DoodPop)
 ds2play.com##+js(nowoif)
 ds2play.com##+js(remove-node-text, script, adblock)
+dsplayer.site##+js(nowoif)
 duplichecker.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-requestAnimationFrame-if, _0x)
