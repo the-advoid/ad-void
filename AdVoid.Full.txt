@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6962
-! Last modified: 2026-10-28T22:50:08.568+01:00
+! Version: 3.0.6963
+! Last modified: 2026-10-28T22:51:57.028+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8916
+! Entries: 8917
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7913,7 +7913,7 @@ github.com##img.js-gh-image-fallback:style(background-color: transparent !import
 9xbuddy.*##+js(nowoif)
 abyssplayer.com##+js(abort-on-stack-trace, HTMLElement.prototype.click, _0x)
 abyssplayer.com##+js(abort-on-stack-trace, String.prototype.charAt, $0)
-abyssplayer.com##+js(nowoif, !abyss.to, 1)
+abyssplayer.com##+js(if, !abyss.to, 1)
 abyssplayer.com##+js(set-constant, isClick, true)
 abyssplayer.com##+js(set-constant, urls, [])
 academia.edu##body:style(overflow: auto!important;)
@@ -8064,6 +8064,7 @@ ds2play.com##+js(abort-on-property-write, _pop)
 ds2play.com##+js(abort-on-property-write, DoodPop)
 ds2play.com##+js(nowoif)
 ds2play.com##+js(remove-node-text, script, adblock)
+dsplayer.site##+js(nowoif)
 duplichecker.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-requestAnimationFrame-if, _0x)
