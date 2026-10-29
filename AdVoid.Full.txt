@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6980
-! Last modified: 2026-10-29T00:50:42.560+01:00
+! Version: 3.0.6981
+! Last modified: 2026-10-29T00:51:03.868+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8933
+! Entries: 8934
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8133,6 +8133,7 @@ freeconvert.com##div[data-aaad="true"]:upward(3)
 gamerant.com##+js(abort-current-script, document.createElement, admiral)
 gamerant.com##+js(prevent-fetch, googlesyndication)
 gamerant.com##+js(remove-node-text, script, '"v4ac1eiZr0"')
+gamerant.com##+js(set-constant, Object.prototype.ads.nopreroll_, true)
 gamesmain.xyz###outer-wrapper:style(clip-path: circle(0) !important;)
 gamesmain.xyz##+js(abort-current-script, document.createElement, adsBlocked)
 gamesmain.xyz##+js(adjust-setTimeout, /createLinkButton|buttonGroup|\("\d+"\)/, *, 0.001)
