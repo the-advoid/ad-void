@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.6973
-! Last modified: 2026-10-29T00:15:11.776+01:00
+! Version: 3.0.6974
+! Last modified: 2026-10-29T00:39:59.994+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 8927
@@ -163,7 +163,7 @@
 ||adsgreed.com^$popup,doc
 ||adskeeper.co.uk^
 ||adskeeper.com^
-||adsninja.ca^
+||adsninja.ca^$from=~androidpolice.com|~babygaga.com|~backyardboss.net|~carbuzz.com|~cbr.com|~collider.com|~dualshockers.com|~footballfancast.com|~footballleagueworld.co.uk|~gamerant.com|~givemesport.com|~hardcoregamer.com|~hotcars.com|~howtogeek.com|~makeuseof.com|~moms.com|~movieweb.com|~pocket-lint.com|~pocketnow.com|~polygon.com|~screenrant.com|~simpleflying.com|~thegamer.com|~therichest.com|~thesportster.com|~thethings.com|~thetravel.com|~topspeed.com|~xda-developers.com
 ||adspsp.com^
 ||adspyglass.com^
 ||adspyglass.net^$3p
