@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.653
-! Last modified: 2026-10-29T22:38:01.454+01:00
+! Version: 1.0.654
+! Last modified: 2026-10-29T23:09:58.522+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5942
+! Entries: 5946
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -164,6 +164,7 @@
 ||adskeeper.co.uk^
 ||adskeeper.com^
 ||adsninja.ca^$from=~androidpolice.com|~babygaga.com|~backyardboss.net|~carbuzz.com|~cbr.com|~collider.com|~dualshockers.com|~footballfancast.com|~footballleagueworld.co.uk|~gamerant.com|~givemesport.com|~hardcoregamer.com|~hotcars.com|~howtogeek.com|~makeuseof.com|~moms.com|~movieweb.com|~pocket-lint.com|~pocketnow.com|~polygon.com|~screenrant.com|~simpleflying.com|~thegamer.com|~therichest.com|~thesportster.com|~thethings.com|~thetravel.com|~topspeed.com|~xda-developers.com
+||adspredictiv.com^
 ||adspsp.com^
 ||adspyglass.com^
 ||adspyglass.net^$3p
@@ -4215,6 +4216,7 @@ trekkie*.js^$script
 ||cdn.adsninja.ca/biddertypelibrary/$script,important
 ||cdn.defractal.com^$script
 ||cdn.livechatinc.com/tracking.js^$script,from=~box.co.uk
+||cdn.orangeclickmedia.com^$script
 ||check-host.net/*-en.png^$image
 ||check-host.net/*-ru.png^$image
 ||cloudflare.com/beacon.js^$script
@@ -4381,6 +4383,7 @@ trekkie*.js^$script
 &spotpagetype=*&statsuid=$frame
 &spotType=widgetBeforeComments
 &utm_content=ad1
+&utm_medium=banner$popup
 &utm_medium=popunder$popup
 /1/index.html?c=$doc
 /?request_ab*&zoneid=*&rb=$doc
@@ -5520,6 +5523,7 @@ zoneid=
 ##div[data-contentexchange-widget]
 ##div[data-google-query-id]
 ##div[data-identity*="board-ad"]
+##div[data-ocm-ad]
 ##div[data-testid="adsense-wrapper"]
 ##div[data-testid^="ad-container"]
 ##div[id*="ScriptRoot"]
