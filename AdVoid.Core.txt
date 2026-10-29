@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5180
-! Last modified: 2026-10-29T01:24:59.251+01:00
+! Version: 3.0.5181
+! Last modified: 2026-10-29T01:32:59.696+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6725
+! Entries: 6726
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -5760,6 +5760,7 @@ imdb.com##.slot_wrapper
 independent.co.uk###billboard-wrapper
 independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
 independent.co.uk##.teads:has(.third-party-ad)
+infinityretro.com##div[id^="cls-video-container-"]
 informer.rs##.bnr
 informer.rs##.sticky-lead-bnr
 insta-stories-viewer.com##.context
