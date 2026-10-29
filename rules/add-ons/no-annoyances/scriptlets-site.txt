@@ -324,3 +324,4 @@ store.boilerplate.com##+js(trusted-set-cookie, cookie, '{"requiredCookies":{"pay
 gamerant.com##+js(prevent-fetch, adsbygoogle.js)
 gamerant.com##body:style(overflow: auto !important;)
 gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, /0\s*==\s*.\.offsetHeight[\s\S]*?String\.fromCharCode/)
+gsmarena.com##+js(abort-current-script, document.createElement, /document\.currentScript[\s\S]*?\.innerHTML/)
