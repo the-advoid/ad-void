@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.543
-! Last modified: 2026-10-29T00:47:09.511+01:00
+! Version: 1.0.544
+! Last modified: 2026-10-29T01:56:57.331+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5826
+! Entries: 5834
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -855,6 +855,7 @@
 ||eva-schreier.de^
 ||eveald.com^
 ||eventucker.com^
+||evenyippee.com^
 ||everefor.buzz^
 ||everesttech.net^
 ||everprobation.com^
@@ -3972,6 +3973,7 @@ _pagespeed_beacon?$xhr
 /sbar.json^
 /script/xxag1.js^$script
 /seattle/*.js^$script
+/sentinel-events-tracker.$script
 /sentry-js.min.js^$script
 /sentry.*.js^$script,from=~powerthesaurus.org
 /shopify-boomerang-$script,css,image
@@ -4101,6 +4103,8 @@ trekkie*.js^$script
 ||boyfriendtv.com/bftv/www/js/*.min.js?url=$script
 ||brave.com/static-assets/js/analysis.js^$script
 ||cdn.abysscdn.com/players/playhydraxb.min.js^$script
+||cdn.adsninja.ca/*an_sn.js^$script,important
+||cdn.adsninja.ca/biddertypelibrary/$script,important
 ||cdn.defractal.com^$script
 ||cdn.livechatinc.com/tracking.js^$script,from=~box.co.uk
 ||check-host.net/*-en.png^$image
@@ -4718,6 +4722,7 @@ zoneid=
 ##.adthrive-ad
 ##.adthrive-content
 ##.adthrive-placeholder-header
+##.adthrive-sidebar
 ##.adtitle
 ##.adunit
 ##.adUnit
@@ -5555,6 +5560,8 @@ forums.androidcentral.com###header_leaderboard
 forums.androidcentral.com###rightcol_top
 fotor.com##._1Pece
 fotor.com##._3KDv2
+gamerant.com###secondary div[id^="sidebar-"]
+gamerant.com##.an-zone-footer-footer
 gay.bingo##.player__inline
 gay0day.com###aftervideo-mobile
 gay0day.com###footer-mobile
@@ -5619,6 +5626,7 @@ imdb.com##.slot_wrapper
 independent.co.uk###billboard-wrapper
 independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
 independent.co.uk##.teads:has(.third-party-ad)
+infinityretro.com##div[id^="cls-video-container-"]
 informer.rs##.bnr
 informer.rs##.sticky-lead-bnr
 insta-stories-viewer.com##.context
