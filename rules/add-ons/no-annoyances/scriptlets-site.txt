@@ -323,4 +323,4 @@ stripe.com##+js(trusted-set-cookie, cookie-perms, 2%3A$now$%7Cf, '', '', domain,
 store.boilerplate.com##+js(trusted-set-cookie, cookie, '{"requiredCookies":{"paymentData":true,"personalizationData":true}}')
 gamerant.com##+js(prevent-fetch, adsbygoogle.js)
 gamerant.com##body:style(overflow: auto !important;)
-gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, /0\s*==\s*.\.offfsetHeight[\s\S]*?String\.fromCharCode/)
+gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, /0\s*==\s*.\.offsetHeight[\s\S]*?String\.fromCharCode/)
