@@ -774,3 +774,4 @@ pickerwheel.com##+js(remove-node-text, script, /__adblocker|html-load/, excludes
 dsplayer.site##+js(nowoif)
 gamerant.com##+js(remove-node-text, script, '"v4ac1eiZr0"')
 gamerant.com##+js(abort-current-script, document.createElement, admiral)
+gamerant.com##+js(prevent-fetch, googlesyndication)
