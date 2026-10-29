@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5308
-! Last modified: 2026-10-29T23:57:01.028+01:00
+! Version: 3.0.5309
+! Last modified: 2026-10-29T23:57:17.504+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6851
+! Entries: 6852
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6411,6 +6411,7 @@ gosexpod.com##+js(abort-on-property-read, document.dispatchEvent)
 gosexpod.com##+js(addEventListener-defuser, click, my_inter_listen)
 gotgayporn.com##+js(abort-on-property-read, decodeURI)
 grok.com##+js(prevent-fetch, url:/api/statsig/log_event method:POST)
+gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, /doubleclick|atob|return new Promise|aHR0c|String\.fromCharCode|window\[/)
 gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, doubleclick)
 gsmarena.com##+js(prevent-fetch, doubleclick)
 gsmarena.com##+js(remove-cookie, /DeviceID|lpe/)
