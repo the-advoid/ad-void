@@ -165,3 +165,4 @@
 ||blogger.com^$script,from=foodtechnos.in|gamesmain.xyz
 ||ads.adthrive.com/sites/*/ads.min.js^$important,redirect-rule=noop.js
 ||pixel.morphify.net^$image
+||cdn.adsninja.ca/*an_sn.js^$script,important
