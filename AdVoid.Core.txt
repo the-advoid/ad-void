@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5306
-! Last modified: 2026-10-29T23:21:34.329+01:00
+! Version: 3.0.5307
+! Last modified: 2026-10-29T23:56:40.028+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6849
+! Entries: 6850
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6412,6 +6412,7 @@ gosexpod.com##+js(addEventListener-defuser, click, my_inter_listen)
 gotgayporn.com##+js(abort-on-property-read, decodeURI)
 grok.com##+js(prevent-fetch, url:/api/statsig/log_event method:POST)
 gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, doubleclick)
+gsmarena.com##+js(prevent-fetch, doubleclick)
 hdeuropix.*##+js(abort-on-property-read, AaDetector)
 hdeuropix.*##+js(abort-on-property-read, LieDetector)
 hdeuropix.*##+js(disable-newtab-links)
