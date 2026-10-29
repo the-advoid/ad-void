@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7122
-! Last modified: 2026-10-29T23:57:04.768+01:00
+! Version: 3.0.7123
+! Last modified: 2026-10-29T23:57:21.260+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9073
+! Entries: 9074
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8300,6 +8300,7 @@ gosexpod.com##+js(abort-on-property-read, document.dispatchEvent)
 gosexpod.com##+js(addEventListener-defuser, click, my_inter_listen)
 gotgayporn.com##+js(abort-on-property-read, decodeURI)
 grok.com##+js(prevent-fetch, url:/api/statsig/log_event method:POST)
+gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, /doubleclick|atob|return new Promise|aHR0c|String\.fromCharCode|window\[/)
 gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, doubleclick)
 gsmarena.com##+js(prevent-fetch, doubleclick)
 gsmarena.com##+js(remove-cookie, /DeviceID|lpe/)
