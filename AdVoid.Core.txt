@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5171
-! Last modified: 2026-10-29T00:49:57.811+01:00
+! Version: 3.0.5172
+! Last modified: 2026-10-29T00:50:20.184+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6716
+! Entries: 6717
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6245,6 +6245,7 @@ freeconvert.com##+js(remove-node-text, script, '"v4ac1eiZr0"')
 freeconvert.com##+js(remove-node-text, script, `/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["']_aQS0\w+["']|decodeURI\(decodeURI\("|<a href="https:\/\/getad%|"cmp\.updated"/`)
 freeconvert.com##^script:has-text(html-load.com)
 freeconvert.com##div[data-aaad="true"]:upward(3)
+gamerant.com##+js(abort-current-script, document.createElement, admiral)
 gamerant.com##+js(remove-node-text, script, '"v4ac1eiZr0"')
 gamesmain.xyz###outer-wrapper:style(clip-path: circle(0) !important;)
 gamesmain.xyz##+js(abort-current-script, document.createElement, adsBlocked)
