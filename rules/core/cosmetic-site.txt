@@ -406,3 +406,4 @@ abyssplayer.com###overlay
 genius.com##div[data-exclude-from-selection="true"]
 genius.com##div[class^="sc-"] > div:has(> div[id^="div-gpt-"])
 genius.com##div[data-testid="sticky-leaderboard"]
+gamerant.com###secondary div[id^="sidebar-"]
