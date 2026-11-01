@@ -785,4 +785,4 @@ bysebuho.com##+js(prevent-addEventListener, click, /^function\(\)\{const t=Date\
 n1mwq.org##+js(nowoif)
 vidmoly.*##+js(prevent-addEventListener, DOMContentLoaded, /_0x|adsBlocked|custom-overlay/)
 vidmoly.*##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.net/)
-vidmoly.biz##+js(set-constant, adsbygoogle, {})
+vidmoly.*##+js(set-constant, adsbygoogle, {})
