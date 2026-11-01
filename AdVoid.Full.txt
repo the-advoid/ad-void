@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7192
-! Last modified: 2026-11-01T20:43:35.787+01:00
+! Version: 3.0.7193
+! Last modified: 2026-11-01T20:44:20.615+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9079
+! Entries: 9080
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8671,6 +8671,7 @@ vidara.to##+js(remove-node-text, script, document.getElementsByTagName)
 vidara.to##+js(set-constant, HTMLScriptElement.prototype.onerror, undefined)
 videosection.com##+js(abort-on-property-read, exoJsPop101)
 vidmoly.*##+js(prevent-addEventListener, DOMContentLoaded, /_0x|adsBlocked|custom-overlay/)
+vidmoly.*##+js(prevent-addEventListener, DOMContentLoaded, anchor.href)
 vidmoly.*##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.net/)
 vidmoly.*##+js(set-constant, adsbygoogle, {})
 vidplay.*##+js(remove-attr, data-id|data-p, [data-id]\,[data-p], stay)
