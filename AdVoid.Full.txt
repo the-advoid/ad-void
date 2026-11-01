@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7201
-! Last modified: 2026-11-01T20:58:25.408+01:00
+! Version: 3.0.7202
+! Last modified: 2026-11-01T20:59:01.921+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9087
+! Entries: 9088
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8313,6 +8313,7 @@ hihihaha1.xyz##+js(nowoif, /^/, 1)
 hindustantimes.com##+js(remove-attr, onclick, a[href][onclick^="getFullStory"])
 hindustantimes.com##+js(remove-class, open-popup, body.open-popup)
 hitster.fm##+js(no-setTimeout-if)
+hollywoodreporter.com##+js(abort-current-script, document.getElementsByTagName, .pubads)
 hollywoodreporter.com##^script.pmc-admiral
 hollywoodreporter.com##^script[data-cfasync="false"][nowprocket]
 howtogeek.com##^script:has-text(/typeof [a-z]\.cmd\.unshift/)
