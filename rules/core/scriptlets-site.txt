@@ -794,3 +794,4 @@ hollywoodreporter.com##^script.pmc-admiral
 hollywoodreporter.com##+js(abort-current-script, document.getElementsByTagName, .pubads)
 hollywoodreporter.com##+js(remove-attr, onerror, script[id][onerror], asap, quitAfter, 10)
 hollywoodreporter.com##+js(remove-node-text, script, HTMLIFrameElement)
+hollywoodreporter.com##+js(trusted-replace-argument, Element.prototype.setAttribute, 1, '', condition, '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|,window\]|\)\.join\(String\.fromCharCode|adShieldError/')
