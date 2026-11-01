@@ -784,5 +784,5 @@ gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, /doubleclick|atob|
 bysebuho.com##+js(prevent-addEventListener, click, /^function\(\)\{const t=Date\.now.+window\.open\(e\.url/)
 n1mwq.org##+js(nowoif)
 vidmoly.*##+js(prevent-addEventListener, DOMContentLoaded, /_0x|adsBlocked|custom-overlay/)
-vidmoly.biz##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.net/)
+vidmoly.*##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.net/)
 vidmoly.biz##+js(set-constant, adsbygoogle, {})
