@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.703
-! Last modified: 2026-11-01T20:28:03.911+01:00
+! Version: 1.0.704
+! Last modified: 2026-11-01T21:53:06.028+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5944
+! Entries: 5956
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3631,7 +3631,7 @@ ads-manager/ads/*/track-view
 /rneve^$xhr,script
 /search/tsc.php?$xhr
 /stats-collect$xhr
-/stats^$xhr,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com|~openrouter.ai
+/stats^$xhr,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com|~openrouter.ai|~webstatus.dev
 /statsLog^$xhr
 /T-V3-BAD-NULL^$xhr
 /T-V3-CLIENT-OPS-LOAD^$xhr
@@ -3682,6 +3682,7 @@ _pagespeed_beacon?$xhr
 ||booking.com/c360/v1/track$xhr
 ||booking.com/js_tracking?
 ||booking.com/navigation_times$xhr
+||cdn.staticmoly.me/*.php^$xhr
 ||cdn77.org^$script,xhr
 ||cetin.cz/collector/^$3p,xhr
 ||cloudflare.com/cdn-cgi/trace$xhr,3p,redirect-rule=noop.txt,from=~1bit.space|~1bitspace.com|~funimation.com
@@ -3815,6 +3816,7 @@ _pagespeed_beacon?$xhr
 /ad00.php^
 /ad_image/*$image
 /ad_xv_cams_player_video.mustache^
+/adblockDetector.js^$script,redirect-rule=noop.js
 /adengine.js^$script
 /adfox/*$script
 /adframe.js^$script
@@ -4117,7 +4119,7 @@ _pagespeed_beacon?$xhr
 /track.gif^$image
 /track.js^$script
 /track.min.js^$script
-/tracker.js^$script
+/tracker.js^$script,from=~www.researchgate.net
 /tracker.min.js^$script
 /tracking-opt-in.min.js^$script
 /tracking.js^$script
@@ -4234,6 +4236,7 @@ trekkie*.js^$script
 ||flixcar.com/*/tracking/
 ||flixcdn.com/a/*/sticky-banner/$image
 ||gammae.com/famedollars/$image,3p
+||glassmoni.researchgate.net^$image
 ||go.techtarget.com^$image
 ||google-analytics.com/ga.js^$script,redirect=google-analytics_analytics.js:5
 ||google.com/adsense/domains^
@@ -4252,6 +4255,7 @@ trekkie*.js^$script
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect-rule=google-ima.js,from=plex.tv
 ||itch.io/ca.gif^$image
 ||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noop.js
+||jsdelivr.net/gh/interactiveadvertisingbureau/$script
 ||jsdelivr.net/npm/disable-devtool$script
 ||jsdelivr.net^*/fp.min.js^$script
 ||jwpcdn.com/player/*/googima.js^$script
@@ -4326,6 +4330,7 @@ trekkie*.js^$script
 ||unpkg.com/videojs-vast-vpaid@$script
 ||unpkg.com/web-vitals$script
 ||videonow.ru/*/vn_providers_vpaid.js^$script
+||vidmoly.*^$script,redirect-rule=noop.js
 ||vimeocdn.com/ga/$script
 ||vipserije.online/images/adblock.jpg^$image
 ||viqeo.tv/*/vq_fly_widget.js^$script
@@ -4670,6 +4675,7 @@ zoneid=
 ##.ad-btn-left
 ##.ad-btn-right
 ##.ad-c-label
+##.ad-callout-wrapper
 ##.ad-card
 ##.ad-close
 ##.ad-close-button
@@ -4947,6 +4953,7 @@ zoneid=
 ##.c-adv
 ##.c-adv--video-placeholder
 ##.c-banner
+##.c-gallery-vertical__advert
 ##.c-gpt-ad
 ##.carbon-ad
 ##.carbon-container
@@ -5052,8 +5059,10 @@ zoneid=
 ##.had_bot
 ##.had_middle
 ##.had_top
+##.has-video-ad
 ##.header-ad
 ##.header-ad-inner
+##.header-ad-mobile
 ##.header-banner-ads
 ##.header-banner-advertising
 ##.header-menu-bottom-ads
@@ -5109,6 +5118,7 @@ zoneid=
 ##.m-header-ad
 ##.m-in-content-ad
 ##.m-in-content-ad-row
+##.masthead-ad
 ##.mayoad
 ##.medianet-ad
 ##.mh-ad
@@ -5511,6 +5521,7 @@ zoneid=
 ##app-gpt-banner
 ##body > div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"][style*=";cursor:pointer"]:empty
 ##bst-ad-slot
+##div.in-post-sticky
 ##div[class*="__adSection"]
 ##div[class*="AdSlot-module"]
 ##div[class^="DisplayAd"]
@@ -5911,6 +5922,7 @@ variety.com###leaderboard-no-padding
 versus.com##.lead_top
 videosection.com##.player-detail
 videosection.com##.video-item--a
+vidmoly.*##div[id^="mg_vd"]
 w3schools.com###mainLeaderboard
 w3schools.com###skyscraper
 watchadsontape.com##.play-overlay
