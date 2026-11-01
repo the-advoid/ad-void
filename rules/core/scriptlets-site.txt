@@ -791,3 +791,4 @@ vidmoly.*##+js(set-constant, HTMLAnchorElement.prototype.click, noopFunc)
 vidmoly.*##+js(nowoif, !vidmoly)
 hollywoodreporter.com##^script[data-cfasync="false"][nowprocket]
 hollywoodreporter.com##^script.pmc-admiral
+hollywoodreporter.com##+js(abort-current-script, document.getElementsByTagName, .pubads)
