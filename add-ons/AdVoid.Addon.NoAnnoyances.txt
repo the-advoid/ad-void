@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1534
-! Last modified: 2026-11-01T20:43:32.064+01:00
+! Version: 2.0.1535
+! Last modified: 2026-11-01T21:08:35.348+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1433
+! Entries: 1434
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1379,6 +1379,7 @@ reddit.com##+js(set-constant, Notification.requestPermission, noopFunc)
 reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
+researchgate.net##+js(trusted-click-element, button[id="didomi-notice-disagree-button"], '', 1000)
 revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 rog-forum.asus.com##body,html:style(overflow: auto !important; position: initial !important;)
 romsfun.com##+js(adjust-setTimeout, download, *, 0.001)
