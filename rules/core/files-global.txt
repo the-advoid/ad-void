@@ -101,7 +101,7 @@
 /push.js^$script
 /noop*.js$script,from=~insmind.com
 /sanTracking.js^$script
-/tracker.js^$script
+/tracker.js^$script,from=~www.researchgate.net
 /tracker.min.js^$script
 /BranchSdk*.js^$script
 /htmlPauseRoll/pb_block
