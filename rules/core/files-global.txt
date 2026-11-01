@@ -398,3 +398,4 @@ _300x250.$image
 /sentinel-events-tracker.$script
 ?o=webAnalytics$script
 /dupa.gif?z=$image
+/adblockDetector.js^$script,redirect-rule=noop.js
