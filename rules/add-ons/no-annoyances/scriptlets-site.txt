@@ -328,3 +328,4 @@ gsmarena.com##+js(abort-current-script, document.createElement, /document\.curre
 gsmarena.com##body:style(overflow: auto !important;)
 makeup.rs##html,body:style(overflow: auto !important;)
 n1mwq.org##+js(abort-on-property-read, HTMLElement.prototype.oncontextmenu)
+n1mwq.org##+js(prevent-addEventListener, contextmenu)
