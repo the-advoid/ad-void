@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7184
-! Last modified: 2026-11-01T20:40:39.577+01:00
+! Version: 3.0.7185
+! Last modified: 2026-11-01T20:41:08.137+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9074
+! Entries: 9075
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8670,6 +8670,7 @@ vidara.to##+js(prevent-setTimeout, document.getElementsByTagName)
 vidara.to##+js(remove-node-text, script, document.getElementsByTagName)
 vidara.to##+js(set-constant, HTMLScriptElement.prototype.onerror, undefined)
 videosection.com##+js(abort-on-property-read, exoJsPop101)
+vidmoly.biz##+js(prevent-addEventListener, DOMContentLoaded, /_0x|adsBlocked|custom-overlay/)
 vidplay.*##+js(remove-attr, data-id|data-p, [data-id]\,[data-p], stay)
 vidplay.*##+js(set-constant, DisDevTool, undefined)
 vidsrc-embed.*##+js(abort-current-script, document.write, .js?_=)
