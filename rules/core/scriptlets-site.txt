@@ -787,3 +787,4 @@ vidmoly.*##+js(prevent-addEventListener, DOMContentLoaded, /_0x|adsBlocked|custo
 vidmoly.*##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.net/)
 vidmoly.*##+js(set-constant, adsbygoogle, {})
 vidmoly.*##+js(prevent-addEventListener, DOMContentLoaded, anchor.href)
+vidmoly.*##+js(set-constant, HTMLAnchorElement.prototype.click, noopFunc)
