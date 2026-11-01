@@ -783,6 +783,6 @@ gsmarena.com##+js(prevent-addEventListener, DOMContentLoaded, /doubleclick|atob|
 /^[0-9a-z]{5,12}\.com\/e\/[0-9A-Za-z]{10,15}$/##+js(prevent-addEventListener, click, /^function\(\)\{const t=Date\.now.+window\.open\(e\.url/)
 bysebuho.com##+js(prevent-addEventListener, click, /^function\(\)\{const t=Date\.now.+window\.open\(e\.url/)
 n1mwq.org##+js(nowoif)
-vidmoly.biz##+js(prevent-addEventListener, DOMContentLoaded, /_0x|adsBlocked|custom-overlay/)
+vidmoly.*##+js(prevent-addEventListener, DOMContentLoaded, /_0x|adsBlocked|custom-overlay/)
 vidmoly.biz##+js(prevent-fetch, /pagead2\.googlesyndication\.com|doubleclick\.net/)
 vidmoly.biz##+js(set-constant, adsbygoogle, {})
