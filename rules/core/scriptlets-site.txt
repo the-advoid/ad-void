@@ -798,3 +798,4 @@ hollywoodreporter.com##+js(trusted-replace-argument, Element.prototype.setAttrib
 hollywoodreporter.com##+js(remove-node-text, script, adblockerDisabled, excludes, ',\"')
 businessinsider.com##+js(prevent-setInterval, setInterval)
 playmogo.com##^script:has-text(/adblock|popunder|openedPop|WebAssembly|wpadmngr/)
+playmogo.com##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
