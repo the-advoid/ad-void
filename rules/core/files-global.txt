@@ -399,3 +399,4 @@ _300x250.$image
 ?o=webAnalytics$script
 /dupa.gif?z=$image
 /adblockDetector.js^$script,redirect-rule=noop.js
+/gtag/js?$script
