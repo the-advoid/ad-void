@@ -34,4 +34,9 @@ nl
 tag 'Cosmetic (site)'
 include './rules/add-ons/experiments/cosmetic-site.txt'
 
+nl
+
+tag 'Cosmetic (site)'
+include './rules/add-ons/experiments/scriptlets-site.txt'
+
 export './add-ons/AdVoid.Addon.Experiments.txt'
