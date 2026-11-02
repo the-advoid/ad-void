@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5413
-! Last modified: 2026-11-02T01:28:57.752+01:00
+! Version: 3.0.5414
+! Last modified: 2026-11-02T01:29:12.790+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6888
+! Entries: 6889
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6600,6 +6600,7 @@ playmogo.com##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|creat
 playmogo.com##+js(abort-current-script, decodeURI, decodeURIComponent)
 playmogo.com##+js(abort-current-script, document.getElementsByClassName, allow adblock)
 playmogo.com##+js(abort-current-script, WebAssembly, atob)
+playmogo.com##+js(abort-on-property-write, DoodPop)
 playmogo.com##+js(nowoif)
 playmogo.com##+js(set-constant, bab, noopFunc)
 playmogo.com##+js(set-constant, googleAd, true)
