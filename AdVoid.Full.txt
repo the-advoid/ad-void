@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7226
-! Last modified: 2026-11-02T01:11:38.765+01:00
+! Version: 3.0.7227
+! Last modified: 2026-11-02T01:12:34.505+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9108
+! Entries: 9109
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8483,6 +8483,7 @@ pinterest.*##+js(json-prune, resource_response.data.[-].pin_promotion_id)
 player.videasy.*##+js(abort-current-script, addEventListener, HTMLAllCollection)
 player.videasy.*##+js(nowoif)
 player.videasy.*##+js(prevent-addEventListener, unload, unloaded_at)
+playmogo.com##^script:has-text(/adblock|popunder|openedPop|WebAssembly|wpadmngr/)
 plex.tv##+js(prevent-fetch, plex.tv/api/v2/ads/vendors, emptyStr)
 porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
 porndig.com##+js(set-constant, tkn_popunder, null)
