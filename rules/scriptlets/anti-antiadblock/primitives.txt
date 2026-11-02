@@ -1,3 +1,5 @@
+*##+js(set, advanced_ads_adblocker_test, undefined)
+
 *##+js(set, hasAdBlocker, false)
 *##+js(set, abp, false)
 *##+js(set-constant, adBlockerReady, false)
