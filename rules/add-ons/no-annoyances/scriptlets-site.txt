@@ -337,3 +337,4 @@ revolut.com##+js(trusted-set-cookie, rev_cookie_consent, {%22preferences%22:fals
 playmogo.com##+js(prevent-addEventListener, contextmenu)
 playmogo.com##+js(set-constant, console.clear, undefined)
 gs.statcounter.com###main-el:style(padding-bottom: 0 !important;)
+emojipedia.org##.min-h-\[184px\]:style(min-height: 0 !important;)
