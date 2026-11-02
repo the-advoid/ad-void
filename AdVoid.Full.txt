@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7243
-! Last modified: 2026-11-02T01:29:01.829+01:00
+! Version: 3.0.7244
+! Last modified: 2026-11-02T01:29:16.746+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9125
+! Entries: 9126
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8493,6 +8493,7 @@ playmogo.com##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|creat
 playmogo.com##+js(abort-current-script, decodeURI, decodeURIComponent)
 playmogo.com##+js(abort-current-script, document.getElementsByClassName, allow adblock)
 playmogo.com##+js(abort-current-script, WebAssembly, atob)
+playmogo.com##+js(abort-on-property-write, DoodPop)
 playmogo.com##+js(nowoif)
 playmogo.com##+js(set-constant, bab, noopFunc)
 playmogo.com##+js(set-constant, googleAd, true)
