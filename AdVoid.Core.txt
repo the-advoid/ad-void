@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5422
-! Last modified: 2026-11-02T02:17:47.292+01:00
+! Version: 3.0.5423
+! Last modified: 2026-11-02T02:19:13.686+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6895
+! Entries: 6896
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6351,6 +6351,7 @@ emoji.gg##+js(prevent-xhr, adsbygoogle)
 emoji.gg##+js(remove-node-text, script, self.loadPW)
 emoji.gg##+js(remove-node-text, script, smelly)
 emojipedia.org##+js(abort-current-script, document.createElement, abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=)
+emojipedia.org##div[class^="Tabs_tabs__"]:style(top: 0 !important;)
 eporner.com##+js(abort-on-property-write, EPeventFire)
 eporner.com##+js(no-setTimeout-if, additional_src, 300)
 eporner.com##+js(remove-node-text, script, /adb/i)
