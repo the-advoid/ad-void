@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.Experiments
 ! Description: An experimental filter used for testing purposes.
-! Version: 2.0.26
-! Last modified: 2026-10-25T18:54:28.039+01:00
+! Version: 2.0.27
+! Last modified: 2026-11-02T00:41:20.029+01:00
 ! Expires: 480 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 11
+! Entries: 12
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -19,6 +19,7 @@
 
 ! {@0} Domains (global)
 ||gardenbeast.world^
+||playmogo.com^
 
 ! {@1} Subdomains (global)
 ||reach-pa.googleapis.com^
