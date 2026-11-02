@@ -801,3 +801,4 @@ playmogo.com##^script:has-text(/adblock|popunder|openedPop|WebAssembly|wpadmngr/
 playmogo.com##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 playmogo.com##+js(set-constant, xPoPAdS, false)
 playmogo.com##+js(set-constant, googleAd, true)
+playmogo.com##+js(abort-current-script, document.getElementsByClassName, allow adblock)
