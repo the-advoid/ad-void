@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7224
-! Last modified: 2026-11-02T00:39:35.581+01:00
+! Version: 3.0.7225
+! Last modified: 2026-11-02T00:39:54.672+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9106
+! Entries: 9107
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -9072,6 +9072,7 @@ reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
 reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
 researchgate.net##+js(trusted-click-element, button[id="didomi-notice-disagree-button"], '', 1000)
+revolut.com##+js(trusted-set-cookie, rev_cookie_consent, {%22preferences%22:false%2C%22analytics%22:false%2C%22advertising%22:false}, '', '', domain, revolut.com)
 revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 rog-forum.asus.com##body,html:style(overflow: auto !important; position: initial !important;)
 romsfun.com##+js(adjust-setTimeout, download, *, 0.001)
