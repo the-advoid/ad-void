@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Scriptlets.All
 ! Description: Hardens user privacy and blocks anti-blockers. 🛡️
-! Version: 1.0.5
-! Last modified: 2026-04-14T21:37:26.260+02:00
+! Version: 1.0.6
+! Last modified: 2026-11-02T00:50:12.873+01:00
 ! Expires: 96 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 51
+! Entries: 52
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -23,6 +23,8 @@
 *##+js(set, document.hidden, false)
 ! Source: https://github.com/uBlockOrigin/uBlock-issues/issues/3672#issuecomment-2972762596
 *##+js(trusted-set, document.visibilityState, json:"visible")
+*##+js(set, advanced_ads_adblocker_test, undefined)
+
 *##+js(set, hasAdBlocker, false)
 *##+js(set, abp, false)
 *##+js(set-constant, adBlockerReady, false)
