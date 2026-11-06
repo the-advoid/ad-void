@@ -17,6 +17,7 @@ openretro.org#@#[id^="banner_"]
 audiofanzine.com#@#[class*="mobile-leaderboard-"]
 diskanalyzer.com#@#.banner:not(html):not(body)
 fullstackopen.com#@#.banner:not(html):not(body)
+www.phoronix.com#@#[id*="_leaderboard_atf"]
 
 @@||streamtape.*$generichide
 @@||google.*/search?$generichide
