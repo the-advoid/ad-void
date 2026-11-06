@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.716
-! Last modified: 2026-11-02T02:11:19.247+01:00
+! Version: 1.0.717
+! Last modified: 2026-11-06T23:13:58.929+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5966
+! Entries: 5968
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3379,7 +3379,6 @@
 ||streaming-corpsite-collector.datadoghq.com^
 ||supportmetrics.apple.com^
 ||svibeacon.onezapp.com^
-||syndication.twitter.com^
 ||t.freelancer.com^
 ||t.imgur.com^
 ||t.paypal.com^
@@ -3696,6 +3695,7 @@ _pagespeed_beacon?$xhr
 ||collector.quillbot.com^$xhr
 ||collector.xhamster.desi^
 ||config-security.com/event^$xhr
+||config.content-settings.com^$xhr
 ||convertkit.com^*/visit$xhr
 ||data.nrk.no^$xhr
 ||datahub-srgssr.ch/tracking/$xhr
@@ -4225,6 +4225,7 @@ trekkie*.js^$script
 ||cdn.defractal.com^$script
 ||cdn.livechatinc.com/tracking.js^$script,from=~box.co.uk
 ||cdn.orangeclickmedia.com^$script
+||cdn.statically.io/gh/ad-shield/$script
 ||check-host.net/*-en.png^$image
 ||check-host.net/*-ru.png^$image
 ||cloudflare.com/beacon.js^$script
@@ -5396,6 +5397,7 @@ zoneid=
 ##[class^="_imageonly_ ad"]
 ##[class^="_inlineAdWrapper_"]
 ##[class^="ad-"]:not(html):not(body)
+##[class^="AdContainer_ad"]
 ##[class^="adHeight"]
 ##[class^="adsBoxRpt"]
 ##[class^="adsslotcustom"]
