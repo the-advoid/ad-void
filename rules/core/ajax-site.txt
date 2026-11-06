@@ -108,3 +108,4 @@
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$xhr
 ||cdn.staticmoly.me/*.php^$xhr
 ||revolut.com/api/t/errors^$xhr
+||config.content-settings.com^$xhr
