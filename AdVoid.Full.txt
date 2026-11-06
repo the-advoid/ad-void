@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7257
-! Last modified: 2026-11-06T22:55:01.740+01:00
+! Version: 3.0.7258
+! Last modified: 2026-11-06T22:55:35.548+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9137
+! Entries: 9138
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8491,6 +8491,7 @@ opensubtitles.org##+js(json-prune, *, pop_type)
 opensubtitles.org##+js(json-prune, *, rot_url)
 opensubtitles.org##+js(set-constant, hide_ads3, 1)
 paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallback=http"], ?fallback)
+phoronix.com##+js(set-constant, aax_getad_mpb, false)
 pickerwheel.com##+js(remove-node-text, script, /__adblocker|html-load/, excludes, self.__next)
 pinterest.*##+js(json-prune, resource_response.data.[-].pin_promotion_id)
 player.videasy.*##+js(abort-current-script, addEventListener, HTMLAllCollection)
