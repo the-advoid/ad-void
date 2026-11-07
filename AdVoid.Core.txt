@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5430
-! Last modified: 2026-11-07T00:30:22.635+01:00
+! Version: 3.0.5431
+! Last modified: 2026-11-07T01:51:41.776+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6898
+! Entries: 6900
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -273,6 +273,7 @@
 ||appnexus.com^$3p
 ||appsflyer.com^
 ||apshexvazqhh.com^
+||aqle3.com^
 ||aqua-adserver.com^
 ||aralego.com^
 ||areekwiney.com^
@@ -5955,6 +5956,7 @@ nanoreview.net##.sewisinad_only_mobile
 next-episode.net##table #afh
 nintendolife.com##.for-desktop
 noodlemagazine.com##[style="max-width:450px;margin:0 auto;padding:15px 10px 0"]
+onlinerecnik.com##div#abc-div
 opensubtitles.org##.msg > div[itemscope] > fieldset:has(> legend > a[href="/support#vip"])
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
 percentagecalculator.net###incontent1
