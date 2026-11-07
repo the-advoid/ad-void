@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5445
-! Last modified: 2026-11-07T19:38:11.110+01:00
+! Version: 3.0.5446
+! Last modified: 2026-11-07T19:38:45.100+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6910
+! Entries: 6911
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6960,6 +6960,7 @@ xhamster2.*##+js(set-cookie, ts_popunder, true, , reload, 1)
 xhamster2.*##+js(trusted-replace-node-text, script, popunder, , condition, popunder, stay, 1)
 xhamster2.*##.video-page .player-container:style(margin-right: 0 !important;)
 xvideos.com##+js(nowoif)
+y2down.*##+js(nowoif)
 y2mate.*##+js(abort-on-property-read, mm)
 y2mate.*##+js(abort-on-property-write, afStorage)
 y2mate.*##+js(nowoif)
