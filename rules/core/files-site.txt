@@ -111,7 +111,6 @@
 *$script,redirect-rule=noop.js,from=next-episode.net
 ||assets.hearstapps.com/commerce/release/affiliate-$script
 ||apps.bazaarvoice.com/analytics/$script
-||googletagmanager.com/gtag/$script,3p,redirect-rule=noop.js
 ||licdn.com/*li.lms-analytics/$script
 ||ebaystatic.com/cr/v/*/logs.*.bundle.js^$script
 ||rover.ebay.com^$image
