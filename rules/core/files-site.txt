@@ -172,3 +172,4 @@
 ||glassmoni.researchgate.net^$image
 ||cdn.statically.io/gh/ad-shield/$script
 ||scorecardresearch.com/beacon.js^$script,redirect-rule=scorecardresearch.com/beacon.js:5
+||static.ads-twitter.com/uwt.js^$script,redirect-rule=noop.js
