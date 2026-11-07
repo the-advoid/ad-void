@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.723
-! Last modified: 2026-11-07T02:41:51.290+01:00
+! Version: 1.0.724
+! Last modified: 2026-11-07T19:38:18.411+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5975
+! Entries: 5977
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -262,6 +262,7 @@
 ||anym8.com^
 ||apathylahuli.website^
 ||apfbumnzymas.com^
+||apitiny.net^
 ||aplidhree.com^
 ||app-measurement.com^
 ||appartement-feigl.de^
@@ -3745,7 +3746,6 @@ _pagespeed_beacon?$xhr
 ||paypal.com/platform/tealeaftarget$xhr
 ||pexels.com^*/sponsored-media/$xhr
 ||pingback.issuu.com^$xhr
-||player.stats.live-video.net^$xhr
 ||quora.com/ajax/receive_POST$xhr
 ||rebuyengine.com/api/*/analytics/event/$xhr
 ||revolut.com/api/t/errors^$xhr
@@ -4322,6 +4322,7 @@ trekkie*.js^$script
 ||s3.us-east-2.amazonaws.com/telemetry.bydata/$script
 ||sammobile.com^*/newrelic.js^$script
 ||sascdn.com/diff/$script,redirect-rule=noop.js,from=imgur.com
+||scorecardresearch.com/beacon.js^$script,redirect-rule=scorecardresearch.com/beacon.js:5
 ||securepubads.g.doubleclick.net/tag/js/gpt.js^$script,redirect-rule=googletagservices_gpt.js:5
 ||shopify.com/shopifycloud/consent-tracking-api/
 ||soap2dayx.to/assets/_bnx/$image
@@ -5930,6 +5931,7 @@ tureng.com##div[data-nokta-zone]
 tvbalkanuzivo.com##.sidebar-yayin
 twitch.tv##.stream-display-ad__wrapper
 twitch.tv##[data-test-selector="sda-wrapper"]
+twitch.tv##button[aria-label="Learn more about this ad"]
 twpornstars.com##.mobile.block-inline
 txxx.*##.sugggestion
 txxx.*##.video-content > div + div:last-child
