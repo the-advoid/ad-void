@@ -174,3 +174,4 @@
 ||scorecardresearch.com/beacon.js^$script,redirect-rule=scorecardresearch.com/beacon.js:5
 ||static.ads-twitter.com/uwt.js^$script,redirect-rule=noop.js
 ||a.magsrv.com/ad-provider.js^$script,redirect-rule=noop.js
+||bunkr.*/lv.js^$script,1p
