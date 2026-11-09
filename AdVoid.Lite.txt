@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.727
-! Last modified: 2026-11-09T14:00:34.377+01:00
+! Version: 1.0.728
+! Last modified: 2026-11-09T14:34:09.629+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5983
+! Entries: 5984
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1156,7 +1156,6 @@
 ||hruzunwuzog.com^
 ||hs-analytics.net^
 ||hsadspixel.net^
-||hsappstatic.net^
 ||hscta.net^$3p
 ||hsleadflows.net^
 ||htlbid.com^
@@ -3830,6 +3829,7 @@ _pagespeed_beacon?$xhr
 /ad.min.js^$script
 /ad00.php^
 /ad_image/*$image
+/ad_ph.png^$image
 /ad_xv_cams_player_video.mustache^
 /adblockDetector.js^$script,redirect-rule=noop.js
 /adengine.js^$script
@@ -5586,6 +5586,7 @@ zoneid=
 1337x.*##[href*="vpn"]
 1337x.*##[onclick*="vpn"]
 1337x.*##[onclick^="location.href='https://1337x.vpnonly.site/"]
+4gay.fans##.video-player > .mobile
 4zida.rs###ed-container
 4zida.rs##[id*="4Z_Desktop_"]
 4zida.rs##aside.desk-lg\:w-1\/3.w-full.sticky
