@@ -826,3 +826,4 @@ embedsun.cc##+js(abort-current-script, EventTarget.prototype.addEventListener, d
 bunkr.*##^script:has-text(WebAssembly)
 bunkr.*##+js(prevent-addEventListener, click, popMagic)
 bunkr.*##+js(abort-current-script, String.fromCharCode, constructor)
+bunkr.*##+js(abort-current-script, WebAssembly, Promise)
