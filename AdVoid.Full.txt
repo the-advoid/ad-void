@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7321
-! Last modified: 2026-11-09T18:52:40.995+01:00
+! Version: 3.0.7322
+! Last modified: 2026-11-09T18:53:12.529+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9181
+! Entries: 9182
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8484,6 +8484,7 @@ mp4upload.com##+js(abort-on-property-read, Adcash)
 mp4upload.com##+js(abort-on-property-write, adcashMacros)
 mxdrop.*##+js(abort-current-script, document.createElement, dtnoppu)
 mxdrop.*##+js(nowoif)
+mxdrop.*##+js(prevent-addEventListener, click, dtnoppu)
 mxdrop.*##+js(remove-node-text, script, .open, includes, \\x20*)
 mxdrop.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP|dtnoppu|adserverDomain/)
 myabandonware.com##+js(abort-on-stack-trace, XMLHttpRequest, putPb)
