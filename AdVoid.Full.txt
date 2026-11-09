@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7353
-! Last modified: 2026-11-09T20:11:44.576+01:00
+! Version: 3.0.7354
+! Last modified: 2026-11-09T20:12:31.740+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9209
+! Entries: 9208
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8159,7 +8159,6 @@ archive.org##+js(set-constant, archive_analytics.send_ping, noopFunc)
 archive.org##+js(set-constant, archive_analytics.set_up_event_tracking, noopFunc)
 archivebate.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 archivebate.*##+js(abort-current-script, document.querySelectorAll, popMagic)
-archivebate.*##+js(abort-current-script, WebAssembly, atob)
 archivebate.*##+js(abort-current-script, WebAssembly, atob)
 archivebate.*##+js(addEventListener-defuser, click, popMagic)
 archivebate.*##+js(nowoif)
