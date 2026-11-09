@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7341
-! Last modified: 2026-11-09T19:27:24.353+01:00
+! Version: 3.0.7342
+! Last modified: 2026-11-09T19:28:59.097+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9202
+! Entries: 9203
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8207,6 +8207,7 @@ buffstreams.*##+js(abort-current-script, setTimeout, admc)
 buffstreams.*##+js(nowoif)
 bunkr.*##+js(abort-current-script, String.fromCharCode, constructor)
 bunkr.*##+js(abort-current-script, WebAssembly, Promise)
+bunkr.*##+js(abort-on-property-read, popMagic.init)
 bunkr.*##+js(prevent-addEventListener, click, popMagic)
 bunkr.*##^script:has-text(WebAssembly)
 businessinsider.com##+js(prevent-setInterval, setInterval)
