@@ -97,3 +97,4 @@ amp-web-push*js^$script
 -push-notifications/$script
 /partytown-sw.js^$script
 /disabled-source-disabled-right-click-and-content-protection/*$script
+/sourcebuster.min.js^$from=~smclinic-sol.ru
