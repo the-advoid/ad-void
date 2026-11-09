@@ -108,3 +108,4 @@
 ||cdn.staticmoly.me/*.php^$xhr
 ||revolut.com/api/t/errors^$xhr
 ||config.content-settings.com^$xhr
+||xp.apple.com/config/*/report/$xhr
