@@ -819,3 +819,4 @@ mxdrop.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP|dtn
 mxdrop.*##+js(nowoif)
 mxdrop.*##+js(remove-node-text, script, .open, includes, \\x20*)
 mxdrop.*##+js(abort-current-script, document.createElement, dtnoppu)
+mxdrop.*##+js(prevent-addEventListener, click, dtnoppu)
