@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7315
-! Last modified: 2026-11-09T15:24:29.244+01:00
+! Version: 3.0.7316
+! Last modified: 2026-11-09T15:24:51.007+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 9176
@@ -8145,12 +8145,12 @@ archive.org##+js(set-constant, archive_analytics.set_up_event_tracking, noopFunc
 archivebate.*##+js(abort-current-script, decodeURI, decodeURIComponent)
 archivebate.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 archivebate.*##+js(abort-current-script, WebAssembly, atob)
+archivebate.*##+js(abort-current-script, WebAssembly, atob)
 archivebate.*##+js(addEventListener-defuser, click, popMagic)
 archivebate.*##+js(nowoif)
 archivebate.*##+js(prevent-fetch, googlesyndication)
 archivebate.*##+js(prevent-fetch, pagead2.googlesyndication.com)
 archivebate.*##+js(set-constant, D4zz, noopFunc)
-archivebate.com##+js(abort-current-script, WebAssembly, atob)
 archivebate.com##+js(prevent-addEventListener, click, popMagic)
 azmen.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 azmen.com##+js(remove-cookie, videoPlayedNumber)
