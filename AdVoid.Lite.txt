@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.729
-! Last modified: 2026-11-09T14:56:33.758+01:00
+! Version: 1.0.730
+! Last modified: 2026-11-09T15:13:35.457+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 5987
+! Entries: 5990
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -927,6 +927,7 @@
 ||feednews.com^
 ||feegoust.xyz^
 ||feltlonelyand.xyz^
+||fhgte.com^$popup
 ||fhvfd.com^
 ||filiatefinbone.uno^
 ||finiteobjscan.com^
@@ -3775,6 +3776,7 @@ _pagespeed_beacon?$xhr
 ||xhamster.*/api/models/vast*preroll$xhr
 ||xhamster.com/api/models?userId=^$xhr
 ||xhamster.com/mlxhl/v1/for-video?$xhr
+||xp.apple.com/*/report/$xhr
 ||xp.apple.com^$xhr
 ||xp2.apple.com^$xhr
 ||xvideos.com/zoneload/$xhr
@@ -3785,6 +3787,7 @@ _pagespeed_beacon?$xhr
 
 ! {@7} AJAX paths - restore (site)
 @@/cdn-cgi/trace$xhr,domain=myair.resmed.com|one.one.one.one
+@@||cdn.segment.com/v1/projects/$xhr
 @@||doc.moplay.org/cdn-cgi/trace^$xhr
 
 ! {@8} Files (global)
@@ -4178,7 +4181,7 @@ _pagespeed_beacon?$xhr
 /www/delivery/spc.php^
 /www/delivery/spcjs.php^
 /x.gif^$image,from=~mangabuddy.com|~novelbuddy.com
-/xads.js^$script,domain=~miixdrop.top
+/xads.js^$script,domain=~miixdrop.top|~mxdrop.click
 /yandex-metrica-watch/$script
 1x1.gif^$image
 ?o=webAnalytics$script
