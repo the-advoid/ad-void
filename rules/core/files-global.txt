@@ -67,7 +67,7 @@
 /adsense.min.css^$css
 /ws-tracking.js^$script
 /sentry-js.min.js^$script
-/xads.js^$script,domain=~miixdrop.top
+/xads.js^$script,domain=~miixdrop.top|~mxdrop.click
 /backbutton-*.js^$script
 /stats.php^
 /optimize.js^$script
