@@ -400,3 +400,4 @@ _300x250.$image
 /dupa.gif?z=$image
 /adblockDetector.js^$script,redirect-rule=noop.js
 /gtag/js?$script
+/ad_ph.png^$image
