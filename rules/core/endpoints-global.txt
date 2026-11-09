@@ -69,3 +69,4 @@ ads-manager/ads/*/track-view
 /click?pid=*&sub1=$doc
 /cdn-cgi/rum?
 /log/hublytics
+/metrics/v1/frontend/*
