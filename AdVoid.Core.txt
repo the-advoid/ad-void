@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5468
-! Last modified: 2026-11-09T15:21:23.938+01:00
+! Version: 3.0.5469
+! Last modified: 2026-11-09T15:21:44.628+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6927
@@ -6244,12 +6244,12 @@ archive.org##+js(set-constant, archive_analytics.send_pageview_on_load, noopFunc
 archive.org##+js(set-constant, archive_analytics.send_ping, noopFunc)
 archive.org##+js(set-constant, archive_analytics.set_up_event_tracking, noopFunc)
 archivebate.*##+js(abort-current-script, WebAssembly, atob)
+archivebate.*##+js(addEventListener-defuser, click, popMagic)
 archivebate.*##+js(nowoif)
 archivebate.*##+js(set-constant, D4zz, noopFunc)
 archivebate.com##+js(abort-current-script, decodeURI, decodeURIComponent)
 archivebate.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 archivebate.com##+js(abort-current-script, WebAssembly, atob)
-archivebate.com##+js(addEventListener-defuser, click, popMagic)
 archivebate.com##+js(prevent-addEventListener, click, popMagic)
 archivebate.com##+js(prevent-fetch, googlesyndication)
 archivebate.com##+js(prevent-fetch, pagead2.googlesyndication.com)
