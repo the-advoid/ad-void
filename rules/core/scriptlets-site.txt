@@ -818,3 +818,4 @@ zerogpt.com##+js(abort-current-script, document.createElement, abcdefghijklmnopq
 mxdrop.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP|dtnoppu|adserverDomain/)
 mxdrop.*##+js(nowoif)
 mxdrop.*##+js(remove-node-text, script, .open, includes, \\x20*)
+mxdrop.*##+js(abort-current-script, document.createElement, dtnoppu)
