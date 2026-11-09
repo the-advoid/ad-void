@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5464
-! Last modified: 2026-11-09T15:06:46.457+01:00
+! Version: 3.0.5465
+! Last modified: 2026-11-09T15:12:05.395+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 6925
@@ -4241,7 +4241,7 @@ _pagespeed_beacon?$xhr
 /www/delivery/spc.php^
 /www/delivery/spcjs.php^
 /x.gif^$image,from=~mangabuddy.com|~novelbuddy.com
-/xads.js^$script,domain=~miixdrop.top
+/xads.js^$script,domain=~miixdrop.top|~mxdrop.click
 /yandex-metrica-watch/$script
 1x1.gif^$image
 ?o=webAnalytics$script
