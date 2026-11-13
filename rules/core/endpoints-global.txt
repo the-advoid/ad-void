@@ -70,3 +70,4 @@ ads-manager/ads/*/track-view
 /cdn-cgi/rum?
 /log/hublytics
 /metrics/v1/frontend/*
+/e/*^ip=*^beacon=
