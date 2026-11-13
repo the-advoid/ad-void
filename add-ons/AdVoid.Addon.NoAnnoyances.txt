@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1568
-! Last modified: 2026-11-13T23:35:05.028+01:00
+! Version: 2.0.1569
+! Last modified: 2026-11-13T23:47:07.830+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1459
@@ -171,7 +171,6 @@
 /gdpr.min.js^$script
 /gpt.js^$script
 /htdocs/js/admiral/init.js^$script
-/jquery.cookie.min.js^$script
 /jquery.growl.js^$script
 /js.cookie.js^$script,from=~ascii-generator.site|~catbox.moe|~eplaneta.rs
 /kraken-service-worker.js^$script
@@ -1428,6 +1427,7 @@ shein.com##body:style(overflow: auto !important; position: initial !important;)
 soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
 store.boilerplate.com##+js(trusted-set-cookie, cookie, '{"requiredCookies":{"paymentData":true,"personalizationData":true}}')
+store.steampowered.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?u=http"], ?u)
 streamtape.*##+js(adjust-setTimeout, counter, '', 0.02)
 streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
 streamtape.*##+js(nano-setTimeout-booster, counter)
