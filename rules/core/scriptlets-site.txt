@@ -831,3 +831,4 @@ devuploads.com##+js(prevent-addEventListener, click, /document.createElement|win
 devuploads.com##+js(set-constant, Element.prototype.closest, falseFunc)
 devuploads.com##+js(set-constant, HTMLElement.prototype.click.apply, noopFunc)
 devuploads.com##+js(set-constant, HTMLElement.prototype.click.call, noopFunc)
+devuploads.com##+js(abort-on-stack-trace, Document.prototype.addEventListener.call, anonymous@https)
