@@ -835,3 +835,4 @@ devuploads.com##+js(abort-on-stack-trace, Document.prototype.addEventListener.ca
 devuploads.com##+js(abort-on-stack-trace, document.addEventListener, anonymous@https)
 devuploads.com##+js(abort-current-script, Function.prototype.constructor, '"+"')
 devuploads.com##+js(abort-current-script, RegExp.prototype.exec.constructor, '"+"')
+devuploads.com##+js(prevent-innerHTML, script, !/document|window|const|var|let/)
