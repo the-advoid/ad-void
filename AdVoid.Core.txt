@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5524
-! Last modified: 2026-11-13T22:45:02.792+01:00
+! Version: 3.0.5525
+! Last modified: 2026-11-13T22:45:24.944+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6959
+! Entries: 6960
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6368,6 +6368,7 @@ devuploads.com##+js(prevent-addEventListener, click, /document.createElement|win
 devuploads.com##+js(prevent-innerHTML, script, !/document|window|const|var|let/)
 devuploads.com##+js(remove-node-text, script, '"+"', excludes, /self\.__next|recaptcha|document|window|const|var|let/)
 devuploads.com##+js(remove-node-text, script, `/"\+"g|"\+"'a|self\.__next.*?,typeof document|self\.__next&&|\|\|self\.__next,\(|\("\+"t|'\+'F|0\|\|window|\}\)\(\),typeof|'\+'s|this\['F.*\('\+'"|\)\)"'\)\(\);\(\(\)\=>/g`, excludes, /^self\.__next_f\.push/)
+devuploads.com##+js(set-constant, document.hasFocus, trueFunc)
 devuploads.com##+js(set-constant, Element.prototype.closest, falseFunc)
 devuploads.com##+js(set-constant, HTMLElement.prototype.click.apply, noopFunc)
 devuploads.com##+js(set-constant, HTMLElement.prototype.click.call, noopFunc)
