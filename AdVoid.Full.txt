@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7398
-! Last modified: 2026-11-13T23:31:29.628+01:00
+! Version: 3.0.7399
+! Last modified: 2026-11-13T23:31:58.048+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 9228
@@ -5975,7 +5975,6 @@ zoneid=
 ##[id^="WxuAd-main"]
 ##[layout*="display-ad-"]
 ##[name^="google_ads_iframe"]
-##[rel*="sponsored"]
 ##[src*="//ads.adxadserv.com/"]
 ##[src*="a.adtng.com"]
 ##[src*="ad.a-ads.com"]
@@ -6015,6 +6014,7 @@ zoneid=
 ##a[href^="https://t.ajrkm1.com/"]
 ##a[href^="https://teksishe.net/"]
 ##a[href^="https://www.adxsrve.com/"]
+##a[rel*="sponsored"]
 ##admobiletopinside
 ##amp-ad
 ##app-gpt-banner
