@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7375
-! Last modified: 2026-11-13T22:37:54.249+01:00
+! Version: 3.0.7376
+! Last modified: 2026-11-13T22:38:16.874+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9206
+! Entries: 9207
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8261,6 +8261,7 @@ decider.com##+js(remove-node-text, script, '"v4ac1eiZr0"')
 dev.to##+js(remove-cookie, ahoy_visit)
 dev.to##+js(remove-cookie, ahoy_visitor)
 devuploads.com##+js(nowoif, .cfd)
+devuploads.com##+js(prevent-addEventListener, click, /document.createElement|window.open/)
 devuploads.com##+js(remove-node-text, script, `/"\+"g|"\+"'a|self\.__next.*?,typeof document|self\.__next&&|\|\|self\.__next,\(|\("\+"t|'\+'F|0\|\|window|\}\)\(\),typeof|'\+'s|this\['F.*\('\+'"|\)\)"'\)\(\);\(\(\)\=>/g`, excludes, /^self\.__next_f\.push/)
 discord.com##+js(prevent-xhr, discord.com/api/v9/science)
 disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
