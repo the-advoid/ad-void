@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7370
-! Last modified: 2026-11-13T21:42:29.284+01:00
+! Version: 3.0.7371
+! Last modified: 2026-11-13T21:52:03.180+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 9202
@@ -9230,7 +9230,7 @@ tvinsider.com##+js(set-constant, admiral, noopFunc)
 tvprofil.com##+js(trusted-set-cookie, gdpr_consent, necessary%3D1%26analytics%3D0, '', '', domain, tvprofil.com, reload, 1)
 twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
 twitch.tv##+js(set-session-storage-item, twilight.mweb-upsell-dismissed, true)
-twitter.com##+js(set-cookie, twtr_pixel_opt_in, N)
+twitter.com##+js(trusted-set-cookie, twtr_pixel_opt_in, N)
 twitter.com##html:style(overflow:auto!important)
 txxx.com##.jwplayer:style(max-height: initial!important;)
 userload.co##+js(adjust-setInterval, secondsleft, *, 0.02)
