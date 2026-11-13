@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7385
-! Last modified: 2026-11-13T22:45:06.834+01:00
+! Version: 3.0.7386
+! Last modified: 2026-11-13T22:45:28.854+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9216
+! Entries: 9217
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8269,6 +8269,7 @@ devuploads.com##+js(prevent-addEventListener, click, /document.createElement|win
 devuploads.com##+js(prevent-innerHTML, script, !/document|window|const|var|let/)
 devuploads.com##+js(remove-node-text, script, '"+"', excludes, /self\.__next|recaptcha|document|window|const|var|let/)
 devuploads.com##+js(remove-node-text, script, `/"\+"g|"\+"'a|self\.__next.*?,typeof document|self\.__next&&|\|\|self\.__next,\(|\("\+"t|'\+'F|0\|\|window|\}\)\(\),typeof|'\+'s|this\['F.*\('\+'"|\)\)"'\)\(\);\(\(\)\=>/g`, excludes, /^self\.__next_f\.push/)
+devuploads.com##+js(set-constant, document.hasFocus, trueFunc)
 devuploads.com##+js(set-constant, Element.prototype.closest, falseFunc)
 devuploads.com##+js(set-constant, HTMLElement.prototype.click.apply, noopFunc)
 devuploads.com##+js(set-constant, HTMLElement.prototype.click.call, noopFunc)
