@@ -836,3 +836,4 @@ devuploads.com##+js(abort-on-stack-trace, document.addEventListener, anonymous@h
 devuploads.com##+js(abort-current-script, Function.prototype.constructor, '"+"')
 devuploads.com##+js(abort-current-script, RegExp.prototype.exec.constructor, '"+"')
 devuploads.com##+js(prevent-innerHTML, script, !/document|window|const|var|let/)
+devuploads.com##+js(remove-node-text, script, '"+"', excludes, /self\.__next|recaptcha|document|window|const|var|let/)
