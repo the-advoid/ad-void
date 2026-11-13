@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7368
-! Last modified: 2026-11-13T21:34:38.451+01:00
+! Version: 3.0.7369
+! Last modified: 2026-11-13T21:36:27.670+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 9202
@@ -9070,7 +9070,7 @@ kick.com##+js(set-local-storage-item, cookies_accepted, true)
 kick.com##+js(trusted-set-cookie, cookie_preferences_set_v1, %7B%22state%22%3A%7B%22preferences%22%3A%7B%22necessary%22%3Atrue%2C%22functional%22%3Afalse%2C%22performance%22%3Afalse%2C%22targeting%22%3Afalse%2C%22userHasMadeChoice%22%3Atrue%7D%2C%22functionalEnabled%22%3Afalse%2C%22performanceEnabled%22%3Afalse%2C%22targetingEnabled%22%3Afalse%7D%2C%22version%22%3A0%7D, '', '', domain, .kick.com)
 kiktu.com##+js(adjust-setInterval, runTimer, , 0.02)
 kimovil.*##*:style(-webkit-touch-callout: default!important; -webkit-user-drag: element!important; -webkit-user-select: text!important; -moz-user-select: text!important; -ms-user-select: text!important; user-select: text!important;)
-kristianjosipperis.hr##+js(trusted-set-cookie, kolacici, ne)
+kristianjosipperis.hr##+js(set-local-storage-item, kolacici, ne)
 lasestrellas.tv##+js(set-cookie, _tvsPrivacy, true)
 libgen.*##+js(no-setTimeout-if, appendMessage)
 linkedin.com##+js(trusted-click-element, button.cookie-consent__accept-button, , 2000)
