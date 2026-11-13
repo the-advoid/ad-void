@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.749
-! Last modified: 2026-11-13T23:31:25.898+01:00
+! Version: 1.0.750
+! Last modified: 2026-11-13T23:46:48.332+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6011
+! Entries: 6014
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3588,6 +3588,7 @@ ads-manager/ads/*/track-view
 ||snap.licdn.com/li.lms-analytics/
 ||ssl-images-amazon.com/images/*/masf-
 ||static-pub.highwebmedia.com/featureshow/
+||store.steampowered.com/app/usabilitytracking/
 ||stripchat.com/api/external/
 ||tiktok.com/web/report^
 ||translate.googleapis.com/element/log^
@@ -5236,6 +5237,7 @@ zoneid=
 ##.pubbox
 ##.pubbut
 ##.pure-u-custom-ad-rectangle
+##.pw-ad-slot
 ##.ref89_uk_billboard
 ##.reklama:not(.ads)
 ##.related-sites
@@ -5525,7 +5527,6 @@ zoneid=
 ##[id^="WxuAd-main"]
 ##[layout*="display-ad-"]
 ##[name^="google_ads_iframe"]
-##[rel*="sponsored"]
 ##[src*="//ads.adxadserv.com/"]
 ##[src*="a.adtng.com"]
 ##[src*="ad.a-ads.com"]
@@ -5565,6 +5566,7 @@ zoneid=
 ##a[href^="https://t.ajrkm1.com/"]
 ##a[href^="https://teksishe.net/"]
 ##a[href^="https://www.adxsrve.com/"]
+##a[rel*="sponsored"]
 ##admobiletopinside
 ##amp-ad
 ##app-gpt-banner
@@ -5687,6 +5689,7 @@ dnevnik.hr##^script:has-text(await eval)
 dnevnik.hr##^script[onload*="error-report.com"]
 dofap.com###video_overlay_banner
 downforeveryoneorjustme.com###bsa
+downforeveryoneorjustme.com##.rounded-t-md:has(> a[rel="sponsored"])
 driverscloud.com##.dcpub
 duckduckgo.com##.button_size-md__dS3Yr.button_secondary__DAail
 duplichecker.com###img0000
