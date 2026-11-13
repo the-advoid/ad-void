@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1566
-! Last modified: 2026-11-13T21:42:25.464+01:00
+! Version: 2.0.1567
+! Last modified: 2026-11-13T21:51:59.340+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1458
@@ -1466,7 +1466,7 @@ tvinsider.com##+js(set-constant, admiral, noopFunc)
 tvprofil.com##+js(trusted-set-cookie, gdpr_consent, necessary%3D1%26analytics%3D0, '', '', domain, tvprofil.com, reload, 1)
 twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
 twitch.tv##+js(set-session-storage-item, twilight.mweb-upsell-dismissed, true)
-twitter.com##+js(set-cookie, twtr_pixel_opt_in, N)
+twitter.com##+js(trusted-set-cookie, twtr_pixel_opt_in, N)
 twitter.com##html:style(overflow:auto!important)
 txxx.com##.jwplayer:style(max-height: initial!important;)
 userload.co##+js(adjust-setInterval, secondsleft, *, 0.02)
