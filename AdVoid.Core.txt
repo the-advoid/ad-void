@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5520
-! Last modified: 2026-11-13T22:43:11.312+01:00
+! Version: 3.0.5521
+! Last modified: 2026-11-13T22:44:14.527+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6955
+! Entries: 6956
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6359,6 +6359,7 @@ dailyuploads.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popunders
 decider.com##+js(remove-node-text, script, '"v4ac1eiZr0"')
 dev.to##+js(remove-cookie, ahoy_visit)
 dev.to##+js(remove-cookie, ahoy_visitor)
+devuploads.com##+js(abort-current-script, Function.prototype.constructor, '"+"')
 devuploads.com##+js(abort-on-stack-trace, document.addEventListener, anonymous@https)
 devuploads.com##+js(abort-on-stack-trace, Document.prototype.addEventListener.call, anonymous@https)
 devuploads.com##+js(nowoif, .cfd)
