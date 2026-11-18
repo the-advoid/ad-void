@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7432
-! Last modified: 2026-11-18T22:45:04.673+01:00
+! Version: 3.0.7433
+! Last modified: 2026-11-18T22:46:13.704+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9255
+! Entries: 9256
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8280,6 +8280,7 @@ dailymotion.com##+js(prevent-setTimeout, adBlockerDetection)
 dailymotion.com##+js(set-constant, __NATIVEADS_CANARY__, true)
 dailymotion.com##+js(set-constant, DMP_ENABLE_ADS, false)
 dailymotion.com##+js(set-constant, DMP_IS_AUTOPLAY_ENABLED, false)
+dailymotion.com##body .ad_box:style(display: block !important;)
 dailyuploads.net##+js(abort-current-script, $, window.open)
 dailyuploads.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 dailyuploads.net##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
