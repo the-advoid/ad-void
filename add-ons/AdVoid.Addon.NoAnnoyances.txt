@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1573
-! Last modified: 2026-11-18T21:31:05.950+01:00
+! Version: 2.0.1574
+! Last modified: 2026-11-18T21:58:35.405+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1461
+! Entries: 1462
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1232,6 +1232,7 @@ emulatorgames.net##+js(adjust-setTimeout, .eg-manually-get, 7000, 0.02)
 facebook.com##+js(addEventListener-defuser, scroll, showPopup)
 facebook.com##+js(prevent-addEventListener, scroll, showPopup)
 facebook.com##+js(remove-class, _31e, body > ._li)
+facebook.com##+js(trusted-click-element, [role="dialog"]:has([href="https://www.facebook.com/policies/cookies/"]) [aria-hidden="true"] + [aria-label][tabindex="0"], '', 1000)
 facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
 facebook.com##.ssr #screen-root img:style(pointer-events: auto !important;)
 fandom.com##+js(set-constant, wgAffiliateEnabled, false)
