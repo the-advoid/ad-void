@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1578
-! Last modified: 2026-11-18T22:37:00.010+01:00
+! Version: 2.0.1579
+! Last modified: 2026-11-18T23:19:59.583+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1465
+! Entries: 1464
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1210,7 +1210,6 @@ coolrom.com.au##+js(adjust-setTimeout, download())
 coolrom.com.au##+js(set-cookie, modal_cookie, yes)
 d0000d.com##+js(addEventListener-defuser, contextmenu)
 dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, , reload, 1)
-dailymotion.com##+js(set-cookie-reload, cookie_policy_closed, 1)
 dailymotion.com##+js(set-cookie-reload, cookie_policy_closed, 1)
 dailymotion.com##+js(trusted-set-cookie, dm-euconsent-v2, CPt6yMAPt6yMABpAGAENDECgAAAAAH_AAAqIAAAS3AJMNW4gC7MocGbQMIoEQIwrCQigUAEFAMLRAQAODgp2VgE-sIkAKAUARgRAhwBRkQCAAASAJCIAJAiwQAAAiAQAAgAQCIQAMDAIKACwEAgABAdAxRCgAECQgSIiIhTAgKgSCAlsqEEoLpDTCAKssAKARGwUACIJARWAAICwcAwRICViwQJMQbRAAMAKAUSoVqKT00BCxmQAAAAA, 1year)
 dailymotion.com##+js(trusted-set-cookie, dm-euconsent-v2, CQEXy8AQEXy8ABpAIAENAtEgAAAAAEPgAAqIAABBqALMNCogD7IkJCLQMIoEAKgrCAigQAAAAkDRAQAmDAp2BgEusJEAIAUAAwQAgABRkACAAASABCIAJACgQAAQCBQAAgAACAQAMDAAGAC0EAgABAdAhTAggUCwASMyIhTAhCgSCAlsoEEgCBBXCEIs8CCAREwUAAAJABWAAICwWAxJICViQQJcQbQAAEACAQQgVCKTowBDAmbLVXiibRlaQFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAA.YAAACfwAAAAA)
