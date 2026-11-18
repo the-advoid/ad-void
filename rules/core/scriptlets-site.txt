@@ -845,3 +845,4 @@ www.facebook.com##+js(jsonl-edit-xhr-response, ..node[?.__typename=="Marketplace
 dailymotion.com##+js(set-constant, DMP_IS_AUTOPLAY_ENABLED, false)
 dailymotion.com##+js(set-constant, DMP_ENABLE_ADS, false)
 dailymotion.com##+js(prevent-setTimeout, adBlockerDetection)
+dailymotion.com##+js(set-constant, __NATIVEADS_CANARY__, true)
