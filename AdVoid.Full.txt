@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7417
-! Last modified: 2026-11-18T21:47:37.441+01:00
+! Version: 3.0.7418
+! Last modified: 2026-11-18T21:58:39.427+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9241
+! Entries: 9242
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -9032,6 +9032,7 @@ emulatorgames.net##+js(adjust-setTimeout, .eg-manually-get, 7000, 0.02)
 facebook.com##+js(addEventListener-defuser, scroll, showPopup)
 facebook.com##+js(prevent-addEventListener, scroll, showPopup)
 facebook.com##+js(remove-class, _31e, body > ._li)
+facebook.com##+js(trusted-click-element, [role="dialog"]:has([href="https://www.facebook.com/policies/cookies/"]) [aria-hidden="true"] + [aria-label][tabindex="0"], '', 1000)
 facebook.com##+js(trusted-set-cookie, datr, __GMZCgwVF5BbyvAtfJojQwg, 1year, , reload, 1)
 facebook.com##.ssr #screen-root img:style(pointer-events: auto !important;)
 fandom.com##+js(set-constant, wgAffiliateEnabled, false)
