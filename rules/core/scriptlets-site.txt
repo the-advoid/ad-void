@@ -844,3 +844,4 @@ www.facebook.com##+js(json-edit, ..node[?.*.__typename=="SponsoredData"], matche
 www.facebook.com##+js(jsonl-edit-xhr-response, ..node[?.__typename=="MarketplaceFeedAdStory"], propsToMatch, /graphql)
 dailymotion.com##+js(set-constant, DMP_IS_AUTOPLAY_ENABLED, false)
 dailymotion.com##+js(set-constant, DMP_ENABLE_ADS, false)
+dailymotion.com##+js(prevent-setTimeout, adBlockerDetection)
