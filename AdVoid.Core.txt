@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5567
-! Last modified: 2026-11-18T23:54:05.905+01:00
+! Version: 3.0.5568
+! Last modified: 2026-11-18T23:54:44.833+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6992
+! Entries: 6993
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6502,6 +6502,7 @@ gayforfans.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 gayforfans.com##+js(abort-on-property-read, advanced_ads_ready)
 gayforfans.com##+js(addEventListener-defuser, getexoloader)
 gayforfans.com##+js(nowoif)
+gayforfans.com##+js(prevent-addEventListener, click, popMagic)
 gayteam.club##+js(abort-current-script, document.querySelectorAll, popMagic)
 gayteam.club##+js(abort-on-property-read, AaDetector)
 glosbe.com##.dictionary-grid:matches-media((min-width: 1024px)):style(grid-template-columns: minmax(180px,200px) minmax(400px,736px) 0 !important; grid-template-rows: 0 auto !important;)
