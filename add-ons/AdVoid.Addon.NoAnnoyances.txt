@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1576
-! Last modified: 2026-11-18T22:35:58.896+01:00
+! Version: 2.0.1577
+! Last modified: 2026-11-18T22:36:17.560+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1464
+! Entries: 1465
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1213,6 +1213,7 @@ dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, '', reload, 1)
 dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, , reload, 1)
 dailymotion.com##+js(set-cookie-reload, cookie_policy_closed, 1)
 dailymotion.com##+js(trusted-set-cookie, dm-euconsent-v2, CPt6yMAPt6yMABpAGAENDECgAAAAAH_AAAqIAAAS3AJMNW4gC7MocGbQMIoEQIwrCQigUAEFAMLRAQAODgp2VgE-sIkAKAUARgRAhwBRkQCAAASAJCIAJAiwQAAAiAQAAgAQCIQAMDAIKACwEAgABAdAxRCgAECQgSIiIhTAgKgSCAlsqEEoLpDTCAKssAKARGwUACIJARWAAICwcAwRICViwQJMQbRAAMAKAUSoVqKT00BCxmQAAAAA, 1year)
+dailymotion.com##+js(trusted-set-cookie, dm-euconsent-v2, CQEXy8AQEXy8ABpAIAENAtEgAAAAAEPgAAqIAABBqALMNCogD7IkJCLQMIoEAKgrCAigQAAAAkDRAQAmDAp2BgEusJEAIAUAAwQAgABRkACAAASABCIAJACgQAAQCBQAAgAACAQAMDAAGAC0EAgABAdAhTAggUCwASMyIhTAhCgSCAlsoEEgCBBXCEIs8CCAREwUAAAJABWAAICwWAxJICViQQJcQbQAAEACAQQgVCKTowBDAmbLVXiibRlaQFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAA.YAAACfwAAAAA)
 decider.com##+js(abort-on-property-read, googletag.cmd)
 decider.com##+js(set-constant, admiral, noopFunc)
 dnevnik.hr##+js(trusted-click-element, #didomi-notice-agree-button, '', 1000)
