@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.752
-! Last modified: 2026-11-18T23:09:27.166+01:00
+! Version: 1.0.753
+! Last modified: 2026-11-18T23:56:35.066+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6021
+! Entries: 6023
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1379,6 +1379,7 @@
 ||lephaush.net^
 ||letmeads.com^$3p
 ||letmessagenow.com^
+||letterrecoveryunplanted.com^
 ||lfeeder.com^
 ||lgjuhtsiafi.com^
 ||lgsmartad.com^
@@ -3916,7 +3917,6 @@ _pagespeed_beacon?$xhr
 /bv-analytics.js^$script
 /carbon.js^$script
 /cdn-cgi/apps/head/*$script,~3p
-/cdn-cgi/challenge-platform/scripts/jsd/main.js^$script,1p
 /cdn-cgi/zaraz/*
 /chartbeat.js^$script
 /chartbeat.json^
@@ -4295,7 +4295,6 @@ trekkie*.js^$script
 ||heyoya.com^$script,3p
 ||html-load.com^$image,1p
 ||humix.com/video.js^$script
-||i.posthog.com/static/array.js^$script
 ||id.google.*/verify/$image
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect-rule=google-ima.js,from=plex.tv
 ||itch.io/ca.gif^$image
@@ -5778,6 +5777,8 @@ google.*##[data-text-ad="1"]
 google.com###topstuff > .vt6azd.Ww4FFb > .SRfaKe
 gosexpod.com###xtw
 gosexpod.com##.zzz-ddnotice
+gridinsoft.com##.banner
+gridinsoft.com##[data-report-ad]
 gsmarena.com###review-body > div[style*="padding-bottom:"][style*="min-height:"]:has(> pgs-ad)
 gsmarena.com###subHeader
 gsmarena.com###subHeader3
@@ -5809,6 +5810,7 @@ imdb.com##.slot_wrapper
 independent.co.uk###billboard-wrapper
 independent.co.uk###main > div[class^="sc-"]:has(> .taboola)
 independent.co.uk##.teads:has(.third-party-ad)
+infinityretro.com##div:empty[id][class]
 infinityretro.com##div[id^="cls-video-container-"]
 informer.rs##.bnr
 informer.rs##.sticky-lead-bnr
