@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5601
-! Last modified: 2026-11-19T17:58:17.572+01:00
+! Version: 3.0.5602
+! Last modified: 2026-11-19T18:13:29.011+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7026
+! Entries: 7027
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6234,6 +6234,7 @@ timeanddate.com#@#.banner:not(html):not(body)
 veed.io#@#[class*="adWrapper"]
 viber.com#@#.banner:not(html):not(body)
 www.phoronix.com#@#[id*="_leaderboard_atf"]
+www.typingtest.com##div#ad-container
 xvideos.com#@#.exo-ad-ins-container
 
 ! {@25} Scriptlets (site)
