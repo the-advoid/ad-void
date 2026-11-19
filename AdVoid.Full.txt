@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7529
-! Last modified: 2026-11-19T21:48:46.399+01:00
+! Version: 3.0.7530
+! Last modified: 2026-11-19T21:49:21.006+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9334
+! Entries: 9335
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8649,6 +8649,7 @@ nhentai.*##+js(set-constant, _n_app.popunder, null)
 nhentai.*##+js(set-constant, N_BetterJsPop.object, {})
 nhentai.*##+js(trusted-replace-node-text, script, popunder, p)
 nintendolife.com##+js(abort-on-property-read, _sp_._networkListenerData)
+novelas360.com##+js(set-constant, doSecondPop, noopFunc)
 olympics.com##+js(prevent-fetch, event-router.olympics.com)
 onlinesaprevodom.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
 onlinevideoconverter.*##+js(abort-current-script, JSON.parse, break;case $.)
