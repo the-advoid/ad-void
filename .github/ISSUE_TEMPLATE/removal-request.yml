@@ -18,15 +18,6 @@ body:
         - label: I acknowledge that the author may decline or close this request after review if removal is not appropriate.
           required: true
 
-  - type: input
-    id: url
-    attributes:
-      label: URL
-      description: The URL associated with the rule. If the rule breaks a site, create an Anomaly issue instead.
-      placeholder: https://
-    validations:
-      required: true
-
   - type: textarea
     id: rule
     attributes:
@@ -42,3 +33,12 @@ body:
       description: Write at least a sentence explaining why the rule should be removed.
     validations:
       required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The URL associated with the rule, if any. If the rule breaks a site, create an Anomaly issue instead.
+      placeholder: https://
+    validations:
+      required: false
