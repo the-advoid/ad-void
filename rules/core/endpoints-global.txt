@@ -71,3 +71,4 @@ ads-manager/ads/*/track-view
 /log/hublytics
 /metrics/v1/frontend/*
 /e/*^ip=*^beacon=
+/rum?ddsource=
