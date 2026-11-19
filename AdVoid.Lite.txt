@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.763
-! Last modified: 2026-11-19T19:40:44.649+01:00
+! Version: 1.0.764
+! Last modified: 2026-11-19T20:42:31.588+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6053
+! Entries: 6061
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1780,6 +1780,7 @@
 ||p7cloud.net^
 ||packetbye.com^
 ||pagesense.io^$3p
+||pahtch.tech^
 ||pahtdz.tech^
 ||pahtnf.tech^
 ||pahtzc.tech^
@@ -3672,7 +3673,7 @@ ads-manager/ads/*/track-view
 /rneve^$xhr,script
 /search/tsc.php?$xhr
 /stats-collect$xhr
-/stats^$xhr,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com|~openrouter.ai|~webstatus.dev
+/stats^$xhr,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com|~openrouter.ai|~webstatus.dev|~git-wrapped.com
 /statsLog^$xhr
 /T-V3-BAD-NULL^$xhr
 /T-V3-CLIENT-OPS-LOAD^$xhr
@@ -4199,6 +4200,8 @@ _pagespeed_beacon?$xhr
 /web-vitals.$script
 /web_analytics/*$script
 /webads.js^$script
+/woocommerce-analytics/*$script,css
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-$script
 /wp-content/plugins/wp-ad-guru/*$script,css
 /wp2leads/*/*.js^$script
 /wpm@*/web-pixel-$script,frame
@@ -4395,6 +4398,7 @@ trekkie*.js^$script
 ||viqeo.tv/*/vq_fly_widget.js^$script
 ||vk.com/js/lib/px.js^$script
 ||vk.com/rtrg?$image
+||wp.com/wp-content/js/bilmur.min.js^$script
 ||www.fotor.com/photo-editor-app/assets/img/*adblock*.jpg^$from=www.fotor.com
 ||www.techpowerup.com/reviyuu/$image,from=www.techpowerup.com
 ||wwwxxx.uno/pop-code.js^$script
@@ -4841,6 +4845,7 @@ zoneid=
 ##.adContent
 ##.add_href_jsclick
 ##.addblock
+##.adformob
 ##.adforpc
 ##.adFrame
 ##.adFull
@@ -5599,6 +5604,7 @@ zoneid=
 ##app-gpt-banner
 ##body > div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"][style*=";cursor:pointer"]:empty
 ##bst-ad-slot
+##div.banner-mobile
 ##div.in-post-sticky
 ##div[class*="__adSection"]
 ##div[class*="AdSlot-module"]
@@ -6036,6 +6042,8 @@ wordreference.com###rightcolumn
 worlddata.info###adtg-1
 worlddata.info##.adtg
 www.fotor.com##[src*="adblock"]
+www.nin.rs##div.bilboard
+www.nin.rs##div.bnr
 wwwxxx.uno##.wide.desktop.place-wink
 xgroovy.com###headMA
 xgroovy.com##.table
