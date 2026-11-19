@@ -183,3 +183,4 @@
 ||cdn.gff.network/*/media/*.webp^$image
 ||wp.com/wp-content/js/bilmur.min.js^$script
 ||s-cdn.anthropic.com/s.js^$script
+||app.mps.vsnt.net/fetch/ext/load-rottentomatoes-web.js^$script,from=rottentomatoes.com
