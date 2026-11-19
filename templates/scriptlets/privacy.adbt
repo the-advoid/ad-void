@@ -33,6 +33,11 @@ include './rules/scriptlets/privacy/html-filtering.txt'
 
 nl
 
+tag 'Scriptlets - site'
+include './rules/scriptlets/privacy/scriptlets-site.txt'
+
+nl
+
 tag 'Advanced functions'
 include './rules/scriptlets/privacy/advanced.txt'
 
