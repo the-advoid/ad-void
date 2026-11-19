@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoExternals
 ! Description: Blocks external features, like sharing, Google Chromecast, popup chats, post widgets, like widgets, location trackers, etc.
-! Version: 2.0.762
-! Last modified: 2026-11-19T17:36:55.237+01:00
+! Version: 2.0.763
+! Last modified: 2026-11-19T19:44:33.105+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 795
+! Entries: 796
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -137,7 +137,10 @@ sassy-social-share-public*.$script,css
 ||youtube.com/subscribe_embed?$3p
 ||zdassets.com/ekr/snippet.js^$script
 
-! {@6} Cosmetic (global)
+! {@6} Frames (subdomains)
+||widgets.wp.com/likes/$3p
+
+! {@7} Cosmetic (global)
 ###___plusone_0
 ###adBlockerShare
 ###block-social
@@ -773,7 +776,7 @@ sassy-social-share-public*.$script,css
 ##span[data-link="#share-facebook"]
 ##span[data-link="#share-twitter"]
 
-! {@7} Cosmetic (site)
+! {@8} Cosmetic (site)
 archive.org##.iconochive-share
 blog.mozilla.org##.ft-c-post-share
 booking.com##.property_share_wrapper
@@ -816,10 +819,10 @@ windowslatest.com##.wl-floatbar
 xfreehd.com###share_video
 xvideos.com###tabShareAndEmbed > h4:has(> span.icf-share)
 
-! {@8} Restore files (site)
+! {@9} Restore files (site)
 @@/videojs-social.*.js^$script,domain=vipserije.com
 
-! {@9} Restore cosmetic (site)
+! {@10} Restore cosmetic (site)
 benable.com#@#.social-container
 benable.com#@#.social-icons
 github.com#@#[class*="social-button"]
@@ -830,6 +833,6 @@ passport.yandex.com#@#[class$="-social-block"]
 reddit.com#@##social-links
 taplink.cc#@#.socials
 
-! {@10} Scriptlets (site)
+! {@11} Scriptlets (site)
 check-host.net##+js(remove-node-text, span, /Поделиться|Share on/)
 myflixerz.*##+js(set-cookie, show_share, true)
