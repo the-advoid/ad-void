@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.766
-! Last modified: 2026-11-19T21:43:28.334+01:00
+! Version: 1.0.767
+! Last modified: 2026-11-19T22:48:28.123+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6063
+! Entries: 6067
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2588,7 +2588,6 @@
 ||v6rxv5coo5.com^
 ||vak345.com^
 ||valabelemochero.com^
-||valabelemochero.com^
 ||valuedpulverizelegitimate.com^
 ||valueslinear.com^
 ||vanmostthiamin.com^
@@ -4253,6 +4252,7 @@ trekkie*.js^$script
 ||amazonaws.com/jsstore/*/ge.js^$script
 ||api.pinterest.com/v1/urls/count.json^
 ||app.link/_r?$script,3p
+||app.mps.vsnt.net/fetch/ext/load-rottentomatoes-web.js^$script,from=rottentomatoes.com
 ||apps.bazaarvoice.com/analytics/$script
 ||archive.org/0.gif^$image
 ||assets.alicdn.com/*/webpush-ui.js^$script
@@ -5276,7 +5276,6 @@ zoneid=
 ##.resumecard__banner
 ##.rgtAdSection
 ##.right-ad
-##.right-ad
 ##.right-advert
 ##.right-rail-ad
 ##.rightrail-ad-placed
@@ -5606,8 +5605,13 @@ zoneid=
 ##app-gpt-banner
 ##body > div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"][style*=";cursor:pointer"]:empty
 ##bst-ad-slot
+##div#PA-Taboola
+##div.aklaplace
 ##div.banner-mobile
+##div.banner__brandingLeft
+##div.banner__brandingRight
 ##div.in-post-sticky
+##div.wrapperAd
 ##div[class*="__adSection"]
 ##div[class*="AdSlot-module"]
 ##div[class^="AdBanner"]
@@ -5988,7 +5992,7 @@ theverge.com##div[class]:has(> div[data-concert])
 theverge.com##div[data-concert]
 thewrap.com##.wp-block-the-wrap-ad
 thisvid.com##.bottom-spots
-thisvid.com##.main-nav > li > a[target="_blank"]
+thisvid.com##.container > div[style^="margin: 0 auto 16px; display: inline-block;"]
 thisvid.com##.spots
 time.is###recover
 time.is##div[style="display:flex;justify-content:center;width:100%;margin-top:20px;height:250px"]
