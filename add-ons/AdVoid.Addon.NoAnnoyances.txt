@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, app install banners, countdowns, etc.
-! Version: 2.0.1584
-! Last modified: 2026-11-19T01:22:23.495+01:00
+! Version: 2.0.1585
+! Last modified: 2026-11-19T01:31:23.734+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 1469
+! Entries: 1470
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -1211,6 +1211,7 @@ community.oneplus.com##+js(set-constant, Notification.requestPermission, noopFun
 context.reverso.net##+js(remove-class, blocked, .left-content > section#examples-content > .example.blocked)
 context.reverso.net##+js(set-local-storage-item, detailedview-clicks, 5)
 coolrom.com##+js(aopr, alert)
+coolrom.com##+js(set, confirm, falseFunc)
 coolrom.com.au##+js(adjust-setTimeout, download())
 coolrom.com.au##+js(set-cookie, modal_cookie, yes)
 d0000d.com##+js(addEventListener-defuser, contextmenu)
