@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.759
-! Last modified: 2026-11-19T17:02:43.447+01:00
+! Version: 1.0.760
+! Last modified: 2026-11-19T18:38:14.469+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6040
+! Entries: 6050
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2586,6 +2586,7 @@
 ||v6rxv5coo5.com^
 ||vak345.com^
 ||valabelemochero.com^
+||valabelemochero.com^
 ||valuedpulverizelegitimate.com^
 ||valueslinear.com^
 ||vanmostthiamin.com^
@@ -4800,6 +4801,9 @@ zoneid=
 ##.ad-wireframe-wrapper
 ##.ad-wrapper
 ##.ad-zone-container
+##.ad-zone-container-sidebar-default
+##.ad-zone-sidebar-default
+##.ad-zone-sidebar-first
 ##.ad-zone-size-container
 ##.ad-zone:not(.textads)
 ##.ad468
@@ -5171,6 +5175,7 @@ zoneid=
 ##.ldb-1top
 ##.leaderboard-banner-holder
 ##.leaderboard-top-ad
+##.left-ad
 ##.listicle-breaker-ad
 ##.listicle-mobile-breaker-ad
 ##.locked-footer-ad-body
@@ -5250,6 +5255,7 @@ zoneid=
 ##.pub3
 ##.pubbox
 ##.pubbut
+##.publicite
 ##.pure-u-custom-ad-rectangle
 ##.pw-ad-slot
 ##.ref89_uk_billboard
@@ -5259,6 +5265,7 @@ zoneid=
 ##.responsive-ad-wrapper
 ##.resumecard__banner
 ##.rgtAdSection
+##.right-ad
 ##.right-ad
 ##.right-advert
 ##.right-rail-ad
@@ -5566,6 +5573,7 @@ zoneid=
 ##a[href*="//prtord.com/"]
 ##a[href*="//rdwmct.com/"]
 ##a[href*="/bClick.php"]
+##a[href*="https://grxrx.org"]
 ##a[href*="st1net.com"]
 ##a[href^="/click.go"]
 ##a[href^="https://a.adtng.com/"]
@@ -5999,6 +6007,7 @@ txxx.*##.sugggestion
 txxx.*##.video-content > div + div:last-child
 txxx.*##.video-videos-slider
 txxx.*##span:only-child:has-text(/^AD$/):upward(2)
+typingtest.com###middle-banner-unit
 urbandictionary.com##.mb-4.justify-center
 variety.com###leaderboard-no-padding
 versus.com##.lead_top
@@ -6087,4 +6096,5 @@ timeanddate.com#@#.banner:not(html):not(body)
 veed.io#@#[class*="adWrapper"]
 viber.com#@#.banner:not(html):not(body)
 www.phoronix.com#@#[id*="_leaderboard_atf"]
+www.typingtest.com#@#[class*="ad-container"]
 xvideos.com#@#.exo-ad-ins-container
