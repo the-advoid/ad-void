@@ -2,7 +2,7 @@
 ##.bottom-cookie-wrap
 ##.js-cookies
 ###sp-cc
-##.cookies
+##.cookies:not(body):not(html)
 ##.cookieHolder
 ##.cookie-banner
 ###bannerStickyBottom
