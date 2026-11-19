@@ -14,7 +14,7 @@
 /vast^$xhr
 /_ga^$xhr
 /analytics_ads^$xhr
-/stats^$xhr,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com|~openrouter.ai|~webstatus.dev
+/stats^$xhr,from=~githubunwrapped.com|~jsdelivr.com|~youtube.com|~marketplace.visualstudio.com|~letterboxd.com|~openrouter.ai|~webstatus.dev|~git-wrapped.com
 /statsLog^$xhr
 /pixel/puclc^$xhr
 /ajax/banner$xhr
