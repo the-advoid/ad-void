@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5596
-! Last modified: 2026-11-19T17:52:24.315+01:00
+! Version: 3.0.5597
+! Last modified: 2026-11-19T17:55:15.082+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7021
+! Entries: 7022
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7046,6 +7046,7 @@ www.youtube.com##+js(trusted-replace-node-text, script, /(\(function serverContr
 xda-developers.com##+js(abort-current-script, document.createElement, admiral)
 xda-developers.com##+js(prevent-fetch, adsbygoogle.js)
 xda-developers.com##+js(prevent-fetch, googlesyndication)
+xda-developers.com##+js(set-constant, Object.prototype.ads.nopreroll_, true)
 xfreehd.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 xfreehd.com##.ad-body:remove()
 xgroovy.com##+js(abort-on-property-read, VAST)
