@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Scriptlets.Privacy
 ! Description: Hardens user privacy via PageVisibility and HTML filtering. 🛡️
-! Version: 1.0.6
-! Last modified: 2026-11-19T17:51:24.715+01:00
+! Version: 1.0.7
+! Last modified: 2026-11-19T17:53:51.203+01:00
 ! Expires: 96 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 8
+! Entries: 9
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -38,6 +38,7 @@
 
 ! {@4} Scriptlets - site
 xda-developers.com##+js(href-sanitizer, body a[href*="awin1.com/"][href*=".php?"][href*="p=http"], ?p)
+xda-developers.com##+js(href-sanitizer, a[href^="https://shop-links.co/link/?"][href*="&url=http"], ?url)
 
 ! {@5} Advanced functions
 ! Source: https://badblock.celenity.dev/hardened/block-page-visibility.txt
