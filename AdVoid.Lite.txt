@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.754
-! Last modified: 2026-11-19T01:09:31.535+01:00
+! Version: 1.0.755
+! Last modified: 2026-11-19T16:44:08.841+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6030
+! Entries: 6035
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3375,6 +3375,7 @@
 ||securemetrics.apple.com^
 ||segments.company-target.com^
 ||services-prod.nsvcs.net^
+||simetra.tracking.ringieraxelspringer.tech^
 ||smartshopping.my.id^
 ||smetrics.cnn.com^
 ||smetrics.samsung.com^
@@ -4260,6 +4261,7 @@ trekkie*.js^$script
 ||cdn.adsninja.ca/*an_sn.js^$script,important
 ||cdn.adsninja.ca/biddertypelibrary/$script,important
 ||cdn.defractal.com^$script
+||cdn.gff.network/*/media/*.webp^$image
 ||cdn.livechatinc.com/tracking.js^$script,from=~box.co.uk
 ||cdn.statically.io/gh/ad-shield/$script
 ||check-host.net/*-en.png^$image
@@ -4983,6 +4985,7 @@ zoneid=
 ##.billboard_placeholder_min
 ##.biz-ct-banner-top
 ##.block--ad
+##.block-ad
 ##.block-advert
 ##.block-advert-top
 ##.block-video > .widget-connected.table
@@ -5753,7 +5756,9 @@ gay0day.com###footer-mobile
 gay0day.com###footer-pc
 gay0day.com###header-mobile
 gay0day.com##.block-video .table
+gayforfans.com##[data-house-ad]
 gayforfans.com##div.slot-band-listing_top
+gayforfans.com##div.slot-band-video_above_comments
 gayforfans.com##div.slot-band-video_below_player
 gayforfans.com##div.slot-band-video_related_feed
 gayforfans.com##div.slot-band-video_top
