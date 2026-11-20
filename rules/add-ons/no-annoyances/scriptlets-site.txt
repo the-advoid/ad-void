@@ -363,3 +363,4 @@ indexsubtitle.cc##body:style(overflow: auto !important; padding-right: 0 !import
 weather.com##+js(trusted-click-element, button[title="Reject all"], '', 1000)
 djxmaza.in##+js(adjust-setInterval, '', *, 0.001)
 djxmaza.in##+js(adjust-setTimeout, '', *, 0.02)
+djxmaza.in##+js(remove-node-text, script, DisableDevtool)
