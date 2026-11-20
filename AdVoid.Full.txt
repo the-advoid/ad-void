@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7566
-! Last modified: 2026-11-20T19:13:16.911+01:00
+! Version: 3.0.7567
+! Last modified: 2026-11-20T19:14:04.093+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9363
+! Entries: 9364
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -9200,6 +9200,7 @@ hqq.to##+js(set-constant, document.oncontextmenu, null)
 hqq.to##+js(set-constant, document.onkeydown, trueFunc)
 hubspot.com##+js(set-cookie, __hs_gpc_banner_dismiss, true)
 igdownloader.app##body:style(overflow: auto !important;)
+imasdk.googleapis.com##+js(trusted-click-element, button[title="Reject all"], '', 1000)
 imdb.com##+js(set-local-storage-item, videopage_autoplay_policy_tooltip_dismissed, true)
 imdb.com##+js(set-session-storage-item, coachmarkShown, true)
 incibeauty.com##body,html:style(overflow: auto !important; position: initial !important;)
