@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5642
-! Last modified: 2026-11-19T23:01:23.053+01:00
+! Version: 3.0.5643
+! Last modified: 2026-11-20T18:33:00.642+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7052
+! Entries: 7053
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6840,6 +6840,7 @@ spankbang.*##+js(nowoif)
 spankbang.*##+js(set-constant, chrome, undefined)
 speedtest.net##+js(abort-on-property-read, _sp_)
 speedtest.net##+js(set-constant, Object.prototype.que.push, noopFunc)
+speedtest.net##+js(set-cookie, st_adblock, 0)
 sporcle.com##+js(abort-current-script, document.createElement, '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI|ad%6dr%6c%4c%6fa%64%65%64|succeedscene\.com/')
 sporcle.com##+js(abort-current-script, document.createElement, admiral)
 sporcle.com##+js(abort-on-property-read, googletag)
