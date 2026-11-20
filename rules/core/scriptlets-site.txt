@@ -877,3 +877,4 @@ djxmaza.in##+js(trusted-replace-node-text, script, isadblock = 1;, isadblock = 0
 weather.com,wunderground.com##+js(set, LMA, noopFunc)
 weather.com,wunderground.com##+js(set, stay22, noopFunc)
 weather.com,wunderground.com##+js(no-setTimeout-if, LetMeAllez)
+weather.com,wunderground.com##+js(set, admiral, noopFunc)
