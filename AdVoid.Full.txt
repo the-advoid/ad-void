@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7554
-! Last modified: 2026-11-20T18:34:09.136+01:00
+! Version: 3.0.7555
+! Last modified: 2026-11-20T18:34:47.301+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9351
+! Entries: 9352
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8023,6 +8023,7 @@ space.com###slice-container-newsletterForm-exitIntent
 space.com##.hawk-nest
 sparknotes.com###modal-snpromo
 speedtest.net###modal-overlay
+speedtest.net##.flex:has(> a[href^="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest"])
 speedtest.net##div.MuiModal-root.\!z-\[3500\].MuiDialog-root
 speedtestcustom.com##.stc-wrapper > div[style]
 speedtestcustom.com##div[style^="position: fixed; bottom"]
