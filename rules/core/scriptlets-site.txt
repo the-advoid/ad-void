@@ -873,3 +873,4 @@ dailyuploads.net##+js(abort-current-script, EventTarget.prototype.addEventListen
 djxmaza.in##+js(prevent-bab)
 djxmaza.in##+js(nowoif, !devuploads.com)
 djxmaza.in##+js(trusted-replace-node-text, script, '"#sdl"', '"#dln"')
+djxmaza.in##+js(trusted-replace-node-text, script, isadblock = 1;, isadblock = 0;)
