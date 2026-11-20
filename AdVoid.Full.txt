@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7555
-! Last modified: 2026-11-20T18:34:47.301+01:00
+! Version: 3.0.7556
+! Last modified: 2026-11-20T18:35:29.307+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9352
+! Entries: 9353
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -9338,6 +9338,7 @@ shein.com##body:style(overflow: auto !important; position: initial !important;)
 soap2day.*##body:style(overflow: auto !important; padding-right: 0 !important;)
 sparknotes.com##html:style(overflow: auto !important;)
 speedtest.net##+js(set-cookie, desktopPromptSeen, true)
+speedtest.net##body:style(overflow: auto !important)
 store.boilerplate.com##+js(trusted-set-cookie, cookie, '{"requiredCookies":{"paymentData":true,"personalizationData":true}}')
 store.steampowered.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?u=http"], ?u)
 store.steampowered.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?url=http"], ?url)
