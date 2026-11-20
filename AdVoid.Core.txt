@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5681
-! Last modified: 2026-11-20T21:17:31.008+01:00
+! Version: 3.0.5682
+! Last modified: 2026-11-20T21:17:56.837+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7084
+! Entries: 7085
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6476,6 +6476,7 @@ disqus.com##+js(href-sanitizer, a[href^="https://disq.us/url?url="][title^="http
 djxmaza.in##+js(nowoif, !devuploads.com)
 djxmaza.in##+js(prevent-bab)
 djxmaza.in##+js(trusted-replace-node-text, script, '"#sdl"', '"#dln"')
+djxmaza.in##+js(trusted-replace-node-text, script, isadblock = 1;, isadblock = 0;)
 dnevnik.hr##+js(trusted-replace-argument, HTMLScriptElement.prototype.setAttribute, 1, '', condition, /error-report|new Promise/)
 docs.google.com##+js(prevent-xhr, method:POST url:/logImpressions)
 domaceserije.net##+js(nowoif)
