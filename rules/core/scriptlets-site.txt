@@ -870,3 +870,4 @@ imasdk.googleapis.com##+js(trusted-prevent-fetch, secure.adnxs.com/ptv, <VAST ve
 dailyuploads.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 dailyuploads.net##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
 dailyuploads.net##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+djxmaza.in##+js(prevent-bab)
