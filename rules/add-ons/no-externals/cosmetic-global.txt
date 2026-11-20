@@ -633,3 +633,4 @@
 ##.social-icon-link
 ###block-social
 ##a[href^="https://google.com/preferences/source?q="]
+##div[data-testid="share-container"]
