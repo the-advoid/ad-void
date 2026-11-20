@@ -866,3 +866,4 @@ indexsubtitle.cc##+js(abort-current-script, document.onreadystatechange, {return
 indexsubtitle.cc##+js(prevent-setTimeout, /-0x|window\.__/)
 indexsubtitle.cc##+js(remove-node-text, script, catch)
 imasdk.googleapis.com##+js(trusted-prevent-xhr, vod.provider.plex.tv/ad?, <VAST version="3.0"></VAST>)
+imasdk.googleapis.com##+js(trusted-prevent-fetch, secure.adnxs.com/ptv, <VAST version="4.0"></VAST>)
