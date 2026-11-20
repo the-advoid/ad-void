@@ -406,3 +406,4 @@ _300x250.$image
 /woocommerce-analytics/*$script,css
 /wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-$script
 /ajs?zoneid=$image
+/cta-loaded.js^$script
