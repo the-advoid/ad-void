@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.768
-! Last modified: 2026-11-19T22:49:03.648+01:00
+! Version: 1.0.769
+! Last modified: 2026-11-20T19:11:22.697+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6066
+! Entries: 6071
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -3064,6 +3064,7 @@
 ||bdapi-in-ads.realmemobile.com^
 ||beacon.wikia-services.com^
 ||behaviour.podcorn.com^
+||bi-events-collector.spot.im^
 ||bigdata.ssp.samsung.com^
 ||blackbox.xhamster.com^
 ||bordeaux.futurecdn.net^
@@ -3733,6 +3734,7 @@ _pagespeed_beacon?$xhr
 ||config-security.com/event^$xhr
 ||config.content-settings.com^$xhr
 ||convertkit.com^*/visit$xhr
+||dailymail.com/zephr/features^$xhr
 ||data.nrk.no^$xhr
 ||datahub-srgssr.ch/tracking/$xhr
 ||dc.services.visualstudio.com^*/track$xhr
@@ -3898,6 +3900,7 @@ _pagespeed_beacon?$xhr
 /advertising.js^
 /afu.php?zoneid=$popup,doc
 /afx_prid/*$script
+/ajs?zoneid=$image
 /amp-ad-$script
 /amp-analytics-$script
 /amp-auto-ads-$script
@@ -5341,6 +5344,7 @@ zoneid=
 ##.vertical-ad
 ##.video-ad
 ##.video-ad-support-mobile
+##.video-ads-container
 ##.video-advert
 ##.video-easter-egg-overlay
 ##.video-header
@@ -5625,6 +5629,7 @@ zoneid=
 ##div[data-ocm-ad]
 ##div[data-testid="adsense-wrapper"]
 ##div[data-testid^="ad-container"]
+##div[data-type="_mgwidget"]
 ##div[id*="ScriptRoot"]
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##div[id^="adtester-container-"]
