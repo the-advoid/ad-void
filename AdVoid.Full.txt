@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7561
-! Last modified: 2026-11-20T18:44:12.198+01:00
+! Version: 3.0.7562
+! Last modified: 2026-11-20T19:05:45.554+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9358
+! Entries: 9359
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -9203,6 +9203,7 @@ independent.co.uk##+js(remove-class, jw-flag-floating, '', stay)
 independent.co.uk##+js(remove-class, sticky, '', stay)
 independent.co.uk##+js(remove-class, sticky, .video-top-container)
 independent.co.uk##+js(trusted-click-element, button[title="ACCEPT"], '', 1000)
+indexsubtitle.cc##body:style(overflow: auto !important; padding-right: 0 !important;)
 instagram.com##+js(addEventListener-defuser, mouseleave)
 instagram.com##+js(close-window, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)
 instagram.com##+js(set-constant, _sharedData.is_whitelisted_crawl_bot, true)
