@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7624
-! Last modified: 2026-11-27T20:47:27.697+01:00
+! Version: 3.0.7625
+! Last modified: 2026-11-27T20:47:49.706+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9403
+! Entries: 9404
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -7724,6 +7724,7 @@ sxyprn.*##a[aria-label="AI TAB"]
 sxyprn.*##body > .ppexcll
 sxyprn.*##div[style^="min-height:"]:has(> ins[data-zoneid])
 tap4porn.cc##.vp-mobile-ad
+tap4porn.cc##.vp-sidebar
 technical.city##.container > div[style^="margin-bottom:"]
 technical.city##div[class^="banner_"]
 techpowerup.com##body:not([data-template]) a[rel*="nofollow"][target="_blank"][href$="er/images/gmchjhj.png"]
