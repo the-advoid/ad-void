@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7630
-! Last modified: 2026-11-27T21:08:45.525+01:00
+! Version: 3.0.7631
+! Last modified: 2026-11-27T21:09:04.106+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9409
+! Entries: 9410
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -8433,6 +8433,7 @@ dood.*##+js(remove-node-text, script, /adblock|popunder/)
 dood.re##+js(adjust-setInterval, .countdown, , 0.02)
 dopebox.to##+js(addEventListener-defuser, , break;case $.)
 dopebox.to##body:style(overflow: auto !important; padding-right: 0 !important;)
+dropgalaxy.*##+js(trusted-replace-node-text, script, false;, true;, condition, rundirectad)
 dropgalaxy.com##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 dropgalaxy.com##+js(abort-current-script, document.createElement, /break;case \$\.|popunder/)
 dropgalaxy.com##+js(abort-current-script, globalThis, break;case)
