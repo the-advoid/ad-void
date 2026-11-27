@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5700
-! Last modified: 2026-11-27T21:00:25.476+01:00
+! Version: 3.0.5701
+! Last modified: 2026-11-27T21:04:11.886+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7095
+! Entries: 7096
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6495,6 +6495,7 @@ dood.*##+js(remove-node-text, script, /adblock|popunder/)
 dood.re##+js(adjust-setInterval, .countdown, , 0.02)
 dopebox.to##+js(addEventListener-defuser, , break;case $.)
 dopebox.to##body:style(overflow: auto !important; padding-right: 0 !important;)
+dropgalaxy.com##+js(abort-current-script, document.createElement, /break;case \$\.|popunder/)
 ds2play.com##+js(abort-current-script, document.documentElement, break;case $.)
 ds2play.com##+js(abort-on-property-write, _pop)
 ds2play.com##+js(abort-on-property-write, DoodPop)
