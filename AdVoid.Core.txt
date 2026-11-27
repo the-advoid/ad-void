@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5704
-! Last modified: 2026-11-27T21:08:41.354+01:00
+! Version: 3.0.5705
+! Last modified: 2026-11-27T21:08:59.835+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7099
+! Entries: 7100
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6495,6 +6495,7 @@ dood.*##+js(remove-node-text, script, /adblock|popunder/)
 dood.re##+js(adjust-setInterval, .countdown, , 0.02)
 dopebox.to##+js(addEventListener-defuser, , break;case $.)
 dopebox.to##body:style(overflow: auto !important; padding-right: 0 !important;)
+dropgalaxy.*##+js(trusted-replace-node-text, script, false;, true;, condition, rundirectad)
 dropgalaxy.com##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 dropgalaxy.com##+js(abort-current-script, document.createElement, /break;case \$\.|popunder/)
 dropgalaxy.com##+js(abort-current-script, globalThis, break;case)
