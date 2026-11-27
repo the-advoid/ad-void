@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, pop-ups, modals, push notifications, survey, newsletter and subscribe pop-ups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.7633
-! Last modified: 2026-11-27T21:10:20.048+01:00
+! Version: 3.0.7634
+! Last modified: 2026-11-27T21:10:54.292+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 9411
+! Entries: 9412
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -4596,6 +4596,7 @@ sassy-social-share-public*.$script,css
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,from=readcomiconline.*
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
+*$script,redirect-rule=noop.js,from=djxmaza.in|dropgalaxy.com|financemonk.net|houseofblogger.com|rtxkeeda.com
 *$script,redirect-rule=noop.js,from=mp4upload.com
 *$script,redirect-rule=noop.js,from=next-episode.net
 *$script,redirect-rule=noop.js,from=vidara.so|vidara.to|vidavra.com
