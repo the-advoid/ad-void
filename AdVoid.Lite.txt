@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Lite
 ! Description: 🌱 A lightweight ad-block filter list that blocks the most common ad servers, trackers, and malware - delivering fast, minimal protection with low overhead. Perfect for mobile, low-power devices, or users who want a simple baseline shield. ⚡
-! Version: 1.0.787
-! Last modified: 2026-11-27T21:10:15.605+01:00
+! Version: 1.0.788
+! Last modified: 2026-11-27T21:27:10.758+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 6092
+! Entries: 6095
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -2228,6 +2228,7 @@
 ||siftscience.com^$3p
 ||sighstab.com^
 ||signamentswithd.com^$doc
+||significadoconcepto.com^
 ||significantoperativeclearance.com^
 ||signifyd.com^$3p
 ||simblumauberge.digital^
@@ -4247,6 +4248,7 @@ trekkie*.js^$script
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|edgecastcdn.net|facebook.net|fastlylb.net|fbcdn.net|twitter.com|x.com,from=readcomiconline.*
 *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 *$script,3p,denyallow=gstatic.com,from=streambucket.net
+*$script,redirect-rule=noop.js,from=djxmaza.in|dropgalaxy.com|financemonk.net|houseofblogger.com|rtxkeeda.com
 *$script,redirect-rule=noop.js,from=mp4upload.com
 *$script,redirect-rule=noop.js,from=next-episode.net
 *$script,redirect-rule=noop.js,from=vidara.so|vidara.to|vidavra.com
@@ -6110,6 +6112,7 @@ zultv.com##.container > div.row:nth-of-type(1)
 @@||bing.com^$generichide
 @@||challenges.cloudflare.com^$generichide
 @@||devuploads.com^$generichide
+@@||dropgalaxy.com^$generichide
 @@||google.*/search?$generichide
 @@||hqq.$generichide
 @@||localhost$generichide
