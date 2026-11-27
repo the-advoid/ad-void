@@ -72,3 +72,4 @@ ads-manager/ads/*/track-view
 /metrics/v1/frontend/*
 /e/*^ip=*^beacon=
 /rum?ddsource=
+/wp-json/iawp/*
