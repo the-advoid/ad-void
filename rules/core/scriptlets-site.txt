@@ -882,3 +882,4 @@ dropgalaxy.com##+js(abort-current-script, document.createElement, /break;case \$
 dropgalaxy.com##+js(nowoif)
 dropgalaxy.com##+js(abort-current-script, globalThis, break;case)
 dropgalaxy.com##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
+dropgalaxy.*##+js(trusted-replace-node-text, script, false;, true;, condition, rundirectad)
