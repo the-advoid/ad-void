@@ -3,11 +3,11 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: 🛡️ An efficient ad-block filter list that blocks ads, trackers, malware, phishing, and a wide range of Web annoyances - from cookie banners and pop-ups to fake links and intrusive widgets. 👾
-! Version: 3.0.5694
-! Last modified: 2026-11-25T00:13:20.923+01:00
+! Version: 3.0.5695
+! Last modified: 2026-11-27T18:52:10.628+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
-! Entries: 7091
+! Entries: 7090
 ! Author: Igor Dimitrijević (@igorskyflyer)
 ! GitHub issues: https://github.com/the-advoid/ad-void/issues
 ! GitHub pull requests: https://github.com/the-advoid/ad-void/pulls
@@ -6450,7 +6450,6 @@ dailyuploads.net##+js(abort-current-script, $, window.open)
 dailyuploads.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?(Date|createElement)[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 dailyuploads.net##+js(abort-current-script, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByTagName[\s\S]*?insertBefore|w47DisKcw5g/)
 dailyuploads.net##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
-dailyuploads.net##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
 dailyuploads.net##+js(abort-current-script, String.fromCharCode, /emZnbG9hZGVk|break;case \$\.|break;case \d{1}/)
 dailyuploads.net##+js(nowoif)
 dailyuploads.net##^script[data-cfasync]:has-text(/h=decodeURIComponent|popundersPerIP/)
